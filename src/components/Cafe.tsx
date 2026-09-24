@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Cafe() {
   return (
     <section
@@ -22,10 +24,17 @@ export function Cafe() {
           </p>
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl-2 bg-mist">
-          <div className="absolute inset-0 bg-[linear-gradient(145deg,#efe8df_0%,#f6ddc4_40%,#d4845a55_100%)]" />
-          <div className="absolute inset-0 flex flex-col justify-end p-8">
-            <p className="text-caption text-ink/50">11:30 · todos los días</p>
-            <p className="mt-2 text-subheading text-ink">
+          <Image
+            src="/photos/community.jpg"
+            alt="Momento de comunidad alrededor de Café a la fresca"
+            fill
+            className="object-cover object-[center_20%]"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-transparent to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 p-8 text-paper">
+            <p className="text-caption text-paper/70">11:30 · todos los días</p>
+            <p className="mt-2 text-subheading">
               El parón que da sentido al resto de la jornada
             </p>
           </div>

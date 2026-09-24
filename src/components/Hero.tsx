@@ -1,22 +1,23 @@
+import Image from "next/image";
+
 export function Hero() {
   return (
     <section className="relative min-h-[100svh] overflow-hidden bg-deep-teal text-paper">
-      {/* Atmospheric plane — full-bleed visual (swap for foto real en /public/photos/hero.jpg) */}
+      <Image
+        src="/photos/hero.jpg"
+        alt="Comunidad Arroelo en un encuentro al aire libre"
+        fill
+        priority
+        className="object-cover object-center"
+        sizes="100vw"
+      />
       <div
         aria-hidden
-        className="absolute inset-0 bg-[radial-gradient(120%_80%_at_70%_20%,#d4845a55_0%,transparent_45%),radial-gradient(90%_70%_at_10%_90%,#f6ddc433_0%,transparent_50%),linear-gradient(160deg,#2a221c_0%,#452623_42%,#1a1814_100%)]"
+        className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,24,20,0.55)_0%,rgba(26,24,20,0.35)_40%,rgba(26,24,20,0.78)_100%)]"
       />
       <div
         aria-hidden
         className="hero-grain absolute inset-0 pointer-events-none"
-      />
-      <div
-        aria-hidden
-        className="absolute -right-[10%] top-[18%] h-[55vmin] w-[55vmin] rounded-full bg-terracotta/25 blur-3xl float-soft"
-      />
-      <div
-        aria-hidden
-        className="absolute -left-[8%] bottom-[8%] h-[40vmin] w-[40vmin] rounded-full bg-cream/15 blur-3xl"
       />
 
       <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-[1400px] flex-col justify-end px-6 pb-16 pt-32 md:px-10 md:pb-24">
@@ -26,7 +27,7 @@ export function Hero() {
         <h1 className="reveal reveal-delay-1 mt-6 max-w-[12ch] text-display">
           Arroelo
         </h1>
-        <p className="reveal reveal-delay-2 mt-6 max-w-md text-body-lg text-paper/80">
+        <p className="reveal reveal-delay-2 mt-6 max-w-md text-body-lg text-paper/85">
           Ni casa, ni oficina. El tercer tiempo — madera, luz natural y
           comunidad para recuperar el foco.
         </p>
@@ -39,7 +40,7 @@ export function Hero() {
           </a>
           <a
             href="#espacio"
-            className="inline-flex items-center justify-center rounded-full border border-paper/25 px-7 py-3.5 text-body text-paper/90 transition-colors hover:border-paper/50 hover:bg-paper/5"
+            className="inline-flex items-center justify-center rounded-full border border-paper/30 px-7 py-3.5 text-body text-paper/90 transition-colors hover:border-paper/60 hover:bg-paper/10"
           >
             Conocer el salón
           </a>

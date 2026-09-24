@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const pillars = [
   {
     title: "Confianza",
@@ -26,6 +28,36 @@ export function Espacio() {
           curiosas, comprometidas y con ganas de aprender. Trabajamos en la mesa
           donde ocurren las ideas — en el centro de Pontevedra.
         </p>
+
+        <div className="mt-14 grid gap-4 md:grid-cols-3">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
+            <Image
+              src="/photos/community.jpg"
+              alt="Miembro de la comunidad Arroelo"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
+            <Image
+              src="/photos/cafe.jpg"
+              alt="Mesa compartida en un encuentro Arroelo"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
+            <Image
+              src="/photos/mesa.jpg"
+              alt="Comida compartida de la comunidad"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          </div>
+        </div>
 
         <div className="mt-16 grid gap-12 border-t border-ink/10 pt-12 md:grid-cols-3 md:gap-10">
           {pillars.map((item) => (
