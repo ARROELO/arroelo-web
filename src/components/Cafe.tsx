@@ -25,10 +25,10 @@ export function Cafe() {
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl-2 bg-mist">
           <Image
-            src="/photos/community.jpg"
-            alt="Momento de comunidad alrededor de Café a la fresca"
+            src="/photos/encuentro.jpg"
+            alt="Café a la fresca: croissants, café y conversación en la mesa"
             fill
-            className="object-cover object-[center_20%]"
+            className="object-cover object-[center_30%]"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-transparent to-transparent" />

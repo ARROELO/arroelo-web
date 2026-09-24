@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const founders = [
   {
     name: "África Rodríguez",
@@ -50,6 +52,16 @@ export function Nosotras() {
           siguen construyendo el salón donde se celebra la curiosidad y la
           economía social.
         </p>
+
+        <div className="relative mt-12 aspect-[16/10] overflow-hidden rounded-3xl-2">
+          <Image
+            src="/photos/nosotras.jpg"
+            alt="Facilitación y comunidad en Espacio Arroelo"
+            fill
+            className="object-cover object-[center_25%]"
+            sizes="(max-width: 1100px) 100vw, 1100px"
+          />
+        </div>
 
         <div className="mt-14 grid gap-10 md:grid-cols-2">
           {founders.map((person) => (

@@ -55,8 +55,8 @@ export function Espacio() {
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/community.jpg"
-              alt="Miembro de la comunidad Arroelo"
+              src="/photos/encuentro.jpg"
+              alt="Café a la fresca en la mesa del salón"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -64,8 +64,8 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src="/photos/cafe.jpg"
-              alt="Mesa compartida en un encuentro Arroelo"
+              src="/photos/puesto.jpg"
+              alt="Puesto de trabajo en Espacio Arroelo"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -73,8 +73,8 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/mesa.jpg"
-              alt="Comida compartida de la comunidad"
+              src="/photos/salon-mesa.jpg"
+              alt="Mesa redonda del salón"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"

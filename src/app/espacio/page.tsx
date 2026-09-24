@@ -39,23 +39,31 @@ const amenities = [
 
 const gallery = [
   {
-    src: "/photos/hero.jpg",
-    alt: "Encuentro de la comunidad Arroelo",
+    src: "/photos/puesto.jpg",
+    alt: "Mesa de trabajo con mantel y planta",
     wide: true,
   },
   {
+    src: "/photos/salon-mesa.jpg",
+    alt: "Mesa redonda del salón",
+  },
+  { src: "/photos/cafe.jpg", alt: "Cocina comunitaria con luz natural" },
+  { src: "/photos/encuentro.jpg", alt: "Café a la fresca en comunidad" },
+  {
     src: "/photos/community.jpg",
-    alt: "Miembro de la comunidad en el espacio",
-  },
-  { src: "/photos/mesa.jpg", alt: "Mesa compartida en Arroelo" },
-  { src: "/photos/cafe.jpg", alt: "Momento de Café a la fresca" },
-  {
-    src: "/photos/album-03.jpg",
-    alt: "Ambiente del coworking",
+    alt: "Conversación alrededor de la mesa",
   },
   {
-    src: "/photos/album-05.jpg",
-    alt: "Detalle del salón",
+    src: "/photos/salon-luz.jpg",
+    alt: "Rincón del espacio con luz",
+  },
+  {
+    src: "/photos/cafe-tabla.jpg",
+    alt: "Mesa compartida con fruta y café",
+  },
+  {
+    src: "/photos/pet.jpg",
+    alt: "Pet friendly — mascota en el salón",
   },
 ];
 
@@ -66,8 +74,8 @@ export default function EspacioPage() {
       <main>
         <section className="relative min-h-[70svh] overflow-hidden bg-deep-teal text-paper">
           <Image
-            src="/photos/album-04.jpg"
-            alt="Interior y ambiente de Espacio Arroelo"
+            src="/photos/hero.jpg"
+            alt="Interior y comunidad de Espacio Arroelo"
             fill
             priority
             className="object-cover object-center"
