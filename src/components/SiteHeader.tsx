@@ -3,6 +3,7 @@ import Link from "next/link";
 const nav = [
   { href: "#espacio", label: "Espacio" },
   { href: "#cafe", label: "Café a la fresca" },
+  { href: "#nosotras", label: "Nosotras" },
   { href: "#tarifa", label: "Tarifa" },
   { href: "#contacto", label: "Contacto" },
 ];
@@ -17,7 +18,7 @@ export function SiteHeader() {
         >
           Arroelo
         </Link>
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {nav.map((item) => (
             <a
               key={item.href}

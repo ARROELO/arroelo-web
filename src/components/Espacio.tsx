@@ -15,6 +15,29 @@ const pillars = [
   },
 ];
 
+const bridges = [
+  {
+    title: "De la ciudad a la aldea",
+    cta: "Trabaja desde Anceu",
+    href: "https://anceu.com/",
+  },
+  {
+    title: "Con ideas y perspectivas",
+    cta: "Ven a Café a la fresca",
+    href: "#cafe",
+  },
+  {
+    title: "De Galicia para el mundo",
+    cta: "Descubre ECHN",
+    href: "https://creativehubs.net/",
+  },
+  {
+    title: "Con arte y tecnología",
+    cta: "Conoce Rural Hackers",
+    href: "https://www.ruralhackers.com/",
+  },
+];
+
 export function Espacio() {
   return (
     <section id="espacio" className="bg-fog px-6 py-120 md:px-10">
@@ -65,6 +88,24 @@ export function Espacio() {
               <h3 className="text-heading-sm text-ink">{item.title}</h3>
               <p className="mt-3 text-body text-ink/65">{item.body}</p>
             </div>
+          ))}
+        </div>
+
+        <div className="mt-16 grid gap-6 border-t border-ink/10 pt-12 sm:grid-cols-2">
+          {bridges.map((item) => (
+            <a
+              key={item.title}
+              href={item.href}
+              {...(item.href.startsWith("http")
+                ? { target: "_blank", rel: "noopener noreferrer" }
+                : {})}
+              className="group rounded-3xl bg-paper px-6 py-8 transition-colors hover:bg-mist"
+            >
+              <h3 className="text-heading-sm text-ink">{item.title}</h3>
+              <p className="mt-3 text-body text-terracotta group-hover:underline">
+                {item.cta}
+              </p>
+            </a>
           ))}
         </div>
       </div>
