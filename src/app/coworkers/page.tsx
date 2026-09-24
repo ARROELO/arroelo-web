@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
@@ -76,9 +77,9 @@ function Card({
 
   if (open) {
     return (
-      <a href="/#contacto" className="group block">
+      <Link href="/#contacto" className="group block">
         {inner}
-      </a>
+      </Link>
     );
   }
 

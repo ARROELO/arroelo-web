@@ -50,7 +50,7 @@ export function SiteHeader({ variant = "hero" }: Props) {
             </Link>
           ))}
         </nav>
-        <a
+        <Link
           href="/#contacto"
           className={
             isSolid
@@ -59,7 +59,7 @@ export function SiteHeader({ variant = "hero" }: Props) {
           }
         >
           Reservar semana
-        </a>
+        </Link>
       </div>
     </header>
   );

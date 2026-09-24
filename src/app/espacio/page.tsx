@@ -162,12 +162,12 @@ export default function EspacioPage() {
               conocernos en Cobián Roffignac 6, 3º — Pontevedra.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-              <a
+              <Link
                 href="/#contacto"
                 className="inline-flex rounded-full bg-ink px-8 py-3.5 text-body font-medium text-paper transition-transform hover:scale-[1.02]"
               >
                 Reservar semana
-              </a>
+              </Link>
               <Link
                 href="/coworkers"
                 className="inline-flex rounded-full border border-ink/20 px-8 py-3.5 text-body text-ink transition-colors hover:border-ink/40"
