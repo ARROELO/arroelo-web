@@ -38,12 +38,12 @@ export function Hero() {
           >
             Probar una semana
           </a>
-          <a
-            href="#espacio"
-            className="inline-flex items-center justify-center rounded-full border border-paper/30 px-7 py-3.5 text-body text-paper/90 transition-colors hover:border-paper/60 hover:bg-paper/10"
-          >
-            Conocer el salón
-          </a>
+                <a
+                  href="/espacio"
+                  className="inline-flex items-center justify-center rounded-full border border-paper/30 px-7 py-3.5 text-body text-paper/90 transition-colors hover:border-paper/60 hover:bg-paper/10"
+                >
+                  Conocer el salón
+                </a>
         </div>
       </div>
     </section>

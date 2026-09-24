@@ -13,7 +13,7 @@ const social = [
   },
   {
     label: "Familia coworker",
-    href: "https://espacioarroelo.es/familia-coworker/",
+    href: "/coworkers",
   },
 ];
 
@@ -90,16 +90,13 @@ export function Contacto() {
 }
 
 const footerLinks = [
-  { label: "Espacio", href: "#espacio" },
-  { label: "Café a la fresca", href: "#cafe" },
-  { label: "Nosotras", href: "#nosotras" },
-  { label: "Tarifa", href: "#tarifa" },
-  { label: "Ecosistema", href: "#redes" },
+  { label: "Espacio", href: "/espacio" },
+  { label: "Coworkers", href: "/coworkers" },
+  { label: "Café a la fresca", href: "/#cafe" },
+  { label: "Nosotras", href: "/#nosotras" },
+  { label: "Tarifa", href: "/#tarifa" },
+  { label: "Ecosistema", href: "/#redes" },
   { label: "Blog", href: "https://espacioarroelo.es/projects/" },
-  {
-    label: "Familia coworker",
-    href: "https://espacioarroelo.es/familia-coworker/",
-  },
   {
     label: "Privacidad",
     href: "https://espacioarroelo.es/privacy-policy-2/",
