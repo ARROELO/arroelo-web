@@ -1,0 +1,17 @@
+{
+  "name": "Arroelo Web",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "Next.js dev",
+      "command": "npm run dev",
+      "description": "Next.js development server on 0.0.0.0:3000"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 3000
+    }
+  ]
+}
