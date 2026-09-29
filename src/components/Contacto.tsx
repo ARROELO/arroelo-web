@@ -73,8 +73,9 @@ export function Contacto() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    {...(item.href.startsWith("http")
+                      ? { target: "_blank", rel: "noopener noreferrer" }
+                      : {})}
                     className="text-body text-ink underline decoration-ink/15 underline-offset-4 hover:text-terracotta"
                   >
                     {item.label}

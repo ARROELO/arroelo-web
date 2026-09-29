@@ -39,31 +39,41 @@ const amenities = [
 
 const gallery = [
   {
-    src: "/photos/puesto.jpg",
-    alt: "Mesa de trabajo con mantel y planta",
+    src: "/photos/salon-overview.jpg",
+    alt: "Vista del salón con mesa compartida y luz natural",
     wide: true,
   },
   {
-    src: "/photos/salon-mesa.jpg",
-    alt: "Mesa redonda del salón",
+    src: "/photos/encuentro.jpg",
+    alt: "Café a la fresca en comunidad",
   },
-  { src: "/photos/cafe.jpg", alt: "Cocina comunitaria con luz natural" },
-  { src: "/photos/encuentro.jpg", alt: "Café a la fresca en comunidad" },
+  {
+    src: "/photos/mesa-fresca.jpg",
+    alt: "Mesa con fruta y queso frente a la ventana",
+  },
+  {
+    src: "/photos/conversacion.jpg",
+    alt: "Conversación en la mesa del salón",
+  },
   {
     src: "/photos/community.jpg",
-    alt: "Conversación alrededor de la mesa",
+    alt: "Encuentro alrededor de la mesa",
   },
   {
-    src: "/photos/salon-luz.jpg",
-    alt: "Rincón del espacio con luz",
+    src: "/photos/desayuno.jpg",
+    alt: "Desayuno compartido en Arroelo",
   },
   {
     src: "/photos/cafe-tabla.jpg",
-    alt: "Mesa compartida con fruta y café",
+    alt: "Detalle de la mesa del Café a la fresca",
   },
   {
     src: "/photos/pet.jpg",
     alt: "Pet friendly — mascota en el salón",
+  },
+  {
+    src: "/photos/companeras.jpg",
+    alt: "Compañeras de trabajo en el salón",
   },
 ];
 
@@ -74,8 +84,8 @@ export default function EspacioPage() {
       <main>
         <section className="relative min-h-[70svh] overflow-hidden bg-deep-teal text-paper">
           <Image
-            src="/photos/hero.jpg"
-            alt="Interior y comunidad de Espacio Arroelo"
+            src="/photos/espacio-hero.jpg"
+            alt="Interior del salón de Espacio Arroelo"
             fill
             priority
             className="object-cover object-center"
@@ -91,8 +101,8 @@ export default function EspacioPage() {
               El salón
             </h1>
             <p className="reveal reveal-delay-2 mt-6 max-w-lg text-body-lg text-paper/85">
-              Un coworking en el centro de Pontevedra: madera, luz natural y
-              la mesa donde ocurren las ideas.
+              Rúa Cobián Roffignac 6, 3º. Madera, luz natural y la mesa donde
+              se tejen redes — entre casa y oficina.
             </p>
           </div>
         </section>
@@ -105,8 +115,8 @@ export default function EspacioPage() {
             </h2>
             <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
               Entrar en Espacio Arroelo es formar parte de una comunidad de
-              personas curiosas, comprometidas y con ganas de aprender. Desde
-              el salón donde damos forma al mundo que queremos.
+              personas curiosas y con ganas de aprender. No alquilamos sillas:
+              dejamos la luz encendida para quien quiera tejer algo más grande.
             </p>
 
             <div className="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">

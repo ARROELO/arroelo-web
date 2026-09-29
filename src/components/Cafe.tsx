@@ -20,15 +20,16 @@ export function Cafe() {
             #arroeloverfamily — sin networking forzado.
           </p>
           <p className="mt-6 text-body text-ink/60">
-            Comunidad +35. Luz natural. Mesas de madera. Pet friendly.
+            Es decir «sí» a la charla. Quedarse cinco minutos más cuando alguien
+            necesita una mano. Luz natural, mesas de madera, pet friendly.
           </p>
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl-2 bg-mist">
           <Image
-            src="/photos/encuentro.jpg"
-            alt="Café a la fresca: croissants, café y conversación en la mesa"
+            src="/photos/mesa-fresca.jpg"
+            alt="Mesa del Café a la fresca con fruta, queso y vista a Pontevedra"
             fill
-            className="object-cover object-[center_30%]"
+            className="object-cover object-[center_40%]"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-transparent to-transparent" />

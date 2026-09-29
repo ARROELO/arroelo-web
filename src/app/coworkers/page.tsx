@@ -96,9 +96,8 @@ export default function CoworkersPage() {
             <p className="text-caption text-graphite/70">Familia coworker</p>
             <h1 className="mt-4 text-heading-lg text-ink">Arroelover Family</h1>
             <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
-              Entrar en Arroelo es formar parte de una comunidad de personas
-              curiosas, comprometidas y con ganas de aprender. Estas son
-              algunas de las caras del salón — y hay mesa para ti.
+              Nadie es igual a nadie, y precisamente por eso el espacio
+              funciona. Estas son algunas caras del salón — y hay mesa para ti.
             </p>
 
             <div className="mt-16 grid grid-cols-2 gap-6 sm:grid-cols-3 md:gap-8 lg:grid-cols-4">

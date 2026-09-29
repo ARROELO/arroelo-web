@@ -47,16 +47,17 @@ export function Espacio() {
           Un tercer tiempo entre casa y oficina
         </h2>
         <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
-          Entrar en Arroelo es formar parte de una comunidad de personas
-          curiosas, comprometidas y con ganas de aprender. Trabajamos en la mesa
-          donde ocurren las ideas — en el centro de Pontevedra.
+          En el centro de Pontevedra — Rúa Cobián Roffignac, tercer piso —
+          las mañanas huelen a café y a lluvia fina contra los cristales.
+          Entrar en Arroelo es formar parte de una comunidad curiosa, con
+          ganas de aprender.
         </p>
 
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/encuentro.jpg"
-              alt="Café a la fresca en la mesa del salón"
+              src="/photos/salon-overview.jpg"
+              alt="Vista del salón de Arroelo con mesa compartida y luz natural"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -64,17 +65,17 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src="/photos/puesto.jpg"
-              alt="Puesto de trabajo en Espacio Arroelo"
+              src="/photos/conversacion.jpg"
+              alt="Conversación alrededor de la mesa en Café a la fresca"
               fill
-              className="object-cover"
+              className="object-cover object-center"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/salon-mesa.jpg"
-              alt="Mesa redonda del salón"
+              src="/photos/encuentro.jpg"
+              alt="Encuentro comunitario en el salón"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"

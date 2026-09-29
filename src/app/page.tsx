@@ -1,6 +1,7 @@
 import { Cafe } from "@/components/Cafe";
 import { Contacto, SiteFooter } from "@/components/Contacto";
 import { Espacio } from "@/components/Espacio";
+import { Filosofia } from "@/components/Filosofia";
 import { Hero } from "@/components/Hero";
 import { Nosotras } from "@/components/Nosotras";
 import { Redes } from "@/components/Redes";
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <Espacio />
+        <Filosofia />
         <Cafe />
         <Nosotras />
         <Tarifa />

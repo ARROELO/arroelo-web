@@ -5,7 +5,7 @@ const founders = [
     name: "África Rodríguez",
     role: "Cofundadora · Cultura colaborativa",
     linkedin: "https://www.linkedin.com/in/rodriguezafricaruralhacker",
-    bio: "Activista de la cultura colaborativa. Impulsa redes, comunidades y proyectos europeos desde Galicia — Anceu Coliving y Rural Hackers.",
+    bio: "Activista de la cultura colaborativa. Impulsa redes, comunidades y proyectos europeos desde Galicia — Anceu Coliving y Rural Hackers. Autora del cuento «El hilo de Aroelo».",
   },
   {
     name: "María Pierres",
@@ -45,20 +45,18 @@ export function Nosotras() {
           Equipo fundador
         </h2>
         <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
-          Arroelo nace cuando las vidas de dos mujeres — María Pierres y África
-          Rodríguez — se cruzaron en LinkedIn en 2012. En menos de seis meses
-          se aventuraron juntas a crear un coworking en Pontevedra. Más de una
-          década después — pandemia, cambios de sede, redes europeas —
-          siguen construyendo el salón donde se celebra la curiosidad y la
-          economía social.
+          Arroelo nace cuando las vidas de María Pierres y África Rodríguez se
+          cruzaron en LinkedIn en 2012. En menos de seis meses se aventuraron a
+          crear un coworking en Pontevedra con una convicción sencilla: trabajar
+          no debería sentirse como estar de visita en la vida de uno.
         </p>
 
         <div className="relative mt-12 aspect-[16/10] overflow-hidden rounded-3xl-2">
           <Image
-            src="/photos/nosotras.jpg"
-            alt="Facilitación y comunidad en Espacio Arroelo"
+            src="/photos/desayuno.jpg"
+            alt="Desayuno compartido y comunidad en Espacio Arroelo"
             fill
-            className="object-cover object-[center_25%]"
+            className="object-cover object-[center_30%]"
             sizes="(max-width: 1100px) 100vw, 1100px"
           />
         </div>
