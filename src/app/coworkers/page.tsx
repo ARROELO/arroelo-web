@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
 import { coworkers } from "@/data/coworkers";
+import { withBase } from "@/lib/path";
 
 export const metadata: Metadata = {
   title: "Coworkers — Arroelover Family | Espacio Arroelo",
@@ -27,7 +28,7 @@ function Card({
       <div className="relative aspect-square overflow-hidden rounded-3xl bg-mist">
         {photo ? (
           <Image
-            src={photo}
+            src={withBase(photo)}
             alt={open ? "Plaza libre en Arroelo" : name}
             fill
             className="object-cover"

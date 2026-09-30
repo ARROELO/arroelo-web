@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBase } from "@/lib/path";
 
 export function Cafe() {
   return (
@@ -26,7 +27,7 @@ export function Cafe() {
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl-2 bg-mist">
           <Image
-            src="/photos/conversacion-cafe.jpg"
+            src={withBase("/photos/conversacion-cafe.jpg")}
             alt="Café a la fresca: croissants, café y conversación en la mesa"
             fill
             className="object-cover object-[center_35%]"

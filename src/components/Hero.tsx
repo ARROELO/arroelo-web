@@ -1,10 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
+import { withBase } from "@/lib/path";
 
 export function Hero() {
   return (
     <section className="relative min-h-[100svh] overflow-hidden bg-deep-teal text-paper">
       <Image
-        src="/photos/comunidad-mesa.jpg"
+        src={withBase("/photos/comunidad-mesa.jpg")}
         alt="Comunidad Arroelo reunida en la mesa del salón"
         fill
         priority
@@ -39,12 +41,12 @@ export function Hero() {
           >
             Probar una semana
           </a>
-          <a
+          <Link
             href="/espacio"
             className="inline-flex items-center justify-center rounded-full border border-paper/30 px-7 py-3.5 text-body text-paper/90 transition-colors hover:border-paper/60 hover:bg-paper/10"
           >
             Conocer el salón
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBase } from "@/lib/path";
 
 const founders = [
   {
@@ -53,7 +54,7 @@ export function Nosotras() {
 
         <div className="relative mt-12 aspect-[16/10] overflow-hidden rounded-3xl-2">
           <Image
-            src="/photos/comunidad-mesa.jpg"
+            src={withBase("/photos/comunidad-mesa.jpg")}
             alt="Comunidad Arroelo reunida alrededor de la mesa del salón"
             fill
             className="object-cover object-[center_45%]"

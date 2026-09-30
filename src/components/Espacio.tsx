@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBase } from "@/lib/path";
 
 const pillars = [
   {
@@ -56,7 +57,7 @@ export function Espacio() {
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/encuentro-mesa.jpg"
+              src={withBase("/photos/encuentro-mesa.jpg")}
               alt="Comunidad reunida en la mesa del salón de Arroelo"
               fill
               className="object-cover object-[center_40%]"
@@ -65,7 +66,7 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src="/photos/croissants-charla.jpg"
+              src={withBase("/photos/croissants-charla.jpg")}
               alt="Conversación alrededor de la mesa en Café a la fresca"
               fill
               className="object-cover object-center"
@@ -74,7 +75,7 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/coworker-enfoque.jpg"
+              src={withBase("/photos/coworker-enfoque.jpg")}
               alt="Coworker trabajando con luz natural en Arroelo"
               fill
               className="object-cover object-[center_20%]"

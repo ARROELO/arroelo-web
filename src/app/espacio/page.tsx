@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
+import { withBase } from "@/lib/path";
 
 export const metadata: Metadata = {
   title: "El espacio — Coworking en Pontevedra | Arroelo",
@@ -84,7 +85,7 @@ export default function EspacioPage() {
       <main>
         <section className="relative min-h-[70svh] overflow-hidden bg-deep-teal text-paper">
           <Image
-            src="/photos/espacio-hero.jpg"
+            src={withBase("/photos/espacio-hero.jpg")}
             alt="Interior del salón de Espacio Arroelo"
             fill
             priority
@@ -146,7 +147,7 @@ export default function EspacioPage() {
                   }`}
                 >
                   <Image
-                    src={shot.src}
+                    src={withBase(shot.src)}
                     alt={shot.alt}
                     fill
                     className="object-cover"
