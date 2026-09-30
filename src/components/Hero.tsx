@@ -28,8 +28,9 @@ export function Hero() {
           Arroelo
         </h1>
         <p className="reveal reveal-delay-2 mt-6 max-w-md text-body-lg text-paper/85">
-          Ni casa, ni oficina. El tercer tiempo — donde se llega con un
-          portátil y se termina tejiendo amigos, proyectos e ideas.
+          Ni casa, ni oficina. El tercer tiempo: madera, luz natural y una
+          comunidad madura alrededor de la mesa — donde el enfoque se encuentra
+          con la pausa compartida.
         </p>
         <div className="reveal reveal-delay-3 mt-10 flex flex-wrap items-center gap-4">
           <a

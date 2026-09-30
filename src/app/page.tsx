@@ -7,6 +7,7 @@ import { Nosotras } from "@/components/Nosotras";
 import { Redes } from "@/components/Redes";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Tarifa } from "@/components/Tarifa";
+import { Testimonio } from "@/components/Testimonio";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Filosofia />
         <Cafe />
         <Nosotras />
+        <Testimonio />
         <Tarifa />
         <Redes />
         <Contacto />

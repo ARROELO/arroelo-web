@@ -15,28 +15,28 @@ export function Cafe() {
           <p className="text-caption text-graphite/70">Ritual diario</p>
           <h2 className="mt-4 text-heading-lg text-ink">Café a la fresca</h2>
           <p className="mt-6 text-body-lg text-ink/70">
-            Cada día a las 11:30 paramos el reloj. Un café, una conversación, a
-            veces una visita que cambia el día. Así se construye la
-            #arroeloverfamily — sin networking forzado.
+            Lo mejor de Arroelo ocurre entre tareas. Conversaciones con perfiles
+            como el tuyo que te sacan del aislamiento digital — sin networking
+            forzado.
           </p>
           <p className="mt-6 text-body text-ink/60">
-            Es decir «sí» a la charla. Quedarse cinco minutos más cuando alguien
-            necesita una mano. Luz natural, mesas de madera, pet friendly.
+            Cada día a las 11:30 paramos el reloj. Un café, una charla, a veces
+            una visita que cambia el día. Así se construye la #arroeloverfamily.
           </p>
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl-2 bg-mist">
           <Image
-            src="/photos/mesa-fresca.jpg"
-            alt="Mesa del Café a la fresca con fruta, queso y vista a Pontevedra"
+            src="/photos/conversacion-cafe.jpg"
+            alt="Café a la fresca: croissants, café y conversación en la mesa"
             fill
-            className="object-cover object-[center_40%]"
+            className="object-cover object-[center_35%]"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-transparent to-transparent" />
           <div className="absolute inset-x-0 bottom-0 p-8 text-paper">
             <p className="text-caption text-paper/70">11:30 · todos los días</p>
             <p className="mt-2 text-subheading">
-              El parón que da sentido al resto de la jornada
+              Los mejores proyectos nacen en el tercer tiempo
             </p>
           </div>
         </div>

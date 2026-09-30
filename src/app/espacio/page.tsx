@@ -39,37 +39,37 @@ const amenities = [
 
 const gallery = [
   {
-    src: "/photos/salon-overview.jpg",
-    alt: "Vista del salón con mesa compartida y luz natural",
+    src: "/photos/encuentro-mesa.jpg",
+    alt: "Comunidad reunida en la mesa del salón",
     wide: true,
   },
   {
-    src: "/photos/encuentro.jpg",
-    alt: "Café a la fresca en comunidad",
+    src: "/photos/croissants-charla.jpg",
+    alt: "Café a la fresca con croissants y conversación",
+  },
+  {
+    src: "/photos/coworker-enfoque.jpg",
+    alt: "Coworker trabajando con luz natural",
+  },
+  {
+    src: "/photos/conversacion-cafe.jpg",
+    alt: "Conversación en la mesa del Café a la fresca",
+  },
+  {
+    src: "/photos/puesto-luz.jpg",
+    alt: "Puesto de trabajo con luz lateral",
   },
   {
     src: "/photos/mesa-fresca.jpg",
     alt: "Mesa con fruta y queso frente a la ventana",
   },
   {
-    src: "/photos/conversacion.jpg",
-    alt: "Conversación en la mesa del salón",
-  },
-  {
-    src: "/photos/community.jpg",
-    alt: "Encuentro alrededor de la mesa",
-  },
-  {
-    src: "/photos/desayuno.jpg",
-    alt: "Desayuno compartido en Arroelo",
-  },
-  {
-    src: "/photos/cafe-tabla.jpg",
-    alt: "Detalle de la mesa del Café a la fresca",
-  },
-  {
     src: "/photos/pet.jpg",
     alt: "Pet friendly — mascota en el salón",
+  },
+  {
+    src: "/photos/coworker-luz.jpg",
+    alt: "Enfoque y luz natural en el puesto",
   },
   {
     src: "/photos/companeras.jpg",
@@ -102,7 +102,7 @@ export default function EspacioPage() {
             </h1>
             <p className="reveal reveal-delay-2 mt-6 max-w-lg text-body-lg text-paper/85">
               Rúa Cobián Roffignac 6, 3º. Madera, luz natural y la mesa donde
-              se tejen redes — entre casa y oficina.
+              ocurre el tercer tiempo — ni casa, ni oficina.
             </p>
           </div>
         </section>
@@ -115,8 +115,9 @@ export default function EspacioPage() {
             </h2>
             <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
               Entrar en Espacio Arroelo es formar parte de una comunidad de
-              personas curiosas y con ganas de aprender. No alquilamos sillas:
-              dejamos la luz encendida para quien quiera tejer algo más grande.
+              personas curiosas y con ganas de aprender. No vendemos metros
+              cuadrados: dejamos la luz encendida para quien quiera tejer algo
+              más grande.
             </p>
 
             <div className="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">

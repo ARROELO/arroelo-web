@@ -17,7 +17,8 @@ export function Filosofia() {
           Cuando alguien nuevo empuja la puerta, no preguntamos qué hace ni
           cuánto factura. Preguntamos:{" "}
           <em className="text-cream not-italic">«¿Qué te apetece aprender?»</em>{" "}
-          — así nace la #arroeloverfamily, con constancia y café recién hecho.
+          — curiosidad, comunidad y sostenibilidad. Así nace la
+          #arroeloverfamily.
         </p>
         <p className="mx-auto mt-6 max-w-xl text-body text-paper/55">
           Del cuento «El hilo de Aroelo», por África Rodríguez.

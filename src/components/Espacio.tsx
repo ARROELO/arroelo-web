@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const pillars = [
   {
-    title: "Confianza",
-    body: "Sin letra pequeña. Una tarifa clara y un espacio que se siente hogar.",
+    title: "Enfoque",
+    body: "No vendemos m²: vendemos luz natural, ergonomía y silencio productivo.",
   },
   {
     title: "Pausa",
-    body: "A las 11:30 paramos. Café a la fresca: ideas, personas, perspectiva.",
+    body: "A las 11:30, Café a la fresca. Las mejores sinergias ocurren en la mesa.",
   },
   {
-    title: "Intercambio",
-    body: "Más de 10 años tejiendo redes desde Galicia hacia el mundo.",
+    title: "Hogar intacto",
+    body: "Devuélvele a tu casa su función de descanso. Ven a Arroelo a ser profesional.",
   },
 ];
 
@@ -49,23 +49,23 @@ export function Espacio() {
         <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
           En el centro de Pontevedra — Rúa Cobián Roffignac, tercer piso —
           las mañanas huelen a café y a lluvia fina contra los cristales.
-          Entrar en Arroelo es formar parte de una comunidad curiosa, con
-          ganas de aprender.
+          Ni el caos de la cocina, ni el frío de un cubículo: un entorno
+          cozy y productivo para perfiles +35.
         </p>
 
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/salon-overview.jpg"
-              alt="Vista del salón de Arroelo con mesa compartida y luz natural"
+              src="/photos/encuentro-mesa.jpg"
+              alt="Comunidad reunida en la mesa del salón de Arroelo"
               fill
-              className="object-cover"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src="/photos/conversacion.jpg"
+              src="/photos/croissants-charla.jpg"
               alt="Conversación alrededor de la mesa en Café a la fresca"
               fill
               className="object-cover object-center"
@@ -74,10 +74,10 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src="/photos/encuentro.jpg"
-              alt="Encuentro comunitario en el salón"
+              src="/photos/coworker-enfoque.jpg"
+              alt="Coworker trabajando con luz natural en Arroelo"
               fill
-              className="object-cover"
+              className="object-cover object-[center_20%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
