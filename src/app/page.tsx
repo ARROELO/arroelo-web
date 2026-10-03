@@ -4,6 +4,7 @@ import { Espacio } from "@/components/Espacio";
 import { Filosofia } from "@/components/Filosofia";
 import { Hero } from "@/components/Hero";
 import { Nosotras } from "@/components/Nosotras";
+import { SalonMovimiento } from "@/components/SalonMovimiento";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Tarifa } from "@/components/Tarifa";
 import { Testimonio } from "@/components/Testimonio";
@@ -17,6 +18,7 @@ export default function Home() {
         <Espacio />
         <Filosofia />
         <Cafe />
+        <SalonMovimiento />
         <Nosotras />
         <Testimonio />
         <Tarifa />
