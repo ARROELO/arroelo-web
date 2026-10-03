@@ -21,21 +21,33 @@ const bridges = [
     title: "De la ciudad a la aldea",
     cta: "Trabaja desde Anceu",
     href: "https://anceu.com/",
+    image: "/photos/mesa-fresca.jpg",
+    alt: "Mesa con fruta y planta junto a la ventana, con vista a la piedra gallega",
+    objectPosition: "object-[center_35%]",
   },
   {
     title: "Con ideas y perspectivas",
     cta: "Ven a Café a la fresca",
     href: "#cafe",
+    image: "/photos/ig-cafe-mesa.jpg",
+    alt: "Comunidad alrededor de la mesa compartiendo café e ideas",
+    objectPosition: "object-[center_40%]",
   },
   {
     title: "De Galicia para el mundo",
     cta: "Descubre ECHN",
     href: "https://creativehubs.net/",
+    image: "/photos/ig-grupo-pie.jpg",
+    alt: "Grupo diverso de Arroelo sonriendo juntos en el salón",
+    objectPosition: "object-[center_30%]",
   },
   {
     title: "Con arte y tecnología",
     cta: "Conoce Rural Hackers",
     href: "https://www.ruralhackers.com/",
+    image: "/photos/ig-salon-vivo.jpg",
+    alt: "Salón vivo: trabajo en portátil y taller creativo al fondo",
+    objectPosition: "object-[center_45%]",
   },
 ];
 
@@ -94,7 +106,7 @@ export function Espacio() {
           ))}
         </div>
 
-        <div className="mt-16 grid gap-6 border-t border-ink/10 pt-12 sm:grid-cols-2">
+        <div className="mt-16 grid gap-5 border-t border-ink/10 pt-12 sm:grid-cols-2">
           {bridges.map((item) => (
             <a
               key={item.title}
@@ -102,12 +114,31 @@ export function Espacio() {
               {...(item.href.startsWith("http")
                 ? { target: "_blank", rel: "noopener noreferrer" }
                 : {})}
-              className="group rounded-3xl bg-paper px-6 py-8 transition-colors hover:bg-mist"
+              className="group relative aspect-[4/3] overflow-hidden rounded-3xl"
             >
-              <h3 className="text-heading-sm text-ink">{item.title}</h3>
-              <p className="mt-3 text-body text-terracotta group-hover:underline">
-                {item.cta}
-              </p>
+              <Image
+                src={withBase(item.image)}
+                alt={item.alt}
+                fill
+                className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${item.objectPosition}`}
+                sizes="(max-width: 640px) 100vw, 50vw"
+              />
+              <div
+                aria-hidden
+                className="absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/20 to-transparent"
+              />
+              <div className="absolute inset-x-0 bottom-0 p-6 md:p-7">
+                <h3 className="text-heading-sm text-paper">{item.title}</h3>
+                <p className="mt-2 text-body text-cream/90 transition-colors group-hover:text-terracotta">
+                  {item.cta}
+                  <span
+                    aria-hidden
+                    className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    →
+                  </span>
+                </p>
+              </div>
             </a>
           ))}
         </div>
