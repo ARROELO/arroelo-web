@@ -58,28 +58,28 @@ export function Espacio() {
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/community.jpg")}
-              alt="Grupo de coworkers de distintas edades en la mesa de Arroelo"
+              src={withBase("/photos/ig-salon-luz.jpg")}
+              alt="Salón de Arroelo vacío con luz natural, mesas de madera y plantas"
               fill
-              className="object-cover object-[center_35%]"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src={withBase("/photos/companeras.jpg")}
-              alt="Dos coworkers en conversación durante la pausa del café"
+              src={withBase("/photos/ig-puestos-ventana.jpg")}
+              alt="Puestos de trabajo junto a la ventana con vistas a la piedra de Pontevedra"
               fill
-              className="object-cover object-[center_30%]"
+              className="object-cover object-[center_45%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/coworker-enfoque.jpg")}
-              alt="Coworker trabajando con luz natural en Arroelo"
+              src={withBase("/photos/ig-grupo-pie.jpg")}
+              alt="Grupo intergeneracional de pie en el salón de Arroelo"
               fill
-              className="object-cover object-[center_20%]"
+              className="object-cover object-[center_35%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
