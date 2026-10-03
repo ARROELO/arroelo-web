@@ -41,6 +41,21 @@ jobs:
       - name: Add .nojekyll
         run: touch out/.nojekyll
 
+      - name: Ensure GitHub Pages is enabled (workflow source)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          gh api repos/${{ github.repository }}/pages >/dev/null 2>&1
+          if [ $? -ne 0 ]; then
+            gh api -X POST repos/${{ github.repository }}/pages \
+              -f build_type=workflow
+          else
+            gh api -X PUT repos/${{ github.repository }}/pages \
+              -f build_type=workflow
+          fi
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
