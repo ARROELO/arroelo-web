@@ -41,8 +41,7 @@ export function Redes() {
         </h2>
         <p className="mt-6 max-w-2xl text-body-lg text-paper/70">
           Creemos en la fuerza del «co». Tejemos redes con proyectos que
-          confían en la inspiración colectiva — los mismos puentes que ya
-          encontrabas en espacioarroelo.es.
+          confían en la inspiración colectiva.
         </p>
         <ul className="mt-16 divide-y divide-paper/15 border-y border-paper/15">
           {links.map((link) => (
