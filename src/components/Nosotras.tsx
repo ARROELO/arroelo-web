@@ -6,7 +6,7 @@ const founders = [
     name: "África Rodríguez",
     role: "Cofundadora · Cultura colaborativa",
     linkedin: "https://www.linkedin.com/in/rodriguezafricaruralhacker",
-    bio: "Activista de la cultura colaborativa. Impulsa redes, comunidades y proyectos europeos desde Galicia — Anceu Coliving y Rural Hackers. Autora del cuento «El hilo de Aroelo».",
+    bio: "Activista de la cultura colaborativa. Impulsa redes, comunidades y proyectos europeos desde Galicia — Anceu Coliving y Rural Hackers.",
   },
   {
     name: "María Pierres",

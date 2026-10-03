@@ -1,6 +1,3 @@
-/**
- * Copy grounded in «El hilo de Aroelo» (África Rodríguez) — Drive.
- */
 export function Filosofia() {
   return (
     <section id="filosofia" className="relative overflow-hidden bg-deep-teal px-6 py-120 text-paper md:px-10">
@@ -19,9 +16,6 @@ export function Filosofia() {
           <em className="text-cream not-italic">«¿Qué te apetece aprender?»</em>{" "}
           — curiosidad, comunidad y sostenibilidad. Así nace la
           #arroeloverfamily.
-        </p>
-        <p className="mx-auto mt-6 max-w-xl text-body text-paper/55">
-          Del cuento «El hilo de Aroelo», por África Rodríguez.
         </p>
       </div>
     </section>
