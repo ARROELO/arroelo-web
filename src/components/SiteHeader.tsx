@@ -4,6 +4,7 @@ const nav = [
   { href: "/espacio", label: "Espacio" },
   { href: "/#cafe", label: "Café a la fresca" },
   { href: "/coworkers", label: "Coworkers" },
+  { href: "/blog", label: "Blog" },
   { href: "/#nosotras", label: "Nosotras" },
   { href: "/#tarifa", label: "Tarifa" },
   { href: "/#contacto", label: "Contacto" },

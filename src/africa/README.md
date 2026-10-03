@@ -22,6 +22,19 @@ conversacion-cafe, croissants-charla, coworker-enfoque/luz, puesto-luz.
 
 https://photos.app.goo.gl/8NcQzuhA5RWQzB6k7 — volcado `gp-XX.jpg`.
 
+## Instagram @arroelo (público, sin login)
+
+Perfil vía `web_profile_info` (cabecera `X-IG-App-ID`). 12 publicaciones
+recientes con miniatura/caption en `/public/photos/ig/` y `src/data/posts.json`.
+No hay MCP de Instagram ni acceso a DMs / publicación. Para feed en vivo hace
+falta Instagram Graph API (cuenta Business + token).
+
+## Blog WordPress (espacioarroelo.es)
+
+REST `wp-json/wp/v2/posts` OK (títulos/extractos/cuerpo). Imágenes
+`wp-content/uploads` bloqueadas (403/hotlink). Covers usan fotos locales del
+salón. Listado en `/blog`.
+
 ## Copy oficial
 
 - «El hilo de Aroelo» (cuento, África Rodríguez) — `1AIfUP-s1xhzyoMYj4TusVLWl83qlZPwK`

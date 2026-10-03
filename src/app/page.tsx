@@ -8,6 +8,7 @@ import { Redes } from "@/components/Redes";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Tarifa } from "@/components/Tarifa";
 import { Testimonio } from "@/components/Testimonio";
+import { UltimasPublicaciones } from "@/components/UltimasPublicaciones";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Nosotras />
         <Testimonio />
         <Tarifa />
+        <UltimasPublicaciones />
         <Redes />
         <Contacto />
       </main>
