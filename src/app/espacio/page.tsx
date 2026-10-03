@@ -76,18 +76,6 @@ const gallery = [
     src: "/photos/companeras.jpg",
     alt: "Compañeras de trabajo en el salón",
   },
-  {
-    src: "/photos/ig/DclC08XDMLR.jpg",
-    alt: "Café a la fresca — visita literaria en Arroelo",
-  },
-  {
-    src: "/photos/ig/DboCbf7jMF-.jpg",
-    alt: "Comunidad coworking construida día a día",
-  },
-  {
-    src: "/photos/ig/Dd4g0exDSK0.jpg",
-    alt: "Despacho exclusivo en el centro de Pontevedra",
-  },
 ];
 
 export default function EspacioPage() {

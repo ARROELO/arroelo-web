@@ -9,7 +9,7 @@ const social = [
   },
   {
     label: "Blog",
-    href: "/blog",
+    href: "https://espacioarroelo.es/projects/",
   },
   {
     label: "Familia coworker",
@@ -93,11 +93,11 @@ export function Contacto() {
 const footerLinks = [
   { label: "Espacio", href: "/espacio" },
   { label: "Coworkers", href: "/coworkers" },
-  { label: "Blog", href: "/blog" },
   { label: "Café a la fresca", href: "/#cafe" },
   { label: "Nosotras", href: "/#nosotras" },
   { label: "Tarifa", href: "/#tarifa" },
   { label: "Ecosistema", href: "/#redes" },
+  { label: "Blog", href: "https://espacioarroelo.es/projects/" },
   {
     label: "Privacidad",
     href: "https://espacioarroelo.es/privacy-policy-2/",
