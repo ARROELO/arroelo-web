@@ -22,7 +22,7 @@ export function Cafe() {
           </p>
           <p className="mt-6 text-body text-ink/60">
             Cada día a las 11:30 paramos el reloj. Un café, una charla, a veces
-            una visita que cambia el día. Así se construye la #arroeloverfamily.
+            una visita que cambia el día.
           </p>
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl-2 bg-mist">
