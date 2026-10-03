@@ -16,27 +16,6 @@ const founders = [
   },
 ];
 
-const press = [
-  {
-    outlet: "El País",
-    year: "2013",
-    title: "El coworking se instala en Galicia",
-    href: "https://elpais.com/ccaa/2013/04/17/galicia/1366220334_717953.html",
-  },
-  {
-    outlet: "Faro de Vigo",
-    year: "2015",
-    title: "Crisis o no, aquí no se escucha esa palabra",
-    href: "https://www.farodevigo.es/pontevedra/2015/02/03/africa-rodriguez-maria-pierres-crisis-17004549.html",
-  },
-  {
-    outlet: "Coworking Spain Conference",
-    year: "2016–2020",
-    title: "África Rodríguez, speaker",
-    href: "https://coworkingspainconference.es/en/speakers/africa-rodriguez-garcia",
-  },
-];
-
 export function Nosotras() {
   return (
     <section id="nosotras" className="bg-fog px-6 py-120 md:px-10">
@@ -81,29 +60,6 @@ export function Nosotras() {
               </a>
             </article>
           ))}
-        </div>
-
-        <div className="mt-16 border-t border-ink/10 pt-12">
-          <p className="text-caption text-graphite/60">En los medios</p>
-          <ul className="mt-6 space-y-5">
-            {press.map((item) => (
-              <li key={item.href}>
-                <a
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex flex-col gap-1 md:flex-row md:items-baseline md:gap-6"
-                >
-                  <span className="shrink-0 text-caption text-ink/40">
-                    {item.outlet} · {item.year}
-                  </span>
-                  <span className="text-body text-ink transition-colors group-hover:text-terracotta">
-                    {item.title}
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </section>
