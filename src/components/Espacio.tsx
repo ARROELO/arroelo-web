@@ -51,25 +51,26 @@ export function Espacio() {
           En el centro de Pontevedra — Rúa Cobián Roffignac, tercer piso —
           las mañanas huelen a café y a lluvia fina contra los cristales.
           Ni el caos de la cocina, ni el frío de un cubículo: un entorno
-          cozy y productivo para perfiles +35.
+          cozy y productivo para perfiles +35 — con una mesa donde se cruzan
+          generaciones.
         </p>
 
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/encuentro-mesa.jpg")}
-              alt="Comunidad reunida en la mesa del salón de Arroelo"
+              src={withBase("/photos/community.jpg")}
+              alt="Grupo de coworkers de distintas edades en la mesa de Arroelo"
               fill
-              className="object-cover object-[center_40%]"
+              className="object-cover object-[center_35%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src={withBase("/photos/croissants-charla.jpg")}
-              alt="Conversación alrededor de la mesa en Café a la fresca"
+              src={withBase("/photos/companeras.jpg")}
+              alt="Dos coworkers en conversación durante la pausa del café"
               fill
-              className="object-cover object-center"
+              className="object-cover object-[center_30%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>

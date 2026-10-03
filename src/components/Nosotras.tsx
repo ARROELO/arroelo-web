@@ -54,10 +54,10 @@ export function Nosotras() {
 
         <div className="relative mt-12 aspect-[16/10] overflow-hidden rounded-3xl-2">
           <Image
-            src={withBase("/photos/comunidad-mesa.jpg")}
-            alt="Comunidad Arroelo reunida alrededor de la mesa del salón"
+            src={withBase("/photos/community.jpg")}
+            alt="Comunidad intergeneracional de Arroelo reunida en el salón"
             fill
-            className="object-cover object-[center_45%]"
+            className="object-cover object-[center_40%]"
             sizes="(max-width: 1100px) 100vw, 1100px"
           />
         </div>

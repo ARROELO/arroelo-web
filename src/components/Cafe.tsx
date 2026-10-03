@@ -27,10 +27,10 @@ export function Cafe() {
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl-2 bg-mist">
           <Image
-            src={withBase("/photos/conversacion-cafe.jpg")}
-            alt="Café a la fresca: croissants, café y conversación en la mesa"
+            src={withBase("/photos/desayuno.jpg")}
+            alt="Café a la fresca: frutas, café y conversación entre coworkers"
             fill
-            className="object-cover object-[center_35%]"
+            className="object-cover object-[center_40%]"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-transparent to-transparent" />
