@@ -6,11 +6,11 @@ export function Hero() {
   return (
     <section className="relative min-h-[100svh] overflow-hidden bg-deep-teal text-paper">
       <Image
-        src={withBase("/photos/comunidad-mesa.jpg")}
-        alt="Comunidad Arroelo reunida en la mesa del salón"
+        src={withBase("/photos/hero-comunidad.jpg")}
+        alt="Grupo intergeneracional de Arroelo sonriendo a cámara en el salón"
         fill
         priority
-        className="object-cover object-[center_35%]"
+        className="object-cover object-[center_32%]"
         sizes="100vw"
       />
       <div
@@ -30,9 +30,8 @@ export function Hero() {
           Arroelo
         </h1>
         <p className="reveal reveal-delay-2 mt-6 max-w-md text-body-lg text-paper/85">
-          Ni casa, ni oficina. El tercer tiempo: madera, luz natural y una
-          comunidad madura alrededor de la mesa — donde el enfoque se encuentra
-          con la pausa compartida.
+          Una comunidad intergeneracional alrededor de la mesa — donde el
+          enfoque se encuentra con la pausa compartida.
         </p>
         <div className="reveal reveal-delay-3 mt-10 flex flex-wrap items-center gap-4">
           <a

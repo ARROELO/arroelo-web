@@ -40,41 +40,33 @@ const amenities = [
 
 const gallery = [
   {
-    src: "/photos/encuentro-mesa.jpg",
-    alt: "Comunidad reunida en la mesa del salón",
+    src: "/photos/ig-mesa-comunidad.jpg",
+    alt: "Mesa larga con comunidad intergeneracional en el salón",
     wide: true,
   },
   {
+    src: "/photos/ig-puestos-ventana.jpg",
+    alt: "Puestos de trabajo junto a la ventana con luz natural",
+  },
+  {
+    src: "/photos/ig-salon-vivo.jpg",
+    alt: "Salón vivo: trabajo y taller en las mesas de Arroelo",
+  },
+  {
+    src: "/photos/mesa.jpg",
+    alt: "Mesa de desayuno con fruta, queso y bollería",
+  },
+  {
+    src: "/photos/ig-puestos-luz.jpg",
+    alt: "Puestos con monitores y sillas ergonómicas junto a la ventana",
+  },
+  {
     src: "/photos/croissants-charla.jpg",
-    alt: "Café a la fresca con croissants y conversación",
+    alt: "Croissants y café en el Café a la fresca",
   },
   {
-    src: "/photos/coworker-enfoque.jpg",
-    alt: "Coworker trabajando con luz natural",
-  },
-  {
-    src: "/photos/conversacion-cafe.jpg",
-    alt: "Conversación en la mesa del Café a la fresca",
-  },
-  {
-    src: "/photos/puesto-luz.jpg",
-    alt: "Puesto de trabajo con luz lateral",
-  },
-  {
-    src: "/photos/mesa-fresca.jpg",
-    alt: "Mesa con fruta y queso frente a la ventana",
-  },
-  {
-    src: "/photos/pet.jpg",
-    alt: "Pet friendly — mascota en el salón",
-  },
-  {
-    src: "/photos/coworker-luz.jpg",
-    alt: "Enfoque y luz natural en el puesto",
-  },
-  {
-    src: "/photos/companeras.jpg",
-    alt: "Compañeras de trabajo en el salón",
+    src: "/photos/ig-grupo-pie.jpg",
+    alt: "Grupo intergeneracional de pie en el salón",
   },
 ];
 
@@ -85,8 +77,8 @@ export default function EspacioPage() {
       <main>
         <section className="relative min-h-[70svh] overflow-hidden bg-deep-teal text-paper">
           <Image
-            src={withBase("/photos/espacio-hero.jpg")}
-            alt="Interior del salón de Espacio Arroelo"
+            src={withBase("/photos/ig-salon-luz.jpg")}
+            alt="Interior del salón de Espacio Arroelo con luz natural"
             fill
             priority
             className="object-cover object-center"

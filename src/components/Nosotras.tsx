@@ -6,34 +6,13 @@ const founders = [
     name: "África Rodríguez",
     role: "Cofundadora · Cultura colaborativa",
     linkedin: "https://www.linkedin.com/in/rodriguezafricaruralhacker",
-    bio: "Activista de la cultura colaborativa. Impulsa redes, comunidades y proyectos europeos desde Galicia — Anceu Coliving y Rural Hackers. Autora del cuento «El hilo de Aroelo».",
+    bio: "Activista de la cultura colaborativa. Impulso redes, comunidades y proyectos europeos desde Galicia — Anceu Coliving y Rural Hackers.",
   },
   {
     name: "María Pierres",
     role: "Cofundadora · Arquitecta",
     linkedin: "https://www.linkedin.com/in/mariapierres",
-    bio: "Arquitecta y gestora de Espacio Arroelo. Trabaja el espacio como lugar de encuentro, con mirada técnica y humana sobre cómo compartimos el trabajo.",
-  },
-];
-
-const press = [
-  {
-    outlet: "El País",
-    year: "2013",
-    title: "El coworking se instala en Galicia",
-    href: "https://elpais.com/ccaa/2013/04/17/galicia/1366220334_717953.html",
-  },
-  {
-    outlet: "Faro de Vigo",
-    year: "2015",
-    title: "Crisis o no, aquí no se escucha esa palabra",
-    href: "https://www.farodevigo.es/pontevedra/2015/02/03/africa-rodriguez-maria-pierres-crisis-17004549.html",
-  },
-  {
-    outlet: "Coworking Spain Conference",
-    year: "2016–2020",
-    title: "África Rodríguez, speaker",
-    href: "https://coworkingspainconference.es/en/speakers/africa-rodriguez-garcia",
+    bio: "Arquitecta y gestora de Espacio Arroelo. Trabajo el espacio como lugar de encuentro, con mirada técnica y humana sobre cómo compartimos el trabajo.",
   },
 ];
 
@@ -43,23 +22,33 @@ export function Nosotras() {
       <div className="mx-auto max-w-[1100px]">
         <p className="text-caption text-graphite/70">Sobre nosotras</p>
         <h2 className="mt-4 max-w-[20ch] text-heading-lg text-ink">
-          Equipo fundador
+          Así empezamos
         </h2>
-        <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
-          Arroelo nace cuando las vidas de María Pierres y África Rodríguez se
-          cruzaron en LinkedIn en 2012. En menos de seis meses se aventuraron a
-          crear un coworking en Pontevedra con una convicción sencilla: trabajar
-          no debería sentirse como estar de visita en la vida de uno.
-        </p>
 
-        <div className="relative mt-12 aspect-[16/10] overflow-hidden rounded-3xl-2">
-          <Image
-            src={withBase("/photos/comunidad-mesa.jpg")}
-            alt="Comunidad Arroelo reunida alrededor de la mesa del salón"
-            fill
-            className="object-cover object-[center_45%]"
-            sizes="(max-width: 1100px) 100vw, 1100px"
-          />
+        <div className="mt-10 grid items-end gap-10 md:mt-14 md:grid-cols-2 md:gap-14">
+          <figure>
+            <div className="relative aspect-[2/3] overflow-hidden rounded-3xl-2">
+              <Image
+                src={withBase("/photos/nosotras-prensa.jpg")}
+                alt="María Pierres y África Rodríguez, cofundadoras de Arroelo, en el espacio en 2013"
+                fill
+                className="object-cover object-[center_20%]"
+                sizes="(max-width: 768px) 100vw, 520px"
+                priority
+              />
+            </div>
+            <figcaption className="mt-3 text-caption text-ink/40">
+              María Pierres (izq.) y África Rodríguez (dcha.) · El País, 2013 ·
+              Antonio Ron
+            </figcaption>
+          </figure>
+
+          <p className="max-w-xl text-body-lg text-ink/70 md:pb-8">
+            Arroelo nace cuando nos cruzamos en LinkedIn en 2012. En menos de
+            seis meses nos aventuramos a crear un coworking en Pontevedra con
+            una convicción sencilla: trabajar no debería sentirse como estar de
+            visita en la vida de una.
+          </p>
         </div>
 
         <div className="mt-14 grid gap-10 md:grid-cols-2">
@@ -81,29 +70,6 @@ export function Nosotras() {
               </a>
             </article>
           ))}
-        </div>
-
-        <div className="mt-16 border-t border-ink/10 pt-12">
-          <p className="text-caption text-graphite/60">En los medios</p>
-          <ul className="mt-6 space-y-5">
-            {press.map((item) => (
-              <li key={item.href}>
-                <a
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex flex-col gap-1 md:flex-row md:items-baseline md:gap-6"
-                >
-                  <span className="shrink-0 text-caption text-ink/40">
-                    {item.outlet} · {item.year}
-                  </span>
-                  <span className="text-body text-ink transition-colors group-hover:text-terracotta">
-                    {item.title}
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </section>

@@ -21,21 +21,33 @@ const bridges = [
     title: "De la ciudad a la aldea",
     cta: "Trabaja desde Anceu",
     href: "https://anceu.com/",
+    image: "/photos/mesa-fresca.jpg",
+    alt: "Mesa con fruta y planta junto a la ventana, con vista a la piedra gallega",
+    objectPosition: "object-[center_35%]",
   },
   {
     title: "Con ideas y perspectivas",
     cta: "Ven a Café a la fresca",
     href: "#cafe",
+    image: "/photos/croissants-charla.jpg",
+    alt: "Croissants, café y charla en la mesa del Café a la fresca",
+    objectPosition: "object-[center_65%]",
   },
   {
     title: "De Galicia para el mundo",
     cta: "Descubre ECHN",
     href: "https://creativehubs.net/",
+    image: "/photos/ig-grupo-pie.jpg",
+    alt: "Grupo diverso de Arroelo sonriendo juntos en el salón",
+    objectPosition: "object-[center_30%]",
   },
   {
     title: "Con arte y tecnología",
     cta: "Conoce Rural Hackers",
     href: "https://www.ruralhackers.com/",
+    image: "/photos/ig-salon-vivo.jpg",
+    alt: "Salón vivo: trabajo en portátil y taller creativo al fondo",
+    objectPosition: "object-[center_45%]",
   },
 ];
 
@@ -51,14 +63,15 @@ export function Espacio() {
           En el centro de Pontevedra — Rúa Cobián Roffignac, tercer piso —
           las mañanas huelen a café y a lluvia fina contra los cristales.
           Ni el caos de la cocina, ni el frío de un cubículo: un entorno
-          cozy y productivo para perfiles +35.
+          cozy y productivo para perfiles +35 — con una mesa donde se cruzan
+          generaciones.
         </p>
 
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/encuentro-mesa.jpg")}
-              alt="Comunidad reunida en la mesa del salón de Arroelo"
+              src={withBase("/photos/ig-salon-luz.jpg")}
+              alt="Salón de Arroelo vacío con luz natural, mesas de madera y plantas"
               fill
               className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -66,19 +79,19 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src={withBase("/photos/croissants-charla.jpg")}
-              alt="Conversación alrededor de la mesa en Café a la fresca"
+              src={withBase("/photos/desayuno.jpg")}
+              alt="Desayuno compartido: fruta, café y conversación en la mesa"
               fill
-              className="object-cover object-center"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/coworker-enfoque.jpg")}
-              alt="Coworker trabajando con luz natural en Arroelo"
+              src={withBase("/photos/ig-mesa-oval.jpg")}
+              alt="Comunidad de Arroelo alrededor de la mesa oval, sonrisas y café"
               fill
-              className="object-cover object-[center_20%]"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
@@ -93,7 +106,7 @@ export function Espacio() {
           ))}
         </div>
 
-        <div className="mt-16 grid gap-6 border-t border-ink/10 pt-12 sm:grid-cols-2">
+        <div className="mt-16 grid gap-5 border-t border-ink/10 pt-12 sm:grid-cols-2">
           {bridges.map((item) => (
             <a
               key={item.title}
@@ -101,12 +114,31 @@ export function Espacio() {
               {...(item.href.startsWith("http")
                 ? { target: "_blank", rel: "noopener noreferrer" }
                 : {})}
-              className="group rounded-3xl bg-paper px-6 py-8 transition-colors hover:bg-mist"
+              className="group relative aspect-[4/3] overflow-hidden rounded-3xl"
             >
-              <h3 className="text-heading-sm text-ink">{item.title}</h3>
-              <p className="mt-3 text-body text-terracotta group-hover:underline">
-                {item.cta}
-              </p>
+              <Image
+                src={withBase(item.image)}
+                alt={item.alt}
+                fill
+                className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${item.objectPosition}`}
+                sizes="(max-width: 640px) 100vw, 50vw"
+              />
+              <div
+                aria-hidden
+                className="absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/20 to-transparent"
+              />
+              <div className="absolute inset-x-0 bottom-0 p-6 md:p-7">
+                <h3 className="text-heading-sm text-paper">{item.title}</h3>
+                <p className="mt-2 text-body text-cream/90 transition-colors group-hover:text-terracotta">
+                  {item.cta}
+                  <span
+                    aria-hidden
+                    className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    →
+                  </span>
+                </p>
+              </div>
             </a>
           ))}
         </div>
