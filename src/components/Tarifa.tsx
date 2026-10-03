@@ -23,8 +23,7 @@ export function Tarifa() {
           Dos formas de estar en Arroelo
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-body-lg text-ink/65">
-          Más de 10 años de coworking en Pontevedra. La misma claridad de
-          siempre.
+          Más de 10 años de coworking en Pontevedra.
         </p>
 
         <div className="mt-14 grid gap-6 text-left md:grid-cols-2">
