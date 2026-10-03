@@ -6,11 +6,11 @@ export function Hero() {
   return (
     <section className="relative min-h-[100svh] overflow-hidden bg-deep-teal text-paper">
       <Image
-        src={withBase("/photos/encuentro.jpg")}
-        alt="Comunidad intergeneracional de Arroelo alrededor de la mesa, con laptop y café"
+        src={withBase("/photos/hero-comunidad.jpg")}
+        alt="Grupo intergeneracional de Arroelo sonriendo a cámara en el salón"
         fill
         priority
-        className="object-cover object-[center_40%]"
+        className="object-cover object-[center_32%]"
         sizes="100vw"
       />
       <div

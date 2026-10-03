@@ -76,10 +76,10 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/ig-grupo-pie.jpg")}
-              alt="Grupo intergeneracional de pie en el salón de Arroelo"
+              src={withBase("/photos/ig-mesa-oval.jpg")}
+              alt="Comunidad de Arroelo alrededor de la mesa oval, sonrisas y café"
               fill
-              className="object-cover object-[center_35%]"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
