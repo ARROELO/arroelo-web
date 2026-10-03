@@ -29,9 +29,9 @@ const bridges = [
     title: "Con ideas y perspectivas",
     cta: "Ven a Café a la fresca",
     href: "#cafe",
-    image: "/photos/ig-cafe-mesa.jpg",
-    alt: "Comunidad alrededor de la mesa compartiendo café e ideas",
-    objectPosition: "object-[center_40%]",
+    image: "/photos/croissants-charla.jpg",
+    alt: "Croissants, café y charla en la mesa del Café a la fresca",
+    objectPosition: "object-[center_65%]",
   },
   {
     title: "De Galicia para el mundo",
@@ -79,10 +79,10 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src={withBase("/photos/ig-puestos-ventana.jpg")}
-              alt="Puestos de trabajo junto a la ventana con vistas a la piedra de Pontevedra"
+              src={withBase("/photos/desayuno.jpg")}
+              alt="Desayuno compartido: fruta, café y conversación en la mesa"
               fill
-              className="object-cover object-[center_45%]"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>

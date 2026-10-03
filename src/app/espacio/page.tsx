@@ -53,16 +53,16 @@ const gallery = [
     alt: "Salón vivo: trabajo y taller en las mesas de Arroelo",
   },
   {
-    src: "/photos/ig-cafe-mesa.jpg",
-    alt: "Café a la fresca: conversación alrededor de la mesa",
+    src: "/photos/mesa.jpg",
+    alt: "Mesa de desayuno con fruta, queso y bollería",
   },
   {
     src: "/photos/ig-puestos-luz.jpg",
     alt: "Puestos con monitores y sillas ergonómicas junto a la ventana",
   },
   {
-    src: "/photos/ig-mesa-oval.jpg",
-    alt: "Pausa en la mesa oval del salón",
+    src: "/photos/croissants-charla.jpg",
+    alt: "Croissants y café en el Café a la fresca",
   },
   {
     src: "/photos/ig-grupo-pie.jpg",
