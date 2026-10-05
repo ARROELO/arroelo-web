@@ -15,10 +15,10 @@ export default function Home() {
       <SiteHeader />
       <main>
         <Hero />
+        <SalonMovimiento />
         <Espacio />
         <Filosofia />
         <Cafe />
-        <SalonMovimiento />
         <Nosotras />
         <Testimonio />
         <Tarifa />

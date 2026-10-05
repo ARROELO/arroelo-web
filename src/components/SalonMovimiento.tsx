@@ -18,7 +18,7 @@ export function SalonMovimiento() {
         video.pause();
       } else {
         void video.play().catch(() => {
-          /* autoplay may be blocked; controls remain available */
+          /* autoplay may be blocked */
         });
       }
     };
@@ -30,47 +30,42 @@ export function SalonMovimiento() {
   return (
     <section
       id="salon-movimiento"
-      className="bg-fog"
-      aria-labelledby="salon-movimiento-title"
+      className="relative min-h-[78svh] overflow-hidden bg-deep-teal text-paper md:min-h-[88svh]"
+      aria-label="El salón en movimiento"
     >
-      <div className="mx-auto max-w-[1100px] px-6 pt-120 md:px-10">
-        <p className="text-caption text-graphite/70">En movimiento</p>
-        <h2
-          id="salon-movimiento-title"
-          className="mt-4 max-w-[16ch] text-heading-lg text-ink"
+      {reduceMotion ? (
+        <Image
+          src={withBase("/videos/arroelo-poster.webp")}
+          alt="Vista del salón de Arroelo con luz natural y mesas de trabajo"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+      ) : (
+        <video
+          ref={videoRef}
+          className="absolute inset-0 h-full w-full object-cover"
+          poster={withBase("/videos/arroelo-poster.webp")}
+          muted
+          loop
+          playsInline
+          autoPlay
+          preload="metadata"
+          aria-label="Recorrido en vídeo por el salón de Espacio Arroelo"
         >
-          El salón en movimiento
-        </h2>
-        <p className="mt-6 max-w-xl text-body-lg text-ink/70">
-          Luz, mesas y conversación: así se siente Arroelo a lo largo del día.
-        </p>
-      </div>
+          <source src={withBase("/videos/arroelo.mp4")} type="video/mp4" />
+        </video>
+      )}
 
-      <div className="relative mt-12 aspect-[16/9] w-full overflow-hidden bg-mist md:mt-16">
-        {reduceMotion ? (
-          <Image
-            src={withBase("/videos/arroelo-poster.webp")}
-            alt="Vista del salón de Arroelo con luz natural y mesas de trabajo"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-        ) : (
-          <video
-            ref={videoRef}
-            className="absolute inset-0 h-full w-full object-cover"
-            poster={withBase("/videos/arroelo-poster.webp")}
-            muted
-            loop
-            playsInline
-            autoPlay
-            controls
-            preload="metadata"
-            aria-label="Recorrido en vídeo por el salón de Espacio Arroelo"
-          >
-            <source src={withBase("/videos/arroelo.mp4")} type="video/mp4" />
-          </video>
-        )}
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,24,20,0.18)_0%,rgba(26,24,20,0.05)_45%,rgba(26,24,20,0.72)_100%)]"
+      />
+
+      <div className="relative z-10 mx-auto flex min-h-[78svh] max-w-[1400px] flex-col justify-end px-6 pb-14 md:min-h-[88svh] md:px-10 md:pb-20">
+        <p className="reveal max-w-[22ch] text-heading-sm text-paper/95 md:text-heading">
+          El salón en movimiento
+        </p>
       </div>
     </section>
   );
