@@ -94,8 +94,6 @@ const footerLinks = [
   { label: "Espacio", href: "/espacio" },
   { label: "Coworkers", href: "/coworkers" },
   { label: "Café a la fresca", href: "/#cafe" },
-  { label: "Nosotras", href: "/#nosotras" },
-  { label: "Tarifa", href: "/#tarifa" },
   { label: "Blog", href: "https://espacioarroelo.es/projects/" },
   {
     label: "Privacidad",
