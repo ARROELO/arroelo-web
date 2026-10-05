@@ -37,20 +37,6 @@ export const coworkers: Coworker[] = [
     photo: undefined,
   },
   {
-    name: "José Rodrigo",
-    photo: "/photos/coworkers/jose.png",
-  },
-  {
-    name: "Roberto Froiz",
-    href: "https://www.linkedin.com/in/roberto-froiz-a160249/",
-    photo: "/photos/coworkers/rober.png",
-  },
-  {
-    name: "Saleta González",
-    href: "https://www.linkedin.com/in/saleta-gonz%C3%A1lez-032a5b26/",
-    photo: "/photos/coworkers/saleta.png",
-  },
-  {
     name: "Helena González",
     href: "https://www.linkedin.com/in/helena-gonzalez-vazquez",
     photo: "/photos/coworkers/11.png",
@@ -58,10 +44,6 @@ export const coworkers: Coworker[] = [
   {
     name: "Ana Alfonsin",
     photo: "/photos/coworkers/12.png",
-  },
-  {
-    name: "Kiko",
-    photo: "/photos/coworkers/kiko.png",
   },
   {
     name: "Isa Ures",
@@ -76,11 +58,6 @@ export const coworkers: Coworker[] = [
     name: "Baia Fernández",
     href: "https://www.linkedin.com/in/baia-fern%C3%A1ndez-149268245/",
     photo: "/photos/coworkers/baia.png",
-  },
-  {
-    name: "Carolina Rivela",
-    href: "https://carolinarivela.com/",
-    photo: "/photos/coworkers/carol.png",
   },
   { name: "Te esperamos", open: true },
   { name: "Te esperamos", open: true },
