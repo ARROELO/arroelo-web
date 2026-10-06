@@ -90,18 +90,55 @@ function SiteChrome({
   const menuId = useId();
   const [open, setOpen] = useState(false);
   const [overDark, setOverDark] = useState(variant === "hero");
+  const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
-    const fallback = variant === "hero";
     let raf = 0;
+    let lastY = window.scrollY;
+    let lastHidden = false;
+
+    const threshold = () =>
+      variant === "hero"
+        ? Math.max(window.innerHeight * 0.72, 320)
+        : Math.max(160, window.innerHeight * 0.2);
+
     const update = () => {
       raf = 0;
-      setOverDark(sampleOverDark(fallback));
+      const y = window.scrollY;
+      const goingDown = y > lastY + 2;
+      const goingUp = y < lastY - 2;
+      const limit = threshold();
+
+      let next = lastHidden;
+      if (open) {
+        next = false;
+      } else if (y < 48) {
+        next = false;
+      } else if (y > limit && goingDown) {
+        next = true;
+      } else if (goingUp && y < limit) {
+        next = false;
+      } else if (y > limit * 1.15) {
+        next = true;
+      }
+
+      if (next !== lastHidden) {
+        lastHidden = next;
+        setHidden(next);
+      }
+
+      if (!next) {
+        setOverDark(sampleOverDark(variant === "hero"));
+      }
+
+      lastY = y;
     };
+
     const onScrollOrResize = () => {
       if (raf) return;
       raf = requestAnimationFrame(update);
     };
+
     raf = requestAnimationFrame(update);
     window.addEventListener("scroll", onScrollOrResize, { passive: true });
     window.addEventListener("resize", onScrollOrResize, { passive: true });
@@ -110,7 +147,7 @@ function SiteChrome({
       window.removeEventListener("resize", onScrollOrResize);
       if (raf) cancelAnimationFrame(raf);
     };
-  }, [variant, pathname]);
+  }, [variant, pathname, open]);
 
   useEffect(() => {
     if (!open) return;
@@ -126,6 +163,8 @@ function SiteChrome({
   }, [open]);
 
   const ink = !overDark;
+  const peeking = !hidden || open;
+  const interact = peeking ? "pointer-events-auto" : "pointer-events-none";
   const linkClass =
     "block py-0.5 text-[15px] font-normal leading-[1.25] tracking-[-0.011em] transition-colors duration-200";
   const desktopLink = ink
@@ -143,18 +182,22 @@ function SiteChrome({
 
       <header
         data-site-chrome
-        className="pointer-events-none fixed inset-x-0 top-0 z-40"
+        className={`pointer-events-none fixed inset-x-0 top-0 z-40 transition-[opacity,transform] duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+          peeking ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0"
+        }`}
+        aria-hidden={peeking ? undefined : true}
       >
         <div
           aria-hidden
           className={`pointer-events-none absolute inset-x-0 top-0 h-36 bg-[linear-gradient(180deg,rgba(26,24,20,0.28)_0%,transparent_100%)] transition-opacity duration-300 md:h-44 ${
-            overDark ? "opacity-100" : "opacity-0"
+            overDark && peeking ? "opacity-100" : "opacity-0"
           }`}
         />
         <div className="relative flex items-start justify-between px-6 pt-5 md:px-10 md:pt-7">
           <Link
             href="/"
-            className="pointer-events-auto relative z-20 flex shrink-0 items-center transition-opacity hover:opacity-75"
+            tabIndex={peeking ? undefined : -1}
+            className={`${interact} relative z-20 flex shrink-0 items-center transition-opacity hover:opacity-75`}
           >
             <Image
               src={withBase(
@@ -169,8 +212,9 @@ function SiteChrome({
           </Link>
 
           <nav
-            className="pointer-events-auto hidden md:block"
+            className={`${interact} hidden md:block`}
             aria-label="Principal"
+            inert={peeking ? undefined : true}
           >
             <NavLinks
               pathname={pathname}
@@ -182,7 +226,8 @@ function SiteChrome({
 
           <button
             type="button"
-            className={`pointer-events-auto relative z-20 flex h-9 w-9 items-center justify-center md:hidden ${
+            tabIndex={peeking ? undefined : -1}
+            className={`${interact} relative z-20 flex h-9 w-9 items-center justify-center md:hidden ${
               open || ink ? "text-ink" : "text-paper"
             }`}
             aria-expanded={open}
