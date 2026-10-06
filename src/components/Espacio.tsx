@@ -72,16 +72,17 @@ const gallery = [
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog py-120">
-      <div className="mx-auto grid max-w-[1440px] items-start gap-12 px-4 md:grid-cols-12 md:gap-10 md:px-5 lg:gap-14 lg:px-6">
+      {/* Arc-like: 1rem edge padding, full-bleed width (no centered max-w inset) */}
+      <div className="grid items-start gap-12 px-4 md:grid-cols-12 md:gap-8 lg:gap-10">
         <aside className="md:sticky md:top-28 md:col-span-4 lg:col-span-3">
-          <p className="text-label text-graphite/80">El salón</p>
-          <h2 className="mt-3 max-w-[16ch] text-heading text-ink md:mt-4">
+          <p className="text-espacio-label text-graphite/80">El salón</p>
+          <h2 className="mt-3 max-w-[18ch] text-espacio-title text-ink md:mt-3.5">
             Un espacio abierto donde inspirarte con otras personas.
           </h2>
-          <p className="mt-5 text-body-lg text-ink/70 md:mt-6">
-            Nosotras abrimos el salón cada mañana en el centro de Pontevedra.
-            Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
-            pide, y libertad para que ocurran visitas, ideas y redes.
+          <p className="mt-5 max-w-[36ch] text-espacio-body text-ink/70 md:mt-5">
+            Abrimos el salón cada mañana en el centro de Pontevedra. Ni casa, ni
+            oficina: foco cuando hace falta, pausa cuando el día lo pide, y
+            libertad para que ocurran visitas, ideas y redes.
           </p>
         </aside>
 
@@ -105,12 +106,14 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mx-auto mt-16 max-w-[1440px] px-4 md:px-5 lg:px-6">
+      <div className="mt-16 px-4">
         <div className="grid gap-12 border-t border-ink/10 pt-12 md:grid-cols-3 md:gap-10">
           {pillars.map((item) => (
             <div key={item.title}>
-              <h3 className="text-label text-ink">{item.title}</h3>
-              <p className="mt-3 text-body text-ink/65">{item.body}</p>
+              <h3 className="text-espacio-label text-ink">{item.title}</h3>
+              <p className="mt-3 max-w-[36ch] text-espacio-body text-ink/65">
+                {item.body}
+              </p>
             </div>
           ))}
         </div>
