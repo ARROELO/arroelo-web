@@ -85,20 +85,18 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mt-12 grid items-start gap-10 sm:mt-14 sm:grid-cols-2 sm:gap-12 md:mt-16 md:gap-14 lg:grid-cols-3 lg:gap-16">
-        {gallery.map((shot, i) => (
+      <div className="mt-12 grid grid-cols-1 gap-3 sm:mt-14 sm:grid-cols-3 sm:gap-4 md:mt-16 md:gap-5">
+        {gallery.map((shot) => (
           <div
             key={shot.src}
-            className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
-              i === 1 ? "sm:mt-20 lg:mt-24" : ""
-            } ${i === 2 ? "sm:col-span-2 lg:col-span-1 lg:mt-36" : ""}`}
+            className="relative aspect-[3/4] overflow-hidden rounded-none"
           >
             <Image
               src={withBase(shot.src)}
               alt={shot.alt}
               fill
               className={`object-cover ${shot.objectPosition}`}
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              sizes="(max-width: 640px) 100vw, 33vw"
             />
           </div>
         ))}
