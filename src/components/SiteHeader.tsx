@@ -178,7 +178,7 @@ function SiteChrome({
   return (
     <>
       {variant === "solid" ? (
-        <div className="h-24 md:h-32" aria-hidden />
+        <div className="h-[5.5rem] md:h-[7.25rem]" aria-hidden />
       ) : null}
 
       <header
