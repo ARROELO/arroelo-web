@@ -111,14 +111,14 @@ function DrawRule() {
 
 export function Espacio() {
   return (
-    <section id="espacio" className="relative z-10 bg-fog pt-12 pb-80 md:pt-16 lg:pt-20">
+    <section id="espacio" className="relative z-10 bg-fog pt-8 pb-80 md:pt-10 lg:pt-12">
       {/* Post-hero intro — Arc pattern: editorial block immediately after video */}
       <div className="px-4 md:px-6">
         <div className="max-w-[42ch] md:max-w-[50%]">
-          <h2 className="text-espacio-title text-terracotta">
+          <h2 className="text-espacio-intro-title text-terracotta">
             Tu espacio de coworking en el centro de Pontevedra.
           </h2>
-          <p className="mt-2 text-espacio-body text-ink">
+          <p className="mt-2 text-espacio-intro-body text-ink">
             Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
             pide, y libertad para que ocurran visitas, ideas y redes.
           </p>
