@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import type { ReactNode } from "react";
 import { useEffect, useRef, useState } from "react";
 import { withBase } from "@/lib/path";
 
@@ -22,26 +23,36 @@ const pillars = [
   },
 ];
 
-const bridges = [
+const bridges: {
+  title: string;
+  body: ReactNode;
+  href: string;
+  image: string;
+  alt: string;
+  objectPosition: string;
+}[] = [
   {
     title: "De la ciudad a la aldea",
-    cta: "También el coworking de Anceu",
+    body: (
+      <>
+        Por ser de Arroelo, puedes usar de forma gratuita el coworking de{" "}
+        <strong className="font-medium text-ink">Anceu Coliving</strong>.
+      </>
+    ),
     href: "https://anceu.com/",
     image: "/photos/anceu-coworking.jpg",
     alt: "Personas trabajando en el coworking de Anceu Coliving, en la aldea",
     objectPosition: "object-[center_45%]",
   },
   {
-    title: "Con ideas y perspectivas",
-    cta: "Ven a Café a la fresca",
-    href: "#cafe",
-    image: "/photos/cafe-comunidad.jpg",
-    alt: "Comunidad de Arroelo alrededor de la mesa del Café a la fresca",
-    objectPosition: "object-[center_45%]",
-  },
-  {
     title: "De Galicia para el mundo",
-    cta: "Descubre ECHN",
+    body: (
+      <>
+        Somos parte de la{" "}
+        <strong className="font-medium text-ink">ECHN</strong> y así estás en
+        contacto con otros espacios creativos de Europa.
+      </>
+    ),
     href: "https://creativehubs.net/",
     image: "/photos/echn-otro-espacio.jpg",
     alt: "Arroelo en otro hub: trabajo compartido en un espacio de la red creativa europea",
@@ -49,10 +60,10 @@ const bridges = [
   },
   {
     title: "Con Rural Hackers",
-    cta: "Tecnología y aldea, la misma red",
-    href: "https://www.ruralhackers.com/",
-    image: "/photos/rural-hackers-tech.jpg",
-    alt: "Taller de Rural Hackers: reparar y hackear tecnología al aire libre en la aldea",
+    body: "Aprende de tecnología e IA desde el salón de tu coworking.",
+    href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
+    image: "/photos/salon-trabajo.jpg",
+    alt: "Coworker con portátil en el salón de Arroelo",
     objectPosition: "object-[center_40%]",
   },
 ];
@@ -145,7 +156,7 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mt-20 grid gap-10 border-t border-ink/10 pt-16 sm:grid-cols-2 sm:gap-12 md:mt-24 md:gap-14 md:pt-20 lg:gap-16">
+      <div className="mt-16 grid grid-cols-1 gap-10 border-t border-ink/10 px-4 pt-14 sm:mt-20 sm:grid-cols-3 sm:gap-8 md:mt-24 md:gap-10 md:pt-20 lg:gap-12">
         {bridges.map((item) => (
           <a
             key={item.title}
@@ -153,31 +164,21 @@ export function Espacio() {
             {...(item.href.startsWith("http")
               ? { target: "_blank", rel: "noopener noreferrer" }
               : {})}
-            className="group relative aspect-[4/3] overflow-hidden rounded-none"
+            className="group flex min-w-0 flex-col"
           >
-            <Image
-              src={withBase(item.image)}
-              alt={item.alt}
-              fill
-              className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${item.objectPosition}`}
-              sizes="(max-width: 640px) 100vw, 50vw"
-            />
-            <div
-              aria-hidden
-              className="absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/20 to-transparent"
-            />
-            <div className="absolute inset-x-0 bottom-0 p-6 md:p-8">
-              <h3 className="text-heading-sm text-paper">{item.title}</h3>
-              <p className="mt-2 text-body text-cream/90 transition-colors group-hover:text-terracotta">
-                {item.cta}
-                <span
-                  aria-hidden
-                  className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1"
-                >
-                  →
-                </span>
-              </p>
+            <div className="relative aspect-[4/3] overflow-hidden rounded-none">
+              <Image
+                src={withBase(item.image)}
+                alt={item.alt}
+                fill
+                className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${item.objectPosition}`}
+                sizes="(max-width: 640px) 100vw, 33vw"
+              />
             </div>
+            <h3 className="mt-5 text-heading-sm text-ink transition-colors group-hover:text-terracotta">
+              {item.title}
+            </h3>
+            <p className="mt-2 text-espacio-body text-ink/65">{item.body}</p>
           </a>
         ))}
       </div>
