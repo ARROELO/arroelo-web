@@ -72,38 +72,36 @@ const gallery = [
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog py-120">
-      {/* Arc-like: 1rem edge padding, full-bleed width (no centered max-w inset) */}
-      <div className="grid items-start gap-12 px-4 md:grid-cols-12 md:gap-8 lg:gap-10">
-        <aside className="md:sticky md:top-28 md:col-span-4 lg:col-span-3">
-          <p className="text-espacio-label text-graphite/80">El salón</p>
-          <h2 className="mt-3 max-w-[18ch] text-espacio-title text-ink md:mt-3.5">
-            Un espacio abierto donde inspirarte con otras personas.
-          </h2>
-          <p className="mt-5 max-w-[36ch] text-espacio-body text-ink/70 md:mt-5">
-            Abrimos el salón cada mañana en el centro de Pontevedra. Ni casa, ni
-            oficina: foco cuando hace falta, pausa cuando el día lo pide, y
-            libertad para que ocurran visitas, ideas y redes.
-          </p>
-        </aside>
+      {/* Arc stack: editorial text near left edge, then full-bleed photos below */}
+      <div className="px-4">
+        <p className="text-espacio-label text-graphite/80">El salón</p>
+        <h2 className="mt-3 max-w-[18ch] text-espacio-title text-ink md:mt-3.5">
+          Un espacio abierto donde inspirarte con otras personas.
+        </h2>
+        <p className="mt-5 max-w-[36ch] text-espacio-body text-ink/70 md:mt-5">
+          Abrimos el salón cada mañana en el centro de Pontevedra. Ni casa, ni
+          oficina: foco cuando hace falta, pausa cuando el día lo pide, y
+          libertad para que ocurran visitas, ideas y redes.
+        </p>
+      </div>
 
-        <div className="grid items-start gap-10 sm:grid-cols-2 sm:gap-12 md:col-span-8 md:gap-14 lg:col-span-9 lg:grid-cols-3 lg:gap-16">
-          {gallery.map((shot, i) => (
-            <div
-              key={shot.src}
-              className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
-                i === 1 ? "sm:mt-20 lg:mt-24" : ""
-              } ${i === 2 ? "sm:col-span-2 lg:col-span-1 lg:mt-36" : ""}`}
-            >
-              <Image
-                src={withBase(shot.src)}
-                alt={shot.alt}
-                fill
-                className={`object-cover ${shot.objectPosition}`}
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 28vw"
-              />
-            </div>
-          ))}
-        </div>
+      <div className="mt-12 grid items-start gap-10 sm:mt-14 sm:grid-cols-2 sm:gap-12 md:mt-16 md:gap-14 lg:grid-cols-3 lg:gap-16">
+        {gallery.map((shot, i) => (
+          <div
+            key={shot.src}
+            className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
+              i === 1 ? "sm:mt-20 lg:mt-24" : ""
+            } ${i === 2 ? "sm:col-span-2 lg:col-span-1 lg:mt-36" : ""}`}
+          >
+            <Image
+              src={withBase(shot.src)}
+              alt={shot.alt}
+              fill
+              className={`object-cover ${shot.objectPosition}`}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+          </div>
+        ))}
       </div>
 
       <div className="mt-16 px-4">
