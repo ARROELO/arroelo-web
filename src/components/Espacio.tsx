@@ -171,7 +171,7 @@ export function Espacio() {
             className="group block border-t border-ink/14"
           >
             {/* Arc impact row: narrow number at editorial left edge → text → photo to right margin */}
-            <div className="grid grid-cols-1 items-start gap-8 py-14 pl-4 pr-0 md:grid-cols-[auto_minmax(0,24rem)_minmax(0,1fr)] md:gap-x-8 md:py-20 lg:grid-cols-[auto_minmax(0,28rem)_minmax(0,1fr)] lg:gap-x-10 lg:py-24 md:pl-6">
+            <div className="grid grid-cols-1 items-start gap-8 py-14 pl-4 pr-4 md:grid-cols-[auto_minmax(0,24rem)_1fr] md:gap-x-8 md:py-20 lg:grid-cols-[auto_minmax(0,28rem)_1fr] lg:gap-x-10 lg:py-24 md:pl-6 md:pr-6">
               <div className="flex items-start gap-5 md:contents">
                 <span
                   className="w-[1.25rem] shrink-0 text-espacio-title text-ink tabular-nums"
@@ -188,13 +188,13 @@ export function Espacio() {
                   </p>
                 </div>
               </div>
-              <div className="relative aspect-[4/3] min-w-0 overflow-hidden rounded-none bg-mist md:aspect-[3/2]">
+              <div className="relative aspect-[4/3] min-w-0 w-full overflow-hidden rounded-none bg-mist md:aspect-[3/2] md:max-w-[min(34rem,40vw)] md:justify-self-end lg:max-w-[36rem]">
                 <Image
                   src={withBase(item.image)}
                   alt={item.alt}
                   fill
                   className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
-                  sizes="(max-width: 768px) 100vw, 62vw"
+                  sizes="(max-width: 768px) 100vw, min(36rem, 40vw)"
                 />
               </div>
             </div>
