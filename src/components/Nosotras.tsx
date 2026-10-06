@@ -17,7 +17,7 @@ export function Nosotras() {
         </p>
       </div>
 
-      <div className="mt-12 grid gap-px md:mt-16 md:h-[min(85vh,780px)] md:grid-cols-12">
+      <div className="mt-14 grid gap-8 md:mt-20 md:h-[min(85vh,780px)] md:grid-cols-12 md:gap-10 lg:gap-14">
         <div className="relative aspect-[2/3] overflow-hidden rounded-none bg-mist md:col-span-5 md:aspect-auto md:h-full">
           <Image
             src={withBase("/photos/nosotras-prensa.jpg")}
@@ -28,7 +28,7 @@ export function Nosotras() {
             priority
           />
         </div>
-        <div className="relative aspect-[3/2] overflow-hidden rounded-none bg-mist md:col-span-7 md:aspect-auto md:h-full">
+        <div className="relative aspect-[3/2] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-12 md:aspect-auto md:h-[calc(100%-3rem)] lg:mt-16 lg:h-[calc(100%-4rem)]">
           <Image
             src={withBase("/photos/pontevedra-calle.jpg")}
             alt="Portátil en una mesa en la Praza da Ferrería, con una mujer trabajando y otra al fondo"
@@ -39,7 +39,7 @@ export function Nosotras() {
         </div>
       </div>
 
-      <div className="mx-auto mt-3 grid max-w-[1100px] gap-3 px-6 md:grid-cols-12 md:gap-6 md:px-10">
+      <div className="mx-auto mt-5 grid max-w-[1100px] gap-4 px-6 md:grid-cols-12 md:gap-10 md:px-10 lg:gap-14">
         <p className="overflow-x-auto whitespace-nowrap text-caption text-ink/40 md:col-span-5">
           María Pierres (izq.) y África Rodríguez (dcha.) · fundadoras de
           Espacio Arroelo

@@ -1,7 +1,7 @@
 /* Coworkers page — editorial full-bleed team grid (Arc-inspired) */
 
 .coworkers-page {
-  --coworker-gap: 2px;
+  --coworker-gap: clamp(1.75rem, 3.2vw, 3.5rem);
   background:
     radial-gradient(
       120% 80% at 10% 0%,
@@ -26,7 +26,8 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--coworker-gap);
   width: 100%;
-  background: var(--color-ink);
+  padding-bottom: clamp(3rem, 8vw, 6rem);
+  background: transparent;
 }
 
 @media (min-width: 768px) {
