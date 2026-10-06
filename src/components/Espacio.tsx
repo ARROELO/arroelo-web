@@ -1,18 +1,27 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 import { withBase } from "@/lib/path";
 
 const pillars = [
   {
     title: "Enfoque",
-    body: "El foco no es encerrarse. Es un tiempo propio: mesa, luz y silencio cuando lo necesitas — sin el ruido de casa ni el protocolo de una oficina.",
+    src: "/photos/salon-ventana.jpg",
+    alt: "Salón de Arroelo con luz natural, mesa de madera y vista a la ciudad",
+    objectPosition: "object-[center_40%]",
   },
   {
     title: "Pausa",
-    body: "A las 11:30, Café a la fresca. Lo que vale suele pasar entre tareas: una charla, una visita, una perspectiva que no estaba en el calendario.",
+    src: "/photos/croissants-charla.jpg",
+    alt: "Pausa a las 11:30: tazas de café, croissants y charla en la mesa",
+    objectPosition: "object-[center_40%]",
   },
   {
     title: "Libertad",
-    body: "Tejemos redes sin networking forzado. Quien entra no tiene que venderse: hay mesa, hay tiempo, y libertad para que ocurran cosas.",
+    src: "/photos/ig-grupo-pie.jpg",
+    alt: "Comunidad de Arroelo: un grupo de coworkers juntas en el salón",
+    objectPosition: "object-[center_35%]",
   },
 ];
 
@@ -51,23 +60,46 @@ const bridges = [
   },
 ];
 
-const gallery = [
-  {
-    src: "/photos/salon-ventana.jpg",
-    alt: "Salón de Arroelo con luz natural, mesa de madera y vista a la ciudad",
-    objectPosition: "object-[center_40%]",
-  },
-  {
-    src: "/photos/croissants-charla.jpg",
-    alt: "Pausa a las 11:30: tazas de café, croissants y charla en la mesa",
-    objectPosition: "object-[center_40%]",
-  },
-  {
-    src: "/photos/ig-grupo-pie.jpg",
-    alt: "Comunidad de Arroelo: un grupo de coworkers juntas en el salón",
-    objectPosition: "object-[center_35%]",
-  },
-];
+/** Arc /process-style hairline: draws width 0→100% when it enters the viewport. */
+function DrawRule() {
+  const ref = useRef<HTMLDivElement>(null);
+  const [drawn, setDrawn] = useState(false);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (reduce.matches) {
+      setDrawn(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry?.isIntersecting) {
+          setDrawn(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2, rootMargin: "0px 0px -8% 0px" },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div className="mt-10 px-4 sm:mt-12 md:mt-14" aria-hidden>
+      <div
+        ref={ref}
+        className={`h-px w-full origin-left bg-ink/14 transition-transform duration-[1250ms] ease-[cubic-bezier(0.76,0,0.24,1)] motion-reduce:transition-none ${
+          drawn ? "scale-x-100" : "scale-x-0"
+        }`}
+      />
+    </div>
+  );
+}
 
 export function Espacio() {
   return (
@@ -85,34 +117,25 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mt-12 grid grid-cols-1 gap-3 sm:mt-14 sm:grid-cols-3 sm:gap-4 md:mt-16 md:gap-5">
-        {gallery.map((shot) => (
-          <div
-            key={shot.src}
-            className="relative aspect-[3/4] overflow-hidden rounded-none"
-          >
-            <Image
-              src={withBase(shot.src)}
-              alt={shot.alt}
-              fill
-              className={`object-cover ${shot.objectPosition}`}
-              sizes="(max-width: 640px) 100vw, 33vw"
-            />
-          </div>
-        ))}
-      </div>
+      <DrawRule />
 
-      <div className="mt-16 px-4">
-        <div className="grid gap-12 border-t border-ink/10 pt-12 md:grid-cols-3 md:gap-10">
-          {pillars.map((item) => (
-            <div key={item.title}>
-              <h3 className="text-espacio-label text-ink">{item.title}</h3>
-              <p className="mt-3 max-w-[36ch] text-espacio-body text-ink/65">
-                {item.body}
-              </p>
+      <div className="mt-12 grid grid-cols-1 gap-3 sm:mt-14 sm:grid-cols-3 sm:gap-4 md:mt-16 md:gap-5">
+        {pillars.map((shot) => (
+          <figure key={shot.title} className="min-w-0">
+            <div className="relative aspect-[3/4] overflow-hidden rounded-none">
+              <Image
+                src={withBase(shot.src)}
+                alt={shot.alt}
+                fill
+                className={`object-cover ${shot.objectPosition}`}
+                sizes="(max-width: 640px) 100vw, 33vw"
+              />
             </div>
-          ))}
-        </div>
+            <figcaption className="mt-3 px-1 text-espacio-label text-ink sm:mt-4">
+              {shot.title}
+            </figcaption>
+          </figure>
+        ))}
       </div>
 
       <div className="mt-20 grid gap-10 border-t border-ink/10 pt-16 sm:grid-cols-2 sm:gap-12 md:mt-24 md:gap-14 md:pt-20 lg:gap-16">
