@@ -145,7 +145,7 @@ export function Espacio() {
 
       <Cafe />
 
-      <div className="grid grid-cols-1 gap-10 px-4 pt-14 sm:grid-cols-3 sm:gap-8 md:gap-10 md:pt-20 lg:gap-12">
+      <div className="mx-auto mt-14 flex max-w-[1440px] flex-col px-4 md:mt-20 md:px-6 lg:mt-24">
         {bridges.map((item) => (
           <a
             key={item.title}
@@ -153,21 +153,25 @@ export function Espacio() {
             {...(item.href.startsWith("http")
               ? { target: "_blank", rel: "noopener noreferrer" }
               : {})}
-            className="group flex min-w-0 flex-col"
+            className="group grid grid-cols-1 items-start gap-8 border-t border-ink/14 py-14 md:grid-cols-12 md:gap-12 md:py-20 lg:gap-16 lg:py-24"
           >
-            <div className="relative aspect-[4/3] overflow-hidden rounded-none">
+            <div className="min-w-0 md:col-span-5">
+              <h3 className="max-w-[22ch] text-espacio-title text-ink transition-colors group-hover:text-terracotta">
+                {item.title}
+              </h3>
+              <p className="mt-3 max-w-[35ch] text-espacio-body text-ink/65 md:mt-4">
+                {item.body}
+              </p>
+            </div>
+            <div className="relative aspect-[4/3] min-w-0 overflow-hidden rounded-none bg-mist md:col-span-7 md:aspect-[3/2]">
               <Image
                 src={withBase(item.image)}
                 alt={item.alt}
                 fill
-                className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${item.objectPosition}`}
-                sizes="(max-width: 640px) 100vw, 33vw"
+                className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
+                sizes="(max-width: 768px) 100vw, 58vw"
               />
             </div>
-            <h3 className="mt-5 text-heading-sm text-ink transition-colors group-hover:text-terracotta">
-              {item.title}
-            </h3>
-            <p className="mt-2 text-espacio-body text-ink/65">{item.body}</p>
           </a>
         ))}
       </div>
