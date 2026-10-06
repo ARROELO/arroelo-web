@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import { Cafe } from "@/components/Cafe";
 import { withBase } from "@/lib/path";
 
 const pillars = [
@@ -141,6 +142,8 @@ export function Espacio() {
       </div>
 
       <DrawRule />
+
+      <Cafe />
 
       <div className="grid grid-cols-1 gap-10 px-4 pt-14 sm:grid-cols-3 sm:gap-8 md:gap-10 md:pt-20 lg:gap-12">
         {bridges.map((item) => (

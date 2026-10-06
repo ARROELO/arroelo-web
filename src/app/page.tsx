@@ -1,4 +1,3 @@
-import { Cafe } from "@/components/Cafe";
 import { Contacto, SiteFooter } from "@/components/Contacto";
 import { Espacio } from "@/components/Espacio";
 import { Filosofia } from "@/components/Filosofia";
@@ -18,7 +17,6 @@ export default function Home() {
           <Espacio />
         </div>
         <Filosofia />
-        <Cafe />
         <Nosotras />
         <Testimonio />
         <Tarifa />
