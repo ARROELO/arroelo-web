@@ -72,7 +72,7 @@ const gallery = [
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog py-120">
-      <div className="mx-auto grid max-w-[1280px] items-start gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-10 lg:gap-16">
+      <div className="mx-auto grid max-w-[1280px] items-start gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-10 lg:gap-[4rem]">
         <aside className="md:sticky md:top-28 md:col-span-4 lg:col-span-3">
           <p className="text-label text-graphite/80">El salón</p>
           <h2 className="mt-4 max-w-[16ch] text-heading text-ink md:mt-5">

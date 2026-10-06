@@ -8,7 +8,7 @@ export function Cafe() {
         aria-hidden
         className="absolute inset-y-0 right-0 w-1/2 bg-[radial-gradient(circle_at_70%_40%,#d4845a33,transparent_60%)]"
       />
-      <div className="relative mx-auto grid max-w-[1280px] items-start gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-10 lg:gap-16">
+      <div className="relative mx-auto grid max-w-[1280px] items-start gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-10 lg:gap-[4rem]">
         <aside className="md:sticky md:top-28 md:col-span-4 lg:col-span-3">
           <p className="text-label text-graphite/80">Ritual diario</p>
           <h2 className="mt-4 text-heading text-ink md:mt-5">
