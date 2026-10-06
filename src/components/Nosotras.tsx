@@ -18,8 +18,8 @@ const founders = [
 
 export function Nosotras() {
   return (
-    <section id="nosotras" className="bg-fog px-6 py-120 md:px-10">
-      <div className="mx-auto max-w-[1100px]">
+    <section id="nosotras" className="bg-fog py-120">
+      <div className="mx-auto max-w-[1100px] px-6 md:px-10">
         <p className="text-caption text-graphite/70">Sobre nosotras</p>
         <h2 className="mt-5 max-w-[20ch] text-heading-lg text-ink">
           Así empezamos
@@ -30,43 +30,43 @@ export function Nosotras() {
           una convicción sencilla: trabajar no debería sentirse como estar de
           visita en la vida de una.
         </p>
+      </div>
 
-        <div className="mt-12 grid items-start gap-5 md:mt-16 md:grid-cols-12 md:gap-6">
-          <figure className="md:col-span-5">
-            <div className="relative aspect-[2/3] overflow-hidden rounded-3xl-2 bg-mist">
-              <Image
-                src={withBase("/photos/nosotras-prensa.jpg")}
-                alt="María Pierres y África Rodríguez, cofundadoras de Arroelo, en el espacio en 2013"
-                fill
-                className="object-cover object-[center_20%]"
-                sizes="(max-width: 768px) 100vw, 460px"
-                priority
-              />
-            </div>
-            <figcaption className="mt-3 text-caption text-ink/40">
-              María Pierres (izq.) y África Rodríguez (dcha.) · El País, 2013 ·
-              Antonio Ron
-            </figcaption>
-          </figure>
-
-          <figure className="md:col-span-7 md:pt-16 lg:pt-24">
-            <div className="relative aspect-[3/2] overflow-hidden rounded-3xl-2 bg-mist">
-              <Image
-                src={withBase("/photos/pontevedra-calle.jpg")}
-                alt="Portátil en una mesa en la Praza da Ferrería, con una mujer trabajando y otra al fondo"
-                fill
-                className="object-cover object-[center_45%]"
-                sizes="(max-width: 768px) 100vw, 640px"
-              />
-            </div>
-            <figcaption className="mt-3 max-w-[42ch] text-caption text-ink/40">
-              El trabajo en medio de la vida — Praza da Ferrería, a tres
-              minutos del salón.
-            </figcaption>
-          </figure>
+      <div className="mt-12 grid gap-px md:mt-16 md:h-[min(85vh,780px)] md:grid-cols-12">
+        <div className="relative aspect-[2/3] overflow-hidden bg-mist md:col-span-5 md:aspect-auto md:h-full">
+          <Image
+            src={withBase("/photos/nosotras-prensa.jpg")}
+            alt="María Pierres y África Rodríguez, cofundadoras de Arroelo, en el espacio en 2013"
+            fill
+            className="object-cover object-[center_20%]"
+            sizes="(max-width: 768px) 100vw, 42vw"
+            priority
+          />
         </div>
+        <div className="relative aspect-[3/2] overflow-hidden bg-mist md:col-span-7 md:aspect-auto md:h-full">
+          <Image
+            src={withBase("/photos/pontevedra-calle.jpg")}
+            alt="Portátil en una mesa en la Praza da Ferrería, con una mujer trabajando y otra al fondo"
+            fill
+            className="object-cover object-[center_45%]"
+            sizes="(max-width: 768px) 100vw, 58vw"
+          />
+        </div>
+      </div>
 
-        <div className="mt-16 grid gap-10 md:grid-cols-2">
+      <div className="mx-auto mt-3 grid max-w-[1100px] gap-3 px-6 md:grid-cols-12 md:gap-6 md:px-10">
+        <p className="text-caption text-ink/40 md:col-span-5">
+          María Pierres (izq.) y África Rodríguez (dcha.) · El País, 2013 ·
+          Antonio Ron
+        </p>
+        <p className="max-w-[42ch] text-caption text-ink/40 md:col-span-7">
+          El trabajo en medio de la vida — Praza da Ferrería, a tres minutos
+          del salón.
+        </p>
+      </div>
+
+      <div className="mx-auto mt-16 max-w-[1100px] px-6 md:px-10">
+        <div className="grid gap-10 md:grid-cols-2">
           {founders.map((person) => (
             <article
               key={person.name}

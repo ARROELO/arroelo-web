@@ -44,7 +44,6 @@ export function Hero() {
       const copy = copyRef.current;
       if (frame) {
         frame.style.transform = "";
-        frame.style.borderRadius = "";
       }
       if (copy) {
         copy.style.opacity = "";
@@ -69,10 +68,8 @@ export function Hero() {
       lastProgress = progress;
 
       const scale = 1 - progress * 0.12;
-      const radius = progress * 28;
       const shift = progress * 4;
       frame.style.transform = `translate3d(0, ${shift}vh, 0) scale(${scale})`;
-      frame.style.borderRadius = `${radius}px`;
 
       if (copy) {
         const fade = clamp01(progress * 1.35);

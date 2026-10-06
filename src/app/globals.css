@@ -69,6 +69,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: clip;
   }
 
   body {
@@ -80,6 +81,7 @@
     line-height: var(--leading-body);
     letter-spacing: -0.011em;
     -webkit-font-smoothing: antialiased;
+    overflow-x: clip;
   }
 
   ::selection {
@@ -237,6 +239,7 @@
     transform-origin: center center;
     will-change: transform;
     backface-visibility: hidden;
+    border-radius: 0;
   }
 }
 

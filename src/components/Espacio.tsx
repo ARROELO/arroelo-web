@@ -51,13 +51,28 @@ const bridges = [
   },
 ];
 
+const gallery = [
+  {
+    src: "/photos/salon-ventana.jpg",
+    alt: "Salón de Arroelo con luz natural, mesa de madera y vista a la ciudad",
+    objectPosition: "object-[center_40%]",
+  },
+  {
+    src: "/photos/croissants-charla.jpg",
+    alt: "Pausa a las 11:30: tazas de café, croissants y charla en la mesa",
+    objectPosition: "object-[center_40%]",
+  },
+  {
+    src: "/photos/ig-grupo-pie.jpg",
+    alt: "Comunidad de Arroelo: un grupo de coworkers juntas en el salón",
+    objectPosition: "object-[center_35%]",
+  },
+];
+
 export function Espacio() {
   return (
-    <section
-      id="espacio"
-      className="relative z-10 bg-fog px-6 py-120 md:px-10"
-    >
-      <div className="mx-auto max-w-[1100px]">
+    <section id="espacio" className="relative z-10 bg-fog py-120">
+      <div className="mx-auto max-w-[1100px] px-6 md:px-10">
         <p className="text-caption text-graphite/70">El salón</p>
         <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
           Un espacio abierto donde inspirarte con otras personas.
@@ -67,38 +82,27 @@ export function Espacio() {
           Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
           pide, y libertad para que ocurran visitas, ideas y redes.
         </p>
+      </div>
 
-        <div className="mt-14 grid gap-4 md:grid-cols-3">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
+      <div className="mt-14 grid gap-px md:grid-cols-3">
+        {gallery.map((shot) => (
+          <div
+            key={shot.src}
+            className="relative aspect-[4/5] overflow-hidden md:aspect-[3/4]"
+          >
             <Image
-              src={withBase("/photos/salon-ventana.jpg")}
-              alt="Salón de Arroelo con luz natural, mesa de madera y vista a la ciudad"
+              src={withBase(shot.src)}
+              alt={shot.alt}
               fill
-              className="object-cover object-[center_40%]"
+              className={`object-cover ${shot.objectPosition}`}
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
-          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
-            <Image
-              src={withBase("/photos/croissants-charla.jpg")}
-              alt="Pausa a las 11:30: tazas de café, croissants y charla en la mesa"
-              fill
-              className="object-cover object-[center_40%]"
-              sizes="(max-width: 768px) 100vw, 33vw"
-            />
-          </div>
-          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
-            <Image
-              src={withBase("/photos/ig-grupo-pie.jpg")}
-              alt="Comunidad de Arroelo: un grupo de coworkers juntas en el salón"
-              fill
-              className="object-cover object-[center_35%]"
-              sizes="(max-width: 768px) 100vw, 33vw"
-            />
-          </div>
-        </div>
+        ))}
+      </div>
 
-        <div className="mt-16 grid gap-12 border-t border-ink/10 pt-12 md:grid-cols-3 md:gap-10">
+      <div className="mx-auto mt-16 max-w-[1100px] px-6 md:px-10">
+        <div className="grid gap-12 border-t border-ink/10 pt-12 md:grid-cols-3 md:gap-10">
           {pillars.map((item) => (
             <div key={item.title}>
               <h3 className="text-heading-sm text-ink">{item.title}</h3>
@@ -106,43 +110,43 @@ export function Espacio() {
             </div>
           ))}
         </div>
+      </div>
 
-        <div className="mt-16 grid gap-5 border-t border-ink/10 pt-12 sm:grid-cols-2">
-          {bridges.map((item) => (
-            <a
-              key={item.title}
-              href={item.href}
-              {...(item.href.startsWith("http")
-                ? { target: "_blank", rel: "noopener noreferrer" }
-                : {})}
-              className="group relative aspect-[4/3] overflow-hidden rounded-3xl"
-            >
-              <Image
-                src={withBase(item.image)}
-                alt={item.alt}
-                fill
-                className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${item.objectPosition}`}
-                sizes="(max-width: 640px) 100vw, 50vw"
-              />
-              <div
-                aria-hidden
-                className="absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/20 to-transparent"
-              />
-              <div className="absolute inset-x-0 bottom-0 p-6 md:p-7">
-                <h3 className="text-heading-sm text-paper">{item.title}</h3>
-                <p className="mt-2 text-body text-cream/90 transition-colors group-hover:text-terracotta">
-                  {item.cta}
-                  <span
-                    aria-hidden
-                    className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1"
-                  >
-                    →
-                  </span>
-                </p>
-              </div>
-            </a>
-          ))}
-        </div>
+      <div className="mt-16 grid gap-px border-t border-ink/10 pt-12 sm:grid-cols-2">
+        {bridges.map((item) => (
+          <a
+            key={item.title}
+            href={item.href}
+            {...(item.href.startsWith("http")
+              ? { target: "_blank", rel: "noopener noreferrer" }
+              : {})}
+            className="group relative aspect-[4/3] overflow-hidden"
+          >
+            <Image
+              src={withBase(item.image)}
+              alt={item.alt}
+              fill
+              className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${item.objectPosition}`}
+              sizes="(max-width: 640px) 100vw, 50vw"
+            />
+            <div
+              aria-hidden
+              className="absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/20 to-transparent"
+            />
+            <div className="absolute inset-x-0 bottom-0 p-6 md:p-8">
+              <h3 className="text-heading-sm text-paper">{item.title}</h3>
+              <p className="mt-2 text-body text-cream/90 transition-colors group-hover:text-terracotta">
+                {item.cta}
+                <span
+                  aria-hidden
+                  className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  →
+                </span>
+              </p>
+            </div>
+          </a>
+        ))}
       </div>
     </section>
   );

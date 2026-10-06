@@ -118,26 +118,26 @@ export default function EspacioPage() {
           </div>
         </section>
 
-        <section className="bg-paper px-6 py-120 md:px-10">
-          <div className="mx-auto max-w-[1100px]">
+        <section className="bg-paper py-120">
+          <div className="mx-auto max-w-[1100px] px-6 md:px-10">
             <p className="text-caption text-graphite/70">Galería</p>
             <h2 className="mt-5 text-heading-lg text-ink">Así se vive</h2>
-            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {gallery.map((shot) => (
-                <div
-                  key={shot.src}
-                  className="relative aspect-[4/5] overflow-hidden rounded-3xl"
-                >
-                  <Image
-                    src={withBase(shot.src)}
-                    alt={shot.alt}
-                    fill
-                    className="object-cover object-[center_40%]"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </div>
-              ))}
-            </div>
+          </div>
+          <div className="mt-12 grid gap-px sm:grid-cols-2 lg:grid-cols-3">
+            {gallery.map((shot) => (
+              <div
+                key={shot.src}
+                className="relative aspect-[4/5] overflow-hidden"
+              >
+                <Image
+                  src={withBase(shot.src)}
+                  alt={shot.alt}
+                  fill
+                  className="object-cover object-[center_40%]"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              </div>
+            ))}
           </div>
         </section>
 
