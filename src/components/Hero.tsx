@@ -155,7 +155,7 @@ export function Hero() {
 
         <div
           ref={copyRef}
-          className="relative z-10 mx-auto flex min-h-[100svh] max-w-[1400px] flex-col justify-end px-6 pb-20 pt-32 md:px-10 md:pb-28"
+          className="relative z-10 flex min-h-[100svh] w-full flex-col justify-end px-4 pb-20 pt-32 text-left md:pb-28"
         >
           <h1 className="reveal max-w-[10ch] text-display">
             Arroelo
