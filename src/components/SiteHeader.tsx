@@ -237,7 +237,7 @@ function SiteChrome({
             aria-label="Arroelo — inicio"
           >
             <span
-              className={`block font-bold leading-[0.88] tracking-[-0.045em] text-[clamp(2rem,5.2vw,5.25rem)] ${brandClass}`}
+              className={`block font-bold leading-[0.88] tracking-[-0.045em] text-[clamp(2.125rem,6.25vw,5.75rem)] ${brandClass}`}
             >
               Arroelo
             </span>
