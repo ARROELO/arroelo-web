@@ -114,9 +114,7 @@ function SiteChrome({
       const limit = threshold();
 
       let next = lastHidden;
-      if (!isHome) {
-        next = false;
-      } else if (open) {
+      if (open) {
         next = false;
       } else if (y < 48) {
         next = false;
@@ -169,7 +167,7 @@ function SiteChrome({
   }, [open]);
 
   const ink = !overDark;
-  const peeking = isHome ? !hidden || open : true;
+  const peeking = !hidden || (isHome && open);
   const interact = peeking ? "pointer-events-auto" : "pointer-events-none";
   const linkClass =
     "block py-0.5 text-[17px] font-bold leading-[1.25] tracking-[-0.011em] transition-colors duration-200";
