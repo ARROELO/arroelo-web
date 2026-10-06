@@ -171,8 +171,8 @@ export function Espacio() {
             className="group block border-t border-ink/14"
           >
             {/* Arc impact row: narrow number at editorial left edge → text → photo to right margin */}
-            <div className="grid grid-cols-1 items-start gap-8 py-14 pl-4 pr-4 md:grid-cols-[auto_minmax(0,24rem)_1fr] md:gap-x-8 md:py-20 lg:grid-cols-[auto_minmax(0,28rem)_1fr] lg:gap-x-10 lg:py-24 md:pl-6 md:pr-6">
-              <div className="flex items-start gap-5 md:contents">
+            <div className="grid grid-cols-1 items-start gap-8 py-14 pl-4 pr-4 md:grid-cols-[auto_1fr] md:gap-x-8 md:py-20 lg:gap-x-10 lg:py-24 md:pl-6 md:pr-6">
+              <div className="flex items-start gap-[3.75rem] md:gap-x-24 lg:gap-x-[7.5rem]">
                 <span
                   className="w-[1.25rem] shrink-0 text-espacio-title text-ink tabular-nums"
                   aria-hidden
