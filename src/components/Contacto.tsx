@@ -23,10 +23,10 @@ export function Contacto() {
       <div className="mx-auto grid max-w-[1100px] gap-16 md:grid-cols-2">
         <div>
           <p className="text-caption text-graphite/70">Ven a conocernos</p>
-          <h2 className="mt-4 text-heading-lg text-ink">
+          <h2 className="mt-5 text-heading-lg text-ink">
             Empieza cualquier lunes en Arroelo
           </h2>
-          <p className="mt-6 text-body-lg text-ink/70">
+          <p className="mt-8 text-body-lg text-ink/70">
             Primera semana sin coste. Escríbenos y reserva tu mesa — o pregunta
             por la sala exclusiva.
           </p>
@@ -105,7 +105,7 @@ const footerLinks = [
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-ink/8 bg-fog px-6 py-10 md:px-10">
+    <footer className="border-t border-ink/8 bg-fog px-6 py-14 md:px-10">
       <div className="mx-auto max-w-[1100px]">
         <ul className="flex flex-wrap gap-x-6 gap-y-3">
           {footerLinks.map((link) => (

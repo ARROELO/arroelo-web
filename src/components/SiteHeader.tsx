@@ -22,26 +22,26 @@ export function SiteHeader({ variant = "hero" }: Props) {
           : "absolute inset-x-0 top-0 z-30"
       }
     >
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 md:px-10 md:py-6">
+      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 md:px-10 md:py-7">
         <Link
           href="/"
           className={
             isSolid
-              ? "text-caption tracking-[0.18em] text-ink transition-opacity hover:opacity-70"
-              : "text-caption tracking-[0.18em] text-paper/90 transition-opacity hover:opacity-80"
+              ? "text-[15px] font-medium tracking-[-0.02em] text-ink transition-opacity hover:opacity-70"
+              : "text-[15px] font-medium tracking-[-0.02em] text-paper/92 transition-opacity hover:opacity-80"
           }
         >
           Arroelo
         </Link>
-        <nav className="hidden items-center gap-6 xl:flex">
+        <nav className="hidden items-center gap-8 xl:flex">
           {nav.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={
                 isSolid
-                  ? "text-caption text-ink/55 transition-colors hover:text-ink"
-                  : "text-caption text-paper/70 transition-colors hover:text-paper"
+                  ? "text-caption text-ink/50 transition-colors hover:text-ink"
+                  : "text-caption text-paper/68 transition-colors hover:text-paper"
               }
             >
               {item.label}
@@ -52,8 +52,8 @@ export function SiteHeader({ variant = "hero" }: Props) {
           href="/#contacto"
           className={
             isSolid
-              ? "rounded-full bg-ink px-5 py-2.5 text-caption text-paper transition-transform hover:scale-[1.02]"
-              : "rounded-full bg-paper/95 px-5 py-2.5 text-caption text-ink transition-transform hover:scale-[1.02]"
+              ? "btn btn-nav btn-ink"
+              : "btn btn-nav bg-paper/95 text-ink hover:bg-terracotta"
           }
         >
           Reservar semana

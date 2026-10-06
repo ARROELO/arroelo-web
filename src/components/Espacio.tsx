@@ -56,10 +56,10 @@ export function Espacio() {
     <section id="espacio" className="bg-fog px-6 py-120 md:px-10">
       <div className="mx-auto max-w-[1100px]">
         <p className="text-caption text-graphite/70">El salón</p>
-        <h2 className="mt-4 max-w-[18ch] text-heading-lg text-ink">
+        <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
           Un tercer tiempo entre casa y oficina
         </h2>
-        <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
+        <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
           En el centro de Pontevedra — Rúa Cobián Roffignac, tercer piso —
           las mañanas huelen a café y a lluvia fina contra los cristales.
           Ni el caos de la cocina, ni el frío de un cubículo: un entorno

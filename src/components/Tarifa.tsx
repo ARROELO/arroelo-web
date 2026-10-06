@@ -19,10 +19,10 @@ export function Tarifa() {
     <section id="tarifa" className="bg-paper px-6 py-120 md:px-10">
       <div className="mx-auto max-w-[1100px] text-center">
         <p className="text-caption text-graphite/70">Sin letra pequeña</p>
-        <h2 className="mt-4 text-heading-lg text-ink">
+        <h2 className="mt-5 text-heading-lg text-ink">
           Dos formas de estar en Arroelo
         </h2>
-        <p className="mx-auto mt-6 max-w-xl text-body-lg text-ink/65">
+        <p className="mx-auto mt-8 max-w-xl text-body-lg text-ink/65">
           Más de 10 años de coworking en Pontevedra.
         </p>
 
@@ -54,7 +54,7 @@ export function Tarifa() {
             </ul>
             <a
               href="#contacto"
-              className="mt-10 inline-flex rounded-full bg-ink px-7 py-3.5 text-body font-medium text-paper transition-transform hover:scale-[1.02]"
+              className="btn btn-ink mt-10"
             >
               Reservar semana de prueba
             </a>
@@ -87,7 +87,7 @@ export function Tarifa() {
             </ul>
             <a
               href="#contacto"
-              className="mt-10 inline-flex rounded-full bg-terracotta px-7 py-3.5 text-body font-medium text-ink transition-transform hover:scale-[1.02]"
+              className="btn btn-primary mt-10"
             >
               Consultar disponibilidad
             </a>

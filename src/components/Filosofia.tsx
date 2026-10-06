@@ -7,7 +7,7 @@ export function Filosofia() {
       />
       <div className="relative mx-auto max-w-[900px] text-center">
         <p className="text-caption text-cream/70">Cómo se vive</p>
-        <blockquote className="mt-8 text-heading-lg text-balance">
+        <blockquote className="mt-10 text-heading-lg text-balance">
           «Aquí no alquilamos sillas. Tejemos redes.»
         </blockquote>
         <p className="mx-auto mt-8 max-w-2xl text-body-lg text-paper/75">

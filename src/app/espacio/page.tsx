@@ -88,12 +88,12 @@ export default function EspacioPage() {
             aria-hidden
             className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,24,20,0.45)_0%,rgba(26,24,20,0.72)_100%)]"
           />
-          <div className="relative z-10 mx-auto flex min-h-[70svh] max-w-[1100px] flex-col justify-end px-6 pb-16 pt-28 md:px-10 md:pb-20">
+          <div className="relative z-10 mx-auto flex min-h-[70svh] max-w-[1100px] flex-col justify-end px-6 pb-16 pt-28 md:px-10 md:pb-24">
             <p className="reveal text-caption text-cream/80">El espacio</p>
-            <h1 className="reveal reveal-delay-1 mt-4 max-w-[14ch] text-display">
+            <h1 className="reveal reveal-delay-1 mt-5 max-w-[10ch] text-display">
               El salón
             </h1>
-            <p className="reveal reveal-delay-2 mt-6 max-w-lg text-body-lg text-paper/85">
+            <p className="reveal reveal-delay-2 mt-8 max-w-lg text-body-lg text-paper/85">
               Rúa Cobián Roffignac 6, 3º. Madera, luz natural y la mesa donde
               ocurre el tercer tiempo — ni casa, ni oficina.
             </p>
@@ -103,10 +103,10 @@ export default function EspacioPage() {
         <section className="bg-fog px-6 py-120 md:px-10">
           <div className="mx-auto max-w-[1100px]">
             <p className="text-caption text-graphite/70">Qué encontrarás</p>
-            <h2 className="mt-4 max-w-[18ch] text-heading-lg text-ink">
+            <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
               Un tercer tiempo entre casa y oficina
             </h2>
-            <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
+            <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
               Entrar en Espacio Arroelo es formar parte de una comunidad de
               personas curiosas y con ganas de aprender. No vendemos metros
               cuadrados: dejamos la luz encendida para quien quiera tejer algo
@@ -127,7 +127,7 @@ export default function EspacioPage() {
         <section className="bg-paper px-6 py-120 md:px-10">
           <div className="mx-auto max-w-[1100px]">
             <p className="text-caption text-graphite/70">Galería</p>
-            <h2 className="mt-4 text-heading-lg text-ink">Así se vive</h2>
+            <h2 className="mt-5 text-heading-lg text-ink">Así se vive</h2>
             <div className="mt-12 grid gap-4 md:grid-cols-2">
               {gallery.map((shot) => (
                 <div
@@ -158,24 +158,18 @@ export default function EspacioPage() {
         <section className="bg-cream px-6 py-120 md:px-10">
           <div className="mx-auto max-w-[900px] text-center">
             <p className="text-caption text-graphite/70">Pruébalo</p>
-            <h2 className="mt-4 text-heading-lg text-ink">
+            <h2 className="mt-5 text-heading-lg text-ink">
               Primera semana sin coste
             </h2>
-            <p className="mx-auto mt-6 max-w-xl text-body-lg text-ink/70">
+            <p className="mx-auto mt-8 max-w-xl text-body-lg text-ink/70">
               Mesa en el salón o sala exclusiva. Sin permanencia. Ven a
               conocernos en Cobián Roffignac 6, 3º — Pontevedra.
             </p>
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-              <Link
-                href="/#contacto"
-                className="inline-flex rounded-full bg-ink px-8 py-3.5 text-body font-medium text-paper transition-transform hover:scale-[1.02]"
-              >
+            <div className="mt-12 flex flex-wrap items-center justify-center gap-3">
+              <Link href="/#contacto" className="btn btn-ink">
                 Reservar semana
               </Link>
-              <Link
-                href="/coworkers"
-                className="inline-flex rounded-full border border-ink/20 px-8 py-3.5 text-body text-ink transition-colors hover:border-ink/40"
-              >
+              <Link href="/coworkers" className="btn btn-outline">
                 Conocer a la familia
               </Link>
             </div>

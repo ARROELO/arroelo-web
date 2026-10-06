@@ -21,7 +21,7 @@ export function Nosotras() {
     <section id="nosotras" className="bg-fog px-6 py-120 md:px-10">
       <div className="mx-auto max-w-[1100px]">
         <p className="text-caption text-graphite/70">Sobre nosotras</p>
-        <h2 className="mt-4 max-w-[20ch] text-heading-lg text-ink">
+        <h2 className="mt-5 max-w-[20ch] text-heading-lg text-ink">
           Así empezamos
         </h2>
 

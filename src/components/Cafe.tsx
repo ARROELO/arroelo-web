@@ -36,8 +36,8 @@ export function Cafe() {
         <div className="grid items-end gap-12 md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] md:gap-16">
           <div>
             <p className="text-caption text-graphite/70">Ritual diario</p>
-            <h2 className="mt-4 text-heading-lg text-ink">Café a la fresca</h2>
-            <p className="mt-6 text-body-lg text-ink/70">
+            <h2 className="mt-5 text-heading-lg text-ink">Café a la fresca</h2>
+            <p className="mt-8 text-body-lg text-ink/70">
               Lo mejor de Arroelo ocurre entre tareas. Conversaciones con
               perfiles como el tuyo que te sacan del aislamiento digital — sin
               networking forzado.

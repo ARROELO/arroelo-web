@@ -95,8 +95,8 @@ export default function CoworkersPage() {
         <section className="bg-fog px-6 pb-120 pt-16 md:px-10">
           <div className="mx-auto max-w-[1100px]">
             <p className="text-caption text-graphite/70">Familia coworker</p>
-            <h1 className="mt-4 text-heading-lg text-ink">Arroelover Family</h1>
-            <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
+            <h1 className="mt-5 text-heading-lg text-ink">Arroelover Family</h1>
+            <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
               Nadie es igual a nadie, y precisamente por eso el espacio
               funciona. Estas son algunas caras del salón — y hay mesa para ti.
             </p>
