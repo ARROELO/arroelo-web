@@ -42,7 +42,7 @@ function BlogCard({
           alt={alt}
           fill
           className="blog-photo rounded-none"
-          sizes="(max-width: 767px) 50vw, 33vw"
+          sizes="(max-width: 767px) 50vw, 25vw"
           priority={index < 3}
         />
       </div>
