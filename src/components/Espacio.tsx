@@ -72,42 +72,44 @@ const gallery = [
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog py-120">
-      <div className="mx-auto max-w-[1100px] px-6 md:px-10">
-        <p className="text-caption text-graphite/70">El salón</p>
-        <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
-          Un espacio abierto donde inspirarte con otras personas.
-        </h2>
-        <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
-          Nosotras abrimos el salón cada mañana en el centro de Pontevedra.
-          Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
-          pide, y libertad para que ocurran visitas, ideas y redes.
-        </p>
+      <div className="mx-auto grid max-w-[1280px] items-start gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-10 lg:gap-16">
+        <aside className="md:sticky md:top-28 md:col-span-4 lg:col-span-3">
+          <p className="text-label text-graphite/80">El salón</p>
+          <h2 className="mt-4 max-w-[16ch] text-heading text-ink md:mt-5">
+            Un espacio abierto donde inspirarte con otras personas.
+          </h2>
+          <p className="mt-6 text-body-lg text-ink/70 md:mt-8">
+            Nosotras abrimos el salón cada mañana en el centro de Pontevedra.
+            Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
+            pide, y libertad para que ocurran visitas, ideas y redes.
+          </p>
+        </aside>
+
+        <div className="grid items-start gap-px sm:grid-cols-2 md:col-span-8 lg:col-span-9 lg:grid-cols-3">
+          {gallery.map((shot, i) => (
+            <div
+              key={shot.src}
+              className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
+                i === 1 ? "sm:mt-10" : ""
+              } ${i === 2 ? "sm:col-span-2 lg:col-span-1 lg:mt-16" : ""}`}
+            >
+              <Image
+                src={withBase(shot.src)}
+                alt={shot.alt}
+                fill
+                className={`object-cover ${shot.objectPosition}`}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 28vw"
+              />
+            </div>
+          ))}
+        </div>
       </div>
 
-      <div className="mt-14 grid items-start gap-px md:grid-cols-3">
-        {gallery.map((shot, i) => (
-          <div
-            key={shot.src}
-            className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
-              i === 1 ? "md:mt-10" : ""
-            }`}
-          >
-            <Image
-              src={withBase(shot.src)}
-              alt={shot.alt}
-              fill
-              className={`object-cover ${shot.objectPosition}`}
-              sizes="(max-width: 768px) 100vw, 33vw"
-            />
-          </div>
-        ))}
-      </div>
-
-      <div className="mx-auto mt-16 max-w-[1100px] px-6 md:px-10">
+      <div className="mx-auto mt-16 max-w-[1280px] px-6 md:px-10">
         <div className="grid gap-12 border-t border-ink/10 pt-12 md:grid-cols-3 md:gap-10">
           {pillars.map((item) => (
             <div key={item.title}>
-              <h3 className="text-heading-sm text-ink">{item.title}</h3>
+              <h3 className="text-label text-ink">{item.title}</h3>
               <p className="mt-3 text-body text-ink/65">{item.body}</p>
             </div>
           ))}
