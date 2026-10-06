@@ -42,23 +42,26 @@ const gallery = [
   {
     src: "/photos/ig-mesa-comunidad.jpg",
     alt: "Mesa larga con gente en el salón de Arroelo",
-    wide: true,
   },
   {
-    src: "/photos/sala-puestos.jpg",
-    alt: "Sala de puestos con fibra, monitores y luz de la calle",
-  },
-  {
-    src: "/photos/ig-puestos-ventana.jpg",
-    alt: "Puestos de trabajo junto a la ventana con luz natural",
+    src: "/photos/salon-trabajo.jpg",
+    alt: "Dos coworkers trabajando con portátil en la mesa del salón",
   },
   {
     src: "/photos/comunidad-sonrisas.jpg",
     alt: "Sonrisas alrededor de la mesa del salón",
   },
   {
-    src: "/photos/salon-trabajo.jpg",
-    alt: "Dos coworkers trabajando con portátil en la mesa del salón",
+    src: "/photos/salon-luz.jpg",
+    alt: "Café, bollería y conversación en la mesa de Arroelo",
+  },
+  {
+    src: "/photos/ig-puestos-ventana.jpg",
+    alt: "Puestos de trabajo junto a la ventana con luz natural",
+  },
+  {
+    src: "/photos/coworker-luz.jpg",
+    alt: "Coworker en su puesto, con luz de la ventana y plantas",
   },
 ];
 
@@ -119,26 +122,18 @@ export default function EspacioPage() {
           <div className="mx-auto max-w-[1100px]">
             <p className="text-caption text-graphite/70">Galería</p>
             <h2 className="mt-5 text-heading-lg text-ink">Así se vive</h2>
-            <div className="mt-12 grid gap-4 md:grid-cols-2">
+            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {gallery.map((shot) => (
                 <div
                   key={shot.src}
-                  className={`relative overflow-hidden rounded-3xl ${
-                    shot.wide
-                      ? "aspect-[16/10] md:col-span-2"
-                      : "aspect-[4/5]"
-                  }`}
+                  className="relative aspect-[4/5] overflow-hidden rounded-3xl"
                 >
                   <Image
                     src={withBase(shot.src)}
                     alt={shot.alt}
                     fill
-                    className="object-cover"
-                    sizes={
-                      shot.wide
-                        ? "100vw"
-                        : "(max-width: 768px) 100vw, 50vw"
-                    }
+                    className="object-cover object-[center_40%]"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
               ))}
