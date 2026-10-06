@@ -34,7 +34,7 @@ export const coworkers: Coworker[] = [
   },
   {
     name: "Isabel Fernández",
-    photo: undefined,
+    photo: "/photos/coworkers/isa.png",
   },
   {
     name: "Helena González",
