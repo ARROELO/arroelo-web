@@ -60,13 +60,12 @@ export function Espacio() {
       <div className="mx-auto max-w-[1100px]">
         <p className="text-caption text-graphite/70">El salón</p>
         <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
-          Un espacio abierto donde suceden cosas
+          Un espacio abierto donde inspirarte con otras personas.
         </h2>
         <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
           Nosotras abrimos el salón cada mañana en el centro de Pontevedra.
-          Ni casa, ni oficina: un tercer tiempo alrededor de la mesa — foco
-          cuando hace falta, pausa cuando el día lo pide, y libertad para que
-          ocurran visitas, ideas y redes.
+          Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
+          pide, y libertad para que ocurran visitas, ideas y redes.
         </p>
 
         <div className="mt-14 grid gap-4 md:grid-cols-3">
