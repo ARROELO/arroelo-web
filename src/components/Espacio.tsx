@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import type { ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { withBase } from "@/lib/path";
 
 const pillars = [
@@ -67,6 +67,47 @@ const bridges: {
   },
 ];
 
+/** Arc /process-style hairline: draws width 0→100% when it enters the viewport. */
+function DrawRule() {
+  const ref = useRef<HTMLDivElement>(null);
+  const [drawn, setDrawn] = useState(false);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (reduce.matches) {
+      setDrawn(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry?.isIntersecting) {
+          setDrawn(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2, rootMargin: "0px 0px -8% 0px" },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div className="mt-16 px-4 sm:mt-20 md:mt-24" aria-hidden>
+      <div
+        ref={ref}
+        className={`h-px w-full origin-left bg-ink/14 transition-transform duration-[1250ms] ease-[cubic-bezier(0.76,0,0.24,1)] motion-reduce:transition-none ${
+          drawn ? "scale-x-100" : "scale-x-0"
+        }`}
+      />
+    </div>
+  );
+}
+
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog pt-8 pb-80 md:pt-10 lg:pt-12">
@@ -99,7 +140,9 @@ export function Espacio() {
         ))}
       </div>
 
-      <div className="mt-16 grid grid-cols-1 gap-10 border-t border-ink/10 px-4 pt-14 sm:mt-20 sm:grid-cols-3 sm:gap-8 md:mt-24 md:gap-10 md:pt-20 lg:gap-12">
+      <DrawRule />
+
+      <div className="grid grid-cols-1 gap-10 px-4 pt-14 sm:grid-cols-3 sm:gap-8 md:gap-10 md:pt-20 lg:gap-12">
         {bridges.map((item) => (
           <a
             key={item.title}
