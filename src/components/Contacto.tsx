@@ -54,15 +54,15 @@ export function Contacto() {
           </p>
           <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-none bg-fog">
             <Image
-              src={withBase("/photos/salon-ventana.jpg")}
-              alt="El salón de Arroelo con luz natural y la piedra de Pontevedra al otro lado del cristal"
+              src={withBase("/photos/pontevedra-alameda.jpg")}
+              alt="Coworker con su perro trabajando al aire libre en una calle de Pontevedra, cerca de Arroelo"
               fill
               className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
           <p className="mt-3 text-caption text-ink/45">
-            Cobián Roffignac 6 — el centro de Pontevedra a la vista.
+            La Alameda de Pontevedra, a unos minutos del salón.
           </p>
         </div>
         <div className="space-y-8">

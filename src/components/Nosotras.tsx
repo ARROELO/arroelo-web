@@ -30,8 +30,8 @@ export function Nosotras() {
         </div>
         <div className="relative aspect-[3/2] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-20 md:min-h-[min(58vh,560px)] md:aspect-auto lg:mt-28">
           <Image
-            src={withBase("/photos/pontevedra-alameda.jpg")}
-            alt="Trabajo al aire libre en la Alameda de Pontevedra, con una coworker y su perro junto a la mesa"
+            src={withBase("/photos/salon-ventana.jpg")}
+            alt="El salón de Arroelo con luz natural y la piedra de Pontevedra al otro lado del cristal"
             fill
             className="object-cover object-[center_40%]"
             sizes="(max-width: 768px) 100vw, 58vw"
@@ -45,8 +45,7 @@ export function Nosotras() {
           Espacio Arroelo
         </p>
         <p className="overflow-x-auto whitespace-nowrap text-caption text-ink/40 md:col-span-7">
-          El trabajo en medio de la vida — Alameda de Pontevedra, a unos
-          minutos del salón.
+          Luz, mesa y la ciudad a la vista — el salón de Arroelo.
         </p>
       </div>
     </section>
