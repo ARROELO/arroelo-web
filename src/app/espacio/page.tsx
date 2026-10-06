@@ -38,6 +38,33 @@ const amenities = [
   },
 ];
 
+const gallery = [
+  {
+    src: "/photos/ig-mesa-comunidad.jpg",
+    alt: "Mesa larga con gente en el salón de Arroelo",
+  },
+  {
+    src: "/photos/salon-trabajo.jpg",
+    alt: "Dos coworkers trabajando con portátil en la mesa del salón",
+  },
+  {
+    src: "/photos/comunidad-sonrisas.jpg",
+    alt: "Sonrisas alrededor de la mesa del salón",
+  },
+  {
+    src: "/photos/salon-luz.jpg",
+    alt: "Café, bollería y conversación en la mesa de Arroelo",
+  },
+  {
+    src: "/photos/ig-puestos-ventana.jpg",
+    alt: "Puestos de trabajo junto a la ventana con luz natural",
+  },
+  {
+    src: "/photos/coworker-luz.jpg",
+    alt: "Coworker en su puesto, con luz de la ventana y plantas",
+  },
+];
+
 export default function EspacioPage() {
   return (
     <>
@@ -88,6 +115,29 @@ export default function EspacioPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className="bg-paper py-120">
+          <div className="mx-auto max-w-[1100px] px-6 md:px-10">
+            <p className="text-caption text-graphite/70">Galería</p>
+            <h2 className="mt-5 text-heading-lg text-ink">Así se vive</h2>
+          </div>
+          <div className="mt-14 grid gap-[2.5rem] sm:grid-cols-2 sm:gap-[3rem] md:mt-20 md:gap-[3.5rem] lg:grid-cols-3 lg:gap-[4rem]">
+            {gallery.map((shot) => (
+              <div
+                key={shot.src}
+                className="relative aspect-[4/5] overflow-hidden rounded-none"
+              >
+                <Image
+                  src={withBase(shot.src)}
+                  alt={shot.alt}
+                  fill
+                  className="object-cover object-[center_40%]"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              </div>
+            ))}
           </div>
         </section>
 
