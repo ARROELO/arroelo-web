@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import { withBase } from "@/lib/path";
 
 const nav = [
   { href: "/espacio", label: "Espacio" },
@@ -25,13 +27,18 @@ export function SiteHeader({ variant = "hero" }: Props) {
       <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-3 px-6 py-5 md:px-10 md:py-7">
         <Link
           href="/"
-          className={
-            isSolid
-              ? "text-[15px] font-medium tracking-[-0.02em] text-ink transition-opacity hover:opacity-70"
-              : "text-[15px] font-medium tracking-[-0.02em] text-paper/92 transition-opacity hover:opacity-80"
-          }
+          className="flex shrink-0 items-center transition-opacity hover:opacity-75"
         >
-          Arroelo
+          <Image
+            src={withBase(
+              isSolid ? "/logo-arroelo-ink.png" : "/logo-arroelo.png",
+            )}
+            alt="Espacio Arroelo"
+            width={151}
+            height={36}
+            className="h-8 w-auto md:h-9"
+            priority
+          />
         </Link>
         <nav className="flex flex-wrap items-center gap-5 md:gap-8">
           {nav.map((item) => (
