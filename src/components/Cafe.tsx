@@ -27,7 +27,7 @@ export function Cafe() {
           </p>
         </aside>
 
-        <div className="grid items-start gap-8 md:col-span-8 md:grid-cols-12 md:gap-10 lg:col-span-9 lg:gap-14">
+        <div className="grid items-start gap-10 md:col-span-8 md:grid-cols-12 md:gap-12 lg:col-span-9 lg:gap-16">
           <div className="relative aspect-[3/4] overflow-hidden rounded-none bg-mist md:col-span-5">
             <Image
               src={withBase("/photos/mesa-fresca.jpg")}
@@ -37,7 +37,7 @@ export function Cafe() {
               sizes="(max-width: 768px) 100vw, 28vw"
             />
           </div>
-          <div className="relative aspect-[4/5] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-24 md:aspect-[5/6] lg:mt-36">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-28 md:aspect-[5/6] lg:mt-40">
             <Image
               src={withBase("/photos/ig-mesa-oval.jpg")}
               alt="Comunidad de Arroelo alrededor de la mesa oval, con el perro en el salón"

@@ -85,13 +85,13 @@ export function Espacio() {
           </p>
         </aside>
 
-        <div className="grid items-start gap-8 sm:grid-cols-2 sm:gap-10 md:col-span-8 md:gap-12 lg:col-span-9 lg:grid-cols-3 lg:gap-14">
+        <div className="grid items-start gap-10 sm:grid-cols-2 sm:gap-12 md:col-span-8 md:gap-14 lg:col-span-9 lg:grid-cols-3 lg:gap-16">
           {gallery.map((shot, i) => (
             <div
               key={shot.src}
               className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
-                i === 1 ? "sm:mt-16 lg:mt-20" : ""
-              } ${i === 2 ? "sm:col-span-2 lg:col-span-1 lg:mt-28" : ""}`}
+                i === 1 ? "sm:mt-20 lg:mt-24" : ""
+              } ${i === 2 ? "sm:col-span-2 lg:col-span-1 lg:mt-36" : ""}`}
             >
               <Image
                 src={withBase(shot.src)}
@@ -116,7 +116,7 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mt-20 grid gap-8 border-t border-ink/10 pt-16 sm:grid-cols-2 sm:gap-10 md:mt-24 md:gap-12 md:pt-20 lg:gap-14">
+      <div className="mt-20 grid gap-10 border-t border-ink/10 pt-16 sm:grid-cols-2 sm:gap-12 md:mt-24 md:gap-14 md:pt-20 lg:gap-16">
         {bridges.map((item) => (
           <a
             key={item.title}
