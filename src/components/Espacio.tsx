@@ -145,7 +145,21 @@ export function Espacio() {
 
       <Cafe />
 
-      <div className="mx-auto mt-14 flex max-w-[1440px] flex-col px-4 md:mt-20 md:px-6 lg:mt-24">
+      <div className="pt-14 md:pt-20 lg:pt-24">
+        <div className="px-4 md:px-6">
+          <div className="max-w-[42ch] md:max-w-[50%]">
+            <h2 className="text-espacio-intro-title text-terracotta">
+              Aquí no alquilamos sillas. Tejemos redes.
+            </h2>
+            <p className="mt-2 text-espacio-intro-body text-ink">
+              Lo mejor de Arroelo ocurre entre tareas. La mesa, el café, una
+              visita: una comunidad que creamos desde nuestro salón y más allá.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto mt-12 flex max-w-[1440px] flex-col px-4 md:mt-16 md:px-6 lg:mt-20">
         {bridges.map((item) => (
           <a
             key={item.title}
