@@ -1,6 +1,5 @@
 import { Contacto, SiteFooter } from "@/components/Contacto";
 import { Espacio } from "@/components/Espacio";
-import { Filosofia } from "@/components/Filosofia";
 import { Hero } from "@/components/Hero";
 import { Nosotras } from "@/components/Nosotras";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -16,7 +15,6 @@ export default function Home() {
           <Hero />
           <Espacio />
         </div>
-        <Filosofia />
         <Nosotras />
         <Testimonio />
         <Tarifa />
