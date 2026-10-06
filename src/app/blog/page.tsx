@@ -11,6 +11,17 @@ export const metadata: Metadata = {
   title: "Blog — Arroelo | Coworking en Pontevedra",
   description:
     "Historias del salón: café a la fresca, comunidad, luz y vida en el centro de Pontevedra.",
+  alternates: {
+    canonical: "/blog",
+  },
+  openGraph: {
+    title: "Blog — Arroelo | Coworking en Pontevedra",
+    description:
+      "Historias del salón: café a la fresca, comunidad, luz y vida en el centro de Pontevedra.",
+    type: "website",
+    locale: "es_ES",
+    url: "/blog",
+  },
 };
 
 function BlogCard({

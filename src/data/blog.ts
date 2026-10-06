@@ -1,6 +1,17 @@
+export type BlogInline =
+  | string
+  | {
+      type: "link";
+      href: string;
+      text: string;
+      /** External links open in a new tab with rel="noopener noreferrer". */
+      external?: boolean;
+    };
+
 export type BlogBodyBlock =
   | string
-  | { type: "h2"; text: string };
+  | { type: "h2"; text: string }
+  | { type: "p"; parts: BlogInline[] };
 
 export type BlogPost = {
   slug: string;
@@ -23,7 +34,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-10-06",
     label: "Historia",
     image: "/photos/nosotras-prensa.jpg",
-    alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo",
+    alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo, en el coworking de Pontevedra",
     excerpt:
       "Cómo África Rodríguez y María Pierres fundaron Espacio Arroelo en 2013: de un encuentro en LinkedIn a más de una década de coworking en Pontevedra.",
     body: [
@@ -34,19 +45,127 @@ export const blogPosts: BlogPost[] = [
         type: "h2",
         text: "Abrir puertas en 2013: más que mesas e internet",
       },
-      "En abril de 2013, El País hablaba de cómo «el coworking se instalaba en Galicia» y nos presentaba como un espacio pionero en Pontevedra. Abrimos en la tercera planta del número 11 de la calle Michelena: salas, puestos de trabajo, internet, office… y, sobre todo, la intención explícita de generar sinergias entre profesionales que, en principio, no tenían por qué cruzarse.",
+      {
+        type: "p",
+        parts: [
+          "En abril de 2013, ",
+          {
+            type: "link",
+            href: "https://elpais.com/ccaa/2013/04/17/galicia/1366220334_717953.html",
+            text: "El País",
+            external: true,
+          },
+          " hablaba de cómo «el coworking se instalaba en Galicia» y nos presentaba como un espacio pionero en Pontevedra. Abrimos en la tercera planta del número 11 de la calle Michelena: salas, puestos de trabajo, internet, office… y, sobre todo, la intención explícita de generar sinergias entre profesionales que, en principio, no tenían por qué cruzarse.",
+        ],
+      },
       "Desde el principio huyimos de la idea de que un coworking es solo un espacio físico. Queríamos que quienes entraran se comprometieran con unas normas básicas de convivencia y, a la vez, con algo más intangible: la posibilidad de que el proyecto de al lado alimentara el tuyo. En aquellas salas también cabía el arte: exposiciones, cursos, conversaciones que no cabían en un Excel.",
       "El Diario de Pontevedra, un año después, ya hablaba de un grupo que había pasado de cinco personas iniciales a más de treinta asociadas, y de una sede que se expandía por la planta del edificio. Arroelo —con ese eco del «hai que roelo» pontevedrés— empezaba a ser, para mucha gente, sinónimo de otra forma de trabajar en la ciudad.",
       { type: "h2", text: "Crecer como familia, no como oficina" },
       "Con el tiempo dejamos de contar solo mesas. Empezamos a contar personas.",
-      "En 2019, Faro de Vigo recogía nuestra sorpresa al mirar atrás: habíamos empezado sin imaginar que el proyecto iba a durar tanto ni a generar una familia tan grande. Alrededor de setenta personas formaban ya parte de esa constelación —«aunque seguro que somos más», decía África—. En una década, unas doscientas emprendedoras y emprendedores pasaron por Arroelo. Algunas se quedaron años; otras hicieron escala y siguieron camino. Todas dejaron huella.",
-      "Lo que nos ha sostenido no ha sido un modelo de franquicia ni una fórmula mágica. Ha sido la inteligencia colectiva: compartir conocimiento, lanzar proyectos juntas, aprovechar que en el mismo pasillo pueden convivir derecho, arquitectura, diseño, tecnología o educación. África pasó de freelance del sector legal a acompañar a empresas en la creación de comunidades. María aportó mirada de espacio y de cuidado del lugar. Nosotras dos aprendimos, una y otra vez, que el «co» de coworking no es un prefijo de marketing: es una práctica diaria.",
+      {
+        type: "p",
+        parts: [
+          "En 2019, ",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2019/11/03/trabajamos-juntos-15496685.html",
+            text: "Faro de Vigo",
+            external: true,
+          },
+          " recogía nuestra sorpresa al mirar atrás: habíamos empezado sin imaginar que el proyecto iba a durar tanto ni a generar una familia tan grande. Alrededor de setenta personas formaban ya parte de esa constelación —«aunque seguro que somos más», decía África—. En una década, unas doscientas emprendedoras y emprendedores pasaron por Arroelo. Algunas se quedaron años; otras hicieron escala y siguieron camino. Todas dejaron huella.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Lo que nos ha sostenido no ha sido un modelo de franquicia ni una fórmula mágica. Ha sido la inteligencia colectiva: compartir conocimiento, lanzar proyectos juntas, aprovechar que en el mismo pasillo pueden convivir derecho, arquitectura, diseño, tecnología o educación. África pasó de freelance del sector legal a acompañar a empresas en la creación de comunidades. María aportó mirada de espacio y de cuidado del lugar. Nosotras dos aprendimos, una y otra vez, que el «co» de coworking no es un prefijo de marketing: es una práctica diaria. Hoy esa ",
+          {
+            type: "link",
+            href: "/coworkers",
+            text: "familia coworker",
+          },
+          " sigue siendo el centro de todo.",
+        ],
+      },
       { type: "h2", text: "Crisis, pandemia y mudanza: seguir siendo Arroelo" },
       "Ninguna década es una línea recta. Hubo pandemia. Hubo incertidumbre. Y hubo, en 2022, la noticia de que el edificio de Michelena —nuestro primer hogar— enfrentaba un proceso de derribo. La Voz de Galicia lo contó con crudeza: inquilinas que tenían que irse de un inmueble emblemático. Nosotras teníamos claro que Arroelo iba a seguir. «Bienvenida incertidumbre», dijimos entonces, con más miedo del que admitimos y más confianza de la que el momento merecía.",
-      "En febrero de 2023, Onda Cero se hacía eco de que la comunidad remataba la mudanza y estrenaba local y salón. Hoy estamos en Cobián Roffignac, planta 3, en el centro de Pontevedra: mismo espíritu, otra casa. Parte del mobiliario de Michelena encontró nueva vida en la Casa do Pobo de Anceu, para que lo que había sido refugio en la ciudad también diera cobijo creativo en el rural. Esa continuidad —ciudad y aldea, antes y ahora— dice mucho de cómo entendemos el espacio: no como propiedad, sino como cuidado compartido.",
+      {
+        type: "p",
+        parts: [
+          "En febrero de 2023, Onda Cero se hacía eco de que la comunidad remataba la mudanza y estrenaba local y salón. Hoy estamos en Cobián Roffignac, planta 3, en el centro de Pontevedra: mismo espíritu, otra casa. Parte del mobiliario de Michelena encontró nueva vida en la Casa do Pobo de ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu",
+            external: true,
+          },
+          ", para que lo que había sido refugio en la ciudad también diera cobijo creativo en el rural. Esa continuidad —ciudad y aldea, antes y ahora— dice mucho de cómo entendemos el espacio: no como propiedad, sino como cuidado compartido.",
+        ],
+      },
       { type: "h2", text: "Lo que nos sostiene hoy" },
-      "Más de diez años después, Arroelo sigue siendo el hogar que construimos: un lugar donde la curiosidad se alimenta, las conexiones se tejen y la libertad y la creatividad se celebran. Un refugio para quienes buscan más que un sitio donde abrir el portátil: un espacio donde cultivar una economía social y sostenible.",
-      "Si estás leyendo esto porque buscas un coworking en Pontevedra, o porque te preguntas cómo nace una comunidad, te invitamos a lo más sencillo: ven a conocernos. La historia no está cerrada. Se escribe cada mañana, con café, con proyectos y con gente que decide no trabajar sola.",
+      {
+        type: "p",
+        parts: [
+          "Más de diez años después, ",
+          {
+            type: "link",
+            href: "/",
+            text: "Arroelo",
+          },
+          " sigue siendo el hogar que construimos: un lugar donde la curiosidad se alimenta, las conexiones se tejen y la libertad y la creatividad se celebran. Un refugio para quienes buscan más que un sitio donde abrir el portátil: un ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio de coworking en Pontevedra",
+          },
+          " donde cultivar una economía social y sostenible. Seguimos tejiendo puentes con ",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          " y con la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "European Creative Hubs Network (ECHN)",
+            external: true,
+          },
+          ", y parte de nuestra historia sigue viva en ",
+          {
+            type: "link",
+            href: "https://espacioarroelo.es/",
+            text: "espacioarroelo.es",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Si estás leyendo esto porque buscas un coworking en Pontevedra, o porque te preguntas cómo nace una comunidad, te invitamos a lo más sencillo: ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "ven a conocernos",
+          },
+          ". Mira la ",
+          {
+            type: "link",
+            href: "/#tarifa",
+            text: "tarifa",
+          },
+          ", pasea por el ",
+          {
+            type: "link",
+            href: "/blog",
+            text: "blog",
+          },
+          " o escribe cuando quieras. La historia no está cerrada. Se escribe cada mañana, con café, con proyectos y con gente que decide no trabajar sola.",
+        ],
+      },
     ],
   },
   {

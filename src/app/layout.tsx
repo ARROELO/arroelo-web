@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Arroelo — El tercer tiempo | Coworking en Pontevedra",
   description:
     "Ni casa, ni oficina. Un espacio abierto en Pontevedra donde suceden cosas: mesa, pausa y redes — sin networking forzado. Café a la fresca y más de 10 años.",
@@ -11,6 +13,7 @@ export const metadata: Metadata = {
       "Ni casa, ni oficina. Un espacio abierto donde suceden cosas.",
     locale: "es_ES",
     type: "website",
+    siteName: "Espacio Arroelo",
   },
 };
 
