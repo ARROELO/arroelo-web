@@ -45,6 +45,11 @@ const gallery = [
     wide: true,
   },
   {
+    src: "/photos/encuentro-mesa.jpg",
+    alt: "Encuentro alrededor de la mesa del salón, con luz de la ventana",
+    wide: true,
+  },
+  {
     src: "/photos/sala-puestos.jpg",
     alt: "Sala de puestos con fibra, monitores y luz de la calle",
   },
@@ -57,8 +62,9 @@ const gallery = [
     alt: "Sonrisas alrededor de la mesa del salón",
   },
   {
-    src: "/photos/salon-trabajo.jpg",
-    alt: "Dos coworker trabajando con portátil en la mesa del salón",
+    src: "/photos/ig-salon-vivo.jpg",
+    alt: "Salón vivo: trabajo y taller en las mesas de Arroelo",
+    wide: true,
   },
 ];
 
@@ -100,8 +106,8 @@ export default function EspacioPage() {
             </h2>
             <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
               Nosotras dejamos la luz encendida para quien quiera tejer algo
-              más grande. Entrar es sumarse a un salón de personas curiosas:
-              foco, pausa y libertad.
+              más grande. Entrar es sumarse a un salón de personas curiosas —
+              foco, pausa y libertad, sin vender metros cuadrados.
             </p>
 
             <div className="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -153,7 +159,8 @@ export default function EspacioPage() {
               Primera semana sin coste
             </h2>
             <p className="mx-auto mt-8 max-w-xl text-body-lg text-ink/70">
-              Sin permanencia. Ven a conocernos en el centro de Pontevedra.
+              Mesa en el salón o sala exclusiva. Sin permanencia. Ven a
+              conocernos en el centro de Pontevedra.
             </p>
             <div className="mt-12 flex flex-wrap items-center justify-center gap-3">
               <Link href="/#contacto" className="btn btn-ink">
