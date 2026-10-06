@@ -83,7 +83,7 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mt-16 grid grid-cols-1 gap-3 px-4 sm:mt-20 sm:grid-cols-3 sm:gap-4 md:mt-24 md:gap-5">
+      <div className="mt-32 grid grid-cols-1 gap-3 px-4 sm:mt-40 sm:grid-cols-3 sm:gap-4 md:mt-48 md:gap-5">
         {pillars.map((shot) => (
           <figure key={shot.src} className="min-w-0">
             <div className="relative aspect-[3/4] overflow-hidden rounded-none">
