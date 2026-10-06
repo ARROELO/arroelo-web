@@ -175,7 +175,7 @@ export function Hero() {
               Probar una semana
             </a>
             <Link href="/espacio" className="btn btn-outline-light">
-              Conocer el salón
+              Conocer el espacio
             </Link>
           </div>
         </div>
