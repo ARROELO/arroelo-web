@@ -145,8 +145,9 @@ export function Espacio() {
 
       <Cafe />
 
-      <div className="pt-14 md:pt-20 lg:pt-24">
-        <div className="px-4 md:px-6">
+      {/* Same vertical rhythm as pillars → DrawRule → Café intro */}
+      <div className="mt-16 sm:mt-20 md:mt-24">
+        <div className="px-4 pt-14 md:px-6 md:pt-20">
           <div className="max-w-[42ch] md:max-w-[50%]">
             <h2 className="text-espacio-intro-title text-terracotta">
               Aquí no alquilamos sillas. Tejemos redes.
@@ -170,21 +171,21 @@ export function Espacio() {
             className="group block border-t border-ink/14"
           >
             <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-start gap-8 px-4 py-14 md:grid-cols-12 md:gap-12 md:px-6 md:py-20 lg:gap-16 lg:py-24">
-              <div className="relative min-w-0 md:col-span-5">
-                <div className="relative mb-3 md:mb-4">
-                  <span
-                    className="pointer-events-none absolute top-0 right-0 text-espacio-title text-ink tabular-nums"
-                    aria-hidden
-                  >
-                    {index + 1}
-                  </span>
+              <div className="flex items-start gap-6 md:contents">
+                <span
+                  className="shrink-0 text-espacio-title text-ink tabular-nums md:col-span-1"
+                  aria-hidden
+                >
+                  {index + 1}
+                </span>
+                <div className="min-w-0 md:col-span-4">
                   <h3 className="max-w-[22ch] text-espacio-title text-ink transition-colors group-hover:text-terracotta">
                     {item.title}
                   </h3>
+                  <p className="mt-2 max-w-[35ch] text-espacio-body text-ink/65 md:mt-3">
+                    {item.body}
+                  </p>
                 </div>
-                <p className="max-w-[35ch] text-espacio-body text-ink/65">
-                  {item.body}
-                </p>
               </div>
               <div className="relative aspect-[4/3] min-w-0 overflow-hidden rounded-none bg-mist md:col-span-7 md:aspect-[3/2]">
                 <Image
