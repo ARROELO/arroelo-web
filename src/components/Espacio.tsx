@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import type { ReactNode } from "react";
-import { useEffect, useRef, useState } from "react";
 import { withBase } from "@/lib/path";
 
 const pillars = [
@@ -68,47 +67,6 @@ const bridges: {
   },
 ];
 
-/** Arc /process-style hairline: draws width 0→100% when it enters the viewport. */
-function DrawRule() {
-  const ref = useRef<HTMLDivElement>(null);
-  const [drawn, setDrawn] = useState(false);
-
-  useEffect(() => {
-    const node = ref.current;
-    if (!node) return;
-
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
-    if (reduce.matches) {
-      setDrawn(true);
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry?.isIntersecting) {
-          setDrawn(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2, rootMargin: "0px 0px -8% 0px" },
-    );
-
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div className="mt-10 px-4 sm:mt-12 md:mt-14" aria-hidden>
-      <div
-        ref={ref}
-        className={`h-px w-full origin-left bg-ink/14 transition-transform duration-[1250ms] ease-[cubic-bezier(0.76,0,0.24,1)] motion-reduce:transition-none ${
-          drawn ? "scale-x-100" : "scale-x-0"
-        }`}
-      />
-    </div>
-  );
-}
-
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog pt-8 pb-80 md:pt-10 lg:pt-12">
@@ -125,22 +83,7 @@ export function Espacio() {
         </div>
       </div>
 
-      {/* Arc stack: editorial text near left edge (~half viewport), photos below */}
-      <div className="mt-16 px-4 sm:mt-20 md:mt-24">
-        <div className="max-w-[42ch] md:max-w-[50%]">
-          <h3 className="text-espacio-title text-ink">
-            Un espacio abierto donde inspirarte.
-          </h3>
-          <p className="mt-5 text-espacio-body text-ink/65 md:mt-5">
-            Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
-            pide, y libertad para que ocurran visitas, ideas y redes.
-          </p>
-        </div>
-      </div>
-
-      <DrawRule />
-
-      <div className="mt-12 grid grid-cols-1 gap-3 sm:mt-14 sm:grid-cols-3 sm:gap-4 md:mt-16 md:gap-5">
+      <div className="mt-16 grid grid-cols-1 gap-3 px-4 sm:mt-20 sm:grid-cols-3 sm:gap-4 md:mt-24 md:gap-5">
         {pillars.map((shot) => (
           <figure key={shot.src} className="min-w-0">
             <div className="relative aspect-[3/4] overflow-hidden rounded-none">
