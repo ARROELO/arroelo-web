@@ -160,17 +160,14 @@ export function Hero() {
           ref={copyRef}
           className="relative z-10 mx-auto flex min-h-[100svh] max-w-[1400px] flex-col justify-end px-6 pb-20 pt-32 md:px-10 md:pb-28"
         >
-          <p className="reveal text-caption text-cream/75">
-            Coworking · Pontevedra
-          </p>
-          <h1 className="reveal reveal-delay-1 mt-5 max-w-[10ch] text-display">
+          <h1 className="reveal max-w-[10ch] text-display">
             Arroelo
           </h1>
-          <p className="reveal reveal-delay-2 mt-8 max-w-md text-body-lg text-paper/82">
-            Un espacio abierto donde suceden cosas — el tercer tiempo, alrededor
-            de la mesa.
+          <p className="reveal reveal-delay-1 mt-6 max-w-xl text-body-lg text-paper/88">
+            Un espacio de coworking en Pontevedra donde suceden cosas
+            interesantes.
           </p>
-          <div className="reveal reveal-delay-3 mt-12 flex flex-wrap items-center gap-3">
+          <div className="reveal reveal-delay-2 mt-12 flex flex-wrap items-center gap-3">
             <a href="#contacto" className="btn btn-primary">
               Probar una semana
             </a>
