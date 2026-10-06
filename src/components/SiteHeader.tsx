@@ -203,7 +203,7 @@ function SiteChrome({
         />
         <div
           className={`relative flex items-start px-6 pt-5 md:px-10 md:pt-7 ${
-            isHome ? "justify-between" : "justify-start"
+            isHome ? "justify-between" : "justify-end"
           }`}
         >
           {isHome ? (
