@@ -178,7 +178,7 @@ function SiteChrome({
   return (
     <>
       {variant === "solid" ? (
-        <div className="h-20 md:h-24" aria-hidden />
+        <div className="h-24 md:h-32" aria-hidden />
       ) : null}
 
       <header
@@ -234,9 +234,10 @@ function SiteChrome({
             href="/"
             tabIndex={peeking ? undefined : -1}
             className={`${interact} relative z-20 shrink-0 transition-opacity hover:opacity-75`}
+            aria-label="Arroelo — inicio"
           >
             <span
-              className={`block text-[17px] font-medium leading-none tracking-[-0.03em] md:text-[19px] ${brandClass}`}
+              className={`block font-bold leading-[0.88] tracking-[-0.045em] text-[clamp(2rem,5.2vw,5.25rem)] ${brandClass}`}
             >
               Arroelo
             </span>
