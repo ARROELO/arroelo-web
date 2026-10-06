@@ -170,15 +170,16 @@ export function Espacio() {
               : {})}
             className="group block border-t border-ink/14"
           >
-            <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-start gap-8 px-4 py-14 md:grid-cols-12 md:gap-12 md:px-6 md:py-20 lg:gap-16 lg:py-24">
-              <div className="flex items-start gap-6 md:contents">
+            {/* Arc impact row: narrow number at editorial left edge → text → photo to right margin */}
+            <div className="grid grid-cols-1 items-start gap-8 py-14 pl-4 pr-0 md:grid-cols-[auto_minmax(0,24rem)_minmax(0,1fr)] md:gap-x-8 md:py-20 lg:grid-cols-[auto_minmax(0,28rem)_minmax(0,1fr)] lg:gap-x-10 lg:py-24 md:pl-6">
+              <div className="flex items-start gap-5 md:contents">
                 <span
-                  className="shrink-0 text-espacio-title text-ink tabular-nums md:col-span-1"
+                  className="w-[1.25rem] shrink-0 text-espacio-title text-ink tabular-nums"
                   aria-hidden
                 >
                   {index + 1}
                 </span>
-                <div className="min-w-0 md:col-span-4">
+                <div className="min-w-0 md:max-w-[28rem]">
                   <h3 className="max-w-[22ch] text-espacio-title text-ink transition-colors group-hover:text-terracotta">
                     {item.title}
                   </h3>
@@ -187,13 +188,13 @@ export function Espacio() {
                   </p>
                 </div>
               </div>
-              <div className="relative aspect-[4/3] min-w-0 overflow-hidden rounded-none bg-mist md:col-span-7 md:aspect-[3/2]">
+              <div className="relative aspect-[4/3] min-w-0 overflow-hidden rounded-none bg-mist md:aspect-[3/2]">
                 <Image
                   src={withBase(item.image)}
                   alt={item.alt}
                   fill
                   className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
-                  sizes="(max-width: 768px) 100vw, 58vw"
+                  sizes="(max-width: 768px) 100vw, 62vw"
                 />
               </div>
             </div>
