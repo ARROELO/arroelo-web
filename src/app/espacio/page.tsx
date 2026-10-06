@@ -127,7 +127,7 @@ export default function EspacioPage() {
             {gallery.map((shot) => (
               <div
                 key={shot.src}
-                className="relative aspect-[4/5] overflow-hidden"
+                className="relative aspect-[4/5] overflow-hidden rounded-none"
               >
                 <Image
                   src={withBase(shot.src)}

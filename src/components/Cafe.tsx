@@ -1,21 +1,6 @@
 import Image from "next/image";
 import { withBase } from "@/lib/path";
 
-const shots = [
-  {
-    src: "/photos/mesa-fresca.jpg",
-    alt: "Bandeja del Café a la fresca: uvas, queso, fruta y bollería en la mesa junto a la ventana",
-    objectPosition: "object-[center_70%]",
-    span: "md:col-span-5",
-  },
-  {
-    src: "/photos/ig-mesa-oval.jpg",
-    alt: "Comunidad de Arroelo alrededor de la mesa oval, con el perro en el salón",
-    objectPosition: "object-[center_40%]",
-    span: "md:col-span-7",
-  },
-];
-
 export function Cafe() {
   return (
     <section id="cafe" className="relative overflow-hidden bg-cream py-120">
@@ -39,21 +24,25 @@ export function Cafe() {
         </p>
       </div>
 
-      <div className="relative mt-14 grid gap-px md:grid-cols-12">
-        {shots.map((shot) => (
-          <div
-            key={shot.src}
-            className={`relative aspect-[4/5] overflow-hidden bg-mist md:aspect-[5/6] ${shot.span}`}
-          >
-            <Image
-              src={withBase(shot.src)}
-              alt={shot.alt}
-              fill
-              className={`object-cover transition-transform duration-700 ease-out hover:scale-[1.03] ${shot.objectPosition}`}
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
-          </div>
-        ))}
+      <div className="relative mt-14 grid items-start gap-px md:mt-16 md:grid-cols-12">
+        <div className="relative aspect-[3/4] overflow-hidden rounded-none bg-mist md:col-span-5">
+          <Image
+            src={withBase("/photos/mesa-fresca.jpg")}
+            alt="Bandeja del Café a la fresca: uvas, queso, fruta y bollería en la mesa junto a la ventana"
+            fill
+            className="object-cover object-[center_70%] transition-transform duration-700 ease-out hover:scale-[1.03]"
+            sizes="(max-width: 768px) 100vw, 42vw"
+          />
+        </div>
+        <div className="relative aspect-[4/5] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-16 md:aspect-[5/6] lg:mt-24">
+          <Image
+            src={withBase("/photos/ig-mesa-oval.jpg")}
+            alt="Comunidad de Arroelo alrededor de la mesa oval, con el perro en el salón"
+            fill
+            className="object-cover object-[center_40%] transition-transform duration-700 ease-out hover:scale-[1.03]"
+            sizes="(max-width: 768px) 100vw, 58vw"
+          />
+        </div>
       </div>
     </section>
   );

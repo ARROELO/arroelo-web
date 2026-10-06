@@ -84,11 +84,13 @@ export function Espacio() {
         </p>
       </div>
 
-      <div className="mt-14 grid gap-px md:grid-cols-3">
-        {gallery.map((shot) => (
+      <div className="mt-14 grid items-start gap-px md:grid-cols-3">
+        {gallery.map((shot, i) => (
           <div
             key={shot.src}
-            className="relative aspect-[4/5] overflow-hidden md:aspect-[3/4]"
+            className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
+              i === 1 ? "md:mt-10" : ""
+            }`}
           >
             <Image
               src={withBase(shot.src)}
@@ -120,7 +122,7 @@ export function Espacio() {
             {...(item.href.startsWith("http")
               ? { target: "_blank", rel: "noopener noreferrer" }
               : {})}
-            className="group relative aspect-[4/3] overflow-hidden"
+            className="group relative aspect-[4/3] overflow-hidden rounded-none"
           >
             <Image
               src={withBase(item.image)}

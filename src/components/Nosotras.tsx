@@ -33,7 +33,7 @@ export function Nosotras() {
       </div>
 
       <div className="mt-12 grid gap-px md:mt-16 md:h-[min(85vh,780px)] md:grid-cols-12">
-        <div className="relative aspect-[2/3] overflow-hidden bg-mist md:col-span-5 md:aspect-auto md:h-full">
+        <div className="relative aspect-[2/3] overflow-hidden rounded-none bg-mist md:col-span-5 md:aspect-auto md:h-full">
           <Image
             src={withBase("/photos/nosotras-prensa.jpg")}
             alt="María Pierres y África Rodríguez, cofundadoras de Arroelo, en el espacio en 2013"
@@ -43,7 +43,7 @@ export function Nosotras() {
             priority
           />
         </div>
-        <div className="relative aspect-[3/2] overflow-hidden bg-mist md:col-span-7 md:aspect-auto md:h-full">
+        <div className="relative aspect-[3/2] overflow-hidden rounded-none bg-mist md:col-span-7 md:aspect-auto md:h-full">
           <Image
             src={withBase("/photos/pontevedra-calle.jpg")}
             alt="Portátil en una mesa en la Praza da Ferrería, con una mujer trabajando y otra al fondo"

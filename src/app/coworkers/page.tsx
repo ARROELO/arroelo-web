@@ -25,7 +25,7 @@ function Card({
 }) {
   const inner = (
     <>
-      <div className="relative aspect-square overflow-hidden rounded-3xl bg-mist">
+      <div className="relative aspect-square overflow-hidden rounded-none bg-mist">
         {photo ? (
           <Image
             src={withBase(photo)}

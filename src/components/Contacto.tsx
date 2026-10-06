@@ -52,7 +52,7 @@ export function Contacto() {
             Primera semana sin coste. Escríbenos y reserva tu mesa — o pregunta
             por la sala exclusiva.
           </p>
-          <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-3xl bg-fog">
+          <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-none bg-fog">
             <Image
               src={withBase("/photos/pontevedra-alameda.jpg")}
               alt="Trabajo al aire libre en la Alameda de Pontevedra, a unos minutos del salón"
