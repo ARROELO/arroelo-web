@@ -80,6 +80,13 @@ function NavLinks({
 
 export function SiteHeader({ variant = "hero" }: Props) {
   const pathname = usePathname();
+  return <SiteChrome key={pathname} pathname={pathname} variant={variant} />;
+}
+
+function SiteChrome({
+  variant = "hero",
+  pathname,
+}: Props & { pathname: string }) {
   const menuId = useId();
   const [open, setOpen] = useState(false);
   const [overDark, setOverDark] = useState(variant === "hero");
@@ -95,7 +102,7 @@ export function SiteHeader({ variant = "hero" }: Props) {
       if (raf) return;
       raf = requestAnimationFrame(update);
     };
-    update();
+    raf = requestAnimationFrame(update);
     window.addEventListener("scroll", onScrollOrResize, { passive: true });
     window.addEventListener("resize", onScrollOrResize, { passive: true });
     return () => {
@@ -104,10 +111,6 @@ export function SiteHeader({ variant = "hero" }: Props) {
       if (raf) cancelAnimationFrame(raf);
     };
   }, [variant, pathname]);
-
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
 
   useEffect(() => {
     if (!open) return;
