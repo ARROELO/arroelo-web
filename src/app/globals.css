@@ -261,8 +261,13 @@
     opacity: 0.35;
   }
 
+  /* Arc fixed-visual: sticky stage, inner frame scales down on scroll */
+  .hero-scroll-stage {
+    overflow: visible;
+  }
+
   .hero-scroll-frame {
-    transform-origin: center center;
+    transform-origin: center top;
     will-change: transform;
     backface-visibility: hidden;
     border-radius: 0;
@@ -292,6 +297,10 @@
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
+  }
+
+  .hero-scroll-stage {
+    overflow: hidden;
   }
 
   .hero-scroll-frame {

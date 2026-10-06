@@ -8,12 +8,13 @@ function clamp01(value: number) {
   return Math.min(1, Math.max(0, value));
 }
 
-function smoothstep(t: number) {
-  return t * t * (3 - 2 * t);
-}
+/** Arc-style shrink: linear 0→1 over one viewport of scroll. */
+const SCROLL_RANGE_VH = 1;
+const SCALE_MIN = 0.78;
 
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const stageRef = useRef<HTMLElement>(null);
   const frameRef = useRef<HTMLDivElement>(null);
   const [reduceMotion, setReduceMotion] = useState(false);
 
@@ -45,28 +46,28 @@ export function Hero() {
       return;
     }
 
+    const stage = stageRef.current;
     const frame = frameRef.current;
     const video = videoRef.current;
-    if (!frame) return;
+    if (!stage || !frame) return;
 
     let raf = 0;
     let lastProgress = -1;
 
     const update = () => {
       raf = 0;
-      const range = Math.max(window.innerHeight * 0.9, 1);
-      const progress = smoothstep(clamp01(window.scrollY / range));
-      if (Math.abs(progress - lastProgress) < 0.001) return;
+      const range = Math.max(window.innerHeight * SCROLL_RANGE_VH, 1);
+      const progress = clamp01(window.scrollY / range);
+      if (Math.abs(progress - lastProgress) < 0.0005) return;
       lastProgress = progress;
 
-      const scale = 1 - progress * 0.12;
-      const shift = progress * 4;
-      frame.style.transform = `translate3d(0, ${shift}vh, 0) scale(${scale})`;
+      const scale = 1 - progress * (1 - SCALE_MIN);
+      frame.style.transform = `scale3d(${scale}, ${scale}, 1)`;
 
       if (video) {
-        if (progress > 0.92 && !video.paused) {
+        if (progress > 0.95 && !video.paused) {
           video.pause();
-        } else if (progress <= 0.92 && video.paused) {
+        } else if (progress <= 0.95 && video.paused) {
           void video.play().catch(() => {});
         }
       }
@@ -115,11 +116,13 @@ export function Hero() {
 
   return (
     <section
+      ref={stageRef}
       aria-label="Arroelo"
+      data-hero-scroll
       className={
         reduceMotion
           ? "relative min-h-[100svh] overflow-hidden bg-deep-teal text-paper"
-          : "sticky top-0 z-0 flex min-h-[100svh] items-center justify-center overflow-hidden bg-fog text-paper"
+          : "hero-scroll-stage sticky top-0 z-0 min-h-[100svh] bg-fog text-paper"
       }
     >
       <div
@@ -127,7 +130,7 @@ export function Hero() {
         className={
           reduceMotion
             ? "relative min-h-[100svh] w-full overflow-hidden bg-deep-teal"
-            : "hero-scroll-frame relative min-h-[100svh] w-full overflow-hidden bg-deep-teal"
+            : "hero-scroll-frame relative h-[100svh] w-full overflow-hidden bg-deep-teal"
         }
       >
         {media}
