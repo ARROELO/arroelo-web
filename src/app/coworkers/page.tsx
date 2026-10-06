@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
 import { coworkers } from "@/data/coworkers";
 import { withBase } from "@/lib/path";
+import "./coworkers.css";
 
 export const metadata: Metadata = {
   title: "Coworkers — Arroelover Family | Espacio Arroelo",
@@ -12,54 +13,51 @@ export const metadata: Metadata = {
     "La familia coworker de Espacio Arroelo en Pontevedra. Conoce a quienes comparten el salón cada día.",
 };
 
-function Card({
+function CoworkerTile({
   name,
   href,
   photo,
   open,
+  index,
 }: {
   name: string;
   href?: string;
   photo?: string;
   open?: boolean;
+  index: number;
 }) {
-  const inner = (
+  const delayMs = Math.min(index * 55, 480);
+  const className = `coworker-cell${open ? " is-open" : ""}`;
+  const style = { animationDelay: `${delayMs}ms` } as const;
+
+  const body = (
     <>
-      <div className="relative aspect-square overflow-hidden rounded-none bg-mist">
+      <div className="coworker-media rounded-none">
         {photo ? (
           <Image
             src={withBase(photo)}
             alt={open ? "Plaza libre en Arroelo" : name}
             fill
-            className="object-cover"
-            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className="coworker-photo rounded-none"
+            sizes="(max-width: 767px) 50vw, (max-width: 1199px) 33vw, 25vw"
+            priority={index < 4}
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center bg-cream">
-            <span className="text-heading text-ink/25">
-              {open
-                ? "?"
-                : name
-                    .split(" ")
-                    .map((w) => w[0])
-                    .slice(0, 2)
-                    .join("")}
+          <div className="coworker-open-fill">
+            <span className="coworker-open-mark" aria-hidden>
+              ?
             </span>
           </div>
         )}
+        <div className="coworker-meta">
+          <p className="coworker-name">{name}</p>
+          {open ? (
+            <p className="coworker-cue">Plaza libre</p>
+          ) : href ? (
+            <p className="coworker-cue">Ver perfil</p>
+          ) : null}
+        </div>
       </div>
-      <p
-        className={`mt-4 text-subheading ${open ? "text-ink/45" : "text-ink"}`}
-      >
-        {name}
-      </p>
-      {open ? (
-        <p className="mt-1 text-caption text-terracotta">Plaza libre</p>
-      ) : href ? (
-        <p className="mt-1 text-caption text-ink/40 group-hover:text-terracotta">
-          Ver perfil
-        </p>
-      ) : null}
     </>
   );
 
@@ -69,50 +67,59 @@ function Card({
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="group block"
+        className={className}
+        style={style}
       >
-        {inner}
+        {body}
       </a>
     );
   }
 
   if (open) {
     return (
-      <Link href="/#contacto" className="group block">
-        {inner}
+      <Link href="/#contacto" className={className} style={style}>
+        {body}
       </Link>
     );
   }
 
-  return <div className="block">{inner}</div>;
+  return (
+    <div className={className} style={style}>
+      {body}
+    </div>
+  );
 }
 
 export default function CoworkersPage() {
   return (
     <>
       <SiteHeader variant="solid" />
-      <main>
-        <section className="bg-fog px-6 pb-120 pt-16 md:px-10">
-          <div className="mx-auto max-w-[1100px]">
-            <p className="text-caption text-graphite/70">Familia coworker</p>
-            <h1 className="mt-5 text-heading-lg text-ink">Arroelover Family</h1>
-            <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
-              Nadie es igual a nadie, y precisamente por eso el espacio
-              funciona. Estas son algunas caras del salón — y hay mesa para ti.
-            </p>
+      <main className="coworkers-page">
+        <header className="coworkers-intro">
+          <p className="text-label text-graphite/70">Familia coworker</p>
+          <h1 className="mt-4 max-w-[18ch] text-heading-lg text-ink md:mt-5">
+            Arroelover Family
+          </h1>
+          <p className="mt-5 max-w-xl text-body-lg text-ink/65 md:mt-6">
+            Nadie es igual a nadie, y precisamente por eso el espacio funciona.
+            Estas son algunas caras del salón — y hay mesa para ti.
+          </p>
+        </header>
 
-            <div className="mt-16 grid grid-cols-2 gap-6 sm:grid-cols-3 md:gap-8 lg:grid-cols-4">
-              {coworkers.map((person, i) => (
-                <Card
-                  key={`${person.name}-${i}`}
-                  name={person.name}
-                  href={person.href}
-                  photo={person.photo}
-                  open={person.open}
-                />
-              ))}
-            </div>
-          </div>
+        <section
+          className="coworkers-grid"
+          aria-label="Retratos de la familia coworker"
+        >
+          {coworkers.map((person, i) => (
+            <CoworkerTile
+              key={`${person.name}-${i}`}
+              name={person.name}
+              href={person.href}
+              photo={person.photo}
+              open={person.open}
+              index={i}
+            />
+          ))}
         </section>
       </main>
       <SiteFooter />
