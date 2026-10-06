@@ -232,6 +232,12 @@
     mix-blend-mode: soft-light;
     opacity: 0.35;
   }
+
+  .hero-scroll-frame {
+    transform-origin: center center;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
 }
 
 @keyframes reveal-up {
@@ -257,5 +263,11 @@
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
+  }
+
+  .hero-scroll-frame {
+    will-change: auto;
+    transform: none !important;
+    border-radius: 0 !important;
   }
 }

@@ -53,7 +53,10 @@ const bridges = [
 
 export function Espacio() {
   return (
-    <section id="espacio" className="bg-fog px-6 py-120 md:px-10">
+    <section
+      id="espacio"
+      className="relative z-10 bg-fog px-6 py-120 md:px-10"
+    >
       <div className="mx-auto max-w-[1100px]">
         <p className="text-caption text-graphite/70">El salón</p>
         <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
@@ -87,10 +90,10 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/salon-trabajo.jpg")}
-              alt="Dos personas trabajando en el salón, con la piedra de Pontevedra al fondo"
+              src={withBase("/photos/ig-grupo-pie.jpg")}
+              alt="Comunidad de Arroelo: un grupo de coworkers juntas en el salón"
               fill
-              className="object-cover object-[center_45%]"
+              className="object-cover object-[center_35%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>

@@ -13,8 +13,10 @@ export default function Home() {
     <>
       <SiteHeader />
       <main>
-        <Hero />
-        <Espacio />
+        <div className="relative">
+          <Hero />
+          <Espacio />
+        </div>
         <Filosofia />
         <Cafe />
         <Nosotras />
