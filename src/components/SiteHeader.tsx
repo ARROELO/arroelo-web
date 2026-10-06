@@ -164,7 +164,7 @@ function SiteChrome({
   const peeking = !hidden || open;
   const interact = peeking ? "pointer-events-auto" : "pointer-events-none";
   const linkClass =
-    "block py-0.5 text-[15px] font-bold leading-[1.25] tracking-[-0.011em] transition-colors duration-200";
+    "block py-0.5 text-[17px] font-bold leading-[1.25] tracking-[-0.011em] transition-colors duration-200";
   const desktopLink = ink
     ? `${linkClass} text-ink/55 hover:text-ink`
     : `${linkClass} text-paper/75 hover:text-paper`;
@@ -237,7 +237,7 @@ function SiteChrome({
             aria-label="Arroelo — inicio"
           >
             <span
-              className={`block font-bold leading-[0.88] tracking-[-0.045em] text-[clamp(2.5rem,7.5vw,7.25rem)] ${brandClass}`}
+              className={`block font-bold leading-[0.88] tracking-[-0.045em] text-[clamp(2.625rem,7.5vw,7.375rem)] ${brandClass}`}
             >
               Arroelo
             </span>
@@ -262,8 +262,8 @@ function SiteChrome({
             <NavLinks
               pathname={pathname}
               className="flex flex-col items-start gap-1 text-left"
-              linkClassName="block py-1.5 text-[17px] font-bold leading-[1.25] tracking-[-0.011em] text-ink/55 hover:text-ink"
-              activeClassName="block py-1.5 text-[17px] font-bold leading-[1.25] tracking-[-0.011em] text-ink"
+              linkClassName="block py-1.5 text-[19px] font-bold leading-[1.25] tracking-[-0.011em] text-ink/55 hover:text-ink"
+              activeClassName="block py-1.5 text-[19px] font-bold leading-[1.25] tracking-[-0.011em] text-ink"
               onNavigate={() => setOpen(false)}
             />
           </nav>
