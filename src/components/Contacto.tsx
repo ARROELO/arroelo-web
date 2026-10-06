@@ -54,22 +54,22 @@ export function Contacto() {
           </p>
           <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-3xl bg-fog">
             <Image
-              src={withBase("/photos/pontevedra-calle.jpg")}
-              alt="Mesa de trabajo en la Praza da Ferrería, en el centro de Pontevedra"
+              src={withBase("/photos/salon-ventana.jpg")}
+              alt="El salón de Arroelo con luz natural y la piedra de Pontevedra al otro lado del cristal"
               fill
               className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
           <p className="mt-3 text-caption text-ink/45">
-            Pontevedra a pie de calle — a tres minutos del salón.
+            Cobián Roffignac 6, 3º — el centro de Pontevedra a la vista.
           </p>
         </div>
         <div className="space-y-8">
           <div>
             <p className="text-caption text-graphite/60">Dónde</p>
             <p className="mt-2 text-subheading text-ink">
-              Cobián Roffignac 6, 3º
+              Cobián Roffignac 6
               <br />
               36002 Pontevedra
             </p>

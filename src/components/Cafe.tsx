@@ -3,20 +3,25 @@ import { withBase } from "@/lib/path";
 
 const shots = [
   {
-    src: "/photos/cafe-foto.jpg",
-    alt: "Naranjas, bollería y café junto a la ventana del salón",
-    objectPosition: "object-[center_40%]",
+    src: "/photos/cafe.jpg",
+    alt: "Mesa del Café a la fresca: uvas, queso, croissants y la piedra de Pontevedra al fondo",
+    objectPosition: "object-[center_78%]",
     featured: true,
   },
   {
     src: "/photos/croissants-charla.jpg",
     alt: "Croissants dorados, café y fruta en la mesa del Café a la fresca",
-    objectPosition: "object-[center_70%]",
+    objectPosition: "object-[center_82%]",
   },
   {
-    src: "/photos/comida-terraza.jpg",
-    alt: "Comida compartida al sol: platos, conversación y mesa de madera",
-    objectPosition: "object-[center_40%]",
+    src: "/photos/encuentro.jpg",
+    alt: "Tazas de café, bollería y conversación en la mesa oval del salón",
+    objectPosition: "object-[center_65%]",
+  },
+  {
+    src: "/photos/conversacion.jpg",
+    alt: "Tazas, bizcocho y café sobre la mesa durante la pausa de las 11:30",
+    objectPosition: "object-[center_70%]",
   },
 ];
 
@@ -68,18 +73,18 @@ export function Cafe() {
           </div>
         </div>
 
-        <div className="mt-5 grid gap-4 sm:grid-cols-2 md:mt-6 md:gap-5">
+        <div className="mt-5 grid gap-4 sm:grid-cols-3 md:mt-6 md:gap-5">
           {rest.map((shot) => (
             <div
               key={shot.src}
-              className="relative aspect-[5/4] overflow-hidden rounded-3xl bg-mist sm:aspect-[4/3]"
+              className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-mist"
             >
               <Image
                 src={withBase(shot.src)}
                 alt={shot.alt}
                 fill
                 className={`object-cover transition-transform duration-700 ease-out hover:scale-[1.03] ${shot.objectPosition}`}
-                sizes="(max-width: 640px) 100vw, 50vw"
+                sizes="(max-width: 640px) 100vw, 33vw"
               />
             </div>
           ))}
@@ -88,10 +93,10 @@ export function Cafe() {
         <div className="mt-16 grid items-center gap-10 border-t border-ink/10 pt-12 md:grid-cols-2 md:gap-14">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-mist md:aspect-[4/3]">
             <Image
-              src={withBase("/photos/pontevedra-alameda.jpg")}
-              alt="Michelle trabajando en la Alameda de Pontevedra, con su perro a los pies de la mesa"
+              src={withBase("/photos/pet.jpg")}
+              alt="Mascota en el salón de Arroelo, junto a las sillas de la mesa"
               fill
-              className="object-cover object-[center_55%]"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
@@ -101,9 +106,8 @@ export function Cafe() {
               También a cuatro patas
             </h3>
             <p className="mt-4 text-body text-ink/65">
-              Las mascotas que saben convivir son bienvenidas en el salón — y
-              a veces también acompañan un rato de trabajo en la ciudad, a
-              tres minutos de la mesa.
+              Las mascotas que saben convivir son bienvenidas en el salón —
+              parte de la mesa, no un extraño en la oficina.
             </p>
           </div>
         </div>
