@@ -11,7 +11,6 @@ const coworking = [
 
 const sala = [
   "Espacio privado para tu equipo",
-  "IVA incluido en el precio",
   "Fibra 1 Giga y gastos incluidos",
   "Acceso 24 horas",
   "Uso de zonas comunes y Café a la fresca",
@@ -31,8 +30,8 @@ const plans = [
   },
   {
     title: "Sala exclusiva",
-    price: "500€",
-    priceNote: "/ mes · IVA incluido",
+    price: "400€",
+    priceNote: "+ IVA / mes",
     tagline: "Tu propia sala dentro de Arroelo.",
     image: "/photos/sala-puestos.jpg",
     alt: "Sala exclusiva con puestos de trabajo en Arroelo",
