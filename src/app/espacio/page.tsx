@@ -45,28 +45,38 @@ const gallery = [
     wide: true,
   },
   {
+    src: "/photos/pontevedra-alameda.jpg",
+    alt: "Trabajo al aire libre en la Alameda de Pontevedra, con palmeras y fuente",
+    wide: true,
+  },
+  {
+    src: "/photos/sala-puestos.jpg",
+    alt: "Sala de puestos con fibra, monitores y luz de la calle",
+  },
+  {
     src: "/photos/ig-puestos-ventana.jpg",
     alt: "Puestos de trabajo junto a la ventana con luz natural",
   },
   {
-    src: "/photos/ig-salon-vivo.jpg",
-    alt: "Salón vivo: trabajo y taller en las mesas de Arroelo",
-  },
-  {
-    src: "/photos/mesa.jpg",
-    alt: "Mesa de desayuno con fruta, queso y bollería",
+    src: "/photos/cafe-mesa-salon.jpg",
+    alt: "Café a la fresca: conversación y bollería en el salón",
+    wide: true,
   },
   {
     src: "/photos/ig-puestos-luz.jpg",
     alt: "Puestos con monitores y sillas ergonómicas junto a la ventana",
   },
   {
-    src: "/photos/croissants-charla.jpg",
-    alt: "Croissants y café en el Café a la fresca",
+    src: "/photos/comunidad-sonrisas.jpg",
+    alt: "Sonrisas alrededor de la mesa del salón",
   },
   {
-    src: "/photos/ig-grupo-pie.jpg",
-    alt: "Grupo intergeneracional de pie en el salón",
+    src: "/photos/ig-salon-vivo.jpg",
+    alt: "Salón vivo: trabajo y taller en las mesas de Arroelo",
+  },
+  {
+    src: "/photos/encuentro-patio.jpg",
+    alt: "Encuentro en el patio, plantas y conversación",
   },
 ];
 

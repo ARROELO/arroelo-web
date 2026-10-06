@@ -1,21 +1,43 @@
+import Image from "next/image";
+import { withBase } from "@/lib/path";
+
 const social = [
   {
     label: "Instagram",
     href: "https://www.instagram.com/arroelo/",
+    icon: InstagramIcon,
   },
   {
     label: "Facebook",
     href: "https://www.facebook.com/EspacioArroelo/",
-  },
-  {
-    label: "Blog",
-    href: "https://espacioarroelo.es/projects/",
-  },
-  {
-    label: "Familia coworker",
-    href: "/coworkers",
+    icon: FacebookIcon,
   },
 ];
+
+function InstagramIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      aria-hidden
+    >
+      <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+      <circle cx="12" cy="12" r="4.1" />
+      <circle cx="17.4" cy="6.6" r="0.9" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function FacebookIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden>
+      <path d="M14.2 8.5V6.8c0-.7.5-1.1 1.2-1.1h1.3V3h-2.3C11.8 3 11 5 11 6.6v1.9H9v2.7h2V21h3.2v-9.8h2.2l.4-2.7h-2.6z" />
+    </svg>
+  );
+}
 
 export function Contacto() {
   return (
@@ -29,6 +51,18 @@ export function Contacto() {
           <p className="mt-8 text-body-lg text-ink/70">
             Primera semana sin coste. Escríbenos y reserva tu mesa — o pregunta
             por la sala exclusiva.
+          </p>
+          <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-3xl bg-fog">
+            <Image
+              src={withBase("/photos/pontevedra-calle.jpg")}
+              alt="Mesa de trabajo en la Praza da Ferrería, en el centro de Pontevedra"
+              fill
+              className="object-cover object-[center_40%]"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+          <p className="mt-3 text-caption text-ink/45">
+            Pontevedra a pie de calle — a tres minutos del salón.
           </p>
         </div>
         <div className="space-y-8">
@@ -67,21 +101,25 @@ export function Contacto() {
             </a>
           </div>
           <div>
-            <p className="text-caption text-graphite/60">Redes y más</p>
-            <ul className="mt-3 flex flex-wrap gap-x-6 gap-y-2">
-              {social.map((item) => (
-                <li key={item.href}>
-                  <a
-                    href={item.href}
-                    {...(item.href.startsWith("http")
-                      ? { target: "_blank", rel: "noopener noreferrer" }
-                      : {})}
-                    className="text-body text-ink underline decoration-ink/15 underline-offset-4 hover:text-terracotta"
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
+            <p className="text-caption text-graphite/60">Redes</p>
+            <ul className="mt-4 flex items-center gap-3">
+              {social.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <li key={item.href}>
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={item.label}
+                      title={item.label}
+                      className="inline-flex size-11 items-center justify-center rounded-full border border-ink/12 text-ink transition-colors hover:border-terracotta hover:text-terracotta"
+                    >
+                      <Icon className="size-5" />
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>
@@ -90,45 +128,12 @@ export function Contacto() {
   );
 }
 
-const footerLinks = [
-  { label: "Espacio", href: "/espacio" },
-  { label: "Coworkers", href: "/coworkers" },
-  { label: "Café a la fresca", href: "/#cafe" },
-  { label: "Blog", href: "https://espacioarroelo.es/projects/" },
-  {
-    label: "Privacidad",
-    href: "https://espacioarroelo.es/privacy-policy-2/",
-  },
-  { label: "Instagram", href: "https://www.instagram.com/arroelo/" },
-  { label: "Facebook", href: "https://www.facebook.com/EspacioArroelo/" },
-];
-
 export function SiteFooter() {
   return (
-    <footer className="border-t border-ink/8 bg-fog px-6 py-14 md:px-10">
-      <div className="mx-auto max-w-[1100px]">
-        <ul className="flex flex-wrap gap-x-6 gap-y-3">
-          {footerLinks.map((link) => (
-            <li key={link.href + link.label}>
-              <a
-                href={link.href}
-                {...(link.href.startsWith("http")
-                  ? { target: "_blank", rel: "noopener noreferrer" }
-                  : {})}
-                className="text-caption text-ink/50 transition-colors hover:text-ink"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <div className="mt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <p className="text-caption text-ink/50">
-            © {new Date().getFullYear()} Espacio Arroelo · Pontevedra
-          </p>
-          <p className="text-caption text-ink/40">#arroeloverfamily</p>
-        </div>
-      </div>
+    <footer className="border-t border-ink/8 bg-fog px-6 py-8 md:px-10">
+      <p className="mx-auto max-w-[1100px] text-caption text-ink/40">
+        © {new Date().getFullYear()} Espacio Arroelo
+      </p>
     </footer>
   );
 }

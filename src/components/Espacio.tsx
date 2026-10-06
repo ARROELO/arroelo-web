@@ -21,32 +21,32 @@ const bridges = [
     title: "De la ciudad a la aldea",
     cta: "Trabaja desde Anceu",
     href: "https://anceu.com/",
-    image: "/photos/mesa-fresca.jpg",
-    alt: "Mesa con fruta y planta junto a la ventana, con vista a la piedra gallega",
-    objectPosition: "object-[center_35%]",
+    image: "/photos/mural-anceu.jpg",
+    alt: "Mural y comunidad en Anceu, puente entre ciudad y aldea",
+    objectPosition: "object-[center_40%]",
   },
   {
     title: "Con ideas y perspectivas",
     cta: "Ven a Café a la fresca",
     href: "#cafe",
-    image: "/photos/croissants-charla.jpg",
-    alt: "Croissants, café y charla en la mesa del Café a la fresca",
-    objectPosition: "object-[center_65%]",
+    image: "/photos/cafe-comunidad.jpg",
+    alt: "Comunidad de Arroelo alrededor de la mesa del Café a la fresca",
+    objectPosition: "object-[center_45%]",
   },
   {
     title: "De Galicia para el mundo",
     cta: "Descubre ECHN",
     href: "https://creativehubs.net/",
-    image: "/photos/ig-grupo-pie.jpg",
-    alt: "Grupo diverso de Arroelo sonriendo juntos en el salón",
-    objectPosition: "object-[center_30%]",
+    image: "/photos/comunidad-aldea.jpg",
+    alt: "Grupo de la red gallega sonriendo frente a una casa de piedra",
+    objectPosition: "object-[center_40%]",
   },
   {
     title: "Con arte y tecnología",
     cta: "Conoce Rural Hackers",
     href: "https://www.ruralhackers.com/",
-    image: "/photos/ig-salon-vivo.jpg",
-    alt: "Salón vivo: trabajo en portátil y taller creativo al fondo",
+    image: "/photos/rural-hackers.jpg",
+    alt: "Rural Hackers junto a un mural en el bosque",
     objectPosition: "object-[center_45%]",
   },
 ];
@@ -70,8 +70,8 @@ export function Espacio() {
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/ig-salon-luz.jpg")}
-              alt="Salón de Arroelo vacío con luz natural, mesas de madera y plantas"
+              src={withBase("/photos/salon-ventana.jpg")}
+              alt="Salón de Arroelo con luz natural, mesa de madera y vista a la ciudad"
               fill
               className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -88,10 +88,10 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4]">
             <Image
-              src={withBase("/photos/ig-mesa-oval.jpg")}
-              alt="Comunidad de Arroelo alrededor de la mesa oval, sonrisas y café"
+              src={withBase("/photos/salon-trabajo.jpg")}
+              alt="Dos personas trabajando en el salón, con la piedra de Pontevedra al fondo"
               fill
-              className="object-cover object-[center_40%]"
+              className="object-cover object-[center_45%]"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>

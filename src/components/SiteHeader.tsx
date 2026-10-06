@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import { withBase } from "@/lib/path";
 
 const nav = [
   { href: "/espacio", label: "Espacio" },
@@ -24,23 +22,18 @@ export function SiteHeader({ variant = "hero" }: Props) {
           : "absolute inset-x-0 top-0 z-30"
       }
     >
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 md:px-10 md:py-7">
+      <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-3 px-6 py-5 md:px-10 md:py-7">
         <Link
           href="/"
-          className="flex shrink-0 items-center transition-opacity hover:opacity-75"
+          className={
+            isSolid
+              ? "text-[15px] font-medium tracking-[-0.02em] text-ink transition-opacity hover:opacity-70"
+              : "text-[15px] font-medium tracking-[-0.02em] text-paper/92 transition-opacity hover:opacity-80"
+          }
         >
-          <Image
-            src={withBase(
-              isSolid ? "/logo-arroelo-ink.png" : "/logo-arroelo.png",
-            )}
-            alt="Arroelo"
-            width={151}
-            height={36}
-            className="h-8 w-auto md:h-9"
-            priority
-          />
+          Arroelo
         </Link>
-        <nav className="hidden items-center gap-8 xl:flex">
+        <nav className="flex flex-wrap items-center gap-5 md:gap-8">
           {nav.map((item) => (
             <Link
               key={item.href}
@@ -55,16 +48,6 @@ export function SiteHeader({ variant = "hero" }: Props) {
             </Link>
           ))}
         </nav>
-        <Link
-          href="/#contacto"
-          className={
-            isSolid
-              ? "btn btn-nav btn-ink"
-              : "btn btn-nav bg-paper/95 text-ink hover:bg-terracotta"
-          }
-        >
-          Reservar semana
-        </Link>
       </div>
     </header>
   );

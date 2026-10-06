@@ -3,9 +3,9 @@ import { withBase } from "@/lib/path";
 
 const shots = [
   {
-    src: "/photos/mesa.jpg",
-    alt: "Mesa de desayuno: fruta, queso, crackers y bollería sobre madera",
-    objectPosition: "object-[center_55%]",
+    src: "/photos/cafe-foto.jpg",
+    alt: "Naranjas, bollería y café junto a la ventana del salón",
+    objectPosition: "object-[center_40%]",
     featured: true,
   },
   {
@@ -14,8 +14,8 @@ const shots = [
     objectPosition: "object-[center_70%]",
   },
   {
-    src: "/photos/cafe-foto.jpg",
-    alt: "Naranjas, bollería y café junto a la ventana del salón",
+    src: "/photos/comida-terraza.jpg",
+    alt: "Comida compartida al sol: platos, conversación y mesa de madera",
     objectPosition: "object-[center_40%]",
   },
 ];
