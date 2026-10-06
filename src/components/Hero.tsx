@@ -1,18 +1,60 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import { withBase } from "@/lib/path";
 
 export function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [reduceMotion, setReduceMotion] = useState(false);
+
+  useEffect(() => {
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const apply = () => {
+      setReduceMotion(media.matches);
+      const video = videoRef.current;
+      if (!video) return;
+      if (media.matches) {
+        video.pause();
+      } else {
+        void video.play().catch(() => {
+          /* autoplay may be blocked */
+        });
+      }
+    };
+    apply();
+    media.addEventListener("change", apply);
+    return () => media.removeEventListener("change", apply);
+  }, []);
+
   return (
     <section className="relative min-h-[100svh] overflow-hidden bg-deep-teal text-paper">
-      <Image
-        src={withBase("/photos/hero-comunidad.jpg")}
-        alt="Grupo intergeneracional de Arroelo sonriendo a cámara en el salón"
-        fill
-        priority
-        className="object-cover object-[center_32%]"
-        sizes="100vw"
-      />
+      {reduceMotion ? (
+        <Image
+          src={withBase("/videos/arroelo-poster.webp")}
+          alt=""
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
+          aria-hidden
+        />
+      ) : (
+        <video
+          ref={videoRef}
+          className="absolute inset-0 h-full w-full object-cover object-center"
+          poster={withBase("/videos/arroelo-poster.webp")}
+          muted
+          loop
+          playsInline
+          autoPlay
+          preload="metadata"
+          aria-hidden
+        >
+          <source src={withBase("/videos/arroelo.mp4")} type="video/mp4" />
+        </video>
+      )}
       <div
         aria-hidden
         className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,24,20,0.55)_0%,rgba(26,24,20,0.32)_42%,rgba(26,24,20,0.82)_100%)]"
