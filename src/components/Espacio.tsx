@@ -72,17 +72,17 @@ const gallery = [
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog py-120">
-      {/* Arc stack: editorial text near left edge, then full-bleed photos below */}
+      {/* Arc stack: editorial text near left edge (~half viewport), photos below */}
       <div className="px-4">
-        <p className="text-espacio-label text-graphite/80">El salón</p>
-        <h2 className="mt-3 max-w-[18ch] text-espacio-title text-ink md:mt-3.5">
-          Un espacio abierto donde inspirarte con otras personas.
-        </h2>
-        <p className="mt-5 max-w-[36ch] text-espacio-body text-ink/70 md:mt-5">
-          Abrimos el salón cada mañana en el centro de Pontevedra. Ni casa, ni
-          oficina: foco cuando hace falta, pausa cuando el día lo pide, y
-          libertad para que ocurran visitas, ideas y redes.
-        </p>
+        <div className="max-w-[42ch] md:max-w-[50%]">
+          <h2 className="text-espacio-title text-ink">
+            Un espacio abierto donde inspirarte.
+          </h2>
+          <p className="mt-5 text-espacio-body text-ink/65 md:mt-5">
+            Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
+            pide, y libertad para que ocurran visitas, ideas y redes.
+          </p>
+        </div>
       </div>
 
       <div className="mt-12 grid items-start gap-10 sm:mt-14 sm:grid-cols-2 sm:gap-12 md:mt-16 md:gap-14 lg:grid-cols-3 lg:gap-16">

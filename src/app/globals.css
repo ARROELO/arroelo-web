@@ -148,9 +148,8 @@
   }
 
   /*
-   * Espacio intro only — mirror Arc Projects proportions:
-   * site margin 1rem, h3 titles ~32px, body ~16px / weight 400.
-   * (Neue Haas → Switzer; Arc maps all weights to 500; we keep 400 for body.)
+   * Espacio intro — Arc-like editorial: Switzer medium title, regular body,
+   * tight tracking; column ~half viewport (set in Espacio.tsx).
    */
   .text-espacio-label {
     font-size: 11px;
@@ -160,15 +159,15 @@
   }
 
   .text-espacio-title {
-    font-size: clamp(24px, 2.6vw, 32px);
-    line-height: 1.05;
-    letter-spacing: -0.015em;
+    font-size: clamp(26px, 2.8vw, 34px);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
     font-weight: 500;
   }
 
   .text-espacio-body {
-    font-size: 16px;
-    line-height: 1.4;
+    font-size: 15.5px;
+    line-height: 1.45;
     letter-spacing: -0.011em;
     font-weight: 400;
   }
