@@ -99,19 +99,6 @@ export function Espacio() {
         ))}
       </div>
 
-      {/* Next editorial block after the 3-photo grid — same Arc left stack as intro */}
-      <div className="mt-16 px-4 sm:mt-20 md:mt-24">
-        <div className="max-w-[42ch] md:max-w-[50%]">
-          <h3 className="text-espacio-title text-ink">
-            Aquí no alquilamos sillas. Tejemos redes.
-          </h3>
-          <p className="mt-5 text-espacio-body text-ink/65 md:mt-5">
-            Lo mejor de Arroelo ocurre entre tareas. La mesa, el café, una
-            visita: una comunidad que creamos desde nuestro salón y más allá.
-          </p>
-        </div>
-      </div>
-
       <div className="mt-16 grid grid-cols-1 gap-10 border-t border-ink/10 px-4 pt-14 sm:mt-20 sm:grid-cols-3 sm:gap-8 md:mt-24 md:gap-10 md:pt-20 lg:gap-12">
         {bridges.map((item) => (
           <a
