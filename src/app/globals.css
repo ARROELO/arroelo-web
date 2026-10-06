@@ -277,6 +277,26 @@
     opacity: 0.35;
   }
 
+  /* Tarifa — Arc /process features_list spacing */
+  .tarifa-feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .tarifa-feature-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in oklab, var(--color-ink) 14%, transparent);
+  }
+
+  .tarifa-feature-item:first-child {
+    padding-top: 0;
+    border-top: none;
+  }
+
 }
 
 @keyframes reveal-up {
