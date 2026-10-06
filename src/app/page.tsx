@@ -3,7 +3,6 @@ import { Espacio } from "@/components/Espacio";
 import { Hero } from "@/components/Hero";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Tarifa } from "@/components/Tarifa";
-import { Testimonio } from "@/components/Testimonio";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
           <Hero />
           <Espacio />
         </div>
-        <Testimonio />
         <Tarifa />
         <Contacto />
       </main>
