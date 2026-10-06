@@ -201,44 +201,47 @@ function SiteChrome({
             overDark && peeking ? "opacity-100" : "opacity-0"
           }`}
         />
-        <div className="relative flex items-start justify-between px-6 pt-5 md:px-10 md:pt-7">
+        <div
+          className={`relative flex items-start px-6 pt-5 md:px-10 md:pt-7 ${
+            isHome ? "justify-between" : "justify-start"
+          }`}
+        >
           {isHome ? (
-            <nav
-              className={`${interact} hidden md:block`}
-              aria-label="Principal"
-              inert={peeking ? undefined : true}
-            >
-              <NavLinks
-                pathname={pathname}
-                className="flex flex-col items-start gap-1 text-left"
-                linkClassName={desktopLink}
-                activeClassName={desktopActive}
-              />
-            </nav>
-          ) : null}
-
-          {isHome ? (
-            <button
-              type="button"
-              tabIndex={peeking ? undefined : -1}
-              className={`${interact} relative z-20 flex h-9 w-9 items-center justify-center md:hidden ${
-                open || ink ? "text-ink" : "text-paper"
-              }`}
-              aria-expanded={open}
-              aria-controls={menuId}
-              aria-label={open ? "Cerrar menú" : "Abrir menú"}
-              onClick={() => setOpen((value) => !value)}
-            >
-              <span
-                className={`relative block h-[13px] w-[13px] transition-transform duration-300 ${
-                  open ? "rotate-45" : ""
-                }`}
-                aria-hidden
+            <div className={`${interact} flex items-start`}>
+              <nav
+                className="hidden md:block"
+                aria-label="Principal"
+                inert={peeking ? undefined : true}
               >
-                <span className="absolute top-1/2 left-0 block h-[1.5px] w-full -translate-y-1/2 bg-current" />
-                <span className="absolute top-0 left-1/2 block h-full w-[1.5px] -translate-x-1/2 bg-current" />
-              </span>
-            </button>
+                <NavLinks
+                  pathname={pathname}
+                  className="flex flex-col items-start gap-1 text-left"
+                  linkClassName={desktopLink}
+                  activeClassName={desktopActive}
+                />
+              </nav>
+              <button
+                type="button"
+                tabIndex={peeking ? undefined : -1}
+                className={`relative z-20 flex h-9 w-9 items-center justify-center md:hidden ${
+                  open || ink ? "text-ink" : "text-paper"
+                }`}
+                aria-expanded={open}
+                aria-controls={menuId}
+                aria-label={open ? "Cerrar menú" : "Abrir menú"}
+                onClick={() => setOpen((value) => !value)}
+              >
+                <span
+                  className={`relative block h-[13px] w-[13px] transition-transform duration-300 ${
+                    open ? "rotate-45" : ""
+                  }`}
+                  aria-hidden
+                >
+                  <span className="absolute top-1/2 left-0 block h-[1.5px] w-full -translate-y-1/2 bg-current" />
+                  <span className="absolute top-0 left-1/2 block h-full w-[1.5px] -translate-x-1/2 bg-current" />
+                </span>
+              </button>
+            </div>
           ) : null}
 
           <Link
