@@ -17,7 +17,7 @@ export function Nosotras() {
         </p>
       </div>
 
-      <div className="mt-14 grid items-start gap-10 md:mt-20 md:grid-cols-12 md:gap-12 lg:gap-16">
+      <div className="mt-14 grid items-start gap-[2.5rem] md:mt-20 md:grid-cols-12 md:gap-[3rem] lg:gap-[4rem]">
         <div className="relative aspect-[2/3] overflow-hidden rounded-none bg-mist md:col-span-5 md:min-h-[min(72vh,680px)] md:aspect-auto">
           <Image
             src={withBase("/photos/nosotras-prensa.jpg")}

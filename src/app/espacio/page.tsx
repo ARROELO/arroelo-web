@@ -123,7 +123,7 @@ export default function EspacioPage() {
             <p className="text-caption text-graphite/70">Galería</p>
             <h2 className="mt-5 text-heading-lg text-ink">Así se vive</h2>
           </div>
-          <div className="mt-14 grid gap-10 sm:grid-cols-2 sm:gap-12 md:mt-20 md:gap-14 lg:grid-cols-3 lg:gap-16">
+          <div className="mt-14 grid gap-[2.5rem] sm:grid-cols-2 sm:gap-[3rem] md:mt-20 md:gap-[3.5rem] lg:grid-cols-3 lg:gap-[4rem]">
             {gallery.map((shot) => (
               <div
                 key={shot.src}
