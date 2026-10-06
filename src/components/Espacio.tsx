@@ -159,32 +159,42 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mx-auto mt-12 flex max-w-[1440px] flex-col px-4 md:mt-16 md:px-6 lg:mt-20">
-        {bridges.map((item) => (
+      <div className="mt-12 md:mt-16 lg:mt-20">
+        {bridges.map((item, index) => (
           <a
             key={item.title}
             href={item.href}
             {...(item.href.startsWith("http")
               ? { target: "_blank", rel: "noopener noreferrer" }
               : {})}
-            className="group grid grid-cols-1 items-start gap-8 border-t border-ink/14 py-14 md:grid-cols-12 md:gap-12 md:py-20 lg:gap-16 lg:py-24"
+            className="group block border-t border-ink/14"
           >
-            <div className="min-w-0 md:col-span-5">
-              <h3 className="max-w-[22ch] text-espacio-title text-ink transition-colors group-hover:text-terracotta">
-                {item.title}
-              </h3>
-              <p className="mt-3 max-w-[35ch] text-espacio-body text-ink/65 md:mt-4">
-                {item.body}
-              </p>
-            </div>
-            <div className="relative aspect-[4/3] min-w-0 overflow-hidden rounded-none bg-mist md:col-span-7 md:aspect-[3/2]">
-              <Image
-                src={withBase(item.image)}
-                alt={item.alt}
-                fill
-                className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
-                sizes="(max-width: 768px) 100vw, 58vw"
-              />
+            <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-start gap-8 px-4 py-14 md:grid-cols-12 md:gap-12 md:px-6 md:py-20 lg:gap-16 lg:py-24">
+              <div className="relative min-w-0 md:col-span-5">
+                <div className="relative mb-3 md:mb-4">
+                  <span
+                    className="pointer-events-none absolute top-0 right-0 text-espacio-title text-ink tabular-nums"
+                    aria-hidden
+                  >
+                    {index + 1}
+                  </span>
+                  <h3 className="max-w-[22ch] text-espacio-title text-ink transition-colors group-hover:text-terracotta">
+                    {item.title}
+                  </h3>
+                </div>
+                <p className="max-w-[35ch] text-espacio-body text-ink/65">
+                  {item.body}
+                </p>
+              </div>
+              <div className="relative aspect-[4/3] min-w-0 overflow-hidden rounded-none bg-mist md:col-span-7 md:aspect-[3/2]">
+                <Image
+                  src={withBase(item.image)}
+                  alt={item.alt}
+                  fill
+                  className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
+                  sizes="(max-width: 768px) 100vw, 58vw"
+                />
+              </div>
             </div>
           </a>
         ))}
