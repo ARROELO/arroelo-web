@@ -62,7 +62,7 @@ export function Contacto() {
             />
           </div>
           <p className="mt-3 text-caption text-ink/45">
-            Cobián Roffignac 6, 3º — el centro de Pontevedra a la vista.
+            Cobián Roffignac 6 — el centro de Pontevedra a la vista.
           </p>
         </div>
         <div className="space-y-8">

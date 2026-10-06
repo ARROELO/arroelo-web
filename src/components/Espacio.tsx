@@ -4,26 +4,26 @@ import { withBase } from "@/lib/path";
 const pillars = [
   {
     title: "Enfoque",
-    body: "No vendemos m²: vendemos luz natural, ergonomía y silencio productivo.",
+    body: "El foco no es encerrarse. Es un tiempo propio: mesa, luz y silencio cuando lo necesitas — sin el ruido de casa ni el protocolo de una oficina.",
   },
   {
     title: "Pausa",
-    body: "A las 11:30, Café a la fresca. Las mejores sinergias ocurren en la mesa.",
+    body: "A las 11:30, Café a la fresca. Lo que vale suele pasar entre tareas: una charla, una visita, una perspectiva que no estaba en el calendario.",
   },
   {
-    title: "Hogar intacto",
-    body: "Devuélvele a tu casa su función de descanso. Ven a Arroelo a ser profesional.",
+    title: "Libertad",
+    body: "Tejemos redes sin networking forzado. Quien entra no tiene que venderse: hay mesa, hay tiempo, y libertad para que ocurran cosas.",
   },
 ];
 
 const bridges = [
   {
     title: "De la ciudad a la aldea",
-    cta: "Trabaja desde Anceu",
+    cta: "También el coworking de Anceu",
     href: "https://anceu.com/",
-    image: "/photos/mural-anceu.jpg",
-    alt: "Mural y comunidad en Anceu, puente entre ciudad y aldea",
-    objectPosition: "object-[center_40%]",
+    image: "/photos/anceu-coworking.jpg",
+    alt: "Personas trabajando en el coworking de Anceu Coliving, en la aldea",
+    objectPosition: "object-[center_45%]",
   },
   {
     title: "Con ideas y perspectivas",
@@ -37,17 +37,17 @@ const bridges = [
     title: "De Galicia para el mundo",
     cta: "Descubre ECHN",
     href: "https://creativehubs.net/",
-    image: "/photos/comunidad-aldea.jpg",
-    alt: "Grupo de la red gallega sonriendo frente a una casa de piedra",
+    image: "/photos/echn-otro-espacio.jpg",
+    alt: "Arroelo en otro hub: trabajo compartido en un espacio de la red creativa europea",
     objectPosition: "object-[center_40%]",
   },
   {
-    title: "Con arte y tecnología",
-    cta: "Conoce Rural Hackers",
+    title: "Con Rural Hackers",
+    cta: "Tecnología y aldea, la misma red",
     href: "https://www.ruralhackers.com/",
-    image: "/photos/rural-hackers.jpg",
-    alt: "Rural Hackers junto a un mural en el bosque",
-    objectPosition: "object-[center_45%]",
+    image: "/photos/rural-hackers-tech.jpg",
+    alt: "Taller de Rural Hackers: reparar y hackear tecnología al aire libre en la aldea",
+    objectPosition: "object-[center_40%]",
   },
 ];
 
@@ -57,14 +57,13 @@ export function Espacio() {
       <div className="mx-auto max-w-[1100px]">
         <p className="text-caption text-graphite/70">El salón</p>
         <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
-          Un tercer tiempo entre casa y oficina
+          Un espacio abierto donde suceden cosas
         </h2>
         <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
-          En el centro de Pontevedra — Rúa Cobián Roffignac, tercer piso —
-          las mañanas huelen a café y a lluvia fina contra los cristales.
-          Ni el caos de la cocina, ni el frío de un cubículo: un entorno
-          cozy y productivo para perfiles +35 — con una mesa donde se cruzan
-          generaciones.
+          Nosotras abrimos el salón cada mañana en el centro de Pontevedra.
+          Ni casa, ni oficina: un tercer tiempo alrededor de la mesa — foco
+          cuando hace falta, pausa cuando el día lo pide, y libertad para que
+          ocurran visitas, ideas y redes.
         </p>
 
         <div className="mt-14 grid gap-4 md:grid-cols-3">
@@ -79,8 +78,8 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src={withBase("/photos/desayuno.jpg")}
-              alt="Desayuno compartido: fruta, café y conversación en la mesa"
+              src={withBase("/photos/ig-puestos-luz.jpg")}
+              alt="Puestos de trabajo con luz natural junto a la ventana"
               fill
               className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"

@@ -3,25 +3,20 @@ import { withBase } from "@/lib/path";
 
 const shots = [
   {
-    src: "/photos/cafe.jpg",
-    alt: "Mesa del Café a la fresca: uvas, queso, croissants y la piedra de Pontevedra al fondo",
-    objectPosition: "object-[center_78%]",
+    src: "/photos/ig-mesa-oval.jpg",
+    alt: "Café a la fresca: caras alrededor de la mesa oval del salón",
+    objectPosition: "object-[center_40%]",
     featured: true,
   },
   {
-    src: "/photos/croissants-charla.jpg",
-    alt: "Croissants dorados, café y fruta en la mesa del Café a la fresca",
-    objectPosition: "object-[center_82%]",
+    src: "/photos/conversacion-cafe.jpg",
+    alt: "Conversación alrededor del café, tazas y fruta en la mesa",
+    objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/encuentro.jpg",
-    alt: "Tazas de café, bollería y conversación en la mesa oval del salón",
-    objectPosition: "object-[center_65%]",
-  },
-  {
-    src: "/photos/conversacion.jpg",
-    alt: "Tazas, bizcocho y café sobre la mesa durante la pausa de las 11:30",
-    objectPosition: "object-[center_70%]",
+    src: "/photos/cafe-mesa-salon.jpg",
+    alt: "El ritual a las 11:30: gente, bollería y luz de la ventana",
+    objectPosition: "object-[center_40%]",
   },
 ];
 
@@ -43,13 +38,10 @@ export function Cafe() {
             <p className="text-caption text-graphite/70">Ritual diario</p>
             <h2 className="mt-5 text-heading-lg text-ink">Café a la fresca</h2>
             <p className="mt-8 text-body-lg text-ink/70">
-              Lo mejor de Arroelo ocurre entre tareas. Conversaciones con
-              perfiles como el tuyo que te sacan del aislamiento digital — sin
-              networking forzado.
+              Lo mejor de Arroelo ocurre entre tareas. La mesa, el café, una visita: redes que se tejen sin networking forzado.
             </p>
             <p className="mt-6 text-body text-ink/60">
-              Cada día a las 11:30 paramos el reloj. Croissants, fruta, un
-              café y una charla — a veces una visita que cambia el día.
+              Cada día a las 11:30 paramos el reloj. Un café, algo que picar y una charla — a veces una visita que cambia el día.
             </p>
             <p className="mt-10 text-caption text-graphite/60">
               11:30 · todos los días

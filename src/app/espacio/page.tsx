@@ -8,13 +8,13 @@ import { withBase } from "@/lib/path";
 export const metadata: Metadata = {
   title: "El espacio — Coworking en Pontevedra | Arroelo",
   description:
-    "Conoce el salón de Espacio Arroelo: mesas de madera, luz natural, salas de reunión 4K, acceso 24h y Café a la fresca en el centro de Pontevedra.",
+    "Un espacio abierto donde suceden cosas: mesas de madera, luz natural, salas de reunión 4K, acceso 24h y Café a la fresca en el centro de Pontevedra.",
 };
 
 const amenities = [
   {
     title: "Acceso 24 horas",
-    body: "Tu hogar desde la mañana a la noche, disponible en cualquier momento.",
+    body: "El salón está cuando lo necesitas: de la mañana a la noche.",
   },
   {
     title: "Salas de reunión",
@@ -33,15 +33,15 @@ const amenities = [
     body: "Bienvenidas las mascotas que saben convivir en el salón.",
   },
   {
-    title: "Comunidad +35",
-    body: "Más de una década tejiendo redes en Pontevedra.",
+    title: "Redes, no agenda",
+    body: "Más de una década tejiendo redes en Pontevedra — sin networking forzado.",
   },
 ];
 
 const gallery = [
   {
     src: "/photos/ig-mesa-comunidad.jpg",
-    alt: "Mesa larga con comunidad intergeneracional en el salón",
+    alt: "Mesa larga con gente en el salón de Arroelo",
     wide: true,
   },
   {
@@ -58,25 +58,13 @@ const gallery = [
     alt: "Puestos de trabajo junto a la ventana con luz natural",
   },
   {
-    src: "/photos/cafe-mesa-salon.jpg",
-    alt: "Café a la fresca: conversación y bollería en el salón",
-    wide: true,
-  },
-  {
-    src: "/photos/ig-puestos-luz.jpg",
-    alt: "Puestos con monitores y sillas ergonómicas junto a la ventana",
-  },
-  {
     src: "/photos/comunidad-sonrisas.jpg",
     alt: "Sonrisas alrededor de la mesa del salón",
   },
   {
     src: "/photos/ig-salon-vivo.jpg",
     alt: "Salón vivo: trabajo y taller en las mesas de Arroelo",
-  },
-  {
-    src: "/photos/ig-mesa-oval.jpg",
-    alt: "Café en la mesa oval del salón, con la piedra de Pontevedra al fondo",
+    wide: true,
   },
 ];
 
@@ -104,8 +92,8 @@ export default function EspacioPage() {
               El salón
             </h1>
             <p className="reveal reveal-delay-2 mt-8 max-w-lg text-body-lg text-paper/85">
-              Rúa Cobián Roffignac 6, 3º. Madera, luz natural y la mesa donde
-              ocurre el tercer tiempo — ni casa, ni oficina.
+              Un espacio abierto donde suceden cosas. Madera, luz natural y la
+              mesa del tercer tiempo — ni casa, ni oficina.
             </p>
           </div>
         </section>
@@ -117,10 +105,9 @@ export default function EspacioPage() {
               Un tercer tiempo entre casa y oficina
             </h2>
             <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
-              Entrar en Espacio Arroelo es formar parte de una comunidad de
-              personas curiosas y con ganas de aprender. No vendemos metros
-              cuadrados: dejamos la luz encendida para quien quiera tejer algo
-              más grande.
+              Nosotras dejamos la luz encendida para quien quiera tejer algo
+              más grande. Entrar es sumarse a un salón de personas curiosas —
+              foco, pausa y libertad, sin vender metros cuadrados.
             </p>
 
             <div className="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -173,14 +160,14 @@ export default function EspacioPage() {
             </h2>
             <p className="mx-auto mt-8 max-w-xl text-body-lg text-ink/70">
               Mesa en el salón o sala exclusiva. Sin permanencia. Ven a
-              conocernos en Cobián Roffignac 6, 3º — Pontevedra.
+              conocernos en el centro de Pontevedra.
             </p>
             <div className="mt-12 flex flex-wrap items-center justify-center gap-3">
               <Link href="/#contacto" className="btn btn-ink">
-                Reservar semana
+                Escribirnos
               </Link>
               <Link href="/coworkers" className="btn btn-outline">
-                Conocer a la familia
+                Conocer a quienes están
               </Link>
             </div>
           </div>

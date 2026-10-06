@@ -4,11 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Arroelo — El tercer tiempo | Coworking en Pontevedra",
   description:
-    "Ni casa, ni oficina. El tercer tiempo en Pontevedra: madera, luz natural y comunidad +35. Aquí no alquilamos sillas, tejemos redes. Café a la fresca y más de 10 años.",
+    "Ni casa, ni oficina. Un espacio abierto en Pontevedra donde suceden cosas: mesa, pausa y redes — sin networking forzado. Café a la fresca y más de 10 años.",
   openGraph: {
     title: "Arroelo — El Tercer Tiempo | Coworking en Pontevedra",
     description:
-      "Ni casa, ni oficina. Donde el enfoque se encuentra con la pausa compartida.",
+      "Ni casa, ni oficina. Un espacio abierto donde suceden cosas.",
     locale: "es_ES",
     type: "website",
   },

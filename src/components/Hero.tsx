@@ -72,8 +72,8 @@ export function Hero() {
           Arroelo
         </h1>
         <p className="reveal reveal-delay-2 mt-8 max-w-md text-body-lg text-paper/82">
-          Una comunidad intergeneracional alrededor de la mesa — donde el
-          enfoque se encuentra con la pausa compartida.
+          Un espacio abierto donde suceden cosas — el tercer tiempo, alrededor
+          de la mesa.
         </p>
         <div className="reveal reveal-delay-3 mt-12 flex flex-wrap items-center gap-3">
           <a href="#contacto" className="btn btn-primary">
