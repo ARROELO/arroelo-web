@@ -72,25 +72,25 @@ const gallery = [
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog py-120">
-      <div className="mx-auto grid max-w-[1280px] items-start gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-10 lg:gap-[4rem]">
+      <div className="mx-auto grid max-w-[1440px] items-start gap-12 px-4 md:grid-cols-12 md:gap-10 md:px-5 lg:gap-14 lg:px-6">
         <aside className="md:sticky md:top-28 md:col-span-4 lg:col-span-3">
           <p className="text-label text-graphite/80">El salón</p>
-          <h2 className="mt-4 max-w-[16ch] text-heading text-ink md:mt-5">
+          <h2 className="mt-3 max-w-[16ch] text-heading text-ink md:mt-4">
             Un espacio abierto donde inspirarte con otras personas.
           </h2>
-          <p className="mt-6 text-body-lg text-ink/70 md:mt-8">
+          <p className="mt-5 text-body-lg text-ink/70 md:mt-6">
             Nosotras abrimos el salón cada mañana en el centro de Pontevedra.
             Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
             pide, y libertad para que ocurran visitas, ideas y redes.
           </p>
         </aside>
 
-        <div className="grid items-start gap-[2.5rem] sm:grid-cols-2 sm:gap-[3rem] md:col-span-8 md:gap-[3.5rem] lg:col-span-9 lg:grid-cols-3 lg:gap-[4rem]">
+        <div className="grid items-start gap-10 sm:grid-cols-2 sm:gap-12 md:col-span-8 md:gap-14 lg:col-span-9 lg:grid-cols-3 lg:gap-16">
           {gallery.map((shot, i) => (
             <div
               key={shot.src}
               className={`relative aspect-[4/5] overflow-hidden rounded-none md:aspect-[3/4] ${
-                i === 1 ? "sm:mt-20 lg:mt-[5.5rem]" : ""
+                i === 1 ? "sm:mt-20 lg:mt-24" : ""
               } ${i === 2 ? "sm:col-span-2 lg:col-span-1 lg:mt-36" : ""}`}
             >
               <Image
@@ -105,7 +105,7 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mx-auto mt-16 max-w-[1280px] px-6 md:px-10">
+      <div className="mx-auto mt-16 max-w-[1440px] px-4 md:px-5 lg:px-6">
         <div className="grid gap-12 border-t border-ink/10 pt-12 md:grid-cols-3 md:gap-10">
           {pillars.map((item) => (
             <div key={item.title}>
@@ -116,7 +116,7 @@ export function Espacio() {
         </div>
       </div>
 
-      <div className="mt-20 grid gap-[2.5rem] border-t border-ink/10 pt-20 sm:grid-cols-2 sm:gap-[3rem] md:mt-[5.5rem] md:gap-[3.5rem] md:pt-20 lg:gap-[4rem]">
+      <div className="mt-20 grid gap-10 border-t border-ink/10 pt-16 sm:grid-cols-2 sm:gap-12 md:mt-24 md:gap-14 md:pt-20 lg:gap-16">
         {bridges.map((item) => (
           <a
             key={item.title}
