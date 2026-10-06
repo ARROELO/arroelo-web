@@ -157,7 +157,7 @@ export default function EspacioPage() {
             </p>
             <div className="mt-12 flex flex-wrap items-center justify-center gap-3">
               <Link href="/#contacto" className="btn btn-ink">
-                Escribirnos
+                Contacta
               </Link>
               <Link href="/coworkers" className="btn btn-outline">
                 Conocer a quienes están
