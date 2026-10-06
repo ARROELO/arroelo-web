@@ -114,6 +114,20 @@
   margin-top: 1.35rem;
 }
 
+.blog-post-h2 {
+  margin-top: 2.75rem;
+  margin-bottom: 0.25rem;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-ink);
+}
+
+.blog-post-h2 + p {
+  margin-top: 1rem;
+}
+
 .blog-back {
   display: inline-flex;
   align-items: center;

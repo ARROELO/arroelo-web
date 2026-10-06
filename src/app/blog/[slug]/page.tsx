@@ -22,7 +22,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: "Entrada no encontrada — Arroelo" };
 
   return {
-    title: `${post.title} — Blog | Arroelo`,
+    title: post.seoTitle
+      ? `${post.seoTitle} — Blog | Arroelo`
+      : `${post.title} — Blog | Arroelo`,
     description: post.excerpt,
   };
 }
@@ -76,9 +78,15 @@ export default async function BlogPostPage({ params }: Props) {
             </Link>
             <p className="text-body-lg text-ink/75">{post.excerpt}</p>
             <div className="mt-10 text-body text-ink/70">
-              {post.body.map((paragraph) => (
-                <p key={paragraph.slice(0, 24)}>{paragraph}</p>
-              ))}
+              {post.body.map((block, index) =>
+                typeof block === "string" ? (
+                  <p key={`p-${index}`}>{block}</p>
+                ) : (
+                  <h2 key={`h2-${index}`} className="blog-post-h2">
+                    {block.text}
+                  </h2>
+                ),
+              )}
             </div>
           </div>
         </article>
