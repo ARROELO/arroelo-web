@@ -1,10 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useId, useState } from "react";
-import { withBase } from "@/lib/path";
 
 const nav = [
   { href: "/espacio", label: "Espacio" },
@@ -173,6 +171,9 @@ function SiteChrome({
   const desktopActive = ink
     ? `${linkClass} text-ink`
     : `${linkClass} text-paper`;
+  const brandClass = ink
+    ? "text-ink"
+    : "text-paper";
 
   return (
     <>
@@ -194,23 +195,6 @@ function SiteChrome({
           }`}
         />
         <div className="relative flex items-start justify-between px-6 pt-5 md:px-10 md:pt-7">
-          <Link
-            href="/"
-            tabIndex={peeking ? undefined : -1}
-            className={`${interact} relative z-20 flex shrink-0 items-center transition-opacity hover:opacity-75`}
-          >
-            <Image
-              src={withBase(
-                ink ? "/logo-arroelo-ink.png" : "/logo-arroelo.png",
-              )}
-              alt="Espacio Arroelo"
-              width={151}
-              height={36}
-              className="h-8 w-auto md:h-9"
-              priority
-            />
-          </Link>
-
           <nav
             className={`${interact} hidden md:block`}
             aria-label="Principal"
@@ -218,7 +202,7 @@ function SiteChrome({
           >
             <NavLinks
               pathname={pathname}
-              className="flex flex-col items-end gap-1 text-right"
+              className="flex flex-col items-start gap-1 text-left"
               linkClassName={desktopLink}
               activeClassName={desktopActive}
             />
@@ -245,6 +229,18 @@ function SiteChrome({
               <span className="absolute top-0 left-1/2 block h-full w-[1.5px] -translate-x-1/2 bg-current" />
             </span>
           </button>
+
+          <Link
+            href="/"
+            tabIndex={peeking ? undefined : -1}
+            className={`${interact} relative z-20 shrink-0 transition-opacity hover:opacity-75`}
+          >
+            <span
+              className={`block text-[17px] font-medium leading-none tracking-[-0.03em] md:text-[19px] ${brandClass}`}
+            >
+              Arroelo
+            </span>
+          </Link>
         </div>
       </header>
 
@@ -260,11 +256,11 @@ function SiteChrome({
           aria-label="Cerrar menú"
           onClick={() => setOpen(false)}
         />
-        <div className="absolute top-0 right-0 flex h-full w-[min(17.5rem,82vw)] flex-col bg-fog px-6 pt-24 pb-8 text-ink shadow-[-18px_0_40px_rgba(26,24,20,0.08)]">
+        <div className="absolute top-0 left-0 flex h-full w-[min(17.5rem,82vw)] flex-col bg-fog px-6 pt-24 pb-8 text-ink shadow-[18px_0_40px_rgba(26,24,20,0.08)]">
           <nav aria-label="Principal">
             <NavLinks
               pathname={pathname}
-              className="flex flex-col items-end gap-1 text-right"
+              className="flex flex-col items-start gap-1 text-left"
               linkClassName="block py-1.5 text-[17px] font-normal leading-[1.25] tracking-[-0.011em] text-ink/55 hover:text-ink"
               activeClassName="block py-1.5 text-[17px] font-normal leading-[1.25] tracking-[-0.011em] text-ink"
               onNavigate={() => setOpen(false)}

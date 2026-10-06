@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { withBase } from "@/lib/path";
 
@@ -16,7 +15,6 @@ function smoothstep(t: number) {
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const frameRef = useRef<HTMLDivElement>(null);
-  const copyRef = useRef<HTMLDivElement>(null);
   const [reduceMotion, setReduceMotion] = useState(false);
 
   useEffect(() => {
@@ -41,19 +39,13 @@ export function Hero() {
   useEffect(() => {
     if (reduceMotion) {
       const frame = frameRef.current;
-      const copy = copyRef.current;
       if (frame) {
         frame.style.transform = "";
-      }
-      if (copy) {
-        copy.style.opacity = "";
-        copy.style.transform = "";
       }
       return;
     }
 
     const frame = frameRef.current;
-    const copy = copyRef.current;
     const video = videoRef.current;
     if (!frame) return;
 
@@ -70,12 +62,6 @@ export function Hero() {
       const scale = 1 - progress * 0.12;
       const shift = progress * 4;
       frame.style.transform = `translate3d(0, ${shift}vh, 0) scale(${scale})`;
-
-      if (copy) {
-        const fade = clamp01(progress * 1.35);
-        copy.style.opacity = String(1 - fade);
-        copy.style.transform = `translate3d(0, ${fade * 24}px, 0)`;
-      }
 
       if (video) {
         if (progress > 0.92 && !video.paused) {
@@ -129,6 +115,7 @@ export function Hero() {
 
   return (
     <section
+      aria-label="Arroelo"
       className={
         reduceMotion
           ? "relative min-h-[100svh] overflow-hidden bg-deep-teal text-paper"
@@ -146,33 +133,12 @@ export function Hero() {
         {media}
         <div
           aria-hidden
-          className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,24,20,0.55)_0%,rgba(26,24,20,0.32)_42%,rgba(26,24,20,0.82)_100%)]"
+          className="absolute inset-0 bg-[linear-gradient(180deg,rgba(26,24,20,0.42)_0%,rgba(26,24,20,0.18)_48%,rgba(26,24,20,0.55)_100%)]"
         />
         <div
           aria-hidden
           className="hero-grain absolute inset-0 pointer-events-none"
         />
-
-        <div
-          ref={copyRef}
-          className="relative z-10 flex min-h-[100svh] w-full flex-col justify-end px-4 pb-20 pt-32 text-left md:pb-28"
-        >
-          <h1 className="reveal max-w-[10ch] text-display">
-            Arroelo
-          </h1>
-          <p className="reveal reveal-delay-1 mt-6 max-w-xl text-body-lg text-paper/88">
-            Un espacio de coworking en Pontevedra donde suceden cosas
-            interesantes.
-          </p>
-          <div className="reveal reveal-delay-2 mt-12 flex flex-wrap items-center gap-3">
-            <a href="#contacto" className="btn btn-primary">
-              Probar una semana
-            </a>
-            <Link href="/espacio" className="btn btn-outline-light">
-              Conocer el espacio
-            </Link>
-          </div>
-        </div>
       </div>
     </section>
   );

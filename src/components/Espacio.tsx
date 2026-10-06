@@ -112,12 +112,24 @@ function DrawRule() {
 export function Espacio() {
   return (
     <section id="espacio" className="relative z-10 bg-fog py-120">
-      {/* Arc stack: editorial text near left edge (~half viewport), photos below */}
+      {/* Post-hero intro — Arc pattern: editorial block immediately after video */}
       <div className="px-4">
         <div className="max-w-[42ch] md:max-w-[50%]">
           <h2 className="text-espacio-title text-ink">
-            Un espacio abierto donde inspirarte.
+            Un espacio de coworking en el centro de Pontevedra.
           </h2>
+          <p className="mt-5 text-espacio-body text-ink/65 md:mt-5">
+            El salón donde conocer a personas con proyectos interesantes.
+          </p>
+        </div>
+      </div>
+
+      {/* Arc stack: editorial text near left edge (~half viewport), photos below */}
+      <div className="mt-16 px-4 sm:mt-20 md:mt-24">
+        <div className="max-w-[42ch] md:max-w-[50%]">
+          <h3 className="text-espacio-title text-ink">
+            Un espacio abierto donde inspirarte.
+          </h3>
           <p className="mt-5 text-espacio-body text-ink/65 md:mt-5">
             Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
             pide, y libertad para que ocurran visitas, ideas y redes.
