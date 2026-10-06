@@ -45,8 +45,8 @@ const gallery = [
     wide: true,
   },
   {
-    src: "/photos/pontevedra-alameda.jpg",
-    alt: "Trabajo al aire libre en la Alameda de Pontevedra, con palmeras y fuente",
+    src: "/photos/encuentro-mesa.jpg",
+    alt: "Encuentro alrededor de la mesa del salón, con luz de la ventana",
     wide: true,
   },
   {
@@ -75,8 +75,8 @@ const gallery = [
     alt: "Salón vivo: trabajo y taller en las mesas de Arroelo",
   },
   {
-    src: "/photos/encuentro-patio.jpg",
-    alt: "Encuentro en el patio, plantas y conversación",
+    src: "/photos/ig-mesa-oval.jpg",
+    alt: "Café en la mesa oval del salón, con la piedra de Pontevedra al fondo",
   },
 ];
 
@@ -87,7 +87,7 @@ export default function EspacioPage() {
       <main>
         <section className="relative min-h-[70svh] overflow-hidden bg-deep-teal text-paper">
           <Image
-            src={withBase("/photos/ig-salon-luz.jpg")}
+            src={withBase("/photos/salon-overview.jpg")}
             alt="Interior del salón de Espacio Arroelo con luz natural"
             fill
             priority

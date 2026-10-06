@@ -84,6 +84,29 @@ export function Cafe() {
             </div>
           ))}
         </div>
+
+        <div className="mt-16 grid items-center gap-10 border-t border-ink/10 pt-12 md:grid-cols-2 md:gap-14">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-mist md:aspect-[4/3]">
+            <Image
+              src={withBase("/photos/pontevedra-alameda.jpg")}
+              alt="Michelle trabajando en la Alameda de Pontevedra, con su perro a los pies de la mesa"
+              fill
+              className="object-cover object-[center_55%]"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+          <div>
+            <p className="text-caption text-graphite/70">Pet friendly</p>
+            <h3 className="mt-5 text-heading-sm text-ink">
+              También a cuatro patas
+            </h3>
+            <p className="mt-4 text-body text-ink/65">
+              Las mascotas que saben convivir son bienvenidas en el salón — y
+              a veces también acompañan un rato de trabajo en la ciudad, a
+              tres minutos de la mesa.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
