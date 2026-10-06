@@ -78,8 +78,8 @@ export function Espacio() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl md:aspect-[3/4] md:mt-10">
             <Image
-              src={withBase("/photos/ig-puestos-luz.jpg")}
-              alt="Puestos de trabajo con luz natural junto a la ventana"
+              src={withBase("/photos/croissants-charla.jpg")}
+              alt="Pausa a las 11:30: tazas de café, croissants y charla en la mesa"
               fill
               className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 33vw"
