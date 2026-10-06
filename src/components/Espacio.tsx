@@ -6,19 +6,16 @@ import { withBase } from "@/lib/path";
 
 const pillars = [
   {
-    title: "Enfoque",
     src: "/photos/salon-ventana.jpg",
     alt: "Salón de Arroelo con luz natural, mesa de madera y vista a la ciudad",
     objectPosition: "object-[center_40%]",
   },
   {
-    title: "Pausa",
     src: "/photos/croissants-charla.jpg",
     alt: "Pausa a las 11:30: tazas de café, croissants y charla en la mesa",
     objectPosition: "object-[center_40%]",
   },
   {
-    title: "Libertad",
     src: "/photos/ig-grupo-pie.jpg",
     alt: "Comunidad de Arroelo: un grupo de coworkers juntas en el salón",
     objectPosition: "object-[center_35%]",
@@ -121,7 +118,7 @@ export function Espacio() {
 
       <div className="mt-12 grid grid-cols-1 gap-3 sm:mt-14 sm:grid-cols-3 sm:gap-4 md:mt-16 md:gap-5">
         {pillars.map((shot) => (
-          <figure key={shot.title} className="min-w-0">
+          <figure key={shot.src} className="min-w-0">
             <div className="relative aspect-[3/4] overflow-hidden rounded-none">
               <Image
                 src={withBase(shot.src)}
@@ -131,11 +128,21 @@ export function Espacio() {
                 sizes="(max-width: 640px) 100vw, 33vw"
               />
             </div>
-            <figcaption className="mt-3 px-1 text-espacio-label text-ink sm:mt-4">
-              {shot.title}
-            </figcaption>
           </figure>
         ))}
+      </div>
+
+      {/* Next editorial block after the 3-photo grid — same Arc left stack as intro */}
+      <div className="mt-16 px-4 sm:mt-20 md:mt-24">
+        <div className="max-w-[42ch] md:max-w-[50%]">
+          <h3 className="text-espacio-title text-ink">
+            Aquí no alquilamos sillas. Tejemos redes.
+          </h3>
+          <p className="mt-5 text-espacio-body text-ink/65 md:mt-5">
+            Lo mejor de Arroelo ocurre entre tareas. La mesa, el café, una
+            visita: una comunidad que creamos desde nuestro salón y más allá.
+          </p>
+        </div>
       </div>
 
       <div className="mt-20 grid gap-10 border-t border-ink/10 pt-16 sm:grid-cols-2 sm:gap-12 md:mt-24 md:gap-14 md:pt-20 lg:gap-16">

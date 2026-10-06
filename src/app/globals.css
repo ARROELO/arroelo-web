@@ -151,13 +151,6 @@
    * Espacio intro — Arc-like editorial: Switzer medium title, regular body,
    * tight tracking; column ~half viewport (set in Espacio.tsx).
    */
-  .text-espacio-label {
-    font-size: 11px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    font-weight: 600;
-  }
-
   .text-espacio-title {
     font-size: clamp(26px, 2.8vw, 34px);
     line-height: 1.08;

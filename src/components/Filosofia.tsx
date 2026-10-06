@@ -8,11 +8,11 @@ export function Filosofia() {
       <div className="relative mx-auto max-w-[900px] text-center">
         <p className="text-caption text-cream/70">Cómo se vive</p>
         <blockquote className="mt-10 text-heading-lg text-balance">
-          «Aquí no alquilamos sillas. Tejemos redes.»
+          Cuando alguien nuevo empuja la puerta, no preguntamos qué hace ni
+          cuánto factura.
         </blockquote>
         <p className="mx-auto mt-8 max-w-2xl text-body-lg text-paper/75">
-          Cuando alguien nuevo empuja la puerta, no preguntamos qué hace ni
-          cuánto factura. Preguntamos:{" "}
+          Preguntamos:{" "}
           <em className="text-cream not-italic">«¿Qué te apetece aprender?»</em>{" "}
           — curiosidad, comunidad y sostenibilidad. Así nace la
           #arroeloverfamily.
