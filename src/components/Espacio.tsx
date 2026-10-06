@@ -188,13 +188,13 @@ export function Espacio() {
                   </p>
                 </div>
               </div>
-              <div className="relative aspect-[4/3] min-w-0 w-full overflow-hidden rounded-none bg-mist md:aspect-[3/2] md:max-w-[min(34rem,40vw)] md:justify-self-end lg:max-w-[36rem]">
+              <div className="relative aspect-[4/3] min-w-0 w-full overflow-hidden rounded-none bg-mist md:aspect-[3/2] md:max-w-[min(41rem,48vw)] md:justify-self-end lg:max-w-[43rem]">
                 <Image
                   src={withBase(item.image)}
                   alt={item.alt}
                   fill
                   className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
-                  sizes="(max-width: 768px) 100vw, min(36rem, 40vw)"
+                  sizes="(max-width: 768px) 100vw, min(43rem, 48vw)"
                 />
               </div>
             </div>
