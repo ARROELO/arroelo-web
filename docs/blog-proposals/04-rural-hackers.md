@@ -1,6 +1,6 @@
 # PROPUESTA 4 — Blog Espacio Arroelo
 
-> **Estado:** borrador para revisión. No publicado en el sitio.
+> **Estado:** publicado en `/blog/rural-hackers-tecnologia-impacto-rural` (2026-10-07).
 > **Fuentes:** ruralhackers.com; espacioarroelo.es/anceu/; La Voz de Galicia (RuralGPT, 16/04/2026); ruralia.ruralhackers.com; ruralgpt.gal; LinkedIn África Rodríguez (ONG desde 2021 con Ignacio Márquez y Agustín Jamardo).
 
 ---

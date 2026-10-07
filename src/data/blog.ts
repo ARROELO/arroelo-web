@@ -28,6 +28,218 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "rural-hackers-tecnologia-impacto-rural",
+    title:
+      "Rural Hackers: cuando la tecnología baja del monte (y no al revés)",
+    seoTitle: "Rural Hackers: tech e impacto rural",
+    date: "2026-10-07",
+    label: "Impacto",
+    image: "/photos/blog/rural-hackers-portatiles-patio.jpg",
+    alt: "Dos personas trabajan con portátiles en un patio rural de Anceu, con tractor al fondo",
+    excerpt:
+      "Qué es Rural Hackers y cómo, desde Anceu y con Arroelo, usan arte, tecnología e IA para revitalizar el rural gallego.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay una versión de la innovación que solo cabe en campus, distritos financieros o aceleradoras con futbolín. Nosotras preferimos otra: la que se sienta en una aldea de Ponte Caldelas, pide permiso a la vecindad y pregunta qué problema hay que resolver antes de abrir el editor de código.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Esa es, en buena medida, la mirada de ",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Un lema y una comunidad que se organiza",
+      },
+      {
+        type: "p",
+        parts: [
+          "Rural Hackers nace en la intersección del arte, la tecnología y la vida rural para luchar contra la despoblación y crear un puente sostenible entre las comunidades rurales y el mundo contemporáneo. El lema que África Rodríguez resume en su trayectoria —",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "think globally, act locally, and revive rural",
+            external: true,
+          },
+          "— no es un eslogan vacío: orienta residencias, proyectos open source y encuentros internacionales anclados en Galicia.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde 2021, África Rodríguez, Ignacio (Nacho) Márquez y Agustín Jamardo impulsan esta ONG / movimiento. No partían de cero: venían de años tejiendo comunidad en ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          " y de redes europeas de educación no formal, Erasmus+ y hubs creativos. La pregunta de fondo era —y sigue siendo— urgente: ¿cómo evitar que el rural gallego se vacíe de gente, de oficio y de futuro, mientras la tecnología avanza solo en las grandes ciudades?",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/rural-hackers-laptop-sticker.jpg",
+        alt: "Portátil con pegatina de Rural Hackers sobre mesa de madera en un patio de aldea",
+        caption:
+          "Tecnología con raíz: el sticker dice Rural Hackers; el fondo, la aldea.",
+      },
+      { type: "h2", text: "Construir con quien ya está" },
+      "En Rural Hackers no se trata de «llevar la modernidad» como quien reparte folletos. Se trata de construir con el poder de la vecindad de Anceu y de una comunidad internacional. Juntas crean futuros donde el esfuerzo de cada persona deja impacto duradero.",
+      "En la práctica hay varias líneas que se entrelazan:",
+      {
+        type: "p",
+        parts: [
+          "Residencias. Experiencias de un mes en ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          " para desarrollar proyectos de tecnología, arte o creatividad con impacto local. Quien llega no solo «teletrabaja con vistas»: deja algo —un taller, una herramienta, una propuesta— que dialoga con las necesidades del lugar.",
+        ],
+      },
+      "Proyectos digitales rurales. Herramientas y sistemas open source pensados desde desafíos reales: aislamiento, infraestructuras envejecidas, falta de visibilidad de iniciativas locales. Hackathones como los Do Action, donde decenas de participantes de varios países desarrollan webs para ONG del entorno, convierten la solidaridad en código usable.",
+      "Arte y juego en el pueblo. Proyectos como el juego de realidad aumentada «Anceu Monsters», creado en residencia, gamifican el descubrimiento del entorno y acercan la tecnología a niñas y niños del lugar. No es gadget por gadget: es una forma de habitar la plaza de otra manera.",
+      "Academia y formación. La Rural Hackers Academy nació de una evidencia simple: tecnología e inglés son dos palancas de desarrollo. Colivers aportaron tiempo gratis para formar a jóvenes y vecinos. La solidaridad aquí no es decorado; es método.",
+      "También ha habido ediciones del Rural Hackers Fest en la aldea: celebrar no es accesorio cuando se construye comunidad.",
+      {
+        type: "image",
+        src: "/photos/blog/rural-hackers-coworking-exterior.jpg",
+        alt: "Personas con portátiles en un patio soleado rodeado de vegetación en el rural gallego",
+        caption: "Coworking al aire libre: el monte como sala de reuniones.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/rural-hackers-taller-botanico.jpg",
+        alt: "Taller comunitario de arte botánico alrededor de una mesa larga en Anceu",
+        caption: "Arte + vecindad: residencias que dejan taller, no solo foto.",
+      },
+      {
+        type: "h2",
+        text: "IA en la aldea (con los pies en el suelo)",
+      },
+      "En los últimos años, la inteligencia artificial ha entrado en la conversación —y en la agenda— de Rural Hackers sin convertirse en humo.",
+      {
+        type: "p",
+        parts: [
+          "Rural IA propone inmersiones prácticas para jóvenes: probar herramientas, crear proyectos reales, aprender haciendo, con convivencia y naturaleza como parte de la experiencia. RuralGPT, impulsado con Anceu Coliving, busca situar Anceu como laboratorio de innovación en IA: residencias formativas intensivas para profesionales que sienten que la IA avanza más rápido que su capacidad de seguirle el ritmo, y que quieren integrar procesos útiles —no demos eternos— en su trabajo diario. Lo hemos compartido también en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
+            text: "Instagram",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      "La Voz de Galicia ha recogido esta apuesta: aforo reducido, enfoque práctico, alojamiento y formación en las Rías Baixas. Detrás están Agustín (remoto, fundador del coliving), África (cofundadora de Rural Hackers y facilitadora de proyectos europeos) y Nacho (cofundador, trayectoria en proyectos internacionales y Noites Abertas en Pontevedra).",
+      "No inventamos medallas. Contamos lo que hay: ensayo, comunidad, y la convicción de que la IA también puede aprenderse lejos del ruido de la gran ciudad.",
+      {
+        type: "image",
+        src: "/photos/blog/rural-hackers-encuentro-mural.jpg",
+        alt: "Encuentro intergeneracional en la Casa do Pobo de Anceu, con mural de flores en la pared",
+        caption: "De la academia local a la mesa compartida: aprender juntas.",
+      },
+      { type: "h2", text: "El hilo con Arroelo" },
+      {
+        type: "p",
+        parts: [
+          "¿Por qué escribimos esto desde un coworking en Pontevedra? Porque Rural Hackers no es un anexo decorativo de nuestra web: es familia de red. En ",
+          {
+            type: "link",
+            href: "/",
+            text: "Arroelo",
+          },
+          " tejemos proyectos que creen en la inspiración colectiva; Rural Hackers es uno de ellos, junto a ",
+          {
+            type: "link",
+            href: "/blog/anceu-coliving-ciudad-aldea",
+            text: "Anceu",
+          },
+          ", la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "European Creative Hubs Network (ECHN)",
+            external: true,
+          },
+          " o WordPress Pontevedra.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Cuando invitamos a alguien de Anceu a un ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          ", cuando alguien de la casa baja a un taller en la aldea, cuando el mobiliario de Michelena sigue dando servicio en la Casa do Pobo, estamos diciendo lo mismo: la tecnología tiene más sentido si ensancha el mapa, no si lo reduce a tres metros cuadrados de escritorio. Esa misma brújula recorre la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          " y el día a día del ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio de coworking",
+          },
+          ".",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/rural-hackers-equipo-camiseta.jpg",
+        alt: "Equipo con camisetas de Rural Hackers en un encuentro comunitario",
+        caption: "La camiseta es declaración: hackear el rural en red.",
+      },
+      { type: "h2", text: "Mirar / participar" },
+      {
+        type: "p",
+        parts: [
+          "Si te interesa el impacto rural, la educación tecnológica o simplemente entender Galicia más allá del postal, sigue a ",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          ", mira ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu",
+            external: true,
+          },
+          ", o ven a ",
+          {
+            type: "link",
+            href: "/",
+            text: "Arroelo",
+          },
+          " y pregunta. Nosotras no tenemos todas las respuestas. Tenemos mesa, red y ganas de que el futuro no se decida solo en las capitales.",
+        ],
+      },
+      "Porque revitalizar el rural también se escribe en commits, en talleres y en cenas compartidas. Y porque pensar en global, actuar en local, sigue siendo —para nosotras— la brújula.",
+    ],
+  },
+  {
     slug: "coworking-pontevedra-echn-arroelo",
     title:
       "Coworking en Pontevedra: por qué Arroelo (y qué cambia formar parte de Europa)",
