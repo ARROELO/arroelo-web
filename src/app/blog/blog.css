@@ -410,6 +410,10 @@
     padding-bottom: 1.15rem;
   }
 
+  .blog-post-row-break {
+    display: none;
+  }
+
   /* Stacked layout: H2 must take normal height again */
   .blog-post-h2 {
     height: auto;
@@ -419,12 +423,12 @@
     padding-top: 0.85rem;
   }
 
-  .blog-post-h2:first-child {
+  .blog-post-row-break:first-child + .blog-post-h2 {
     margin-top: 0;
   }
 
   .blog-post-h2 + *,
-  .blog-post-h2:first-child + * {
+  .blog-post-row-break:first-child + .blog-post-h2 + * {
     margin-top: 0;
   }
 
