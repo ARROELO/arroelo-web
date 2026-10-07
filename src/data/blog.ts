@@ -13,7 +13,15 @@ export type BlogBodyBlock =
   | { type: "h2"; text: string }
   | { type: "h3"; text: string }
   | { type: "p"; parts: BlogInline[] }
-  | { type: "image"; src: string; alt: string; caption?: string };
+  | { type: "image"; src: string; alt: string; caption?: string }
+  | {
+      type: "video";
+      youtubeId: string;
+      /** Start playback at this second (YouTube embed `start`). */
+      start?: number;
+      caption?: string;
+      title?: string;
+    };
 
 export type BlogPost = {
   slug: string;
@@ -415,15 +423,16 @@ export const blogPosts: BlogPost[] = [
             text: "CWSC 2016 — «Cómo piensa un Coworker»",
             external: true,
           },
-          " (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestiona quien abre el espacio, sino cómo piensa quien lo habita. ",
-          {
-            type: "link",
-            href: "https://www.youtube.com/watch?v=nXmBYlRhmwA&t=2421s",
-            text: "Vídeo de la charla",
-            external: true,
-          },
-          " (en grabación de sesión; audio flojo al inicio).",
+          " (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestiona quien abre el espacio, sino cómo piensa quien lo habita.",
         ],
+      },
+      {
+        type: "video",
+        youtubeId: "nXmBYlRhmwA",
+        start: 2421,
+        title: "CWSC 2016 — Cómo piensa un Coworker (África Rodríguez)",
+        caption:
+          "Grabación de sesión; el audio va flojo al inicio. La charla empieza en el minuto marcado.",
       },
       {
         type: "p",
@@ -491,15 +500,15 @@ export const blogPosts: BlogPost[] = [
             text: "Fangaloka",
             external: true,
           },
-          "). El año en que el sector tuvo que improvisar supervivencia y, a la vez, cuidado. ",
-          {
-            type: "link",
-            href: "https://www.youtube.com/watch?v=dbe3C4Dtk9g",
-            text: "Vídeo completo del panel",
-            external: true,
-          },
-          ".",
+          "). El año en que el sector tuvo que improvisar supervivencia y, a la vez, cuidado.",
         ],
+      },
+      {
+        type: "video",
+        youtubeId: "dbe3C4Dtk9g",
+        title:
+          "CWSC 2020 — Coworking y Coronavirus. Visiones y acciones",
+        caption: "Vídeo completo del panel.",
       },
       "Cinco años. Cinco ángulos. Un mismo hilo: el coworking como práctica cultural, no como etiqueta inmobiliaria.",
       { type: "h2", text: "Lo que no cabe en un PowerPoint" },

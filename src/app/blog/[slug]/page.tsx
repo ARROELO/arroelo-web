@@ -136,6 +136,38 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
     );
   }
 
+  if (block.type === "video") {
+    const params = new URLSearchParams();
+    if (typeof block.start === "number" && block.start > 0) {
+      params.set("start", String(Math.floor(block.start)));
+    }
+    const query = params.toString();
+    const embedSrc = `https://www.youtube-nocookie.com/embed/${block.youtubeId}${
+      query ? `?${query}` : ""
+    }`;
+
+    return (
+      <figure key={`video-${index}`} className="blog-post-figure blog-post-video">
+        <div className="blog-post-video-media">
+          <iframe
+            src={embedSrc}
+            title={block.title ?? "Vídeo de YouTube"}
+            className="blog-post-video-iframe rounded-none"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
+        </div>
+        {block.caption ? (
+          <figcaption className="blog-post-figure-caption">
+            {block.caption}
+          </figcaption>
+        ) : null}
+      </figure>
+    );
+  }
+
   return (
     <p key={`rich-${index}`}>
       {block.parts.map((part, partIndex) => (
