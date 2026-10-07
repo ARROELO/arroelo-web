@@ -43,12 +43,6 @@ export const blogPosts: BlogPost[] = [
       "En 2012, las vidas de María Pierres y África Rodríguez se cruzaron en LinkedIn. María, arquitecta; África, consultora. Dos autónomas en Pontevedra que, cada una a su manera, habían descubierto lo mismo: trabajar en casa puede ser práctico, pero también es un callejón sin red. «Tenía la sensación de que desde mi ordenador no iba a conocer a nadie», contaba África en aquellos primeros meses. María había dejado su propia oficina y sentía la misma falta: un lugar donde el trabajo no fuera solo productividad, sino compañía.",
       "En menos de seis meses pasamos de la conversación a la acción. Si en la ciudad no existía el espacio que necesitábamos, lo íbamos a crear.",
       {
-        type: "image",
-        src: "/photos/nosotras.jpg",
-        alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo",
-        caption: "Las dos fundadoras, en el salón que construimos juntas.",
-      },
-      {
         type: "h2",
         text: "Abrir puertas en 2013: más que mesas e internet",
       },
