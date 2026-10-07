@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El perfil de África en el sitio oficial de la conferencia la lista como ponente en CWSC 2016, 2017, 2018, 2019 y 2020. Las ponencias verificadas son estas:",
+          "África ha participado en CWSC 2016, 2017, 2018, 2019 y 2020. Estas son sus ponencias:",
         ],
       },
       {

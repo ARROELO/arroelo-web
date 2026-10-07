@@ -56,7 +56,7 @@ Nosotras llegábamos con el salón bajo el brazo. Con la certeza de que la comun
 
 ### Cinco ediciones, un mismo hilo
 
-El perfil de África en el sitio oficial de la conferencia la lista como ponente en CWSC 2016, 2017, 2018, 2019 y 2020. Las ponencias verificadas son estas:
+África ha participado en CWSC 2016, 2017, 2018, 2019 y 2020. Estas son sus ponencias:
 
 **CWSC 2016 — «Cómo piensa un Coworker»** (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestiona quien abre el espacio, sino cómo piensa quien lo habita.
 
