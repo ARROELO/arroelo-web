@@ -46,7 +46,7 @@ export const blogPosts: BlogPost[] = [
     image: "/photos/blog/pilita-salon-sillon.jpg",
     alt: "Pilita, perrita del coworking, dormida en el sillón del salón de Espacio Arroelo en Pontevedra",
     excerpt:
-      "Sí, puedes venir con tu perro a Espacio Arroelo: coworking pet-friendly en Pontevedra. Lázaro fue el primero; Pilita viene ahora. Y el puente dog-friendly con Anceu.",
+      "Sí, puedes venir con tu perro a Espacio Arroelo. Empezó con Lázaro y su carta a la manada en 2017; hoy Pilita duerme en el sillón. Puente dog-friendly con Anceu.",
     body: [
       {
         type: "p",
@@ -110,32 +110,58 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "Lázaro, Pilita y los perretes de la casa",
+        text: "Lázaro: el primer perro de Arroelo",
       },
       {
         type: "p",
         parts: [
-          "El primero de la casa fue Lázaro: el primer perro de Espacio Arroelo. Llegó cuando el coworking aún olía a Michelena —contado en la ",
+          "El dog-friendly de Arroelo no empezó con un icono en la web. Empezó con Lázaro. En abril de 2017, en Michelena —contado en la ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
             text: "historia de Espacio Arroelo",
           },
-          "— y dejó el listón claro: aquí el perrete cabe si sabe estar. Buscamos su historia y una eventual «carta» en ",
+          "—, la coworker Tania Solla llevaba tres semanas con un perrito en casa. Había conocido el espacio, le había gustado… y le «insistió» en escribir una carta a la familia coworker pidiendo formar parte. Tania reenvió esa propuesta al salón y pidió, con honestidad, que quien no estuviera de acuerdo se pronunciara.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Lo que llegó fue un aluvión de mensajes cariñosos. El coworker Darío le escribió a Lázaro una carta de bienvenida: no un OK burocrático, sino gratitud por haber venido. En el hall de entrada colgamos aquellas cartas de amor, lealtad y respeto; Lázaro, de camino a la sala 2, pasaba sonriendo delante. En ",
           {
             type: "link",
-            href: "https://www.facebook.com/EspacioArroelo/",
-            text: "Facebook Espacio Arroelo",
+            href: "https://www.facebook.com/EspacioArroelo/posts/1316088431812134/",
+            text: "Facebook lo contamos",
             external: true,
           },
-          " e ",
+          " como «Cuando Lázaro encontró a la familia Arroela»: creamos manada y el mundo que queremos. El relato completo del blog de entonces —«La historia de amor más bonita de Arroelo…»— sigue legible en el ",
           {
             type: "link",
-            href: "https://www.instagram.com/arroelo/",
-            text: "Instagram @arroelo",
+            href: "https://web.archive.org/web/20170622005153/http://espacioarroelo.es/blog/historiadeamor/",
+            text: "archivo de Wayback (14 abril 2017)",
             external: true,
           },
-          "; las redes van login-walled y no recuperamos un post o texto abierto reproducible. Su sitio en la memoria del salón, eso sí, no se discute.",
+          ". La carta manuscrita de Lázaro iba como imagen adjunta en aquel post; el texto de la imagen ya no está online, así que no lo inventamos aquí.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Lázaro se quedó en el día a día. En ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/reel/1791546970932942/",
+            text: "Facebook",
+            external: true,
+          },
+          " aparece con hashtag #dogfriendly tras un «intenso día de trabajo»; en otro ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/reel/1656783107742663/",
+            text: "reel",
+            external: true,
+          },
+          " compartimos desayuno de cumpleaños con Tania y «nuestro Lázaro». Ese fue el primer perro de Espacio Arroelo: no un adorno, sino coworker de cuatro patas.",
         ],
       },
       {
@@ -144,6 +170,10 @@ export const blogPosts: BlogPost[] = [
         alt: "Selfie de coworkers de Espacio Arroelo con un perro en el coworking de Michelena, Pontevedra",
         caption:
           "Michelena: el perrete también salía en la foto de familia.",
+      },
+      {
+        type: "h2",
+        text: "Pilita y los perretes de hoy",
       },
       {
         type: "p",
@@ -175,21 +205,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "En redes —",
-          {
-            type: "link",
-            href: "https://www.instagram.com/arroelo/",
-            text: "Instagram @arroelo",
-            external: true,
-          },
-          " y ",
-          {
-            type: "link",
-            href: "https://www.facebook.com/EspacioArroelo/",
-            text: "Facebook Espacio Arroelo",
-            external: true,
-          },
-          "— sigue el día a día. Lázaro abre el relato; Pilita lo actualiza. Y entre medias, otros perretes de coworkers que saben convivir en el salón.",
+          "Lázaro abre el relato; Pilita lo actualiza. Y entre medias, otros perretes de coworkers que saben convivir en el salón —siempre con el mismo criterio que dejó la carta de 2017: preguntar a la manada y respetar la convivencia.",
         ],
       },
       {
@@ -233,7 +249,7 @@ export const blogPosts: BlogPost[] = [
             text: "Notion",
             external: true,
           },
-          ", abierto para que otras comunidades lo copien y adapten. Es el documento público de la «dogmunity» de la aldea; el salón de Arroelo tiene su propio cast —Lázaro, Pilita, los perretes de las coworkers— y no mezcla perros de Anceu como si vinieran a Cobián Roffignac.",
+          ", abierto para que otras comunidades lo copien y adapten. Es el documento público de la «dogmunity» de la aldea; el salón de Arroelo tiene su propio cast —Lázaro abrió camino; Pilita y perretes de coworkers siguen viniendo— y no mezcla perros de Anceu como si vinieran a Cobián Roffignac.",
         ],
       },
       {
@@ -262,7 +278,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Dog-friendly no significa «todo vale». Significa que el perro cabe si cabe la convivencia: respeto a quien trabaja en silencio, a quien tiene alergia o miedo, a la limpieza del salón. Antes de la primera visita, avísanos. Cuéntanos cómo es tu compañero de cuatro patas. Si hace falta, acordamos un tramo tranquilo del día o un rincón.",
+          "Dog-friendly no significa «todo vale». Significa que el perro cabe si cabe la convivencia: respeto a quien trabaja en silencio, a quien tiene alergia o miedo, a la limpieza del salón. Antes de la primera visita, avísanos —como hizo Tania con la carta de Lázaro—. Cuéntanos cómo es tu compañero de cuatro patas. Si hace falta, acordamos un tramo tranquilo del día o un rincón.",
         ],
       },
       {
@@ -296,7 +312,26 @@ export const blogPosts: BlogPost[] = [
         type: "h3",
         text: "¿Quiénes son Lázaro y Pilita?",
       },
-      "Lázaro fue el primer perro de Espacio Arroelo. Pilita viene ahora al salón de Pontevedra y aparece en el Instagram @arroelo cuando contamos el día a día pet-friendly.",
+      {
+        type: "p",
+        parts: [
+          "Lázaro fue el primer perro de Espacio Arroelo: el perrete de Tania Solla que, en 2017, llegó a Michelena con una carta a la manada coworker (",
+          {
+            type: "link",
+            href: "https://www.facebook.com/EspacioArroelo/posts/1316088431812134/",
+            text: "Facebook",
+            external: true,
+          },
+          " / ",
+          {
+            type: "link",
+            href: "https://web.archive.org/web/20170622005153/http://espacioarroelo.es/blog/historiadeamor/",
+            text: "archivo del blog",
+            external: true,
+          },
+          "). Pilita viene ahora al salón de Pontevedra y aparece en el Instagram @arroelo cuando contamos el día a día pet-friendly.",
+        ],
+      },
       {
         type: "h3",
         text: "¿Hay un manifiesto o carta de perros?",
@@ -304,21 +339,21 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El documento público que enlazamos es el ",
+          "En Arroelo, la primera «carta» dog-friendly fue la de Lázaro (abril 2017): una imagen manuscrita que adjuntó Tania al email a la comunidad; el cuerpo de esa imagen ya no está publicado en abierto, así que no lo transcribimos de memoria. El documento público más completo que enlazamos hoy es el ",
           {
             type: "link",
             href: "https://anceu.com/es/manifiesto-dog-friendly/",
             text: "manifiesto dog-friendly de Anceu Coliving",
             external: true,
           },
-          " (co-creado con la comunidad, incl. África), disponible también en ",
+          " (co-creado con la comunidad, incl. África), también en ",
           {
             type: "link",
             href: "https://www.notion.so/anceu/Dog-Friendly-Manifesto-by-Anceu-Coliving-0313d6f7b42d493e8525c3b17b9f0021",
             text: "Notion",
             external: true,
           },
-          ". Sobre Lázaro no recuperamos en abierto una carta o post reproducible; no inventamos el texto aquí.",
+          ".",
         ],
       },
       {
