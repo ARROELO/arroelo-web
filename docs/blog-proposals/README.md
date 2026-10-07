@@ -25,3 +25,4 @@ Investigación basada en fuentes públicas (abril–octubre 2026):
 | 8 | `08-coworking-spain-conference.md` | Coworking Spain Conference: África y Arroelo | `coworking-spain-conference-arroelo` |
 | 9 | `09-global-serious-jam-creatividad.md` | PonteJam y Global Service Jam: creatividad en Arroelo | `global-service-jam-creatividad-arroelo` |
 | 10 | `10-dog-friendly-coworking.md` | Coworking dog-friendly en Pontevedra: Arroelo | `coworking-dog-friendly-pontevedra-arroelo` |
+| 11 | `11-human-library-arroelo.md` | Human Library en Espacio Arroelo (Pontevedra) | `human-library-espacio-arroelo` |

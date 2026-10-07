@@ -925,7 +925,7 @@ export const blogPosts: BlogPost[] = [
           ", Arroelo enumera entre sus iniciativas el Global Service Jam junto a Rails Girls, ",
           {
             type: "link",
-            href: "/blog/human-library-arroelo",
+            href: "/blog/human-library-espacio-arroelo",
             text: "Human Library",
           },
           " o Hackaton for Refugees.",
@@ -3041,7 +3041,7 @@ export const blogPosts: BlogPost[] = [
           " y la ",
           {
             type: "link",
-            href: "/blog/human-library-arroelo",
+            href: "/blog/human-library-espacio-arroelo",
             text: "Human Library",
           },
           ": el salón no era solo puesto de trabajo.",
