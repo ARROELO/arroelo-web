@@ -11,6 +11,7 @@ export type BlogInline =
 export type BlogBodyBlock =
   | string
   | { type: "h2"; text: string }
+  | { type: "h3"; text: string }
   | { type: "p"; parts: BlogInline[] }
   | { type: "image"; src: string; alt: string; caption?: string };
 

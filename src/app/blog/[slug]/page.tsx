@@ -110,6 +110,14 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
     );
   }
 
+  if (block.type === "h3") {
+    return (
+      <h3 key={`h3-${index}`} className="blog-post-h3">
+        {block.text}
+      </h3>
+    );
+  }
+
   if (block.type === "image") {
     return (
       <figure key={`img-${index}`} className="blog-post-figure">
