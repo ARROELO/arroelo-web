@@ -28,3 +28,4 @@ Investigación basada en fuentes públicas (abril–octubre 2026):
 | 11 | `11-human-library-arroelo.md` | Human Library en Espacio Arroelo (Pontevedra) | `human-library-espacio-arroelo` |
 | 12 | `12-coworking-inclusivo-empleo-apoyo.md` | Coworking inclusivo en Pontevedra: Empleo con Apoyo en Arroelo | `coworking-inclusivo-empleo-apoyo-arroelo` |
 | 13 | `13-cultura-colaborativa-galicia-coworking-coliving.md` | Cultura colaborativa en Galicia: coworking y coliving | `cultura-colaborativa-galicia-coworking-coliving` |
+| 14 | `14-colabora-2013-arroelo.md` | CO-Labora 2015: empleo colaborativo en Espacio Arroelo | `colabora-2015-espacio-arroelo` |

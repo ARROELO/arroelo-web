@@ -37,6 +37,315 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "colabora-2015-espacio-arroelo",
+    title:
+      "CO-Labora 2015: el germen de emplear en compañía en Espacio Arroelo",
+    seoTitle: "CO-Labora 2015: empleo colaborativo en Espacio Arroelo",
+    date: "2026-10-07",
+    label: "Comunidad",
+    image: "/photos/blog/colabora-cartel-2015.jpg",
+    alt: "Cartel del programa CO-labora 2015 de Espacio Arroelo: globos y texto «¡Actívate haciendo!»",
+    excerpt:
+      "Cómo Espacio Arroelo lanzó CO-Labora 2015: programa gratuito de empleo para 15 personas, coaching y el germen documentado del Arela municipal en Pontevedra.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Si buscas «Colabora 2013» en Google, conviene una precisión de archivo: ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " abrió en ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "2013",
+          },
+          ", pero el programa de empleo colaborativo que impulsamos desde el coworking se llamó —en cartel, web y prensa— ",
+          {
+            type: "link",
+            href: "https://web.archive.org/web/20150130005719/http://espacioarroelo.es/actividades/co-labora-2015/",
+            text: "CO-Labora 2015",
+            external: true,
+          },
+          " (también Colabora 2015, #Colabora2015 o Colabora15). Ese fue el germen documentado de una forma de acompañar el desempleo en compañía.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "No era un curso pasivo. Era abrir el hogar de Michelena a quince personas en búsqueda activa de empleo, con coaching, mentores voluntarios y la red del coworking. Lo contamos con fuentes públicas —y sin inventar el año.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Primero el coworking (2013), luego el programa (2015)",
+      },
+      {
+        type: "p",
+        parts: [
+          "En abril de 2013, ",
+          {
+            type: "link",
+            href: "https://elpais.com/ccaa/2013/04/17/galicia/1366220334_717953.html",
+            text: "El País",
+            external: true,
+          },
+          " presentaba Espacio Arroelo como coworking pionero en Pontevedra. María Pierres y África Rodríguez llevaban poco más de un año y medio cuando, en la propia página del programa, escribimos que el espíritu «co» nos empujaba a involucrar a agentes sociales, políticos y ciudadanos —y a demostrar que se podía salir de la ruta que otros daban por «única».",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Así nació Colabora 2015: no como marca de 2013, sino como respuesta de una comunidad joven a la crisis, al paro y a la soledad del desempleado. El ",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2014/10/21/abierto-plazo-inscripcion-participar-programa-17091749.html",
+            text: "Faro de Vigo (21 de octubre de 2014)",
+            external: true,
+          },
+          " anunció el plazo de inscripción de CO-Labora 2015: gratuito, con participación activa y lazos solidarios de apoyo mutuo. La concejala María Biempica se reunió con África, María y la colaboradora Paula Lage para conocer el plan; la inscripción cerraba el 28 de noviembre y el arranque estaba previsto en enero.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/colabora-cartel-2015.jpg",
+        alt: "Cartel oficial CO-labora 2015: programa de empleo gratuito para 15 profesionales, inicio 23 de enero",
+        caption:
+          "Cartel de convocatoria (archivo de la web de Espacio Arroelo, 2014).",
+      },
+      {
+        type: "h2",
+        text: "Qué era CO-Labora 2015",
+      },
+      {
+        type: "p",
+        parts: [
+          "La definición oficial cabía en un párrafo: programa de empleo gratuito en el que los participantes se ayudan a buscar oportunidades laborales. Objetivo: facilitar la inserción mediante participación activa y trabajo cooperativo. Buscábamos a 15 personas dinámicas y solidarias, en búsqueda activa, sin límite de edad.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Los pilares —publicados en ",
+          {
+            type: "link",
+            href: "https://web.archive.org/web/20150130005719/http://espacioarroelo.es/actividades/co-labora-2015/",
+            text: "espacioarroelo.es/actividades/co-labora-2015/",
+            external: true,
+          },
+          "— eran claros:",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Coaching semanal (sesiones individuales y grupales) con plan de acción personal: autoestima, confianza, resiliencia, comunicación, currículum, entrevistas, marca personal. Creación de una comunidad de profesionales que colaboran en la búsqueda de empleo o autoempleo. Difusión en redes y medios. Formación transversal. Y un marco decisivo: desarrollar el programa ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "dentro de un coworking",
+          },
+          ", no en un aula aislada. Quien entraba no se unía solo a quince compañeros: se sumaba al entorno de quienes ya estaban cambiando la oficina por colaboración.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "La iniciativa salió de coworkers y colaboradores de Arroelo bajo la coordinación de la coach ejecutiva Raquel Pedrouso (citada en el cartel y en la página del programa). Duración: seis meses, todos los viernes, del 23 de enero al 31 de julio de 2015. Financiación: «el único activo denominado implicación personal», sin ayuda económica externa. Dar y recibir.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/colabora-slide1.png",
+        alt: "Cartel artesanal #COLABORA 2015 con el lema «Compartir es tener» y nombres de participantes",
+        caption:
+          "Material de sesión del programa (archivo del microsite Colabora15).",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/colabora-slide2.png",
+        alt: "Muro de post-its de Colabora 2015: iniciativas, comunidad, formación y «queremos empezar a hacer»",
+        caption: "Brainstorming de iniciativas del grupo (archivo Colabora15).",
+      },
+      {
+        type: "h2",
+        text: "Seis meses en el hogar Michelena",
+      },
+      {
+        type: "p",
+        parts: [
+          "Cuando, en enero de 2016, el colectivo Colabora15 propuso a Espacio Arroelo como candidato a los Premios Cidade de Pontevedra (categoría persona jurídica), África y María respondieron con una carta que Entrefamilias publicó entera. Ahí está el balance humano: «Nuestros chicos/as @Colabora15 lo saben bien, vivieron con nosotros 6 meses… les abrimos nuestro “hogar”, les acompañamos en su camino de búsqueda activa de empleo, algunas personas lo consiguieron, otras redirigieron sus objetivos, ganaron en confianza, se apoyaron en el grupo y recuperaron las energías».",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "El ",
+          {
+            type: "link",
+            href: "https://www.diariodepontevedra.es/articulo/pontevedra/seis-candidatos-por-los-premios-cidade-de-pontevedra/20160106010000291899.html",
+            text: "Diario de Pontevedra",
+            external: true,
+          },
+          " recogió la candidatura: el Programa Colabora 15 apostaba por el trabajo diario del coworking. ",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/general/calros-solla-y-el-ies-luis-seoane-premios-cidade-de-pontevedra-2015_275181_102.html",
+            text: "PontevedraViva",
+            external: true,
+          },
+          " situó a Arroelo entre las candidatas de persona jurídica; el premio fue para el IES Luis Seoane. El reconocimiento no era el fin: era un espejo de que la ciudad había visto el gesto.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/colabora-grupo-premio.jpg",
+        alt: "Grupo en el Liceo Casino con marco #fei2015 «mi primer festival de empleo», foto publicada por Entrefamilias junto al relato de Colabora15",
+        caption:
+          "Festival de Empleo e Innovación (FEI 2015). Foto publicada por Entrefamilias en el artículo sobre la nominación impulsada por Colabora15.",
+      },
+      {
+        type: "p",
+        parts: [
+          "Hubo microsite propio (",
+          {
+            type: "link",
+            href: "https://web.archive.org/web/20150602070336/http://colabora.apps-1and1.net/",
+            text: "colabora.espacioarroelo.es",
+            external: true,
+          },
+          ") y un teaser en ",
+          {
+            type: "link",
+            href: "https://vimeo.com/122213716",
+            text: "Vimeo",
+            external: true,
+          },
+          " («Teaser Colabora 2015», El Espejo Mágico Producciones). El relato del microsite lo resume sin marketing vacío: ecosistema para compartir, colaborar y aprender; el desempleo como estado temporal, no como definición.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/colabora-slide3.png",
+        alt: "Participante sonriendo durante una sesión del programa Colabora 2015",
+        caption: "Sesión de grupo (archivo del microsite Colabora15).",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/colabora-slide4.png",
+        alt: "Participante escuchando en una sesión de Colabora 2015",
+        caption: "Acompañamiento en grupo (archivo Colabora15).",
+      },
+      {
+        type: "h2",
+        text: "Del coworking al Concello: Arela y el hilo que sigue",
+      },
+      {
+        type: "p",
+        parts: [
+          "Aquí el «germen» deja de ser metáfora y pasa a ser cita de prensa. En enero de 2016, al presentar los programas municipales Arela y Verea, la concelleira Anabel Gulías —según el ",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2016/01/20/programas-formacion-arela-verea-buscaran-16719245.html",
+            text: "Faro de Vigo",
+            external: true,
+          },
+          "— recalcó que «los antecedentes del Arela están en el programa Colabora, puesto en marcha el año pasado por el espacio de coworking Arroelo».",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Meses después, ",
+          {
+            type: "link",
+            href: "https://www.entrefamilias.com/programa-arela-de-mejora-de-la-empleabilidad-impulsado-por-el-ayuntamiento-de-pontevedra-de-la-mano-de-nuestros-colaboradoras-y-amigas-cris-farinas-africa-rodriguez-raquel-pedrouso-y-carmen-suarez/",
+            text: "Entrefamilias",
+            external: true,
+          },
+          " presentó Arela con el equipo Cris Fariñas, África Rodríguez, Raquel Pedrouso y Carmen Suárez, y enlazó «el vídeo del Programa Colabora15, en que se basa Arela». Del piloto sin subvención en un tercer piso a una política local de empleabilidad: ese es el hilo más firme que podemos trazar sin forzar la historia.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Misma cultura, otros capítulos",
+      },
+      {
+        type: "p",
+        parts: [
+          "No vamos a decir que Colabora «inventó» todo lo que vino después. Sí podemos decir, con el blog y la prensa en la mano, que la misma cultura —abrir el salón, practicar el «co», no dejar sola a quien busca— se desplegó en otros frentes.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde 2016 documentamos ",
+          {
+            type: "link",
+            href: "/blog/coworking-inclusivo-empleo-apoyo-arroelo",
+            text: "Empleo con Apoyo con Down Pontevedra Xuntos",
+          },
+          ": contratos, ordenanza, disciplina diaria. No es el mismo programa que Colabora; es otra forma de que el coworking sea también empleo real. En 2015, el mismo año de Colabora, la agenda de Arroelo ya mezclaba jams creativas y, poco después, ",
+          {
+            type: "link",
+            href: "/blog/human-library-espacio-arroelo",
+            text: "Human Library",
+          },
+          " y ",
+          {
+            type: "link",
+            href: "/blog/global-service-jam-creatividad-arroelo",
+            text: "Ponte Jam / Global Service Jam",
+          },
+          ": formatos distintos, misma intuición de inteligencia colectiva. Esa red de prácticas es la que hoy llamamos ",
+          {
+            type: "link",
+            href: "/blog/cultura-colaborativa-galicia-coworking-coliving",
+            text: "cultura colaborativa",
+          },
+          " —y la que aún se nota en un ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          ".",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Por qué sigue importando",
+      },
+      {
+        type: "p",
+        parts: [
+          "CO-Labora 2015 demostró que un coworking de tamaño humano podía diseñar política de empleo antes de que el Concello la escalara. Demostró que quince «valientes» y una red de mentores voluntarios bastaban para cambiar el tono del paro: de soledad a grupo. Y demostró —en palabras de las fundadoras— que bienestar y humanidad pueden ir de la mano en el mundo empresarial.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Si estás en Pontevedra buscando un ",
+          {
+            type: "link",
+            href: "/",
+            text: "coworking",
+          },
+          " donde la comunidad no sea eslogan, o si te interesa cómo se inventan programas de empleo desde abajo, el salón sigue abierto. Escribe a info@espacioarroelo.com, llama al 610 602 012 o ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "pásate",
+          },
+          ". El germen ya creció; la práctica —compartir, colaborar, aprender— sigue siendo el método.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "coworking-inclusivo-empleo-apoyo-arroelo",
     title:
       "Coworking inclusivo en Pontevedra: cuando el salón también es Empleo con Apoyo",
