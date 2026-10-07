@@ -99,7 +99,8 @@
 
 .blog-post-head {
   border-bottom: 1px solid color-mix(in oklab, var(--color-ink) 12%, transparent);
-  padding: calc(5.5rem + env(safe-area-inset-top, 0px)) clamp(1.25rem, 4vw, 2.5rem)
+  /* SiteHeader solid already inserts a spacer; keep Anceu-like section padding only */
+  padding: clamp(1.75rem, 3.5vw, 3rem) clamp(1.25rem, 4vw, 2.5rem)
     clamp(2rem, 4vw, 3rem);
 }
 
@@ -118,9 +119,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  opacity: 0;
-  transform: translateY(14px);
-  animation: blog-reveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.08s forwards;
+  animation: blog-post-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 .blog-post-label {
@@ -160,9 +159,7 @@
   overflow: hidden;
   border-radius: 0;
   background: var(--color-mist);
-  opacity: 0;
-  transform: translateY(18px);
-  animation: blog-reveal 1s cubic-bezier(0.22, 1, 0.36, 1) 0.18s forwards;
+  animation: blog-post-rise 1s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
 }
 
 .blog-post-cover-image {
@@ -190,9 +187,7 @@
   line-height: 1.55;
   letter-spacing: -0.01em;
   color: color-mix(in oklab, var(--color-ink) 78%, transparent);
-  opacity: 0;
-  transform: translateY(10px);
-  animation: blog-reveal 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.28s forwards;
+  animation: blog-post-rise 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
 }
 
 .blog-post-prose {
@@ -301,9 +296,19 @@
   }
 }
 
+/* Soft rise without hiding content (opacity stays 1 for print / first paint) */
+@keyframes blog-post-rise {
+  from {
+    transform: translateY(12px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 860px) {
   .blog-post-head {
-    padding: calc(5rem + env(safe-area-inset-top, 0px)) 1.25rem 2rem;
+    padding: 1.5rem 1.25rem 2rem;
   }
 
   .blog-post-head-inner {
