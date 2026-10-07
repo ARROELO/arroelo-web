@@ -35,8 +35,13 @@ const bridges: {
     title: "De la ciudad a la aldea",
     body: (
       <>
-        Por ser de Arroelo, puedes usar de forma gratuita el coworking de{" "}
-        <strong className="font-medium text-ink">Anceu Coliving</strong>.
+        Ser de Arroelo tiene ventajas más allá del salón. También formas parte
+        de{" "}
+        <strong className="font-medium text-ink">Anceu Coliving</strong>: puedes
+        ir a la aldea cuando quieras. Allí tienes acceso gratuito a sus dos
+        espacios de coworking y a salas de taller. Cambia de aires, trabaja
+        rodeado de naturaleza o prueba otro formato sin coste extra. Solo por
+        ser de la comunidad. La ciudad y el campo, a un paso.
       </>
     ),
     href: "https://anceu.com/",
@@ -48,9 +53,15 @@ const bridges: {
     title: "De Galicia para el mundo",
     body: (
       <>
-        Somos parte de la{" "}
-        <strong className="font-medium text-ink">ECHN</strong> y así estás en
-        contacto con otros espacios creativos de Europa.
+        Formamos parte de la{" "}
+        <strong className="font-medium text-ink">
+          European Creative Hubs Network (ECHN)
+        </strong>
+        , una red europea de espacios creativos. Como miembro de Arroelo puedes
+        unirte a intercambios internacionales y visitar otros coworkings o
+        centros de arte en Europa, gratis, como parte de nuestra comunidad.
+        Conoce gente nueva, comparte lo que sabes y trae ideas de vuelta. Una
+        ventana al resto del continente desde Pontevedra.
       </>
     ),
     href: "https://creativehubs.net/",
@@ -59,8 +70,19 @@ const bridges: {
     objectPosition: "object-[center_40%]",
   },
   {
-    title: "Con Rural Hackers",
-    body: "Aprende de tecnología e IA desde el salón de tu coworking.",
+    title: "Para hacerte la vida más fácil",
+    body: (
+      <>
+        Gracias a nuestra alianza con{" "}
+        <strong className="font-medium text-ink">Rural Hackers</strong> tenemos
+        un vínculo especial con nuevas formas de entender la tecnología, sobre
+        todo la <strong className="font-medium text-ink">IA</strong>.
+        Organizamos encuentros gratuitos de transferencia de conocimiento sobre
+        esto y otros temas, para descubrir talento en Pontevedra y compartirlo
+        entre todos. Cada semana nos reunimos para intercambiar ideas y
+        aprender juntos. Sin coste, desde el salón.
+      </>
+    ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
     image: "/photos/salon-trabajo.jpg",
     alt: "Coworker con portátil en el salón de Arroelo",
