@@ -283,6 +283,11 @@
   text-wrap: balance;
 }
 
+/* First block beside an H2 must share the section top (no extra push) */
+.blog-post-section-body > :first-child {
+  margin-top: 0;
+}
+
 .blog-post-h3 + p {
   margin-top: 0.65rem;
 }
