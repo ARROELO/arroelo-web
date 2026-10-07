@@ -216,10 +216,30 @@ export const blogPosts: BlogPost[] = [
       "Compartían el rol de ordenanza con Cecilia en días distintos. Mismo salón, mismo estándar: el día a día del coworking no se improvisa.",
       {
         type: "image",
-        src: "/photos/salon-overview.jpg",
-        alt: "Vista general del salón de coworking de Espacio Arroelo en Pontevedra",
+        src: "/photos/blog/celso-empleo-apoyo.jpg",
+        alt: "Celso en la entrada del coworking Espacio Arroelo, ordenanza del equipo",
         caption:
-          "El salón donde se alternaban los turnos de ordenanza. No publicamos aquí una foto nominativa de Celso: no hay imagen pública verificable en las fuentes que consultamos.",
+          "Celso en Arroelo: fotograma del vídeo público de Espacio Arroelo (Facebook / Instagram @arroelo) — «Celso forma parte de nuestro equipo desde el año 2019».",
+      },
+      {
+        type: "p",
+        parts: [
+          "En redes propias lo contamos en primera persona: ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/EspacioArroelo/videos/1993082204890732/",
+            text: "Celso forma parte de nuestro equipo",
+            external: true,
+          },
+          " (también en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/reel/DWJOwiYjPHZ/",
+            text: "Instagram @arroelo",
+            external: true,
+          },
+          "), a través de Down Pontevedra Xuntos y Empleo con Apoyo.",
+        ],
       },
       {
         type: "h2",
@@ -298,10 +318,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/salon-ambiente.jpg",
-        alt: "Ambiente del salón de Espacio Arroelo con mesas y luz natural",
+        src: "/photos/blog/ceci-retrato-downgalicia.jpg",
+        alt: "Retrato de Cecilia publicado por Down Galicia al narrar su incorporación a Espacio Arroelo",
         caption:
-          "El espacio de trabajo: prácticas, contrato y tareas reales — sin inventar caras en la foto.",
+          "Retrato de Cecilia en la cobertura de Down Galicia sobre su incorporación a Espacio Arroelo (Empleo con Apoyo / Xuntos).",
       },
       {
         type: "h2",
@@ -330,8 +350,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Cultura colaborativa en Galicia: coworking y coliving",
     date: "2026-10-07",
     label: "Mapa",
-    image: "/photos/blog/celebracion-comunidad-mesa.jpg",
-    alt: "Celebración comunitaria alrededor de una mesa compartida con empanada y tortilla",
+    image: "/photos/blog/magma-interior-pizarra.jpg",
+    alt: "Interior de Magma Espacio en Ourense: pizarra de normas de la comunidad, puestos de coworking y zona de ping-pong",
     excerpt:
       "Coworking y coliving en Galicia que tejen red: Sende, iSlow, Anceu, Magma en Ourense y Espacio Arroelo en Pontevedra. Espacios creativos donde se comparte conocimiento.",
     body: [
@@ -469,6 +489,13 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "image",
+        src: "/photos/blog/magma-sala-movil.jpg",
+        alt: "Sala de reuniones móvil de Magma Espacio en Ourense, con mesas blancas y estructura de OSB",
+        caption:
+          "Magma Espacio (Ourense): una década de coworking local en Bedoya 27.",
+      },
+      {
         type: "h2",
         text: "Rural que no es escape: Sende, Anceu e iSlow",
       },
@@ -505,6 +532,20 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "image",
+        src: "/photos/blog/sende-comunidad-patio.jpg",
+        alt: "Grupo conversando junto a una casa de piedra en Sende, Senderiz (Lobeira)",
+        caption:
+          "Sende en Senderiz: aldea, fibra y comunidad internacional.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/sende-coworking.jpg",
+        alt: "Sala de coworking de Sende con puestos de trabajo y pizarra comunitaria",
+        caption:
+          "Una de las salas de coworking de Sende: trabajo remoto en la aldea.",
+      },
+      {
         type: "p",
         parts: [
           {
@@ -531,8 +572,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/anceu-comunidad.jpg",
-        alt: "Comunidad reunida al aire libre en el entorno de Anceu",
+        src: "/photos/blog/anceu-vista-aerea.jpg",
+        alt: "Vista aérea de Anceu Coliving en Ponte Caldelas: casas de piedra, patio y entorno rural",
         caption:
           "Anceu: el coliving rural como vecindad, no como escaparate.",
       },
@@ -555,6 +596,20 @@ export const blogPosts: BlogPost[] = [
           },
           ". Casa de piedra de 1915 abierta en 2022 por Inés y Julio: coliving rural con coworking dedicado, fibra de alta velocidad, skill shares y talleres que mezclan tradición gallega con trabajo remoto. Misma lógica que Sende o Anceu: ralentizar sin desconectar.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/islow-casa-piedra.jpg",
+        alt: "Casa de piedra de iSlow Coliving en Laxe (Costa da Morte), con puertas azules y terraza",
+        caption:
+          "iSlow en Laxe: casa de 1915, coworking y ritmo lento sin desconectar.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/islow-aerial-laxe.jpg",
+        alt: "Vista aérea del entorno rural de iSlow en Laxe, con casas de piedra y la ría al fondo",
+        caption:
+          "El entorno de iSlow en la Costa da Morte: aldea, monte y ría.",
       },
       {
         type: "h2",
