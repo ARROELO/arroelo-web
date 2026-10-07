@@ -1,4 +1,4 @@
-# PROPUESTA 12 — Blog Espacio Arroelo
+# PROPUESTA 13 — Blog Espacio Arroelo
 
 > **Estado:** publicado en el sitio (`/blog/cultura-colaborativa-galicia-coworking-coliving`).
 >
