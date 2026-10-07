@@ -296,6 +296,11 @@
   margin: 1.5rem 0;
 }
 
+/* Avoid stacking figure bottom + H2 top (margins don't collapse in grid) */
+.blog-post-figure:has(+ .blog-post-row-break) {
+  margin-bottom: 0;
+}
+
 .blog-post-figure-media {
   position: relative;
   aspect-ratio: 3 / 2;
