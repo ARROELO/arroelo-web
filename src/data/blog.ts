@@ -29,6 +29,527 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "coworking-spain-conference-arroelo",
+    title:
+      "Coworking Spain Conference: lo que llevamos de Pontevedra al escenario",
+    seoTitle: "Coworking Spain Conference: África y Arroelo",
+    date: "2026-10-07",
+    label: "Congresos",
+    image: "/photos/blog/celebracion-comunidad-mesa.jpg",
+    alt: "Comunidad de Espacio Arroelo reunida alrededor de la mesa del salón",
+    excerpt:
+      "Cómo llevamos la cultura colaborativa de Espacio Arroelo a la Coworking Spain Conference: ponencias de África Rodríguez en CWSC 2016–2020.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay congresos que sirven para enseñar métricas. Otros, para recordar por qué abriste la puerta. La ",
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/",
+            text: "Coworking Spain Conference (CWSC)",
+            external: true,
+          },
+          " —el gran encuentro del sector en España— ha sido, para nosotras, de los segundos.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          ", ",
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/ponentes/africa-rodriguez-garcia",
+            text: "África Rodríguez",
+            external: true,
+          },
+          " ha subido al escenario en cinco ediciones consecutivas: 2016, 2017, 2018, 2019 y 2020. No para vender un producto, sino para contar cómo se activa una cultura colaborativa desde un coworking de tamaño humano en Pontevedra.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Por qué ir a un congreso de coworking (si ya tienes salón)",
+      },
+      {
+        type: "p",
+        parts: [
+          "Abrimos en 2013 —lo contamos en la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          "—. En pocos años el mapa gallego —y el español— se llenó de espacios. Hablar entre operadores no era un lujo: era higiene. En CWSC se cruzan fundadoras, comunidad, regulación, suburbios, pandemia… y, de fondo, la misma pregunta: ¿el coworking es solo metros, o es una forma de estar juntas?",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Nosotras llegábamos con el salón bajo el brazo. Con la certeza de que la comunidad se practica —",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          ", ",
+          {
+            type: "link",
+            href: "/blog/coworking-pontevedra-echn-arroelo",
+            text: "red europea",
+          },
+          ", proyectos que salen del pasillo— y no se improvisa en un pitch.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/echn-salon-comunidad.jpg",
+        alt: "Comunidad reunida en el salón de Espacio Arroelo durante un encuentro",
+        caption:
+          "El congreso alimenta el salón; el salón da material para el congreso.",
+      },
+      { type: "h2", text: "Cinco ediciones, un mismo hilo" },
+      {
+        type: "p",
+        parts: [
+          "El perfil de África en el sitio oficial de la conferencia la lista como ponente en CWSC 2016, 2017, 2018, 2019 y 2020. Las ponencias verificadas son estas:",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/ponencias/cwsc-2016/como-piensa-un-coworker",
+            text: "CWSC 2016 — «Cómo piensa un Coworker»",
+            external: true,
+          },
+          " (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestiona quien abre el espacio, sino cómo piensa quien lo habita.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/en/lectures/cwsc-2017/how-grow-your-team",
+            text: "CWSC 2017 — «How to grow your team»",
+            external: true,
+          },
+          " (12 de mayo). Crecer el equipo sin perder el «co»: la tensión de escalar comunidad sin convertirla en organigrama frío.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/ponencias/cwsc-2018/transformate-o-cierra-mi-experiencia-despues-de-cinco-anos",
+            text: "CWSC 2018 — «Transfórmate o cierra: mi experiencia después de cinco años»",
+            external: true,
+          },
+          " (17 de mayo, Sala 2). A los cinco años de Arroelo, el relato era claro: o te transformas con el contexto, o te quedas fuera. La presentación sigue disponible en ",
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/sites/default/files/2022-11/africa-rodriguez_transforma-o-cierra.pdf",
+            text: "PDF en el sitio de CWSC",
+            external: true,
+          },
+          ": redes, proyectos, Creative Hubs, lo que se teje más allá de la mesa.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/ia-encuentro-comunidad.jpg",
+        alt: "Encuentro de comunidad alrededor de la mesa en Espacio Arroelo",
+        caption:
+          "Cinco años de CWSC: el mismo hilo que practicamos entre semana.",
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/en/lectures/cwsc-2019/coworking-suburbs",
+            text: "CWSC 2019 — «Coworking in the suburbs»",
+            external: true,
+          },
+          " (24 de abril). El coworking no solo vive en centros urbanos de escaparate. Hablar de periferias —geográficas y simbólicas— era hablar también de Galicia: de lo que se construye lejos del ruido de las grandes capitales.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/ponencias/cwsc-2020/coworking-y-coronavirus-visiones-y-acciones",
+            text: "CWSC 2020 — «Coworking y Coronavirus. Visiones y acciones»",
+            external: true,
+          },
+          " (16 de abril). Mesa compartida con Ben Kolp (The Living Room), Arancha Riestra (Go Madrid) y Javi Moral (Fangaloka). El año en que el sector tuvo que improvisar supervivencia y, a la vez, cuidado.",
+        ],
+      },
+      "Cinco años. Cinco ángulos. Un mismo hilo: el coworking como práctica cultural, no como etiqueta inmobiliaria.",
+      { type: "h2", text: "Lo que no cabe en un PowerPoint" },
+      {
+        type: "p",
+        parts: [
+          "En 2018, en «Transfórmate o cierra», África hablaba de alas: de caseros, de administración, de proyectos que salen del salón. No era un catálogo de trofeos. Era un mapa de lo que pasa cuando un espacio se abre a lo que no controla del todo.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Esa misma mirada la hemos llevado a la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "European Creative Hubs Network",
+            external: true,
+          },
+          " desde 2017 y a la calle de al lado. El congreso no sustituye el salón; lo alimenta. Y el salón, a veces, da material para el congreso. También lo contamos en ",
+          {
+            type: "link",
+            href: "https://www.linkedin.com/in/rodriguezafricaruralhacker/",
+            text: "LinkedIn de África",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/grupo-mujeres-fearless.jpg",
+        alt: "Grupo de mujeres de la comunidad Arroelo en un momento de encuentro",
+        caption: "Cultura colaborativa: menos métrica, más red.",
+      },
+      {
+        type: "h2",
+        text: "De la sala del congreso al salón de Cobián Roffignac",
+      },
+      {
+        type: "p",
+        parts: [
+          "Hoy seguimos en el centro de Pontevedra —puedes ver el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio",
+          },
+          ". Seguimos midiendo el éxito menos en ocupación y más en conversaciones. Y seguimos creyendo que lo que se dice en un foro nacional solo tiene sentido si se puede practicar el lunes a las nueve, con café y vecinos de mesa.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Si te interesa el recorrido —de LinkedIn a coworking, de mudanzas a red europea—, la ",
+          {
+            type: "link",
+            href: "/blog/coworking-pontevedra-echn-arroelo",
+            text: "historia de coworking en Pontevedra y ECHN",
+          },
+          " cuenta el contexto. CWSC fue el altavoz; Arroelo sigue siendo el laboratorio.",
+        ],
+      },
+      { type: "h2", text: "Si te interesa la cultura colaborativa" },
+      {
+        type: "p",
+        parts: [
+          "No vamos a inventar premios que no existieron. Lo que sí existió —y está documentado en ",
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/",
+            text: "coworkingspainconference.es",
+            external: true,
+          },
+          "— es una presencia sostenida: cinco ediciones, ponencias con nombre y fecha, y un relato coherente con lo que intentamos vivir cada día.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Si trabajas en un coworking, en un hub creativo o simplemente te importa cómo se hace comunidad en Galicia, ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "pásate o escríbenos",
+          },
+          ". O lee el resto del ",
+          {
+            type: "link",
+            href: "/blog",
+            text: "blog",
+          },
+          ". La conferencia acaba; el salón, no.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "global-service-jam-creatividad-arroelo",
+    title:
+      "PonteJam y las Global Jams: cuando la creatividad salió del salón",
+    seoTitle: "PonteJam y Global Service Jam: creatividad en Arroelo",
+    date: "2026-10-07",
+    label: "Creatividad",
+    image: "/photos/blog/taller-circulo-comunidad.jpg",
+    alt: "Taller en círculo con la comunidad de Espacio Arroelo",
+    excerpt:
+      "Cómo impulsamos PonteJam y las Global Service / Sustainability Jams desde Espacio Arroelo: design thinking, retos globales y creatividad en Pontevedra.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Antes de que «design thinking» sonara en todas las agendas, en Pontevedra ya nos juntábamos un sábado entero a prototipar. Lo llamábamos PonteJam. Formaba parte de las Global Jams: encuentros simultáneos en decenas de ciudades del mundo —",
+          {
+            type: "link",
+            href: "https://planet.globalservicejam.org/",
+            text: "Global Service Jam",
+            external: true,
+          },
+          ", Global Sustainability Jam, Global GovJam— donde nadie sabe el reto hasta que se desvela… y entonces hay que hacer, no solo hablar.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " impulsamos esas jornadas. África lo resume en una frase que la prensa recogió en 2015: «Dejar de hablar, ponerse a hacer».",
+        ],
+      },
+      { type: "h2", text: "Un reto secreto y muchas manos" },
+      "El formato es simple y exigente. Un reto común —a menudo ligado a sostenibilidad o a servicio—. Mentores. Grupos. Prototipos. A veces, salir a la calle a testear con gente real. Doce horas (o once) que parecen un maratón y, al final, un taller de humor y método.",
+      "No era un curso magistral. Era aprender metodología con las manos llenas de post-its y de dudas. Y era, sobre todo, una forma de decir: la creatividad no es un don de unos pocos; es un músculo que se entrena en equipo.",
+      {
+        type: "image",
+        src: "/photos/blog/ia-sinergia-taller.jpg",
+        alt: "Taller colaborativo con portátiles y mesa compartida en Espacio Arroelo",
+        caption:
+          "Prototipar en equipo: el mismo gesto que las Jams entrenaban un sábado.",
+      },
+      { type: "h2", text: "Las ediciones que sí podemos nombrar" },
+      "Solo contamos lo que fuentes públicas permiten verificar:",
+      {
+        type: "p",
+        parts: [
+          "PonteGovJam (mayo 2014). Bajo coordinación de Espacio Arroelo, una sesión de Service Design Thinking en el marco del Global GovJam: mirar servicios públicos con otras gafas (",
+          {
+            type: "link",
+            href: "https://tbp7.webnode.es/news/pontegovjam/",
+            text: "Thinking Business",
+            external: true,
+          },
+          ").",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Ponte Sustainability Jam (22 de noviembre de 2014). Casa das Campás (Universidad de Vigo). 46 participantes. Primer Sustainability Jam gallego documentado por la prensa local, en paralelo a acciones similares en 33 países (",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/general/doce-horas-de-creacion-en-el-primer-ponte-sustainability-jam-gallego_266145_102.html",
+            text: "PontevedraViva",
+            external: true,
+          },
+          "). Organizado por Espacio Arroelo.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "PonteJam «vuelta a casa» (febrero 2015). De nuevo en las instalaciones de Arroelo —sede de las Jams en la ciudad desde la primera edición—, tras el paso por Casa das Campás. 26 personas. Formato más íntimo que la edición anterior (",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/general/ponte-jam-2015-la-vuelta-a-casa_268284_102.html",
+            text: "PontevedraViva",
+            external: true,
+          },
+          "). Enmarcado en la Global Jam / Global Service Jam.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/casa-pobo-taller.jpg",
+        alt: "Taller y trabajo en grupo en un espacio de comunidad vinculado a Arroelo",
+        caption: "Manos, mesa y método: la Jam como práctica, no como eslogan.",
+      },
+      {
+        type: "p",
+        parts: [
+          "PonteJam / Sustainability (31 de octubre de 2015). Casa da Luz, con apoyo del Concello. La prensa la presenta como cuarta edición y segunda de carácter público; ",
+          {
+            type: "link",
+            href: "https://www.lavozdegalicia.es/noticia/pontevedra/pontevedra/2015/10/28/ponte-jam-invita-generar-ideas-torno-reto-mundial-vinculado-sostenibilidad/0003_201510P28C5992.htm",
+            text: "La Voz de Galicia",
+            external: true,
+          },
+          ", ",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2015/10/27/invitacion-explorar-creatividad-16785286.html",
+            text: "Faro de Vigo",
+            external: true,
+          },
+          " y ",
+          {
+            type: "link",
+            href: "https://www.canalriasbaixas.com/2015/10/27/chega-a-4-edicion-de-pontejam/",
+            text: "Canal Rías Baixas",
+            external: true,
+          },
+          " recogen las palabras de África y del equipo de mentoras. Sostenibilidad como eje.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "2016. ",
+          {
+            type: "link",
+            href: "https://www.xeneme.com/post/pontejam",
+            text: "XENEME",
+            external: true,
+          },
+          " documenta su participación también en la edición de 2016. El hilo creativo no se cortó en 2015.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En el ",
+          {
+            type: "link",
+            href: "https://www.linkedin.com/in/rodriguezafricaruralhacker/",
+            text: "perfil público de África",
+            external: true,
+          },
+          " figuran los proyectos Global Sustainability Jam 2014 y Ponte Jam (Global Service Jam). En la página de patrocinio de ",
+          {
+            type: "link",
+            href: "https://pontevedra.wordcamp.org/2019/sponsor/espacio-arroelo/",
+            text: "WordCamp Pontevedra 2019",
+            external: true,
+          },
+          ", Arroelo enumera entre sus iniciativas el Global Service Jam junto a Rails Girls, Human Library o Hackaton for Refugees.",
+        ],
+      },
+      "No inventamos ediciones fantasma. Si hubo jornadas previas en el salón —la prensa habla de Arroelo como sede desde el origen—, las tratamos como contexto, no como listado inventado de fechas.",
+      { type: "h2", text: "Design thinking sin pizarra vacía" },
+      {
+        type: "p",
+        parts: [
+          "Lo que nos importaba no era el eslogan. Era el gesto: un coworking que abre la mesa a quien no es coworker fijo; una ciudad que se suma a un reto mundial; mentoras de perfiles distintos; prototipos que se prueban en la calle de Pontevedra mientras en otras latitudes hacen lo mismo.",
+        ],
+      },
+      "Eso es design thinking en la práctica: empatizar, idear, prototipar, iterar. Sin pedantería. Con alegría —la prensa habla de buen humor como ingrediente, y no es decorado—.",
+      {
+        type: "image",
+        src: "/photos/blog/echn-cafe-mesa.jpg",
+        alt: "Café y conversación alrededor de la mesa del salón en Espacio Arroelo",
+        caption:
+          "De la Jam al Café a la fresca: el mismo músculo de comunidad.",
+      },
+      { type: "h2", text: "De la Jam al resto de la comunidad" },
+      {
+        type: "p",
+        parts: [
+          "Las Jams no fueron un capítulo cerrado. Forman parte del mismo impulso que después tejió ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          ", la ",
+          {
+            type: "link",
+            href: "/blog/coworking-pontevedra-echn-arroelo",
+            text: "red europea de hubs creativos",
+          },
+          ", ",
+          {
+            type: "link",
+            href: "/blog/anceu-coliving-ciudad-aldea",
+            text: "Anceu",
+          },
+          " y ",
+          {
+            type: "link",
+            href: "/blog/rural-hackers-tecnologia-impacto-rural",
+            text: "Rural Hackers",
+          },
+          ": la idea de que el conocimiento se comparte y que Galicia puede estar en conversación global sin perder el tono local.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Hoy, cuando organizamos talleres o encuentros en el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "salón",
+          },
+          ", reconocemos el eco: círculo, manos, prueba y error, comunidad. Parte de ese día a día aparece en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Instagram @arroelo",
+            external: true,
+          },
+          ". La creatividad sigue siendo un valor del espacio, no un evento aislado de un sábado de 2015.",
+        ],
+      },
+      { type: "h2", text: "La creatividad sigue siendo un músculo" },
+      {
+        type: "p",
+        parts: [
+          "Si buscas ",
+          {
+            type: "link",
+            href: "/",
+            text: "coworking en Pontevedra",
+          },
+          " y te importa algo más que la fibra, esta historia te dice quiénes somos. No prometemos una Jam cada mes. Sí prometemos un lugar donde la curiosidad tiene permiso.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Pásate. Lee la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia del espacio",
+          },
+          ". O ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "escríbenos",
+          },
+          ". El reto secreto de entonces ya se desveló; el de ahora es más sencillo: seguir haciendo comunidad con las manos ocupadas. Más historias, en el ",
+          {
+            type: "link",
+            href: "/blog",
+            text: "blog",
+          },
+          ".",
+        ],
+      },
+    ],
+  },
+  {
     slug: "ia-en-coworking-pontevedra-arroelo",
     title: "IA en coworking Pontevedra: así la usamos en Arroelo",
     seoTitle: "IA en coworking Pontevedra: así la usamos en Arroelo",

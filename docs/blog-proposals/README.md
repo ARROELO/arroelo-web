@@ -22,3 +22,5 @@ Investigación basada en fuentes públicas (abril–octubre 2026):
 | 5 | `05-coworking-pontevedra-echn.md` | Coworking en Pontevedra y red ECHN | `coworking-pontevedra-echn-arroelo` |
 | 6 | `06-pontevedra-ciudad.md` | Mudarse a Pontevedra: ciudad peatonal | `mudarse-pontevedra-coworking-ciudad-peatonal` |
 | 7 | `07-ia-coworking-arroelo.md` | IA en coworking Pontevedra: así la usamos en Arroelo | `ia-en-coworking-pontevedra-arroelo` |
+| 8 | `08-coworking-spain-conference.md` | Coworking Spain Conference: África y Arroelo | `coworking-spain-conference-arroelo` |
+| 9 | `09-global-serious-jam-creatividad.md` | PonteJam y Global Service Jam: creatividad en Arroelo | `global-service-jam-creatividad-arroelo` |
