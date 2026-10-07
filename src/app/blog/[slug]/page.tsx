@@ -110,6 +110,27 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
     );
   }
 
+  if (block.type === "image") {
+    return (
+      <figure key={`img-${index}`} className="blog-post-figure">
+        <div className="blog-post-figure-media">
+          <Image
+            src={withBase(block.src)}
+            alt={block.alt}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 65ch"
+          />
+        </div>
+        {block.caption ? (
+          <figcaption className="blog-post-figure-caption">
+            {block.caption}
+          </figcaption>
+        ) : null}
+      </figure>
+    );
+  }
+
   return (
     <p key={`rich-${index}`}>
       {block.parts.map((part, partIndex) => (

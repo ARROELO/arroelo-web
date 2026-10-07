@@ -188,6 +188,26 @@
   margin-top: 1.05rem;
 }
 
+.blog-post-figure {
+  margin: 2.25rem 0 0;
+}
+
+.blog-post-figure-media {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 0.35rem;
+  background: var(--color-mist);
+}
+
+.blog-post-figure-caption {
+  margin-top: 0.65rem;
+  font-size: 14px;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  color: color-mix(in oklab, var(--color-ink) 52%, transparent);
+}
+
 .blog-inline-link {
   color: var(--color-ink);
   text-decoration: underline;

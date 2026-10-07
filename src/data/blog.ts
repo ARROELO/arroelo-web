@@ -11,7 +11,8 @@ export type BlogInline =
 export type BlogBodyBlock =
   | string
   | { type: "h2"; text: string }
-  | { type: "p"; parts: BlogInline[] };
+  | { type: "p"; parts: BlogInline[] }
+  | { type: "image"; src: string; alt: string; caption?: string };
 
 export type BlogPost = {
   slug: string;
@@ -42,6 +43,12 @@ export const blogPosts: BlogPost[] = [
       "En 2012, las vidas de María Pierres y África Rodríguez se cruzaron en LinkedIn. María, arquitecta; África, consultora. Dos autónomas en Pontevedra que, cada una a su manera, habían descubierto lo mismo: trabajar en casa puede ser práctico, pero también es un callejón sin red. «Tenía la sensación de que desde mi ordenador no iba a conocer a nadie», contaba África en aquellos primeros meses. María había dejado su propia oficina y sentía la misma falta: un lugar donde el trabajo no fuera solo productividad, sino compañía.",
       "En menos de seis meses pasamos de la conversación a la acción. Si en la ciudad no existía el espacio que necesitábamos, lo íbamos a crear.",
       {
+        type: "image",
+        src: "/photos/nosotras.jpg",
+        alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo",
+        caption: "Las dos fundadoras, en el salón que construimos juntas.",
+      },
+      {
         type: "h2",
         text: "Abrir puertas en 2013: más que mesas e internet",
       },
@@ -60,6 +67,12 @@ export const blogPosts: BlogPost[] = [
       },
       "Desde el principio huyimos de la idea de que un coworking es solo un espacio físico. Queríamos que quienes entraran se comprometieran con unas normas básicas de convivencia y, a la vez, con algo más intangible: la posibilidad de que el proyecto de al lado alimentara el tuyo. En aquellas salas también cabía el arte: exposiciones, cursos, conversaciones que no cabían en un Excel.",
       "El Diario de Pontevedra, un año después, ya hablaba de un grupo que había pasado de cinco personas iniciales a más de treinta asociadas, y de una sede que se expandía por la planta del edificio. Arroelo —con ese eco del «hai que roelo» pontevedrés— empezaba a ser, para mucha gente, sinónimo de otra forma de trabajar en la ciudad.",
+      {
+        type: "image",
+        src: "/photos/ig-salon-luz.jpg",
+        alt: "Salón de coworking Arroelo con luz natural y plantas",
+        caption: "Luz, madera y mesa compartida desde los primeros años.",
+      },
       { type: "h2", text: "Crecer como familia, no como oficina" },
       "Con el tiempo dejamos de contar solo mesas. Empezamos a contar personas.",
       {
@@ -87,6 +100,12 @@ export const blogPosts: BlogPost[] = [
           " sigue siendo el centro de todo.",
         ],
       },
+      {
+        type: "image",
+        src: "/photos/community.jpg",
+        alt: "Grupo de coworkers en el salón de Arroelo, sonriendo y charlando",
+        caption: "La familia coworker: más de doscientas personas en una década.",
+      },
       { type: "h2", text: "Crisis, pandemia y mudanza: seguir siendo Arroelo" },
       "Ninguna década es una línea recta. Hubo pandemia. Hubo incertidumbre. Y hubo, en 2022, la noticia de que el edificio de Michelena —nuestro primer hogar— enfrentaba un proceso de derribo. La Voz de Galicia lo contó con crudeza: inquilinas que tenían que irse de un inmueble emblemático. Nosotras teníamos claro que Arroelo iba a seguir. «Bienvenida incertidumbre», dijimos entonces, con más miedo del que admitimos y más confianza de la que el momento merecía.",
       {
@@ -101,6 +120,12 @@ export const blogPosts: BlogPost[] = [
           },
           ", para que lo que había sido refugio en la ciudad también diera cobijo creativo en el rural. Esa continuidad —ciudad y aldea, antes y ahora— dice mucho de cómo entendemos el espacio: no como propiedad, sino como cuidado compartido.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/ig-salon-vivo.jpg",
+        alt: "Salón de Arroelo en Cobián Roffignac con coworkers trabajando",
+        caption: "Nueva casa, mismo espíritu: Cobián Roffignac desde 2023.",
       },
       { type: "h2", text: "Lo que nos sostiene hoy" },
       {
