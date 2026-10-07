@@ -3,7 +3,7 @@
 > **Estado:** publicado en el sitio (`/blog/coworking-spain-conference-arroelo`).
 > **Fuentes verificadas (oct 2026):**
 > - [África Rodríguez García — speakers CWSC](https://coworkingspainconference.es/ponentes/africa-rodriguez-garcia) (ediciones 2016–2020)
-> - Ponencias: [Cómo piensa un Coworker (CWSC 2016)](https://coworkingspainconference.es/ponencias/cwsc-2016/como-piensa-un-coworker); [How to grow your team (CWSC 2017)](https://coworkingspainconference.es/en/lectures/cwsc-2017/how-grow-your-team); [Transfórmate o cierra (CWSC 2018)](https://coworkingspainconference.es/ponencias/cwsc-2018/transformate-o-cierra-mi-experiencia-despues-de-cinco-anos) + [PDF](https://coworkingspainconference.es/sites/default/files/2022-11/africa-rodriguez_transforma-o-cierra.pdf); [Coworking in the suburbs (CWSC 2019)](https://coworkingspainconference.es/en/lectures/cwsc-2019/coworking-suburbs); [Coworking y Coronavirus (CWSC 2020)](https://coworkingspainconference.es/ponencias/cwsc-2020/coworking-y-coronavirus-visiones-y-acciones)
+> - Ponencias: [Cómo piensa un Coworker (CWSC 2016)](https://coworkingspainconference.es/ponencias/cwsc-2016/como-piensa-un-coworker) + [vídeo](https://www.youtube.com/watch?v=nXmBYlRhmwA&t=2421s); [How to grow your team (CWSC 2017)](https://coworkingspainconference.es/en/lectures/cwsc-2017/how-grow-your-team); [Transfórmate o cierra (CWSC 2018)](https://coworkingspainconference.es/ponencias/cwsc-2018/transformate-o-cierra-mi-experiencia-despues-de-cinco-anos) + [PDF](https://coworkingspainconference.es/sites/default/files/2022-11/africa-rodriguez_transforma-o-cierra.pdf); [Coworking in the suburbs (CWSC 2019)](https://coworkingspainconference.es/en/lectures/cwsc-2019/coworking-suburbs); [Coworking y Coronavirus (CWSC 2020)](https://coworkingspainconference.es/ponencias/cwsc-2020/coworking-y-coronavirus-visiones-y-acciones) + [vídeo](https://www.youtube.com/watch?v=dbe3C4Dtk9g)
 > - [coworkingspainconference.es](https://coworkingspainconference.es/); [LinkedIn África Rodríguez](https://www.linkedin.com/in/rodriguezafricaruralhacker/); blog Arroelo (historia, ECHN, Café a la fresca)
 > - **No inventar premios.** Solo se afirma lo listado en el sitio oficial de CWSC.
 
@@ -58,7 +58,7 @@ Nosotras llegábamos con el salón bajo el brazo. Con la certeza de que la comun
 
 África ha participado en CWSC 2016, 2017, 2018, 2019 y 2020. Estas son sus ponencias:
 
-**CWSC 2016 — «Cómo piensa un Coworker»** (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestiona quien abre el espacio, sino cómo piensa quien lo habita.
+**CWSC 2016 — «Cómo piensa un Coworker»** (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestiona quien abre el espacio, sino cómo piensa quien lo habita. [Vídeo de la charla](https://www.youtube.com/watch?v=nXmBYlRhmwA&t=2421s) (en grabación de sesión; audio flojo al inicio).
 
 **CWSC 2017 — «How to grow your team»** (12 de mayo). Crecer el equipo sin perder el «co»: la tensión de escalar comunidad sin convertirla en organigrama frío.
 
@@ -66,7 +66,7 @@ Nosotras llegábamos con el salón bajo el brazo. Con la certeza de que la comun
 
 **CWSC 2019 — «Coworking in the suburbs»** (24 de abril). El coworking no solo vive en centros urbanos de escaparate. Hablar de periferias —geográficas y simbólicas— era hablar también de Galicia: de lo que se construye lejos del ruido de las grandes capitales.
 
-**CWSC 2020 — «Coworking y Coronavirus. Visiones y acciones»** (16 de abril). Mesa compartida con Ben Kolp (The Living Room), Arancha Riestra (Go Madrid) y Javi Moral (Fangaloka). El año en que el sector tuvo que improvisar supervivencia y, a la vez, cuidado.
+**CWSC 2020 — «Coworking y Coronavirus. Visiones y acciones»** (16 de abril). Mesa compartida con Ben Kolp (The Living Room), Arancha Riestra (Go Madrid) y Javi Moral (Fangaloka). El año en que el sector tuvo que improvisar supervivencia y, a la vez, cuidado. [Vídeo completo del panel](https://www.youtube.com/watch?v=dbe3C4Dtk9g).
 
 Cinco años. Cinco ángulos. Un mismo hilo: el coworking como práctica cultural, no como etiqueta inmobiliaria.
 
@@ -92,12 +92,12 @@ Si trabajas en un coworking, en un hub creativo o simplemente te importa cómo s
 
 ## Notas de investigación
 
-| Año | Título / rol | Fecha (sitio CWSC) | URL |
-|-----|--------------|--------------------|-----|
-| 2016 | Cómo piensa un Coworker | 20/05/2016 · 14:00 · Sala 1 | /ponencias/cwsc-2016/como-piensa-un-coworker |
-| 2017 | How to grow your team | 12/05/2017 · 16:00 · Room 1 | /en/lectures/cwsc-2017/how-grow-your-team |
-| 2018 | Transfórmate o cierra… | 17/05/2018 · 17:00 · Sala 2 | /ponencias/cwsc-2018/… + PDF |
-| 2019 | Coworking in the suburbs | 24/04/2019 · 17:00 · Room 2 | /en/lectures/cwsc-2019/coworking-suburbs |
-| 2020 | Coworking y Coronavirus (panel) | 16/04/2020 · 11:00 | /ponencias/cwsc-2020/… |
+| Año | Título / rol | Fecha (sitio CWSC) | URL | Vídeo |
+|-----|--------------|--------------------|-----|-------|
+| 2016 | Cómo piensa un Coworker | 20/05/2016 · 14:00 · Sala 1 | /ponencias/cwsc-2016/como-piensa-un-coworker | [YouTube t=40m21s](https://www.youtube.com/watch?v=nXmBYlRhmwA&t=2421s) — charla completa dentro de grabación de sesión (fuente: [Diego Tomás / CWSC 2016](https://diegotomas.es/coworking-spain-conference-2016/); audio flojo al inicio) |
+| 2017 | How to grow your team | 12/05/2017 · 16:00 · Room 1 | /en/lectures/cwsc-2017/how-grow-your-team | No encontrado |
+| 2018 | Transfórmate o cierra… | 17/05/2018 · 17:00 · Sala 2 | /ponencias/cwsc-2018/… + PDF | No encontrado |
+| 2019 | Coworking in the suburbs | 24/04/2019 · 17:00 · Room 2 | /en/lectures/cwsc-2019/coworking-suburbs | No encontrado |
+| 2020 | Coworking y Coronavirus (panel) | 16/04/2020 · 11:00 | /ponencias/cwsc-2020/… | [CWSC Encuentros… 2](https://www.youtube.com/watch?v=dbe3C4Dtk9g) — panel completo (canal [@Coworking_Spain](https://www.youtube.com/@Coworking_Spain)) |
 
-**Sin evidencia pública en esta investigación:** premios CWSC a Arroelo/África; ponencias posteriores a 2020 en el listado del speaker page.
+**Sin evidencia pública en esta investigación:** premios CWSC a Arroelo/África; ponencias posteriores a 2020 en el listado del speaker page; vídeos de las charlas 2017, 2018 y 2019.
