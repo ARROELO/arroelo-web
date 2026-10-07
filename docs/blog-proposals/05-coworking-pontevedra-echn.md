@@ -1,6 +1,6 @@
 # PROPUESTA 5 — Blog Espacio Arroelo
 
-> **Estado:** borrador para revisión. No publicado en el sitio.
+> **Estado:** publicado en el sitio (`/blog/coworking-pontevedra-echn-arroelo`).
 > **Fuentes:** espacioarroelo.es; espacioarroelo.es/echn/; El País 2013; Faro de Vigo 2019; coworkingspainconference (África como ponente); European Creative Hubs Network (membresía desde 2017).
 
 ---

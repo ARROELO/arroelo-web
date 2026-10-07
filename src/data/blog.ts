@@ -28,6 +28,225 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "coworking-pontevedra-echn-arroelo",
+    title:
+      "Coworking en Pontevedra: por qué Arroelo (y qué cambia formar parte de Europa)",
+    seoTitle: "Coworking en Pontevedra y red ECHN",
+    date: "2026-10-07",
+    label: "Redes",
+    image: "/photos/blog/echn-salon-comunidad.jpg",
+    alt: "Comunidad reunida alrededor de la mesa del salón de Espacio Arroelo en Pontevedra",
+    excerpt:
+      "Por qué elegir Espacio Arroelo como coworking en Pontevedra: comunidad, salón y conexión europea vía European Creative Hubs Network desde 2017.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Si estás buscando un ",
+          {
+            type: "link",
+            href: "/",
+            text: "coworking en Pontevedra",
+          },
+          ", probablemente ya sabes lo que no quieres: un sótano sin luz, un open space donde nadie se saluda, o un espacio «flexible» que en la práctica es una oficina disfrazada. Lo que buscas —aunque a veces cueste nombrarlo— es un lugar donde trabajar bien y, de vez en cuando, sorprenderte.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Eso es lo que intentamos sostener en ",
+          {
+            type: "link",
+            href: "https://espacioarroelo.es/",
+            text: "Espacio Arroelo",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Lo que un coworking debería dar (y a menudo no da)",
+      },
+      {
+        type: "p",
+        parts: [
+          "Una mesa, fibra y salas de reunión son la base. Las damos: jornada completa, fibra óptica de 1 giga, gastos incluidos, acceso amplio, salas para equipos o videollamadas con pantalla 4K. Puedes verlo en el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio",
+          },
+          ". Pero eso, hoy, lo puede ofrecer cualquiera que alquile metros.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Lo que no se improvisa es la comunidad. Entrar en Arroelo es formar parte de un grupo de personas curiosas, comprometidas y con ganas de aprender —las mismas caras que verás entre nuestras ",
+          {
+            type: "link",
+            href: "/coworkers",
+            text: "coworkers",
+          },
+          ". Desde el salón donde damos forma al mundo que queremos, nos guían valores concretos: alegría, refugio y red, optimismo, equipo. Suenan blandos hasta que los echas de menos en otro sitio.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/echn-cafe-mesa.jpg",
+        alt: "Café y conversación alrededor de la mesa del salón en Espacio Arroelo",
+        caption: "El salón no es decorado: es donde se practica la comunidad.",
+      },
+      {
+        type: "p",
+        parts: [
+          "Nosotras lo aprendimos al revés: María y África fundaron el espacio precisamente porque el trabajo en soledad les pasaba factura. Más de una década después —lo contamos en la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          "— seguimos midiendo el éxito menos en ocupación y más en conversaciones que no estaban previstas en la agenda.",
+        ],
+      },
+      { type: "h2", text: "Arroelo hoy" },
+      "Estamos en el centro de Pontevedra —Cobián Roffignac, planta 3—. Somos un coworking con historia (abrimos en 2013, fuimos de las primeras en la ciudad) y con presente: mudamos de local cuando hubo que hacerlo, atravesamos pandemia, y seguimos abriendo la puerta.",
+      {
+        type: "p",
+        parts: [
+          "No te pedimos permanencia eterna. Te pedimos algo más difícil de fingir: ganas de estar. De saludar. De sumarte, cuando toque, a un ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          ". De entender que el puesto de al lado puede ser un recurso, no un decorado.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Europa no es un logo en el footer: es ECHN",
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde 2017 formamos parte de la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "European Creative Hubs Network (ECHN)",
+            external: true,
+          },
+          ", una red de más de sesenta espacios creativos en Europa. También lo contamos en ",
+          {
+            type: "link",
+            href: "https://espacioarroelo.es/echn/",
+            text: "espacioarroelo.es/echn",
+            external: true,
+          },
+          ". Gracias a ella, tejemos vínculos entre nuestra comunidad y otros lugares del continente.",
+        ],
+      },
+      "¿Qué significa eso en la práctica para quien trabaja aquí?",
+      {
+        type: "image",
+        src: "/photos/blog/echn-making-rooms-fachada.jpg",
+        alt: "Fachada de The Making Rooms, hub creativo hermano de la red ECHN",
+        caption: "Twin Hubs y visitas: Europa se aprende pisando otro salón.",
+      },
+      "Twin Hubs. Colaboración con otro hub a lo largo de un año, con estancias cruzadas y un evento de celebración. Aprender cómo se hace comunidad en otro contexto —y traer esa mirada a Pontevedra.",
+      {
+        type: "image",
+        src: "/photos/blog/echn-making-rooms-taller.jpg",
+        alt: "Conversación en el taller de The Making Rooms durante un intercambio ECHN",
+        caption: "Hubs Alliance y visitas: el Zoom no sustituye estar en la mesa.",
+      },
+      "Hubs Alliance. Una semana de residencia en otro espacio creativo para personas de nuestra comunidad: explorar un entorno nuevo y forjar conexiones que el Zoom no sustituye.",
+      "Bautopia. Encuentros anuales de la red para redefinir objetivos, fortalecer lazos y abrir vías de colaboración.",
+      {
+        type: "image",
+        src: "/photos/blog/echn-making-rooms-colab.jpg",
+        alt: "Colaboración manos a la obra en un makerspace de la red ECHN",
+        caption: "ECHN Workshops: transferir práctica, no solo PowerPoint.",
+      },
+      "ECHN Workshops. Cursos intensivos de varios días para descubrir prácticas innovadoras y transferir conocimiento entre hubs… y más allá.",
+      {
+        type: "image",
+        src: "/photos/blog/echn-twin-hubs-taller.jpg",
+        alt: "Taller colaborativo en un hub creativo hermano durante un intercambio Twin Hubs",
+        caption: "Diversidad alrededor de la mesa: la red se nota en las manos.",
+      },
+      "Transparencia, colaboración y responsabilidad son los valores que la red pone en el centro. Nosotras los reconocemos porque ya intentábamos vivirlos antes de tener el acrónimo.",
+      "África ha llevado esta mirada también a foros como la Coworking Spain Conference, donde el relato no era «cómo llenar mesas», sino cómo activar cultura colaborativa. Esa coherencia —local y europea— es parte de lo que diferencia a Arroelo de un coworking genérico.",
+      { type: "h2", text: "Redes hermanas, no islas" },
+      {
+        type: "p",
+        parts: [
+          "La diversidad caracteriza nuestro espacio. Creemos en la fuerza del «co» y en los ecosistemas de participación múltiple. Por eso, además de ECHN, tejemos con WordPress Pontevedra, ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          ", Shokkin International y ",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          ", entre otras. El puente ciudad-aldea lo contamos también en ",
+          {
+            type: "link",
+            href: "/blog/anceu-coliving-ciudad-aldea",
+            text: "De la ciudad a la aldea",
+          },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Un coworking que solo mira hacia dentro envejece rápido. Uno que se abre a la aldea, a Europa y a la calle de al lado, se renueva con cada persona que entra. Parte de ese día a día aparece en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Instagram @arroelo",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      { type: "h2", text: "Ven a conocernos" },
+      {
+        type: "p",
+        parts: [
+          "Si trabajas por cuenta propia, en remoto, en un equipo pequeño o estás aterrizando un proyecto en Pontevedra, te esperamos. Puedes ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "escribirnos",
+          },
+          " a info@espacioarroelo.com o llamar al 610 602 012. Mejor aún: pásate, toma un café y decide con el cuerpo, no solo con la comparativa de precios.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Porque elegir coworking en Pontevedra no debería ser solo una decisión de metro cuadrado. Debería ser la decisión de con quién quieres compartir las mañanas. Nosotras ya elegimos: con comunidad, con curiosidad y con una red que nos recuerda que Galicia también cabe en Europa —y Europa, a veces, cabe en un salón de Pontevedra. Más historias del salón, en el ",
+          {
+            type: "link",
+            href: "/blog",
+            text: "blog",
+          },
+          ".",
+        ],
+      },
+    ],
+  },
+  {
     slug: "cafe-a-la-fresca-comunidad-arroelo",
     title:
       "Café a la fresca: el ritual que convierte un coworking en comunidad",
