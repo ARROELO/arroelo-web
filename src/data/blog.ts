@@ -43,8 +43,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking dog-friendly en Pontevedra: Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/pilita-salon-sillon.jpg",
-    alt: "Pilita, perrita del coworking, dormida en el sillón del salón de Espacio Arroelo en Pontevedra",
+    image: "/photos/blog/perro-amigas-salon.jpg",
+    alt: "Dos coworkers y un perrito en el salón dog-friendly de Espacio Arroelo",
     excerpt:
       "Sí, puedes venir con tu perro a Espacio Arroelo. Empezó con Lázaro y su carta a la manada en 2017; hoy Pilita duerme en el sillón. Puente dog-friendly con Anceu.",
     body: [
@@ -103,10 +103,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/perro-salon-pet.jpg",
-        alt: "Perrete en el salón de Arroelo, sobre la alfombra del coworking, con arnés y una mano que lo acaricia",
+        src: "/photos/blog/pontevedra-perro-escritorio-tirantes.jpg",
+        alt: "Coworker con su perrito en un escritorio al aire libre frente a la Ponte dos Tirantes",
         caption:
-          "El salón no es solo mesas y fibra: también es un sitio donde el perrete cabe.",
+          "El salón no es solo mesas y fibra: también es un sitio donde el perrete cabe —hasta junto al Lérez.",
       },
       {
         type: "h2",
@@ -197,10 +197,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/pet.jpg",
-        alt: "Pilita, la mascota del coworking, en la alfombra del salón de Espacio Arroelo",
+        src: "/photos/blog/pilita-salon-sillon.jpg",
+        alt: "Pilita, la mascota del coworking, dormida en el sillón del salón de Espacio Arroelo",
         caption:
-          "Pilita en el salón: coworking pet-friendly de verdad, no de folleto.",
+          "Pilita en el sillón: coworking pet-friendly de verdad, no de folleto.",
       },
       {
         type: "p",
@@ -266,8 +266,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/encuentro.jpg",
-        alt: "Comunidad de Arroelo reunida alrededor de la mesa del salón en Pontevedra",
+        src: "/photos/blog/perro-salon-pet.jpg",
+        alt: "Perrete en el salón de Arroelo, sobre la alfombra del coworking",
         caption:
           "El salón donde caben proyectos, café… y, cuando toca, la correa al lado de la silla.",
       },
@@ -1037,16 +1037,16 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "human-library-arroelo",
+    slug: "human-library-espacio-arroelo",
     title:
-      "Human Library en Arroelo: personas libro contra el prejuicio",
-    seoTitle: "Human Library y Sente Siria en Espacio Arroelo",
+      "Human Library en Espacio Arroelo: personas libro en Pontevedra",
+    seoTitle: "Human Library en Espacio Arroelo (Pontevedra)",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/fb-human-library-01.jpg",
-    alt: "Círculo de lectura de Human Library: una persona libro comparte su historia con oyentes",
+    image: "/photos/blog/human-library-featured.jpg",
+    alt: "Círculo de conversación en Casa da Luz: una persona libro comparte su historia con oyentes",
     excerpt:
-      "Cómo llevamos la Human Library a Pontevedra: A Redeira, Sente Siria en Casa da Luz y el diálogo como antídoto al estereotipo.",
+      "Tres ediciones verificadas: A Vida en Palabras en Michelena (2015), Sente Siria con refugiados (2016) y Para chula, a miña parrula sobre feminismo e igualdad (2018).",
     body: [
       {
         type: "p",
@@ -1070,104 +1070,99 @@ export const blogPosts: BlogPost[] = [
             href: "/",
             text: "Espacio Arroelo",
           },
-          " no lo tratamos como un eslogan solidario. Lo practicamos. Aparece en nuestra presentación de ",
+          " no lo tratamos como eslogan. Lo practicamos. Aparece en nuestra presentación de ",
           {
             type: "link",
             href: "https://pontevedra.wordcamp.org/2019/sponsor/espacio-arroelo/",
-            text: "WordCamp Pontevedra",
+            text: "WordCamp Pontevedra 2019",
             external: true,
           },
-          " junto a Rails Girls, Global Service Jam o Hackaton for Refugees. Y quedó documentado en álbumes de Facebook —",
+          " —y en la de ",
           {
             type: "link",
-            href: "https://www.facebook.com/media/set/?set=a.821042254650090&type=3",
-            text: "Human Library · palabras",
+            href: "https://pontevedra.wordcamp.org/2018/sponsor/espacio-arroelo/",
+            text: "2018",
             external: true,
           },
-          " y ",
+          "— junto a Rails Girls, ",
           {
             type: "link",
-            href: "https://www.facebook.com/media/set/?set=a.1006140982806882&type=3",
-            text: "Human Library · gente siria",
-            external: true,
+            href: "/blog/global-service-jam-creatividad-arroelo",
+            text: "Global Service Jam",
           },
-          "— y en un ",
-          {
-            type: "link",
-            href: "https://photos.google.com/share/AF1QipMWEFDQi5ZMglXR-ZyLNzLQ0ji2iCAX8dc8y56_x8OXW60DTo7kr4OY_kiPyATPkA?key=NkZEWGdsaWVDRlFFcFhZVGlRckpxeGdRa0NWX2pn",
-            text: "álbum de Google Photos",
-            external: true,
-          },
-          " de la sesión con A Redeira.",
-        ],
-      },
-      { type: "h2", text: "A Redeira: el espacio para todas las personas" },
-      {
-        type: "p",
-        parts: [
-          "En junio de 2015, en un patio de piedra del Concello de Pontevedra, la Human Library se cruzó con ",
-          {
-            type: "link",
-            href: "https://aredeira.gal/",
-            text: "A Redeira",
-            external: true,
-          },
-          " —«o espazo para todas as persoas»—. Había carteles-biografía de «libros» humanos, autorización de imagen, grullas de origami en las mesas y círculos pequeños: no un escenario, sino conversación.",
+          " o Hackaton for Refugees. Aquí contamos solo lo que fuentes públicas permiten verificar: tres ediciones, tres tonos, el mismo gesto de escuchar antes de etiquetar.",
         ],
       },
       {
-        type: "image",
-        src: "/photos/blog/fb-human-library-03.jpg",
-        alt: "Cartel biográfico de una persona libro en la Human Library de A Redeira",
-        caption:
-          "Cada «libro» tenía nombre, trayecto y permiso para ser leído con respeto.",
+        type: "h2",
+        text: "A Vida en Palabras: la primera Human Library en Michelena",
       },
-      {
-        type: "image",
-        src: "/photos/blog/fb-human-library-06.jpg",
-        alt: "Señal de A Redeira: o espazo para todas as persoas, Concello de Pontevedra",
-        caption:
-          "A Redeira y el Concello: el marco público de una biblioteca hecha de gente.",
-      },
-      "Ahí cabían historias de márgenes, de escritura, de cooperación, de discapacidad, de ciudad. No para exhibir vulnerabilidad: para practicar escucha. El formato es radicalmente simple y exigente: sin guion cerrado, sin aplauso obligatorio, con tiempo limitado y mirada a la altura.",
-      {
-        type: "image",
-        src: "/photos/blog/fb-human-library-02.jpg",
-        alt: "Tres personas en círculo durante una sesión de Human Library en Pontevedra",
-        caption:
-          "Leer a alguien: menos discurso, más pregunta y presencia.",
-      },
-      {
-        type: "image",
-        src: "/photos/blog/fb-human-library-07.jpg",
-        alt: "Persona libro muestra fotos y materiales mientras dos oyentes escuchan",
-        caption:
-          "A veces el relato llega con objetos: fotos, un libro propio, un gesto.",
-      },
-      { type: "h2", text: "Sente Siria: sensibilizar desde las personas" },
       {
         type: "p",
         parts: [
-          "El 24 de abril de 2016, de 12:00 a 14:30, la Casa da Luz acogió ",
+          "En mayo de 2015, dentro de las ",
+          {
+            type: "link",
+            href: "https://web.archive.org/web/20160317043407/http://espacioarroelo.es/actividades/arroeladas/attachment/arroeladamayo2015/",
+            text: "Arroeladas",
+            external: true,
+          },
+          " del coworking en Michelena, las coworkers Sabela Muñiz y Elefantes de Cacharrería organizaron «A Vida en Palabras». Había contacontos, audiorrelatos, un muro de deseos… y, en el centro, una ",
+          {
+            type: "link",
+            href: "https://humanlibrary.org/",
+            text: "Human Library",
+            external: true,
+          },
+          ": los libros no eran ediciones de papel, sino personas. El archivo del propio Arroelo nombra a Ángela Paz, Víctor Loira, Diego Castro y María Luz Pérez Arias como «personas en préstamo».",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "No inventamos diagnósticos ni etiquetas que esa página no escribe. Lo que sí dice, con claridad, es el propósito: promover el diálogo, acabar con prejuicios y fomentar el entendimiento en un ambiente informal. Fue la primera vez que el formato se instaló en casa —en el mismo edificio donde empezó la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          "—.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-circulo-conversacion.jpg",
+        alt: "Círculo pequeño de personas conversando en un espacio de piedra con arcos",
+        caption:
+          "Leer a alguien: menos escenario, más pregunta y presencia.",
+      },
+      {
+        type: "h2",
+        text: "Sente Siria: refugio, personas libro y ciudadanía",
+      },
+      {
+        type: "p",
+        parts: [
+          "El domingo 24 de abril de 2016, de 12:00 a 14:30, la Casa da Luz acogió ",
           {
             type: "link",
             href: "https://www.pontevedraviva.com/es/general/sente-siria-desde-pontevedra_277451_102.html",
             text: "Sente Siria",
             external: true,
           },
-          ": una acción social colaborativa impulsada por coworkers de Arroelo. La premisa —que también recogió ",
+          ": una acción social colaborativa que parte de las y los coworkers de Arroelo. ",
           {
             type: "link",
             href: "https://www.entrefamilias.com/sente-siria-sensibilizar-desde-las-personas-para-las-personas-una-iniciativa-solidaria-de-nuestras-colaboradoras-de-espacio-arroelo-y-sus-coworkers/",
             text: "Entrefamilias",
             external: true,
           },
-          "— era clara: «conocer la situación es lo que nos hace libres para tomar decisiones sobre nuestra responsabilidad como personas ciudadanas del mundo».",
+          " recogió la premisa: «conocer la situación es lo que nos hace libres para tomar decisiones sobre nuestra responsabilidad como personas ciudadanas del mundo».",
         ],
       },
       {
         type: "image",
-        src: "/photos/blog/fb-human-library-sente-cartel.jpg",
+        src: "/photos/blog/human-library-sente-cartel.jpg",
         alt: "Cartel de Sente Siria: Human Library, 24 de abril, Casa da Luz, Pontevedra",
         caption:
           "Cartel de la jornada: Human Library, Lembranzas de Siria, #ACoffeeForRefugees.",
@@ -1175,7 +1170,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Hubo lectura de «libros» humanos al estilo ",
+          "PontevedraViva detalla el programa: lectura de «libros» al estilo ",
           {
             type: "link",
             href: "https://humanlibrary.org/",
@@ -1189,8 +1184,65 @@ export const blogPosts: BlogPost[] = [
             text: "#ACoffeeForRefugees",
             external: true,
           },
-          ", proyecciones —entre ellas el corto «Recuerdos de Siria» / Lembranzas de Siria— y el avance del Hackaton Sente Siria, una comunidad tecnológica orientada a la crisis de refugio.",
+          ", proyecciones —entre ellas el corto «Recuerdos de Siria» / Lembranzas de Siria— y el avance del Hackaton Sente Siria, una comunidad tecnológica orientada a la crisis de refugio. La inscripción pasaba por el 610 60 20 12 —el teléfono de Arroelo— o por Ticketea.",
         ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Meses después, el ",
+          {
+            type: "link",
+            href: "https://www.sende.co/hackathon-for-refugees",
+            text: "Hackathon for Refugees",
+            external: true,
+          },
+          " se celebró en Sende con Impulso de Impact Hub Vigo y Espacio Arroelo: programadoras, activistas y personas refugiadas prototipando durante 48 horas. La Human Library de abril no fue un gesto aislado; fue el primer capítulo público de una línea de trabajo sobre refugio.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-casa-luz-circulo.jpg",
+        alt: "Grupo en círculo en Casa da Luz durante una sesión de diálogo",
+        caption:
+          "Casa da Luz: mesas redondas, no micrófono. El formato que elegimos para Sente Siria.",
+      },
+      {
+        type: "h2",
+        text: "Para chula, a miña parrula: feminismo e igualdad",
+      },
+      {
+        type: "p",
+        parts: [
+          "El 23 de junio de 2018, de 12:00 a 14:00, de nuevo en la Casa da Luz, el Concello de Pontevedra presentó la campaña de empoderamiento ",
+          {
+            type: "link",
+            href: "https://www.diariodepontevedra.es/articulo/pontevedra/ana-cabaleiro-patty-castro-alba-troiteiro-estaran-chula-mina-parrula/20180618162302986729.html",
+            text: "Para chula, a miña parrula",
+            external: true,
+          },
+          ". El ",
+          {
+            type: "link",
+            href: "https://www.diariodepontevedra.es/articulo/pontevedra/ana-cabaleiro-patty-castro-alba-troiteiro-estaran-chula-mina-parrula/20180618162302986729.html",
+            text: "Diario de Pontevedra",
+            external: true,
+          },
+          " la describe como charla-coloquio —no como sello comercial Human Library— con cinco referentes: Ana Cabaleiro, Patty Castro, Alba Troiteiro, ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "María Pierres",
+          },
+          " (cofundadora de Arroelo) y Chus Otero.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-ana-cabaleiro.jpg",
+        alt: "Cartel biográfico de Ana Cabaleiro en la jornada Para chula, a miña parrula",
+        caption:
+          "Cada voz tenía nombre, trayecto y cartel: periodismo, márgenes, escritura, cooperación.",
       },
       {
         type: "p",
@@ -1198,21 +1250,45 @@ export const blogPosts: BlogPost[] = [
           "El ",
           {
             type: "link",
-            href: "https://www.farodevigo.es/pontevedra/2016/04/25/travesia-larga-vida-16635012.html",
-            text: "Faro de Vigo",
+            href: "https://photos.google.com/share/AF1QipMWEFDQi5ZMglXR-ZyLNzLQ0ji2iCAX8dc8y56_x8OXW60DTo7kr4OY_kiPyATPkA?key=NkZEWGdsaWVDRlFFcFhZVGlRckpxeGdRa0NWX2pn",
+            text: "álbum de Google Photos",
             external: true,
           },
-          " contó el día después: seis experiencias con fondo humano. No solo Siria: también el Tíbet y las travesías desde África. Emmanuel Kojo, llegado a Canarias en patera tras once días de viaje, compartió su relato en una de las mesas. Sensibilizar no era un PowerPoint: era sentarse frente a quien había atravesado el frío, la sal y los papeles.",
+          " de esa jornada —titulado «para chula mina parrula»— muestra círculos pequeños, carteles-biografía y la marca de ",
+          {
+            type: "link",
+            href: "https://aredeira.gal/",
+            text: "A Redeira",
+            external: true,
+          },
+          " («o espazo para todas as persoas»), el proyecto de igualdad del Concello que se presentaba esos mismos días. Misma arquitectura de diálogo que en 2015 y 2016: sin aplauso obligatorio, con tiempo limitado y mirada a la altura.",
         ],
       },
       {
         type: "image",
-        src: "/photos/blog/fb-human-library-08.jpg",
-        alt: "Grupo pequeño escuchando a una persona libro en un patio con arcos de piedra",
+        src: "/photos/blog/human-library-para-chula-circulo.jpg",
+        alt: "Persona con camiseta Para chula mi parrula conversando en círculo en Casa da Luz",
         caption:
-          "Mesas redondas, no micrófono: el formato que elegimos para Sente Siria y para A Redeira.",
+          "23 de junio de 2018: la campaña municipal se sentó en círculo, no en atril.",
       },
-      { type: "h2", text: "Por qué importa en un coworking" },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-dialogo-mulleres.jpg",
+        alt: "Tres mujeres en diálogo con fotos y materiales de Mulleres Atlánticas",
+        caption:
+          "A veces el relato llega con objetos: un libro propio, una foto, un gesto.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-redeira-cartel.jpg",
+        alt: "Cartel de A Redeira: o espazo para todas as persoas, Concello de Pontevedra",
+        caption:
+          "A Redeira y el Concello: el marco público de una conversación hecha de gente.",
+      },
+      {
+        type: "h2",
+        text: "Por qué importa en un coworking",
+      },
       {
         type: "p",
         parts: [
@@ -1222,36 +1298,47 @@ export const blogPosts: BlogPost[] = [
             href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
             text: "curiosidad del Café a la fresca",
           },
-          ", las ",
+          ", las Jams, la ",
           {
             type: "link",
-            href: "/blog/global-service-jam-creatividad-arroelo",
-            text: "Jams",
+            href: "/blog/coworking-pontevedra-echn-arroelo",
+            text: "red europea de hubs",
           },
-          ", la red europea, y también una tarde en la que alguien presta su historia para que otra persona salga menos segura de sus estereotipos.",
+          ", el puente con ",
+          {
+            type: "link",
+            href: "/blog/anceu-coliving-ciudad-aldea",
+            text: "Anceu",
+          },
+          " y ",
+          {
+            type: "link",
+            href: "/blog/rural-hackers-tecnologia-impacto-rural",
+            text: "Rural Hackers",
+          },
+          ", y también una tarde en la que alguien presta su historia para que otra persona salga menos segura de sus estereotipos.",
         ],
-      },
-      {
-        type: "image",
-        src: "/photos/blog/fb-human-library-04.jpg",
-        alt: "Firma de autorización de imagen en una Human Library con tarjeta de nombre y grulla de origami",
-        caption:
-          "Cuidado del relato: cesión de imagen, nombre propio, consentimiento.",
       },
       {
         type: "p",
         parts: [
-          "Si te interesa esta capa de Arroelo —la que no cabe en una tarifa—, lee la ",
-          {
-            type: "link",
-            href: "/blog/historia-espacio-arroelo-pontevedra",
-            text: "historia del espacio",
-          },
-          ", pásate por el ",
+          "Buscamos —y no encontramos en prensa verificable— una edición etiquetada como «enfermedades raras» en Arroelo. No la inventamos. Lo que sí está documentado es la Human Library de mayo de 2015 en Michelena, Sente Siria sobre personas refugiadas en 2016, y el coloquio de igualdad de 2018 con Pierres en la mesa. Tres fechas, tres fuentes, cero ficción.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Si te interesa esta capa de Arroelo —la que no cabe en una tarifa—, pásate por el ",
           {
             type: "link",
             href: "/espacio",
             text: "salón",
+          },
+          ", mira cómo pensamos la ",
+          {
+            type: "link",
+            href: "/blog/mudarse-pontevedra-coworking-ciudad-peatonal",
+            text: "ciudad peatonal",
           },
           " o ",
           {
@@ -1587,8 +1674,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Mudarse a Pontevedra: ciudad peatonal",
     date: "2026-10-07",
     label: "Ciudad",
-    image: "/photos/pontevedra-calle.jpg",
-    alt: "Calle peatonal del centro de Pontevedra con gente paseando",
+    image: "/photos/blog/pontevedra-escritorio-puente-madera.jpg",
+    alt: "Persona trabajando con portátil en un puente de madera en Pontevedra",
     excerpt:
       "Por qué mudarse a Pontevedra ahora: ciudad peatonal premiada, calidad de vida y coworking en el centro con Espacio Arroelo para trabajar y hacer red.",
     body: [
@@ -1637,10 +1724,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/pontevedra-alameda.jpg",
-        alt: "Alameda de Pontevedra, espacio verde junto al centro peatonal",
+        src: "/photos/blog/pontevedra-escritorio-tirantes.jpg",
+        alt: "Escritorio al aire libre en un parque de Pontevedra, con la Ponte dos Tirantes al fondo",
         caption:
-          "La Alameda a dos minutos: verde urbano y ciudad caminable en el mismo radio.",
+          "Trabajar a escala humana: ciudad, verde y mesa a un paseo del centro.",
       },
       {
         type: "h2",
@@ -1694,10 +1781,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/ig-salon-vivo.jpg",
-        alt: "Salón de Espacio Arroelo con luz natural y puestos de trabajo en el centro de Pontevedra",
+        src: "/photos/pontevedra-alameda.jpg",
+        alt: "Alameda de Pontevedra, espacio verde junto al centro peatonal",
         caption:
-          "El salón en Cobián Roffignac: coworking a escala de la ciudad que caminas.",
+          "La Alameda a dos minutos: verde urbano y ciudad caminable en el mismo radio.",
       },
       {
         type: "h2",
@@ -1776,10 +1863,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/comunidad-mesa.jpg",
-        alt: "Grupo de coworkers alrededor de la mesa del salón de Arroelo",
+        src: "/photos/blog/pontevedra-escritorio-parque.jpg",
+        alt: "Coworker riendo en un escritorio en el parque de Pontevedra",
         caption:
-          "Aterrizar es también esto: caras conocidas y mesa compartida el primer mes.",
+          "Aterrizar es también esto: mesa, ciudad y caras conocidas el primer mes.",
       },
       {
         type: "p",
@@ -2177,8 +2264,8 @@ export const blogPosts: BlogPost[] = [
       "¿Qué significa eso en la práctica para quien trabaja aquí?",
       {
         type: "image",
-        src: "/photos/blog/echn-making-rooms-fachada.jpg",
-        alt: "Fachada de The Making Rooms, hub creativo hermano de la red ECHN",
+        src: "/photos/blog/echn-making-rooms-grupo.jpg",
+        alt: "Grupo en The Making Rooms (We MAKE Blackburn), hub creativo de la red ECHN",
         caption: "Twin Hubs y visitas: Europa se aprende pisando otro salón.",
       },
       "Twin Hubs. Colaboración con otro hub a lo largo de un año, con estancias cruzadas y un evento de celebración. Aprender cómo se hace comunidad en otro contexto —y traer esa mirada a Pontevedra.",
@@ -2199,8 +2286,8 @@ export const blogPosts: BlogPost[] = [
       "ECHN Workshops. Cursos intensivos de varios días para descubrir prácticas innovadoras y transferir conocimiento entre hubs… y más allá.",
       {
         type: "image",
-        src: "/photos/blog/echn-twin-hubs-taller.jpg",
-        alt: "Taller colaborativo en un hub creativo hermano durante un intercambio Twin Hubs",
+        src: "/photos/blog/echn-making-rooms-fachada.jpg",
+        alt: "Fachada de The Making Rooms, hub creativo hermano de la red ECHN",
         caption: "Diversidad alrededor de la mesa: la red se nota en las manos.",
       },
       "Transparencia, colaboración y responsabilidad son los valores que la red pone en el centro. Nosotras los reconocemos porque ya intentábamos vivirlos antes de tener el acrónimo.",
@@ -2663,8 +2750,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "De Pontevedra a Anceu: ciudad y aldea",
     date: "2026-10-07",
     label: "Puentes",
-    image: "/photos/blog/anceu-rural-hackers.jpg",
-    alt: "Dos personas en Anceu revisan un material de Rural Hackers al aire libre",
+    image: "/photos/blog/anceu-outdoor-cowork.jpg",
+    alt: "Coworking al aire libre en Anceu: portátil y cuaderno entre los árboles",
     excerpt:
       "Cómo Espacio Arroelo tiende puentes con Anceu Coliving: del coworking en Pontevedra a la revitalización de una aldea de menos de 100 habitantes.",
     body: [
@@ -2716,8 +2803,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/anceu-comunidad-patio.jpg",
-        alt: "Comunidad de Anceu Coliving reunida en el patio con parra y perro",
+        src: "/photos/blog/anceu-rural-hackers.jpg",
+        alt: "Dos personas en Anceu revisan un material de Rural Hackers al aire libre",
         caption: "Comunidad en la aldea: el puente se mide en caras conocidas.",
       },
       {
@@ -2893,8 +2980,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "De LinkedIn a coworking en Pontevedra",
     date: "2026-10-06",
     label: "Historia",
-    image: "/photos/nosotras-prensa.jpg",
-    alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo, en el coworking de Pontevedra",
+    image: "/photos/blog/africa-y-maria.jpg",
+    alt: "África Rodríguez y María Pierres pintan el mural «el mundo pertenece a quienes se atreven»",
     excerpt:
       "Cómo África Rodríguez y María Pierres fundaron Espacio Arroelo en 2013: de un encuentro en LinkedIn a más de una década de coworking en Pontevedra.",
     body: [
@@ -2903,9 +2990,9 @@ export const blogPosts: BlogPost[] = [
       "En menos de seis meses pasamos de la conversación a la acción. Si en la ciudad no existía el espacio que necesitábamos, lo íbamos a crear.",
       {
         type: "image",
-        src: "/photos/blog/fundadoras-pintando-muro.jpg",
-        alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo, pintan en la pared la frase «el mundo pertenece a quienes se atreven»",
-        caption: "Manos a la obra: pintar la casa que queríamos habitar.",
+        src: "/photos/blog/fundadoras-abrazo-gafas.jpg",
+        alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo, abrazadas y sonriendo",
+        caption: "Manos a la obra: la casa que queríamos habitar, juntas.",
       },
       {
         type: "h2",
@@ -2975,9 +3062,9 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/taller-circulo-comunidad.jpg",
-        alt: "Taller comunitario en círculo en el coworking Arroelo de Pontevedra, con mural y pizarra al fondo",
-        caption: "Talleres, círculos y proyectos compartidos: así creció la casa.",
+        src: "/photos/blog/comunidad-fiesta-orballo.jpg",
+        alt: "Encuentro festivo de la comunidad Arroelo con mesa, tarta y conversación",
+        caption: "Celebrar juntas: así creció la casa.",
       },
       {
         type: "p",
@@ -2993,8 +3080,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/celebracion-comunidad-mesa.jpg",
-        alt: "Comunidad de Espacio Arroelo celebrando alrededor de una mesa con empanada gallega en Pontevedra",
+        src: "/photos/blog/soy-autonomo-abrazo.jpg",
+        alt: "Globo corazón rojo con el mensaje «Soy autónom@ dame un abrazo» en un encuentro de comunidad",
         caption: "La familia coworker: más de doscientas personas en una década.",
       },
       { type: "h2", text: "Crisis, pandemia y mudanza: seguir siendo Arroelo" },

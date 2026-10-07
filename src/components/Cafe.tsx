@@ -28,10 +28,10 @@ export function Cafe() {
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-28 md:aspect-[5/6] lg:mt-40">
           <Image
-            src={withBase("/photos/conversacion-cafe.jpg")}
-            alt="Café y conversación alrededor de la mesa del salón en Espacio Arroelo"
+            src={withBase("/photos/cafe-mesa-grupo.jpg")}
+            alt="Comunidad de Arroelo alrededor de la mesa: café, croissants y conversación"
             fill
-            className="object-cover object-[center_40%] transition-transform duration-700 ease-out hover:scale-[1.03]"
+            className="object-cover object-[center_45%] transition-transform duration-700 ease-out hover:scale-[1.03]"
             sizes="(max-width: 768px) 100vw, 40vw"
           />
         </div>

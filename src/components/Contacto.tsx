@@ -54,15 +54,16 @@ export function Contacto() {
           </p>
           <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-none bg-fog">
             <Image
-              src={withBase("/photos/salon-ambiente.jpg")}
-              alt="Salón de Espacio Arroelo con mesa, luz natural y vista a la piedra del centro de Pontevedra"
+              src={withBase("/photos/pontevedra-escritorio-pasarela.jpg")}
+              alt="Coworker trabajando en un escritorio sobre la pasarela de Pontevedra"
               fill
-              className="object-cover object-[center_40%]"
+              className="object-cover object-[center_45%]"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
           <p className="mt-3 text-caption text-ink/45">
-            El salón en Cobián Roffignac 6, planta 3 — ven cualquier lunes.
+            Pontevedra a pie: el salón está en Cobián Roffignac 6, planta 3 —
+            ven cualquier lunes.
           </p>
         </div>
         <div className="space-y-8">

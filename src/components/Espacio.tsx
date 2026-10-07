@@ -7,18 +7,18 @@ import { withBase } from "@/lib/path";
 
 const pillars = [
   {
-    src: "/photos/salon-ventana.jpg",
-    alt: "Salón de Arroelo con luz natural, mesa de madera y vista a la ciudad",
+    src: "/photos/comunidad-sillas-amarillas.jpg",
+    alt: "Tres coworkers de Arroelo en sillas amarillas en la terraza",
+    objectPosition: "object-[center_35%]",
+  },
+  {
+    src: "/photos/comunidad-photobooth.jpg",
+    alt: "Coworkers de Arroelo en un photocall de comunidad, con props y risas",
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/croissants-charla.jpg",
-    alt: "Pausa a las 11:30: tazas de café, croissants y charla en la mesa",
-    objectPosition: "object-[center_40%]",
-  },
-  {
-    src: "/photos/community.jpg",
-    alt: "Comunidad de Arroelo reunida alrededor de la mesa del salón en Pontevedra",
+    src: "/photos/comunidad-hoodies-arroelo.jpg",
+    alt: "Equipo de Espacio Arroelo con sudaderas negras del coworking",
     objectPosition: "object-[center_35%]",
   },
 ];
@@ -45,8 +45,8 @@ const bridges: {
       </>
     ),
     href: "https://anceu.com/",
-    image: "/photos/anceu-coworking.jpg",
-    alt: "Coworking de Anceu Coliving: puestos con luz natural y vista al bosque",
+    image: "/photos/anceu.jpg",
+    alt: "Coworking al aire libre en Anceu: portátil y cuaderno entre árboles",
     objectPosition: "object-[center_40%]",
   },
   {
@@ -66,7 +66,7 @@ const bridges: {
     ),
     href: "https://creativehubs.net/",
     image: "/photos/making.jpg",
-    alt: "The Making Rooms, hub creativo europeo de la red ECHN",
+    alt: "Grupo en The Making Rooms (We MAKE Blackburn), hub creativo de la red ECHN",
     objectPosition: "object-[center_40%]",
   },
   {
