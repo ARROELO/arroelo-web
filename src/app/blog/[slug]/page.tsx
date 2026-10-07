@@ -193,35 +193,40 @@ export default async function BlogPostPage({ params }: Props) {
       />
       <SiteHeader variant="solid" />
       <main className="blog-post-page">
-        <section className="blog-post-hero" aria-label="Imagen destacada">
-          <Image
-            src={withBase(post.image)}
-            alt={post.alt}
-            fill
-            priority
-            className="blog-post-hero-image object-cover object-center rounded-none"
-            sizes="100vw"
-          />
-          <div aria-hidden className="blog-post-hero-veil" />
-          <div className="blog-post-hero-copy">
-            <p className="text-caption text-cream/80">{post.label}</p>
-            <h1 className="blog-post-hero-title">{post.title}</h1>
-            <p className="mt-6 text-caption text-paper/70">
-              <time dateTime={post.date}>{formatDate(post.date)}</time>
-            </p>
-          </div>
-        </section>
+        <article>
+          <header className="blog-post-head">
+            <div className="blog-post-head-inner">
+              <div className="blog-post-reading">
+                <Link href="/blog" className="blog-back">
+                  ← Volver al blog
+                </Link>
+                <p className="blog-post-label">{post.label}</p>
+                <h1 className="blog-post-title">{post.title}</h1>
+                <p className="blog-post-byline">
+                  <time dateTime={post.date}>{formatDate(post.date)}</time>
+                </p>
+              </div>
+              <div className="blog-post-cover">
+                <Image
+                  src={withBase(post.image)}
+                  alt={post.alt}
+                  fill
+                  priority
+                  className="blog-post-cover-image object-cover object-center rounded-none"
+                  sizes="(max-width: 860px) 100vw, 40vw"
+                />
+              </div>
+            </div>
+          </header>
 
-        <article className="blog-post-body">
-          <div className="blog-post-content">
-            <Link href="/blog" className="blog-back">
-              ← Volver al blog
-            </Link>
-            <p className="blog-post-lede">{post.excerpt}</p>
-            <div className="blog-post-prose">
-              {post.body.map((block, index) => (
-                <BodyBlock key={index} block={block} index={index} />
-              ))}
+          <div className="blog-post-body">
+            <div className="blog-post-content">
+              <p className="blog-post-lede">{post.excerpt}</p>
+              <div className="blog-post-prose">
+                {post.body.map((block, index) => (
+                  <BodyBlock key={index} block={block} index={index} />
+                ))}
+              </div>
             </div>
           </div>
         </article>
