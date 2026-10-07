@@ -29,6 +29,274 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "mudarse-pontevedra-coworking-ciudad-peatonal",
+    title:
+      "Por qué mudarse a Pontevedra ahora (y aterrizar en Arroelo)",
+    seoTitle: "Mudarse a Pontevedra: ciudad peatonal",
+    date: "2026-10-07",
+    label: "Ciudad",
+    image: "/photos/pontevedra-calle.jpg",
+    alt: "Calle peatonal del centro de Pontevedra con gente paseando",
+    excerpt:
+      "Por qué mudarse a Pontevedra ahora: ciudad peatonal premiada, calidad de vida y coworking en el centro con Espacio Arroelo para trabajar y hacer red.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay ciudades que venden horizonte. Pontevedra vende otra cosa: poder cruzar el centro a pie, saludar en la plaza y llegar a tiempo a una reunión sin convertir el día en un atasco. Cada vez más gente —remotas, autónomas, parejas que buscan otra escala— se pregunta si ",
+          {
+            type: "link",
+            href: "https://es.wikipedia.org/wiki/Pontevedra",
+            text: "mudarse a Pontevedra",
+            external: true,
+          },
+          " no es, simplemente, una forma más sensata de vivir.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Nosotras lo vemos desde dentro: ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " está en el corazón de esa ciudad, y quien aterriza aquí no solo busca mesa y fibra. Busca un lugar donde el trabajo no empiece en soledad.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Por qué cada vez más gente elige esta ciudad",
+      },
+      "El argumento no es solo paisaje gallego —aunque la ría y el Lérez ayudan—. Es calidad de vida cotidiana: calles donde cabe el paseo, comercio de proximidad, una escala humana que no obliga a elegir entre «ciudad grande» y «pueblo dormitorio». Quien llega desde Madrid, Barcelona o el extranjero suele decir lo mismo en la primera semana: «aquí el tiempo se estira».",
+      {
+        type: "p",
+        parts: [
+          "Esa sensación no es casual. Desde finales de los noventa, el ",
+          {
+            type: "link",
+            href: "https://pontevedra.gal/",
+            text: "Concello de Pontevedra",
+            external: true,
+          },
+          " apostó por un modelo urbano centrado en las personas: menos coche en el centro, más espacio público, preferencia peatonal. No es marketing de brochure: es una estrategia que se puede caminar.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/pontevedra-alameda.jpg",
+        alt: "Alameda de Pontevedra, espacio verde junto al centro peatonal",
+        caption:
+          "La Alameda a dos minutos: verde urbano y ciudad caminable en el mismo radio.",
+      },
+      {
+        type: "h2",
+        text: "Ciudad a escala humana: peatonalización y estrategia urbana",
+      },
+      {
+        type: "p",
+        parts: [
+          "La peatonalización del casco y el calmado del tráfico transformaron la forma de habitar la ciudad. El propio ayuntamiento detalla cómo se devolvió el ",
+          {
+            type: "link",
+            href: "https://ok.pontevedra.gal/es/espacio-publico/",
+            text: "espacio público",
+            external: true,
+          },
+          " al peatón: calles estrechas peatonales, plataformas únicas, aceras amplias y un límite de 30 km/h en gran parte del núcleo urbano. El resultado es una ciudad pensada para moverse a pie.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Herramientas como el ",
+          {
+            type: "link",
+            href: "https://es.wikipedia.org/wiki/Metrominuto",
+            text: "Metrominuto",
+            external: true,
+          },
+          " —el mapa esquemático que marca minutos entre puntos clave— ayudan a desmitificar distancias. Puedes explorarlo también en la ",
+          {
+            type: "link",
+            href: "https://metrominuto.pontevedra.gal/es/",
+            text: "guía ciudadana Metrominuto",
+            external: true,
+          },
+          ". Caminar deja de ser un plan B y pasa a ser el mapa por defecto. Quien se muda aquí no necesita coche para casi todo: necesita zapatos cómodos y, a veces, un paraguas.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Para quien quiere conocer la ciudad más allá del coworking, ",
+          {
+            type: "link",
+            href: "https://visit-pontevedra.com/",
+            text: "Visit Pontevedra",
+            external: true,
+          },
+          " ofrece capas de patrimonio, verde urbano y cultura. Nosotras añadimos otra capa: un salón donde esa ciudad se traduce en comunidad laboral.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/ig-salon-vivo.jpg",
+        alt: "Salón de Espacio Arroelo con luz natural y puestos de trabajo en el centro de Pontevedra",
+        caption:
+          "El salón en Cobián Roffignac: coworking a escala de la ciudad que caminas.",
+      },
+      {
+        type: "h2",
+        text: "Premios reales al modelo (sin inventar medallas)",
+      },
+      "Pontevedra no necesita relatos inflados. Los reconocimientos existen y están documentados:",
+      {
+        type: "p",
+        parts: [
+          "2013 — ",
+          {
+            type: "link",
+            href: "https://ok.pontevedra.gal/es/intermodes-2013/",
+            text: "Premio europeo Intermodes",
+            external: true,
+          },
+          " (Bruselas), por su sistema de movilidad intermodal centrado en el peatón, con mención especial al Metrominuto.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "2014 — ",
+          {
+            type: "link",
+            href: "https://ok.pontevedra.gal/es/un-habitat-2014/",
+            text: "Dubai International Award / ONU-Hábitat",
+            external: true,
+          },
+          ", en la categoría de Mejores Prácticas, por el proyecto «Un modelo de ciudad centrado en las personas». Fue la única candidatura europea entre las seis prácticas seleccionadas ese año —también lo recogió ",
+          {
+            type: "link",
+            href: "https://elpais.com/ccaa/2014/11/24/galicia/1416860460_643921.html",
+            text: "El País",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "2015 — ",
+          {
+            type: "link",
+            href: "https://ok.pontevedra.gal/es/new-york-2015-es/",
+            text: "Leadership in Active Design: Excellence Award",
+            external: true,
+          },
+          " del Center for Active Design de Nueva York, como ganadora absoluta entre finalistas internacionales, por un urbanismo que fomenta estilos de vida activos.",
+        ],
+      },
+      "También hay reconocimientos nacionales en accesibilidad y seguridad vial a lo largo de dos décadas. Aquí nos quedamos con lo verificable: la ciudad ha sido premiada por caminar mejor, no por un eslogan.",
+      {
+        type: "h2",
+        text: "Cómo el coworking ayuda a aterrizar, trabajar y hacer amigas",
+      },
+      "Mudarse es logística. Aterrizar es otra cosa: saber dónde vas a trabajar el lunes, con quién vas a tomar un café el jueves, a quién preguntar cuando falla la wifi del piso de alquiler. Un coworking bien hecho acorta ese vacío.",
+      {
+        type: "p",
+        parts: [
+          "En el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio",
+          },
+          " —Cobián Roffignac, planta 3— ofrecemos lo básico (mesa, fibra, salas) y lo que no se improvisa: comunidad. Las ",
+          {
+            type: "link",
+            href: "/coworkers",
+            text: "coworkers",
+          },
+          " no son decorado: son la red que convierte «he llegado» en «estoy». Desde 2013 lo hacemos con la misma intuición con la que abrimos: el trabajo en soledad pasa factura; el salón lo remedia.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/encuentro-mesa.jpg",
+        alt: "Grupo de coworkers alrededor de la mesa del salón de Arroelo",
+        caption:
+          "Aterrizar es también esto: caras conocidas y mesa compartida el primer mes.",
+      },
+      {
+        type: "p",
+        parts: [
+          "Si buscas contexto, en el ",
+          {
+            type: "link",
+            href: "/blog",
+            text: "blog",
+          },
+          " contamos la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          ", la ",
+          {
+            type: "link",
+            href: "/blog/coworking-pontevedra-echn-arroelo",
+            text: "red europea ECHN",
+          },
+          ", el ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          " y los puentes con ",
+          {
+            type: "link",
+            href: "/blog/anceu-coliving-ciudad-aldea",
+            text: "Anceu",
+          },
+          " y ",
+          {
+            type: "link",
+            href: "/blog/rural-hackers-tecnologia-impacto-rural",
+            text: "Rural Hackers",
+          },
+          ". Todo eso es la misma frase: Pontevedra se habita mejor en compañía.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/grupo-familia.jpg",
+        alt: "Comunidad de Arroelo reunida en el espacio de coworking de Pontevedra",
+        caption:
+          "Familia coworker: la red que sostiene el primer invierno lejos de casa.",
+      },
+      {
+        type: "h2",
+        text: "Aterrizar en el centro: la puerta de Arroelo",
+      },
+      {
+        type: "p",
+        parts: [
+          "Elegir mudarse a Pontevedra hoy es elegir una ciudad peatonal con trayectoria y premios reales —y, si quieres, un coworking en el centro donde aterrizar sin empezar de cero. ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "Ven a conocernos",
+          },
+          ": pasea la Alameda, cruza las calles peatonales y sube al salón. Nosotras ya estamos aquí, con café, mesa y ganas de que tu llegada no sea solo un cambio de código postal.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "rural-hackers-tecnologia-impacto-rural",
     title:
       "Rural Hackers: cuando la tecnología baja del monte (y no al revés)",
