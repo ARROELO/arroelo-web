@@ -28,7 +28,7 @@ export function Cafe() {
         </div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-28 md:aspect-[5/6] lg:mt-40">
           <Image
-            src={withBase("/photos/echn-cafe-mesa.jpg")}
+            src={withBase("/photos/conversacion-cafe.jpg")}
             alt="Café y conversación alrededor de la mesa del salón en Espacio Arroelo"
             fill
             className="object-cover object-[center_40%] transition-transform duration-700 ease-out hover:scale-[1.03]"

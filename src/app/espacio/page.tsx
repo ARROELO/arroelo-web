@@ -44,7 +44,7 @@ const gallery = [
     alt: "Mesa larga con gente en el salón de Arroelo",
   },
   {
-    src: "/photos/salon-trabajo.jpg",
+    src: "/photos/salon-dos-coworkers.jpg",
     alt: "Dos coworkers trabajando con portátil en la mesa del salón",
   },
   {
@@ -52,16 +52,16 @@ const gallery = [
     alt: "Sonrisas alrededor de la mesa del salón",
   },
   {
-    src: "/photos/salon-luz.jpg",
-    alt: "Café, bollería y conversación en la mesa de Arroelo",
+    src: "/photos/cafe-mesa-comunidad.jpg",
+    alt: "Café a la fresca: comunidad alrededor de la mesa con fruta y proyector",
   },
   {
-    src: "/photos/ig-puestos-ventana.jpg",
+    src: "/photos/ig-puestos-luz.jpg",
     alt: "Puestos de trabajo junto a la ventana con luz natural",
   },
   {
-    src: "/photos/coworker-luz.jpg",
-    alt: "Coworker en su puesto, con luz de la ventana y plantas",
+    src: "/photos/coworker-enfoque.jpg",
+    alt: "Coworker concentrado en su puesto, con luz de la ventana y plantas",
   },
 ];
 

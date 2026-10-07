@@ -197,10 +197,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/pilita-salon-sillon.jpg",
-        alt: "Pilita dormida en el sillón del salón de Espacio Arroelo mientras una coworker señala hacia ella desde el puesto",
+        src: "/photos/pet.jpg",
+        alt: "Pilita, la mascota del coworking, en la alfombra del salón de Espacio Arroelo",
         caption:
-          "Pilita en el sillón: coworking pet-friendly de verdad, no de folleto.",
+          "Pilita en el salón: coworking pet-friendly de verdad, no de folleto.",
       },
       {
         type: "p",
@@ -266,8 +266,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/ig-mesa-oval.jpg",
-        alt: "Comunidad de Arroelo reunida alrededor de la mesa oval del salón en Pontevedra",
+        src: "/photos/encuentro.jpg",
+        alt: "Comunidad de Arroelo reunida alrededor de la mesa del salón en Pontevedra",
         caption:
           "El salón donde caben proyectos, café… y, cuando toca, la correa al lado de la silla.",
       },
@@ -1776,7 +1776,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/encuentro-mesa.jpg",
+        src: "/photos/comunidad-mesa.jpg",
         alt: "Grupo de coworkers alrededor de la mesa del salón de Arroelo",
         caption:
           "Aterrizar es también esto: caras conocidas y mesa compartida el primer mes.",
@@ -2716,8 +2716,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/anceu-comunidad.jpg",
-        alt: "Tres personas sonríen abrazadas frente a un muro de piedra en Anceu",
+        src: "/photos/anceu-comunidad-patio.jpg",
+        alt: "Comunidad de Anceu Coliving reunida en el patio con parra y perro",
         caption: "Comunidad en la aldea: el puente se mide en caras conocidas.",
       },
       {
@@ -3014,8 +3014,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/equipo-selfie-perro.jpg",
-        alt: "Selfie de coworkers de Espacio Arroelo con la mascota del coworking en Michelena, Pontevedra",
+        src: "/photos/blog/disfruta-arroelo-camiseta.jpg",
+        alt: "Coworkers de Espacio Arroelo con la camiseta Disfruta Arroelo en el salón de Pontevedra",
         caption: "Misma familia, otra casa: el espíritu viajó con nosotras.",
       },
       { type: "h2", text: "Lo que nos sostiene hoy" },

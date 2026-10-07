@@ -17,8 +17,8 @@ const pillars = [
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/ig-mesa-oval.jpg",
-    alt: "Comunidad de Arroelo reunida alrededor de la mesa oval del salón en Pontevedra",
+    src: "/photos/community.jpg",
+    alt: "Comunidad de Arroelo reunida alrededor de la mesa del salón en Pontevedra",
     objectPosition: "object-[center_35%]",
   },
 ];
@@ -45,8 +45,8 @@ const bridges: {
       </>
     ),
     href: "https://anceu.com/",
-    image: "/photos/mural-anceu.jpg",
-    alt: "Mural y comunidad en Anceu, puente entre ciudad y aldea",
+    image: "/photos/anceu-coworking.jpg",
+    alt: "Coworking de Anceu Coliving: puestos con luz natural y vista al bosque",
     objectPosition: "object-[center_40%]",
   },
   {
@@ -66,7 +66,7 @@ const bridges: {
     ),
     href: "https://creativehubs.net/",
     image: "/photos/making.jpg",
-    alt: "Intercambio ECHN: hub creativo europeo hermano de la red",
+    alt: "The Making Rooms, hub creativo europeo de la red ECHN",
     objectPosition: "object-[center_40%]",
   },
   {
@@ -84,8 +84,8 @@ const bridges: {
       </>
     ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
-    image: "/photos/salon-trabajo.jpg",
-    alt: "Coworker con portátil en el salón de Arroelo",
+    image: "/photos/rural-hackers-tech.jpg",
+    alt: "Taller de Rural Hackers: reparación y herramientas en comunidad",
     objectPosition: "object-[center_40%]",
   },
 ];
