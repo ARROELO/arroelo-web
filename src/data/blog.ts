@@ -633,6 +633,13 @@ export const blogPosts: BlogPost[] = [
           "Fuera de la sala también hay congreso: red, cerveza y lanyards.",
       },
       {
+        type: "image",
+        src: "/photos/blog/fb-cwsc-02.jpg",
+        alt: "Ponencia en CWSC sobre Sense of community theory e Impact Hub Comunidad",
+        caption:
+          "En la sala también se habla de teoría de comunidad: membresía, influencia, necesidades, conexión emocional.",
+      },
+      {
         type: "h2",
         text: "De la sala del congreso al salón de Cobián Roffignac",
       },
@@ -667,6 +674,13 @@ export const blogPosts: BlogPost[] = [
         caption:
           "El cierre del encuentro: caras, lanyards y la misma pregunta — ¿cómo se hace comunidad?",
       },
+      {
+        type: "image",
+        src: "/photos/blog/fb-cwsc-01.jpg",
+        alt: "Público en sillas amarillas durante una sesión de la Coworking Spain Conference",
+        caption:
+          "La sala llena: tomar notas, mirar la diapositiva y volver al coworking con otra pregunta.",
+      },
       { type: "h2", text: "Si te interesa la cultura colaborativa" },
       {
         type: "p",
@@ -676,6 +690,13 @@ export const blogPosts: BlogPost[] = [
             type: "link",
             href: "https://coworkingspainconference.es/",
             text: "coworkingspainconference.es",
+            external: true,
+          },
+          " y en nuestro ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.1023697784384535&type=3",
+            text: "álbum de Facebook de la Coworking Spain Conference",
             external: true,
           },
           "— es una presencia sostenida: cinco ediciones, ponencias con nombre y fecha, y un relato coherente con lo que intentamos vivir cada día.",
@@ -708,8 +729,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "PonteJam y Global Service Jam: creatividad en Arroelo",
     date: "2026-10-07",
     label: "Creatividad",
-    image: "/photos/blog/taller-circulo-comunidad.jpg",
-    alt: "Taller en círculo con la comunidad de Espacio Arroelo",
+    image: "/photos/blog/fb-jam-02.jpg",
+    alt: "Participantes de PonteJam 2015 en círculo con post-its en Espacio Arroelo",
     excerpt:
       "Cómo impulsamos PonteJam y las Global Service / Sustainability Jams desde Espacio Arroelo: design thinking, retos globales y creatividad en Pontevedra.",
     body: [
@@ -735,7 +756,35 @@ export const blogPosts: BlogPost[] = [
             href: "/",
             text: "Espacio Arroelo",
           },
-          " impulsamos esas jornadas. África lo resume en una frase que la prensa recogió en 2015: «Dejar de hablar, ponerse a hacer».",
+          " impulsamos esas jornadas. África lo resume en una frase que la prensa recogió en 2015: «Dejar de hablar, ponerse a hacer». Parte de esa memoria gráfica sigue en nuestros ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.900021420085506&type=3",
+            text: "álbumes de Facebook de las Jams",
+            external: true,
+          },
+          " (",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.780567082030941&type=3",
+            text: "otro",
+            external: true,
+          },
+          ", ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.729253143829002&type=3",
+            text: "otro",
+            external: true,
+          },
+          ", ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.598364883584496&type=3",
+            text: "otro",
+            external: true,
+          },
+          ").",
         ],
       },
       { type: "h2", text: "Un reto secreto y muchas manos" },
@@ -743,10 +792,10 @@ export const blogPosts: BlogPost[] = [
       "No era un curso magistral. Era aprender metodología con las manos llenas de post-its y de dudas. Y era, sobre todo, una forma de decir: la creatividad no es un don de unos pocos; es un músculo que se entrena en equipo.",
       {
         type: "image",
-        src: "/photos/blog/ia-sinergia-taller.jpg",
-        alt: "Taller colaborativo con portátiles y mesa compartida en Espacio Arroelo",
+        src: "/photos/blog/fb-jam-01.jpg",
+        alt: "Grupo en círculo sobre pufs rojos durante una Jam en Espacio Arroelo",
         caption:
-          "Prototipar en equipo: el mismo gesto que las Jams entrenaban un sábado.",
+          "El salón convertido en laboratorio: círculo, papeles y permiso para equivocarse.",
       },
       { type: "h2", text: "Las ediciones que sí podemos nombrar" },
       "Solo contamos lo que fuentes públicas permiten verificar:",
@@ -766,34 +815,55 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Ponte Sustainability Jam (22 de noviembre de 2014). Casa das Campás (Universidad de Vigo). 46 participantes. Primer Sustainability Jam gallego documentado por la prensa local, en paralelo a acciones similares en 33 países (",
+          "Ponte Sustainability Jam (22 de noviembre de 2014). Casa das Campás (Universidad de Vigo). 46 participantes —estudiantes, emprendedoras, empleadas, desempleadas—. Primer Sustainability Jam gallego documentado por la prensa local, en paralelo a acciones similares en 33 países (",
           {
             type: "link",
             href: "https://www.pontevedraviva.com/es/general/doce-horas-de-creacion-en-el-primer-ponte-sustainability-jam-gallego_266145_102.html",
             text: "PontevedraViva",
             external: true,
           },
-          "). Organizado por Espacio Arroelo.",
+          "). Organizado por Espacio Arroelo. Horario maratón: de 9:30 a 21:30. Objetivo: afrontar retos de sostenibilidad con técnicas creativas y «una alta dosis de buen humor».",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-jam-10.jpg",
+        alt: "Casa das Campás durante el Ponte Sustainability Jam organizado por Espacio Arroelo",
+        caption:
+          "Noviembre 2014: la Jam sale del salón y se instala en Casa das Campás.",
       },
       {
         type: "p",
         parts: [
-          "PonteJam «vuelta a casa» (febrero 2015). De nuevo en las instalaciones de Arroelo —sede de las Jams en la ciudad desde la primera edición—, tras el paso por Casa das Campás. 26 personas. Formato más íntimo que la edición anterior (",
+          "PonteJam «vuelta a casa» (febrero 2015). De nuevo en las instalaciones de Arroelo —sede de las Jams en la ciudad desde la primera edición—, tras el paso por Casa das Campás. 26 personas, en su mayoría debutantes. Formato más íntimo que la edición anterior (",
           {
             type: "link",
             href: "https://www.pontevedraviva.com/es/general/ponte-jam-2015-la-vuelta-a-casa_268284_102.html",
             text: "PontevedraViva",
             external: true,
           },
-          "). Enmarcado en la Global Jam / Global Service Jam.",
+          "; galería del ",
+          {
+            type: "link",
+            href: "https://www.diariodepontevedra.es/album/galerias/ponte-jam-2015/20150228181956142648.html",
+            text: "Diario de Pontevedra",
+            external: true,
+          },
+          "). Enmarcado en la Global Jam / Global Service Jam, el mismo sábado que en más de 100 ciudades del mundo.",
         ],
       },
       {
         type: "image",
-        src: "/photos/blog/casa-pobo-taller.jpg",
-        alt: "Taller y trabajo en grupo en un espacio de comunidad vinculado a Arroelo",
+        src: "/photos/blog/fb-jam-04.jpg",
+        alt: "Equipo de PonteJam 2015 prototipando con kraft, rotuladores y post-its",
         caption: "Manos, mesa y método: la Jam como práctica, no como eslogan.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-jam-09.jpg",
+        alt: "Participantes de PonteJam 2015 en Espacio Arroelo según la cobertura de PontevedraViva",
+        caption:
+          "Febrero 2015: la «vuelta a casa» —menos aforo, mismo reto mundial.",
       },
       {
         type: "p",
@@ -852,7 +922,13 @@ export const blogPosts: BlogPost[] = [
             text: "WordCamp Pontevedra 2019",
             external: true,
           },
-          ", Arroelo enumera entre sus iniciativas el Global Service Jam junto a Rails Girls, Human Library o Hackaton for Refugees.",
+          ", Arroelo enumera entre sus iniciativas el Global Service Jam junto a Rails Girls, ",
+          {
+            type: "link",
+            href: "/blog/human-library-arroelo",
+            text: "Human Library",
+          },
+          " o Hackaton for Refugees.",
         ],
       },
       "No inventamos ediciones fantasma. Si hubo jornadas previas en el salón —la prensa habla de Arroelo como sede desde el origen—, las tratamos como contexto, no como listado inventado de fechas.",
@@ -866,8 +942,8 @@ export const blogPosts: BlogPost[] = [
       "Eso es design thinking en la práctica: empatizar, idear, prototipar, iterar. Sin pedantería. Con alegría —la prensa habla de buen humor como ingrediente, y no es decorado—.",
       {
         type: "image",
-        src: "/photos/blog/echn-cafe-mesa.jpg",
-        alt: "Café y conversación alrededor de la mesa del salón en Espacio Arroelo",
+        src: "/photos/blog/fb-jam-06.jpg",
+        alt: "Participantes de PonteJam con identificadores trabajando en grupo",
         caption:
           "De la Jam al Café a la fresca: el mismo músculo de comunidad.",
       },
@@ -956,6 +1032,234 @@ export const blogPosts: BlogPost[] = [
             text: "blog",
           },
           ".",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "human-library-arroelo",
+    title:
+      "Human Library en Arroelo: personas libro contra el prejuicio",
+    seoTitle: "Human Library y Sente Siria en Espacio Arroelo",
+    date: "2026-10-07",
+    label: "Comunidad",
+    image: "/photos/blog/fb-human-library-01.jpg",
+    alt: "Círculo de lectura de Human Library: una persona libro comparte su historia con oyentes",
+    excerpt:
+      "Cómo llevamos la Human Library a Pontevedra: A Redeira, Sente Siria en Casa da Luz y el diálogo como antídoto al estereotipo.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay bibliotecas de estanterías y hay bibliotecas de personas. La ",
+          {
+            type: "link",
+            href: "https://humanlibrary.org/",
+            text: "Human Library",
+            external: true,
+          },
+          " —Biblioteca Humana— es un movimiento mundial: alguien se ofrece como «libro», alguien se sienta a «leerlo», y el diálogo desmonta prejuicios que un titular no alcanza.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " no lo tratamos como un eslogan solidario. Lo practicamos. Aparece en nuestra presentación de ",
+          {
+            type: "link",
+            href: "https://pontevedra.wordcamp.org/2019/sponsor/espacio-arroelo/",
+            text: "WordCamp Pontevedra",
+            external: true,
+          },
+          " junto a Rails Girls, Global Service Jam o Hackaton for Refugees. Y quedó documentado en álbumes de Facebook —",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.821042254650090&type=3",
+            text: "Human Library · palabras",
+            external: true,
+          },
+          " y ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.1006140982806882&type=3",
+            text: "Human Library · gente siria",
+            external: true,
+          },
+          "— y en un ",
+          {
+            type: "link",
+            href: "https://photos.google.com/share/AF1QipMWEFDQi5ZMglXR-ZyLNzLQ0ji2iCAX8dc8y56_x8OXW60DTo7kr4OY_kiPyATPkA?key=NkZEWGdsaWVDRlFFcFhZVGlRckpxeGdRa0NWX2pn",
+            text: "álbum de Google Photos",
+            external: true,
+          },
+          " de la sesión con A Redeira.",
+        ],
+      },
+      { type: "h2", text: "A Redeira: el espacio para todas las personas" },
+      {
+        type: "p",
+        parts: [
+          "En junio de 2015, en un patio de piedra del Concello de Pontevedra, la Human Library se cruzó con ",
+          {
+            type: "link",
+            href: "https://aredeira.gal/",
+            text: "A Redeira",
+            external: true,
+          },
+          " —«o espazo para todas as persoas»—. Había carteles-biografía de «libros» humanos, autorización de imagen, grullas de origami en las mesas y círculos pequeños: no un escenario, sino conversación.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-human-library-03.jpg",
+        alt: "Cartel biográfico de una persona libro en la Human Library de A Redeira",
+        caption:
+          "Cada «libro» tenía nombre, trayecto y permiso para ser leído con respeto.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-human-library-06.jpg",
+        alt: "Señal de A Redeira: o espazo para todas as persoas, Concello de Pontevedra",
+        caption:
+          "A Redeira y el Concello: el marco público de una biblioteca hecha de gente.",
+      },
+      "Ahí cabían historias de márgenes, de escritura, de cooperación, de discapacidad, de ciudad. No para exhibir vulnerabilidad: para practicar escucha. El formato es radicalmente simple y exigente: sin guion cerrado, sin aplauso obligatorio, con tiempo limitado y mirada a la altura.",
+      {
+        type: "image",
+        src: "/photos/blog/fb-human-library-02.jpg",
+        alt: "Tres personas en círculo durante una sesión de Human Library en Pontevedra",
+        caption:
+          "Leer a alguien: menos discurso, más pregunta y presencia.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-human-library-07.jpg",
+        alt: "Persona libro muestra fotos y materiales mientras dos oyentes escuchan",
+        caption:
+          "A veces el relato llega con objetos: fotos, un libro propio, un gesto.",
+      },
+      { type: "h2", text: "Sente Siria: sensibilizar desde las personas" },
+      {
+        type: "p",
+        parts: [
+          "El 24 de abril de 2016, de 12:00 a 14:30, la Casa da Luz acogió ",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/general/sente-siria-desde-pontevedra_277451_102.html",
+            text: "Sente Siria",
+            external: true,
+          },
+          ": una acción social colaborativa impulsada por coworkers de Arroelo. La premisa —que también recogió ",
+          {
+            type: "link",
+            href: "https://www.entrefamilias.com/sente-siria-sensibilizar-desde-las-personas-para-las-personas-una-iniciativa-solidaria-de-nuestras-colaboradoras-de-espacio-arroelo-y-sus-coworkers/",
+            text: "Entrefamilias",
+            external: true,
+          },
+          "— era clara: «conocer la situación es lo que nos hace libres para tomar decisiones sobre nuestra responsabilidad como personas ciudadanas del mundo».",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-human-library-sente-cartel.jpg",
+        alt: "Cartel de Sente Siria: Human Library, 24 de abril, Casa da Luz, Pontevedra",
+        caption:
+          "Cartel de la jornada: Human Library, Lembranzas de Siria, #ACoffeeForRefugees.",
+      },
+      {
+        type: "p",
+        parts: [
+          "Hubo lectura de «libros» humanos al estilo ",
+          {
+            type: "link",
+            href: "https://humanlibrary.org/",
+            text: "humanlibrary.org",
+            external: true,
+          },
+          ", café solidario ",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/general/sente-siria-desde-pontevedra_277451_102.html",
+            text: "#ACoffeeForRefugees",
+            external: true,
+          },
+          ", proyecciones —entre ellas el corto «Recuerdos de Siria» / Lembranzas de Siria— y el avance del Hackaton Sente Siria, una comunidad tecnológica orientada a la crisis de refugio.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "El ",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2016/04/25/travesia-larga-vida-16635012.html",
+            text: "Faro de Vigo",
+            external: true,
+          },
+          " contó el día después: seis experiencias con fondo humano. No solo Siria: también el Tíbet y las travesías desde África. Emmanuel Kojo, llegado a Canarias en patera tras once días de viaje, compartió su relato en una de las mesas. Sensibilizar no era un PowerPoint: era sentarse frente a quien había atravesado el frío, la sal y los papeles.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-human-library-08.jpg",
+        alt: "Grupo pequeño escuchando a una persona libro en un patio con arcos de piedra",
+        caption:
+          "Mesas redondas, no micrófono: el formato que elegimos para Sente Siria y para A Redeira.",
+      },
+      { type: "h2", text: "Por qué importa en un coworking" },
+      {
+        type: "p",
+        parts: [
+          "Un coworking puede limitarse a fibra y mesa. Nosotras entendemos el salón como lugar donde cabe lo que no es solo facturación: la ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "curiosidad del Café a la fresca",
+          },
+          ", las ",
+          {
+            type: "link",
+            href: "/blog/global-service-jam-creatividad-arroelo",
+            text: "Jams",
+          },
+          ", la red europea, y también una tarde en la que alguien presta su historia para que otra persona salga menos segura de sus estereotipos.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/fb-human-library-04.jpg",
+        alt: "Firma de autorización de imagen en una Human Library con tarjeta de nombre y grulla de origami",
+        caption:
+          "Cuidado del relato: cesión de imagen, nombre propio, consentimiento.",
+      },
+      {
+        type: "p",
+        parts: [
+          "Si te interesa esta capa de Arroelo —la que no cabe en una tarifa—, lee la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia del espacio",
+          },
+          ", pásate por el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "salón",
+          },
+          " o ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "escríbenos",
+          },
+          ". Las bibliotecas humanas no se agotan en un domingo de 2016: se practican cada vez que elegimos escuchar antes de etiquetar.",
         ],
       },
     ],
@@ -2631,6 +2935,31 @@ export const blogPosts: BlogPost[] = [
       },
       { type: "h2", text: "Crecer como familia, no como oficina" },
       "Con el tiempo dejamos de contar solo mesas. Empezamos a contar personas.",
+      {
+        type: "p",
+        parts: [
+          "Los primeros años —aún en Michelena— ya se veían en fotos de comunidad: el ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.622966211124363&type=3",
+            text: "álbum de Facebook del coworking en 2014",
+            external: true,
+          },
+          " recoge ese tono de casa compartida. Desde ahí salieron también las ",
+          {
+            type: "link",
+            href: "/blog/global-service-jam-creatividad-arroelo",
+            text: "PonteJam",
+          },
+          " y la ",
+          {
+            type: "link",
+            href: "/blog/human-library-arroelo",
+            text: "Human Library",
+          },
+          ": el salón no era solo puesto de trabajo.",
+        ],
+      },
       {
         type: "p",
         parts: [
