@@ -480,6 +480,12 @@ export const blogPosts: BlogPost[] = [
       "En 2012, las vidas de María Pierres y África Rodríguez se cruzaron en LinkedIn. María, arquitecta; África, consultora. Dos autónomas en Pontevedra que, cada una a su manera, habían descubierto lo mismo: trabajar en casa puede ser práctico, pero también es un callejón sin red. «Tenía la sensación de que desde mi ordenador no iba a conocer a nadie», contaba África en aquellos primeros meses. María había dejado su propia oficina y sentía la misma falta: un lugar donde el trabajo no fuera solo productividad, sino compañía.",
       "En menos de seis meses pasamos de la conversación a la acción. Si en la ciudad no existía el espacio que necesitábamos, lo íbamos a crear.",
       {
+        type: "image",
+        src: "/photos/blog/fundadoras-pintando-muro.jpg",
+        alt: "África Rodríguez y María Pierres, fundadoras de Espacio Arroelo, pintan en la pared la frase «el mundo pertenece a quienes se atreven»",
+        caption: "Manos a la obra: pintar la casa que queríamos habitar.",
+      },
+      {
         type: "h2",
         text: "Abrir puertas en 2013: más que mesas e internet",
       },
@@ -500,9 +506,10 @@ export const blogPosts: BlogPost[] = [
       "El Diario de Pontevedra, un año después, ya hablaba de un grupo que había pasado de cinco personas iniciales a más de treinta asociadas, y de una sede que se expandía por la planta del edificio. Arroelo —con ese eco del «hai que roelo» pontevedrés— empezaba a ser, para mucha gente, sinónimo de otra forma de trabajar en la ciudad.",
       {
         type: "image",
-        src: "/photos/ig-salon-luz.jpg",
-        alt: "Salón de coworking Arroelo con luz natural y plantas",
-        caption: "Luz, madera y mesa compartida desde los primeros años.",
+        src: "/photos/blog/coworking-mesa-slack.jpg",
+        alt: "Coworkers de Espacio Arroelo trabajando con portátiles en mesa compartida; en pantalla, el Slack de la comunidad",
+        caption:
+          "Michelena, primeros años: portátiles, Slack y la costumbre de compartir mesa.",
       },
       { type: "h2", text: "Crecer como familia, no como oficina" },
       "Con el tiempo dejamos de contar solo mesas. Empezamos a contar personas.",
@@ -520,6 +527,12 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "image",
+        src: "/photos/blog/taller-circulo-comunidad.jpg",
+        alt: "Taller comunitario en círculo en el coworking Arroelo de Pontevedra, con mural y pizarra al fondo",
+        caption: "Talleres, círculos y proyectos compartidos: así creció la casa.",
+      },
+      {
         type: "p",
         parts: [
           "Lo que nos ha sostenido no ha sido un modelo de franquicia ni una fórmula mágica. Ha sido la inteligencia colectiva: compartir conocimiento, lanzar proyectos juntas, aprovechar que en el mismo pasillo pueden convivir derecho, arquitectura, diseño, tecnología o educación. África pasó de freelance del sector legal a acompañar a empresas en la creación de comunidades. María aportó mirada de espacio y de cuidado del lugar. Nosotras dos aprendimos, una y otra vez, que el «co» de coworking no es un prefijo de marketing: es una práctica diaria. Hoy esa ",
@@ -533,8 +546,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/community.jpg",
-        alt: "Grupo de coworkers en el salón de Arroelo, sonriendo y charlando",
+        src: "/photos/blog/celebracion-comunidad-mesa.jpg",
+        alt: "Comunidad de Espacio Arroelo celebrando alrededor de una mesa con empanada gallega en Pontevedra",
         caption: "La familia coworker: más de doscientas personas en una década.",
       },
       { type: "h2", text: "Crisis, pandemia y mudanza: seguir siendo Arroelo" },
@@ -554,9 +567,9 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/ig-salon-vivo.jpg",
-        alt: "Salón de Arroelo en Cobián Roffignac con coworkers trabajando",
-        caption: "Nueva casa, mismo espíritu: Cobián Roffignac desde 2023.",
+        src: "/photos/blog/equipo-selfie-perro.jpg",
+        alt: "Selfie de coworkers con la mascota del espacio en los años de Michelena",
+        caption: "Misma familia, otra casa: el espíritu viajó con nosotras.",
       },
       { type: "h2", text: "Lo que nos sostiene hoy" },
       {
