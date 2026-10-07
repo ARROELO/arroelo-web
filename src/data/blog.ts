@@ -329,8 +329,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking Spain Conference: África y Arroelo",
     date: "2026-10-07",
     label: "Congresos",
-    image: "/photos/blog/celebracion-comunidad-mesa.jpg",
-    alt: "Comunidad de Espacio Arroelo reunida alrededor de la mesa del salón",
+    image: "/photos/blog/cwsc-2018-banner.jpg",
+    alt: "Banner de la Coworking Spain Conference 2018 a la entrada del evento",
     excerpt:
       "Cómo llevamos la cultura colaborativa de Espacio Arroelo a la Coworking Spain Conference: ponencias de África Rodríguez en CWSC 2016–2020.",
     body: [
@@ -402,8 +402,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/echn-salon-comunidad.jpg",
-        alt: "Comunidad reunida en el salón de Espacio Arroelo durante un encuentro",
+        src: "/photos/blog/cwsc-2018-talk-coworking.jpg",
+        alt: "Ponencia en la Coworking Spain Conference: diapositiva «Coworking como movimiento»",
         caption:
           "El congreso alimenta el salón; el salón da material para el congreso.",
       },
@@ -460,10 +460,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/ia-encuentro-comunidad.jpg",
-        alt: "Encuentro de comunidad alrededor de la mesa en Espacio Arroelo",
+        src: "/photos/blog/cwsc-2018-sala-charla.jpg",
+        alt: "Sala de la Coworking Spain Conference con público y pantalla de agradecimiento",
         caption:
-          "Cinco años de CWSC: el mismo hilo que practicamos entre semana.",
+          "CWSC 2018: la sala donde se cruzan operadores, comunidad y preguntas difíciles.",
       },
       {
         type: "p",
@@ -540,9 +540,16 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/grupo-mujeres-fearless.jpg",
-        alt: "Grupo de mujeres de la comunidad Arroelo en un momento de encuentro",
+        src: "/photos/blog/cwsc-2018-slide-comunidad.jpg",
+        alt: "Diapositiva Impact Hub «Comunidad vs Clientes» en una charla de CWSC",
         caption: "Cultura colaborativa: menos métrica, más red.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cwsc-2018-networking-calle.jpg",
+        alt: "Asistentes de la Coworking Spain Conference conversando en una terraza de calle",
+        caption:
+          "Fuera de la sala también hay congreso: red, cerveza y lanyards.",
       },
       {
         type: "h2",
@@ -571,6 +578,13 @@ export const blogPosts: BlogPost[] = [
           },
           " cuenta el contexto. CWSC fue el altavoz; Arroelo sigue siendo el laboratorio.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cwsc-2018-grupo-asistentes.jpg",
+        alt: "Foto de grupo de asistentes en la Coworking Spain Conference ante la pantalla de gracias",
+        caption:
+          "El cierre del encuentro: caras, lanyards y la misma pregunta — ¿cómo se hace comunidad?",
       },
       { type: "h2", text: "Si te interesa la cultura colaborativa" },
       {

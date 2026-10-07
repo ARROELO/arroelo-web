@@ -62,7 +62,7 @@ export function Contacto() {
             />
           </div>
           <p className="mt-3 text-caption text-ink/45">
-            La Alameda de Pontevedra, a unos minutos del salón.
+            Coworker con su perro en la Alameda, a unos minutos del salón.
           </p>
         </div>
         <div className="space-y-8">
