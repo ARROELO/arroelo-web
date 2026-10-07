@@ -206,18 +206,12 @@
 .blog-post-section {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: subgrid;
+  /* Same tracks as parent so H2 rail + body column stay locked */
+  grid-template-columns: minmax(12rem, 28%) minmax(0, 1fr);
+  column-gap: clamp(1.25rem, 3vw, 2rem);
   align-items: start;
   margin: 0;
   padding: 0;
-}
-
-/* Nested fallback when subgrid is unavailable — same track sizes as parent */
-@supports not (grid-template-columns: subgrid) {
-  .blog-post-section {
-    grid-template-columns: minmax(12rem, 28%) minmax(0, 1fr);
-    column-gap: clamp(1.25rem, 3vw, 2rem);
-  }
 }
 
 .blog-post-section + .blog-post-section {
