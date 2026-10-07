@@ -2,18 +2,20 @@ import Image from "next/image";
 import { withBase } from "@/lib/path";
 
 const coworking = [
+  "Mesa en espacio compartido",
   "Jornada completa, sin permanencia",
   "Fibra óptica 1 Giga",
   "Acceso 24 horas",
-  "Salas de reunión con pantalla 4K",
+  "3 salas de reunión con pantalla 4K",
   "Todos los gastos incluidos",
 ];
 
 const sala = [
   "Espacio privado para tu equipo",
-  "Fibra 1 Giga y gastos incluidos",
+  "Fibra 1 Giga",
   "Acceso 24 horas",
-  "Uso de zonas comunes y Café a la fresca",
+  "3 salas de reunión con pantalla 4K",
+  "Todos los gastos incluidos",
 ];
 
 const plans = [
@@ -21,9 +23,9 @@ const plans = [
     title: "Coworking",
     price: "200€",
     priceNote: "+ IVA / mes",
-    tagline: "Mesa en el salón, jornada completa.",
+    tagline: "Mesa en espacio compartido, jornada completa.",
     image: "/photos/salon-trabajo.jpg",
-    alt: "Coworker con portátil en el salón compartido de Arroelo",
+    alt: "Coworker con portátil en el espacio compartido de Arroelo",
     objectPosition: "object-[center_40%]",
     features: coworking,
     cta: { label: "Reservar semana de prueba", className: "btn btn-ink" },
