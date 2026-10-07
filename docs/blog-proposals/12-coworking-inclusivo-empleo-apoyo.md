@@ -17,7 +17,8 @@
 >
 > **No inventado / verificar antes de publicar:**
 > - Situación laboral **actual** (2026) de Cecilia o Celso en Cobián Roffignac: no hay fuente pública reciente indexable; el borrador usa pretérito / «documentamos» y pide confirmación interna.
-> - Fotos nominativas de **Cecilia** (oct 2026): `ceci-ordenanza-arroelo.jpg` (PontevedraViva), `ceci-arume-comedor.jpg` (Diario de Pontevedra), `ceci-experiencia-youtube.jpg` (fotograma del vídeo Down Galicia). **Celso:** sin foto pública verificable; en el post solo plano de salón con pie honesto.
+> - Fotos nominativas de **Cecilia** (oct 2026): `ceci-ordenanza-arroelo.jpg` (PontevedraViva), `ceci-arume-comedor.jpg` (Diario de Pontevedra), `ceci-experiencia-youtube.jpg` (miniatura/fotograma del vídeo Down Galicia), `ceci-retrato-downgalicia.jpg` (Down Galicia — incorporación a Arroelo).
+> - Fotos nominativas de **Celso** (oct 2026): `celso-empleo-apoyo.jpg` / `celso-empleo-apoyo-arroelo.jpg` / `celso-arroelo.jpg` — fotogramas del vídeo oficial de Espacio Arroelo en [Facebook](https://www.facebook.com/EspacioArroelo/videos/1993082204890732/) e [Instagram @arroelo](https://www.instagram.com/reel/DWJOwiYjPHZ/) («Celso forma parte de nuestro equipo desde el año 2019»). FB/IG login-walled para álbumes; el vídeo público sí se pudo descargar. Wayback Machine offline en la búsqueda.
 > - No exagerar «primer coworking inclusivo de Galicia» sin prueba; sí: programa documentado y recomendado a otros coworkings.
 
 ---
@@ -68,7 +69,7 @@
 - Destacada candidata: `public/photos/blog/celebracion-comunidad-mesa.jpg` o `public/photos/blog/comunidad-mesa-desayuno.jpg` (equipo / mesa compartida)
 - Inline: `public/photos/blog/comunidad-hoodies-arroelo.jpg`, `public/photos/blog/comunidad-sillas-amarillas.jpg`, `public/photos/blog/taller-circulo-comunidad.jpg`, `public/photos/entrada-puerta-abierta.jpg`, `public/photos/grupo-familia.jpg`, `public/photos/encuentro-mesa.jpg`
 - Alternativas salón: `public/photos/salon-ambiente.jpg`, `public/photos/salon-overview.jpg`
-- **Pendiente / ideal:** foto con consentimiento de Ceci y/o Celso en el salón (no hay archivo nominativo en el repo)
+- Nominativas en repo: Ceci (`ceci-ordenanza-arroelo.jpg`, `ceci-arume-comedor.jpg`, `ceci-experiencia-youtube.jpg`, `ceci-retrato-downgalicia.jpg`) y Celso (`celso-empleo-apoyo.jpg`, vídeo FB/IG oficial)
 
 ---
 
