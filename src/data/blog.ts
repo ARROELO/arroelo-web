@@ -568,7 +568,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: "/photos/blog/equipo-selfie-perro.jpg",
-        alt: "Selfie de coworkers con la mascota del espacio en los años de Michelena",
+        alt: "Selfie de coworkers de Espacio Arroelo con la mascota del coworking en Michelena, Pontevedra",
         caption: "Misma familia, otra casa: el espíritu viajó con nosotras.",
       },
       { type: "h2", text: "Lo que nos sostiene hoy" },

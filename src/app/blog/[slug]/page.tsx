@@ -118,8 +118,8 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
             src={withBase(block.src)}
             alt={block.alt}
             fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 65ch"
+            className="object-cover object-center rounded-none"
+            sizes="(max-width: 768px) 100vw, min(100vw - 2.5rem, 52rem)"
           />
         </div>
         {block.caption ? (
@@ -147,13 +147,19 @@ export default async function BlogPostPage({ params }: Props) {
 
   const pageUrl = absoluteUrl(`/blog/${post.slug}`);
   const imageUrl = absoluteUrl(post.image);
+  const bodyImages = post.body
+    .filter(
+      (block): block is Extract<BlogBodyBlock, { type: "image" }> =>
+        typeof block !== "string" && block.type === "image",
+    )
+    .map((block) => absoluteUrl(block.src));
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.excerpt,
-    image: [imageUrl],
+    image: [imageUrl, ...bodyImages],
     datePublished: post.date,
     dateModified: post.date,
     mainEntityOfPage: {

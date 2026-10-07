@@ -189,23 +189,42 @@
 }
 
 .blog-post-figure {
-  margin: 2.25rem 0 0;
+  margin: 2.75rem 0 0;
+  width: 100%;
+}
+
+/* Wide editorial figures: break out of the 65ch prose column */
+@media (min-width: 768px) {
+  .blog-post-figure {
+    width: min(100vw - 2.5rem, 52rem);
+    max-width: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .blog-post-figure-media {
   position: relative;
   aspect-ratio: 3 / 2;
   overflow: hidden;
-  border-radius: 0.35rem;
+  border-radius: 0;
   background: var(--color-mist);
 }
 
 .blog-post-figure-caption {
-  margin-top: 0.65rem;
+  margin-top: 0.7rem;
+  max-width: 65ch;
   font-size: 14px;
   line-height: 1.45;
   letter-spacing: 0.01em;
   color: color-mix(in oklab, var(--color-ink) 52%, transparent);
+}
+
+@media (min-width: 768px) {
+  .blog-post-figure-caption {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .blog-inline-link {
