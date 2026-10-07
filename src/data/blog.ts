@@ -236,6 +236,235 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
+    slug: "anceu-coliving-ciudad-aldea",
+    title: "De la ciudad a la aldea: el puente entre Arroelo y Anceu",
+    seoTitle: "De Pontevedra a Anceu: ciudad y aldea",
+    date: "2026-10-07",
+    label: "Puentes",
+    image: "/photos/blog/anceu-rural-hackers.jpg",
+    alt: "Dos personas en Anceu revisan un material de Rural Hackers al aire libre",
+    excerpt:
+      "Cómo Espacio Arroelo tiende puentes con Anceu Coliving: del coworking en Pontevedra a la revitalización de una aldea de menos de 100 habitantes.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay quien imagina el coworking como un fenómeno exclusivamente urbano: centros, terrazas, fibra y café de especialidad. Nosotras vivimos en Pontevedra —y la queremos— pero hace años entendimos que nuestra comunidad no termina en el casco histórico. Termina, o mejor: continúa, media hora más arriba, en una aldea de menos de cien habitantes llamada ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      { type: "h2", text: "Media hora, otro ritmo: qué es Anceu" },
+      {
+        type: "p",
+        parts: [
+          "Anceu está en Ponte Caldelas, a unos treinta minutos de Pontevedra. Allí el tiempo se organiza distinto: el monte, la vecindad, el silencio que no es vacío. Desde ",
+          {
+            type: "link",
+            href: "/",
+            text: "Arroelo",
+          },
+          " tendemos puentes entre lo rural y lo urbano, entre la naturaleza que nos conecta y una ciudad que, a su manera, también demuestra que otras formas de habitar son posibles.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "No vamos a Anceu «de excursión». Vamos porque formamos familia con quienes viven y trabajan allí: ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          ", ",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          " y la Casa do Pobo.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/anceu-comunidad.jpg",
+        alt: "Tres personas sonríen abrazadas frente a un muro de piedra en Anceu",
+        caption: "Comunidad en la aldea: el puente se mide en caras conocidas.",
+      },
+      {
+        type: "h2",
+        text: "Desde 2019: comprometernos con el desarrollo rural",
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde 2019 nos hemos comprometido activamente con el desarrollo rural de ese entorno. África Rodríguez lo resume en su trayectoria pública: junto a Agustín Jamardo, construir puentes entre el mundo rural y el urbano desde el coliving de Anceu; vivir y generar comunidad internacional mientras se impulsan proyectos que ayuden a revitalizar la aldea. Esa misma mirada recorre la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          ": comunidad primero, mesas después.",
+        ],
+      },
+      "Ese compromiso nació de una intuición sencilla y rebelde: la despoblación no se frena solo con discursos. Se frena —o al menos se disputa— con presencia, con fibra, con personas que se quedan a cenar y con proyectos que sirven a quien ya vivía allí antes de que llegara la palabra coliving.",
+      {
+        type: "h2",
+        text: "Anceu Coliving: no es un hotel (julio 2020, remoto + vecindad)",
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          " abrió en julio de 2020. No es un hotel. Es un lugar donde personas de todo el mundo que trabajan en remoto viven en la naturaleza y, a la vez, contribuyen a la revitalización de la aldea. Conviven quienes llegan por una temporada con vecinas y vecinos de toda la vida. Ni una mitad funciona sin la otra.",
+        ],
+      },
+      "En la práctica eso significa cocina compartida, cenas colectivas varios días a la semana, coworking con fibra de alta velocidad y muchas oportunidades de encontrarse. Significa también entender que el impacto local no es un extra para el brochure: es la condición de posibilidad del proyecto.",
+      {
+        type: "p",
+        parts: [
+          "En conversaciones recogidas por la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "European Creative Hubs Network (ECHN)",
+            external: true,
+          },
+          ", el equipo de Anceu ha explicado iniciativas como la Rural Hackers Academy —formación gratuita en tecnología e inglés para gente del entorno—, residencias de un mes para desarrollar proyectos de impacto, o hackathones donde participantes europeos construyen webs para ONG locales.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/anceu-cena-compartida.jpg",
+        alt: "Cena compartida en el coliving: platos, conversación y comunidad",
+        caption: "Cenas colectivas: el impacto local se cocina juntos.",
+      },
+      "Nosotras, desde Pontevedra, no pretendemos apropiarnos de ese relato. Lo acompañamos. Lo celebramos. Lo cruzamos con el nuestro.",
+      {
+        type: "h2",
+        text: "Casa do Pobo y el mobiliario que viajó con nosotras (mudanza 2023)",
+      },
+      {
+        type: "p",
+        parts: [
+          "Cuando en 2023 cambiamos de localización en la ciudad, gran parte de nuestro Arroelo encontró nueva vida en la Casa do Pobo de Anceu. Donamos mobiliario para crear un espacio que, como el nuestro en Pontevedra, dé cobijo creativo también en el rural. Lo contamos también en la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia del coworking",
+          },
+          ": los objetos también pueden tejer red.",
+        ],
+      },
+      "La Casa do Pobo es el espacio cultural y social de la vecindad: el lugar donde se fomenta la vida comunitaria de la aldea. Que nuestras mesas y sillas sigan sirviendo allí no es nostalgia: es coherencia.",
+      {
+        type: "image",
+        src: "/photos/blog/casa-pobo-mural.jpg",
+        alt: "Charla comunitaria en la Casa do Pobo de Anceu, con mural de flores en la pared",
+        caption: "Casa do Pobo: cultura, vecindad y murales que cuentan la aldea.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/casa-pobo-taller.jpg",
+        alt: "Taller o presentación en la Casa do Pobo con público sentado",
+        caption: "Talleres y encuentros: el rural también es laboratorio.",
+      },
+      { type: "h2", text: "Ida y vuelta: cafés, coworkings compartidos, actividades en la aldea" },
+      "El puente se recorre en las dos direcciones.",
+      {
+        type: "p",
+        parts: [
+          "Organizamos ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Cafés a la fresca",
+          },
+          " con personas de la aldea o de la comunidad internacional del coliving, para tomar café e inspirarnos juntas en nuestras mañanas de Pontevedra. Participamos en actividades en Anceu: arte, creatividad, tecnología, lo que la aldea propone cuando quiere mirar al futuro sin renunciar a lo suyo. Y cuidamos una idea práctica y generosa: que las personas de Arroelo y de Anceu puedan inspirarse entre lo rural y lo urbano, usando los espacios de trabajo como extensión natural de la misma comunidad.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/casa-pobo-vecindad.jpg",
+        alt: "Vecinas y vecinos reunidos en la Casa do Pobo de Anceu",
+        caption: "Ida y vuelta: la vecindad también viene a la mesa.",
+      },
+      {
+        type: "p",
+        parts: [
+          "Trabajar un día en el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio de coworking en el centro",
+          },
+          " y otro con vistas al monte no es un lujo estético. Es una forma de entender Galicia —y el trabajo remoto— con más matices. A veces ese día a día aparece en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Instagram @arroelo",
+            external: true,
+          },
+          ": la misma comunidad, otro paisaje.",
+        ],
+      },
+      { type: "h2", text: "Por qué este puente importa" },
+      "Porque la ciudad necesita oxígeno. Porque el rural necesita vínculos que no sean extractivos. Porque una década de coworking en Pontevedra nos enseñó que las mejores redes son las que no se quedan en el mismo código postal.",
+      {
+        type: "p",
+        parts: [
+          "Si buscas un coliving rural en Galicia, Anceu tiene su propia puerta (y su propia voz) en ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "anceu.com",
+            external: true,
+          },
+          ". Si buscas un coworking en Pontevedra con mirada amplia, ",
+          {
+            type: "link",
+            href: "/",
+            text: "aquí estamos",
+          },
+          ". Y si lo que buscas es, simplemente, no elegir entre ciudad y aldea como si fueran bandos: bienvenida al puente. Nosotras lo cruzamos a menudo —con ",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          ", con la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "ECHN",
+            external: true,
+          },
+          " y con lo que sigue vivo en ",
+          {
+            type: "link",
+            href: "https://espacioarroelo.es/",
+            text: "espacioarroelo.es",
+            external: true,
+          },
+          ". Casi siempre volvemos con una historia nueva.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "historia-espacio-arroelo-pontevedra",
     title:
       "De un mensaje en LinkedIn a un hogar compartido: la historia de Espacio Arroelo",

@@ -1,6 +1,6 @@
 # PROPUESTA 3 — Blog Espacio Arroelo
 
-> **Estado:** borrador para revisión. No publicado en el sitio.
+> **Estado:** publicado en el sitio (`/blog/anceu-coliving-ciudad-aldea`).
 > **Fuentes:** espacioarroelo.es/anceu/; anceu.com; Creative Hubs Network (artículo Anceu Coliving); La Voz de Galicia / ruralgpt (contexto cofundadores); LinkedIn África Rodríguez (desde 2019 puentes rural-urbano).
 
 ---
