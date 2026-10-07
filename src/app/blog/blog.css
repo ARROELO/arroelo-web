@@ -176,21 +176,23 @@
     clamp(4rem, 9vw, 7rem);
 }
 
-/* Anceu-style editorial grid: body in cols 5–11, H2s in left rail 2–4 */
+/*
+  Anceu-style editorial grid:
+  left rail (~28%) for H2s, right column for body.
+  Each .blog-post-section is one row: H2 + section body share the same top.
+*/
 .blog-post-content {
   display: grid;
-  grid-template-columns:
-    [full-start] repeat(4, minmax(0, 1fr))
-    [text-start] repeat(6, [col] minmax(0, 1fr))
-    [text-end] repeat(2, minmax(0, 1fr)) [full-end];
-  gap: 0 1.375rem;
+  grid-template-columns: minmax(12rem, 28%) minmax(0, 1fr);
+  column-gap: clamp(1.25rem, 3vw, 2rem);
+  row-gap: 0;
   width: 100%;
   max-width: 1360px;
   margin-inline: auto;
 }
 
 .blog-post-lede {
-  grid-column: 5 / 11;
+  grid-column: 2;
   max-width: 64ch;
   margin: 0;
   padding-bottom: 1.25rem;
@@ -201,58 +203,40 @@
   animation: blog-post-rise 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
 }
 
-/* Let prose children participate in the parent editorial grid */
-.blog-post-prose {
-  display: contents;
-  font-size: var(--text-body);
-  line-height: 1.7;
-  color: color-mix(in oklab, var(--color-ink) 72%, transparent);
-}
-
-/*
-  Grid items do not collapse margins — reset UA p margins and drive
-  vertical rhythm only via adjacent-sibling rules (~1–1.25em between paras).
-*/
-.blog-post-content > p,
-.blog-post-prose > p {
-  grid-column: 5 / 11;
-  max-width: 64ch;
-  margin: 0;
-  font-size: var(--text-body);
-  line-height: 1.7;
-  color: color-mix(in oklab, var(--color-ink) 72%, transparent);
-}
-
-.blog-post-prose > p + p {
-  margin-top: 1.15em;
-}
-
-/* Forces the next H2 onto a fresh grid row (see BodyBlock in [slug]/page). */
-.blog-post-row-break {
+.blog-post-section {
   grid-column: 1 / -1;
-  height: 0;
+  display: grid;
+  grid-template-columns: subgrid;
+  align-items: start;
   margin: 0;
   padding: 0;
-  border: 0;
-  overflow: hidden;
-  visibility: hidden;
-  pointer-events: none;
 }
 
-/*
-  Left-rail H2: height:0 + overflow:visible so a tall title does not inflate
-  the shared grid row and leave a void in the text column between paragraphs.
-*/
+/* Nested fallback when subgrid is unavailable — same track sizes as parent */
+@supports not (grid-template-columns: subgrid) {
+  .blog-post-section {
+    grid-template-columns: minmax(12rem, 28%) minmax(0, 1fr);
+    column-gap: clamp(1.25rem, 3vw, 2rem);
+  }
+}
+
+.blog-post-section + .blog-post-section {
+  margin-top: 2.25rem;
+}
+
+.blog-post-section--lead {
+  margin-top: 0;
+}
+
+.blog-post-section--lead + .blog-post-section {
+  margin-top: 2.25rem;
+}
+
 .blog-post-h2 {
-  grid-column: 2 / 4;
+  grid-column: 1;
   align-self: start;
   max-width: 13ch;
-  /* height/min-height 0: title overflows visually without inflating the row
-     (grid min-height:auto would otherwise size to the H2 text and void the text column) */
-  height: 0;
-  min-height: 0;
-  overflow: visible;
-  margin: 2.25rem 0 0;
+  margin: 0;
   padding-top: 0.75rem;
   border-top: 1px solid color-mix(in oklab, var(--color-ink) 14%, transparent);
   font-size: clamp(1.7rem, 2.5vw, 2.45rem);
@@ -263,22 +247,38 @@
   text-wrap: balance;
 }
 
-/* Keep H2 and the first block beside it on the same editorial row */
-.blog-post-h2 + * {
-  margin-top: 2.25rem;
+.blog-post-section-body {
+  grid-column: 2;
+  min-width: 0;
+  max-width: 72ch;
+  /* Match H2 padding so first line shares vertical rhythm with H2 text */
+  padding-top: 0.75rem;
+  font-size: var(--text-body);
+  line-height: 1.7;
+  color: color-mix(in oklab, var(--color-ink) 72%, transparent);
 }
 
-/* First section after lede: row-break is first prose child, then H2 */
-.blog-post-row-break:first-child + .blog-post-h2 {
-  margin-top: 0;
+.blog-post-section--lead .blog-post-section-body {
+  padding-top: 0;
 }
 
-.blog-post-row-break:first-child + .blog-post-h2 + * {
-  margin-top: 0;
+/*
+  Grid / flex children do not collapse margins — reset UA p margins and drive
+  vertical rhythm via adjacent-sibling rules (~1–1.25em between paras).
+*/
+.blog-post-section-body > p {
+  max-width: 64ch;
+  margin: 0;
+  font-size: var(--text-body);
+  line-height: 1.7;
+  color: color-mix(in oklab, var(--color-ink) 72%, transparent);
+}
+
+.blog-post-section-body > p + p {
+  margin-top: 1.15em;
 }
 
 .blog-post-h3 {
-  grid-column: 5 / 11;
   max-width: 64ch;
   margin: 1.75rem 0 0.4rem;
   font-size: clamp(1.375rem, 2.5vw, 1.875rem);
@@ -294,14 +294,18 @@
 }
 
 .blog-post-figure {
-  grid-column: 5 / 12;
   width: 100%;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0;
 }
 
-/* Avoid stacking figure bottom + H2 top (margins don't collapse in grid) */
-.blog-post-figure:has(+ .blog-post-row-break) {
-  margin-bottom: 0;
+.blog-post-figure + p,
+.blog-post-figure + .blog-post-h3 {
+  margin-top: 1.5rem;
+}
+
+.blog-post-section-body > p + .blog-post-figure,
+.blog-post-section-body > .blog-post-h3 + .blog-post-figure {
+  margin-top: 1.5rem;
 }
 
 .blog-post-figure-media {
@@ -404,12 +408,22 @@
     max-width: none;
   }
 
+  .blog-post-section {
+    display: block;
+    margin-top: 0;
+  }
+
+  .blog-post-section + .blog-post-section,
+  .blog-post-section--lead + .blog-post-section {
+    margin-top: 2.25rem;
+  }
+
   .blog-post-lede,
-  .blog-post-content > p,
-  .blog-post-prose > p,
   .blog-post-h2,
+  .blog-post-section-body,
   .blog-post-h3,
-  .blog-post-figure {
+  .blog-post-figure,
+  .blog-post-section-body > p {
     grid-column: auto;
     max-width: none;
   }
@@ -418,26 +432,13 @@
     padding-bottom: 1.15rem;
   }
 
-  .blog-post-row-break {
-    display: none;
-  }
-
-  /* Stacked layout: H2 must take normal height again */
   .blog-post-h2 {
-    height: auto;
-    overflow: visible;
-    margin-top: 2.25rem;
-    margin-bottom: 0.65rem;
+    margin: 0 0 0.65rem;
     padding-top: 0.85rem;
   }
 
-  .blog-post-row-break:first-child + .blog-post-h2 {
-    margin-top: 0;
-  }
-
-  .blog-post-h2 + *,
-  .blog-post-row-break:first-child + .blog-post-h2 + * {
-    margin-top: 0;
+  .blog-post-section-body {
+    padding-top: 0;
   }
 
   .blog-post-h3 {
@@ -445,7 +446,7 @@
   }
 
   .blog-post-figure {
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 0;
   }
 }
 

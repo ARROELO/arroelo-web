@@ -103,20 +103,8 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
   }
 
   if (block.type === "h2") {
-    return (
-      <>
-        {/* Full-width break so H2 cannot pack into empty left-rail cells
-            beside the previous paragraph/figure (CSS Grid auto-placement). */}
-        <div
-          key={`h2-break-${index}`}
-          className="blog-post-row-break"
-          aria-hidden="true"
-        />
-        <h2 key={`h2-${index}`} className="blog-post-h2">
-          {block.text}
-        </h2>
-      </>
-    );
+    // H2s are rendered as section titles by groupBodySections — skip here.
+    return null;
   }
 
   if (block.type === "h3") {
@@ -155,6 +143,34 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
       ))}
     </p>
   );
+}
+
+type BodySection = {
+  title: string | null;
+  blocks: { block: BlogBodyBlock; index: number }[];
+};
+
+/** Group body into H2 sections so each heading shares a grid row with its content. */
+function groupBodySections(body: BlogBodyBlock[]): BodySection[] {
+  const sections: BodySection[] = [];
+  let current: BodySection = { title: null, blocks: [] };
+
+  body.forEach((block, index) => {
+    if (typeof block !== "string" && block.type === "h2") {
+      if (current.title !== null || current.blocks.length > 0) {
+        sections.push(current);
+      }
+      current = { title: block.text, blocks: [] };
+      return;
+    }
+    current.blocks.push({ block, index });
+  });
+
+  if (current.title !== null || current.blocks.length > 0) {
+    sections.push(current);
+  }
+
+  return sections;
 }
 
 export default async function BlogPostPage({ params }: Props) {
@@ -200,6 +216,8 @@ export default async function BlogPostPage({ params }: Props) {
     inLanguage: "es-ES",
   };
 
+  const sections = groupBodySections(post.body);
+
   return (
     <>
       <script
@@ -239,11 +257,25 @@ export default async function BlogPostPage({ params }: Props) {
           <div className="blog-post-body">
             <div className="blog-post-content">
               <p className="blog-post-lede">{post.excerpt}</p>
-              <div className="blog-post-prose">
-                {post.body.map((block, index) => (
-                  <BodyBlock key={index} block={block} index={index} />
-                ))}
-              </div>
+              {sections.map((section, sectionIndex) => (
+                <section
+                  key={`section-${sectionIndex}`}
+                  className={
+                    section.title
+                      ? "blog-post-section"
+                      : "blog-post-section blog-post-section--lead"
+                  }
+                >
+                  {section.title ? (
+                    <h2 className="blog-post-h2">{section.title}</h2>
+                  ) : null}
+                  <div className="blog-post-section-body">
+                    {section.blocks.map(({ block, index }) => (
+                      <BodyBlock key={index} block={block} index={index} />
+                    ))}
+                  </div>
+                </section>
+              ))}
             </div>
           </div>
         </article>
