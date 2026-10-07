@@ -43,8 +43,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking inclusivo en Pontevedra: Empleo con Apoyo en Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/comunidad-mesa-desayuno.jpg",
-    alt: "Comunidad de Espacio Arroelo desayunando junta alrededor de la mesa del salón",
+    image: "/photos/blog/ceci-ordenanza-arroelo.jpg",
+    alt: "Cecilia en su puesto de ordenanza en el coworking Espacio Arroelo (PontevedraViva / Down Xuntos)",
     excerpt:
       "Cómo Espacio Arroelo incorporó Empleo con Apoyo con Down Pontevedra Xuntos: Cecilia y Celso en el equipo, disciplina diaria y una comunidad que se ensancha.",
     body: [
@@ -121,7 +121,7 @@ export const blogPosts: BlogPost[] = [
         src: "/photos/entrada-puerta-abierta.jpg",
         alt: "Puerta abierta del coworking Espacio Arroelo en Pontevedra",
         caption:
-          "El salón funciona cuando hay equipo: quien entra, quien recibe, quien ordena el día.",
+          "El salón: entrada, recepción y orden del día — el espacio que el equipo sostiene.",
       },
       {
         type: "h2",
@@ -139,6 +139,13 @@ export const blogPosts: BlogPost[] = [
           },
           " que, tras un periodo de prácticas, Espacio Arroelo contrató a Cecilia, trabajadora del programa Empleo con Apoyo (ECA) de Down Pontevedra. Sus tareas: atención al cliente y mantenimiento del espacio. La fecha que marca el relato público es el entorno del 17 de octubre: de las prácticas al sí.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/ceci-ordenanza-arroelo.jpg",
+        alt: "Cecilia en su puesto de ordenanza en Espacio Arroelo, con carpetas y portátil",
+        caption:
+          "Cecilia en el coworking: cobertura de PontevedraViva (Asociación Down Xuntos de Pontevedra).",
       },
       {
         type: "p",
@@ -166,7 +173,21 @@ export const blogPosts: BlogPost[] = [
           " informaban de que compatibilizaba el puesto en el coworking con un trabajo de monitora en comedor escolar (Arume) y de que había firmado contrato indefinido con Espacio Arroelo.",
         ],
       },
+      {
+        type: "image",
+        src: "/photos/blog/ceci-arume-comedor.jpg",
+        alt: "Cecilia de Los Santos en el comedor escolar con uniforme Arume (Diario de Pontevedra)",
+        caption:
+          "Cecilia en Arume (comedor escolar): la misma persona que compatibilizaba ese puesto con Arroelo, según el Diario de Pontevedra (2019).",
+      },
       "África lo dijo sin rodeos: Cecilia había cambiado la forma de ver la organización; era una pieza clave del engranaje. «Nosotras no nos planteamos seguir en la empresa sin ella.»",
+      {
+        type: "image",
+        src: "/photos/blog/ceci-experiencia-youtube.jpg",
+        alt: "Cecilia en Espacio Arroelo: fotograma del vídeo «A experiencia de Cecilia» (Down Galicia)",
+        caption:
+          "Fotograma del vídeo de Down Galicia «Experiencias laborais en 1ª persoa — Cecilia en Espacio Arroelo».",
+      },
       {
         type: "video",
         youtubeId: "M7PfTwy1gyg",
@@ -195,10 +216,10 @@ export const blogPosts: BlogPost[] = [
       "Compartían el rol de ordenanza con Cecilia en días distintos. Mismo salón, mismo estándar: el día a día del coworking no se improvisa.",
       {
         type: "image",
-        src: "/photos/grupo-familia.jpg",
-        alt: "Grupo de la familia Arroelo reunido en el coworking de Pontevedra",
+        src: "/photos/salon-overview.jpg",
+        alt: "Vista general del salón de coworking de Espacio Arroelo en Pontevedra",
         caption:
-          "Familia Arroelo: el equipo y la comunidad se miden en caras, no solo en puestos.",
+          "El salón donde se alternaban los turnos de ordenanza. No publicamos aquí una foto nominativa de Celso: no hay imagen pública verificable en las fuentes que consultamos.",
       },
       {
         type: "h2",
@@ -233,10 +254,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/comunidad-sillas-amarillas.jpg",
-        alt: "Coworkers de Espacio Arroelo sentados en sillas amarillas en el salón",
+        src: "/photos/blog/comunidad-mesa-desayuno.jpg",
+        alt: "Comunidad de coworkers desayunando en la mesa del salón de Espacio Arroelo",
         caption:
-          "Comunidad en el salón: convivir con nuevas perspectivas cambia el entorno.",
+          "Comunidad en el salón (coworkers de Arroelo; no es un retrato de Cecilia ni de Celso).",
       },
       {
         type: "h2",
@@ -277,10 +298,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/encuentro-mesa.jpg",
-        alt: "Encuentro de coworkers alrededor de una mesa en Espacio Arroelo",
+        src: "/photos/salon-ambiente.jpg",
+        alt: "Ambiente del salón de Espacio Arroelo con mesas y luz natural",
         caption:
-          "Prácticas, contrato y tareas reales: así se sostiene la inclusión en el día a día.",
+          "El espacio de trabajo: prácticas, contrato y tareas reales — sin inventar caras en la foto.",
       },
       {
         type: "h2",

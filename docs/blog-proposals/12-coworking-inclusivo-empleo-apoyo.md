@@ -17,7 +17,7 @@
 >
 > **No inventado / verificar antes de publicar:**
 > - Situación laboral **actual** (2026) de Cecilia o Celso en Cobián Roffignac: no hay fuente pública reciente indexable; el borrador usa pretérito / «documentamos» y pide confirmación interna.
-> - No hay fotos nominativas de Ceci/Celso en `public/photos/`; no inventar pies de foto con sus nombres sobre imágenes genéricas sin consentimiento.
+> - Fotos nominativas de **Cecilia** (oct 2026): `ceci-ordenanza-arroelo.jpg` (PontevedraViva), `ceci-arume-comedor.jpg` (Diario de Pontevedra), `ceci-experiencia-youtube.jpg` (fotograma del vídeo Down Galicia). **Celso:** sin foto pública verificable; en el post solo plano de salón con pie honesto.
 > - No exagerar «primer coworking inclusivo de Galicia» sin prueba; sí: programa documentado y recomendado a otros coworkings.
 
 ---
