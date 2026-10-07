@@ -104,9 +104,18 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
 
   if (block.type === "h2") {
     return (
-      <h2 key={`h2-${index}`} className="blog-post-h2">
-        {block.text}
-      </h2>
+      <>
+        {/* Full-width break so H2 cannot pack into empty left-rail cells
+            beside the previous paragraph/figure (CSS Grid auto-placement). */}
+        <div
+          key={`h2-break-${index}`}
+          className="blog-post-row-break"
+          aria-hidden="true"
+        />
+        <h2 key={`h2-${index}`} className="blog-post-h2">
+          {block.text}
+        </h2>
+      </>
     );
   }
 
