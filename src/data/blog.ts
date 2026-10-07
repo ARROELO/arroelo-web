@@ -272,26 +272,19 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        type: "image",
-        src: "/photos/grupo-familia.jpg",
-        alt: "Comunidad de Arroelo reunida en el espacio de coworking de Pontevedra",
-        caption:
-          "Familia coworker: la red que sostiene el primer invierno lejos de casa.",
-      },
-      {
         type: "h2",
         text: "Aterrizar en el centro: la puerta de Arroelo",
       },
       {
         type: "p",
         parts: [
-          "Elegir mudarse a Pontevedra hoy es elegir una ciudad peatonal con trayectoria y premios reales —y, si quieres, un coworking en el centro donde aterrizar sin empezar de cero. ",
+          "Pontevedra hoy es una ciudad que se recorre a pie y que ha ganado premios por ello. Si te mudas aquí, no hace falta empezar solo: ",
           {
             type: "link",
             href: "/#contacto",
-            text: "Ven a conocernos",
+            text: "ven a conocernos",
           },
-          ": pasea la Alameda, cruza las calles peatonales y sube al salón. Nosotras ya estamos aquí, con café, mesa y ganas de que tu llegada no sea solo un cambio de código postal.",
+          ", pasea la Alameda, cruza las calles peatonales y sube al salón. Nosotras ya estamos aquí, con café, mesa y ganas de que tu llegada no sea solo un cambio de código postal.",
         ],
       },
     ],
