@@ -405,11 +405,17 @@ export const blogPosts: BlogPost[] = [
           ", Shokkin International y ",
           {
             type: "link",
-            href: "https://www.ruralhackers.com/",
+            href: "/blog/rural-hackers-tecnologia-impacto-rural",
             text: "Rural Hackers",
+          },
+          " (",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "ruralhackers.com",
             external: true,
           },
-          ", entre otras. El puente ciudad-aldea lo contamos también en ",
+          "), entre otras. El puente ciudad-aldea lo contamos también en ",
           {
             type: "link",
             href: "/blog/anceu-coliving-ciudad-aldea",
