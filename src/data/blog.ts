@@ -29,6 +29,292 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "coworking-dog-friendly-pontevedra-arroelo",
+    title:
+      "Coworking dog-friendly en Pontevedra: ven con tu perro a Arroelo",
+    seoTitle: "Coworking dog-friendly en Pontevedra: Arroelo",
+    date: "2026-10-07",
+    label: "Comunidad",
+    image: "/photos/blog/perro-salon-pet.jpg",
+    alt: "Perro en el salón de Espacio Arroelo, junto a una silla de coworking, recibiendo una caricia",
+    excerpt:
+      "Sí, puedes venir con tu perro a Espacio Arroelo: coworking pet-friendly en Pontevedra, perretes de la casa y vínculo con el manifiesto dog-friendly de Anceu.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay coworkings que ponen un icono de «pet friendly» y siguen siendo oficinas con prohibición disimulada. Nosotras lo vivimos al revés: el salón de ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " lleva años compartiendo mesa, wifi y siestas bajo la silla con perretes que saben estar. Si trabajas en remoto, si eres freelance o si llegas a Pontevedra con mochila y correa, esta es la respuesta corta: sí, puedes venir con tu perro.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Sí: puedes venir con tu perro",
+      },
+      {
+        type: "p",
+        parts: [
+          "Lo tenemos escrito en casa. En la ",
+          {
+            type: "link",
+            href: "https://wiki.espacioarroelo.es/coworking/guia-zen",
+            text: "Guía Zen de nuestra wiki",
+            external: true,
+          },
+          " —las normas de convivencia del coworking— aparece sin ambigüedad: «Espacio Arroelo es dog friendly.» En la página del ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio",
+          },
+          " lo repetimos con la misma voz: bienvenidas las mascotas que saben convivir en el salón.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "No es un eslogan de campaña. Es la práctica de más de una década: puestos, salas, ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          "… y, de vez en cuando, un hocico apoyado en la rodilla mientras alguien cierra un ticket. Si buscas coworking en Pontevedra y no quieres dejar al perrete solo en casa, ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "escríbenos o pásate",
+          },
+          ": la puerta del tercer piso de Cobián Roffignac está para eso.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/perro-salon-pet.jpg",
+        alt: "Perrete en el salón de Arroelo, sobre la alfombra del coworking, con arnés y una mano que lo acaricia",
+        caption:
+          "El salón no es solo mesas y fibra: también es un sitio donde el perrete cabe.",
+      },
+      {
+        type: "h2",
+        text: "Los perretes de la casa (y de la familia)",
+      },
+      {
+        type: "p",
+        parts: [
+          "Las fotos del salón lo cuentan mejor que un párrafo. Hay jornadas en las que el perro entra en el selfie del equipo; otras en las que alguien para el portátil un segundo para acariciar el pelo junto a la silla. No inventamos nombres que no podamos sostener en público: lo que sí documentamos es una cultura. En Michelena —nuestro primer hogar, contado en la ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          "— y en la casa actual, las mascotas han sido parte del paisaje coworker.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/equipo-selfie-perro.jpg",
+        alt: "Selfie de coworkers de Espacio Arroelo con un perro en el coworking de Michelena, Pontevedra",
+        caption:
+          "Michelena: el perrete también salía en la foto de familia.",
+      },
+      {
+        type: "p",
+        parts: [
+          "En redes —",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Instagram @arroelo",
+            external: true,
+          },
+          " y ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/EspacioArroelo/",
+            text: "Facebook Espacio Arroelo",
+            external: true,
+          },
+          "— compartimos el día a día de la comunidad. Algunas historias viven mejor en un reel o en un hilo que en un archivo de prensa; por eso enlazamos los perfiles y nos quedamos, en este post, con lo que sí está escrito en web abierta.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Del salón a la aldea: Lucky y el manifiesto",
+      },
+      {
+        type: "p",
+        parts: [
+          "Cuando la familia Arroelo fue a probar ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          ", en junio de 2020, llevaron a sus mascotas. Agustín lo contó en la historia ",
+          {
+            type: "link",
+            href: "https://anceu.com/es/coliving-con-perros/",
+            text: "dog-friendly de Anceu",
+            external: true,
+          },
+          ": el primer perro coliver fue Lucky, el perro de África. A Lucky le siguieron Pandora, Winchy y otros compañeros adoptados en Os Palleiros —la protectora de Pontevedra con la que tejemos vínculo de impacto local—.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Más adelante, el ",
+          {
+            type: "link",
+            href: "https://anceu.com/es/manifiesto-dog-friendly/",
+            text: "manifiesto dog-friendly de Anceu",
+            external: true,
+          },
+          " —diseñado con colivers, entre ellos África— puso por escrito cómo convivir personas y perros en armonía: periodo de integración, paseos de manada, responsabilidad de quien trae al animal, camas en lugar de sofás del café a ciertas horas. El texto completo está en ",
+          {
+            type: "link",
+            href: "https://www.notion.so/anceu/Dog-Friendly-Manifesto-by-Anceu-Coliving-0313d6f7b42d493e8525c3b17b9f0021",
+            text: "Notion",
+            external: true,
+          },
+          ", abierto para que otras comunidades lo copien y adapten. En las fotos de ese manifiesto aparece también Pepe, el perro de África: otro hilo de la misma «dogmunity» que une ciudad y aldea.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Ese puente importa. Quien trabaja en Arroelo puede cruzar a Anceu —lo contamos en ",
+          {
+            type: "link",
+            href: "/blog/anceu-coliving-ciudad-aldea",
+            text: "ciudad y aldea",
+          },
+          "—; la cultura pet-friendly no se queda en un cartel de la cocina. Si quieres leer el manifiesto, empieza por la versión en español de Anceu y sigue al Notion.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/ig-mesa-oval.jpg",
+        alt: "Comunidad de Arroelo reunida alrededor de la mesa oval del salón en Pontevedra",
+        caption:
+          "El salón donde caben proyectos, café… y, cuando toca, la correa al lado de la silla.",
+      },
+      {
+        type: "h2",
+        text: "Cómo venimos con el perrete (convivencia)",
+      },
+      {
+        type: "p",
+        parts: [
+          "Dog-friendly no significa «todo vale». Significa que el perro cabe si cabe la convivencia: respeto a quien trabaja en silencio, a quien tiene alergia o miedo, a la limpieza del salón. Antes de la primera visita, avísanos. Cuéntanos cómo es tu compañero de cuatro patas. Si hace falta, acordamos un tramo tranquilo del día o un rincón.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "El resto es lo de siempre en Arroelo: fibra, salas 4K, Café a la fresca a las 11:30, ",
+          {
+            type: "link",
+            href: "/#tarifa",
+            text: "tarifa clara",
+          },
+          " y una ",
+          {
+            type: "link",
+            href: "/coworkers",
+            text: "comunidad",
+          },
+          " que se saluda por el nombre —también por el del perrete, cuando toca—.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "h3",
+        text: "¿Puedo llevar a mi perro al coworking?",
+      },
+      "Sí. Espacio Arroelo es dog-friendly. Pedimos buen comportamiento en el salón y que nos avises al venir.",
+      {
+        type: "h3",
+        text: "¿Hay un manifiesto o carta de perros?",
+      },
+      {
+        type: "p",
+        parts: [
+          "El documento público que enlazamos es el ",
+          {
+            type: "link",
+            href: "https://anceu.com/es/manifiesto-dog-friendly/",
+            text: "manifiesto dog-friendly de Anceu Coliving",
+            external: true,
+          },
+          " (co-creado con la comunidad, incl. África), disponible también en ",
+          {
+            type: "link",
+            href: "https://www.notion.so/anceu/Dog-Friendly-Manifesto-by-Anceu-Coliving-0313d6f7b42d493e8525c3b17b9f0021",
+            text: "Notion",
+            external: true,
+          },
+          ". No publicamos aquí textos inventados ni «cartas» sin fuente abierta.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "¿Lucky y Pepe están en Arroelo?",
+      },
+      {
+        type: "p",
+        parts: [
+          "Lucky fue el primer perro coliver documentado en Anceu, perro de África, en la prueba con la familia Arroelo (",
+          {
+            type: "link",
+            href: "https://anceu.com/es/coliving-con-perros/",
+            text: "fuente Anceu",
+            external: true,
+          },
+          "). Pepe aparece en el relato visual del manifiesto dog-friendly de Anceu como perro de África. En el salón de Pontevedra conviven, a lo largo del tiempo, perretes de la casa y de las coworkers —siempre con el mismo criterio: saber estar.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "¿Cómo reservo o pregunto?",
+      },
+      {
+        type: "p",
+        parts: [
+          "Escríbenos desde ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "contacto",
+          },
+          ", mira la ",
+          {
+            type: "link",
+            href: "/#tarifa",
+            text: "tarifa",
+          },
+          " o pásate por Cobián Roffignac. Primera semana sin coste, también si vienes con correa. Más historias en el ",
+          {
+            type: "link",
+            href: "/blog",
+            text: "blog",
+          },
+          ".",
+        ],
+      },
+    ],
+  },
+  {
     slug: "coworking-spain-conference-arroelo",
     title:
       "Coworking Spain Conference: lo que llevamos de Pontevedra al escenario",
@@ -153,14 +439,7 @@ export const blogPosts: BlogPost[] = [
             text: "CWSC 2018 — «Transfórmate o cierra: mi experiencia después de cinco años»",
             external: true,
           },
-          " (17 de mayo, Sala 2). A los cinco años de Arroelo, el relato era claro: o te transformas con el contexto, o te quedas fuera. La presentación sigue disponible en ",
-          {
-            type: "link",
-            href: "https://coworkingspainconference.es/sites/default/files/2022-11/africa-rodriguez_transforma-o-cierra.pdf",
-            text: "PDF en el sitio de CWSC",
-            external: true,
-          },
-          ": redes, proyectos, Creative Hubs, lo que se teje más allá de la mesa.",
+          " (17 de mayo, Sala 2). A los cinco años de Arroelo, el relato era claro: o te transformas con el contexto, o te quedas fuera.",
         ],
       },
       {

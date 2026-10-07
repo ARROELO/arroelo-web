@@ -62,7 +62,7 @@ Nosotras llegábamos con el salón bajo el brazo. Con la certeza de que la comun
 
 **CWSC 2017 — «How to grow your team»** (12 de mayo). Crecer el equipo sin perder el «co»: la tensión de escalar comunidad sin convertirla en organigrama frío.
 
-**CWSC 2018 — «Transfórmate o cierra: mi experiencia después de cinco años»** (17 de mayo, Sala 2). A los cinco años de Arroelo, el relato era claro: o te transformas con el contexto, o te quedas fuera. La presentación sigue disponible en PDF en el sitio de CWSC: redes, proyectos, Creative Hubs, lo que se teje más allá de la mesa.
+**CWSC 2018 — «Transfórmate o cierra: mi experiencia después de cinco años»** (17 de mayo, Sala 2). A los cinco años de Arroelo, el relato era claro: o te transformas con el contexto, o te quedas fuera.
 
 **CWSC 2019 — «Coworking in the suburbs»** (24 de abril). El coworking no solo vive en centros urbanos de escaparate. Hablar de periferias —geográficas y simbólicas— era hablar también de Galicia: de lo que se construye lejos del ruido de las grandes capitales.
 
