@@ -45,9 +45,9 @@ const bridges: {
       </>
     ),
     href: "https://anceu.com/",
-    image: "/photos/anceu-coworking.jpg",
-    alt: "Personas trabajando en el coworking de Anceu Coliving, en la aldea",
-    objectPosition: "object-[center_45%]",
+    image: "/photos/mural-anceu.jpg",
+    alt: "Mural y comunidad en Anceu, puente entre ciudad y aldea",
+    objectPosition: "object-[center_40%]",
   },
   {
     title: "De Galicia para el mundo",
