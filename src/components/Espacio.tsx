@@ -65,8 +65,8 @@ const bridges: {
       </>
     ),
     href: "https://creativehubs.net/",
-    image: "/photos/echn-otro-espacio.jpg",
-    alt: "Arroelo en otro hub: trabajo compartido en un espacio de la red creativa europea",
+    image: "/photos/echn-making-rooms-fachada.jpg",
+    alt: "Fachada de The Making Rooms, hub creativo hermano de la red ECHN",
     objectPosition: "object-[center_40%]",
   },
   {
