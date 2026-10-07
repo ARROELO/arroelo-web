@@ -247,7 +247,10 @@
   grid-column: 2 / 4;
   align-self: start;
   max-width: 13ch;
+  /* height/min-height 0: title overflows visually without inflating the row
+     (grid min-height:auto would otherwise size to the H2 text and void the text column) */
   height: 0;
+  min-height: 0;
   overflow: visible;
   margin: 2.25rem 0 0;
   padding-top: 0.75rem;
