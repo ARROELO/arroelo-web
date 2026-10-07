@@ -29,6 +29,322 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "ia-en-coworking-pontevedra-arroelo",
+    title: "IA en coworking Pontevedra: así la usamos en Arroelo",
+    seoTitle: "IA en coworking Pontevedra: así la usamos en Arroelo",
+    date: "2026-10-07",
+    label: "IA",
+    image: "/photos/blog/ia-africa-portatil-salon.jpg",
+    alt: "África en recepción de Espacio Arroelo trabajando con el portátil",
+    excerpt:
+      "Cómo usamos la inteligencia artificial en Espacio Arroelo para gestionar el coworking y ganar tiempo para la comunidad. Y los encuentros RuralGPT.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay quien habla de inteligencia artificial como si fuera una moda lejana. Nosotras la usamos en la recepción, en los anuncios, en la wiki y en la puerta: para que el coworking funcione y nos quede tiempo para lo que no puede automatizarse —la comunidad.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Por qué hablamos de IA desde un coworking (y no desde un laboratorio)",
+      },
+      {
+        type: "p",
+        parts: [
+          "En ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " llevamos más de una década tejiendo red en el centro de Pontevedra. La ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia del espacio",
+          },
+          " la contamos en el blog; el día a día es más prosaico: responder mensajes, actualizar plazas, abrir y cerrar accesos, explicar quiénes somos a quien llega por un portal o por una amiga.",
+        ],
+      },
+      "La IA no sustituye esa conversación. Nos ayuda a preparar el terreno para que la conversación ocurra.",
+      {
+        type: "image",
+        src: "/photos/blog/ia-puestos-laptop.jpg",
+        alt: "Puestos de coworking con portátiles y monitores junto a la ventana en Espacio Arroelo",
+        caption:
+          "Mesa, fibra y herramientas: la IA entra donde ahorra tiempo, no donde sustituye la bienvenida.",
+      },
+      {
+        type: "h2",
+        text: "Cómo la IA nos ayuda a gestionar el día a día",
+      },
+      {
+        type: "p",
+        parts: [
+          "Usamos herramientas de lenguaje para redactar y revisar textos que antes nos comían la mañana: descripciones de plaza, respuestas a dudas frecuentes, borradores de comunicación interna. Cuando publicamos o actualizamos anuncios en portales como ",
+          {
+            type: "link",
+            href: "https://www.idealista.com/",
+            text: "Idealista",
+            external: true,
+          },
+          " o ",
+          {
+            type: "link",
+            href: "https://www.fotocasa.es/",
+            text: "Fotocasa",
+            external: true,
+          },
+          ", la IA nos sirve de borrador y de espejo —nunca de voz automática sin revisión humana—.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "También apoyamos la operativa con sistemas de acceso inteligentes (como ",
+          {
+            type: "link",
+            href: "https://nuki.io/es/",
+            text: "Nuki",
+            external: true,
+          },
+          ") y con nuestra wiki abierta en ",
+          {
+            type: "link",
+            href: "https://wiki.espacioarroelo.es/",
+            text: "wiki.espacioarroelo.es",
+            external: true,
+          },
+          ": documentación viva para que la información no viva solo en la cabeza de quien está de turno.",
+        ],
+      },
+      "La regla es simple: la máquina propone, nosotras decidimos. Si un texto suena frío, lo reescribimos. Si una automatización ahorra tiempo pero empeora la bienvenida, no vale.",
+      {
+        type: "h2",
+        text: "Tiempo ganado: más salón, más comunidad",
+      },
+      {
+        type: "p",
+        parts: [
+          "Cada hora que no pasamos reformateando un anuncio es una hora que puede ir al ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          ", a acompañar a una coworker nueva o a cuidar el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "salón",
+          },
+          ". Esa es la métrica que nos importa.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Si buscas mesa y fibra, mira el ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio",
+          },
+          " y las ",
+          {
+            type: "link",
+            href: "/coworkers",
+            text: "coworkers",
+          },
+          ". Si buscas un lugar donde la tecnología no se coma la humanidad, este post es para ti.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/ia-encuentro-comunidad.jpg",
+        alt: "Encuentro comunitario alrededor de la mesa del salón de Espacio Arroelo",
+        caption:
+          "El tiempo que libera la IA vuelve al salón: conversación, café y red.",
+      },
+      {
+        type: "h2",
+        text: "RuralGPT y SINERGIA: aprender IA en Arroelo (y en Anceu)",
+      },
+      {
+        type: "p",
+        parts: [
+          "La IA en Arroelo no es solo back-office. También es formación abierta.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://ruralgpt.gal/es/",
+            text: "RuralGPT",
+            external: true,
+          },
+          " —iniciativa de ",
+          {
+            type: "link",
+            href: "https://ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          " y ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          "— lleva la IA aplicada al trabajo real: residencias intensivas en la aldea y talleres prácticos (productividad, web) para profesionales que no quieren más demos eternos. Lo hemos contado también al hablar de ",
+          {
+            type: "link",
+            href: "/blog/rural-hackers-tecnologia-impacto-rural",
+            text: "Rural Hackers",
+          },
+          " y de ",
+          {
+            type: "link",
+            href: "/blog/anceu-coliving-ciudad-aldea",
+            text: "Anceu",
+          },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Y en Pontevedra, en el propio Espacio Arroelo, organizamos encuentros y talleres SINERGIA (o Sinergia IA): una cita periódica —con ritmo mensual— abierta a quien quiera aprender inteligencia artificial en compañía, sin necesidad de ser coworker. Es la versión urbana y accesible del mismo hilo: probar herramientas, compartir dudas y conectar con el ecosistema RuralGPT. Lo anunciamos en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Instagram",
+            external: true,
+          },
+          "; un ejemplo reciente es esta ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
+            text: "convocatoria de horas de IA con RuralGPT",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/ia-sinergia-taller.jpg",
+        alt: "Taller SINERGIA en Espacio Arroelo: cartas de actividad y portátil sobre la mesa compartida",
+        caption:
+          "SINERGIA: aprender en grupo, con café en la mesa y curiosidad compartida.",
+      },
+      "No inventamos un calendario cerrado de ediciones pasadas: el formato es lo estable —mensual, abierto, práctico— y las fechas concretas salen por redes y boca a boca. Si quieres venir, escribe o síguenos: la puerta del tercer piso está para eso.",
+      {
+        type: "h2",
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "h3",
+        text: "¿Usáis IA para sustituir a personas en recepción?",
+      },
+      "No. Usamos IA para aligerar tareas repetitivas (textos, borradores, orden documental). La bienvenida, las visitas y el cuidado de la comunidad siguen siendo humanos.",
+      {
+        type: "h3",
+        text: "¿Qué herramientas mencionáis y con qué cuidado?",
+      },
+      {
+        type: "p",
+        parts: [
+          "Portales como Idealista o Fotocasa para visibilidad de plazas; acceso inteligente tipo Nuki para la operativa del local; la ",
+          {
+            type: "link",
+            href: "https://wiki.espacioarroelo.es/",
+            text: "wiki",
+            external: true,
+          },
+          " para conocimiento compartido. Ninguna sustituye el criterio: revisamos lo que publica o decide un modelo.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "¿Qué es RuralGPT?",
+      },
+      {
+        type: "p",
+        parts: [
+          "Formación presencial de IA aplicada en el rural gallego (",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu",
+            external: true,
+          },
+          "), impulsada con Rural Hackers. Residencias y talleres intensivos con enfoque práctico. Más info en ",
+          {
+            type: "link",
+            href: "https://ruralgpt.gal/es/",
+            text: "ruralgpt.gal",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "h3",
+        text: "¿Qué es SINERGIA / Sinergia IA?",
+      },
+      "Encuentros periódicos en Espacio Arroelo para aprender IA en grupo, abiertos a quien quiera acercarse, en diálogo con RuralGPT. Ritmo mensual; fechas en Instagram y canales de la comunidad.",
+      {
+        type: "h3",
+        text: "¿Puedo venir si no soy coworker?",
+      },
+      {
+        type: "p",
+        parts: [
+          "Sí, a los encuentros abiertos (SINERGIA y actividades anunciadas). Para mesa fija o flexible, mira la ",
+          {
+            type: "link",
+            href: "/#tarifa",
+            text: "tarifa",
+          },
+          " y ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "ven a conocernos",
+          },
+          ".",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Si quieres probarlo con nosotras",
+      },
+      {
+        type: "p",
+        parts: [
+          "La IA en un coworking de Pontevedra no es un eslogan: es una forma de ganar horas para la gente. Si te interesa el salón, RuralGPT, Anceu o simplemente aprender sin prisa, ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "escribe",
+          },
+          " o pasa por Cobián Roffignac. Nosotras seguiremos usando la máquina para lo repetible —y el café para lo importante. Más historias del ",
+          {
+            type: "link",
+            href: "/blog",
+            text: "blog",
+          },
+          ".",
+        ],
+      },
+    ],
+  },
+  {
     slug: "mudarse-pontevedra-coworking-ciudad-peatonal",
     title:
       "Por qué mudarse a Pontevedra ahora (y aterrizar en Arroelo)",

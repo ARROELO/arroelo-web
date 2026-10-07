@@ -20,3 +20,5 @@ Investigación basada en fuentes públicas (abril–octubre 2026):
 | 3 | `03-anceu-coliving.md` | De Pontevedra a Anceu: ciudad y aldea | `anceu-coliving-ciudad-aldea` |
 | 4 | `04-rural-hackers.md` | Rural Hackers: tech e impacto rural | `rural-hackers-tecnologia-impacto-rural` |
 | 5 | `05-coworking-pontevedra-echn.md` | Coworking en Pontevedra y red ECHN | `coworking-pontevedra-echn-arroelo` |
+| 6 | `06-pontevedra-ciudad.md` | Mudarse a Pontevedra: ciudad peatonal | `mudarse-pontevedra-coworking-ciudad-peatonal` |
+| 7 | `07-ia-coworking-arroelo.md` | IA en coworking Pontevedra: así la usamos en Arroelo | `ia-en-coworking-pontevedra-arroelo` |
