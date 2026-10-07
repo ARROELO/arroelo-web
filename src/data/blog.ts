@@ -43,10 +43,10 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking dog-friendly en Pontevedra: Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/perro-salon-pet.jpg",
-    alt: "Perro en el salón de Espacio Arroelo, junto a una silla de coworking, recibiendo una caricia",
+    image: "/photos/blog/pilita-salon-sillon.jpg",
+    alt: "Pilita, perrita del coworking, dormida en el sillón del salón de Espacio Arroelo en Pontevedra",
     excerpt:
-      "Sí, puedes venir con tu perro a Espacio Arroelo: coworking pet-friendly en Pontevedra, perretes de la casa y vínculo con el manifiesto dog-friendly de Anceu.",
+      "Sí, puedes venir con tu perro a Espacio Arroelo: coworking pet-friendly en Pontevedra. Lázaro fue el primero; Pilita viene ahora. Y el puente dog-friendly con Anceu.",
     body: [
       {
         type: "p",
@@ -110,18 +110,32 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "Los perretes de la casa (y de la familia)",
+        text: "Lázaro, Pilita y los perretes de la casa",
       },
       {
         type: "p",
         parts: [
-          "Las fotos del salón lo cuentan mejor que un párrafo. Hay jornadas en las que el perro entra en el selfie del equipo; otras en las que alguien para el portátil un segundo para acariciar el pelo junto a la silla. No inventamos nombres que no podamos sostener en público: lo que sí documentamos es una cultura. En Michelena —nuestro primer hogar, contado en la ",
+          "El primero de la casa fue Lázaro: el primer perro de Espacio Arroelo. Llegó cuando el coworking aún olía a Michelena —contado en la ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
             text: "historia de Espacio Arroelo",
           },
-          "— y en la casa actual, las mascotas han sido parte del paisaje coworker.",
+          "— y dejó el listón claro: aquí el perrete cabe si sabe estar. Buscamos su historia y una eventual «carta» en ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/EspacioArroelo/",
+            text: "Facebook Espacio Arroelo",
+            external: true,
+          },
+          " e ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Instagram @arroelo",
+            external: true,
+          },
+          "; las redes van login-walled y no recuperamos un post o texto abierto reproducible. Su sitio en la memoria del salón, eso sí, no se discute.",
         ],
       },
       {
@@ -130,6 +144,33 @@ export const blogPosts: BlogPost[] = [
         alt: "Selfie de coworkers de Espacio Arroelo con un perro en el coworking de Michelena, Pontevedra",
         caption:
           "Michelena: el perrete también salía en la foto de familia.",
+      },
+      {
+        type: "p",
+        parts: [
+          "Hoy, entre quienes vienen al salón, está ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/reel/DdW2T7xtass/",
+            text: "Pilita",
+            external: true,
+          },
+          ". Duerme en el sillón mientras su persona trabaja, entra en el ritmo del coworking y aparece en el ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Instagram @arroelo",
+            external: true,
+          },
+          " cuando contamos que pet-friendly no es un icono: es que tu perra sea recibida de verdad. Si pasas por Cobián Roffignac un día cualquiera, no te extrañe verla hecha un ovillo junto al portátil.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/pilita-salon-sillon.jpg",
+        alt: "Pilita dormida en el sillón del salón de Espacio Arroelo mientras una coworker señala hacia ella desde el puesto",
+        caption:
+          "Pilita en el sillón: coworking pet-friendly de verdad, no de folleto.",
       },
       {
         type: "p",
@@ -148,7 +189,7 @@ export const blogPosts: BlogPost[] = [
             text: "Facebook Espacio Arroelo",
             external: true,
           },
-          "— compartimos el día a día de la comunidad. Algunas historias viven mejor en un reel o en un hilo que en un archivo de prensa; por eso enlazamos los perfiles y nos quedamos, en este post, con lo que sí está escrito en web abierta.",
+          "— sigue el día a día. Lázaro abre el relato; Pilita lo actualiza. Y entre medias, otros perretes de coworkers que saben convivir en el salón.",
         ],
       },
       {
@@ -172,7 +213,7 @@ export const blogPosts: BlogPost[] = [
             text: "dog-friendly de Anceu",
             external: true,
           },
-          ": el primer perro coliver fue Lucky, el perro de África. A Lucky le siguieron Pandora, Winchy y otros compañeros adoptados en Os Palleiros —la protectora de Pontevedra con la que tejemos vínculo de impacto local—.",
+          ": el primer perro coliver de Anceu fue Lucky, el perro de África. Lucky pertenece a esa prueba ciudad–aldea —no es el perrete habitual del salón de Pontevedra—. A Lucky le siguieron en Anceu Pandora, Winchy y otros compañeros adoptados en Os Palleiros —la protectora de Pontevedra con la que tejemos vínculo de impacto local—.",
         ],
       },
       {
@@ -192,7 +233,7 @@ export const blogPosts: BlogPost[] = [
             text: "Notion",
             external: true,
           },
-          ", abierto para que otras comunidades lo copien y adapten. En las fotos de ese manifiesto aparece también Pepe, el perro de África: otro hilo de la misma «dogmunity» que une ciudad y aldea.",
+          ", abierto para que otras comunidades lo copien y adapten. Es el documento público de la «dogmunity» de la aldea; el salón de Arroelo tiene su propio cast —Lázaro, Pilita, los perretes de las coworkers— y no mezcla perros de Anceu como si vinieran a Cobián Roffignac.",
         ],
       },
       {
@@ -253,6 +294,11 @@ export const blogPosts: BlogPost[] = [
       "Sí. Espacio Arroelo es dog-friendly. Pedimos buen comportamiento en el salón y que nos avises al venir.",
       {
         type: "h3",
+        text: "¿Quiénes son Lázaro y Pilita?",
+      },
+      "Lázaro fue el primer perro de Espacio Arroelo. Pilita viene ahora al salón de Pontevedra y aparece en el Instagram @arroelo cuando contamos el día a día pet-friendly.",
+      {
+        type: "h3",
         text: "¿Hay un manifiesto o carta de perros?",
       },
       {
@@ -272,24 +318,24 @@ export const blogPosts: BlogPost[] = [
             text: "Notion",
             external: true,
           },
-          ". No publicamos aquí textos inventados ni «cartas» sin fuente abierta.",
+          ". Sobre Lázaro no recuperamos en abierto una carta o post reproducible; no inventamos el texto aquí.",
         ],
       },
       {
         type: "h3",
-        text: "¿Lucky y Pepe están en Arroelo?",
+        text: "¿Lucky viene al coworking de Pontevedra?",
       },
       {
         type: "p",
         parts: [
-          "Lucky fue el primer perro coliver documentado en Anceu, perro de África, en la prueba con la familia Arroelo (",
+          "Lucky fue el primer perro coliver documentado en Anceu —perro de África— en la prueba de junio de 2020 con la familia Arroelo (",
           {
             type: "link",
             href: "https://anceu.com/es/coliving-con-perros/",
             text: "fuente Anceu",
             external: true,
           },
-          "). Pepe aparece en el relato visual del manifiesto dog-friendly de Anceu como perro de África. En el salón de Pontevedra conviven, a lo largo del tiempo, perretes de la casa y de las coworkers —siempre con el mismo criterio: saber estar.",
+          "). Su historia es de la aldea, no del puesto habitual en Cobián Roffignac. En el salón de Pontevedra el cast es otro: Lázaro abrió camino; Pilita (y perretes de coworkers) siguen viniendo.",
         ],
       },
       {

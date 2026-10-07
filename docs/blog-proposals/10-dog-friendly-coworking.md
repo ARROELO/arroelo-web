@@ -2,14 +2,22 @@
 
 > **Estado:** publicado en el sitio (`/blog/coworking-dog-friendly-pontevedra-arroelo`).
 >
-> **Fuentes verificadas (oct 2026):**
+> **Fuentes verificadas (oct 2026, actualización cast):**
 > - [Wiki Arroelo — Guía Zen](https://wiki.espacioarroelo.es/coworking/guia-zen): «Espacio Arroelo es dog friendly.»
 > - Página `/espacio` del sitio: amenity «Pet friendly» — «Bienvenidas las mascotas que saben convivir en el salón.»
-> - [Anceu — Coliving con perros](https://anceu.com/es/coliving-con-perros/): Lucky, perro de África, primer perro coliver (junio 2020, prueba con la familia Arroelo); Pandora, Winchy; adopción en Os Palleiros.
-> - [Anceu — Manifiesto dog-friendly](https://anceu.com/es/manifiesto-dog-friendly/) + [Notion completo](https://www.notion.so/anceu/Dog-Friendly-Manifesto-by-Anceu-Coliving-0313d6f7b42d493e8525c3b17b9f0021): co-diseñado con colivers (incl. África); Pepe (perro de África en fotos del manifiesto).
-> - Redes institucionales: [Instagram @arroelo](https://www.instagram.com/arroelo/), [Facebook Espacio Arroelo](https://www.facebook.com/EspacioArroelo/) — perfiles enlazables; IG login-walled / FB sin posts indexables recuperados en esta pasada sobre Lázaro.
+> - Hechos de comunidad (cast del salón): **Lázaro** = primer perro de Espacio Arroelo; **Pilita** = viene ahora al coworking de Pontevedra. **Pepe no viene a Arroelo** (no mezclarlo como perro del salón).
+> - [Instagram @arroelo](https://www.instagram.com/arroelo/) — reel [DdW2T7xtass](https://www.instagram.com/reel/DdW2T7xtass/) («pet friendly» / perra en el sillón del salón). Media bajada a `public/photos/blog/pilita-salon-sillon.jpg` + `pilita-salon-pet-friendly.mp4`. En el feed reciente no aparece el nombre «Pilita» en caption; la identificación de Pilita como perrita que viene ahora es hecho de comunidad.
+> - [Facebook Espacio Arroelo](https://www.facebook.com/EspacioArroelo/) — login-walled; **no** se recuperó post indexable ni «carta de Lázaro» abierta atribuible a Arroelo. (Existe una «Carta de Lázaro» en Ciudad Animal / blogs de adopción: **otro** Lázaro, no el de Arroelo.)
+> - [Anceu — Coliving con perros](https://anceu.com/es/coliving-con-perros/): **Lucky**, perro de África, primer perro *coliver de Anceu* (junio 2020, prueba con la familia Arroelo); Pandora, Winchy; Os Palleiros. Lucky = historia Anceu, no perrete habitual del salón de Pontevedra.
+> - [Anceu — Manifiesto dog-friendly](https://anceu.com/es/manifiesto-dog-friendly/) + [Notion](https://www.notion.so/anceu/Dog-Friendly-Manifesto-by-Anceu-Coliving-0313d6f7b42d493e8525c3b17b9f0021): co-diseñado con colivers (incl. África). Pepe figura en el relato visual de Anceu; **no** se presenta como coworking dog de Arroelo.
 >
-> **Nota sobre Lázaro / «carta de Lázaro»:** no se encontró en fuentes públicas indexables (web, Anceu, wiki, Drive indexado, FB/IG scrapable) ni historia ni manifiesto/carta atribuible a un perro llamado Lázaro. El manifiesto público documentado es el **manifiesto dog-friendly de Anceu**. En el post publicado no inventamos texto de Lázaro; contamos Lucky, Pepe y la cultura pet-friendly con lo verificable.
+> **Cast del post (preciso):**
+> | Nombre | Rol |
+> |--------|-----|
+> | **Lázaro** | Primer perro de Arroelo (Michelena → cultura del salón) |
+> | **Pilita** | Viene ahora al salón de Pontevedra |
+> | **Lucky** | Primer coliver dog-friendly en Anceu (fuente Anceu); puente ciudad–aldea |
+> | **Pepe** | **No** viene a Arroelo; omitido del cast del salón |
 
 ---
 
@@ -19,9 +27,9 @@
 |--------|--------|
 | **Título SEO** | Coworking dog-friendly en Pontevedra: Arroelo |
 | **Slug** | `coworking-dog-friendly-pontevedra-arroelo` |
-| **Meta description** | Sí, puedes venir con tu perro a Espacio Arroelo: coworking pet-friendly en Pontevedra, perretes de la casa y vínculo con el manifiesto dog-friendly de Anceu. |
+| **Meta description** | Sí, puedes venir con tu perro a Espacio Arroelo: coworking pet-friendly en Pontevedra. Lázaro fue el primero; Pilita viene ahora. Y el puente dog-friendly con Anceu. |
 | **Keyword principal** | coworking dog-friendly Pontevedra |
-| **Keywords secundarias** | coworking con perros, pet-friendly Arroelo, mascotas coworking Galicia, Lucky Anceu, manifiesto dog-friendly |
+| **Keywords secundarias** | coworking con perros, pet-friendly Arroelo, Pilita Arroelo, Lázaro Arroelo, Lucky Anceu, manifiesto dog-friendly |
 
 **Conteo:** título SEO ~48 caracteres; meta ~155 caracteres.
 
@@ -33,18 +41,19 @@
 
 **Outline (H2):**
 - Sí: puedes venir con tu perro
-- Los perretes de la casa (y de la familia)
+- Lázaro, Pilita y los perretes de la casa
 - Del salón a la aldea: Lucky y el manifiesto
 - Cómo venimos con el perrete (convivencia)
 - Preguntas frecuentes
 
 **Imágenes:**
-- Destacada: `blog/perro-salon-pet.jpg` (desde `pet.jpg`)
-- Inline: selfie con perro en Michelena; pet en el salón; mesa oval del salón (atmósfera)
+- Destacada: `blog/pilita-salon-sillon.jpg` (still del reel IG pet-friendly)
+- Inline: `perro-salon-pet.jpg`; selfie Michelena; Pilita en sillón; mesa oval
+- Archivo: `pilita-salon-pet-friendly.mp4` (reel descargado; el render del blog usa still + enlace al reel)
 
 ---
 
-## Borrador completo (~780 palabras)
+## Borrador completo (alineado al post publicado)
 
 Coworking dog-friendly en Pontevedra: ven con tu perro a Arroelo
 
@@ -56,40 +65,41 @@ Lo tenemos escrito en casa. En la Guía Zen de nuestra wiki —las normas de con
 
 No es un eslogan de campaña. Es la práctica de más de una década: puestos, salas, Café a la fresca… y, de vez en cuando, un hocico apoyado en la rodilla mientras alguien cierra un ticket. Si buscas coworking en Pontevedra y no quieres dejar al perrete solo en casa, escríbenos o pásate: la puerta del tercer piso de Cobián Roffignac está para eso.
 
-### Los perretes de la casa (y de la familia)
+### Lázaro, Pilita y los perretes de la casa
 
-Las fotos del salón lo cuentan mejor que un párrafo. Hay jornadas en las que el perro entra en el selfie del equipo; otras en las que alguien para el portátil un segundo para acariciar el pelo rizado junto a la silla roja. No inventamos nombres que no podamos sostener en público: lo que sí documentamos es una cultura. En Michelena —nuestro primer hogar— y en la casa actual, las mascotas han sido parte del paisaje coworker.
+El primero de la casa fue Lázaro: el primer perro de Espacio Arroelo. Llegó cuando el coworking aún olía a Michelena y dejó el listón claro: aquí el perrete cabe si sabe estar. Buscamos su historia y una eventual «carta» en Facebook Espacio Arroelo e Instagram @arroelo; las redes van login-walled y no recuperamos un post o texto abierto reproducible. Su sitio en la memoria del salón, eso sí, no se discute.
 
-En redes —Instagram @arroelo y Facebook Espacio Arroelo— compartimos el día a día de la comunidad. Algunas historias viven mejor en un reel o en un hilo que en un archivo de prensa; por eso enlazamos los perfiles y nos quedamos, en este post, con lo que sí está escrito en web abierta.
+Hoy, entre quienes vienen al salón, está Pilita. Duerme en el sillón mientras su persona trabaja y aparece en el Instagram @arroelo (reel pet-friendly) cuando contamos que pet-friendly no es un icono: es que tu perra sea recibida de verdad.
+
+Lázaro abre el relato; Pilita lo actualiza. Y entre medias, otros perretes de coworkers que saben convivir en el salón. Pepe no forma parte del cast del coworking de Pontevedra.
 
 ### Del salón a la aldea: Lucky y el manifiesto
 
-Cuando la familia Arroelo fue a probar Anceu Coliving, en junio de 2020, llevaron a sus mascotas. Agustín lo contó en la historia dog-friendly de Anceu: el primer perro coliver fue Lucky, el perro de África. A Lucky le siguieron Pandora, Winchy y otros compañeros adoptados en Os Palleiros —la protectora de Pontevedra con la que tejemos vínculo de impacto local—.
+Cuando la familia Arroelo fue a probar Anceu Coliving, en junio de 2020, llevaron a sus mascotas. Agustín lo contó en la historia dog-friendly de Anceu: el primer perro coliver de Anceu fue Lucky, el perro de África. Lucky pertenece a esa prueba ciudad–aldea —no es el perrete habitual del salón de Pontevedra—. A Lucky le siguieron en Anceu Pandora, Winchy y otros compañeros adoptados en Os Palleiros.
 
-Más adelante, el manifiesto dog-friendly de Anceu —diseñado con colivers, entre ellos África— puso por escrito cómo convivir personas y perros en armonía: periodo de integración, paseos de manada, responsabilidad de quien trae al animal, camas en lugar de sofás del café a ciertas horas. El texto completo está en Notion, abierto para que otras comunidades lo copien y adapten. En las fotos de ese manifiesto aparece también Pepe, el perro de África: otro hilo de la misma «dogmunity» que une ciudad y aldea.
-
-Ese puente importa. Quien trabaja en Arroelo puede cruzar a Anceu —y al revés—; la cultura pet-friendly no se queda en un cartel de la cocina. Si quieres leer el manifiesto, empieza por la versión en español de Anceu y sigue al Notion.
+Más adelante, el manifiesto dog-friendly de Anceu —diseñado con colivers, entre ellos África— puso por escrito cómo convivir personas y perros en armonía. El texto completo está en Notion. Es el documento público de la «dogmunity» de la aldea; el salón de Arroelo tiene su propio cast —Lázaro, Pilita, los perretes de las coworkers— y no mezcla perros de Anceu como si vinieran a Cobián Roffignac.
 
 ### Cómo venimos con el perrete (convivencia)
 
-Dog-friendly no significa «todo vale». Significa que el perro cabe si cabe la convivencia: respeto a quien trabaja en silencio, a quien tiene alergia o miedo, a la limpieza del salón. Antes de la primera visita, avísanos. Cuéntanos cómo es tu compañero de cuatro patas. Si hace falta, acordamos un tramo tranquilo del día o un rincón.
-
-El resto es lo de siempre en Arroelo: fibra, salas 4K, Café a la fresca a las 11:30, tarifa clara y una comunidad que se saluda por el nombre —también por el del perrete, cuando toca—.
+Dog-friendly no significa «todo vale». Significa que el perro cabe si cabe la convivencia: respeto a quien trabaja en silencio, a quien tiene alergia o miedo, a la limpieza del salón. Antes de la primera visita, avísanos.
 
 ### Preguntas frecuentes
 
 **¿Puedo llevar a mi perro al coworking?**  
 Sí. Espacio Arroelo es dog-friendly. Pedimos buen comportamiento en el salón y que nos avises al venir.
 
-**¿Hay un manifiesto o carta de perros?**  
-El documento público que enlazamos es el manifiesto dog-friendly de Anceu Coliving (co-creado con la comunidad, incl. África), disponible en anceu.com y en Notion. No publicamos aquí textos inventados ni «cartas» sin fuente abierta.
+**¿Quiénes son Lázaro y Pilita?**  
+Lázaro fue el primer perro de Espacio Arroelo. Pilita viene ahora al salón de Pontevedra y aparece en el Instagram @arroelo cuando contamos el día a día pet-friendly.
 
-**¿Lucky y Pepe están en Arroelo?**  
-Lucky fue el primer perro coliver documentado en Anceu, perro de África, en la prueba con la familia Arroelo. Pepe aparece en el relato visual del manifiesto dog-friendly de Anceu como perro de África. En el salón de Pontevedra conviven, a lo largo del tiempo, perretes de la casa y de las coworkers —siempre con el mismo criterio: saber estar.
+**¿Hay un manifiesto o carta de perros?**  
+El documento público que enlazamos es el manifiesto dog-friendly de Anceu Coliving. Sobre Lázaro: no publicamos aquí una carta sin fuente abierta recuperable.
+
+**¿Lucky viene al coworking de Pontevedra?**  
+Lucky fue el primer perro coliver documentado en Anceu. Su historia es de la aldea. En el salón de Pontevedra el cast es otro: Lázaro abrió camino; Pilita (y perretes de coworkers) siguen viniendo.
 
 **¿Cómo reservo o pregunto?**  
 Escríbenos desde contacto, mira la tarifa o pásate por Cobián Roffignac. Primera semana sin coste, también si vienes con correa.
 
 ---
 
-*Propuesta alineada con fuentes públicas. Si aparece material indexable sobre Lázaro (historia/carta), se puede ampliar el post sin cambiar el tono.*
+*Actualizado oct 2026: Pepe retirado del cast de Arroelo; Pilita y Lázaro nombrados; Lucky acotado a Anceu.*
