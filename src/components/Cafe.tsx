@@ -16,8 +16,8 @@ export function Cafe() {
         </div>
       </div>
 
-      <div className="mx-auto mt-12 grid max-w-[1440px] items-start gap-10 px-4 md:mt-16 md:grid-cols-12 md:gap-12 md:px-6 lg:mt-20 lg:gap-16">
-        <div className="relative aspect-[3/4] overflow-hidden rounded-none bg-mist md:col-span-5">
+      <div className="mx-auto mt-12 max-w-[1440px] px-4 md:mt-16 md:px-6 lg:mt-20">
+        <div className="relative aspect-[3/4] overflow-hidden rounded-none bg-mist md:max-w-[min(28rem,42%)]">
           <Image
             src={withBase("/photos/mesa-fresca.jpg")}
             alt="Bandeja del Café a la fresca: uvas, queso, fruta y bollería en la mesa junto a la ventana"
@@ -26,15 +26,16 @@ export function Cafe() {
             sizes="(max-width: 768px) 100vw, 28vw"
           />
         </div>
-        <div className="relative aspect-[4/5] overflow-hidden rounded-none bg-mist md:col-span-7 md:mt-28 md:aspect-[5/6] lg:mt-40">
-          <Image
-            src={withBase("/photos/echn-cafe-mesa.jpg")}
-            alt="Café y conversación alrededor de la mesa del salón en Espacio Arroelo"
-            fill
-            className="object-cover object-[center_40%] transition-transform duration-700 ease-out hover:scale-[1.03]"
-            sizes="(max-width: 768px) 100vw, 40vw"
-          />
-        </div>
+      </div>
+
+      <div className="relative mt-10 aspect-[4/3] w-full overflow-hidden rounded-none bg-mist md:mt-16 md:aspect-[21/9] lg:mt-20">
+        <Image
+          src={withBase("/photos/echn-cafe-mesa.jpg")}
+          alt="Café y conversación alrededor de la mesa del salón en Espacio Arroelo"
+          fill
+          className="object-cover object-[center_40%] transition-transform duration-700 ease-out hover:scale-[1.03]"
+          sizes="100vw"
+        />
       </div>
     </section>
   );
