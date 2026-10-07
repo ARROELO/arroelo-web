@@ -17,8 +17,8 @@ const pillars = [
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/ig-grupo-pie.jpg",
-    alt: "Comunidad de Arroelo: un grupo de coworkers juntas en el salón",
+    src: "/photos/ig-mesa-oval.jpg",
+    alt: "Comunidad de Arroelo reunida alrededor de la mesa oval del salón en Pontevedra",
     objectPosition: "object-[center_35%]",
   },
 ];
