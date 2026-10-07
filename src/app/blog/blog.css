@@ -193,7 +193,7 @@
   grid-column: 5 / 11;
   max-width: 64ch;
   margin: 0;
-  padding-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
   font-size: var(--text-body-lg);
   line-height: 1.55;
   letter-spacing: -0.01em;
@@ -209,25 +209,36 @@
   color: color-mix(in oklab, var(--color-ink) 72%, transparent);
 }
 
+/*
+  Grid items do not collapse margins — reset UA p margins and drive
+  vertical rhythm only via adjacent-sibling rules (~1–1.25em between paras).
+*/
 .blog-post-content > p,
 .blog-post-prose > p {
   grid-column: 5 / 11;
   max-width: 64ch;
+  margin: 0;
   font-size: var(--text-body);
   line-height: 1.7;
   color: color-mix(in oklab, var(--color-ink) 72%, transparent);
 }
 
 .blog-post-prose > p + p {
-  margin-top: 1.45rem;
+  margin-top: 1.15em;
 }
 
+/*
+  Left-rail H2: height:0 + overflow:visible so a tall title does not inflate
+  the shared grid row and leave a void in the text column between paragraphs.
+*/
 .blog-post-h2 {
   grid-column: 2 / 4;
   align-self: start;
   max-width: 13ch;
-  margin: 3.75rem 0 1.125rem;
-  padding-top: 0.875rem;
+  height: 0;
+  overflow: visible;
+  margin: 2.5rem 0 0;
+  padding-top: 0.75rem;
   border-top: 1px solid color-mix(in oklab, var(--color-ink) 14%, transparent);
   font-size: clamp(1.7rem, 2.5vw, 2.45rem);
   line-height: 1.06;
@@ -243,13 +254,17 @@
 
 /* Keep H2 and the first block beside it on the same editorial row */
 .blog-post-h2 + * {
-  margin-top: 3.75rem;
+  margin-top: 2.5rem;
+}
+
+.blog-post-h2:first-child + * {
+  margin-top: 0;
 }
 
 .blog-post-h3 {
   grid-column: 5 / 11;
   max-width: 64ch;
-  margin: 2.625rem 0 0.5rem;
+  margin: 1.75rem 0 0.4rem;
   font-size: clamp(1.375rem, 2.5vw, 1.875rem);
   line-height: 1.15;
   letter-spacing: -0.03em;
@@ -259,13 +274,13 @@
 }
 
 .blog-post-h3 + p {
-  margin-top: 1rem;
+  margin-top: 0.65rem;
 }
 
 .blog-post-figure {
   grid-column: 5 / 12;
   width: 100%;
-  margin: 2.5rem 0;
+  margin: 1.75rem 0;
 }
 
 .blog-post-figure-media {
@@ -379,29 +394,33 @@
   }
 
   .blog-post-lede {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.15rem;
   }
 
+  /* Stacked layout: H2 must take normal height again */
   .blog-post-h2 {
-    margin-top: 3.25rem;
-    margin-bottom: 0.75rem;
-    padding-top: 1.125rem;
+    height: auto;
+    overflow: visible;
+    margin-top: 2.25rem;
+    margin-bottom: 0.65rem;
+    padding-top: 0.85rem;
   }
 
   .blog-post-h2:first-child {
     margin-top: 0;
   }
 
-  .blog-post-h2 + * {
+  .blog-post-h2 + *,
+  .blog-post-h2:first-child + * {
     margin-top: 0;
   }
 
   .blog-post-h3 {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   .blog-post-figure {
-    margin: 1.875rem 0;
+    margin: 1.5rem 0;
   }
 }
 
