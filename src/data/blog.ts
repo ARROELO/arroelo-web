@@ -172,7 +172,7 @@ export const blogPosts: BlogPost[] = [
             text: "Onda Cero entrevistó a Martiño Fortes sobre una década de coworking",
             external: true,
           },
-          ". Y en la Coworking Spain Conference 2025, María Santos moderó la sesión sobre coworking en ciudades pequeñas —el mismo foro donde África ha llevado la mirada de Arroelo; lo contamos en ",
+          ". Y en la Coworking Spain Conference 2025, María Santos moderó la sesión sobre coworking en ciudades pequeñas —el mismo foro donde África ha llevado la mirada de Arroelo—. Lo contamos en ",
           {
             type: "link",
             href: "/blog/coworking-spain-conference-arroelo",
