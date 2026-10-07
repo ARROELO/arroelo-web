@@ -37,6 +37,272 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "coworking-inclusivo-empleo-apoyo-arroelo",
+    title:
+      "Coworking inclusivo en Pontevedra: cuando el salón también es Empleo con Apoyo",
+    seoTitle: "Coworking inclusivo en Pontevedra: Empleo con Apoyo en Arroelo",
+    date: "2026-10-07",
+    label: "Comunidad",
+    image: "/photos/blog/comunidad-mesa-desayuno.jpg",
+    alt: "Comunidad de Espacio Arroelo desayunando junta alrededor de la mesa del salón",
+    excerpt:
+      "Cómo Espacio Arroelo incorporó Empleo con Apoyo con Down Pontevedra Xuntos: Cecilia y Celso en el equipo, disciplina diaria y una comunidad que se ensancha.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Hay coworkings que hablan de diversidad en la web y la dejan en el footer. En ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " la diversidad también se midió en contratos, horarios y tareas concretas: atención a quien entra, correo, paquetería, orden del ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio",
+          },
+          ". No como adorno. Como pieza del engranaje.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde 2016 documentamos —con ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/DownPontevedraXuntos/",
+            text: "Down Pontevedra Xuntos",
+            external: true,
+          },
+          " y la ",
+          {
+            type: "link",
+            href: "https://downgalicia.org/",
+            text: "Federación Down Galicia",
+            external: true,
+          },
+          "— una apuesta de Empleo con Apoyo en nuestro coworking de Pontevedra. Cecilia y Celso formaron parte del equipo. Esta es esa historia, con fuentes públicas y sin inventar el presente.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Más que mesas: el equipo que sostiene el día a día",
+      },
+      {
+        type: "p",
+        parts: [
+          "Abrimos en 2013 porque dos autónomas —María Pierres y África Rodríguez— necesitaban un lugar con red. La ",
+          {
+            type: "link",
+            href: "/blog/historia-espacio-arroelo-pontevedra",
+            text: "historia de Espacio Arroelo",
+          },
+          " cuenta el LinkedIn, Michelena y la mudanza a Cobián Roffignac. Lo que a veces queda fuera del relato fundacional es quién hace que el salón funcione cuando el Wi‑Fi ya está, pero el paquete no ha llegado y la recepción pide presencia.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Un coworking no es solo puestos y fibra. Es un organismo. Y un organismo necesita manos que lo cuiden con disciplina. En febrero de 2019, ",
+          {
+            type: "link",
+            href: "https://downgalicia.org/el-exito-del-trabajo-cooperativo-llega-a-down-pontevedra-xuntos/",
+            text: "Down Galicia describía a Cecilia y Celso",
+            external: true,
+          },
+          " —que se alternaban en la semana para no solaparse— como ordenanzas: atención al cliente, recepción de correo y paquetería, mantenimiento del orden. «Nada se mueve en el coworking sin que ellos dos estén al tanto.»",
+        ],
+      },
+      "Esa frase no es marketing. Es operativa.",
+      {
+        type: "image",
+        src: "/photos/entrada-puerta-abierta.jpg",
+        alt: "Puerta abierta del coworking Espacio Arroelo en Pontevedra",
+        caption:
+          "El salón funciona cuando hay equipo: quien entra, quien recibe, quien ordena el día.",
+      },
+      {
+        type: "h2",
+        text: "Cecilia: de las prácticas al contrato indefinido (2016–2019)",
+      },
+      {
+        type: "p",
+        parts: [
+          "En diciembre de 2016, ",
+          {
+            type: "link",
+            href: "https://downgalicia.org/exito-da-metodoloxia-de-emprego-con-apoio-entre-as-empresas-da-cidade-de-pontevedra/",
+            text: "Down Galicia contaba",
+            external: true,
+          },
+          " que, tras un periodo de prácticas, Espacio Arroelo contrató a Cecilia, trabajadora del programa Empleo con Apoyo (ECA) de Down Pontevedra. Sus tareas: atención al cliente y mantenimiento del espacio. La fecha que marca el relato público es el entorno del 17 de octubre: de las prácticas al sí.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "África, entonces gerente del coworking, lo resumió en gallego con una frase que sigue definiéndonos: «A incorporación de Cecilia a Espacio Arroelo fixo que desde un coworking comecemos a construír o mundo que nos gusta.»",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En 2019, la misma Federación ampliaba el retrato: Cecilia trabajaba en Arroelo desde mayo de 2016; se formaba en informática e Internet con la Red CEMIT para apoyar web y redes del coworking —ampliación de funciones que salió de ver cómo se manejaba con la tecnología—. Ese mismo año, el ",
+          {
+            type: "link",
+            href: "https://www.diariodepontevedra.es/articulo/pontevedra/cecilia-tambien-quiere-puede-trabajar-comedores-escolares/201911051338171059487.html",
+            text: "Diario de Pontevedra",
+            external: true,
+          },
+          " y ",
+          {
+            type: "link",
+            href: "https://downgalicia.org/es/arume-vuelve-a-confiar-en-la-metodologia-de-empleo-con-apoyo-de-xuntos-para-una-nueva-insercion/",
+            text: "Down Galicia",
+            external: true,
+          },
+          " informaban de que compatibilizaba el puesto en el coworking con un trabajo de monitora en comedor escolar (Arume) y de que había firmado contrato indefinido con Espacio Arroelo.",
+        ],
+      },
+      "África lo dijo sin rodeos: Cecilia había cambiado la forma de ver la organización; era una pieza clave del engranaje. «Nosotras no nos planteamos seguir en la empresa sin ella.»",
+      {
+        type: "video",
+        youtubeId: "M7PfTwy1gyg",
+        title:
+          "Experiencias laborais en 1ª persoa — Cecilia en Espacio Arroelo (Down Galicia)",
+        caption:
+          "Canal Down Galicia: balance en primera persona del coworking de Pontevedra con Cecilia en el equipo gracias a Emprego Con Apoio / Down Pontevedra.",
+      },
+      {
+        type: "h2",
+        text: "Celso: primer contrato y autonomía en el salón (2018)",
+      },
+      {
+        type: "p",
+        parts: [
+          "Celso llegó después. ",
+          {
+            type: "link",
+            href: "https://downgalicia.org/el-exito-del-trabajo-cooperativo-llega-a-down-pontevedra-xuntos/",
+            text: "Down Galicia (2019)",
+            external: true,
+          },
+          " sitúa su contrato en 2018, tras prácticas y una evolución que Ángela Patricio —preparadora laboral de Xuntos— describió con claridad: cada vez más autónomo e independiente en sus funciones; las gerentes decidieron incorporarlo al equipo. Para Celso era su primer contrato laboral.",
+        ],
+      },
+      "Compartían el rol de ordenanza con Cecilia en días distintos. Mismo salón, mismo estándar: el día a día del coworking no se improvisa.",
+      {
+        type: "image",
+        src: "/photos/grupo-familia.jpg",
+        alt: "Grupo de la familia Arroelo reunido en el coworking de Pontevedra",
+        caption:
+          "Familia Arroelo: el equipo y la comunidad se miden en caras, no solo en puestos.",
+      },
+      {
+        type: "h2",
+        text: "Emoción y operación: lo que cambia en la comunidad",
+      },
+      "África explicó los beneficios en dos capas —emoción y operación— ya en 2016, y las repitió con matices en 2019.",
+      "Emoción: integrar en la organización a toda la sociedad cambia el entorno. Coworkers y familias conviven con realidades nuevas; se aprende con mundos que antes eran ajenos. «La posibilidad de que todas las personas que conviven en la oficina puedan comprender que el mundo es tan amplio como personas viven en él» —dijo África— y añadió que ella misma había evolucionado «muchísimo como persona».",
+      "Operación: gestionar un coworking come tiempo en tareas que alejan de lo que hace felices a los coworkers. El tiempo que Ceci trabajaba en el espacio era «ouro» para hablar con la comunidad, tejer redes o inventar ideas. Disciplina y organización: seguridad para el resto.",
+      {
+        type: "p",
+        parts: [
+          "Eso conecta con lo que intentamos en el ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          ", en la ",
+          {
+            type: "link",
+            href: "/blog/human-library-espacio-arroelo",
+            text: "Human Library",
+          },
+          " y en la red ",
+          {
+            type: "link",
+            href: "/blog/coworking-pontevedra-echn-arroelo",
+            text: "ECHN",
+          },
+          ": no es un salón monocromo. Es un salón que se ensancha.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/comunidad-sillas-amarillas.jpg",
+        alt: "Coworkers de Espacio Arroelo sentados en sillas amarillas en el salón",
+        caption:
+          "Comunidad en el salón: convivir con nuevas perspectivas cambia el entorno.",
+      },
+      {
+        type: "h2",
+        text: "Por qué un coworking encaja con Empleo con Apoyo",
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde Arroelo recomendamos la iniciativa a otros coworkings. Down Galicia recoge la idea: son un tipo de empresa perfecta para un programa como ",
+          {
+            type: "link",
+            href: "https://downgalicia.org/es/programas/empleo-con-apoyo-sindrome-de-down/",
+            text: "Empleo con Apoyo",
+            external: true,
+          },
+          " —con apoyo de orientación laboral, adaptación al puesto y definición de tareas desde Xuntos—, y con beneficios fiscales que el propio espacio mencionó en prensa.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "La metodología de Empleo con Apoyo en las entidades Down de Galicia viene de lejos (desde 2002, según la Federación). Nosotras no inventamos el método. Lo practicamos: prácticas, contrato, apoyo profesional de la asociación, tareas reales, no «proyectos para la foto».",
+        ],
+      },
+      {
+        type: "video",
+        youtubeId: "2Ol1gcaLMP0",
+        title:
+          'Programa "Empleo con apoyo" de Down Galicia (subtitulado)',
+        caption:
+          "Canal Down Galicia: cómo funciona la metodología de Empleo con Apoyo (ECA).",
+      },
+      {
+        type: "p",
+        parts: [
+          "Si gestionas un hub o un coworking y te estás preguntando por inclusión laboral con sentido, las fuentes de Down Galicia son el mejor punto de partida. Y si trabajas en Pontevedra y buscas un coworking donde la comunidad no sea solo un eslogan, el salón sigue abierto.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/encuentro-mesa.jpg",
+        alt: "Encuentro de coworkers alrededor de una mesa en Espacio Arroelo",
+        caption:
+          "Prácticas, contrato y tareas reales: así se sostiene la inclusión en el día a día.",
+      },
+      {
+        type: "h2",
+        text: "Seguir construyendo el mundo que nos gusta",
+      },
+      "No vamos a fingir que un artículo de 2019 describe el organigrama de 2026. Lo que sí está documentado —y es suficientemente fuerte— es esto: Espacio Arroelo apostó por Empleo con Apoyo; Cecilia y Celso sostuvieron el día a día; la comunidad aprendió; África puso palabras a un cambio que era a la vez operativo y ético.",
+      "Eso es coworking inclusivo en Pontevedra sin PowerPoint: con correo recibido, mesas en orden y un equipo que cabe en la definición de «familia Arroelo».",
+      {
+        type: "p",
+        parts: [
+          "Si quieres conocer el espacio —puestos, salón, acceso, comunidad—, escribe a info@espacioarroelo.com, llama al 610 602 012 o ",
+          {
+            type: "link",
+            href: "/#contacto",
+            text: "pásate",
+          },
+          ". Mejor con café. Mejor preguntando. El mundo que nos gusta no se escribe solo en la web: se practica entre semana.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "cultura-colaborativa-galicia-coworking-coliving",
     title:
       "Cultura colaborativa en Galicia: coworking, coliving y espacios que comparten conocimiento",

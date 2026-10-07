@@ -1,6 +1,10 @@
 # PROPUESTA 12 — Blog Espacio Arroelo
 
-> **Estado:** borrador para revisión. **No publicado** en el sitio (`blog.ts` intacto).
+> **Estado:** publicado en el sitio (`/blog/coworking-inclusivo-empleo-apoyo-arroelo`).
+>
+> **YouTube embebidos (oct 2026):**
+> - [Experiencias laborais en 1ª persoa — Cecilia en Espacio Arroelo](https://www.youtube.com/watch?v=M7PfTwy1gyg) (Down Galicia) — no hay vídeo indexable de África hablando de ECA/Down; sí este de Cecilia en Arroelo.
+> - [Programa "Empleo con apoyo" de Down Galicia (subtitulado)](https://www.youtube.com/watch?v=2Ol1gcaLMP0) (Down Galicia).
 >
 > **Ángulo:** coworking inclusivo / Empleo con Apoyo con Down Pontevedra Xuntos (Cecilia y Celso). Distinto de historia, Human Library, dog-friendly, ECHN, jams, CWSC, IA, Anceu, Rural Hackers, mudanza y Café a la fresca.
 >
@@ -145,4 +149,4 @@ Si quieres conocer el espacio —puestos, salón, acceso, comunidad—, escribe 
 
 ---
 
-*Propuesta lista para revisión editorial / SEO. Actualizar README del índice al aceptar. No tocar `src/data/blog.ts` hasta aprobación.*
+*Publicado oct 2026. Vídeos: Cecilia en Arroelo + programa ECA Down Galicia. Sin vídeo de África sobre Down/ECA tras búsqueda YouTube.*
