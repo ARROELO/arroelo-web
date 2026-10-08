@@ -2881,9 +2881,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/rural-hackers-encuentro-mural.jpg",
-        alt: "Encuentro intergeneracional en la Casa do Pobo de Anceu, con mural de flores en la pared",
-        caption: "De la academia local a la mesa compartida: aprender juntas.",
+        src: "/photos/blog/rural-hackers-grupo-bosque.jpg",
+        alt: "Grupo numeroso de personas posando con alegría en un claro del bosque junto al río",
+        caption:
+          "Aprendemos juntas al aire libre: comunidad, bosque y río como aula.",
+        fit: "contain",
       },
       { type: "h2", text: "El hilo con Arroelo" },
       {
