@@ -2062,13 +2062,6 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/human-library-vida-en-palabras-paul-canizo.jpg",
-        alt: "Paul do Canizo muestra un libro ilustrado durante el cuenta cuentos",
-        caption:
-          "Paul do Canizo durante el cuenta cuentos de «A vida en palabras», Arroelada de mayo.",
-      },
-      {
-        type: "image",
         src: "/photos/blog/human-library-vida-en-palabras-grupo-muro.jpg",
         alt: "Grupo sentado en el suelo con sombrero verde, libros infantiles y muro de notas al fondo",
         caption:
