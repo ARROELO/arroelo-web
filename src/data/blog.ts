@@ -1571,9 +1571,9 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: "/photos/blog/cwsc-sala-llena-grupo.jpg",
-        alt: "Gran grupo de asistentes de la Coworking Spain Conference sonriendo y con las manos en alto en un espacio de oficina",
+        alt: "Gran grupo de asistentes de la Coworking Spain Conference con las manos en alto, sonriendo en un espacio de coworking junto a la puerta de cocina",
         caption:
-          "La sala llena: tomar notas, mirar la diapositiva y volver al coworking con otra pregunta.",
+          "Sala llena y manos arriba: así cerramos el encuentro, con la energía de la comunidad.",
       },
       { type: "h2", text: "Si te interesa la cultura colaborativa" },
       {
