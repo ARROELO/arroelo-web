@@ -28,7 +28,6 @@
 - Cómo la IA nos ayuda a gestionar el día a día
 - Tiempo ganado: más salón, más comunidad
 - RuralGPT y SINERGIA: aprender IA en Arroelo (y en Anceu)
-- Preguntas frecuentes
 - Si quieres probarlo con nosotras
 
 **Imágenes:**
@@ -72,23 +71,6 @@ RuralGPT —iniciativa de Rural Hackers y Anceu Coliving— lleva la IA aplicada
 Y en Pontevedra, en el propio Espacio Arroelo, organizamos encuentros y talleres SINERGIA (o Sinergia IA): una cita periódica —con ritmo mensual— abierta a quien quiera aprender inteligencia artificial en compañía, sin necesidad de ser coworker. Es la versión urbana y accesible del mismo hilo: probar herramientas, compartir dudas y conectar con el ecosistema RuralGPT.
 
 No inventamos un calendario cerrado de ediciones pasadas: el formato es lo estable —mensual, abierto, práctico— y las fechas concretas salen por redes y boca a boca. Si quieres venir, escribe o síguenos: la puerta del tercer piso está para eso.
-
-### Preguntas frecuentes
-
-**¿Usáis IA para sustituir a personas en recepción?**  
-No. Usamos IA para aligerar tareas repetitivas (textos, borradores, orden documental). La bienvenida, las visitas y el cuidado de la comunidad siguen siendo humanos.
-
-**¿Qué herramientas mencionáis y con qué cuidado?**  
-Portales como Idealista o Fotocasa para visibilidad de plazas; acceso inteligente tipo Nuki para la operativa del local; la wiki para conocimiento compartido. Ninguna sustituye el criterio: revisamos lo que publica o decide un modelo.
-
-**¿Qué es RuralGPT?**  
-Formación presencial de IA aplicada en el rural gallego (Anceu), impulsada con Rural Hackers. Residencias y talleres intensivos con enfoque práctico.
-
-**¿Qué es SINERGIA / Sinergia IA?**  
-Encuentros periódicos en Espacio Arroelo para aprender IA en grupo, abiertos a quien quiera acercarse, en diálogo con RuralGPT. Ritmo mensual; fechas en Instagram y canales de la comunidad.
-
-**¿Puedo venir si no soy coworker?**  
-Sí, a los encuentros abiertos (SINERGIA y actividades anunciadas). Para mesa fija o flexible, mira la tarifa y ven a conocernos.
 
 ### Si quieres probarlo con nosotras
 
