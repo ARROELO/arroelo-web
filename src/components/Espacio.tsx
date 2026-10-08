@@ -11,13 +11,13 @@ const pillars = [
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/home-pilar-selfie-mesa.jpg",
-    alt: "Grupo de personas sonrientes en una mesa comunitaria de Arroelo",
+    src: "/photos/home-pilar-dos-coworkers.jpg",
+    alt: "Dos mujeres trabajando con portátil y móvil en una mesa del salón de Arroelo",
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/home-pilar-dos-coworkers.jpg",
-    alt: "Dos mujeres trabajando con portátil y móvil en una mesa del salón de Arroelo",
+    src: "/photos/home-pilar-selfie-mesa.jpg",
+    alt: "Grupo de personas sonrientes en una mesa comunitaria de Arroelo",
     objectPosition: "object-[center_40%]",
   },
 ];
