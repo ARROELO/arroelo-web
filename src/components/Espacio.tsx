@@ -136,8 +136,8 @@ const bridges: {
       </>
     ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
-    image: "/photos/rural-hackers-tech.jpg",
-    alt: "Taller de Rural Hackers: reparación y herramientas en comunidad",
+    image: "/photos/home-puente-vida-facil-comunidad.jpg",
+    alt: "Un grupo diverso de personas sonrientes reunidas alrededor de una gran mesa de madera en un espacio luminoso y moderno, compartiendo aperitivos y café en un ambiente de colaboración y comunidad",
     objectPosition: "object-[center_40%]",
   },
 ];
