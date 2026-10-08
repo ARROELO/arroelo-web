@@ -3590,8 +3590,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "De Pontevedra a Anceu: ciudad y aldea",
     date: "2026-10-07",
     label: "Puentes",
-    image: "/photos/blog/anceu-outdoor-cowork.jpg",
-    alt: "Coworking al aire libre en Anceu: portátil y cuaderno entre los árboles",
+    image: "/photos/blog/anceu-xa-non-calamos.jpg",
+    alt: "Grupo de mujeres en Anceu con el cartel «Xa non calamos / Non lle berramos / Voso silenzo non te protexe», valle al fondo",
     excerpt:
       "Cómo Espacio Arroelo tiende puentes con Anceu Coliving: del coworking en Pontevedra a la revitalización de una aldea de menos de 100 habitantes.",
     body: [
@@ -3709,6 +3709,12 @@ export const blogPosts: BlogPost[] = [
       },
       "En la práctica eso significa cocina compartida, cenas colectivas varios días a la semana, coworking con fibra de alta velocidad y muchas oportunidades de encontrarse. Significa también entender que el impacto local no es un extra para el brochure: es la condición de posibilidad del proyecto.",
       {
+        type: "image",
+        src: "/photos/blog/anceu-outdoor-cowork.jpg",
+        alt: "Tres compañeras trabajan juntas al aire libre en Anceu, con portátil bajo los árboles",
+        caption: "Coworking al aire libre: el remoto también se hace en círculo.",
+      },
+      {
         type: "p",
         parts: [
           "En conversaciones recogidas por la ",
@@ -3770,6 +3776,13 @@ export const blogPosts: BlogPost[] = [
           },
           "—. Nosotras ayudamos a traducir y a acompañar ese encuentro entre vecinas y emprendedoras europeas.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/anceu-xa-non-calamos.jpg",
+        alt: "Grupo de mujeres en Anceu con el cartel «Xa non calamos / Non lle berramos / Voso silenzo non te protexe», valle al fondo",
+        caption:
+          "Nosotras ya no callamos: en Anceu el feminismo se sostiene juntas —vecinas, emprendedoras y quien llega a acompañar—, con el valle detrás y un cartel que lo dice claro.",
       },
       {
         type: "image",
