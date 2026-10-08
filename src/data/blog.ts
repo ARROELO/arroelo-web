@@ -831,7 +831,14 @@ export const blogPosts: BlogPost[] = [
             text: "iSlow",
             external: true,
           },
-          ". Casa de piedra de 1915 abierta en 2022 por Inés y Julio: coliving rural con coworking dedicado, fibra de alta velocidad, skill shares y talleres que mezclan tradición gallega con trabajo remoto. Misma lógica que Sende o Anceu: ralentizar sin desconectar.",
+          ". Casa de piedra de 1915 abierta en 2022 por Inés y Julio: coliving rural con coworking dedicado, fibra de alta velocidad, skill shares y talleres que mezclan tradición gallega con trabajo remoto. Misma lógica que ",
+          {
+            type: "link",
+            href: "https://www.sende.co/",
+            text: "Sende",
+            external: true,
+          },
+          " o Anceu: ralentizar sin desconectar.",
         ],
       },
       {
@@ -881,7 +888,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "En el eje Galicia–Portugal existió (y deja huella) la lógica de Creative Habitat: espacios que se abren mutuamente —nosotras en Pontevedra, Sende en Senderiz, Anceu, ",
+          "En el eje Galicia–Portugal existió (y deja huella) la lógica de Creative Habitat: espacios que se abren mutuamente —nosotras en Pontevedra, ",
+          {
+            type: "link",
+            href: "https://www.sende.co/",
+            text: "Sende",
+            external: true,
+          },
+          " en Senderiz, Anceu, ",
           {
             type: "link",
             href: "https://dinamo10.net/",
@@ -958,14 +972,33 @@ export const blogPosts: BlogPost[] = [
             text: "mapa de espacios CRAB",
             external: true,
           },
-          ": cada punto entre montes, bosques y calles de pueblo es una historia distinta. Nosotras, Espacio Arroelo, fuimos socios del proyecto —coordinado por Dinamo10 y desarrollado junto a Sende y Giovani Iddocca / Treballu—, cofinanciado por la Unión Europea a través del programa Creative Europe, tal como lo cuenta la propia web.",
+          ": cada punto entre montes, bosques y calles de pueblo es una historia distinta. Nosotras, Espacio Arroelo, fuimos socios del proyecto —coordinado por Dinamo10 y desarrollado junto a ",
+          {
+            type: "link",
+            href: "https://www.sende.co/",
+            text: "Sende",
+            external: true,
+          },
+          " y Giovani Iddocca / Treballu—, cofinanciado por la Unión Europea a través del programa Creative Europe, tal como lo cuenta la propia web.",
         ],
       },
       {
         type: "h2",
         text: "Un mapa, no una competencia",
       },
-      "No hace falta elegir un único nodo. Puedes trabajar un mes en Sende, una temporada en iSlow, una semana en Anceu y el día a día en Magma o con nosotras. Lo que sostiene la cultura colaborativa en Galicia es precisamente eso: que los espacios nos reconozcamos entre sí.",
+      {
+        type: "p",
+        parts: [
+          "No hace falta elegir un único nodo. Puedes trabajar un mes en ",
+          {
+            type: "link",
+            href: "https://www.sende.co/",
+            text: "Sende",
+            external: true,
+          },
+          ", una temporada en iSlow, una semana en Anceu y el día a día en Magma o con nosotras. Lo que sostiene la cultura colaborativa en Galicia es precisamente eso: que los espacios nos reconozcamos entre sí.",
+        ],
+      },
       {
         type: "p",
         parts: [
@@ -2131,7 +2164,14 @@ export const blogPosts: BlogPost[] = [
             text: "Hackathon for Refugees",
             external: true,
           },
-          " se celebró en Sende con Impulso de Impact Hub Vigo y Espacio Arroelo: programadoras, activistas y personas refugiadas prototipando durante 48 horas. La Human Library de abril no fue un gesto aislado; fue el primer capítulo público de una línea de trabajo sobre refugio.",
+          " se celebró en ",
+          {
+            type: "link",
+            href: "https://www.sende.co/",
+            text: "Sende",
+            external: true,
+          },
+          " con Impulso de Impact Hub Vigo y Espacio Arroelo: programadoras, activistas y personas refugiadas prototipando durante 48 horas. La Human Library de abril no fue un gesto aislado; fue el primer capítulo público de una línea de trabajo sobre refugio.",
         ],
       },
       {
