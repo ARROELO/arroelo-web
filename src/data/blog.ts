@@ -2235,7 +2235,7 @@ export const blogPosts: BlogPost[] = [
             text: "A Redeira",
             external: true,
           },
-          " («o espazo para todas as persoas»), el proyecto de igualdad del Concello que se presentaba esos mismos días. Misma arquitectura de diálogo que en 2015 y 2016: sin aplauso obligatorio, con tiempo limitado y mirada a la altura.",
+          " («o espazo para todas as persoas»), el proyecto de igualdad del Concello que se presentaba esos mismos días.",
         ],
       },
       {
