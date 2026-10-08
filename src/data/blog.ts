@@ -2290,7 +2290,7 @@ export const blogPosts: BlogPost[] = [
     image: "/photos/blog/ia-africa-portatil-salon.jpg",
     alt: "África en recepción de Espacio Arroelo trabajando con el portátil",
     excerpt:
-      "Cómo usamos la inteligencia artificial en Espacio Arroelo para gestionar el coworking y ganar tiempo para la comunidad. Y los encuentros RuralGPT.",
+      "Cómo usamos la inteligencia artificial en Espacio Arroelo para gestionar el coworking y ganar tiempo para la comunidad.",
     body: [
       {
         type: "p",
@@ -2323,10 +2323,10 @@ export const blogPosts: BlogPost[] = [
       "La IA no sustituye esa conversación. Nos ayuda a preparar el terreno para que la conversación ocurra.",
       {
         type: "image",
-        src: "/photos/blog/ia-puestos-laptop.jpg",
-        alt: "Puestos de coworking con portátiles y monitores junto a la ventana en Espacio Arroelo",
+        src: "/photos/blog/ia-paella-comunidad.jpg",
+        alt: "Grupo de la comunidad de Espacio Arroelo alrededor de una paella compartida",
         caption:
-          "Mesa, fibra y herramientas: la IA entra donde ahorra tiempo, no donde sustituye la bienvenida.",
+          "Cuando la IA nos ahorra horas de gestión, nos queda tiempo para esto: compartir mesa, paella y comunidad.",
       },
       {
         type: "h2",
