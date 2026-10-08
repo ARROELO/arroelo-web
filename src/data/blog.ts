@@ -3819,9 +3819,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/casa-pobo-vecindad.jpg",
-        alt: "Vecinas y vecinos reunidos en la Casa do Pobo de Anceu",
-        caption: "Ida y vuelta: la vecindad también viene a la mesa.",
+        src: "/photos/blog/anceu-elisabeth-zentangle.jpg",
+        alt: "Elisabet (centro) con el grupo al aire libre y cartas de Zentangle sobre la mesa",
+        caption:
+          "Compartimos con Elisabet, de Zengoala, un encuentro de Zentangle: cartas, rotuladores y la misma red creativa entre Arroelo y Anceu.",
       },
       {
         type: "p",
