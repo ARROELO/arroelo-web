@@ -1067,9 +1067,9 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: "/photos/blog/helena-pilita-escritorio-tirantes.jpg",
-        alt: "Helena con Pilita en un escritorio al aire libre junto al Lérez, con la Ponte dos Tirantes al fondo",
+        alt: "África y Lucky junto al Lérez: el perrete también cabe fuera del salón",
         caption:
-          "Helena y Pilita junto al Lérez: el perrete también cabe fuera del salón.",
+          "África y Lucky junto al Lérez: el perrete también cabe fuera del salón",
       },
       {
         type: "h2",
