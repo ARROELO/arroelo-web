@@ -50,7 +50,7 @@
 }
 
 .blog-photo {
-  object-fit: cover;
+  /* object-fit / object-position come from utility classes on the Image */
   transition: transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
 }
 

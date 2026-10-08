@@ -40,6 +40,10 @@ export type BlogPost = {
   label: string;
   image: string;
   alt: string;
+  /** Featured/card crop. Default cover. Use contain for portraits that must stay whole. */
+  imageFit?: "cover" | "contain";
+  /** Featured/card object-position (default center). Use top when cover would chop heads. */
+  imagePosition?: "center" | "top";
   excerpt: string;
   body: BlogBodyBlock[];
 };
@@ -1268,8 +1272,10 @@ export const blogPosts: BlogPost[] = [
       "Coworking Spain Conference: desde un coworking en Pontevedra",
     date: "2026-10-07",
     label: "Congresos",
-    image: "/photos/blog/cwsc-2018-banner.jpg",
-    alt: "Banner de la Coworking Spain Conference 2018 a la entrada del evento",
+    image: "/photos/blog/cwsc-portada-sillas-amarillas.jpg",
+    alt: "Tres mujeres emprendedoras de la comunidad Arroelo sonriendo en sillas Acapulco amarillas durante la Coworking Spain Conference",
+    imageFit: "cover",
+    imagePosition: "top",
     excerpt:
       "Cómo contamos la cultura colaborativa desde un coworking en Pontevedra en la Coworking Spain Conference: participamos con África en CWSC 2016–2020.",
     body: [

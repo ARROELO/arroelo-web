@@ -289,7 +289,15 @@ export default async function BlogPostPage({ params }: Props) {
                   alt={post.alt}
                   fill
                   priority
-                  className="blog-post-cover-image object-cover object-center rounded-none"
+                  className={`blog-post-cover-image rounded-none ${
+                    post.imageFit === "contain"
+                      ? "object-contain"
+                      : "object-cover"
+                  } ${
+                    post.imagePosition === "top"
+                      ? "object-top"
+                      : "object-center"
+                  }`}
                   sizes="(max-width: 860px) 100vw, 40vw"
                 />
               </div>

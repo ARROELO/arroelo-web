@@ -30,6 +30,8 @@ function BlogCard({
   label,
   image,
   alt,
+  imageFit,
+  imagePosition,
   index,
 }: {
   slug: string;
@@ -37,9 +39,15 @@ function BlogCard({
   label: string;
   image: string;
   alt: string;
+  imageFit?: "cover" | "contain";
+  imagePosition?: "center" | "top";
   index: number;
 }) {
   const delayMs = Math.min(index * 55, 480);
+  const fitClass =
+    imageFit === "contain" ? "object-contain" : "object-cover";
+  const positionClass =
+    imagePosition === "top" ? "object-top" : "object-center";
 
   return (
     <Link
@@ -52,7 +60,7 @@ function BlogCard({
           src={withBase(image)}
           alt={alt}
           fill
-          className="blog-photo rounded-none"
+          className={`blog-photo rounded-none ${fitClass} ${positionClass}`}
           sizes="(max-width: 767px) 50vw, 25vw"
           priority={index < 3}
         />
@@ -90,6 +98,8 @@ export default function BlogPage() {
               label={post.label}
               image={post.image}
               alt={post.alt}
+              imageFit={post.imageFit}
+              imagePosition={post.imagePosition}
               index={index}
             />
           ))}
