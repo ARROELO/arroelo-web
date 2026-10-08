@@ -7,19 +7,19 @@ import { withBase } from "@/lib/path";
 
 const pillars = [
   {
-    src: "/photos/comunidad-sillas-amarillas.jpg",
-    alt: "Tres coworkers de Arroelo en sillas amarillas en la terraza",
-    objectPosition: "object-[center_35%]",
-  },
-  {
-    src: "/photos/comunidad-photobooth.jpg",
-    alt: "Coworkers de Arroelo en un photocall de comunidad, con props y risas",
+    src: "/photos/home-pilar-mesa-grupo.jpg",
+    alt: "Grupo de personas reunidas alrededor de una mesa compartiendo café y pastelería en un espacio de comunidad luminoso",
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/comunidad-hoodies-arroelo.jpg",
-    alt: "Equipo de Espacio Arroelo con sudaderas negras del coworking",
-    objectPosition: "object-[center_35%]",
+    src: "/photos/home-pilar-selfie-mesa.jpg",
+    alt: "Grupo de personas sonrientes en una mesa comunitaria de Arroelo",
+    objectPosition: "object-[center_40%]",
+  },
+  {
+    src: "/photos/home-pilar-dos-coworkers.jpg",
+    alt: "Dos mujeres trabajando con portátil y móvil en una mesa del salón de Arroelo",
+    objectPosition: "object-[center_40%]",
   },
 ];
 
