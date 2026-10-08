@@ -1394,13 +1394,6 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        type: "image",
-        src: "/photos/blog/cwsc-2018-sala-charla.jpg",
-        alt: "Sala de la Coworking Spain Conference con público y pantalla de agradecimiento",
-        caption:
-          "CWSC 2018: la sala donde cruzamos operadores, comunidad y preguntas difíciles.",
-      },
-      {
         type: "p",
         parts: [
           {
