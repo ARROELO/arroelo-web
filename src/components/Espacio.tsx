@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { Cafe } from "@/components/Cafe";
 import { withBase } from "@/lib/path";
 
 const pillars = [
@@ -165,9 +164,7 @@ export function Espacio() {
 
       <DrawRule />
 
-      <Cafe />
-
-      {/* Same vertical rhythm as pillars → DrawRule → Café intro */}
+      {/* Same vertical rhythm as pillars → DrawRule → redes intro */}
       <div className="mt-16 sm:mt-20 md:mt-24">
         <div className="px-4 pt-14 md:px-6 md:pt-20">
           <div className="max-w-[42ch] md:max-w-[50%]">
@@ -175,8 +172,10 @@ export function Espacio() {
               Aquí no alquilamos sillas. Tejemos redes.
             </h2>
             <p className="mt-2 text-espacio-intro-body text-ink">
-              Lo mejor de Arroelo ocurre entre tareas. La mesa, el café, una
-              visita: una comunidad que creamos desde nuestro salón y más allá.
+              Lo mejor de Arroelo ocurre entre tareas. Cada día a las 11:30
+              paramos el reloj. Un café, algo que picar y una charla — a veces
+              una visita que cambia el día. Así creamos una comunidad desde
+              nuestro salón y más allá.
             </p>
           </div>
         </div>
