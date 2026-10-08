@@ -1338,9 +1338,32 @@ export const blogPosts: BlogPost[] = [
         type: "image",
         src: "/photos/blog/cwsc-2014-grupo-banner.jpg",
         alt: "Grupo delante del banner de la Coworking Spain Conference 2014, cubierto de notas adhesivas",
-        caption:
-          "El congreso alimenta nuestro salón; el salón nos da material para el congreso.",
-        fit: "contain",
+        fit: "cover",
+        position: "center",
+        caption: [
+          "En la ",
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/",
+            text: "Coworking Spain Conference",
+            external: true,
+          },
+          " 2014 estuvimos con fundadores de ",
+          {
+            type: "link",
+            href: "https://wekco.net/",
+            text: "Wekco",
+            external: true,
+          },
+          ", con ",
+          {
+            type: "link",
+            href: "https://coworkingspainconference.es/ponentes/manuel-zea",
+            text: "Manu Zea",
+            external: true,
+          },
+          " —organización de la conferencia— y con quienes han gestado coworkings conocidos en Málaga y Santiago: Chus y Lola.",
+        ],
       },
       { type: "h2", text: "Cinco ediciones, un mismo hilo" },
       {
