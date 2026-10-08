@@ -2546,7 +2546,7 @@ export const blogPosts: BlogPost[] = [
             text: "Concello de Pontevedra",
             external: true,
           },
-          " apostó por un modelo urbano centrado en las personas: menos coche en el centro, más espacio público, preferencia peatonal. No es marketing de brochure: es una estrategia que se puede caminar.",
+          " apostó por un modelo urbano centrado en las personas: menos coche en el centro, más espacio público, preferencia peatonal. Es una estrategia que se puede caminar.",
         ],
       },
       {

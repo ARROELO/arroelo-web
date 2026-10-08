@@ -50,7 +50,7 @@ Nosotras lo vemos desde dentro: Espacio Arroelo está en el corazón de esa ciud
 
 El argumento no es solo paisaje gallego —aunque la ría y el Lérez ayudan—. Es calidad de vida cotidiana: calles donde cabe el paseo, comercio de proximidad, una escala humana que no obliga a elegir entre «ciudad grande» y «pueblo dormitorio». Quien llega desde Madrid, Barcelona o el extranjero suele decir lo mismo en la primera semana: «aquí el tiempo se estira».
 
-Esa sensación no es casual. Desde finales de los noventa, el Concello de Pontevedra apostó por un modelo urbano centrado en las personas: menos coche en el centro, más espacio público, preferencia peatonal. No es marketing de brochure: es una estrategia que se puede caminar.
+Esa sensación no es casual. Desde finales de los noventa, el Concello de Pontevedra apostó por un modelo urbano centrado en las personas: menos coche en el centro, más espacio público, preferencia peatonal. Es una estrategia que se puede caminar.
 
 ### Ciudad a escala humana: peatonalización y estrategia urbana
 
