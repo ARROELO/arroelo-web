@@ -1967,8 +1967,10 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Human Library en Espacio Arroelo (Pontevedra)",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/human-library-vida-en-palabras-libro-humano.jpg",
-    alt: "Libro humano en taburete conversando con lectoras en la Human Library de Arroelo",
+    image: "/photos/blog/human-library-muro-deseos-portada.jpg",
+    alt: "Muro de los deseos en pizarra con el lema «Antes de morrer quero...» en una Human Library de Espacio Arroelo",
+    imageFit: "cover",
+    imagePosition: "top",
     excerpt:
       "Tres ediciones verificadas: A vida en palabras en Michelena (2015), Sente Siria con refugiados (2016) y Para chula, a miña parrula sobre feminismo e igualdad (2018).",
     body: [
