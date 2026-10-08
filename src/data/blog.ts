@@ -13,7 +13,16 @@ export type BlogBodyBlock =
   | { type: "h2"; text: string }
   | { type: "h3"; text: string }
   | { type: "p"; parts: BlogInline[] }
-  | { type: "image"; src: string; alt: string; caption?: string }
+  | {
+      type: "image";
+      src: string;
+      alt: string;
+      caption?: string;
+      /** Default cover. Use contain for tall group photos so heads/bodies are not cropped. */
+      fit?: "cover" | "contain";
+      /** object-position hint when fit is cover (default center). */
+      position?: "center" | "top";
+    }
   | {
       type: "video";
       youtubeId: string;
@@ -376,6 +385,9 @@ export const blogPosts: BlogPost[] = [
         alt: "Ángela (orientadora laboral), Ceci y María Pierres (cofundadora) juntas en Espacio Arroelo",
         caption:
           "Ángela (orientadora laboral), Ceci y María Pierres (cofundadora): el puente entre Xuntos y el coworking.",
+        // Vertical group photo (3:4) in a 3:2 frame — contain keeps heads and bodies visible.
+        fit: "contain",
+        position: "top",
       },
       {
         type: "h2",

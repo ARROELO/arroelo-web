@@ -315,6 +315,11 @@
   background: var(--color-mist);
 }
 
+/* Tall / group photos that must stay fully visible inside the 3:2 frame. */
+.blog-post-figure-media--contain {
+  background: var(--color-fog);
+}
+
 .blog-post-video-media {
   position: relative;
   aspect-ratio: 16 / 9;

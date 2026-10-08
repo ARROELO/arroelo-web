@@ -116,14 +116,24 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
   }
 
   if (block.type === "image") {
+    const fitClass = block.fit === "contain" ? "object-contain" : "object-cover";
+    const positionClass =
+      block.position === "top" ? "object-top" : "object-center";
+
     return (
       <figure key={`img-${index}`} className="blog-post-figure">
-        <div className="blog-post-figure-media">
+        <div
+          className={
+            block.fit === "contain"
+              ? "blog-post-figure-media blog-post-figure-media--contain"
+              : "blog-post-figure-media"
+          }
+        >
           <Image
             src={withBase(block.src)}
             alt={block.alt}
             fill
-            className="object-cover object-center rounded-none"
+            className={`${fitClass} ${positionClass} rounded-none`}
             sizes="(max-width: 768px) 100vw, min(100vw - 2.5rem, 52rem)"
           />
         </div>
