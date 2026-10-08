@@ -2283,44 +2283,67 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ia-en-coworking-pontevedra-arroelo",
-    title: "IA en coworking Pontevedra: así la usamos en Arroelo",
-    seoTitle: "IA en coworking Pontevedra: así la usamos en Arroelo",
+    title:
+      "IA en el coworking: cómo la usamos en Espacio Arroelo (y por qué nos deja más tiempo para las personas)",
+    seoTitle:
+      "IA en el coworking: cómo la usamos en Espacio Arroelo (y por qué nos deja más tiempo para las personas)",
     date: "2026-10-07",
     label: "IA",
     image: "/photos/blog/ia-africa-portatil-salon.jpg",
-    alt: "África en recepción de Espacio Arroelo trabajando con el portátil",
+    alt: "África Rodríguez trabajando con el portátil en la recepción del coworking Espacio Arroelo, en el centro de Pontevedra",
     excerpt:
-      "Cómo usamos la inteligencia artificial en Espacio Arroelo para gestionar el coworking y ganar tiempo para la comunidad.",
+      "Desde que María y yo abrimos Arroelo, usamos la IA para correo, tareas, facturas y reservas —y así nos queda más tiempo para las personas. También RuralGPT.",
     body: [
       {
         type: "p",
         parts: [
-          "Hay quien habla de inteligencia artificial como si fuera una moda lejana. Nosotras la usamos en la recepción, en los anuncios, en la wiki y en la puerta: para que el coworking funcione y nos quede tiempo para lo que no puede automatizarse —la comunidad.",
+          "Desde que María y yo abrimos ",
+          {
+            type: "link",
+            href: "/",
+            text: "Arroelo",
+          },
+          " en 2013, gestionar un coworking siempre ha tenido dos caras. Una se ve: la gente que entra por la puerta, el café de media mañana, los talleres, las conversaciones en la cocina. La otra no se ve tanto: correos, facturas, reservas, llaves, anuncios, calendarios. Esa segunda cara es la que más tiempo se come.",
         ],
-      },
-      {
-        type: "h2",
-        text: "Por qué hablamos de IA desde un coworking (y no desde un laboratorio)",
       },
       {
         type: "p",
         parts: [
-          "En ",
+          "Hoy os contamos, con ejemplos reales, cómo usamos la inteligencia artificial en Arroelo para la parte invisible, empezando por lo más digital y terminando en lo menos online. Y también os hablamos de ",
           {
             type: "link",
-            href: "/",
-            text: "Espacio Arroelo",
+            href: "https://ruralgpt.gal/es/",
+            text: "RuralGPT",
+            external: true,
           },
-          " llevamos más de una década tejiendo red en el centro de Pontevedra. La ",
-          {
-            type: "link",
-            href: "/blog/historia-espacio-arroelo-pontevedra",
-            text: "historia del espacio",
-          },
-          " la contamos en el blog; el día a día es más prosaico: responder mensajes, actualizar plazas, abrir y cerrar accesos, explicar quiénes somos a quien llega por un portal o por una amiga.",
+          ", los encuentros que hemos impulsado para que nuestra comunidad aprenda a usar la IA con los pies en la tierra.",
         ],
       },
-      "La IA no sustituye esa conversación. Nos ayuda a preparar el terreno para que la conversación ocurra.",
+      {
+        type: "h2",
+        text: "Por qué empezamos a usar IA en un coworking pequeño",
+      },
+      {
+        type: "p",
+        parts: [
+          "Arroelo no es una gran empresa con un departamento de administración. Es un espacio en la tercera planta de Cobián Roffignac 6, en el centro de Pontevedra, y detrás estoy yo, África, compaginándolo con ",
+          {
+            type: "link",
+            href: "https://ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          " y con todo lo que se mueve en ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu",
+            external: true,
+          },
+          ". Cuando llevas varios proyectos, la sensación de ir siempre detrás del correo es constante.",
+        ],
+      },
+      "No buscábamos «transformar» nada. Buscábamos recuperar horas para lo que de verdad importa en un coworking: las personas.",
       {
         type: "image",
         src: "/photos/blog/ia-paella-comunidad.jpg",
@@ -2330,12 +2353,88 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "Cómo la IA nos ayuda a gestionar el día a día",
+        text: "Lo más online: correo, tareas y papeles",
+      },
+      {
+        type: "h3",
+        text: "Varias bandejas de Gmail, ordenadas",
+      },
+      "Gestionamos varias cuentas de correo: la del coworking, la personal y las de los proyectos vinculados. La IA nos ayuda a leerlas, resumir lo importante y separar lo que necesita respuesta hoy de lo que puede esperar. Las respuestas delicadas las sigo escribiendo yo; lo que gano es no perderme nada entre newsletters y avisos.",
+      {
+        type: "h3",
+        text: "Las tareas del coworking en Trello",
       },
       {
         type: "p",
         parts: [
-          "Usamos herramientas de lenguaje para redactar y revisar textos que antes nos comían la mañana: descripciones de plaza, respuestas a dudas frecuentes, borradores de comunicación interna. Cuando publicamos o actualizamos anuncios en portales como ",
+          "Todo lo que hay que hacer en Arroelo vive en un tablero de ",
+          {
+            type: "link",
+            href: "https://trello.com/",
+            text: "Trello",
+            external: true,
+          },
+          ": incidencias, altas de nuevas personas, pedidos, pendientes del local. La IA nos ayuda a crear tarjetas a partir de un correo o una conversación, a moverlas cuando algo se cierra y a tener una foto rápida de qué queda pendiente cada semana.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Facturas trimestrales para la gestoría",
+      },
+      "Una de las tareas más pesadas era reunir cada trimestre las facturas de proveedores (luz, teléfono, alarma) entrando en cada portal. Ahora la IA nos ayuda a descargarlas y archivarlas en Google Drive en una carpeta por trimestre, lista para la gestoría. Nos ahorra una mañana de clics y el «¿dónde estaba esa factura?».",
+      {
+        type: "h3",
+        text: "Slack y la coordinación del equipo",
+      },
+      {
+        type: "p",
+        parts: [
+          "Para coordinarnos con la gente con la que trabajamos usamos ",
+          {
+            type: "link",
+            href: "https://slack.com/",
+            text: "Slack",
+            external: true,
+          },
+          ". La IA nos ayuda a ponernos al día de un hilo largo o a preparar un mensaje claro cuando hay que organizar algo entre varias personas.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/ia-puestos-laptop.jpg",
+        alt: "Puestos de trabajo con portátiles en el salón de Espacio Arroelo",
+        caption:
+          "La parte invisible del coworking también se gestiona desde aquí: correo, tareas y papeles.",
+      },
+      {
+        type: "h2",
+        text: "La gestión del día a día del coworking",
+      },
+      {
+        type: "h3",
+        text: "Reservas de salas y acceso con Nuki",
+      },
+      {
+        type: "p",
+        parts: [
+          "Cuando alguien de la comunidad necesita una sala de reuniones, la IA nos ayuda a hacer la reserva en la web de reservas del espacio. Y para el acceso usamos cerraduras inteligentes ",
+          {
+            type: "link",
+            href: "https://nuki.io/es/",
+            text: "Nuki",
+            external: true,
+          },
+          ": enviamos las invitaciones de acceso a las personas nuevas y cada semana revisamos el nivel de batería de las cerraduras, para que nadie se quede en la puerta un lunes por la mañana.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Anuncios de puestos y despachos",
+      },
+      {
+        type: "p",
+        parts: [
+          "Cuando queda libre un puesto fijo o un despacho, publicamos anuncios en portales inmobiliarios como ",
           {
             type: "link",
             href: "https://www.idealista.com/",
@@ -2349,70 +2448,38 @@ export const blogPosts: BlogPost[] = [
             text: "Fotocasa",
             external: true,
           },
-          ", la IA nos sirve de borrador y de espejo —nunca de voz automática sin revisión humana—.",
+          ". La IA nos ayuda a adaptar la descripción a cada portal y a cada tipo de espacio, sin escribirla desde cero cada vez.",
         ],
+      },
+      {
+        type: "h3",
+        text: "La wiki de bienvenida para nuevas coworkers",
       },
       {
         type: "p",
         parts: [
-          "También apoyamos la operativa con sistemas de acceso inteligentes (como ",
-          {
-            type: "link",
-            href: "https://nuki.io/es/",
-            text: "Nuki",
-            external: true,
-          },
-          ") y con nuestra wiki abierta en ",
+          "Tenemos una wiki de onboarding en ",
           {
             type: "link",
             href: "https://wiki.espacioarroelo.es/",
             text: "wiki.espacioarroelo.es",
             external: true,
           },
-          ": documentación viva para que la información no viva solo en la cabeza de quien está de turno.",
+          " con todo lo práctico: cómo se entra, cómo se reserva una sala, cómo funciona la cocina. La IA nos ayuda a mantenerla al día y a redactar las explicaciones de forma sencilla.",
         ],
       },
-      "La regla es simple: la máquina propone, nosotras decidimos. Si un texto suena frío, lo reescribimos. Si una automatización ahorra tiempo pero empeora la bienvenida, no vale.",
       {
         type: "h2",
-        text: "Tiempo ganado: más salón, más comunidad",
+        text: "Lo más personal: calendario, citas y presentaciones",
       },
+      "Gestionar un espacio es también gestionar la vida de quien lo lleva. La IA nos echa una mano con el calendario y las citas, desde cuadrar reuniones hasta algo tan cotidiano como pedir cita en el taller para el coche. Y cuando preparo una charla o una presentación, me ayuda a encontrar fotos adecuadas para acompañar lo que quiero contar.",
+      "Son cosas pequeñas, pero sumadas son horas a la semana.",
       {
-        type: "p",
-        parts: [
-          "Cada hora que no pasamos reformateando un anuncio es una hora que puede ir al ",
-          {
-            type: "link",
-            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
-            text: "Café a la fresca",
-          },
-          ", a acompañar a una coworker nueva o a cuidar el ",
-          {
-            type: "link",
-            href: "/espacio",
-            text: "salón",
-          },
-          ". Esa es la métrica que nos importa.",
-        ],
+        type: "h2",
+        text: "Lo menos online: el tiempo que nos devuelve",
       },
-      {
-        type: "p",
-        parts: [
-          "Si buscas mesa y fibra, mira el ",
-          {
-            type: "link",
-            href: "/espacio",
-            text: "espacio",
-          },
-          " y las ",
-          {
-            type: "link",
-            href: "/coworkers",
-            text: "coworkers",
-          },
-          ". Si buscas un lugar donde la tecnología no se coma la humanidad, este post es para ti.",
-        ],
-      },
+      "Aquí está el sentido de todo. Cada hora que no paso descargando facturas o buscando un correo es una hora que puedo dedicar a lo que ninguna IA hace: recibir a quien viene a conocer el espacio, presentar a dos coworkers que deberían conocerse, preparar un café, organizar un taller o cuidar el espacio físico para que sea un sitio agradable donde trabajar.",
+      "Arroelo siempre ha sido una comunidad antes que un alquiler de mesas. La IA no cambia eso; nos ayuda a protegerlo.",
       {
         type: "image",
         src: "/photos/blog/ia-encuentro-comunidad.jpg",
@@ -2422,70 +2489,9 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "RuralGPT y SINERGIA: aprender IA en Arroelo (y en Anceu)",
+        text: "Siempre con supervisión humana",
       },
-      {
-        type: "p",
-        parts: [
-          "La IA en Arroelo no es solo back-office. También es formación abierta.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://ruralgpt.gal/es/",
-            text: "RuralGPT",
-            external: true,
-          },
-          " —iniciativa de ",
-          {
-            type: "link",
-            href: "https://ruralhackers.com/",
-            text: "Rural Hackers",
-            external: true,
-          },
-          " y ",
-          {
-            type: "link",
-            href: "https://anceu.com/",
-            text: "Anceu Coliving",
-            external: true,
-          },
-          "— lleva la IA aplicada al trabajo real: residencias intensivas en la aldea y talleres prácticos (productividad, web) para profesionales que no quieren más demos eternos.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          "Y en Pontevedra, en el propio Espacio Arroelo, organizamos encuentros y talleres SINERGIA (o Sinergia IA): una cita periódica —con ritmo mensual— abierta a quien quiera aprender inteligencia artificial en compañía, sin necesidad de ser coworker. Es la versión urbana y accesible del mismo hilo: probar herramientas, compartir dudas y conectar con el ecosistema RuralGPT.",
-        ],
-      },
-      {
-        type: "image",
-        src: "/photos/blog/ia-sinergia-taller.jpg",
-        alt: "Taller SINERGIA en Espacio Arroelo: cartas de actividad y portátil sobre la mesa compartida",
-        caption:
-          "SINERGIA: aprender en grupo, con café en la mesa y curiosidad compartida.",
-      },
-      "No inventamos un calendario cerrado de ediciones pasadas: el formato es lo estable —mensual, abierto, práctico— y las fechas concretas salen por redes y boca a boca. Si quieres venir, escribe o síguenos: la puerta del tercer piso está para eso.",
-      {
-        type: "h2",
-        text: "Si quieres probarlo con nosotras",
-      },
-      {
-        type: "p",
-        parts: [
-          "La IA en un coworking de Pontevedra no es un eslogan: es una forma de ganar horas para la gente. Si te interesa el salón, RuralGPT, Anceu o simplemente aprender sin prisa, ",
-          {
-            type: "link",
-            href: "/#contacto",
-            text: "escribe",
-          },
-          " o pasa por Cobián Roffignac. Nosotras seguiremos usando la máquina para lo repetible —y el café para lo importante.",
-        ],
-      },
+      "Una regla que no negociamos: nada se publica ni se envía sin que yo lo revise antes. La IA prepara, propone y ordena; las decisiones y el tono siguen siendo nuestros. Se equivoca a veces, y por eso la revisión no es opcional.",
     ],
   },
   {
