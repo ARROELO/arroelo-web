@@ -1505,13 +1505,6 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/cwsc-2018-networking-calle.jpg",
-        alt: "Asistentes de la Coworking Spain Conference conversando en una terraza de calle",
-        caption:
-          "Fuera de la sala también hay congreso: red, cerveza y lanyards.",
-      },
-      {
-        type: "image",
         src: "/photos/blog/cwsc-almuerzo-grupo.jpg",
         alt: "Grupo de asistentes de la Coworking Spain Conference comiendo juntos al aire libre bajo sombrillas",
         caption:
