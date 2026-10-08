@@ -2061,19 +2061,6 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        type: "p",
-        parts: [
-          "Parte de aquella jornada quedó en el ",
-          {
-            type: "link",
-            href: "https://www.facebook.com/media/set/?set=a.821042254650090&type=3",
-            text: "álbum de Facebook de «A vida en palabras»",
-            external: true,
-          },
-          ". Aquí recuperamos cuatro fotogramas de esa Arroelada de mayo.",
-        ],
-      },
-      {
         type: "image",
         src: "/photos/blog/human-library-vida-en-palabras-paul-canizo.jpg",
         alt: "Paul do Canizo muestra un libro ilustrado durante el cuenta cuentos",
