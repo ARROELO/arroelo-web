@@ -43,8 +43,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "CO-Labora 2015: empleo colaborativo en Espacio Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/colabora-cartel-2015.jpg",
-    alt: "Cartel del programa CO-labora 2015 de Espacio Arroelo: globos y texto «¡Actívate haciendo!»",
+    image: "/photos/blog/colabora-slide1.png",
+    alt: "Papel kraft en la pared de Espacio Arroelo con #COLABORA 2015, el lema «Compartir es tener» y nombres de participantes escritos a boli",
     excerpt:
       "Cómo Espacio Arroelo lanzó CO-Labora 2015: programa gratuito de empleo para 15 personas, coaching y el germen documentado del Arela municipal en Pontevedra.",
     body: [
@@ -110,13 +110,6 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        type: "image",
-        src: "/photos/blog/colabora-cartel-2015.jpg",
-        alt: "Cartel oficial CO-labora 2015: programa de empleo gratuito para 15 profesionales, inicio 23 de enero",
-        caption:
-          "Cartel de convocatoria (archivo de la web de Espacio Arroelo, 2014).",
-      },
-      {
         type: "h2",
         text: "Qué era CO-Labora 2015",
       },
@@ -160,9 +153,9 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: "/photos/blog/colabora-slide1.png",
-        alt: "Cartel artesanal #COLABORA 2015 con el lema «Compartir es tener» y nombres de participantes",
+        alt: "Papel kraft en la pared con #COLABORA 2015, «Compartir es tener» y nombres de participantes escritos a boli",
         caption:
-          "Material de sesión del programa (archivo del microsite Colabora15).",
+          "Papel de sesión del programa (archivo del microsite Colabora15).",
       },
       {
         type: "image",
