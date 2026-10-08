@@ -1096,14 +1096,6 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/lazaro-alfombra-amarilla.jpg",
-        alt: "Lázaro, perro negro con pecho blanco, tumbado en la alfombra amarilla del coworking",
-        caption: "Lázaro en el salón: coworker de cuatro patas desde el primer día.",
-        fit: "contain",
-        position: "top",
-      },
-      {
-        type: "image",
         src: "/photos/blog/lazaro-tania-grupo-coworkers.jpg",
         alt: "Tania Solla sujeta a Lázaro rodeada de coworkers en el coworking Espacio Arroelo",
         caption:
