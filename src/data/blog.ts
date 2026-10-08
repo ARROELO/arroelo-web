@@ -1645,14 +1645,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Antes de que «design thinking» sonara en todas las agendas, en Pontevedra ya nos juntábamos un sábado entero a prototipar. Lo llamábamos PonteJam. Formaba parte de las Global Jams: encuentros simultáneos en decenas de ciudades del mundo —",
+          "Antes de que «design thinking» sonara en todas las agendas, en Pontevedra ya nos juntábamos un sábado entero a prototipar. Lo llamábamos PonteJam. Formaba parte de las ",
           {
             type: "link",
-            href: "https://planet.globalservicejam.org/",
-            text: "Global Service Jam",
+            href: "https://www.globaljams.org/",
+            text: "Global Jams",
             external: true,
           },
-          ", Global Sustainability Jam, Global GovJam— donde nadie sabe el reto hasta que se desvela… y entonces hay que hacer, no solo hablar.",
+          ": encuentros simultáneos en decenas de ciudades del mundo donde nadie sabe el reto hasta que se desvela… y entonces hay que hacer, no solo hablar.",
         ],
       },
       {
@@ -1664,35 +1664,7 @@ export const blogPosts: BlogPost[] = [
             href: "/",
             text: "Espacio Arroelo",
           },
-          " impulsamos esas jornadas. África lo resume en una frase que la prensa recogió en 2015: «Dejar de hablar, ponerse a hacer». Parte de esa memoria gráfica sigue en nuestros ",
-          {
-            type: "link",
-            href: "https://www.facebook.com/media/set/?set=a.900021420085506&type=3",
-            text: "álbumes de Facebook de las Jams",
-            external: true,
-          },
-          " (",
-          {
-            type: "link",
-            href: "https://www.facebook.com/media/set/?set=a.780567082030941&type=3",
-            text: "otro",
-            external: true,
-          },
-          ", ",
-          {
-            type: "link",
-            href: "https://www.facebook.com/media/set/?set=a.729253143829002&type=3",
-            text: "otro",
-            external: true,
-          },
-          ", ",
-          {
-            type: "link",
-            href: "https://www.facebook.com/media/set/?set=a.598364883584496&type=3",
-            text: "otro",
-            external: true,
-          },
-          ").",
+          " impulsamos esas jornadas. África lo resume en una frase que la prensa recogió en 2015: «Dejar de hablar, ponerse a hacer».",
         ],
       },
       {
@@ -1754,7 +1726,7 @@ export const blogPosts: BlogPost[] = [
           "Una de nosotras, atenta en mitad del ruido bueno de las dinámicas de grupo.",
       },
       { type: "h2", text: "Las ediciones que sí podemos nombrar" },
-      "Solo contamos lo que fuentes públicas permiten verificar:",
+      "Aquí os contamos algunas de las ediciones:",
       {
         type: "p",
         parts: [
