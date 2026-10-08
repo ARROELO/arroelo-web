@@ -2253,13 +2253,6 @@ export const blogPosts: BlogPost[] = [
           "A veces el relato llega con objetos: un libro propio, una foto, un gesto.",
       },
       {
-        type: "image",
-        src: "/photos/blog/human-library-redeira-cartel.jpg",
-        alt: "Cartel de A Redeira: o espazo para todas as persoas, Concello de Pontevedra",
-        caption:
-          "A Redeira y el Concello: el marco público de una conversación hecha de gente.",
-      },
-      {
         type: "h2",
         text: "Por qué importa en un coworking",
       },
