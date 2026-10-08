@@ -2453,19 +2453,7 @@ export const blogPosts: BlogPost[] = [
             text: "Anceu Coliving",
             external: true,
           },
-          "— lleva la IA aplicada al trabajo real: residencias intensivas en la aldea y talleres prácticos (productividad, web) para profesionales que no quieren más demos eternos. Lo hemos contado también al hablar de ",
-          {
-            type: "link",
-            href: "/blog/rural-hackers-tecnologia-impacto-rural",
-            text: "Rural Hackers",
-          },
-          " y de ",
-          {
-            type: "link",
-            href: "/blog/anceu-coliving-ciudad-aldea",
-            text: "Anceu",
-          },
-          ".",
+          "— lleva la IA aplicada al trabajo real: residencias intensivas en la aldea y talleres prácticos (productividad, web) para profesionales que no quieren más demos eternos.",
         ],
       },
       {
