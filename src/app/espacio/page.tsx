@@ -72,8 +72,8 @@ export default function EspacioPage() {
       <main>
         <section className="relative min-h-[70svh] overflow-hidden bg-deep-teal text-paper">
           <Image
-            src={withBase("/photos/salon-overview.jpg")}
-            alt="Interior del salón de Espacio Arroelo con luz natural"
+            src={withBase("/photos/espacio-hero-salon-coworkers.jpg")}
+            alt="Dos mujeres trabajando con portátiles en la mesa del salón, con luz natural y ventanales"
             fill
             priority
             className="object-cover object-center"
