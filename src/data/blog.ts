@@ -1382,6 +1382,14 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "image",
+        src: "/photos/blog/cwsc-2017-acreditacion-africa.jpg",
+        alt: "Acreditación de speaker de África Rodríguez en la Coworking Spain Conference 2017",
+        caption:
+          "Acreditación de speaker de África en CWSC 2017: así llegamos al escenario aquel mayo.",
+        fit: "contain",
+      },
+      {
         type: "p",
         parts: [
           {
