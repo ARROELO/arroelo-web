@@ -1934,10 +1934,10 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Human Library en Espacio Arroelo (Pontevedra)",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/human-library-featured.jpg",
-    alt: "Círculo de conversación en Casa da Luz: una persona libro comparte su historia con oyentes",
+    image: "/photos/blog/human-library-vida-en-palabras-libro-humano.jpg",
+    alt: "Libro humano en taburete conversando con lectoras en la Human Library de Arroelo",
     excerpt:
-      "Tres ediciones verificadas: A Vida en Palabras en Michelena (2015), Sente Siria con refugiados (2016) y Para chula, a miña parrula sobre feminismo e igualdad (2018).",
+      "Tres ediciones verificadas: A vida en palabras en Michelena (2015), Sente Siria con refugiados (2016) y Para chula, a miña parrula sobre feminismo e igualdad (2018).",
     body: [
       {
         type: "p",
@@ -1986,32 +1986,59 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "A Vida en Palabras: la primera Human Library en Michelena",
+        text: "A vida en palabras: la primera Human Library en Michelena",
       },
       {
         type: "p",
         parts: [
-          "En mayo de 2015, dentro de las ",
+          "En mayo de 2015, dentro de la ",
           {
             type: "link",
             href: "https://web.archive.org/web/20160317043407/http://espacioarroelo.es/actividades/arroeladas/attachment/arroeladamayo2015/",
-            text: "Arroeladas",
+            text: "Arroelada",
             external: true,
           },
-          " del coworking en Michelena, las coworkers Sabela Muñiz y Elefantes de Cacharrería organizaron «A Vida en Palabras». Había contacontos, audiorrelatos, un muro de deseos… y, en el centro, una ",
+          " del coworking en Michelena, nuestras coworkers ",
           {
             type: "link",
-            href: "https://humanlibrary.org/",
-            text: "Human Library",
+            href: "https://www.revistaesmas.com/literatura--sabela-muniz-.html",
+            text: "Sabela Muñiz",
             external: true,
           },
-          ": los libros no eran ediciones de papel, sino personas. El archivo del propio Arroelo nombra a Ángela Paz, Víctor Loira, Diego Castro y María Luz Pérez Arias como «personas en préstamo».",
+          " y ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/elefantescacharreria",
+            text: "Elefantes de Cacharrería",
+            external: true,
+          },
+          " organizaron una xornada original: «A vida en palabras». La propuesta era transformar vidas en palabras e intercambiar emociones y experiencias —con infancia, literatura, sabor y, en el centro, personas en préstamo.",
         ],
       },
       {
         type: "p",
         parts: [
-          "No inventamos diagnósticos ni etiquetas que esa página no escribe. Lo que sí dice, con claridad, es el propósito: promover el diálogo, acabar con prejuicios y fomentar el entendimiento en un ambiente informal. Fue la primera vez que el formato se instaló en casa —en el mismo edificio donde empezó la ",
+          "El programa tenía varias capas. ",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/cultura/cuentacuentos-en-las-librerias-y-una-muestra-en-la-biblioteca-calientan-los-motores-del-salon-del-libro_268029_102.html",
+            text: "Paul do Canizo",
+            external: true,
+          },
+          " ofreció un cuenta cuentos para niñas y niños. Hubo audiorrelatos: narraciones gráficas de obras de Sabela Muñiz, coworker y escritora. Elefantes de Cacharrería propuso literatura en el paladar. Y cerramos con un muro de los deseos donde cada quien dejó lo que quería decir sin subir a un atril.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "El núcleo fue una Human Library al estilo de la ",
+          {
+            type: "link",
+            href: "https://humanlibrary.org/",
+            text: "Human Library Organization",
+            external: true,
+          },
+          ", la red internacional en la que los libros son personas. Quienes vinieron a «leer» conversaron con «personas en préstamo»: Ángela Paz, Víctor Loira, Diego Castro y María Luz Pérez Arias. No inventamos diagnósticos ni etiquetas que el archivo no escribe. Lo que sí queda claro es el propósito: promover el diálogo, acabar con prejuicios y fomentar el entendimiento en un ambiente informal. Fue la primera vez que el formato se instaló en casa —en el mismo edificio donde empezó la ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
@@ -2021,11 +2048,47 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "p",
+        parts: [
+          "Parte de aquella jornada quedó en el ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.821042254650090&type=3",
+            text: "álbum de Facebook de «A vida en palabras»",
+            external: true,
+          },
+          ". Aquí recuperamos cuatro fotogramas de esa Arroelada de mayo.",
+        ],
+      },
+      {
         type: "image",
-        src: "/photos/blog/human-library-circulo-conversacion.jpg",
-        alt: "Círculo pequeño de personas conversando en un espacio de piedra con arcos",
+        src: "/photos/blog/human-library-vida-en-palabras-paul-canizo.jpg",
+        alt: "Paul do Canizo muestra un libro ilustrado durante el cuenta cuentos",
         caption:
-          "Leer a alguien: menos escenario, más pregunta y presencia.",
+          "Paul do Canizo durante el cuenta cuentos de «A vida en palabras», Arroelada de mayo.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-vida-en-palabras-grupo-muro.jpg",
+        alt: "Grupo sentado en el suelo con sombrero verde, libros infantiles y muro de notas al fondo",
+        caption:
+          "En el suelo, entre libros y un sombrero verde; al fondo, el muro de los deseos.",
+        fit: "contain",
+        position: "top",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-vida-en-palabras-circulo.jpg",
+        alt: "Círculo de conversación en el salón de Michelena durante la jornada",
+        caption:
+          "Círculo de conversación en Michelena durante «A vida en palabras».",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/human-library-vida-en-palabras-libro-humano.jpg",
+        alt: "Hombre en taburete conversando con un pequeño grupo de lectoras",
+        caption:
+          "Un «libro humano» en taburete con sus lectoras: el formato Human Library en Arroelo.",
       },
       {
         type: "h2",
@@ -2213,7 +2276,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Buscamos —y no encontramos en prensa verificable— una edición etiquetada como «enfermedades raras» en Arroelo. No la inventamos. Lo que sí está documentado es la Human Library de mayo de 2015 en Michelena, Sente Siria sobre personas refugiadas en 2016, y el coloquio de igualdad de 2018 con Pierres en la mesa. Tres fechas, tres fuentes, cero ficción.",
+          "Buscamos —y no encontramos en prensa verificable— una edición etiquetada como «enfermedades raras» en Arroelo. No la inventamos. Lo que sí está documentado es «A vida en palabras» en mayo de 2015 en Michelena, Sente Siria sobre personas refugiadas en 2016, y el coloquio de igualdad de 2018 con Pierres en la mesa. Tres fechas, tres fuentes, cero ficción.",
         ],
       },
       {
