@@ -1562,8 +1562,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/fb-cwsc-01.jpg",
-        alt: "Público en sillas amarillas durante una sesión de la Coworking Spain Conference",
+        src: "/photos/blog/cwsc-sala-llena-grupo.jpg",
+        alt: "Gran grupo de asistentes de la Coworking Spain Conference sonriendo y con las manos en alto en un espacio de oficina",
         caption:
           "La sala llena: tomar notas, mirar la diapositiva y volver al coworking con otra pregunta.",
       },
