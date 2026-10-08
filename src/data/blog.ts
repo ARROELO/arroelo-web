@@ -1009,18 +1009,18 @@ export const blogPosts: BlogPost[] = [
     image: "/photos/blog/lazaro-alfombra-amarilla.jpg",
     alt: "Lázaro, el primer perro de Espacio Arroelo, tumbado en la alfombra amarilla del coworking",
     excerpt:
-      "Sí, puedes venir con tu perro a Espacio Arroelo. Empezó con Lázaro —el de Tania—; hoy Pilita duerme en el sillón y Lagun viene con Ana.",
+      "Sí, puedes venir con tu perro a nuestro coworking. Empezó con Lázaro —el de Tania—; hoy Pilita viene con Helena y Lagun con Ana.",
     body: [
       {
         type: "p",
         parts: [
-          "Hay coworkings que ponen un icono de «pet friendly» y siguen siendo oficinas con prohibición disimulada. Nosotras lo vivimos al revés: el salón de ",
+          "Hay coworkings que ponen un icono de «pet friendly» y siguen siendo oficinas con prohibición disimulada. Nosotras lo vivimos al revés: en ",
           {
             type: "link",
             href: "/",
             text: "Espacio Arroelo",
           },
-          " lleva años compartiendo mesa, wifi y siestas bajo la silla con perretes que saben estar. Si trabajas en remoto, si eres freelance o si llegas a Pontevedra con mochila y correa, esta es la respuesta corta: sí, puedes venir con tu perro.",
+          " llevamos años compartiendo mesa, wifi y siestas bajo la silla con perretes que saben estar. Si trabajas en remoto, si eres freelance o si llegas a Pontevedra con mochila y correa, esta es la respuesta corta: sí, puedes venir con tu perro.",
         ],
       },
       {
@@ -1061,7 +1061,7 @@ export const blogPosts: BlogPost[] = [
             href: "/#contacto",
             text: "escríbenos o pásate",
           },
-          ": la puerta del tercer piso de Cobián Roffignac está para eso.",
+          ": abrimos la puerta del tercer piso de Cobián Roffignac para eso.",
         ],
       },
       {
@@ -1084,14 +1084,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El dog-friendly de Arroelo no empezó con un icono en la web. Empezó con Lázaro. En abril de 2017, en Michelena, la coworker ",
+          "Nuestro dog-friendly no empezó con un icono en la web. Empezó con Lázaro. En abril de 2017, en Michelena, la coworker ",
           {
             type: "link",
             href: "https://www.instagram.com/taniasolla_/",
             text: "Tania Solla",
             external: true,
           },
-          " llevaba poco tiempo con un perrito negro en casa. Había conocido el espacio, le había gustado… y Lázaro «pidió» formar parte de la familia coworker. Tania lo propuso al salón con honestidad: quien no estuviera de acuerdo, que lo dijera. La manada dijo que sí.",
+          " llevaba poco tiempo con un perrito negro en casa. Había conocido el espacio, le había gustado… y Lázaro «pidió» formar parte de la familia coworker. Tania lo propuso al salón con honestidad: quien no estuviera de acuerdo, que lo dijera. La manada dijo que sí —y nosotras abrimos la puerta.",
         ],
       },
       {
@@ -1104,7 +1104,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Lázaro se quedó en el día a día del salón. No era un adorno: era coworker de cuatro patas. Por eso Espacio Arroelo es dog-friendly: porque una coworker preguntó a la manada y la manada abrió la puerta.",
+          "Lázaro se quedó en el día a día de nuestro salón. No era un adorno: era coworker de cuatro patas. Por eso somos dog-friendly: porque una coworker preguntó a la manada y la manada abrió la puerta.",
         ],
       },
       {
@@ -1162,7 +1162,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Hoy, entre quienes vienen al salón, está Pilita. Duerme en el sillón mientras su dueña Helena trabaja (",
+          "Hoy, entre quienes vienen a nuestro salón, está Pilita. Se acomoda mientras su dueña Helena trabaja (",
           {
             type: "link",
             href: "https://www.instagram.com/heconstela/",
@@ -1171,15 +1171,6 @@ export const blogPosts: BlogPost[] = [
           },
           ").",
         ],
-      },
-      {
-        type: "image",
-        src: "/photos/blog/pilita-sillon-dormida.jpg",
-        alt: "Pilita dormida en el sillón gris del salón de Espacio Arroelo, junto a la ventana con lluvia",
-        caption:
-          "Pilita en el sillón mientras Helena trabaja: pet-friendly de verdad.",
-        fit: "contain",
-        position: "top",
       },
       {
         type: "image",
@@ -1202,14 +1193,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Lagun es el perrete rizado de nuestra coworker Ana. Ella trabaja los miércoles en ",
+          "Lagun es el perrete rizado de nuestra coworker Ana. Ella trabaja los miércoles en Arroelo: llegó para mes y medio a ",
           {
             type: "link",
             href: "https://anceu.com/",
-            text: "Anceu",
+            text: "Anceu Coliving",
             external: true,
           },
-          ": llegó hace un mes y medio en su caravana, se quedó, se mudó… y hoy forma parte del equipo de ",
+          " en su caravana, se quedó, se mudó… y hoy forma parte del equipo de ",
           {
             type: "link",
             href: "https://ruralhackers.com/",
@@ -1230,7 +1221,7 @@ export const blogPosts: BlogPost[] = [
             text: "@la_imaginaria_es",
             external: true,
           },
-          "). Donde va Ana, va Lagun —también cuando el trabajo cruza de la aldea al salón.",
+          ").",
         ],
       },
       {
@@ -1246,7 +1237,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El resto es lo de siempre en Arroelo: fibra, salas 4K, Café a la fresca a las 11:30, ",
+          "El resto es lo de siempre en nuestro salón: fibra, salas 4K, Café a la fresca a las 11:30, ",
           {
             type: "link",
             href: "/#tarifa",
