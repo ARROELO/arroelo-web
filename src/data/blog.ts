@@ -1994,7 +1994,7 @@ export const blogPosts: BlogPost[] = [
             href: "/",
             text: "Espacio Arroelo",
           },
-          " no lo tratamos como eslogan. Lo practicamos. Aquí contamos solo lo que fuentes públicas permiten verificar: tres ediciones, tres tonos, el mismo gesto de escuchar antes de etiquetar.",
+          " no lo tratamos como eslogan. Lo practicamos. Tres ediciones, tres tonos, el mismo gesto de escuchar antes de etiquetar.",
         ],
       },
       {
@@ -2303,7 +2303,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Buscamos —y no encontramos en prensa verificable— una edición etiquetada como «enfermedades raras» en Arroelo. No la inventamos. Lo que sí está documentado es «A vida en palabras» en mayo de 2015 en Michelena, Sente Siria sobre personas refugiadas en 2016, y el coloquio de igualdad de 2018 con Pierres en la mesa. Tres fechas, tres fuentes, cero ficción.",
+          "Lo documentado es «A vida en palabras» en mayo de 2015 en Michelena, Sente Siria sobre personas refugiadas en 2016, y el coloquio de igualdad de 2018 con Pierres en la mesa. Tres fechas, tres fuentes.",
         ],
       },
       {
