@@ -1535,30 +1535,39 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "De la sala del congreso al salón de Cobián Roffignac",
+        text: "Relaciones que duran más que el congreso",
       },
       {
         type: "p",
         parts: [
-          "Hoy seguimos en el centro de Pontevedra —puedes ver el ",
-          {
-            type: "link",
-            href: "/espacio",
-            text: "espacio",
-          },
-          ". Seguimos midiendo el éxito menos en ocupación y más en conversaciones. Y seguimos creyendo que lo que decimos en un foro nacional solo tiene sentido si lo podemos practicar el lunes a las nueve, con café y vecinos de mesa.",
+          "Para nosotras, este encuentro ha significado entablar relaciones duraderas: vínculos que han permitido crear otros proyectos de impacto social entre territorios en España. Y, sobre todo, grandes amistades que hoy son referentes para nosotras.",
         ],
       },
       {
         type: "p",
         parts: [
-          "Si te interesa el recorrido —de LinkedIn a coworking, de mudanzas a red europea—, la ",
+          "Entre ellas están ",
           {
             type: "link",
-            href: "/blog/coworking-pontevedra-echn-arroelo",
-            text: "historia de coworking en Pontevedra y ECHN",
+            href: "https://genion.es/",
+            text: "Genion",
+            external: true,
           },
-          " cuenta el contexto. CWSC fue nuestro altavoz; Arroelo sigue siendo el laboratorio.",
+          " en Alicante, ",
+          {
+            type: "link",
+            href: "https://fangaloka.es/",
+            text: "Fangaloka",
+            external: true,
+          },
+          " en Móstoles y ",
+          {
+            type: "link",
+            href: "https://workincompany.com/",
+            text: "Work in Company",
+            external: true,
+          },
+          " en Sevilla.",
         ],
       },
       {
