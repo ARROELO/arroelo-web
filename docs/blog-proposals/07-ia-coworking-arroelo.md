@@ -69,7 +69,7 @@ La IA en Arroelo no es solo back-office. También es formación abierta.
 
 RuralGPT —iniciativa de Rural Hackers y Anceu Coliving— lleva la IA aplicada al trabajo real: residencias intensivas en la aldea y talleres prácticos (productividad, web) para profesionales que no quieren más demos eternos.
 
-Y en Pontevedra, en el propio Espacio Arroelo, organizamos encuentros y talleres SINERGIA (o Sinergia IA): una cita periódica —con ritmo mensual— abierta a quien quiera aprender inteligencia artificial en compañía, sin necesidad de ser coworker. Es la versión urbana y accesible del mismo hilo: probar herramientas, compartir dudas y conectar con el ecosistema RuralGPT. Lo anunciamos en Instagram; un ejemplo reciente es esta convocatoria de horas de IA con RuralGPT.
+Y en Pontevedra, en el propio Espacio Arroelo, organizamos encuentros y talleres SINERGIA (o Sinergia IA): una cita periódica —con ritmo mensual— abierta a quien quiera aprender inteligencia artificial en compañía, sin necesidad de ser coworker. Es la versión urbana y accesible del mismo hilo: probar herramientas, compartir dudas y conectar con el ecosistema RuralGPT.
 
 No inventamos un calendario cerrado de ediciones pasadas: el formato es lo estable —mensual, abierto, práctico— y las fechas concretas salen por redes y boca a boca. Si quieres venir, escribe o síguenos: la puerta del tercer piso está para eso.
 

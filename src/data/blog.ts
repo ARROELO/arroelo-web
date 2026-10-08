@@ -2459,21 +2459,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Y en Pontevedra, en el propio Espacio Arroelo, organizamos encuentros y talleres SINERGIA (o Sinergia IA): una cita periódica —con ritmo mensual— abierta a quien quiera aprender inteligencia artificial en compañía, sin necesidad de ser coworker. Es la versión urbana y accesible del mismo hilo: probar herramientas, compartir dudas y conectar con el ecosistema RuralGPT. Lo anunciamos en ",
-          {
-            type: "link",
-            href: "https://www.instagram.com/arroelo/",
-            text: "Instagram",
-            external: true,
-          },
-          "; un ejemplo reciente es esta ",
-          {
-            type: "link",
-            href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
-            text: "convocatoria de horas de IA con RuralGPT",
-            external: true,
-          },
-          ".",
+          "Y en Pontevedra, en el propio Espacio Arroelo, organizamos encuentros y talleres SINERGIA (o Sinergia IA): una cita periódica —con ritmo mensual— abierta a quien quiera aprender inteligencia artificial en compañía, sin necesidad de ser coworker. Es la versión urbana y accesible del mismo hilo: probar herramientas, compartir dudas y conectar con el ecosistema RuralGPT.",
         ],
       },
       {
