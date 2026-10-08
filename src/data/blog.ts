@@ -595,7 +595,7 @@ export const blogPosts: BlogPost[] = [
     image: "/photos/blog/magma-interior-pizarra.jpg",
     alt: "Interior de Magma Espacio en Ourense: pizarra de normas de la comunidad, puestos de coworking y zona de ping-pong",
     excerpt:
-      "Coworking y coliving en Galicia que tejen red: Sende, iSlow, Anceu, Magma en Ourense y Espacio Arroelo en Pontevedra. Espacios creativos donde se comparte conocimiento.",
+      "Coworking y coliving en Galicia con los que tejemos red: Sende, iSlow, Anceu, Magma en Ourense y nosotras en Pontevedra. Espacios creativos donde compartimos conocimiento.",
     body: [
       {
         type: "p",
@@ -606,26 +606,26 @@ export const blogPosts: BlogPost[] = [
             href: "/",
             text: "cultura colaborativa",
           },
-          " aquí se mide en puentes —rural y urbano, costa y interior, Galicia y Portugal— y en espacios que comparten conocimiento sin pedirte un código postal exclusivo.",
+          " la medimos en puentes —rural y urbano, costa y interior, Galicia y Portugal— y en espacios donde compartimos conocimiento sin pedir un código postal exclusivo.",
         ],
       },
       {
         type: "p",
         parts: [
-          "Este post es un mapa, no un ranking. Enlazamos sitios reales —con web y, cuando hay, prensa— y situamos a ",
+          "Este post es un mapa, no un ranking. Enlazamos sitios reales y nos situamos —",
           {
             type: "link",
             href: "/",
             text: "Espacio Arroelo",
           },
-          " en Pontevedra como un nodo más de esa red: el nuestro, el que habitamos cada día.",
+          " en Pontevedra— como un nodo más de esa red: el nuestro, el que habitamos cada día.",
         ],
       },
       {
         type: "h2",
         text: "Más que mesas: qué significa colaborar en Galicia",
       },
-      "Una mesa, wifi y una sala de reuniones son el mínimo. Lo colaborativo empieza cuando el espacio deja de ser solo alquiler de sillas: talleres abiertos, cenas colectivas, residencias, hackathones, redes europeas, puentes con la aldea. En Galicia eso se ve tanto en un tercer piso del casco histórico como en una casa de piedra a media hora de la playa o en una aldea de veinte habitantes con vistas a Portugal.",
+      "Una mesa, wifi y una sala de reuniones son el mínimo. Lo colaborativo empieza cuando el espacio deja de ser solo alquiler de sillas: talleres abiertos, cenas colectivas, residencias, hackathones, redes europeas, puentes con la aldea. En Galicia lo conocemos tanto en un tercer piso del casco histórico como en una casa de piedra a media hora de la playa o en una aldea de veinte habitantes con vistas a Portugal.",
       {
         type: "image",
         src: "/photos/blog/taller-circulo-comunidad.jpg",
@@ -653,7 +653,7 @@ export const blogPosts: BlogPost[] = [
             href: "/blog/historia-espacio-arroelo-pontevedra",
             text: "Espacio Arroelo",
           },
-          ", fundado por África Rodríguez y María Pierres. No era solo una oficina barata: era la apuesta de que profesionales de perfiles distintos pudieran compartir espacio, proyectos y —esto no envejece— un manual de convivencia.",
+          ", que fundamos África Rodríguez y María Pierres. No éramos solo una oficina barata: apostábamos a que profesionales de perfiles distintos pudieran compartir espacio, proyectos y —esto no envejece— un manual de convivencia.",
         ],
       },
       {
@@ -685,7 +685,7 @@ export const blogPosts: BlogPost[] = [
         src: "/photos/blog/comunidad-hoodies-arroelo.jpg",
         alt: "Comunidad de Espacio Arroelo con sudaderas del coworking de Pontevedra frente a una pizarra",
         caption:
-          "Arroelo: comunidad con nombre propio en el coworking de Pontevedra.",
+          "Nosotras: comunidad con nombre propio en el coworking de Pontevedra.",
       },
       {
         type: "h2",
@@ -721,13 +721,7 @@ export const blogPosts: BlogPost[] = [
             text: "Onda Cero entrevistó a Martiño Fortes sobre una década de coworking",
             external: true,
           },
-          ". Y en la Coworking Spain Conference 2025, María Santos moderó la sesión sobre coworking en ciudades pequeñas —el mismo foro donde África ha llevado la mirada de Arroelo—. Lo contamos en ",
-          {
-            type: "link",
-            href: "/blog/coworking-spain-conference-arroelo",
-            text: "CWSC y Arroelo",
-          },
-          ". Ourense y Pontevedra no compiten: demuestran que el coworking local aguanta cuando hay oficio y vecindad.",
+          ". Y en la Coworking Spain Conference 2025, María Santos moderó la sesión sobre coworking en ciudades pequeñas —el mismo foro donde África ha llevado nuestra mirada—. Ourense y Pontevedra no compiten: conocemos de cerca que el coworking local aguanta cuando hay oficio y vecindad.",
         ],
       },
       {
@@ -744,7 +738,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El mapa colaborativo gallego también se escribe en aldeas.",
+          "El mapa colaborativo gallego también lo tejemos en aldeas.",
         ],
       },
       {
@@ -763,7 +757,7 @@ export const blogPosts: BlogPost[] = [
             text: "volver al pueblo con internet, emprendimiento y educación",
             external: true,
           },
-          ". Con Arroelo e Impact Hub Vigo compartimos capítulo en el ",
+          ". Junto a Impact Hub Vigo compartimos capítulo en el ",
           {
             type: "link",
             href: "https://www.sende.co/hackathon-for-refugees",
@@ -796,7 +790,7 @@ export const blogPosts: BlogPost[] = [
             text: "Anceu Coliving",
             external: true,
           },
-          " —Ponte Caldelas, media hora desde Pontevedra— es el puente ciudad–aldea que nosotras cruzamos a menudo: remoto, vecindad y revitalización rural. El relato completo está en ",
+          " —Ponte Caldelas, media hora desde Pontevedra— es el puente ciudad–aldea que cruzamos a menudo: remoto, vecindad y revitalización rural. El relato completo lo contamos en ",
           {
             type: "link",
             href: "/blog/anceu-coliving-ciudad-aldea",
@@ -860,7 +854,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Más allá del puesto fijo, Galicia concentra espacios creativos pensados para aprender en compañía. Desde 2017 formamos parte de la ",
+          "Más allá del puesto fijo, conocemos en Galicia espacios creativos pensados para aprender en compañía. Desde 2017 formamos parte de la ",
           {
             type: "link",
             href: "https://creativehubs.net/",
@@ -886,7 +880,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "En el eje Galicia–Portugal existió (y deja huella) la lógica de Creative Habitat: espacios que se abren mutuamente —Arroelo en Pontevedra, Sende en Senderiz, Anceu, Dinamo en Viana, WOW en Porto—. En Vigo, iniciativas como Impact Hub Vigo o ",
+          "En el eje Galicia–Portugal existió (y deja huella) la lógica de Creative Habitat: espacios que se abren mutuamente —nosotras en Pontevedra, Sende en Senderiz, Anceu, Dinamo en Viana, WOW en Porto—. En Vigo, iniciativas como Impact Hub Vigo o ",
           {
             type: "link",
             href: "https://vigosonico.com/",
@@ -912,7 +906,7 @@ export const blogPosts: BlogPost[] = [
         type: "h2",
         text: "Un mapa, no una competencia",
       },
-      "No hace falta elegir un único nodo. Puedes trabajar un mes en Sende, una temporada en iSlow, una semana en Anceu y el día a día en Magma o en Arroelo. Lo que sostiene la cultura colaborativa en Galicia es precisamente eso: que los espacios se reconozcan entre sí.",
+      "No hace falta elegir un único nodo. Puedes trabajar un mes en Sende, una temporada en iSlow, una semana en Anceu y el día a día en Magma o con nosotras. Lo que sostiene la cultura colaborativa en Galicia es precisamente eso: que los espacios nos reconozcamos entre sí.",
       {
         type: "p",
         parts: [

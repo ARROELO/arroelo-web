@@ -42,7 +42,9 @@
 - Destacada: `celebracion-comunidad-mesa.jpg` (mesa compartida — poco usada)
 - Inline: `taller-circulo-comunidad.jpg`, `comunidad-hoodies-arroelo.jpg`, `echn-twin-hubs-taller.jpg` / `making.jpg`, `anceu-comunidad.jpg`
 
-**Enlaces internos (sin canibalizar):** Anceu, ECHN, Café a la fresca, historia, Rural Hackers, CWSC (mención breve).
+**Enlaces internos (sin canibalizar):** Anceu, ECHN (`/blog/coworking-pontevedra-echn-arroelo`), Café a la fresca, historia, Rural Hackers. Sin enlace a CWSC en el cuerpo.
+
+**Voz:** primera persona plural (nosotras / compartimos / tejemos / conocemos). Sende, iSlow, Magma y Anceu en tercera natural. Sin la frase «—con web y, cuando hay, prensa—».
 
 ---
 
@@ -52,4 +54,4 @@
 
 ---
 
-*Actualizado oct 2026: iSlow verificado; Magma con La Voz + Onda Cero; Sende + Anceu + Creative Habitat.*
+*Actualizado oct 2026: voz 1ª pl.; sin «web y prensa»; sin «Lo contamos en CWSC»; enlace ECHN; iSlow/Magma/Sende/Anceu verificados.*
