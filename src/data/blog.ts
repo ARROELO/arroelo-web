@@ -290,33 +290,15 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking inclusivo en Pontevedra: Empleo con Apoyo en Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/ceci-ordenanza-arroelo.jpg",
-    alt: "Cecilia en su puesto de ordenanza en el coworking Espacio Arroelo (PontevedraViva / Down Xuntos)",
+    image: "/photos/blog/xuntos-comunidad-arroelo.jpg",
+    alt: "Comunidad de Down Pontevedra Xuntos y Espacio Arroelo junto al banner de la asociación, en un momento lúdico en el coworking",
     excerpt:
-      "Cómo Espacio Arroelo incorporó Empleo con Apoyo con Down Pontevedra Xuntos: Cecilia y Celso en el equipo, disciplina diaria y una comunidad que se ensancha.",
+      "Desde 2016 formamos parte del programa de Empleo con Apoyo con Down Pontevedra Xuntos: Cecilia y Celso en el equipo, disciplina diaria y una comunidad que se ensancha.",
     body: [
       {
         type: "p",
         parts: [
-          "Hay coworkings que hablan de diversidad en la web y la dejan en el footer. En ",
-          {
-            type: "link",
-            href: "/",
-            text: "Espacio Arroelo",
-          },
-          " la diversidad también se midió en contratos, horarios y tareas concretas: atención a quien entra, correo, paquetería, orden del ",
-          {
-            type: "link",
-            href: "/espacio",
-            text: "espacio",
-          },
-          ". No como adorno. Como pieza del engranaje.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          "Desde 2016 documentamos —con ",
+          "Desde 2016 somos parte —con ",
           {
             type: "link",
             href: "https://www.facebook.com/DownPontevedraXuntos/",
@@ -330,8 +312,33 @@ export const blogPosts: BlogPost[] = [
             text: "Federación Down Galicia",
             external: true,
           },
-          "— una apuesta de Empleo con Apoyo en nuestro coworking de Pontevedra. Cecilia y Celso formaron parte del equipo. Esta es esa historia, con fuentes públicas y sin inventar el presente.",
+          "— del programa de Empleo con Apoyo en nuestro coworking de Pontevedra. Cecilia y Celso forman parte del equipo. Aquí os contamos nuestra historia.",
         ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Hay coworkings que hablan de diversidad en la web y la dejan en el footer. En ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          " la medimos también en contratos, horarios y tareas concretas: atención a quien entra, correo, paquetería, orden del ",
+          {
+            type: "link",
+            href: "/espacio",
+            text: "espacio",
+          },
+          ". No como adorno. Como pieza del engranaje.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/xuntos-comunidad-arroelo.jpg",
+        alt: "Grupo de Down Pontevedra Xuntos y Espacio Arroelo junto al banner de la asociación, en un momento lúdico",
+        caption:
+          "Con Down Pontevedra Xuntos: comunidad, juego y el banner de la asociación en nuestro salón.",
       },
       {
         type: "h2",
@@ -340,7 +347,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Abrimos en 2013 porque dos autónomas —María Pierres y África Rodríguez— necesitaban un lugar con red. La ",
+          "Abrimos en 2013 porque nosotras, María Pierres y África Rodríguez, dos autónomas entonces — necesitábamos un lugar con wifi. La ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
@@ -365,10 +372,10 @@ export const blogPosts: BlogPost[] = [
       "Esa frase no es marketing. Es operativa.",
       {
         type: "image",
-        src: "/photos/entrada-puerta-abierta.jpg",
-        alt: "Puerta abierta del coworking Espacio Arroelo en Pontevedra",
+        src: "/photos/blog/angela-ceci-maria-pierres.jpg",
+        alt: "Ángela (orientadora laboral), Ceci y María Pierres (cofundadora) juntas en Espacio Arroelo",
         caption:
-          "El salón: entrada, recepción y orden del día — el espacio que el equipo sostiene.",
+          "Ángela (orientadora laboral), Ceci y María Pierres (cofundadora): el puente entre Xuntos y el coworking.",
       },
       {
         type: "h2",
@@ -384,7 +391,7 @@ export const blogPosts: BlogPost[] = [
             text: "Down Galicia contaba",
             external: true,
           },
-          " que, tras un periodo de prácticas, Espacio Arroelo contrató a Cecilia, trabajadora del programa Empleo con Apoyo (ECA) de Down Pontevedra. Sus tareas: atención al cliente y mantenimiento del espacio. La fecha que marca el relato público es el entorno del 17 de octubre: de las prácticas al sí.",
+          " que, tras un periodo de prácticas, contratamos a Cecilia, trabajadora del programa Empleo con Apoyo (ECA) de Down Pontevedra. Sus tareas: atención al cliente y mantenimiento del espacio.",
         ],
       },
       {
@@ -397,13 +404,13 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "África, entonces gerente del coworking, lo resumió en gallego con una frase que sigue definiéndonos: «A incorporación de Cecilia a Espacio Arroelo fixo que desde un coworking comecemos a construír o mundo que nos gusta.»",
+          "Yo, África, cofundadora del coworking, lo resumí con una frase que sigue definiéndonos: «A incorporación de Cecilia a Espacio Arroelo fixo que desde un coworking comecemos a construír o mundo que nos gusta.»",
         ],
       },
       {
         type: "p",
         parts: [
-          "En 2019, la misma Federación ampliaba el retrato: Cecilia trabajaba en Arroelo desde mayo de 2016; se formaba en informática e Internet con la Red CEMIT para apoyar web y redes del coworking —ampliación de funciones que salió de ver cómo se manejaba con la tecnología—. Ese mismo año, el ",
+          "En 2019, la misma Federación ampliaba el retrato: Cecilia trabajaba con nosotras desde mayo de 2016; se formaba en informática e Internet con la Red CEMIT para apoyar web y redes del coworking —ampliación de funciones que salió de ver cómo se manejaba con la tecnología—. Ese mismo año, el ",
           {
             type: "link",
             href: "https://www.diariodepontevedra.es/articulo/pontevedra/cecilia-tambien-quiere-puede-trabajar-comedores-escolares/201911051338171059487.html",
@@ -417,7 +424,7 @@ export const blogPosts: BlogPost[] = [
             text: "Down Galicia",
             external: true,
           },
-          " informaban de que compatibilizaba el puesto en el coworking con un trabajo de monitora en comedor escolar (Arume) y de que había firmado contrato indefinido con Espacio Arroelo.",
+          " informaban de que compatibilizaba el puesto en el coworking con un trabajo de monitora en comedor escolar (Arume) y de que había firmado contrato indefinido con nosotras.",
         ],
       },
       {
@@ -427,14 +434,7 @@ export const blogPosts: BlogPost[] = [
         caption:
           "Cecilia en Arume (comedor escolar): la misma persona que compatibilizaba ese puesto con Arroelo, según el Diario de Pontevedra (2019).",
       },
-      "África lo dijo sin rodeos: Cecilia había cambiado la forma de ver la organización; era una pieza clave del engranaje. «Nosotras no nos planteamos seguir en la empresa sin ella.»",
-      {
-        type: "image",
-        src: "/photos/blog/ceci-experiencia-youtube.jpg",
-        alt: "Cecilia en Espacio Arroelo: fotograma del vídeo «A experiencia de Cecilia» (Down Galicia)",
-        caption:
-          "Fotograma del vídeo de Down Galicia «Experiencias laborais en 1ª persoa — Cecilia en Espacio Arroelo».",
-      },
+      "Lo dijimos sin rodeos: Cecilia había cambiado la forma de ver la organización; era una pieza clave del engranaje. «Nosotras no nos planteamos seguir en la empresa sin ella.»",
       {
         type: "video",
         youtubeId: "M7PfTwy1gyg",
@@ -457,42 +457,22 @@ export const blogPosts: BlogPost[] = [
             text: "Down Galicia (2019)",
             external: true,
           },
-          " sitúa su contrato en 2018, tras prácticas y una evolución que Ángela Patricio —preparadora laboral de Xuntos— describió con claridad: cada vez más autónomo e independiente en sus funciones; las gerentes decidieron incorporarlo al equipo. Para Celso era su primer contrato laboral.",
+          " sitúa su contrato en 2018, tras prácticas y una evolución que Ángela Patricio —preparadora laboral de Xuntos— describió con claridad: cada vez más autónomo e independiente en sus funciones; decidimos incorporarlo al equipo. Para Celso era su primer contrato laboral.",
         ],
       },
       "Compartían el rol de ordenanza con Cecilia en días distintos. Mismo salón, mismo estándar: el día a día del coworking no se improvisa.",
       {
         type: "image",
-        src: "/photos/blog/celso-empleo-apoyo.jpg",
-        alt: "Celso en la entrada del coworking Espacio Arroelo, ordenanza del equipo",
+        src: "/photos/blog/celso-mural-atreven.jpg",
+        alt: "Celso, en blanco y negro, bajo el mural «el mundo pertenece a quienes se atreven...» en Espacio Arroelo",
         caption:
-          "Celso en Arroelo: fotograma del vídeo público de Espacio Arroelo (Facebook / Instagram @arroelo) — «Celso forma parte de nuestro equipo desde el año 2019».",
-      },
-      {
-        type: "p",
-        parts: [
-          "En redes propias lo contamos en primera persona: ",
-          {
-            type: "link",
-            href: "https://www.facebook.com/EspacioArroelo/videos/1993082204890732/",
-            text: "Celso forma parte de nuestro equipo",
-            external: true,
-          },
-          " (también en ",
-          {
-            type: "link",
-            href: "https://www.instagram.com/reel/DWJOwiYjPHZ/",
-            text: "Instagram @arroelo",
-            external: true,
-          },
-          "), a través de Down Pontevedra Xuntos y Empleo con Apoyo.",
-        ],
+          "Celso en el coworking, bajo el mural «el mundo pertenece a quienes se atreven...».",
       },
       {
         type: "h2",
         text: "Emoción y operación: lo que cambia en la comunidad",
       },
-      "África explicó los beneficios en dos capas —emoción y operación— ya en 2016, y las repitió con matices en 2019.",
+      "Explicamos los beneficios en dos capas —emoción y operación— ya en 2016, y las repetimos con matices en 2019.",
       "Emoción: integrar en la organización a toda la sociedad cambia el entorno. Coworkers y familias conviven con realidades nuevas; se aprende con mundos que antes eran ajenos. «La posibilidad de que todas las personas que conviven en la oficina puedan comprender que el mundo es tan amplio como personas viven en él» —dijo África— y añadió que ella misma había evolucionado «muchísimo como persona».",
       "Operación: gestionar un coworking come tiempo en tareas que alejan de lo que hace felices a los coworkers. El tiempo que Ceci trabajaba en el espacio era «ouro» para hablar con la comunidad, tejer redes o inventar ideas. Disciplina y organización: seguridad para el resto.",
       {
@@ -533,14 +513,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde Arroelo recomendamos la iniciativa a otros coworkings. Down Galicia recoge la idea: son un tipo de empresa perfecta para un programa como ",
+          "Recomendamos la iniciativa a otros coworkings. Down Galicia recoge la idea: son un tipo de empresa perfecta para un programa como ",
           {
             type: "link",
             href: "https://downgalicia.org/es/programas/empleo-con-apoyo-sindrome-de-down/",
             text: "Empleo con Apoyo",
             external: true,
           },
-          " —con apoyo de orientación laboral, adaptación al puesto y definición de tareas desde Xuntos—, y con beneficios fiscales que el propio espacio mencionó en prensa.",
+          " —con apoyo de orientación laboral, adaptación al puesto y definición de tareas desde Xuntos—, y con beneficios fiscales que mencionamos en prensa.",
         ],
       },
       {
@@ -574,7 +554,7 @@ export const blogPosts: BlogPost[] = [
         type: "h2",
         text: "Seguir construyendo el mundo que nos gusta",
       },
-      "No vamos a fingir que un artículo de 2019 describe el organigrama de 2026. Lo que sí está documentado —y es suficientemente fuerte— es esto: Espacio Arroelo apostó por Empleo con Apoyo; Cecilia y Celso sostuvieron el día a día; la comunidad aprendió; África puso palabras a un cambio que era a la vez operativo y ético.",
+      "No vamos a fingir que un artículo de 2019 describe el organigrama de 2026. Lo que sí está documentado —y es suficientemente fuerte— es esto: apostamos por Empleo con Apoyo; Cecilia y Celso sostuvieron el día a día; la comunidad aprendió; África puso palabras a un cambio que era a la vez operativo y ético.",
       "Eso es coworking inclusivo en Pontevedra sin PowerPoint: con correo recibido, mesas en orden y un equipo que cabe en la definición de «familia Arroelo».",
       {
         type: "p",
