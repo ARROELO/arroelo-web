@@ -2135,6 +2135,13 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "video",
+        vimeoId: "169467984",
+        title: "Hackathon for Refugees — Sende, Impact Hub Vigo y Espacio Arroelo",
+        caption:
+          "Así lo vivimos en Sende: 48 horas de prototipado con Impact Hub Vigo, personas refugiadas y nuestra red de Arroelo.",
+      },
+      {
         type: "image",
         src: "/photos/blog/human-library-casa-luz-circulo.jpg",
         alt: "Grupo en círculo en Casa da Luz durante una sesión de diálogo",
