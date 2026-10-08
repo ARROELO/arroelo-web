@@ -479,7 +479,7 @@ export const blogPosts: BlogPost[] = [
         alt: "Celso, en blanco y negro, bajo el mural «el mundo pertenece a quienes se atreven...» en Espacio Arroelo",
         caption:
           "Celso en el coworking, bajo el mural «el mundo pertenece a quienes se atreven...».",
-        // Tall mural portrait (≈4:5) in a 3:2 frame — contain keeps face + «el mundo pertenece…» readable.
+        // Tall mural portrait (≈4:5): contain + 3:4 frame keeps face + «el mundo pertenece…» readable.
         fit: "contain",
         position: "top",
       },
