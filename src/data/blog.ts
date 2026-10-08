@@ -1961,27 +1961,7 @@ export const blogPosts: BlogPost[] = [
             href: "/",
             text: "Espacio Arroelo",
           },
-          " no lo tratamos como eslogan. Lo practicamos. Aparece en nuestra presentación de ",
-          {
-            type: "link",
-            href: "https://pontevedra.wordcamp.org/2019/sponsor/espacio-arroelo/",
-            text: "WordCamp Pontevedra 2019",
-            external: true,
-          },
-          " —y en la de ",
-          {
-            type: "link",
-            href: "https://pontevedra.wordcamp.org/2018/sponsor/espacio-arroelo/",
-            text: "2018",
-            external: true,
-          },
-          "— junto a Rails Girls, ",
-          {
-            type: "link",
-            href: "/blog/global-service-jam-creatividad-arroelo",
-            text: "Global Service Jam",
-          },
-          " o Hackaton for Refugees. Aquí contamos solo lo que fuentes públicas permiten verificar: tres ediciones, tres tonos, el mismo gesto de escuchar antes de etiquetar.",
+          " no lo tratamos como eslogan. Lo practicamos. Aquí contamos solo lo que fuentes públicas permiten verificar: tres ediciones, tres tonos, el mismo gesto de escuchar antes de etiquetar.",
         ],
       },
       {
@@ -2038,7 +2018,7 @@ export const blogPosts: BlogPost[] = [
             text: "Human Library Organization",
             external: true,
           },
-          ", la red internacional en la que los libros son personas. Quienes vinieron a «leer» conversaron con «personas en préstamo»: Ángela Paz, Víctor Loira, Diego Castro y María Luz Pérez Arias. No inventamos diagnósticos ni etiquetas que el archivo no escribe. Lo que sí queda claro es el propósito: promover el diálogo, acabar con prejuicios y fomentar el entendimiento en un ambiente informal. Fue la primera vez que el formato se instaló en casa —en el mismo edificio donde empezó la ",
+          ", la red internacional en la que los libros son personas. Quienes vinieron a «leer» conversaron con «personas en préstamo»: Ángela Paz, Víctor Loira, Diego Castro y María Luz Pérez Arias. El propósito era promover el diálogo, acabar con prejuicios y fomentar el entendimiento en un ambiente informal. Fue la primera vez que el formato se instaló en casa —en el mismo edificio donde empezó la ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
@@ -2097,21 +2077,21 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El domingo 24 de abril de 2016, de 12:00 a 14:30, la Casa da Luz acogió ",
+          "El domingo 24 de abril de 2016, de 12:00 a 14:30, la Casa da Luz del Ayuntamiento de Pontevedra acogió Sente Siria: una acción social colaborativa que parte de las y los coworkers de Arroelo. El objetivo era claro: conocer la situación es lo que nos hace libres para tomar decisiones sobre nuestra responsabilidad como personas ciudadanas del mundo. Lo contaron ",
           {
             type: "link",
             href: "https://www.pontevedraviva.com/es/general/sente-siria-desde-pontevedra_277451_102.html",
-            text: "Sente Siria",
+            text: "PontevedraViva",
             external: true,
           },
-          ": una acción social colaborativa que parte de las y los coworkers de Arroelo. ",
+          " y ",
           {
             type: "link",
             href: "https://www.entrefamilias.com/sente-siria-sensibilizar-desde-las-personas-para-las-personas-una-iniciativa-solidaria-de-nuestras-colaboradoras-de-espacio-arroelo-y-sus-coworkers/",
             text: "Entrefamilias",
             external: true,
           },
-          " recogió la premisa: «conocer la situación es lo que nos hace libres para tomar decisiones sobre nuestra responsabilidad como personas ciudadanas del mundo».",
+          ".",
         ],
       },
       {
