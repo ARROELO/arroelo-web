@@ -2841,10 +2841,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/pontevedra-escritorio-parque.jpg",
-        alt: "Coworker riendo en un escritorio en el parque de Pontevedra",
+        src: "/photos/blog/celebracion-comunidad-arroelo.jpg",
+        alt: "Grupo de personas celebrando en comunidad en el coworking Espacio Arroelo en Pontevedra, con tarta, vino y ambiente alegre",
         caption:
-          "Aterrizar es también esto: mesa, ciudad y caras conocidas el primer mes.",
+          "Aterrizar es también esto: caras conocidas, brindis y comunidad el primer mes.",
       },
       {
         type: "p",
