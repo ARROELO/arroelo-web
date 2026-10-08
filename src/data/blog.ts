@@ -823,13 +823,6 @@ export const blogPosts: BlogPost[] = [
             text: "iSlow",
             external: true,
           },
-          " —a veces se busca mal escrito como «Isloe» o «Isoe»; la marca y el dominio oficiales son ",
-          {
-            type: "link",
-            href: "https://islowcoliving.com/",
-            text: "iSlow / islowcoliving.com",
-            external: true,
-          },
           ". Casa de piedra de 1915 abierta en 2022 por Inés y Julio: coliving rural con coworking dedicado, fibra de alta velocidad, skill shares y talleres que mezclan tradición gallega con trabajo remoto. Misma lógica que Sende o Anceu: ralentizar sin desconectar.",
         ],
       },
@@ -880,14 +873,41 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "En el eje Galicia–Portugal existió (y deja huella) la lógica de Creative Habitat: espacios que se abren mutuamente —nosotras en Pontevedra, Sende en Senderiz, Anceu, Dinamo en Viana, WOW en Porto—. En Vigo, iniciativas como Impact Hub Vigo o ",
+          "En el eje Galicia–Portugal existió (y deja huella) la lógica de Creative Habitat: espacios que se abren mutuamente —nosotras en Pontevedra, Sende en Senderiz, Anceu, ",
           {
             type: "link",
-            href: "https://vigosonico.com/",
-            text: "Vigosónico",
+            href: "https://dinamo10.net/",
+            text: "Dinamo",
             external: true,
           },
-          " (distrito creativo / formación musical) refuerzan la misma idea: el conocimiento no es un PDF; es una sala, un taller, una red.",
+          " en Viana do Castelo, ",
+          {
+            type: "link",
+            href: "https://www.wowbyfinsa.com/",
+            text: "WOW",
+            external: true,
+          },
+          " en Porto—. El conocimiento no es un PDF; es una sala, un taller, una red.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En esa misma red de hubs creativos de Galicia conocemos también ",
+          {
+            type: "link",
+            href: "https://espazomaceta.gal/",
+            text: "A Maceta",
+            external: true,
+          },
+          " en Muros —coworking y comunidad creativa frente a la ría— y ",
+          {
+            type: "link",
+            href: "https://www.laplatanera.com/",
+            text: "La Platanera",
+            external: true,
+          },
+          " en A Illa de Arousa —taller, residencias y retiros donde el oficio se comparte a ritmo de isla—. Las tenemos en el mapa de quienes compartimos conocimiento en Galicia: espacios que se reconocen sin competir por el mismo código postal.",
         ],
       },
       {
@@ -900,6 +920,37 @@ export const blogPosts: BlogPost[] = [
             text: "Rural Hackers",
           },
           " demuestra que formación e impacto local también son cultura colaborativa: academia, residencias, hackathones al servicio de quien ya vivía en la aldea.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "CRAB Spaces: el mapa que sigue",
+      },
+      {
+        type: "p",
+        parts: [
+          "Esa lógica de red rural tiene continuidad en ",
+          {
+            type: "link",
+            href: "https://crabspaces.com/",
+            text: "CRAB Spaces",
+            external: true,
+          },
+          " (Creative Habitat): una comunidad de hubs creativos rurales —maker labs en graneros, coliving en aldeas, galerías pop-up en pueblos que no salen en la postcard—. En ",
+          {
+            type: "link",
+            href: "https://crabspaces.com/",
+            text: "crabspaces.com",
+            external: true,
+          },
+          " hay un ",
+          {
+            type: "link",
+            href: "https://crabspaces.com/map",
+            text: "mapa de espacios CRAB",
+            external: true,
+          },
+          ": cada punto entre montes, bosques y calles de pueblo es una historia distinta. Nosotras, Espacio Arroelo, fuimos socios del proyecto —coordinado por Dinamo10 y desarrollado junto a Sende y Giovani Iddocca / Treballu—, cofinanciado por la Unión Europea a través del programa Creative Europe, tal como lo cuenta la propia web.",
         ],
       },
       {
