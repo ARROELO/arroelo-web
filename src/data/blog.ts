@@ -2289,12 +2289,6 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Lo documentado es «A vida en palabras» en mayo de 2015 en Michelena, Sente Siria sobre personas refugiadas en 2016, y el coloquio de igualdad de 2018 con Pierres en la mesa. Tres fechas, tres fuentes.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
           "Si te interesa esta capa de Arroelo —la que no cabe en una tarifa—, pásate por el ",
           {
             type: "link",
