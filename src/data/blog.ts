@@ -2817,10 +2817,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/rural-hackers-laptop-sticker.jpg",
-        alt: "Portátil con pegatina de Rural Hackers sobre mesa de madera en un patio de aldea",
+        src: "/photos/blog/rural-hackers-sketchy-shona.jpg",
+        alt: "Persona con bastón junto a un gran retrato recortado al aire libre; Sketchy Shōna cuelga entre los pinos",
         caption:
-          "Tecnología con raíz: el sticker dice Rural Hackers; el fondo, la aldea.",
+          "Colgamos Sketchy Shōna entre los pinos: arte en el bosque, con el retrato y el bastón como parte del encuentro.",
       },
       { type: "h2", text: "Construir con quien ya está" },
       "En Rural Hackers no se trata de «llevar la modernidad» como quien reparte folletos. Se trata de construir con el poder de la vecindad de Anceu y de una comunidad internacional. Juntas crean futuros donde el esfuerzo de cada persona deja impacto duradero.",
