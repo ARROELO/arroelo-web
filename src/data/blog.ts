@@ -2063,9 +2063,9 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: "/photos/blog/human-library-vida-en-palabras-grupo-muro.jpg",
-        alt: "Grupo sentado en el suelo con sombrero verde, libros infantiles y muro de notas al fondo",
+        alt: "Pablo Cañiza (cuenta cuentos) en el suelo con sombrero verde, libros infantiles y muro de los deseos al fondo",
         caption:
-          "En el suelo, entre libros y un sombrero verde; al fondo, el muro de los deseos.",
+          "Pablo Cañiza (cuenta cuentos) en el suelo, entre libros y un sombrero verde; al fondo, el muro de los deseos.",
         fit: "contain",
         position: "top",
       },
