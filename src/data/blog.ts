@@ -1006,10 +1006,10 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking dog-friendly en Pontevedra: Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/perro-amigas-salon.jpg",
-    alt: "Dos coworkers y un perrito en el salón dog-friendly de Espacio Arroelo",
+    image: "/photos/blog/lazaro-alfombra-amarilla.jpg",
+    alt: "Lázaro, el primer perro de Espacio Arroelo, tumbado en la alfombra amarilla del coworking",
     excerpt:
-      "Sí, puedes venir con tu perro a Espacio Arroelo. Empezó con Lázaro y su carta a la manada en 2017; hoy Pilita duerme en el sillón. Puente dog-friendly con Anceu.",
+      "Sí, puedes venir con tu perro a Espacio Arroelo. Empezó con Lázaro —el de Tania— y su carta a la manada en 2017; hoy Pilita duerme en el sillón. Puente dog-friendly con Anceu.",
     body: [
       {
         type: "p",
@@ -1076,6 +1076,13 @@ export const blogPosts: BlogPost[] = [
         text: "Lázaro: el primer perro de Arroelo",
       },
       {
+        type: "image",
+        src: "/photos/blog/lazaro-retrato-bn.jpg",
+        alt: "Retrato en blanco y negro de Lázaro, el primer perro de Espacio Arroelo",
+        caption:
+          "Lázaro: el perrete de Tania que, con su carta, nos hizo dog-friendly.",
+      },
+      {
         type: "p",
         parts: [
           "El dog-friendly de Arroelo no empezó con un icono en la web. Empezó con Lázaro. En abril de 2017, en Michelena —contado en la ",
@@ -1084,13 +1091,20 @@ export const blogPosts: BlogPost[] = [
             href: "/blog/historia-espacio-arroelo-pontevedra",
             text: "historia de Espacio Arroelo",
           },
-          "—, la coworker Tania Solla llevaba tres semanas con un perrito en casa. Había conocido el espacio, le había gustado… y le «insistió» en escribir una carta a la familia coworker pidiendo formar parte. Tania reenvió esa propuesta al salón y pidió, con honestidad, que quien no estuviera de acuerdo se pronunciara.",
+          "—, la coworker Tania Solla llevaba tres semanas con un perrito en casa. Había conocido el espacio, le había gustado… y le «insistió» en escribir una carta a la familia coworker pidiendo formar parte. En aquella carta Lázaro contaba su historia —incluida una parte de maltrato— y pedía quedarse con nosotras. Tania reenvió esa propuesta al salón y pidió, con honestidad, que quien no estuviera de acuerdo se pronunciara.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/lazaro-alfombra-amarilla.jpg",
+        alt: "Lázaro tumbado en la alfombra amarilla del coworking Espacio Arroelo",
+        caption:
+          "Lázaro en el salón: el primero de la manada de cuatro patas.",
       },
       {
         type: "p",
         parts: [
-          "Lo que llegó fue un aluvión de mensajes cariñosos. El coworker Darío le escribió a Lázaro una carta de bienvenida: no un OK burocrático, sino gratitud por haber venido. En el hall de entrada colgamos aquellas cartas de amor, lealtad y respeto; Lázaro, de camino a la sala 2, pasaba sonriendo delante. En ",
+          "Lo que llegó fue un aluvión de mensajes cariñosos. El coworker Darío le escribió a Lázaro una carta de bienvenida: no un OK burocrático, sino gratitud por haber venido —y, sin pretender saber su pasado, le dijo que aquí la energía es amor—. En el hall de entrada colgamos aquellas cartas de amor, lealtad y respeto; Lázaro, de camino a la sala 2, pasaba sonriendo delante. En ",
           {
             type: "link",
             href: "https://www.facebook.com/EspacioArroelo/posts/1316088431812134/",
@@ -1104,13 +1118,13 @@ export const blogPosts: BlogPost[] = [
             text: "archivo de Wayback (14 abril 2017)",
             external: true,
           },
-          ". La carta manuscrita de Lázaro iba como imagen adjunta en aquel post; el texto de la imagen ya no está online, así que no lo inventamos aquí.",
+          ". Ahí está el email de Tania y la carta de Darío; la carta manuscrita de Lázaro iba como imagen adjunta en aquel post. El texto de esa imagen ya no está online, así que no lo inventamos aquí.",
         ],
       },
       {
         type: "p",
         parts: [
-          "Lázaro se quedó en el día a día. En ",
+          "Por eso Espacio Arroelo es dog-friendly: porque Lázaro pidió pertenecer y la manada dijo que sí. Se quedó en el día a día. En ",
           {
             type: "link",
             href: "https://www.facebook.com/reel/1791546970932942/",
@@ -1278,7 +1292,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Lázaro fue el primer perro de Espacio Arroelo: el perrete de Tania Solla que, en 2017, llegó a Michelena con una carta a la manada coworker (",
+          "Lázaro fue el primer perro de Espacio Arroelo: el perrete de Tania Solla que, en 2017, llegó a Michelena con una carta a la manada coworker —contaba su historia, incluida una parte de maltrato, y pedía quedarse—. Por eso somos dog-friendly (",
           {
             type: "link",
             href: "https://www.facebook.com/EspacioArroelo/posts/1316088431812134/",
@@ -1302,7 +1316,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "En Arroelo, la primera «carta» dog-friendly fue la de Lázaro (abril 2017): una imagen manuscrita que adjuntó Tania al email a la comunidad; el cuerpo de esa imagen ya no está publicado en abierto, así que no lo transcribimos de memoria. El documento público más completo que enlazamos hoy es el ",
+          "En Arroelo, la primera «carta» dog-friendly fue la de Lázaro (abril 2017): una imagen manuscrita que adjuntó Tania al email a la comunidad —en ella pedía quedarse y contaba su historia, incluida una parte de maltrato—. El cuerpo de esa imagen ya no está publicado en abierto, así que no lo transcribimos de memoria; el email de Tania y la carta de Darío sí siguen en el ",
+          {
+            type: "link",
+            href: "https://web.archive.org/web/20170622005153/http://espacioarroelo.es/blog/historiadeamor/",
+            text: "archivo de Wayback",
+            external: true,
+          },
+          ". El documento público más completo que enlazamos hoy es el ",
           {
             type: "link",
             href: "https://anceu.com/es/manifiesto-dog-friendly/",

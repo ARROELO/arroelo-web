@@ -50,9 +50,9 @@
 - Preguntas frecuentes
 
 **Imágenes:**
-- Destacada: `blog/pilita-salon-sillon.jpg`
-- Inline: `perro-salon-pet.jpg`; selfie Michelena; Pilita; mesa oval
-- Enlaces externos a FB + Wayback (no hay `lazaro.jpg` recuperable)
+- Destacada: `blog/lazaro-alfombra-amarilla.jpg` (Lázaro en alfombra amarilla)
+- Inline temprano: `blog/lazaro-retrato-bn.jpg` + de nuevo la color junto a la carta; selfie Michelena; Pilita; `perro-salon-pet.jpg`
+- Enlaces externos a FB + Wayback (carta manuscrita `lazaro.jpg` no recuperable; no inventar su texto)
 
 ---
 
@@ -60,9 +60,9 @@
 
 ### Lázaro: el primer perro de Arroelo
 
-El dog-friendly de Arroelo no empezó con un icono en la web. Empezó con Lázaro. En abril de 2017, en Michelena, la coworker Tania Solla llevaba tres semanas con un perrito. Había conocido el espacio y le «insistió» en escribir una carta a la familia coworker. Tania reenvió la propuesta y pidió que quien no estuviera de acuerdo se pronunciara.
+El dog-friendly de Arroelo no empezó con un icono en la web. Empezó con Lázaro. En abril de 2017, en Michelena, la coworker Tania Solla llevaba tres semanas con un perrito. Había conocido el espacio y le «insistió» en escribir una carta a la familia coworker. En aquella carta contaba su historia —incluida una parte de maltrato— y pedía quedarse. Tania reenvió la propuesta y pidió que quien no estuviera de acuerdo se pronunciara.
 
-Llegó un aluvión de mensajes. Darío escribió a Lázaro una carta de bienvenida —gratitud, no un OK burocrático—. Las cartas presidieron el hall; Lázaro iba a la sala 2. En Facebook: «Cuando Lázaro encontró a la familia Arroela». Archivo: Wayback historiadeamor. La carta manuscrita era imagen; el texto de esa imagen ya no está online —no se inventa—.
+Llegó un aluvión de mensajes. Darío escribió a Lázaro una carta de bienvenida —gratitud, no un OK burocrático—. Las cartas presidieron el hall; Lázaro iba a la sala 2. En Facebook: «Cuando Lázaro encontró a la familia Arroela». Archivo: Wayback historiadeamor (email de Tania + carta de Darío). La carta manuscrita de Lázaro era imagen; el texto de esa imagen ya no está online —no se inventa—. Por eso somos dog-friendly.
 
 Más posts FB: día de trabajo #dogfriendly; cumple con Tania; aparición con coworkers en La Colmena Que Dice Sí (2017).
 
@@ -81,4 +81,4 @@ Lucky = primer coliver Anceu (África, jun 2020). Manifiesto Anceu en Notion. Ca
 
 ---
 
-*Actualizado oct 2026: historia de Lázaro verificada vía FB + Wayback; carta manuscrita no transcrita (imagen offline); Pepe fuera del cast Arroelo; Pilita y Lucky acotados.*
+*Actualizado oct 2026: historia de Lázaro verificada vía FB + Wayback; fotos nuevas `lazaro-alfombra-amarilla.jpg` + `lazaro-retrato-bn.jpg`; maltrato mencionado sin inventar el texto de la carta manuscrita; Pepe fuera del cast Arroelo; Pilita y Lucky acotados.*
