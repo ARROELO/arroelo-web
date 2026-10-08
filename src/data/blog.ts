@@ -1512,8 +1512,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/fb-cwsc-02.jpg",
-        alt: "Ponencia en CWSC sobre Sense of community theory e Impact Hub Comunidad",
+        src: "/photos/blog/cwsc-almuerzo-grupo.jpg",
+        alt: "Grupo de asistentes de la Coworking Spain Conference comiendo juntos al aire libre bajo sombrillas",
         caption:
           "En la sala también hablamos de teoría de comunidad: membresía, influencia, necesidades, conexión emocional.",
       },
