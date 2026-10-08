@@ -2583,14 +2583,7 @@ export const blogPosts: BlogPost[] = [
             text: "Metrominuto",
             external: true,
           },
-          " —el mapa esquemático que marca minutos entre puntos clave— ayudan a desmitificar distancias. Puedes explorarlo también en la ",
-          {
-            type: "link",
-            href: "https://metrominuto.pontevedra.gal/es/",
-            text: "guía ciudadana Metrominuto",
-            external: true,
-          },
-          ". Caminar deja de ser un plan B y pasa a ser el mapa por defecto. Quien se muda aquí no necesita coche para casi todo: necesita zapatos cómodos y, a veces, un paraguas.",
+          " —el mapa esquemático que marca minutos entre puntos clave— ayudan a desmitificar distancias. Caminar deja de ser un plan B y pasa a ser el mapa por defecto. Quien se muda aquí no necesita coche para casi todo: necesita zapatos cómodos y, a veces, un paraguas.",
         ],
       },
       {
@@ -2679,7 +2672,7 @@ export const blogPosts: BlogPost[] = [
             href: "/espacio",
             text: "espacio",
           },
-          " —Cobián Roffignac, planta 3— ofrecemos lo básico (mesa, fibra, salas) y lo que no se improvisa: comunidad. Las ",
+          " ofrecemos lo básico (mesa, fibra, salas) y lo que no se improvisa: comunidad. Las ",
           {
             type: "link",
             href: "/coworkers",
