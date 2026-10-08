@@ -2219,26 +2219,6 @@ export const blogPosts: BlogPost[] = [
           "Cada voz tenía nombre, trayecto y cartel: periodismo, márgenes, escritura, cooperación.",
       },
       {
-        type: "p",
-        parts: [
-          "El ",
-          {
-            type: "link",
-            href: "https://photos.google.com/share/AF1QipMWEFDQi5ZMglXR-ZyLNzLQ0ji2iCAX8dc8y56_x8OXW60DTo7kr4OY_kiPyATPkA?key=NkZEWGdsaWVDRlFFcFhZVGlRckpxeGdRa0NWX2pn",
-            text: "álbum de Google Photos",
-            external: true,
-          },
-          " de esa jornada —titulado «para chula mina parrula»— muestra círculos pequeños, carteles-biografía y la marca de ",
-          {
-            type: "link",
-            href: "https://aredeira.gal/",
-            text: "A Redeira",
-            external: true,
-          },
-          " («o espazo para todas as persoas»), el proyecto de igualdad del Concello que se presentaba esos mismos días.",
-        ],
-      },
-      {
         type: "image",
         src: "/photos/blog/human-library-para-chula-circulo.jpg",
         alt: "Persona con camiseta Para chula mi parrula conversando en círculo en Casa da Luz",
