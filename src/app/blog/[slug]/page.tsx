@@ -139,7 +139,11 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
         </div>
         {block.caption ? (
           <figcaption className="blog-post-figure-caption">
-            {block.caption}
+            {typeof block.caption === "string"
+              ? block.caption
+              : block.caption.map((part, partIndex) => (
+                  <InlinePart key={`img-cap-${index}-${partIndex}`} part={part} />
+                ))}
           </figcaption>
         ) : null}
       </figure>

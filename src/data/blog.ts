@@ -17,7 +17,8 @@ export type BlogBodyBlock =
       type: "image";
       src: string;
       alt: string;
-      caption?: string;
+      /** Plain text, or inline parts (same link pattern as body paragraphs). */
+      caption?: string | BlogInline[];
       /** Default cover. Use contain for tall portraits/group photos so heads and mural text stay visible. */
       fit?: "cover" | "contain";
       /** object-position hint (default center). Useful with cover or contain. */
@@ -1474,9 +1475,40 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/cwsc-2018-slide-comunidad.jpg",
-        alt: "Diapositiva Impact Hub «Comunidad vs Clientes» en una charla de CWSC",
-        caption: "Cultura colaborativa: menos métrica, más red.",
+        src: "/photos/blog/cwsc-grupo-magma-wekco.jpg",
+        alt: "Selfie de grupo en la Coworking Spain Conference con Magma Coworking, Wekco, Fangaloka y WOW Porto",
+        fit: "contain",
+        caption: [
+          "Estuvimos con ",
+          {
+            type: "link",
+            href: "https://www.magmaespacio.es/",
+            text: "Magma Coworking",
+            external: true,
+          },
+          ", ",
+          {
+            type: "link",
+            href: "https://wekco.net/",
+            text: "Wekco",
+            external: true,
+          },
+          ", ",
+          {
+            type: "link",
+            href: "https://fangaloka.es/",
+            text: "Fangaloka",
+            external: true,
+          },
+          " y ",
+          {
+            type: "link",
+            href: "https://www.wowbyfinsa.com/cowork/",
+            text: "WOW Porto",
+            external: true,
+          },
+          ": la red se practica fuera del pitch.",
+        ],
       },
       {
         type: "image",
