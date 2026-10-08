@@ -2195,21 +2195,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El 23 de junio de 2018, de 12:00 a 14:00, de nuevo en la Casa da Luz, el Concello de Pontevedra presentó la campaña de empoderamiento ",
-          {
-            type: "link",
-            href: "https://www.diariodepontevedra.es/articulo/pontevedra/ana-cabaleiro-patty-castro-alba-troiteiro-estaran-chula-mina-parrula/20180618162302986729.html",
-            text: "Para chula, a miña parrula",
-            external: true,
-          },
-          ". El ",
+          "El 23 de junio de 2018, de 12:00 a 14:00, de nuevo en la Casa da Luz, junto con el Ayuntamiento de Pontevedra organizamos la última edición Para chula, a miña parrula. El ",
           {
             type: "link",
             href: "https://www.diariodepontevedra.es/articulo/pontevedra/ana-cabaleiro-patty-castro-alba-troiteiro-estaran-chula-mina-parrula/20180618162302986729.html",
             text: "Diario de Pontevedra",
             external: true,
           },
-          " la describe como charla-coloquio —no como sello comercial Human Library— con cinco referentes: Ana Cabaleiro, Patty Castro, Alba Troiteiro, ",
+          " la describe como charla-coloquio con cinco referentes: Ana Cabaleiro, Patty Castro, Alba Troiteiro, ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
