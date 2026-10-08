@@ -293,6 +293,9 @@
 }
 
 .blog-post-figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
   width: 100%;
   margin: 1.5rem 0 0;
 }
@@ -313,11 +316,13 @@
   overflow: hidden;
   border-radius: 0;
   background: var(--color-mist);
+  flex-shrink: 0;
 }
 
 /*
-  Tall portraits / group photos: swap the default 3:2 landscape frame for 3:4
-  so object-contain can show heads + mural text without severe letterboxing.
+  Tall portraits: 3:4 so object-contain can show heads + mural text.
+  Landscape photos should use the default cover frame (3:2) — contain + 3:4
+  leaves a large empty band between the image and the caption.
 */
 .blog-post-figure-media--contain {
   aspect-ratio: 3 / 4;
@@ -342,7 +347,7 @@
 }
 
 .blog-post-figure-caption {
-  margin-top: 0.7rem;
+  margin: 0;
   max-width: 64ch;
   font-size: 14px;
   line-height: 1.45;

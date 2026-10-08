@@ -1730,34 +1730,21 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "PonteGovJam (2014). Bajo coordinación de Espacio Arroelo, una sesión de Service Design Thinking en el marco del Global GovJam: mirar servicios públicos con otras gafas (",
-          {
-            type: "link",
-            href: "https://tbp7.webnode.es/news/pontegovjam/",
-            text: "Thinking Business",
-            external: true,
-          },
-          "). El vídeo de aquella primera experiencia —equipos diseñando y prototipando servicios públicos en torno a un reto común— resume el tono: menos discurso, más mesa.",
-        ],
-      },
-      {
-        type: "video",
-        vimeoId: "111747073",
-        title: "Global GovJam Pontevedra — vídeo de la primera edición",
-        caption:
-          "Repasamos en vídeo el primer Ponte GovJam: reto mundial, equipos mixtos y prototipos de servicio público en pocas horas.",
-      },
-      {
-        type: "p",
-        parts: [
-          "Ponte Sustainability Jam (22 de noviembre de 2014). Casa das Campás (Universidad de Vigo). Casi medio centenar de participantes —estudiantes, emprendedoras, empleadas, desempleadas— que a las nueve de la mañana apenas se conocían. Primer Sustainability Jam gallego documentado por la prensa local, en paralelo a acciones similares en 33 países (",
+          "Primer Sustainability Jam gallego en paralelo a acciones similares en 33 países (",
           {
             type: "link",
             href: "https://www.pontevedraviva.com/es/general/doce-horas-de-creacion-en-el-primer-ponte-sustainability-jam-gallego_266145_102.html",
             text: "PontevedraViva",
             external: true,
           },
-          "). Organizado por Espacio Arroelo con la Universidad de Vigo. Horario maratón: de 9:30 a 21:30. Objetivo: afrontar retos de sostenibilidad con técnicas creativas y «una alta dosis de buen humor». Al final del día, prototipos sobre la mesa… y gente que doce horas después se abrazaba como si llevara años compartiendo proyecto.",
+          "). Lo organizamos desde Espacio Arroelo con la ",
+          {
+            type: "link",
+            href: "https://www.uvigo.gal/",
+            text: "Universidad de Vigo",
+            external: true,
+          },
+          ". Un horario de maratón: de 9:30 a 21:30. El objetivo era afrontar retos de sostenibilidad con técnicas creativas y «una alta dosis de buen humor». Al final del día, prototipos sobre la mesa… y gente que doce horas después se abrazaba como si llevara años compartiendo proyecto.",
         ],
       },
       {
@@ -1778,7 +1765,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "PonteJam «vuelta a casa» (febrero 2015). De nuevo en las instalaciones de Arroelo —sede de las Jams en la ciudad desde la primera edición—, tras el paso por Casa das Campás. 26 personas, en su mayoría debutantes. Formato más íntimo que la edición anterior (",
+          "PonteJam «vuelta a casa» (febrero 2015). Volvimos a las instalaciones de Arroelo —sede de las Jams en la ciudad desde la primera edición—, tras el paso por Casa das Campás. 26 personas, en su mayoría debutantes. Creamos un formato más íntimo que la edición anterior (",
           {
             type: "link",
             href: "https://www.pontevedraviva.com/es/general/ponte-jam-2015-la-vuelta-a-casa_268284_102.html",
@@ -1792,7 +1779,7 @@ export const blogPosts: BlogPost[] = [
             text: "Diario de Pontevedra",
             external: true,
           },
-          "). Enmarcado en la Global Jam / Global Service Jam, el mismo sábado que en más de 100 ciudades del mundo.",
+          "). En este caso estaba enmarcado en la Global Jam / Global Service Jam, el mismo sábado que en más de 100 ciudades del mundo.",
         ],
       },
       {
@@ -1812,7 +1799,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "PonteJam / Sustainability (31 de octubre de 2015). Casa da Luz, con apoyo del Concello. La prensa la presenta como cuarta edición y segunda de carácter público; ",
+          "PonteJam / Sustainability (31 de octubre de 2015). Casa da Luz, con apoyo del Ayuntamiento de Pontevedra. Fue nuestra cuarta edición (",
           {
             type: "link",
             href: "https://www.lavozdegalicia.es/noticia/pontevedra/pontevedra/2015/10/28/ponte-jam-invita-generar-ideas-torno-reto-mundial-vinculado-sostenibilidad/0003_201510P28C5992.htm",
@@ -1826,56 +1813,9 @@ export const blogPosts: BlogPost[] = [
             text: "Faro de Vigo",
             external: true,
           },
-          " y ",
-          {
-            type: "link",
-            href: "https://www.canalriasbaixas.com/2015/10/27/chega-a-4-edicion-de-pontejam/",
-            text: "Canal Rías Baixas",
-            external: true,
-          },
-          " recogen las palabras de África y del equipo de mentoras. Sostenibilidad como eje: experimentar y aventurarse, porque —como insistíamos entonces— lo importante no es la idea sino ponerse a hacer.",
+          "). En este caso se trataba de la sostenibilidad como eje: experimentar y aventurarse, porque —como insistíamos entonces— lo importante no es la idea sino ponerse a hacer.",
         ],
       },
-      {
-        type: "p",
-        parts: [
-          "2016. ",
-          {
-            type: "link",
-            href: "https://www.xeneme.com/post/pontejam",
-            text: "XENEME",
-            external: true,
-          },
-          " documenta su participación también en la edición de 2016. El hilo creativo no se cortó en 2015.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          "En el ",
-          {
-            type: "link",
-            href: "https://www.linkedin.com/in/rodriguezafricaruralhacker/",
-            text: "perfil público de África",
-            external: true,
-          },
-          " figuran los proyectos Global Sustainability Jam 2014 y Ponte Jam (Global Service Jam). En la página de patrocinio de ",
-          {
-            type: "link",
-            href: "https://pontevedra.wordcamp.org/2019/sponsor/espacio-arroelo/",
-            text: "WordCamp Pontevedra 2019",
-            external: true,
-          },
-          ", Arroelo enumera entre sus iniciativas el Global Service Jam junto a Rails Girls, ",
-          {
-            type: "link",
-            href: "/blog/human-library-espacio-arroelo",
-            text: "Human Library",
-          },
-          " o Hackaton for Refugees.",
-        ],
-      },
-      "No inventamos ediciones fantasma. Si hubo jornadas previas en el salón —la prensa habla de Arroelo como sede desde el origen—, las tratamos como contexto, no como listado inventado de fechas.",
       { type: "h2", text: "Design thinking sin pizarra vacía" },
       {
         type: "p",
@@ -1883,7 +1823,7 @@ export const blogPosts: BlogPost[] = [
           "Lo que nos importaba no era el eslogan. Era el gesto: un coworking que abre la mesa a quien no es coworker fijo; una ciudad que se suma a un reto mundial; mentoras de perfiles distintos; prototipos que se prueban en la calle de Pontevedra mientras en otras latitudes hacen lo mismo.",
         ],
       },
-      "Eso es design thinking en la práctica: empatizar, idear, prototipar, iterar. Sin pedantería. Con alegría —la prensa habla de buen humor como ingrediente, y no es decorado—.",
+      "Eso es design thinking en la práctica: empatizar, idear, prototipar, iterar. Sin pedantería.",
       {
         type: "image",
         src: "/photos/blog/pontejam-sombrero-mesa.jpg",
@@ -1928,8 +1868,6 @@ export const blogPosts: BlogPost[] = [
         alt: "Foto de grupo al final de una jornada de PonteJam bajo las bombillas Edison del salón",
         caption:
           "Foto de grupo al cerrar una de nuestras jornadas de cocreación, bajo la luz de las bombillas Edison.",
-        fit: "contain",
-        position: "top",
       },
       {
         type: "p",
@@ -1978,7 +1916,7 @@ export const blogPosts: BlogPost[] = [
             href: "/#contacto",
             text: "escríbenos",
           },
-          ". El reto secreto de entonces ya se desveló; el de ahora es más sencillo: seguir haciendo comunidad con las manos ocupadas. Más historias, en el ",
+          ". El reto secreto de entonces ya se desveló; el de ahora es más sencillo: seguir haciendo comunidad. Más historias, en el ",
           {
             type: "link",
             href: "/blog",
