@@ -3779,7 +3779,14 @@ export const blogPosts: BlogPost[] = [
             text: "Rural Hackers",
             external: true,
           },
-          " y la Casa do Pobo.",
+          " y la ",
+          {
+            type: "link",
+            href: "https://casadopobo.com/",
+            text: "Casa do Pobo",
+            external: true,
+          },
+          ".",
         ],
       },
       {
@@ -3795,6 +3802,19 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
+          "Llegamos como colaboración pura. Antes de que Anceu abriera, conocimos a ",
+          {
+            type: "link",
+            href: "https://www.ruralcitizen.org/talentorural/agustin-jamardo",
+            text: "Agustín Jamardo",
+            external: true,
+          },
+          " y le propusimos ir con un grupo de compañeras y compañeros del coworking a aportar ideas antes de la apertura. Desde entonces, una colaboración que no ha dejado de crecer.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
           "Desde 2019 nos hemos comprometido activamente con el desarrollo rural de ese entorno. África Rodríguez lo resume en su trayectoria pública: junto a Agustín Jamardo, construir puentes entre el mundo rural y el urbano desde el coliving de Anceu; vivir y generar comunidad internacional mientras se impulsan proyectos que ayuden a revitalizar la aldea. Esa misma mirada recorre la ",
           {
             type: "link",
@@ -3805,6 +3825,13 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       "Ese compromiso nació de una intuición sencilla y rebelde: la despoblación no se frena solo con discursos. Se frena —o al menos se disputa— con presencia, con fibra, con personas que se quedan a cenar y con proyectos que sirven a quien ya vivía allí antes de que llegara la palabra coliving.",
+      {
+        type: "video",
+        youtubeId: "vasAslb5oEA",
+        title: "Convivencia Anceu–Arroelo: voces de la red rural-urbana",
+        caption:
+          "Vídeo de la convivencia entre Anceu y Arroelo: cómo se siente formar parte de una misma red entre la aldea y Pontevedra.",
+      },
       {
         type: "h2",
         text: "Anceu Coliving: no es un hotel (julio 2020, remoto + vecindad)",
@@ -3849,7 +3876,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Cuando en 2023 cambiamos de localización en la ciudad, gran parte de nuestro Arroelo encontró nueva vida en la Casa do Pobo de Anceu. Donamos mobiliario para crear un espacio que, como el nuestro en Pontevedra, dé cobijo creativo también en el rural. Lo contamos también en la ",
+          "Cuando en 2023 cambiamos de localización en la ciudad, gran parte de nuestro Arroelo encontró nueva vida en la ",
+          {
+            type: "link",
+            href: "https://casadopobo.com/",
+            text: "Casa do Pobo de Anceu",
+            external: true,
+          },
+          ". Donamos mobiliario para crear un espacio que, como el nuestro en Pontevedra, dé cobijo creativo también en el rural. Lo contamos también en la ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
@@ -3858,7 +3892,26 @@ export const blogPosts: BlogPost[] = [
           ": los objetos también pueden tejer red.",
         ],
       },
-      "La Casa do Pobo es el espacio cultural y social de la vecindad: el lugar donde se fomenta la vida comunitaria de la aldea. Que nuestras mesas y sillas sigan sirviendo allí no es nostalgia: es coherencia.",
+      {
+        type: "p",
+        parts: [
+          "La Casa do Pobo es el espacio cultural y social de la vecindad: el lugar donde se fomenta la vida comunitaria de la aldea. Que nuestras mesas y sillas sigan sirviendo allí no es nostalgia: es coherencia. Y el puente no solo viaja en muebles: compañeras y compañeros de Arroelo han colaborado en proyectos como ",
+          {
+            type: "link",
+            href: "https://www.eoi.es/es/the-break",
+            text: "The Break",
+            external: true,
+          },
+          " —un programa europeo de emprendedoras que, en Anceu, trabajó con mujeres de la aldea en el ",
+          {
+            type: "link",
+            href: "https://anceu.com/feminist-coliving-rural-spaces-how-to-impact-rural-villages-to-empower-women/",
+            text: "proceso feminista de la Casa do Pobo",
+            external: true,
+          },
+          "—. Nosotras ayudamos a traducir y a acompañar ese encuentro entre vecinas y emprendedoras europeas.",
+        ],
+      },
       {
         type: "image",
         src: "/photos/blog/casa-pobo-mural.jpg",
@@ -3882,7 +3935,14 @@ export const blogPosts: BlogPost[] = [
             href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
             text: "Cafés a la fresca",
           },
-          " con personas de la aldea o de la comunidad internacional del coliving, para tomar café e inspirarnos juntas en nuestras mañanas de Pontevedra. Participamos en actividades en Anceu: arte, creatividad, tecnología, lo que la aldea propone cuando quiere mirar al futuro sin renunciar a lo suyo. Y cuidamos una idea práctica y generosa: que las personas de Arroelo y de Anceu puedan inspirarse entre lo rural y lo urbano, usando los espacios de trabajo como extensión natural de la misma comunidad.",
+          " con personas de la aldea o de la comunidad internacional del coliving, para tomar café e inspirarnos juntas en nuestras mañanas de Pontevedra. Participamos en actividades en Anceu: arte, creatividad, tecnología, lo que la aldea propone cuando quiere mirar al futuro sin renunciar a lo suyo. Elisabet, de ",
+          {
+            type: "link",
+            href: "https://zengoala.com/",
+            text: "Zengoala",
+            external: true,
+          },
+          ", organiza sus talleres de Zentangle en Arroelo —y también ha llevado encuentros a Anceu—: otro hilo de la misma red. Y cuidamos una idea práctica y generosa: que las personas de Arroelo y de Anceu puedan inspirarse entre lo rural y lo urbano, usando los espacios de trabajo como extensión natural de la misma comunidad.",
         ],
       },
       {
