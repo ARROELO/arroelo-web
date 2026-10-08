@@ -63,6 +63,10 @@ const gallery = [
     src: "/photos/coworker-enfoque.jpg",
     alt: "Coworker concentrado en su puesto, con luz de la ventana y plantas",
   },
+  {
+    src: "/photos/espacio-galeria-img-2727.jpg",
+    alt: "Salón de coworking con mesa de madera, sillas negras y alfombra geométrica; coworker trabajando al fondo junto a la ventana",
+  },
 ];
 
 export default function EspacioPage() {
