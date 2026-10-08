@@ -151,21 +151,32 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
   }
 
   if (block.type === "video") {
-    const params = new URLSearchParams();
-    if (typeof block.start === "number" && block.start > 0) {
-      params.set("start", String(Math.floor(block.start)));
+    const isVimeo = Boolean(block.vimeoId);
+    let embedSrc = "";
+    if (isVimeo && block.vimeoId) {
+      embedSrc = `https://player.vimeo.com/video/${block.vimeoId}`;
+    } else if (block.youtubeId) {
+      const params = new URLSearchParams();
+      if (typeof block.start === "number" && block.start > 0) {
+        params.set("start", String(Math.floor(block.start)));
+      }
+      const query = params.toString();
+      embedSrc = `https://www.youtube-nocookie.com/embed/${block.youtubeId}${
+        query ? `?${query}` : ""
+      }`;
     }
-    const query = params.toString();
-    const embedSrc = `https://www.youtube-nocookie.com/embed/${block.youtubeId}${
-      query ? `?${query}` : ""
-    }`;
+
+    if (!embedSrc) return null;
 
     return (
       <figure key={`video-${index}`} className="blog-post-figure blog-post-video">
         <div className="blog-post-video-media">
           <iframe
             src={embedSrc}
-            title={block.title ?? "Vídeo de YouTube"}
+            title={
+              block.title ??
+              (isVimeo ? "Vídeo de Vimeo" : "Vídeo de YouTube")
+            }
             className="blog-post-video-iframe rounded-none"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen

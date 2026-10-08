@@ -26,8 +26,11 @@ export type BlogBodyBlock =
     }
   | {
       type: "video";
-      youtubeId: string;
-      /** Start playback at this second (YouTube embed `start`). */
+      /** YouTube video id (use with youtube-nocookie embed). */
+      youtubeId?: string;
+      /** Vimeo video id (numeric). Mutually exclusive with youtubeId in practice. */
+      vimeoId?: string;
+      /** Start playback at this second (YouTube embed `start` only). */
       start?: number;
       caption?: string;
       title?: string;
@@ -1632,8 +1635,10 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "PonteJam y Global Service Jam: creatividad en Arroelo",
     date: "2026-10-07",
     label: "Creatividad",
-    image: "/photos/blog/fb-jam-02.jpg",
-    alt: "Participantes de PonteJam 2015 en círculo con post-its en Espacio Arroelo",
+    image: "/photos/blog/pontejam-grupo-edison.jpg",
+    alt: "Foto de grupo de participantes de PonteJam bajo bombillas Edison en Espacio Arroelo",
+    imageFit: "cover",
+    imagePosition: "top",
     excerpt:
       "Cómo impulsamos PonteJam y las Global Service / Sustainability Jams desde Espacio Arroelo: design thinking, retos globales y creatividad en Pontevedra.",
     body: [
@@ -1736,45 +1741,67 @@ export const blogPosts: BlogPost[] = [
       "No era un curso magistral. Era aprender metodología con las manos llenas de post-its y de dudas. Y era, sobre todo, una forma de decir: la creatividad no es un don de unos pocos; es un músculo que se entrena en equipo.",
       {
         type: "image",
-        src: "/photos/blog/fb-jam-01.jpg",
-        alt: "Grupo en círculo sobre pufs rojos durante una Jam en Espacio Arroelo",
+        src: "/photos/blog/pontejam-taller-sombreros.jpg",
+        alt: "Sala de taller con equipos prototipando y participantes con sombreros disparatados durante una Jam",
         caption:
-          "El salón convertido en laboratorio: círculo, papeles y permiso para equivocarse.",
+          "Así se veía el laboratorio: mesas llenas, kraft en la pared y permiso para no tomarse demasiado en serio.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/pontejam-participante-collar.jpg",
+        alt: "Participante con collar de statement concentrada durante una dinámica de PonteJam",
+        caption:
+          "Una de nosotras, atenta en mitad del ruido bueno de las dinámicas de grupo.",
       },
       { type: "h2", text: "Las ediciones que sí podemos nombrar" },
       "Solo contamos lo que fuentes públicas permiten verificar:",
       {
         type: "p",
         parts: [
-          "PonteGovJam (mayo 2014). Bajo coordinación de Espacio Arroelo, una sesión de Service Design Thinking en el marco del Global GovJam: mirar servicios públicos con otras gafas (",
+          "PonteGovJam (2014). Bajo coordinación de Espacio Arroelo, una sesión de Service Design Thinking en el marco del Global GovJam: mirar servicios públicos con otras gafas (",
           {
             type: "link",
             href: "https://tbp7.webnode.es/news/pontegovjam/",
             text: "Thinking Business",
             external: true,
           },
-          ").",
+          "). El vídeo de aquella primera experiencia —equipos diseñando y prototipando servicios públicos en torno a un reto común— resume el tono: menos discurso, más mesa.",
         ],
+      },
+      {
+        type: "video",
+        vimeoId: "111747073",
+        title: "Global GovJam Pontevedra — vídeo de la primera edición",
+        caption:
+          "Repasamos en vídeo el primer Ponte GovJam: reto mundial, equipos mixtos y prototipos de servicio público en pocas horas.",
       },
       {
         type: "p",
         parts: [
-          "Ponte Sustainability Jam (22 de noviembre de 2014). Casa das Campás (Universidad de Vigo). 46 participantes —estudiantes, emprendedoras, empleadas, desempleadas—. Primer Sustainability Jam gallego documentado por la prensa local, en paralelo a acciones similares en 33 países (",
+          "Ponte Sustainability Jam (22 de noviembre de 2014). Casa das Campás (Universidad de Vigo). Casi medio centenar de participantes —estudiantes, emprendedoras, empleadas, desempleadas— que a las nueve de la mañana apenas se conocían. Primer Sustainability Jam gallego documentado por la prensa local, en paralelo a acciones similares en 33 países (",
           {
             type: "link",
             href: "https://www.pontevedraviva.com/es/general/doce-horas-de-creacion-en-el-primer-ponte-sustainability-jam-gallego_266145_102.html",
             text: "PontevedraViva",
             external: true,
           },
-          "). Organizado por Espacio Arroelo. Horario maratón: de 9:30 a 21:30. Objetivo: afrontar retos de sostenibilidad con técnicas creativas y «una alta dosis de buen humor».",
+          "). Organizado por Espacio Arroelo con la Universidad de Vigo. Horario maratón: de 9:30 a 21:30. Objetivo: afrontar retos de sostenibilidad con técnicas creativas y «una alta dosis de buen humor». Al final del día, prototipos sobre la mesa… y gente que doce horas después se abrazaba como si llevara años compartiendo proyecto.",
         ],
       },
       {
-        type: "image",
-        src: "/photos/blog/fb-jam-10.jpg",
-        alt: "Casa das Campás durante el Ponte Sustainability Jam organizado por Espacio Arroelo",
+        type: "video",
+        youtubeId: "7erZqhxTim0",
+        title:
+          "Ponte Sustainability Jam (Espacio Arroelo y Universidad de Vigo). Nov. 2014",
         caption:
-          "Noviembre 2014: la Jam sale del salón y se instala en Casa das Campás.",
+          "Nuestro vídeo de la Sustainability Jam en Casa das Campás: casi 50 personas, un reto de sostenibilidad y doce horas de prototipado.",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/pontejam-facilitacion-mesa.jpg",
+        alt: "Facilitador inclinándose sobre la mesa con un equipo durante la prototipación en la Jam",
+        caption:
+          "Compartíamos ideas y feedback: una mentora o un facilitador guiando al equipo en plena prototipación.",
       },
       {
         type: "p",
@@ -1798,16 +1825,17 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/blog/fb-jam-04.jpg",
-        alt: "Equipo de PonteJam 2015 prototipando con kraft, rotuladores y post-its",
-        caption: "Manos, mesa y método: la Jam como práctica, no como eslogan.",
+        src: "/photos/blog/pontejam-prototipo-naranja.jpg",
+        alt: "Equipo mostrando un prototipo de fieltro naranja con gesto de pulgar arriba durante PonteJam",
+        caption:
+          "Mostrábamos con orgullo el prototipo de baja fidelidad —fieltro, papel y mucho «vamos a probar esto».",
       },
       {
         type: "image",
-        src: "/photos/blog/fb-jam-09.jpg",
-        alt: "Participantes de PonteJam 2015 en Espacio Arroelo según la cobertura de PontevedraViva",
+        src: "/photos/blog/pontejam-carteles-lego.jpg",
+        alt: "Dos participantes sonriendo delante de carteles LEGO con el lema Directo a prototipar",
         caption:
-          "Febrero 2015: la «vuelta a casa» —menos aforo, mismo reto mundial.",
+          "Humor de pared incluido: «Directo a prototipar» no era un eslogan vacío.",
       },
       {
         type: "p",
@@ -1833,7 +1861,7 @@ export const blogPosts: BlogPost[] = [
             text: "Canal Rías Baixas",
             external: true,
           },
-          " recogen las palabras de África y del equipo de mentoras. Sostenibilidad como eje.",
+          " recogen las palabras de África y del equipo de mentoras. Sostenibilidad como eje: experimentar y aventurarse, porque —como insistíamos entonces— lo importante no es la idea sino ponerse a hacer.",
         ],
       },
       {
@@ -1886,10 +1914,10 @@ export const blogPosts: BlogPost[] = [
       "Eso es design thinking en la práctica: empatizar, idear, prototipar, iterar. Sin pedantería. Con alegría —la prensa habla de buen humor como ingrediente, y no es decorado—.",
       {
         type: "image",
-        src: "/photos/blog/fb-jam-06.jpg",
-        alt: "Participantes de PonteJam con identificadores trabajando en grupo",
+        src: "/photos/blog/pontejam-sombrero-mesa.jpg",
+        alt: "Equipo alrededor de la mesa de prototipado con materiales de colores y un participante con sombrero mexicano",
         caption:
-          "De la Jam al Café a la fresca: el mismo músculo de comunidad.",
+          "Buen humor encima de la mesa: rotuladores, papeles y el disfraz que hacía falta para desbloquear una idea.",
       },
       { type: "h2", text: "De la Jam al resto de la comunidad" },
       {
@@ -1921,6 +1949,15 @@ export const blogPosts: BlogPost[] = [
           },
           ": la idea de que el conocimiento se comparte y que Galicia puede estar en conversación global sin perder el tono local.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/pontejam-grupo-edison.jpg",
+        alt: "Foto de grupo al final de una jornada de PonteJam bajo las bombillas Edison del salón",
+        caption:
+          "Foto de grupo al cerrar una de nuestras jornadas de cocreación, bajo la luz de las bombillas Edison.",
+        fit: "contain",
+        position: "top",
       },
       {
         type: "p",
