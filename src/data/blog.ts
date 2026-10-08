@@ -1362,14 +1362,6 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        type: "video",
-        youtubeId: "nXmBYlRhmwA",
-        start: 2421,
-        title: "CWSC 2016 — Cómo piensa un Coworker (África Rodríguez)",
-        caption:
-          "Grabación de sesión; el audio va flojo al inicio. La charla empieza en el minuto marcado.",
-      },
-      {
         type: "p",
         parts: [
           {
