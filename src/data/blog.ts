@@ -18,9 +18,9 @@ export type BlogBodyBlock =
       src: string;
       alt: string;
       caption?: string;
-      /** Default cover. Use contain for tall group photos so heads/bodies are not cropped. */
+      /** Default cover. Use contain for tall portraits/group photos so heads and mural text stay visible. */
       fit?: "cover" | "contain";
-      /** object-position hint when fit is cover (default center). */
+      /** object-position hint (default center). Useful with cover or contain. */
       position?: "center" | "top";
     }
   | {
@@ -479,6 +479,9 @@ export const blogPosts: BlogPost[] = [
         alt: "Celso, en blanco y negro, bajo el mural «el mundo pertenece a quienes se atreven...» en Espacio Arroelo",
         caption:
           "Celso en el coworking, bajo el mural «el mundo pertenece a quienes se atreven...».",
+        // Tall mural portrait (≈4:5) in a 3:2 frame — contain keeps face + «el mundo pertenece…» readable.
+        fit: "contain",
+        position: "top",
       },
       {
         type: "h2",

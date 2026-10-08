@@ -315,8 +315,12 @@
   background: var(--color-mist);
 }
 
-/* Tall / group photos that must stay fully visible inside the 3:2 frame. */
+/*
+  Tall portraits / group photos: swap the default 3:2 landscape frame for 3:4
+  so object-contain can show heads + mural text without severe letterboxing.
+*/
 .blog-post-figure-media--contain {
+  aspect-ratio: 3 / 4;
   background: var(--color-fog);
 }
 
