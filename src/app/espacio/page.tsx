@@ -40,8 +40,8 @@ const amenities = [
 
 const gallery = [
   {
-    src: "/photos/home-pilar-mesa-grupo.jpg",
-    alt: "Grupo de personas reunidas alrededor de una mesa compartiendo café y pastelería en el salón de Arroelo",
+    src: "/photos/blog/pilita-sillon-dormida.jpg",
+    alt: "Pilita, la perrita del coworking, dormida en el sillón gris del salón de Arroelo",
   },
   {
     src: "/photos/salon-dos-coworkers.jpg",
