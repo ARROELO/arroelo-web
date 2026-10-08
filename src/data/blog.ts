@@ -2755,8 +2755,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Rural Hackers: tech e impacto rural",
     date: "2026-10-07",
     label: "Impacto",
-    image: "/photos/blog/rural-hackers-portatiles-patio.jpg",
-    alt: "Dos personas trabajan con portátiles en un patio rural de Anceu, con tractor al fondo",
+    image: "/photos/blog/rural-hackers-portada-camiseta.jpg",
+    alt: "Persona de espaldas en un campo, con camiseta negra que dice «I AM A RURAL HACKER» en letras amarillas y un pequeño icono de planta",
     excerpt:
       "Qué es Rural Hackers y cómo, desde Anceu y con Arroelo, usan arte, tecnología e IA para revitalizar el rural gallego.",
     body: [
