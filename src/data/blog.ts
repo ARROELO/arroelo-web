@@ -2799,7 +2799,13 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde 2021, África Rodríguez, Ignacio (Nacho) Márquez y Agustín Jamardo impulsan esta ONG / movimiento. No partían de cero: venían de años tejiendo comunidad en ",
+          "Desde 2021, África Rodríguez, Ignacio (Nacho) Márquez y Agustín Jamardo impulsan esta ONG / movimiento. No partíamos de cero: veníamos de años tejiendo comunidad en ",
+          {
+            type: "link",
+            href: "/",
+            text: "Espacio Arroelo",
+          },
+          ", ",
           {
             type: "link",
             href: "https://anceu.com/",
@@ -2837,6 +2843,13 @@ export const blogPosts: BlogPost[] = [
       "Academia y formación. La Rural Hackers Academy nació de una evidencia simple: tecnología e inglés son dos palancas de desarrollo. Colivers aportaron tiempo gratis para formar a jóvenes y vecinos. La solidaridad aquí no es decorado; es método.",
       "También ha habido ediciones del Rural Hackers Fest en la aldea: celebrar no es accesorio cuando se construye comunidad.",
       {
+        type: "video",
+        youtubeId: "wDO0BWL65Mw",
+        title: "Rural Hackers Fest en Anceu",
+        caption:
+          "Rural Hackers Fest: tecnología, arte y comunidad en la aldea de Anceu.",
+      },
+      {
         type: "image",
         src: "/photos/blog/rural-hackers-coworking-exterior.jpg",
         alt: "Personas con portátiles en un patio soleado rodeado de vegetación en el rural gallego",
@@ -2856,7 +2869,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Rural IA propone inmersiones prácticas para jóvenes: probar herramientas, crear proyectos reales, aprender haciendo, con convivencia y naturaleza como parte de la experiencia. RuralGPT, impulsado con Anceu Coliving, busca situar Anceu como laboratorio de innovación en IA: residencias formativas intensivas para profesionales que sienten que la IA avanza más rápido que su capacidad de seguirle el ritmo, y que quieren integrar procesos útiles —no demos eternos— en su trabajo diario. Lo hemos compartido también en ",
+          "Rural IA propone inmersiones prácticas: probar herramientas, crear proyectos reales, aprender haciendo, con convivencia y naturaleza como parte de la experiencia. RuralGPT, impulsado con Anceu Coliving, busca situar Anceu como laboratorio de innovación en IA: residencias formativas intensivas para profesionales que sienten que la IA avanza más rápido que su capacidad de seguirle el ritmo, y que quieren integrar procesos útiles —no demos eternos— en su trabajo diario. Lo hemos compartido también en ",
           {
             type: "link",
             href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
@@ -2866,8 +2879,6 @@ export const blogPosts: BlogPost[] = [
           ".",
         ],
       },
-      "La Voz de Galicia ha recogido esta apuesta: aforo reducido, enfoque práctico, alojamiento y formación en las Rías Baixas. Detrás están Agustín (remoto, fundador del coliving), África (cofundadora de Rural Hackers y facilitadora de proyectos europeos) y Nacho (cofundador, trayectoria en proyectos internacionales y Noites Abertas en Pontevedra).",
-      "No inventamos medallas. Contamos lo que hay: ensayo, comunidad, y la convicción de que la IA también puede aprenderse lejos del ruido de la gran ciudad.",
       {
         type: "image",
         src: "/photos/blog/rural-hackers-encuentro-mural.jpg",
@@ -2909,7 +2920,14 @@ export const blogPosts: BlogPost[] = [
             href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
             text: "Café a la fresca",
           },
-          ", cuando alguien de la casa baja a un taller en la aldea, cuando el mobiliario de Michelena sigue dando servicio en la Casa do Pobo, estamos diciendo lo mismo: la tecnología tiene más sentido si ensancha el mapa, no si lo reduce a tres metros cuadrados de escritorio. Esa misma brújula recorre la ",
+          ", cuando alguien de la casa baja a un taller en la aldea, cuando el mobiliario de Michelena sigue dando servicio en la ",
+          {
+            type: "link",
+            href: "https://casadopobo.com/",
+            text: "Casa do Pobo",
+            external: true,
+          },
+          ", estamos diciendo lo mismo: la tecnología tiene más sentido si ensancha el mapa, no si lo reduce a tres metros cuadrados de escritorio. Esa misma brújula recorre la ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
