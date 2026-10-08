@@ -1324,27 +1324,16 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Llegábamos con el salón bajo el brazo. Con la certeza de que la comunidad se practica —",
-          {
-            type: "link",
-            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
-            text: "Café a la fresca",
-          },
-          ", ",
-          {
-            type: "link",
-            href: "/blog/coworking-pontevedra-echn-arroelo",
-            text: "red europea",
-          },
-          ", proyectos que salen del pasillo— y no se improvisa en un pitch.",
+          "Nosotras llegábamos con la certeza de que la comunidad se practica y no se improvisa en un pitch.",
         ],
       },
       {
         type: "image",
-        src: "/photos/blog/cwsc-2018-talk-coworking.jpg",
-        alt: "Ponencia en la Coworking Spain Conference: diapositiva «Coworking como movimiento»",
+        src: "/photos/blog/cwsc-2014-grupo-banner.jpg",
+        alt: "Grupo delante del banner de la Coworking Spain Conference 2014, cubierto de notas adhesivas",
         caption:
           "El congreso alimenta nuestro salón; el salón nos da material para el congreso.",
+        fit: "contain",
       },
       { type: "h2", text: "Cinco ediciones, un mismo hilo" },
       {
