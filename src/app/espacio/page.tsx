@@ -48,8 +48,8 @@ const gallery = [
     alt: "Dos coworkers trabajando con portátil en la mesa del salón",
   },
   {
-    src: "/photos/comunidad-sonrisas.jpg",
-    alt: "Sonrisas alrededor de la mesa del salón",
+    src: "/photos/espacio-galeria-cafe-mesa.jpg",
+    alt: "Bodegón de aperitivos sobre mesa de madera: uvas, naranja, queso y pan frente al ventanal",
   },
   {
     src: "/photos/cafe-mesa-comunidad.jpg",
