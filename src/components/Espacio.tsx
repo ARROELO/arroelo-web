@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { withBase } from "@/lib/path";
 
@@ -22,6 +23,9 @@ const pillars = [
   },
 ];
 
+const captionLinkClass =
+  "text-ink underline decoration-terracotta/55 underline-offset-[0.18em] decoration-1 transition-colors hover:text-terracotta hover:decoration-terracotta";
+
 const bridges: {
   title: string;
   body: ReactNode;
@@ -29,6 +33,7 @@ const bridges: {
   image: string;
   alt: string;
   objectPosition: string;
+  caption?: ReactNode;
 }[] = [
   {
     title: "De la ciudad a la aldea",
@@ -47,6 +52,33 @@ const bridges: {
     image: "/photos/anceu.jpg",
     alt: "Coworking al aire libre en Anceu: portátil y cuaderno entre árboles",
     objectPosition: "object-[center_40%]",
+    caption: (
+      <>
+        Hannah y Sara, participantes del programa{" "}
+        <a
+          href="https://ruralhackers.com/ruralwo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={captionLinkClass}
+        >
+          RuralWO
+        </a>{" "}
+        en{" "}
+        <a
+          href="https://anceu.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={captionLinkClass}
+        >
+          Anceu Coliving
+        </a>
+        .{" "}
+        <Link href="/blog/anceu-coliving-ciudad-aldea" className={captionLinkClass}>
+          El puente ciudad–aldea
+        </Link>
+        .
+      </>
+    ),
   },
   {
     title: "De Galicia para el mundo",
@@ -67,6 +99,27 @@ const bridges: {
     image: "/photos/making.jpg",
     alt: "Grupo en The Making Rooms (We MAKE Blackburn), hub creativo de la red ECHN",
     objectPosition: "object-[center_40%]",
+    caption: (
+      <>
+        África, gestora de Arroelo, visitando el espacio maker{" "}
+        <a
+          href="https://makingrooms.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={captionLinkClass}
+        >
+          The Making Rooms
+        </a>{" "}
+        en Blackburn (
+        <Link
+          href="/blog/coworking-pontevedra-echn-arroelo"
+          className={captionLinkClass}
+        >
+          ECHN
+        </Link>
+        ).
+      </>
+    ),
   },
   {
     title: "Para hacerte la vida más fácil",
@@ -182,45 +235,58 @@ export function Espacio() {
       </div>
 
       <div className="mt-12 md:mt-16 lg:mt-20">
-        {bridges.map((item, index) => (
-          <a
-            key={item.title}
-            href={item.href}
-            {...(item.href.startsWith("http")
-              ? { target: "_blank", rel: "noopener noreferrer" }
-              : {})}
-            className="group block border-t border-ink/14"
-          >
-            {/* Arc impact row: narrow number at editorial left edge → text → photo to right margin */}
-            <div className="grid grid-cols-1 items-start gap-8 py-14 pl-4 pr-4 md:grid-cols-[auto_1fr] md:gap-x-8 md:py-20 lg:gap-x-10 lg:py-24 md:pl-6 md:pr-6">
-              <div className="flex items-start gap-[3.75rem] md:gap-x-24 lg:gap-x-[7.5rem]">
-                <span
-                  className="w-[1.25rem] shrink-0 text-espacio-title text-ink tabular-nums"
-                  aria-hidden
-                >
-                  {index + 1}
-                </span>
-                <div className="min-w-0 md:max-w-[28rem]">
-                  <h3 className="max-w-[22ch] text-espacio-title text-ink transition-colors group-hover:text-terracotta">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 max-w-[35ch] text-espacio-body text-ink/65 md:mt-3">
-                    {item.body}
-                  </p>
+        {bridges.map((item, index) => {
+          const external = item.href.startsWith("http");
+          const linkProps = external
+            ? { target: "_blank" as const, rel: "noopener noreferrer" }
+            : {};
+
+          return (
+            <div key={item.title} className="group border-t border-ink/14">
+              {/* Arc impact row: narrow number at editorial left edge → text → photo to right margin */}
+              <div className="grid grid-cols-1 items-start gap-8 py-14 pl-4 pr-4 md:grid-cols-[auto_1fr] md:gap-x-8 md:py-20 lg:gap-x-10 lg:py-24 md:pl-6 md:pr-6">
+                <div className="flex items-start gap-[3.75rem] md:gap-x-24 lg:gap-x-[7.5rem]">
+                  <span
+                    className="w-[1.25rem] shrink-0 text-espacio-title text-ink tabular-nums"
+                    aria-hidden
+                  >
+                    {index + 1}
+                  </span>
+                  <div className="min-w-0 md:max-w-[28rem]">
+                    <a href={item.href} {...linkProps} className="block">
+                      <h3 className="max-w-[22ch] text-espacio-title text-ink transition-colors group-hover:text-terracotta">
+                        {item.title}
+                      </h3>
+                    </a>
+                    <p className="mt-2 max-w-[35ch] text-espacio-body text-ink/65 md:mt-3">
+                      {item.body}
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="relative aspect-[4/3] min-w-0 w-full overflow-hidden rounded-none bg-mist md:aspect-[3/2] md:max-w-[min(41rem,48vw)] md:justify-self-end lg:max-w-[43rem]">
-                <Image
-                  src={withBase(item.image)}
-                  alt={item.alt}
-                  fill
-                  className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
-                  sizes="(max-width: 768px) 100vw, min(43rem, 48vw)"
-                />
+                <figure className="min-w-0 w-full md:max-w-[min(41rem,48vw)] md:justify-self-end lg:max-w-[43rem]">
+                  <a
+                    href={item.href}
+                    {...linkProps}
+                    className="relative block aspect-[4/3] overflow-hidden rounded-none bg-mist md:aspect-[3/2]"
+                  >
+                    <Image
+                      src={withBase(item.image)}
+                      alt={item.alt}
+                      fill
+                      className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] ${item.objectPosition}`}
+                      sizes="(max-width: 768px) 100vw, min(43rem, 48vw)"
+                    />
+                  </a>
+                  {item.caption ? (
+                    <figcaption className="mt-2.5 max-w-[64ch] text-left text-[14px] leading-[1.45] tracking-[0.01em] text-ink/50">
+                      {item.caption}
+                    </figcaption>
+                  ) : null}
+                </figure>
               </div>
             </div>
-          </a>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
