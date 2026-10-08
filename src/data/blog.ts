@@ -1263,19 +1263,20 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "coworking-spain-conference-arroelo",
     title:
-      "Coworking Spain Conference: lo que llevamos de Pontevedra al escenario",
-    seoTitle: "Coworking Spain Conference: África y Arroelo",
+      "Coworking Spain Conference: lo que contamos desde un coworking en Pontevedra",
+    seoTitle:
+      "Coworking Spain Conference: desde un coworking en Pontevedra",
     date: "2026-10-07",
     label: "Congresos",
     image: "/photos/blog/cwsc-2018-banner.jpg",
     alt: "Banner de la Coworking Spain Conference 2018 a la entrada del evento",
     excerpt:
-      "Cómo llevamos la cultura colaborativa de Espacio Arroelo a la Coworking Spain Conference: ponencias de África Rodríguez en CWSC 2016–2020.",
+      "Cómo contamos la cultura colaborativa desde un coworking en Pontevedra en la Coworking Spain Conference: participamos con África en CWSC 2016–2020.",
     body: [
       {
         type: "p",
         parts: [
-          "Hay congresos que sirven para enseñar métricas. Otros, para recordar por qué abriste la puerta. La ",
+          "Hay congresos que sirven para enseñar métricas. Otros, para recordar por qué abrimos la puerta. La ",
           {
             type: "link",
             href: "https://coworkingspainconference.es/",
@@ -1288,25 +1289,25 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde ",
+          "Desde un coworking en Pontevedra —",
           {
             type: "link",
             href: "/",
             text: "Espacio Arroelo",
           },
-          ", ",
+          "— participamos en cinco ediciones consecutivas: 2016, 2017, 2018, 2019 y 2020. ",
           {
             type: "link",
             href: "https://coworkingspainconference.es/ponentes/africa-rodriguez-garcia",
-            text: "África Rodríguez",
+            text: "África",
             external: true,
           },
-          " ha subido al escenario en cinco ediciones consecutivas: 2016, 2017, 2018, 2019 y 2020. No para vender un producto, sino para contar cómo se activa una cultura colaborativa desde un coworking de tamaño humano en Pontevedra.",
+          ", nuestra cofundadora, subió al escenario para contar cómo activamos una cultura colaborativa: no para vender un producto, sino para compartir lo que practicamos cada día.",
         ],
       },
       {
         type: "h2",
-        text: "Por qué ir a un congreso de coworking (si ya tienes salón)",
+        text: "Por qué ir a un congreso de coworking (si ya tenemos salón)",
       },
       {
         type: "p",
@@ -1317,13 +1318,13 @@ export const blogPosts: BlogPost[] = [
             href: "/blog/historia-espacio-arroelo-pontevedra",
             text: "historia de Espacio Arroelo",
           },
-          "—. En pocos años el mapa gallego —y el español— se llenó de espacios. Hablar entre operadores no era un lujo: era higiene. En CWSC se cruzan fundadoras, comunidad, regulación, suburbios, pandemia… y, de fondo, la misma pregunta: ¿el coworking es solo metros, o es una forma de estar juntas?",
+          "—. En pocos años el mapa gallego —y el español— se llenó de espacios. Hablar entre operadores no era un lujo: era higiene. En CWSC se cruzan fundadoras, comunidad, regulación, suburbios, pandemia… y, de fondo, la misma pregunta que nos hacemos: ¿el coworking es solo metros, o es una forma de estar juntas?",
         ],
       },
       {
         type: "p",
         parts: [
-          "Nosotras llegábamos con el salón bajo el brazo. Con la certeza de que la comunidad se practica —",
+          "Llegábamos con el salón bajo el brazo. Con la certeza de que la comunidad se practica —",
           {
             type: "link",
             href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
@@ -1343,13 +1344,13 @@ export const blogPosts: BlogPost[] = [
         src: "/photos/blog/cwsc-2018-talk-coworking.jpg",
         alt: "Ponencia en la Coworking Spain Conference: diapositiva «Coworking como movimiento»",
         caption:
-          "El congreso alimenta el salón; el salón da material para el congreso.",
+          "El congreso alimenta nuestro salón; el salón nos da material para el congreso.",
       },
       { type: "h2", text: "Cinco ediciones, un mismo hilo" },
       {
         type: "p",
         parts: [
-          "África ha participado en CWSC 2016, 2017, 2018, 2019 y 2020. Estas son sus ponencias:",
+          "Participamos con África en CWSC 2016, 2017, 2018, 2019 y 2020. Estas son las ponencias que llevamos:",
         ],
       },
       {
@@ -1361,7 +1362,7 @@ export const blogPosts: BlogPost[] = [
             text: "CWSC 2016 — «Cómo piensa un Coworker»",
             external: true,
           },
-          " (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestiona quien abre el espacio, sino cómo piensa quien lo habita.",
+          " (20 de mayo, Sala 1). Una mirada desde dentro: no solo cómo gestionamos el espacio, sino cómo piensa quien lo habita.",
         ],
       },
       {
@@ -1381,7 +1382,7 @@ export const blogPosts: BlogPost[] = [
             text: "CWSC 2017 — «How to grow your team»",
             external: true,
           },
-          " (12 de mayo). Crecer el equipo sin perder el «co»: la tensión de escalar comunidad sin convertirla en organigrama frío.",
+          " (12 de mayo). Contamos cómo crecer el equipo sin perder el «co»: la tensión de escalar comunidad sin convertirla en organigrama frío.",
         ],
       },
       {
@@ -1393,7 +1394,7 @@ export const blogPosts: BlogPost[] = [
             text: "CWSC 2018 — «Transfórmate o cierra: mi experiencia después de cinco años»",
             external: true,
           },
-          " (17 de mayo, Sala 2). A los cinco años de Arroelo, el relato era claro: o te transformas con el contexto, o te quedas fuera.",
+          " (17 de mayo, Sala 2). A los cinco años de Arroelo, nuestro relato era claro: o nos transformamos con el contexto, o nos quedamos fuera.",
         ],
       },
       {
@@ -1401,7 +1402,7 @@ export const blogPosts: BlogPost[] = [
         src: "/photos/blog/cwsc-2018-sala-charla.jpg",
         alt: "Sala de la Coworking Spain Conference con público y pantalla de agradecimiento",
         caption:
-          "CWSC 2018: la sala donde se cruzan operadores, comunidad y preguntas difíciles.",
+          "CWSC 2018: la sala donde cruzamos operadores, comunidad y preguntas difíciles.",
       },
       {
         type: "p",
@@ -1412,7 +1413,7 @@ export const blogPosts: BlogPost[] = [
             text: "CWSC 2019 — «Coworking in the suburbs»",
             external: true,
           },
-          " (24 de abril). El coworking no solo vive en centros urbanos de escaparate. Hablar de periferias —geográficas y simbólicas— era hablar también de Galicia: de lo que se construye lejos del ruido de las grandes capitales.",
+          " (24 de abril). El coworking no solo vive en centros urbanos de escaparate. Hablar de periferias —geográficas y simbólicas— era hablar también de Galicia: de lo que construimos lejos del ruido de las grandes capitales.",
         ],
       },
       {
@@ -1424,7 +1425,7 @@ export const blogPosts: BlogPost[] = [
             text: "CWSC 2020 — «Coworking y Coronavirus. Visiones y acciones»",
             external: true,
           },
-          " (16 de abril). Mesa compartida con Ben Kolp (",
+          " (16 de abril). África compartió mesa con Ben Kolp (",
           {
             type: "link",
             href: "https://tlr-coworking.com/",
@@ -1438,7 +1439,7 @@ export const blogPosts: BlogPost[] = [
             text: "Fangaloka",
             external: true,
           },
-          "). El año en que el sector tuvo que improvisar supervivencia y, a la vez, cuidado.",
+          "). El año en que el sector tuvo que improvisar supervivencia y, a la vez, cuidado —y nosotras también.",
         ],
       },
       {
@@ -1453,7 +1454,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "En 2018, en «Transfórmate o cierra», África hablaba de alas: de caseros, de administración, de proyectos que salen del salón. No era un catálogo de trofeos. Era un mapa de lo que pasa cuando un espacio se abre a lo que no controla del todo.",
+          "En 2018, en «Transfórmate o cierra», África, nuestra cofundadora, hablaba de alas: de caseros, de administración, de proyectos que salen del salón. No era un catálogo de trofeos. Era el mapa de lo que vivimos cuando un espacio se abre a lo que no controlamos del todo.",
         ],
       },
       {
@@ -1466,7 +1467,7 @@ export const blogPosts: BlogPost[] = [
             text: "European Creative Hubs Network",
             external: true,
           },
-          " desde 2017 y a la calle de al lado. El congreso no sustituye el salón; lo alimenta. Y el salón, a veces, da material para el congreso. También lo contamos en ",
+          " desde 2017 y a la calle de al lado. El congreso no sustituye nuestro salón; lo alimenta. Y el salón, a veces, nos da material para el congreso. También lo contamos en el ",
           {
             type: "link",
             href: "https://www.linkedin.com/in/rodriguezafricaruralhacker/",
@@ -1494,7 +1495,7 @@ export const blogPosts: BlogPost[] = [
         src: "/photos/blog/fb-cwsc-02.jpg",
         alt: "Ponencia en CWSC sobre Sense of community theory e Impact Hub Comunidad",
         caption:
-          "En la sala también se habla de teoría de comunidad: membresía, influencia, necesidades, conexión emocional.",
+          "En la sala también hablamos de teoría de comunidad: membresía, influencia, necesidades, conexión emocional.",
       },
       {
         type: "h2",
@@ -1509,7 +1510,7 @@ export const blogPosts: BlogPost[] = [
             href: "/espacio",
             text: "espacio",
           },
-          ". Seguimos midiendo el éxito menos en ocupación y más en conversaciones. Y seguimos creyendo que lo que se dice en un foro nacional solo tiene sentido si se puede practicar el lunes a las nueve, con café y vecinos de mesa.",
+          ". Seguimos midiendo el éxito menos en ocupación y más en conversaciones. Y seguimos creyendo que lo que decimos en un foro nacional solo tiene sentido si lo podemos practicar el lunes a las nueve, con café y vecinos de mesa.",
         ],
       },
       {
@@ -1521,7 +1522,7 @@ export const blogPosts: BlogPost[] = [
             href: "/blog/coworking-pontevedra-echn-arroelo",
             text: "historia de coworking en Pontevedra y ECHN",
           },
-          " cuenta el contexto. CWSC fue el altavoz; Arroelo sigue siendo el laboratorio.",
+          " cuenta el contexto. CWSC fue nuestro altavoz; Arroelo sigue siendo el laboratorio.",
         ],
       },
       {
@@ -1556,7 +1557,7 @@ export const blogPosts: BlogPost[] = [
             text: "álbum de Facebook de la Coworking Spain Conference",
             external: true,
           },
-          "— es una presencia sostenida: cinco ediciones, ponencias con nombre y fecha, y un relato coherente con lo que intentamos vivir cada día.",
+          "— es una presencia sostenida: cinco ediciones, ponencias con nombre y fecha, y un relato coherente con lo que intentamos vivir cada día desde un coworking en Pontevedra.",
         ],
       },
       {
