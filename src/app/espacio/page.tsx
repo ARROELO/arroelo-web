@@ -52,10 +52,6 @@ const gallery = [
     alt: "Bodegón de aperitivos sobre mesa de madera: uvas, naranja, queso y pan frente al ventanal",
   },
   {
-    src: "/photos/cafe-mesa-comunidad.jpg",
-    alt: "Café a la fresca: comunidad alrededor de la mesa con fruta y proyector",
-  },
-  {
     src: "/photos/ig-puestos-luz.jpg",
     alt: "Puestos de trabajo junto a la ventana con luz natural",
   },
