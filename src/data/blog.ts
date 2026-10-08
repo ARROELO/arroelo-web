@@ -2025,7 +2025,14 @@ export const blogPosts: BlogPost[] = [
             text: "Elefantes de Cacharrería",
             external: true,
           },
-          " organizaron una xornada original: «A vida en palabras». La propuesta era transformar vidas en palabras e intercambiar emociones y experiencias —con infancia, literatura, sabor y, en el centro, personas en préstamo.",
+          " organizaron una xornada original: «A vida en palabras». La propuesta era transformar vidas en palabras e intercambiar emociones y experiencias —con infancia, literatura, sabor y, en el centro, personas en préstamo. Queda documentada en el ",
+          {
+            type: "link",
+            href: "https://www.facebook.com/media/set/?set=a.821042254650090&type=3",
+            text: "álbum de Facebook",
+            external: true,
+          },
+          ".",
         ],
       },
       {
