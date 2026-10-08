@@ -2118,7 +2118,7 @@ export const blogPosts: BlogPost[] = [
             text: "#ACoffeeForRefugees",
             external: true,
           },
-          ", proyecciones —entre ellas el corto «Recuerdos de Siria» / Lembranzas de Siria— y el avance del Hackaton Sente Siria, una comunidad tecnológica orientada a la crisis de refugio. La inscripción pasaba por el 610 60 20 12 —el teléfono de Arroelo— o por Ticketea.",
+          ", proyecciones —entre ellas el corto «Recuerdos de Siria» / Lembranzas de Siria— y el avance del Hackaton Sente Siria, una comunidad tecnológica orientada a la crisis de refugio.",
         ],
       },
       {
