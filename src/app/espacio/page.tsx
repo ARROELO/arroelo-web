@@ -40,8 +40,8 @@ const amenities = [
 
 const gallery = [
   {
-    src: "/photos/ig-mesa-comunidad.jpg",
-    alt: "Mesa larga con gente en el salón de Arroelo",
+    src: "/photos/home-pilar-mesa-grupo.jpg",
+    alt: "Grupo de personas reunidas alrededor de una mesa compartiendo café y pastelería en el salón de Arroelo",
   },
   {
     src: "/photos/salon-dos-coworkers.jpg",
