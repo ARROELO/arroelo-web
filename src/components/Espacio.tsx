@@ -136,7 +136,7 @@ const bridges: {
     ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
     image: "/photos/home-puente-linkedin-comunidad.jpg",
-    alt: "Grupo de la comunidad reunido alrededor de la mesa del salón con café y aperitivos; al fondo, proyección del proyecto Visión 2024",
+    alt: "Grupo de la comunidad reunido alrededor de una mesa de madera con café, fruta y aperitivos en el salón",
     objectPosition: "object-[center_40%]",
   },
 ];
