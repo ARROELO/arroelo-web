@@ -50,14 +50,14 @@ const gallery = [
     label: "Salón",
   },
   {
-    src: "/photos/espacio-galeria-sala-xl.jpg",
-    alt: "Sala XL con cuatro puestos enfrentados, sillas de malla, ventana con cortinas y mapa del mundo sobre taquillas blancas",
-    label: "Sala XL",
-  },
-  {
     src: "/photos/espacio-galeria-img-2727.jpg",
     alt: "Salón de coworking con mesa de madera, sillas negras y alfombra geométrica; coworker trabajando al fondo junto a la ventana",
     label: "Salón",
+  },
+  {
+    src: "/photos/espacio-galeria-img-6361.jpg",
+    alt: "Sala de reuniones pequeña con mesa de madera, monitor, silla blanca y ventanales al patio interior",
+    label: "Sala S",
   },
   {
     src: "/photos/espacio-galeria-img-6318.jpg",
@@ -75,6 +75,16 @@ const gallery = [
     label: "Sala L",
   },
   {
+    src: "/photos/espacio-galeria-sala-xl.jpg",
+    alt: "Sala XL con cuatro puestos enfrentados, sillas de malla, ventana con cortinas y mapa del mundo sobre taquillas blancas",
+    label: "Sala XL",
+  },
+  {
+    src: "/photos/espacio-galeria-cocina.jpg",
+    alt: "Cocina del coworking con mesa redonda blanca, sillas de hierro, encimera de granito y cartel en la ventana",
+    label: "Cocina",
+  },
+  {
     src: "/photos/espacio-galeria-pasillo.jpg",
     alt: "Pasillo luminoso con paredes blancas, suelo de madera y aparador blanco con jarrón de flores secas",
     label: "Pasillo",
@@ -83,16 +93,6 @@ const gallery = [
     src: "/photos/espacio-galeria-pasillo-salon.jpg",
     alt: "Pasillo estrecho hacia el salón con aparador blanco, jarrón de flores secas y extintor",
     label: "Pasillo",
-  },
-  {
-    src: "/photos/espacio-galeria-cocina.jpg",
-    alt: "Cocina del coworking con mesa redonda blanca, sillas de hierro, encimera de granito y cartel en la ventana",
-    label: "Cocina",
-  },
-  {
-    src: "/photos/espacio-galeria-img-6361.jpg",
-    alt: "Sala de reuniones pequeña con mesa de madera, monitor, silla blanca y ventanales al patio interior",
-    label: "Sala S",
   },
 ];
 
