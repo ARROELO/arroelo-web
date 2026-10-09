@@ -10,8 +10,8 @@ export function Tarifa() {
             Tarifas
           </h2>
           <p className="mt-2 text-espacio-intro-body text-ink/70">
-            Media jornada, bono por días, jornada completa o sala exclusiva.
-            Más de 10 años de coworking en Pontevedra.
+            Jornada completa, sala exclusiva, media jornada o bonos de días
+            sueltos. Más de 10 años de coworking en Pontevedra.
           </p>
           <Link href="/tarifas" className="btn btn-ink mt-10">
             Ver todas las tarifas

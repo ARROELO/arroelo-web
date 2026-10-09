@@ -8,14 +8,14 @@ import { withBase } from "@/lib/path";
 export const metadata: Metadata = {
   title: "Tarifas — Coworking en Pontevedra | Arroelo",
   description:
-    "Media jornada, bono de salón, jornada completa y sala exclusiva. Tarifas claras de coworking en el centro de Pontevedra.",
+    "Jornada completa, sala exclusiva, media jornada y bonos de días sueltos. Tarifas claras de coworking en el centro de Pontevedra.",
   alternates: {
     canonical: "/tarifas",
   },
   openGraph: {
     title: "Tarifas — Coworking en Pontevedra | Arroelo",
     description:
-      "Media jornada, bono de salón, jornada completa y sala exclusiva. Sin letra pequeña.",
+      "Jornada completa, sala exclusiva, media jornada y bonos de días sueltos. Sin letra pequeña.",
     type: "website",
     locale: "es_ES",
     url: "/tarifas",
@@ -23,62 +23,6 @@ export const metadata: Metadata = {
 };
 
 const plans = [
-  {
-    id: "media-jornada",
-    title: "Media jornada",
-    tagline:
-      "Si trabajas en casa por la mañana y por la tarde te apetece cambiar de aire, aquí tienes sitio.",
-    note: "Mañana o tarde. No se pueden dejar cosas en la mesa: el puesto no es permanente.",
-    image: "/photos/ig-puestos-luz.jpg",
-    alt: "Puestos de trabajo junto a la ventana con luz natural",
-    objectPosition: "object-[center_40%]",
-    prices: [
-      {
-        label: "Mañanas · 8:00–15:00",
-        amount: "100 €",
-        note: "+ IVA / mes",
-      },
-      {
-        label: "Tardes · 15:00–22:00",
-        amount: "80 €",
-        note: "+ IVA / mes",
-      },
-    ],
-    features: [
-      "Media jornada: mañana o tarde",
-      "Mesa en el salón compartido",
-      "Sin dejar cosas en el puesto",
-    ],
-    cta: { label: "Consultar media jornada", className: "btn btn-ink" },
-  },
-  {
-    id: "bono-salon",
-    title: "Bono de salón por días",
-    tagline:
-      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra.",
-    note: "Días sueltos para salir de casa y conectar. Cada día: 10 € + IVA.",
-    image: "/photos/salon-dos-coworkers.jpg",
-    alt: "Dos coworkers trabajando con portátil en la mesa del salón",
-    objectPosition: "object-[center_45%]",
-    prices: [
-      {
-        label: "Bono 10 días",
-        amount: "100 €",
-        note: "+ IVA",
-      },
-      {
-        label: "Bono 20 días",
-        amount: "180 €",
-        note: "+ IVA · 9 €/día",
-      },
-    ],
-    features: [
-      "Día suelto: 10 € + IVA",
-      "Bono 10 días o bono 20 días",
-      "Mesa en el salón cuando vienes",
-    ],
-    cta: { label: "Pedir un bono", className: "btn btn-primary" },
-  },
   {
     id: "jornada-completa",
     title: "Jornada completa",
@@ -127,6 +71,62 @@ const plans = [
       "Todos los gastos incluidos",
     ],
     cta: { label: "Consultar disponibilidad", className: "btn btn-primary" },
+  },
+  {
+    id: "media-jornada",
+    title: "Media jornada",
+    tagline:
+      "Si trabajas en casa por la mañana y por la tarde te apetece cambiar de aire, aquí tienes sitio.",
+    note: "Mañana o tarde. No se pueden dejar cosas en la mesa: el puesto no es permanente.",
+    image: "/photos/ig-puestos-luz.jpg",
+    alt: "Puestos de trabajo junto a la ventana con luz natural",
+    objectPosition: "object-[center_40%]",
+    prices: [
+      {
+        label: "Mañanas · 8:00–15:00",
+        amount: "100 €",
+        note: "+ IVA / mes",
+      },
+      {
+        label: "Tardes · 15:00–22:00",
+        amount: "80 €",
+        note: "+ IVA / mes",
+      },
+    ],
+    features: [
+      "Media jornada: mañana o tarde",
+      "Mesa en el salón compartido",
+      "Sin dejar cosas en el puesto",
+    ],
+    cta: { label: "Consultar media jornada", className: "btn btn-ink" },
+  },
+  {
+    id: "bono-salon",
+    title: "Bonos días sueltos",
+    tagline:
+      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra.",
+    note: "Días sueltos para salir de casa y conectar. Cada día: 10 € + IVA.",
+    image: "/photos/salon-dos-coworkers.jpg",
+    alt: "Dos coworkers trabajando con portátil en la mesa del salón",
+    objectPosition: "object-[center_45%]",
+    prices: [
+      {
+        label: "Bono 10 días",
+        amount: "100 €",
+        note: "+ IVA",
+      },
+      {
+        label: "Bono 20 días",
+        amount: "180 €",
+        note: "+ IVA · 9 €/día",
+      },
+    ],
+    features: [
+      "Día suelto: 10 € + IVA",
+      "Bono 10 días o bono 20 días",
+      "Mesa en el salón cuando vienes",
+    ],
+    cta: { label: "Pedir un bono", className: "btn btn-primary" },
   },
 ] as const;
 
