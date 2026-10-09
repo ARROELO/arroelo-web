@@ -41,7 +41,7 @@ const amenities = [
 const gallery = [
   {
     src: "/photos/blog/pilita-sillon-dormida.jpg",
-    alt: "Pilita, la perrita del coworking, dormida en el sillón gris del salón de Arroelo",
+    alt: "Pilita, la perrita del coworking, en el sillón del salón de Arroelo con el cojín «A vivir que son sandías»",
     label: "Salón",
   },
   {
