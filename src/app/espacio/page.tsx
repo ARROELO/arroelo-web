@@ -67,6 +67,18 @@ const gallery = [
     src: "/photos/espacio-galeria-img-6318.jpg",
     alt: "Sala de trabajo luminosa con mesa blanca, monitor, auriculares y tapiz de lana a rayas; banco con cojín mostaza al lado",
   },
+  {
+    src: "/photos/espacio-galeria-img-6333.jpg",
+    alt: "Baño moderno del coworking con lavabo blanco, gran espejo, suelo de madera y planta decorativa",
+  },
+  {
+    src: "/photos/espacio-galeria-img-6337.jpg",
+    alt: "Sala de reuniones con mesa blanca, sillas, monitor, lámpara y estantería con cestas de mimbre",
+  },
+  {
+    src: "/photos/espacio-galeria-img-6334.jpg",
+    alt: "Pasillo luminoso con paredes blancas y suelo de madera; al fondo, salón con luz natural y planta",
+  },
 ];
 
 export default function EspacioPage() {
