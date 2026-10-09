@@ -97,7 +97,10 @@ const plans = [
     title: "Bonos días sueltos",
     tagline:
       "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra y quiere salir de casa y desconectar. Podrás trabajar desde nuestro salón.",
-    notes: [] as const,
+    notes: [
+      "No hay derecho a reserva de salas de reunión.",
+      "No se pueden dejar cosas en la mesa: el puesto no es permanente.",
+    ] as const,
     image: "/photos/salon-dos-coworkers.jpg",
     alt: "Dos coworkers trabajando con portátil en la mesa del salón",
     objectPosition: "object-[center_45%]",
