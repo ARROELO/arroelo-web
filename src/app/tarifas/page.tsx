@@ -49,8 +49,9 @@ const plans = [
   {
     id: "sala-exclusiva",
     title: "Sala exclusiva",
-    tagline: "Tu propia sala dentro de Arroelo.",
-    note: "Espacio privado para tu equipo.",
+    tagline:
+      "Tu propia sala dentro de Arroelo. Un espacio privado para tu equipo con acceso 24 horas.",
+    note: "",
     image: "/photos/tarifa-sala-exclusiva.jpg",
     alt: "Sala exclusiva con cuatro puestos enfrentados, sillas de oficina, ventana con cortinas y estantería blanca",
     objectPosition: "object-[center_40%]",
@@ -61,7 +62,7 @@ const plans = [
         note: "+ IVA / mes",
       },
     ],
-    features: ["Espacio privado para tu equipo", "Acceso 24 horas"],
+    features: [] as const,
     cta: { label: "Consultar disponibilidad", className: "btn btn-primary" },
   },
   {
