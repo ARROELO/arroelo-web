@@ -63,6 +63,10 @@ const gallery = [
     src: "/photos/espacio-galeria-img-2727.jpg",
     alt: "Salón de coworking con mesa de madera, sillas negras y alfombra geométrica; coworker trabajando al fondo junto a la ventana",
   },
+  {
+    src: "/photos/espacio-galeria-img-6318.jpg",
+    alt: "Sala de trabajo luminosa con mesa blanca, monitor, auriculares y tapiz de lana a rayas; banco con cojín mostaza al lado",
+  },
 ];
 
 export default function EspacioPage() {
