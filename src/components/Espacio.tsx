@@ -96,7 +96,7 @@ const bridges: {
       </>
     ),
     href: "https://creativehubs.net/",
-    image: "/photos/making.jpg",
+    image: "/photos/we-make-blackburn-grupo.jpg",
     alt: "Grupo en The Making Rooms (We MAKE Blackburn), hub creativo de la red ECHN",
     objectPosition: "object-[center_40%]",
     caption: (
