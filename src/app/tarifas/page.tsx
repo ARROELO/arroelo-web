@@ -216,21 +216,41 @@ export default function TarifasPage() {
                   />
                 </div>
 
-                <div className="mt-6 max-w-[34ch]">
-                  {plan.prices.map((price) => (
-                    <div
-                      key={price.label}
-                      className="mt-4 first:mt-0"
-                    >
-                      <p className="text-label text-graphite/70">{price.label}</p>
-                      <p className="mt-1 text-heading-sm text-ink">
-                        {price.amount}
-                        <span className="ml-2 text-body-lg font-normal text-ink/55">
-                          {price.note}
-                        </span>
-                      </p>
-                    </div>
-                  ))}
+                <div
+                  className={
+                    plan.prices.length > 1
+                      ? "mt-6 max-w-[48ch]"
+                      : "mt-6 max-w-[34ch]"
+                  }
+                >
+                  <div
+                    className={
+                      plan.prices.length > 1
+                        ? "flex flex-wrap gap-x-8 gap-y-4 sm:flex-nowrap"
+                        : undefined
+                    }
+                  >
+                    {plan.prices.map((price) => (
+                      <div
+                        key={price.label}
+                        className={
+                          plan.prices.length > 1
+                            ? "min-w-[11ch] flex-1 basis-[11ch]"
+                            : undefined
+                        }
+                      >
+                        <p className="text-label text-graphite/70">
+                          {price.label}
+                        </p>
+                        <p className="mt-1 text-heading-sm text-ink">
+                          {price.amount}
+                          <span className="ml-2 text-body-lg font-normal text-ink/55">
+                            {price.note}
+                          </span>
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                   <p className="mt-4 text-body-lg text-ink/65">{plan.tagline}</p>
                   <p className="mt-3 text-body text-ink/55">{plan.note}</p>
                 </div>
