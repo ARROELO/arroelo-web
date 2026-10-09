@@ -80,6 +80,11 @@ const gallery = [
     label: "Pasillo",
   },
   {
+    src: "/photos/espacio-galeria-pasillo-salon.jpg",
+    alt: "Pasillo estrecho hacia el salón con aparador blanco, jarrón de flores secas y extintor",
+    label: "Pasillo",
+  },
+  {
     src: "/photos/espacio-galeria-cocina.jpg",
     alt: "Cocina del coworking con mesa redonda blanca, sillas de hierro, encimera de granito y cartel en la ventana",
     label: "Cocina",
