@@ -30,8 +30,9 @@ const plans = [
   {
     id: "jornada-completa",
     title: "Jornada completa",
-    tagline: "Mesa en espacio compartido, jornada completa.",
-    note: "Presencia de jornada completa. Puedes dejar tus cosas en la mesa.",
+    tagline:
+      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra y quiere salir de casa y desconectar.",
+    note: "Podrás trabajar desde nuestro salón.",
     image: "/photos/sala-puestos.jpg",
     alt: "Coworker concentrado en su puesto de trabajo con luz natural",
     objectPosition: "object-[center_40%]",
@@ -42,11 +43,7 @@ const plans = [
         note: "+ IVA / mes",
       },
     ],
-    features: [
-      "Mesa en espacio compartido",
-      "Puedes dejar tus cosas en la mesa",
-      "Acceso 24 horas",
-    ],
+    features: [] as const,
     cta: { label: "Reservar semana de prueba", className: "btn btn-ink" },
   },
   {
