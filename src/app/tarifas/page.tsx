@@ -273,40 +273,47 @@ export default function TarifasPage() {
           className="bg-fog px-4 py-120 md:px-6"
           aria-labelledby="incluido-todas"
         >
-          <div className="mx-auto max-w-[1440px]">
-            <div className="max-w-[42ch] md:max-w-[50%]">
+          <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-start gap-y-16 md:grid-cols-2 md:gap-x-12 lg:gap-x-16">
+            <div className="min-w-0 reveal reveal-delay-1">
               <h2
                 id="incluido-todas"
                 className="text-espacio-intro-title text-ink"
               >
                 Incluido en todas las tarifas
               </h2>
-              <p className="mt-2 text-espacio-intro-body text-ink/70">
+              <p className="mt-2 max-w-[36ch] text-espacio-intro-body text-ink/70">
                 Lo que comparten las cuatro formas de estar en Arroelo.
               </p>
+              <ul className="tarifa-feature-list mt-12 max-w-[42ch] md:mt-16">
+                {includedAll.map((item) => (
+                  <li key={item.id} className="tarifa-feature-item">
+                    <span className="text-body text-ink">{item.content}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <ul className="tarifa-feature-list mt-12 max-w-[42ch] md:mt-16">
-              {includedAll.map((item) => (
-                <li key={item.id} className="tarifa-feature-item">
-                  <span className="text-body text-ink">{item.content}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
 
-        <section className="bg-paper px-4 py-120 md:px-6">
-          <div className="max-w-[42ch] md:max-w-[50%]">
-            <p className="text-label text-graphite/70">Pruébalo</p>
-            <h2 className="mt-4 text-espacio-intro-title text-ink">
-              Primera semana sin coste
-            </h2>
-            <p className="mt-2 text-espacio-intro-body text-ink/70">
-              Sin compromiso. Escribe y te contamos qué tarifa encaja.
-            </p>
-            <Link href="/#contacto" className="btn btn-ink mt-10">
-              Contactar
-            </Link>
+            <div className="min-w-0 reveal reveal-delay-2 md:pt-1">
+              <div className="relative aspect-[3/2] overflow-hidden rounded-none bg-mist">
+                <Image
+                  src={withBase("/photos/salon-ambiente.jpg")}
+                  alt="Salón de Arroelo con luz natural y mesas de coworking"
+                  fill
+                  className="object-cover object-[center_45%]"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <p className="mt-8 text-label text-graphite/70">Pruébalo</p>
+              <h2 className="mt-4 text-espacio-intro-title text-ink">
+                Primera semana sin coste
+              </h2>
+              <p className="mt-2 max-w-[36ch] text-espacio-intro-body text-ink/70">
+                Sin compromiso. Escribe y te contamos qué tarifa encaja.
+              </p>
+              <Link href="/#contacto" className="btn btn-ink mt-10">
+                Contactar
+              </Link>
+            </div>
           </div>
         </section>
       </main>
