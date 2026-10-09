@@ -75,9 +75,9 @@ const gallery = [
     label: "Sala L",
   },
   {
-    src: "/photos/espacio-galeria-img-6334.jpg",
-    alt: "Pasillo luminoso con paredes blancas y suelo de madera; al fondo, salón con luz natural y planta",
-    label: "Salón",
+    src: "/photos/espacio-galeria-pasillo.jpg",
+    alt: "Pasillo luminoso con paredes blancas, suelo de madera y aparador blanco con jarrón de flores secas",
+    label: "Pasillo",
   },
   {
     src: "/photos/espacio-galeria-cocina.jpg",
