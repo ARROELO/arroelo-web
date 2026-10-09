@@ -107,7 +107,7 @@ const plans = [
       {
         label: "Bono 20 días",
         amount: "180 €",
-        note: "+ IVA · 9 €/día",
+        note: "+ IVA",
       },
     ],
     features: [] as const,
