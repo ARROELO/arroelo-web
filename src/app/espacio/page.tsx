@@ -42,42 +42,52 @@ const gallery = [
   {
     src: "/photos/blog/pilita-sillon-dormida.jpg",
     alt: "Pilita, la perrita del coworking, dormida en el sillón gris del salón de Arroelo",
+    label: "Salón",
   },
   {
     src: "/photos/espacio-galeria-cafe-mesa.jpg",
     alt: "Bodegón de aperitivos sobre mesa de madera: uvas, naranja, queso y pan frente al ventanal",
+    label: "Salón",
   },
   {
     src: "/photos/ig-puestos-luz.jpg",
-    alt: "Puestos de trabajo junto a la ventana con luz natural",
+    alt: "Oficina exclusiva con cuatro puestos de trabajo junto a la ventana con luz natural",
+    label: "Sala XL",
   },
   {
     src: "/photos/espacio-galeria-img-2727.jpg",
     alt: "Salón de coworking con mesa de madera, sillas negras y alfombra geométrica; coworker trabajando al fondo junto a la ventana",
+    label: "Salón",
   },
   {
     src: "/photos/espacio-galeria-img-6318.jpg",
-    alt: "Sala de trabajo luminosa con mesa blanca, monitor, auriculares y tapiz de lana a rayas; banco con cojín mostaza al lado",
+    alt: "Sala de reuniones mediana con mesa blanca, monitor, auriculares y tapiz de lana a rayas; banco con cojín mostaza al lado",
+    label: "Sala M",
   },
   {
     src: "/photos/espacio-galeria-img-6333.jpg",
     alt: "Baño moderno del coworking con lavabo blanco, gran espejo, suelo de madera y planta decorativa",
+    label: "Baños",
   },
   {
     src: "/photos/espacio-galeria-img-6337.jpg",
-    alt: "Sala de reuniones con mesa blanca, sillas, monitor, lámpara y estantería con cestas de mimbre",
+    alt: "Sala de reuniones grande con mesa blanca, sillas, monitor, lámpara y estantería con cestas de mimbre",
+    label: "Sala L",
   },
   {
     src: "/photos/espacio-galeria-img-6334.jpg",
     alt: "Pasillo luminoso con paredes blancas y suelo de madera; al fondo, salón con luz natural y planta",
+    label: "Salón",
   },
   {
     src: "/photos/espacio-galeria-img-6354.jpg",
     alt: "Cocina del coworking con mesa redonda blanca, sillas de hierro, encimera de granito, cafeteras y cartel en la ventana",
+    label: "Cocina",
   },
   {
     src: "/photos/espacio-galeria-img-6361.jpg",
-    alt: "Puesto de trabajo luminoso con mesa de madera, monitor, silla blanca y ventanales al patio interior",
+    alt: "Sala de reuniones pequeña con mesa de madera, monitor, silla blanca y ventanales al patio interior",
+    label: "Sala S",
   },
 ];
 
@@ -141,18 +151,20 @@ export default function EspacioPage() {
           </div>
           <div className="mt-14 grid gap-[2.5rem] sm:grid-cols-2 sm:gap-[3rem] md:mt-20 md:gap-[3.5rem] lg:grid-cols-3 lg:gap-[4rem]">
             {gallery.map((shot) => (
-              <div
-                key={shot.src}
-                className="relative aspect-[4/5] overflow-hidden rounded-none"
-              >
-                <Image
-                  src={withBase(shot.src)}
-                  alt={shot.alt}
-                  fill
-                  className="object-cover object-[center_40%]"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
+              <figure key={shot.src} className="min-w-0">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-none bg-mist">
+                  <Image
+                    src={withBase(shot.src)}
+                    alt={shot.alt}
+                    fill
+                    className="object-cover object-[center_40%]"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                </div>
+                <figcaption className="mt-2.5 text-left text-[14px] leading-[1.45] tracking-[0.01em] text-ink/50">
+                  {shot.label}
+                </figcaption>
+              </figure>
             ))}
           </div>
         </section>
