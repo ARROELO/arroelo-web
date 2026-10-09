@@ -49,9 +49,9 @@ const bridges: {
       </>
     ),
     href: "https://anceu.com/",
-    image: "/photos/anceu.jpg",
-    alt: "Coworking al aire libre en Anceu: portátil y cuaderno entre árboles",
-    objectPosition: "object-[center_40%]",
+    image: "/photos/home-puente-anceu-naturaleza.jpg",
+    alt: "Tres mujeres coworking al aire libre en Anceu: portátil y cuaderno entre árboles",
+    objectPosition: "object-[center_35%]",
     caption: (
       <>
         Hannah y Sara, participantes del programa{" "}
@@ -135,8 +135,8 @@ const bridges: {
       </>
     ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
-    image: "/photos/home-puente-curiosidad-jardin.jpg",
-    alt: "Tres mujeres colaborando al aire libre en un patio soleado; una escribe mientras otra sonríe a su lado",
+    image: "/photos/home-puente-linkedin-comunidad.jpg",
+    alt: "Grupo de la comunidad reunido alrededor de la mesa del salón con café y aperitivos; al fondo, proyección del proyecto Visión 2024",
     objectPosition: "object-[center_40%]",
   },
 ];
