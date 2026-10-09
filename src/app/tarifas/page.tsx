@@ -74,7 +74,7 @@ const plans = [
       "8 horas de reserva de sala de reunión semanal.",
       "No se pueden dejar cosas en la mesa: el puesto no es permanente.",
     ] as const,
-    image: "/photos/ig-puestos-luz.jpg",
+    image: "/photos/tarifa-media-jornada.jpg",
     alt: "Puestos de trabajo junto a la ventana con luz natural",
     objectPosition: "object-[center_40%]",
     prices: [
