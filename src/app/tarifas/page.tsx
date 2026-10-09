@@ -32,7 +32,7 @@ const plans = [
     title: "Jornada completa",
     tagline:
       "Mesa exclusiva en espacio compartido, en jornada completa con acceso 24/7.",
-    note: "",
+    notes: ["Horario ilimitado de reserva de salas de reunión."] as const,
     image: "/photos/sala-puestos.jpg",
     alt: "Coworker concentrado en su puesto de trabajo con luz natural",
     objectPosition: "object-[center_40%]",
@@ -51,7 +51,7 @@ const plans = [
     title: "Sala exclusiva",
     tagline:
       "Tu propia sala dentro de Arroelo. Un espacio privado para tu equipo con acceso 24 horas.",
-    note: "",
+    notes: ["Horario ilimitado de reserva de salas de reunión."] as const,
     image: "/photos/tarifa-sala-exclusiva.jpg",
     alt: "Sala exclusiva con cuatro puestos enfrentados, sillas de oficina, ventana con cortinas y estantería blanca",
     objectPosition: "object-[center_40%]",
@@ -70,7 +70,10 @@ const plans = [
     title: "Media jornada",
     tagline:
       "Si trabajas en casa por la mañana y por la tarde te apetece cambiar de aire —o a la inversa—, aquí tienes sitio.",
-    note: "No se pueden dejar cosas en la mesa: el puesto no es permanente.",
+    notes: [
+      "8 horas de reserva de sala de reunión semanal.",
+      "No se pueden dejar cosas en la mesa: el puesto no es permanente.",
+    ] as const,
     image: "/photos/ig-puestos-luz.jpg",
     alt: "Puestos de trabajo junto a la ventana con luz natural",
     objectPosition: "object-[center_40%]",
@@ -94,7 +97,7 @@ const plans = [
     title: "Bonos días sueltos",
     tagline:
       "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra y quiere salir de casa y desconectar. Podrás trabajar desde nuestro salón.",
-    note: "",
+    notes: [] as const,
     image: "/photos/salon-dos-coworkers.jpg",
     alt: "Dos coworkers trabajando con portátil en la mesa del salón",
     objectPosition: "object-[center_45%]",
@@ -242,9 +245,11 @@ export default function TarifasPage() {
                     ))}
                   </div>
                   <p className="mt-4 text-body-lg text-ink/65">{plan.tagline}</p>
-                  {plan.note ? (
-                    <p className="mt-3 text-body text-ink/55">{plan.note}</p>
-                  ) : null}
+                  {plan.notes.map((line) => (
+                    <p key={line} className="mt-3 text-body text-ink/55">
+                      {line}
+                    </p>
+                  ))}
                 </div>
 
                 {plan.features.length > 0 ? (
