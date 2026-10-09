@@ -7,7 +7,7 @@ import { withBase } from "@/lib/path";
 
 const pillars = [
   {
-    src: "/photos/home-pilar-desayuno-comunidad.jpg",
+    src: "/photos/home-pilar-desayuno-grupo-mesa.jpg",
     alt: "Un grupo diverso de personas compartiendo café y repostería en una gran mesa de madera en un espacio de coworking luminoso",
     objectPosition: "object-[center_40%]",
   },
