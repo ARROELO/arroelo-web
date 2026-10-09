@@ -71,8 +71,8 @@ const plans = [
     id: "media-jornada",
     title: "Media jornada",
     tagline:
-      "Si trabajas en casa por la mañana y por la tarde te apetece cambiar de aire, aquí tienes sitio.",
-    note: "Mañana o tarde. No se pueden dejar cosas en la mesa: el puesto no es permanente.",
+      "Si trabajas en casa por la mañana y por la tarde te apetece cambiar de aire —o a la inversa—, aquí tienes sitio.",
+    note: "No se pueden dejar cosas en la mesa: el puesto no es permanente.",
     image: "/photos/ig-puestos-luz.jpg",
     alt: "Puestos de trabajo junto a la ventana con luz natural",
     objectPosition: "object-[center_40%]",
@@ -88,11 +88,7 @@ const plans = [
         note: "+ IVA / mes",
       },
     ],
-    features: [
-      "Media jornada: mañana o tarde",
-      "Mesa en el salón compartido",
-      "Sin dejar cosas en el puesto",
-    ],
+    features: [] as const,
     cta: { label: "Consultar media jornada", className: "btn btn-ink" },
   },
   {
@@ -226,7 +222,7 @@ export default function TarifasPage() {
                   <div
                     className={
                       plan.prices.length > 1
-                        ? "flex flex-wrap gap-x-8 gap-y-4 sm:flex-nowrap"
+                        ? "flex flex-nowrap items-start gap-x-6 sm:gap-x-8"
                         : undefined
                     }
                   >
@@ -235,7 +231,7 @@ export default function TarifasPage() {
                         key={price.label}
                         className={
                           plan.prices.length > 1
-                            ? "min-w-[11ch] flex-1 basis-[11ch]"
+                            ? "min-w-0 flex-1"
                             : undefined
                         }
                       >
@@ -255,13 +251,15 @@ export default function TarifasPage() {
                   <p className="mt-3 text-body text-ink/55">{plan.note}</p>
                 </div>
 
-                <ul className="tarifa-feature-list mt-10 max-w-[36ch]">
-                  {plan.features.map((line) => (
-                    <li key={line} className="tarifa-feature-item">
-                      <span className="text-body text-ink">{line}</span>
-                    </li>
-                  ))}
-                </ul>
+                {plan.features.length > 0 ? (
+                  <ul className="tarifa-feature-list mt-10 max-w-[36ch]">
+                    {plan.features.map((line) => (
+                      <li key={line} className="tarifa-feature-item">
+                        <span className="text-body text-ink">{line}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
 
                 <Link href="/#contacto" className={`${plan.cta.className} mt-10`}>
                   {plan.cta.label}
