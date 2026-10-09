@@ -12,8 +12,8 @@ const pillars = [
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/home-pilar-dos-coworkers.jpg",
-    alt: "Dos mujeres trabajando con portátil y móvil en una mesa del salón de Arroelo",
+    src: "/photos/home-pilar-coworker-portatil.jpg",
+    alt: "Coworker con gafas trabajando con portátil en una mesa del salón de Arroelo",
     objectPosition: "object-[center_40%]",
   },
   {
