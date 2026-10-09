@@ -33,7 +33,7 @@ const plans = [
     tagline:
       "Mesa exclusiva en espacio compartido, en jornada completa con acceso 24/7.",
     notes: ["Horario ilimitado de reserva de salas de reunión."] as const,
-    image: "/photos/sala-puestos.jpg",
+    image: "/photos/tarifa-jornada-completa.jpg",
     alt: "Coworker concentrado en su puesto de trabajo con luz natural",
     objectPosition: "object-[center_40%]",
     prices: [
