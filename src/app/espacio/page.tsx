@@ -65,13 +65,13 @@ const gallery = [
     label: "Sala M",
   },
   {
-    src: "/photos/espacio-galeria-img-6333.jpg",
-    alt: "Baño moderno del coworking con lavabo blanco, gran espejo, suelo de madera y planta decorativa",
-    label: "Baños",
-  },
-  {
     src: "/photos/espacio-galeria-img-6337.jpg",
     alt: "Sala de reuniones grande con mesa blanca, sillas, monitor, lámpara y estantería con cestas de mimbre",
+    label: "Sala L",
+  },
+  {
+    src: "/photos/espacio-galeria-sala-l-estanteria.jpg",
+    alt: "Rincón de Sala L con estantería blanca, peluches, cestas de mimbre, silla de madera con cojín toile y placas en la pared",
     label: "Sala L",
   },
   {
