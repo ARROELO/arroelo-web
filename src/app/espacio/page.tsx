@@ -50,8 +50,8 @@ const gallery = [
     label: "Salón",
   },
   {
-    src: "/photos/tarifa-sala-exclusiva.jpg",
-    alt: "Sala exclusiva con cuatro puestos enfrentados, sillas de oficina, ventana con cortinas y estantería blanca",
+    src: "/photos/espacio-galeria-sala-xl.jpg",
+    alt: "Sala XL con cuatro puestos enfrentados, sillas de malla, ventana con cortinas y mapa del mundo sobre taquillas blancas",
     label: "Sala XL",
   },
   {
