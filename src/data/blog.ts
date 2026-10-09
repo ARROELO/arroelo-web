@@ -61,7 +61,7 @@ export const blogPosts: BlogPost[] = [
       "CO-Labora 2015: el germen de buscar empleo en compañía en Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/colabora-slide1.png",
+    image: "/photos/blog/colabora-slide1-eq.png",
     alt: "Papel kraft en la pared de Espacio Arroelo con #COLABORA 2015, el lema «Compartir es tener» y nombres de participantes escritos a boli",
     excerpt:
       "Cómo Espacio Arroelo lanzó CO-Labora 2015: programa gratuito de empleo para 15 personas, coaching y el germen del Programa Arela municipal en Pontevedra.",
@@ -307,7 +307,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking inclusivo en Pontevedra: Empleo con Apoyo en Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/xuntos-comunidad-arroelo.jpg",
+    image: "/photos/blog/xuntos-comunidad-arroelo-eq.jpg",
     alt: "Comunidad de Down Pontevedra Xuntos y Espacio Arroelo junto al banner de la asociación, en un momento lúdico en el coworking",
     excerpt:
       "Desde 2016 formamos parte del programa de Empleo con Apoyo con Down Pontevedra Xuntos: Cecilia y Celso en el equipo, disciplina diaria y una comunidad que se ensancha.",
@@ -600,7 +600,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Cultura colaborativa en Galicia: coworking y coliving",
     date: "2026-10-07",
     label: "Mapa",
-    image: "/photos/blog/magma-interior-pizarra.jpg",
+    image: "/photos/blog/magma-interior-pizarra-eq.jpg",
     alt: "Interior de Magma Espacio en Ourense: pizarra de normas de la comunidad, puestos de coworking y zona de ping-pong",
     excerpt:
       "Coworking y coliving en Galicia con los que tejemos red: Sende, iSlow, Anceu, Magma en Ourense y nosotras en Pontevedra. Espacios creativos donde compartimos conocimiento.",
@@ -1047,7 +1047,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking dog-friendly en Pontevedra: Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/lazaro-alfombra-amarilla.jpg",
+    image: "/photos/blog/lazaro-alfombra-amarilla-eq.jpg",
     alt: "Lázaro, el primer perro de Espacio Arroelo, tumbado en la alfombra amarilla del coworking",
     excerpt:
       "Sí, puedes venir con tu perro a nuestro coworking. Empezó con Lázaro —el de Tania—; hoy Pilita viene con Helena y Lagun con Ana.",
@@ -1309,7 +1309,7 @@ export const blogPosts: BlogPost[] = [
       "Coworking Spain Conference: desde un coworking en Pontevedra",
     date: "2026-10-07",
     label: "Congresos",
-    image: "/photos/blog/cwsc-portada-sillas-amarillas.jpg",
+    image: "/photos/blog/cwsc-portada-sillas-amarillas-eq.jpg",
     alt: "Tres mujeres emprendedoras de la comunidad Arroelo sonriendo en sillas Acapulco amarillas durante la Coworking Spain Conference",
     imageFit: "cover",
     imagePosition: "top",
@@ -1668,7 +1668,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "PonteJam y Global Service Jam: creatividad en Arroelo",
     date: "2026-10-07",
     label: "Creatividad",
-    image: "/photos/blog/pontejam-grupo-edison.jpg",
+    image: "/photos/blog/pontejam-grupo-edison-eq.jpg",
     alt: "Foto de grupo de participantes de PonteJam bajo bombillas Edison en Espacio Arroelo",
     imageFit: "cover",
     imagePosition: "top",
@@ -1967,7 +1967,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Human Library en Espacio Arroelo (Pontevedra)",
     date: "2026-10-07",
     label: "Comunidad",
-    image: "/photos/blog/human-library-muro-deseos-portada.jpg",
+    image: "/photos/blog/human-library-muro-deseos-portada-eq.jpg",
     alt: "Muro de los deseos en pizarra con el lema «Antes de morrer quero...» en una Human Library de Espacio Arroelo",
     imageFit: "cover",
     imagePosition: "top",
@@ -2289,7 +2289,7 @@ export const blogPosts: BlogPost[] = [
       "IA en el coworking: cómo la usamos en Espacio Arroelo (y por qué nos deja más tiempo para las personas)",
     date: "2026-10-07",
     label: "IA",
-    image: "/photos/blog/ia-africa-portatil-salon.jpg",
+    image: "/photos/blog/ia-africa-portatil-salon-eq.jpg",
     alt: "África Rodríguez trabajando con el portátil en la recepción del coworking Espacio Arroelo, en el centro de Pontevedra",
     excerpt:
       "Desde que María y yo abrimos Arroelo, usamos la IA para correo, tareas, facturas y reservas —y así nos queda más tiempo para las personas. También RuralGPT.",
@@ -2501,7 +2501,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Mudarse a Pontevedra: ciudad peatonal",
     date: "2026-10-07",
     label: "Ciudad",
-    image: "/photos/blog/pontevedra-escritorio-puente-madera.jpg",
+    image: "/photos/blog/pontevedra-escritorio-puente-madera-eq.jpg",
     alt: "Persona trabajando con portátil en un puente de madera en Pontevedra",
     excerpt:
       "Por qué mudarse a Pontevedra ahora: ciudad peatonal premiada, calidad de vida y coworking en el centro con Espacio Arroelo para trabajar y hacer red.",
@@ -2755,7 +2755,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Rural Hackers: tech e impacto rural",
     date: "2026-10-07",
     label: "Impacto",
-    image: "/photos/blog/rural-hackers-portada-camiseta.jpg",
+    image: "/photos/blog/rural-hackers-portada-camiseta-eq.jpg",
     alt: "Persona de espaldas en un campo, con camiseta negra que dice «I AM A RURAL HACKER» en letras amarillas y un pequeño icono de planta",
     excerpt:
       "Qué es Rural Hackers y cómo, desde Anceu y con Arroelo, usan arte, tecnología e IA para revitalizar el rural gallego.",
@@ -2987,7 +2987,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Coworking en Pontevedra y red ECHN",
     date: "2026-10-07",
     label: "Redes",
-    image: "/photos/blog/echn-salon-comunidad.jpg",
+    image: "/photos/blog/echn-salon-comunidad-eq.jpg",
     alt: "Comunidad reunida alrededor de la mesa del salón de Espacio Arroelo en Pontevedra",
     excerpt:
       "Por qué elegir Espacio Arroelo como coworking en Pontevedra: comunidad, salón y conexión europea vía European Creative Hubs Network desde 2017.",
@@ -3212,7 +3212,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Café a la fresca: comunidad en Arroelo",
     date: "2026-10-07",
     label: "Ritual",
-    image: "/photos/desayuno.jpg",
+    image: "/photos/desayuno-eq.jpg",
     alt: "Mesa de desayuno y café en el salón de Arroelo a media mañana",
     excerpt:
       "Qué es el Café a la fresca de Espacio Arroelo: mañanas de conversación, diversidad y «tercer tiempo» en el coworking de Pontevedra.",
@@ -3590,7 +3590,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "De Pontevedra a Anceu: ciudad y aldea",
     date: "2026-10-07",
     label: "Puentes",
-    image: "/photos/blog/anceu-xa-non-calamos.jpg",
+    image: "/photos/blog/anceu-xa-non-calamos-eq.jpg",
     alt: "Grupo de mujeres en Anceu con el cartel «Xa non calamos / Non lle berramos / Voso silenzo non te protexe», valle al fondo",
     excerpt:
       "Cómo Espacio Arroelo tiende puentes con Anceu Coliving: del coworking en Pontevedra a la revitalización de una aldea de menos de 100 habitantes.",
@@ -3894,7 +3894,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "De LinkedIn a coworking en Pontevedra",
     date: "2026-10-06",
     label: "Historia",
-    image: "/photos/blog/africa-y-maria.jpg",
+    image: "/photos/blog/africa-y-maria-eq.jpg",
     alt: "África Rodríguez y María Pierres pintan el mural «el mundo pertenece a quienes se atreven»",
     excerpt:
       "Cómo África Rodríguez y María Pierres fundaron Espacio Arroelo en 2013: de un encuentro en LinkedIn a más de una década de coworking en Pontevedra.",
