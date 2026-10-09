@@ -19,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: absoluteUrl("/tarifas"),
+      lastModified: new Date("2026-10-09"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: absoluteUrl("/coworkers"),
       lastModified: new Date("2026-10-06"),
       changeFrequency: "monthly",

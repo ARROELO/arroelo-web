@@ -1,0 +1,232 @@
+import Image from "next/image";
+import type { Metadata } from "next";
+import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/Contacto";
+import { withBase } from "@/lib/path";
+
+export const metadata: Metadata = {
+  title: "Tarifas — Coworking en Pontevedra | Arroelo",
+  description:
+    "Media jornada, bono de salón, jornada completa y sala exclusiva. Tarifas claras de coworking en el centro de Pontevedra.",
+  alternates: {
+    canonical: "/tarifas",
+  },
+  openGraph: {
+    title: "Tarifas — Coworking en Pontevedra | Arroelo",
+    description:
+      "Media jornada, bono de salón, jornada completa y sala exclusiva. Sin letra pequeña.",
+    type: "website",
+    locale: "es_ES",
+    url: "/tarifas",
+  },
+};
+
+const plans = [
+  {
+    id: "media-jornada",
+    title: "Media jornada",
+    tagline:
+      "Si trabajas en casa por la mañana y por la tarde te apetece cambiar de aire, aquí tienes sitio.",
+    note: "Mañana o tarde. No se pueden dejar cosas en la mesa: el puesto no es permanente.",
+    image: "/photos/ig-puestos-luz.jpg",
+    alt: "Puestos de trabajo junto a la ventana con luz natural",
+    objectPosition: "object-[center_40%]",
+    prices: [
+      {
+        label: "Mañanas · 8:00–15:00",
+        amount: "100 €",
+        note: "+ IVA / mes",
+      },
+      {
+        label: "Tardes · 15:00–22:00",
+        amount: "80 €",
+        note: "+ IVA / mes",
+      },
+    ],
+    features: [
+      "Media jornada: mañana o tarde",
+      "Mesa en el salón compartido",
+      "Sin dejar cosas en el puesto",
+    ],
+    cta: { label: "Consultar media jornada", className: "btn btn-ink" },
+  },
+  {
+    id: "bono-salon",
+    title: "Bono de salón por días",
+    tagline:
+      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra.",
+    note: "Días sueltos para salir de casa y conectar. Cada día: 10 € + IVA.",
+    image: "/photos/salon-dos-coworkers.jpg",
+    alt: "Dos coworkers trabajando con portátil en la mesa del salón",
+    objectPosition: "object-[center_45%]",
+    prices: [
+      {
+        label: "Bono 10 días",
+        amount: "100 €",
+        note: "+ IVA",
+      },
+      {
+        label: "Bono 20 días",
+        amount: "180 €",
+        note: "+ IVA · 9 €/día",
+      },
+    ],
+    features: [
+      "Día suelto: 10 € + IVA",
+      "Bono 10 días o bono 20 días",
+      "Mesa en el salón cuando vienes",
+    ],
+    cta: { label: "Pedir un bono", className: "btn btn-primary" },
+  },
+  {
+    id: "jornada-completa",
+    title: "Jornada completa",
+    tagline: "Mesa en espacio compartido, jornada completa.",
+    note: "Presencia de jornada completa. Puedes dejar tus cosas en la mesa.",
+    image: "/photos/sala-puestos.jpg",
+    alt: "Coworker concentrado en su puesto de trabajo con luz natural",
+    objectPosition: "object-[center_40%]",
+    prices: [
+      {
+        label: "Coworking",
+        amount: "200 €",
+        note: "+ IVA / mes",
+      },
+    ],
+    features: [
+      "Mesa en espacio compartido",
+      "Jornada completa, sin permanencia",
+      "Fibra óptica 1 Giga",
+      "Acceso 24 horas",
+      "3 salas de reunión con pantalla 4K",
+      "Todos los gastos incluidos",
+    ],
+    cta: { label: "Reservar semana de prueba", className: "btn btn-ink" },
+  },
+  {
+    id: "sala-exclusiva",
+    title: "Sala exclusiva",
+    tagline: "Tu propia sala dentro de Arroelo.",
+    note: "Espacio privado para tu equipo, con todos los gastos incluidos.",
+    image: "/photos/puesto-luz.jpg",
+    alt: "Sala exclusiva con puestos de trabajo en Arroelo",
+    objectPosition: "object-[center_45%]",
+    prices: [
+      {
+        label: "Sala privada",
+        amount: "400 €",
+        note: "+ IVA / mes",
+      },
+    ],
+    features: [
+      "Espacio privado para tu equipo",
+      "Fibra 1 Giga",
+      "Acceso 24 horas",
+      "3 salas de reunión con pantalla 4K",
+      "Todos los gastos incluidos",
+    ],
+    cta: { label: "Consultar disponibilidad", className: "btn btn-primary" },
+  },
+] as const;
+
+export default function TarifasPage() {
+  return (
+    <>
+      <SiteHeader variant="solid" />
+      <main>
+        <header className="bg-fog px-4 pt-8 pb-16 md:px-6 md:pt-10 md:pb-20">
+          <div className="max-w-[42ch] md:max-w-[50%]">
+            <p className="reveal text-label text-graphite/70">Sin letra pequeña</p>
+            <h1 className="reveal reveal-delay-1 mt-4 text-espacio-intro-title text-ink">
+              Tarifas
+            </h1>
+            <p className="reveal reveal-delay-2 mt-2 text-espacio-intro-body text-ink/70">
+              Cuatro formas de estar en Arroelo. Más de 10 años de coworking en
+              Pontevedra.
+            </p>
+          </div>
+        </header>
+
+        <section
+          className="bg-paper px-4 py-120 md:px-6"
+          aria-label="Planes de tarifas"
+        >
+          <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-20 md:grid-cols-2 md:gap-x-12 md:gap-y-24 lg:gap-x-16">
+            {plans.map((plan, index) => (
+              <article
+                key={plan.id}
+                id={plan.id}
+                className={
+                  index % 2 === 0
+                    ? "min-w-0 reveal reveal-delay-1"
+                    : "min-w-0 reveal reveal-delay-2"
+                }
+              >
+                <h2 className="text-heading text-ink">{plan.title}</h2>
+
+                <div className="relative mt-8 aspect-[3/2] overflow-hidden rounded-none bg-mist">
+                  <Image
+                    src={withBase(plan.image)}
+                    alt={plan.alt}
+                    fill
+                    className={`object-cover ${plan.objectPosition}`}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    priority={index < 2}
+                  />
+                </div>
+
+                <div className="mt-6 max-w-[34ch]">
+                  {plan.prices.map((price) => (
+                    <div
+                      key={price.label}
+                      className="mt-4 first:mt-0"
+                    >
+                      <p className="text-label text-graphite/70">{price.label}</p>
+                      <p className="mt-1 text-heading-sm text-ink">
+                        {price.amount}
+                        <span className="ml-2 text-body-lg font-normal text-ink/55">
+                          {price.note}
+                        </span>
+                      </p>
+                    </div>
+                  ))}
+                  <p className="mt-4 text-body-lg text-ink/65">{plan.tagline}</p>
+                  <p className="mt-3 text-body text-ink/55">{plan.note}</p>
+                </div>
+
+                <ul className="tarifa-feature-list mt-10 max-w-[36ch]">
+                  {plan.features.map((line) => (
+                    <li key={line} className="tarifa-feature-item">
+                      <span className="text-body text-ink">{line}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <Link href="/#contacto" className={`${plan.cta.className} mt-10`}>
+                  {plan.cta.label}
+                </Link>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="bg-fog px-4 py-120 md:px-6">
+          <div className="max-w-[42ch] md:max-w-[50%]">
+            <p className="text-label text-graphite/70">Pruébalo</p>
+            <h2 className="mt-4 text-espacio-intro-title text-ink">
+              Primera semana sin coste
+            </h2>
+            <p className="mt-2 text-espacio-intro-body text-ink/70">
+              Sin permanencia. Escribe y te contamos qué tarifa encaja.
+            </p>
+            <Link href="/#contacto" className="btn btn-ink mt-10">
+              Contactar
+            </Link>
+          </div>
+        </section>
+      </main>
+      <SiteFooter />
+    </>
+  );
+}
