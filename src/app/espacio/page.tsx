@@ -44,20 +44,12 @@ const gallery = [
     alt: "Pilita, la perrita del coworking, dormida en el sillón gris del salón de Arroelo",
   },
   {
-    src: "/photos/salon-dos-coworkers.jpg",
-    alt: "Dos coworkers trabajando con portátil en la mesa del salón",
-  },
-  {
     src: "/photos/espacio-galeria-cafe-mesa.jpg",
     alt: "Bodegón de aperitivos sobre mesa de madera: uvas, naranja, queso y pan frente al ventanal",
   },
   {
     src: "/photos/ig-puestos-luz.jpg",
     alt: "Puestos de trabajo junto a la ventana con luz natural",
-  },
-  {
-    src: "/photos/coworker-enfoque.jpg",
-    alt: "Coworker concentrado en su puesto, con luz de la ventana y plantas",
   },
   {
     src: "/photos/espacio-galeria-img-2727.jpg",
