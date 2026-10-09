@@ -80,8 +80,8 @@ const gallery = [
     label: "Salón",
   },
   {
-    src: "/photos/espacio-galeria-img-6354.jpg",
-    alt: "Cocina del coworking con mesa redonda blanca, sillas de hierro, encimera de granito, cafeteras y cartel en la ventana",
+    src: "/photos/espacio-galeria-cocina.jpg",
+    alt: "Cocina del coworking con mesa redonda blanca, sillas de hierro, encimera de granito y cartel en la ventana",
     label: "Cocina",
   },
   {
