@@ -188,7 +188,7 @@ export default function TarifasPage() {
           className="bg-paper px-4 py-120 md:px-6"
           aria-label="Planes de tarifas"
         >
-          <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-32 md:grid-cols-2 md:gap-x-12 md:gap-y-80 lg:gap-x-16">
+          <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-y-[64px] md:grid-cols-2 md:gap-x-12 md:gap-y-120 lg:gap-x-16">
             {plans.map((plan, index) => (
               <article
                 key={plan.id}
@@ -199,7 +199,7 @@ export default function TarifasPage() {
                     : "min-w-0 reveal reveal-delay-2"
                 }
               >
-                <h2 className="text-heading text-ink">{plan.title}</h2>
+                <h2 className="text-heading !font-bold text-ink">{plan.title}</h2>
 
                 <div className="relative mt-8 aspect-[3/2] overflow-hidden rounded-none bg-mist">
                   <Image
