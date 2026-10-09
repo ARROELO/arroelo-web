@@ -101,7 +101,7 @@ const plans = [
       "No hay derecho a reserva de salas de reunión.",
       "No se pueden dejar cosas en la mesa: el puesto no es permanente.",
     ] as const,
-    image: "/photos/salon-dos-coworkers.jpg",
+    image: "/photos/tarifa-bonos-dias.jpg",
     alt: "Dos coworkers trabajando con portátil en la mesa del salón",
     objectPosition: "object-[center_45%]",
     prices: [
