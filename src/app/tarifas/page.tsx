@@ -31,8 +31,8 @@ const plans = [
     id: "jornada-completa",
     title: "Jornada completa",
     tagline:
-      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra y quiere salir de casa y desconectar. Podrás trabajar desde nuestro salón.",
-    note: "Puedes dejar tus cosas en la mesa.",
+      "Mesa exclusiva en espacio compartido, en jornada completa con acceso 24/7.",
+    note: "",
     image: "/photos/sala-puestos.jpg",
     alt: "Coworker concentrado en su puesto de trabajo con luz natural",
     objectPosition: "object-[center_40%]",
@@ -245,7 +245,9 @@ export default function TarifasPage() {
                     ))}
                   </div>
                   <p className="mt-4 text-body-lg text-ink/65">{plan.tagline}</p>
-                  <p className="mt-3 text-body text-ink/55">{plan.note}</p>
+                  {plan.note ? (
+                    <p className="mt-3 text-body text-ink/55">{plan.note}</p>
+                  ) : null}
                 </div>
 
                 {plan.features.length > 0 ? (
