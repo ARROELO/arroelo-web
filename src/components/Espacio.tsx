@@ -122,17 +122,16 @@ const bridges: {
     ),
   },
   {
-    title: "Para hacerte la vida más fácil",
+    title: "Para alimentar tu curiosidad",
     body: (
       <>
-        Gracias a nuestra alianza con{" "}
-        <strong className="font-medium text-ink">Rural Hackers</strong> tenemos
-        un vínculo especial con nuevas formas de entender la tecnología, sobre
-        todo la <strong className="font-medium text-ink">IA</strong>.
-        Organizamos encuentros gratuitos de transferencia de conocimiento sobre
-        esto y otros temas, para descubrir talento en Pontevedra y compartirlo
-        entre todos. Cada semana nos reunimos para intercambiar ideas y
-        aprender juntos. Sin coste, desde el salón.
+        Cada semana organizamos cafés y encuentros con gente interesante, sobre
+        muchos temas que interesan a la comunidad. Gracias a nuestra alianza
+        con <strong className="font-medium text-ink">Rural Hackers</strong>,
+        cultivamos un vínculo especial con la tecnología y la{" "}
+        <strong className="font-medium text-ink">IA</strong> aplicada a mejorar
+        la vida. Compartimos conocimiento sin coste, desde el salón, para
+        descubrir talento en Pontevedra y aprender juntas.
       </>
     ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
