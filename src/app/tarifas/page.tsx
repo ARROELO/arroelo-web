@@ -294,17 +294,23 @@ export default function TarifasPage() {
             </div>
 
             <div className="min-w-0 reveal reveal-delay-2 md:pt-1">
-              <div className="relative aspect-[3/2] overflow-hidden rounded-none bg-mist">
-                <Image
-                  src={withBase("/photos/salon-ambiente.jpg")}
-                  alt="Salón de Arroelo con luz natural y mesas de coworking"
-                  fill
-                  className="object-cover object-[center_45%]"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-              <p className="mt-8 text-label text-graphite/70">Pruébalo</p>
-              <h2 className="mt-4 text-espacio-intro-title text-ink">
+              <p className="text-label text-graphite/70">Pruébalo</p>
+              <figure className="mt-6 min-w-0">
+                <div className="relative aspect-[3/2] overflow-hidden rounded-none bg-mist">
+                  <Image
+                    src={withBase("/photos/tarifas-prueba-cafe-fresca.jpg")}
+                    alt="Café a la fresca en Arroelo: comunidad alrededor de la mesa"
+                    fill
+                    className="object-cover object-[center_40%]"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
+                <figcaption className="mt-2.5 max-w-[42ch] text-left text-[14px] leading-[1.45] tracking-[0.01em] text-ink/50">
+                  Café a la fresca con Alberto, que trabaja en LinkedIn desde
+                  Pontevedra.
+                </figcaption>
+              </figure>
+              <h2 className="mt-8 text-espacio-intro-title text-ink">
                 Primera semana sin coste
               </h2>
               <p className="mt-2 max-w-[36ch] text-espacio-intro-body text-ink/70">
