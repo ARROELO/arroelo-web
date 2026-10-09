@@ -55,8 +55,8 @@ const plans = [
     tagline: "Tu propia sala dentro de Arroelo.",
     note: "Espacio privado para tu equipo.",
     image: "/photos/tarifa-sala-exclusiva.jpg",
-    alt: "Sala exclusiva luminosa con mesa blanca, sillas de oficina y ventana con cortinas",
-    objectPosition: "object-[center_45%]",
+    alt: "Sala exclusiva con cuatro puestos enfrentados, sillas de oficina, ventana con cortinas y estantería blanca",
+    objectPosition: "object-[center_40%]",
     prices: [
       {
         label: "Sala privada",

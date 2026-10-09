@@ -50,8 +50,8 @@ const gallery = [
     label: "Salón",
   },
   {
-    src: "/photos/ig-puestos-luz.jpg",
-    alt: "Oficina exclusiva con cuatro puestos de trabajo junto a la ventana con luz natural",
+    src: "/photos/tarifa-sala-exclusiva.jpg",
+    alt: "Sala exclusiva con cuatro puestos enfrentados, sillas de oficina, ventana con cortinas y estantería blanca",
     label: "Sala XL",
   },
   {
