@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
 import { withBase } from "@/lib/path";
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
   },
 };
 
+const linkClass =
+  "underline decoration-terracotta/55 underline-offset-[0.18em] decoration-1 transition-colors hover:text-terracotta hover:decoration-terracotta";
+
 const plans = [
   {
     id: "jornada-completa",
@@ -40,11 +44,8 @@ const plans = [
     ],
     features: [
       "Mesa en espacio compartido",
-      "Jornada completa, sin permanencia",
-      "Fibra óptica 1 Giga",
+      "Puedes dejar tus cosas en la mesa",
       "Acceso 24 horas",
-      "3 salas de reunión con pantalla 4K",
-      "Todos los gastos incluidos",
     ],
     cta: { label: "Reservar semana de prueba", className: "btn btn-ink" },
   },
@@ -52,7 +53,7 @@ const plans = [
     id: "sala-exclusiva",
     title: "Sala exclusiva",
     tagline: "Tu propia sala dentro de Arroelo.",
-    note: "Espacio privado para tu equipo, con todos los gastos incluidos.",
+    note: "Espacio privado para tu equipo.",
     image: "/photos/tarifa-sala-exclusiva.jpg",
     alt: "Sala exclusiva luminosa con mesa blanca, sillas de oficina y ventana con cortinas",
     objectPosition: "object-[center_45%]",
@@ -63,13 +64,7 @@ const plans = [
         note: "+ IVA / mes",
       },
     ],
-    features: [
-      "Espacio privado para tu equipo",
-      "Fibra 1 Giga",
-      "Acceso 24 horas",
-      "3 salas de reunión con pantalla 4K",
-      "Todos los gastos incluidos",
-    ],
+    features: ["Espacio privado para tu equipo", "Acceso 24 horas"],
     cta: { label: "Consultar disponibilidad", className: "btn btn-primary" },
   },
   {
@@ -129,6 +124,51 @@ const plans = [
     cta: { label: "Pedir un bono", className: "btn btn-primary" },
   },
 ] as const;
+
+const includedAll: { id: string; content: ReactNode }[] = [
+  { id: "permanencia", content: "Sin permanencia" },
+  { id: "fibra", content: "Fibra óptica 1 Giga" },
+  {
+    id: "salas",
+    content: "3 salas de reunión con pantalla 4K",
+  },
+  { id: "gastos", content: "Todos los gastos incluidos" },
+  {
+    id: "anceu",
+    content: (
+      <>
+        Acceso gratuito al coworking de{" "}
+        <a
+          href="https://anceu.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={linkClass}
+        >
+          Anceu Coliving
+        </a>
+      </>
+    ),
+  },
+  {
+    id: "cafe",
+    content:
+      "Ser parte de las actividades privadas (Café a la fresca) y del WhatsApp de la comunidad",
+  },
+  {
+    id: "echn",
+    content: (
+      <>
+        Ser parte de las redes de Arroelo como{" "}
+        <Link
+          href="/blog/coworking-pontevedra-echn-arroelo"
+          className={linkClass}
+        >
+          ECHN
+        </Link>
+      </>
+    ),
+  },
+];
 
 export default function TarifasPage() {
   return (
@@ -211,14 +251,40 @@ export default function TarifasPage() {
           </div>
         </section>
 
-        <section className="bg-fog px-4 py-120 md:px-6">
+        <section
+          className="bg-fog px-4 py-120 md:px-6"
+          aria-labelledby="incluido-todas"
+        >
+          <div className="mx-auto max-w-[1440px]">
+            <div className="max-w-[42ch] md:max-w-[50%]">
+              <h2
+                id="incluido-todas"
+                className="text-espacio-intro-title text-ink"
+              >
+                Incluido en todas las tarifas
+              </h2>
+              <p className="mt-2 text-espacio-intro-body text-ink/70">
+                Lo que comparten las cuatro formas de estar en Arroelo.
+              </p>
+            </div>
+            <ul className="tarifa-feature-list mt-12 max-w-[42ch] md:mt-16">
+              {includedAll.map((item) => (
+                <li key={item.id} className="tarifa-feature-item">
+                  <span className="text-body text-ink">{item.content}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        <section className="bg-paper px-4 py-120 md:px-6">
           <div className="max-w-[42ch] md:max-w-[50%]">
             <p className="text-label text-graphite/70">Pruébalo</p>
             <h2 className="mt-4 text-espacio-intro-title text-ink">
               Primera semana sin coste
             </h2>
             <p className="mt-2 text-espacio-intro-body text-ink/70">
-              Sin permanencia. Escribe y te contamos qué tarifa encaja.
+              Sin compromiso. Escribe y te contamos qué tarifa encaja.
             </p>
             <Link href="/#contacto" className="btn btn-ink mt-10">
               Contactar
