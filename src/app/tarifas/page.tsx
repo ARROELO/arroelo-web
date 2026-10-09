@@ -93,8 +93,8 @@ const plans = [
     id: "bono-salon",
     title: "Bonos días sueltos",
     tagline:
-      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra.",
-    note: "Días sueltos para salir de casa y conectar. Cada día: 10 € + IVA.",
+      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra y quiere salir de casa y desconectar. Podrás trabajar desde nuestro salón.",
+    note: "",
     image: "/photos/salon-dos-coworkers.jpg",
     alt: "Dos coworkers trabajando con portátil en la mesa del salón",
     objectPosition: "object-[center_45%]",
@@ -110,11 +110,7 @@ const plans = [
         note: "+ IVA · 9 €/día",
       },
     ],
-    features: [
-      "Día suelto: 10 € + IVA",
-      "Bono 10 días o bono 20 días",
-      "Mesa en el salón cuando vienes",
-    ],
+    features: [] as const,
     cta: { label: "Pedir un bono", className: "btn btn-primary" },
   },
 ] as const;
