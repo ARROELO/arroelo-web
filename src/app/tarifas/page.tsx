@@ -31,8 +31,8 @@ const plans = [
     id: "jornada-completa",
     title: "Jornada completa",
     tagline:
-      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra y quiere salir de casa y desconectar.",
-    note: "Podrás trabajar desde nuestro salón.",
+      "Para quien teletrabaja dos o tres días a la semana o pasa una temporada en Pontevedra y quiere salir de casa y desconectar. Podrás trabajar desde nuestro salón.",
+    note: "Puedes dejar tus cosas en la mesa.",
     image: "/photos/sala-puestos.jpg",
     alt: "Coworker concentrado en su puesto de trabajo con luz natural",
     objectPosition: "object-[center_40%]",
