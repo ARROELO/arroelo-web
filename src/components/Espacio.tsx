@@ -135,9 +135,9 @@ const bridges: {
       </>
     ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
-    image: "/photos/home-puente-vida-facil-comunidad.jpg",
-    alt: "Un grupo diverso de personas sonrientes reunidas alrededor de una gran mesa de madera en un espacio luminoso y moderno, compartiendo aperitivos y café en un ambiente de colaboración y comunidad",
-    objectPosition: "object-[center_40%]",
+    image: "/photos/home-puente-paella-comunidad.jpg",
+    alt: "Grupo de la comunidad de Arroelo sonriendo detrás de una gran paella compartida en el coworking",
+    objectPosition: "object-[center_32%]",
   },
 ];
 
