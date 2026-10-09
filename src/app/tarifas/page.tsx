@@ -77,12 +77,12 @@ const plans = [
     prices: [
       {
         label: "Mañanas · 8:00–15:00",
-        amount: "100 €",
+        amount: "110 €",
         note: "+ IVA / mes",
       },
       {
         label: "Tardes · 15:00–22:00",
-        amount: "80 €",
+        amount: "90 €",
         note: "+ IVA / mes",
       },
     ],
