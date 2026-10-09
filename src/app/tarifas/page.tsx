@@ -124,10 +124,6 @@ const plans = [
 const includedAll: { id: string; content: ReactNode }[] = [
   { id: "permanencia", content: "Sin permanencia" },
   { id: "fibra", content: "Fibra óptica 1 Giga" },
-  {
-    id: "salas",
-    content: "3 salas de reunión con pantalla 4K",
-  },
   { id: "gastos", content: "Todos los gastos incluidos" },
   {
     id: "anceu",
