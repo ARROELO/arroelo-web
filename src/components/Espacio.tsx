@@ -135,8 +135,8 @@ const bridges: {
       </>
     ),
     href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
-    image: "/photos/home-puente-vida-facil-comunidad.jpg",
-    alt: "Un grupo diverso de personas sonrientes reunidas alrededor de una gran mesa de madera en un espacio luminoso y moderno, compartiendo aperitivos y café en un ambiente de colaboración y comunidad",
+    image: "/photos/home-puente-linkedin-comunidad.jpg",
+    alt: "Grupo de la comunidad reunido alrededor de la mesa del salón con café y aperitivos; al fondo, proyección del proyecto Visión 2024",
     objectPosition: "object-[center_40%]",
   },
 ];
