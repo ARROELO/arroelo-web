@@ -79,6 +79,14 @@ const gallery = [
     src: "/photos/espacio-galeria-img-6334.jpg",
     alt: "Pasillo luminoso con paredes blancas y suelo de madera; al fondo, salón con luz natural y planta",
   },
+  {
+    src: "/photos/espacio-galeria-img-6354.jpg",
+    alt: "Cocina del coworking con mesa redonda blanca, sillas de hierro, encimera de granito, cafeteras y cartel en la ventana",
+  },
+  {
+    src: "/photos/espacio-galeria-img-6361.jpg",
+    alt: "Puesto de trabajo luminoso con mesa de madera, monitor, silla blanca y ventanales al patio interior",
+  },
 ];
 
 export default function EspacioPage() {
