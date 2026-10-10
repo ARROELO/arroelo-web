@@ -4,12 +4,14 @@ import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
 import { withBase } from "@/lib/path";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "El espacio — Coworking en Pontevedra | Arroelo",
   description:
     "Un espacio abierto donde suceden cosas: mesas de madera, luz natural, salas de reunión 4K, acceso 24h y Café a la fresca en el centro de Pontevedra.",
-};
+  path: "/espacio",
+});
 
 const amenities = [
   {

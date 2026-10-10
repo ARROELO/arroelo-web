@@ -1,0 +1,56 @@
+# Redirecciones de la web WordPress anterior (espacioarroelo.es) a la nueva.
+# Cloudflare Workers static assets / Pages: <origen> <destino> <código>
+# Inventario completo de URLs viejas: public/sitemap-old-urls.xml
+
+# Páginas
+/familia-coworker/ /coworkers 301
+/familia-coworker /coworkers 301
+/projects/ /blog 301
+/projects /blog 301
+/author/infoespacioarroelo-es/ /blog 301
+/author/infoespacioarroelo-es /blog 301
+/cafealafresca-2/ /blog/cafe-a-la-fresca-comunidad-arroelo 301
+/cafealafresca-2 /blog/cafe-a-la-fresca-comunidad-arroelo 301
+/category/cafe-a-la-fresca/ /blog/cafe-a-la-fresca-comunidad-arroelo 301
+/category/cafe-a-la-fresca /blog/cafe-a-la-fresca-comunidad-arroelo 301
+/anceu/ /blog/anceu-coliving-ciudad-aldea 301
+/anceu /blog/anceu-coliving-ciudad-aldea 301
+/echn/ /blog/coworking-pontevedra-echn-arroelo 301
+/echn /blog/coworking-pontevedra-echn-arroelo 301
+/ECHN/ /blog/coworking-pontevedra-echn-arroelo 301
+/ECHN /blog/coworking-pontevedra-echn-arroelo 301
+/category/echn/ /blog/coworking-pontevedra-echn-arroelo 301
+/category/echn /blog/coworking-pontevedra-echn-arroelo 301
+
+# Posts con equivalente en el blog nuevo
+/cafe-a-la-fresca-con-juan/ /blog/cafe-a-la-fresca-comunidad-arroelo 301
+/cafe-a-la-fresca-con-juan /blog/cafe-a-la-fresca-comunidad-arroelo 301
+
+# Posts pendientes de migrar (contenido guardado en legacy/posts/).
+# 302 temporal: al migrar cada uno, cambiar a 301 hacia su nueva URL.
+/un-puente-de-inspiracion-arroelo-en-blackburn/ /blog/coworking-pontevedra-echn-arroelo 302
+/un-puente-de-inspiracion-arroelo-en-blackburn /blog/coworking-pontevedra-echn-arroelo 302
+/inmersion-creativa-en-el-alentejo-con-la-european-creative-hubs-network/ /blog/coworking-pontevedra-echn-arroelo 302
+/inmersion-creativa-en-el-alentejo-con-la-european-creative-hubs-network /blog/coworking-pontevedra-echn-arroelo 302
+/intercambio-creativo-en-croacia/ /blog/coworking-pontevedra-echn-arroelo 302
+/intercambio-creativo-en-croacia /blog/coworking-pontevedra-echn-arroelo 302
+/una-semana-en-chateau-coliving/ /blog/cultura-colaborativa-galicia-coworking-coliving 302
+/una-semana-en-chateau-coliving /blog/cultura-colaborativa-galicia-coworking-coliving 302
+/visitando-cru-coworking/ /blog/cultura-colaborativa-galicia-coworking-coliving 302
+/visitando-cru-coworking /blog/cultura-colaborativa-galicia-coworking-coliving 302
+/merchandising-con-proposito/ /blog 302
+/merchandising-con-proposito /blog 302
+/mario-iglesias-el-terapeuta-y-el-algoritmo/ /coworkers 302
+/mario-iglesias-el-terapeuta-y-el-algoritmo /coworkers 302
+/carmen-iglesias-limeres-de-practicas-a-profesional/ /coworkers 302
+/carmen-iglesias-limeres-de-practicas-a-profesional /coworkers 302
+/reflexologia-con-isabel-ures/ /coworkers 302
+/reflexologia-con-isabel-ures /coworkers 302
+
+# Restos de WordPress
+/privacy-policy-2/ / 302
+/privacy-policy-2 / 302
+/feed/ /blog 301
+/feed /blog 301
+/wp-admin/* / 301
+/wp-login.php / 301

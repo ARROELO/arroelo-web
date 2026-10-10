@@ -5,13 +5,15 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
 import { coworkers } from "@/data/coworkers";
 import { withBase } from "@/lib/path";
+import { pageMetadata } from "@/lib/seo";
 import "./coworkers.css";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Coworkers — Arroelover Family | Espacio Arroelo",
   description:
     "La familia coworker de Espacio Arroelo en Pontevedra. Conoce a quienes comparten el salón cada día.",
-};
+  path: "/coworkers",
+});
 
 function CoworkerTile({
   name,

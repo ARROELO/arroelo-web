@@ -5,24 +5,15 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
 import { blogPosts } from "@/data/blog";
 import { withBase } from "@/lib/path";
+import { pageMetadata } from "@/lib/seo";
 import "./blog.css";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Blog — Arroelo | Coworking en Pontevedra",
   description:
     "Historias del salón: café a la fresca, comunidad, luz y vida en el centro de Pontevedra.",
-  alternates: {
-    canonical: "/blog",
-  },
-  openGraph: {
-    title: "Blog — Arroelo | Coworking en Pontevedra",
-    description:
-      "Historias del salón: café a la fresca, comunidad, luz y vida en el centro de Pontevedra.",
-    type: "website",
-    locale: "es_ES",
-    url: "/blog",
-  },
-};
+  path: "/blog",
+});
 
 function BlogCard({
   slug,

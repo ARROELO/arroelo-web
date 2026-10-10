@@ -12,6 +12,7 @@ import {
 } from "@/data/blog";
 import { withBase } from "@/lib/path";
 import { absoluteUrl } from "@/lib/site";
+import { ORGANIZATION_ID } from "@/lib/seo";
 import "../blog.css";
 
 type Props = {
@@ -258,11 +259,13 @@ export default async function BlogPostPage({ params }: Props) {
     },
     author: {
       "@type": "Organization",
+      "@id": ORGANIZATION_ID,
       name: "Espacio Arroelo",
       url: absoluteUrl("/"),
     },
     publisher: {
       "@type": "Organization",
+      "@id": ORGANIZATION_ID,
       name: "Espacio Arroelo",
       url: absoluteUrl("/"),
       logo: {
