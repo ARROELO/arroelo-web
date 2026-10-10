@@ -3591,7 +3591,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-10-07",
     label: "Puentes",
     image: "/photos/blog/anceu-xa-non-calamos-eq.jpg",
-    alt: "Grupo de mujeres en Anceu con el cartel «Xa non calamos / Non lle berramos / Voso silenzo non te protexe», valle al fondo",
+    alt: "Nuestras compañeras Isabel, Eli y Lucía con el cartel «Xa non calamos» en el proceso de The Break en Anceu",
     excerpt:
       "Cómo tendemos puentes desde Arroelo con Anceu Coliving: del coworking en Pontevedra a la revitalización de una aldea de menos de cien habitantes.",
     body: [
@@ -3671,7 +3671,37 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Llegamos como colaboración pura. Antes de que Anceu abriera, conocimos a ",
+          "Nuestros orígenes con ese lugar se atan a algo casi anecdótico y muy nuestro: celebramos allí el primer aniversario del coworking, años antes de que Anceu existiera. Fíjate qué vueltas da la vida. África lo cuenta con más detalle en ",
+          {
+            type: "link",
+            href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
+            text: "How to move and do coliving in a rural area",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/anceu-primer-aniversario-sombreros.jpg",
+        alt: "Grupo de Arroelo lanza los sombreros al aire en el primer aniversario del coworking, en el lugar que después sería Anceu",
+        caption: [
+          "Primer aniversario del coworking, antes de Anceu: fíjate qué vueltas da la vida. Más en ",
+          {
+            type: "link",
+            href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
+            text: "el relato de África",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+        position: "top",
+      },
+      {
+        type: "p",
+        parts: [
+          "Más adelante llegamos como colaboración pura. Antes de que Anceu abriera, conocimos a ",
           {
             type: "link",
             href: "https://www.ruralcitizen.org/talentorural/agustin-jamardo",
@@ -3729,7 +3759,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde Anceu nacen iniciativas de impacto que nos inspiran y con las que conectamos: misiones verdes, hackathones y encuentros comunitarios. Forman parte de la misma red en la que también circulamos nosotras —con ",
+          "Desde Anceu nacen iniciativas de impacto que nos inspiran y con las que conectamos: misiones verdes, hackathones y encuentros comunitarios. También hemos colaborado con compañeras como Saleta en las ",
+          {
+            type: "link",
+            href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
+            text: "Misiones Verdes",
+            external: true,
+          },
+          " y en merchandising con sentido —piezas que cuentan la comunidad, no solo la marca—. Forman parte de la misma red en la que también circulamos nosotras —con ",
           {
             type: "link",
             href: "https://www.ruralhackers.com/",
@@ -3745,6 +3782,23 @@ export const blogPosts: BlogPost[] = [
           },
           "—.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/anceu-misiones-verdes-cruceiro.jpg",
+        alt: "Grupo de Misiones Verdes junto al cruceiro en el monte de Anceu",
+        caption: [
+          "Con Saleta y otras compañeras en Misiones Verdes: manos en el monte y merchandising con sentido. Más contexto en ",
+          {
+            type: "link",
+            href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
+            text: "el artículo de Anceu",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+        position: "top",
       },
       {
         type: "h2",
@@ -3766,7 +3820,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "La Casa do Pobo es el espacio cultural y social de la vecindad: el lugar donde se fomenta la vida comunitaria de la aldea. Que nuestras mesas y sillas sigan sirviendo allí no es nostalgia: es coherencia. Y el puente no solo viaja en muebles: compañeras y compañeros de Arroelo hemos colaborado en proyectos como ",
+          "La Casa do Pobo es el espacio cultural y social de la vecindad: el lugar donde se fomenta la vida comunitaria de la aldea. Que nuestras mesas y sillas sigan sirviendo allí no es nostalgia: es coherencia. Y el puente no solo viaja en muebles: nuestras compañeras Isabel, Eli y Lucía colaboraron en ",
           {
             type: "link",
             href: "https://www.eoi.es/es/the-break",
@@ -3780,27 +3834,34 @@ export const blogPosts: BlogPost[] = [
             text: "proceso feminista de la Casa do Pobo",
             external: true,
           },
-          "—. Nosotras ayudamos a traducir y a acompañar ese encuentro entre vecinas y emprendedoras europeas.",
+          "—. Nosotras ya no callamos: traducimos, acompañamos y sostenemos ese encuentro entre vecinas y emprendedoras europeas.",
         ],
       },
       {
         type: "image",
         src: "/photos/blog/anceu-xa-non-calamos.jpg",
-        alt: "Grupo de mujeres en Anceu con el cartel «Xa non calamos / Non lle berramos / Voso silenzo non te protexe», valle al fondo",
+        alt: "Isabel, Eli y Lucía con el cartel «Xa non calamos / Non lle berramos / Voso silenzo non te protexe» en The Break en Anceu",
+        caption: [
+          "«Nosotras ya no callamos»: nuestras compañeras Isabel, Eli y Lucía colaboraron en ",
+          {
+            type: "link",
+            href: "https://www.eoi.es/es/the-break",
+            text: "The Break",
+            external: true,
+          },
+          " con las mujeres de la aldea.",
+        ],
+        fit: "contain",
+        position: "top",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/anceu-casa-pobo-grupo.jpg",
+        alt: "Grupo reunido en la Casa do Pobo de Anceu, bajo el mural de flores y la lámpara amarilla",
         caption:
-          "Nosotras ya no callamos: en Anceu el feminismo se sostiene juntas —vecinas, emprendedoras y quien llega a acompañar—, con el valle detrás y un cartel que lo dice claro.",
-      },
-      {
-        type: "image",
-        src: "/photos/blog/casa-pobo-mural.jpg",
-        alt: "Charla comunitaria en la Casa do Pobo de Anceu, con mural de flores en la pared",
-        caption: "Casa do Pobo: cultura, vecindad y murales que cuentan la aldea.",
-      },
-      {
-        type: "image",
-        src: "/photos/blog/casa-pobo-taller.jpg",
-        alt: "Taller o presentación en la Casa do Pobo con público sentado",
-        caption: "Talleres y encuentros: el rural también es laboratorio.",
+          "Casa do Pobo: cultura, vecindad y una misma comunidad bajo el mural.",
+        fit: "contain",
+        position: "top",
       },
       { type: "h2", text: "Ida y vuelta: cafés, coworkings compartidos, actividades en la aldea" },
       "El puente se recorre en las dos direcciones.",
@@ -3829,6 +3890,8 @@ export const blogPosts: BlogPost[] = [
         alt: "Elisabet (centro) con el grupo al aire libre y cartas de Zentangle sobre la mesa",
         caption:
           "Compartimos con Elisabet, de Zengoala, un encuentro de Zentangle: cartas, rotuladores y la misma red creativa entre Arroelo y Anceu.",
+        fit: "contain",
+        position: "top",
       },
       {
         type: "p",
