@@ -94,6 +94,11 @@ const gallery = [
     alt: "Pasillo estrecho hacia el salón con aparador blanco, jarrón de flores secas y extintor",
     label: "Pasillo",
   },
+  {
+    src: "/photos/espacio-galeria-img-6333.jpg",
+    alt: "Baño del coworking con inodoro, lavabo blanco, espejo iluminado y toallas enrolladas sobre la encimera",
+    label: "Baños",
+  },
 ];
 
 export default function EspacioPage() {
