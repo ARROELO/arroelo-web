@@ -230,7 +230,6 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
               <br />
               {contacto.postalCode} {contacto.city}
             </p>
-            <p className="mt-3">{horario.short}</p>
             <p className="mt-3">
               <a href={contacto.phoneHref} className={footerLinkClass}>
                 {contacto.phone}
