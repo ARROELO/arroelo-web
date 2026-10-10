@@ -3671,7 +3671,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Nuestros orígenes con ese lugar se atan a algo casi anecdótico y muy nuestro: celebramos allí el primer aniversario del coworking, años antes de que Anceu existiera. Fíjate qué vueltas da la vida. África lo cuenta con más detalle en ",
+          "Nuestros orígenes con ese lugar se atan a algo casi anecdótico y muy nuestro: celebramos allí el primer aniversario del coworking, años antes de que Anceu existiera. Fíjate qué vueltas da la vida. Os lo contamos con más detalle en ",
           {
             type: "link",
             href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
@@ -3685,16 +3685,8 @@ export const blogPosts: BlogPost[] = [
         type: "image",
         src: "/photos/blog/anceu-primer-aniversario-sombreros.jpg",
         alt: "Grupo de Arroelo lanza los sombreros al aire en el primer aniversario del coworking, en el lugar que después sería Anceu",
-        caption: [
-          "Primer aniversario del coworking, antes de Anceu: fíjate qué vueltas da la vida. Más en ",
-          {
-            type: "link",
-            href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
-            text: "el relato de África",
-            external: true,
-          },
-          ".",
-        ],
+        caption:
+          "Primer aniversario del coworking, antes de Anceu: fíjate qué vueltas da la vida.",
         fit: "contain",
         position: "top",
       },
@@ -3759,14 +3751,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde Anceu nacen iniciativas de impacto que nos inspiran y con las que conectamos: misiones verdes, hackathones y encuentros comunitarios. También hemos colaborado con compañeras como Saleta en las ",
-          {
-            type: "link",
-            href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
-            text: "Misiones Verdes",
-            external: true,
-          },
-          " y en merchandising con sentido —piezas que cuentan la comunidad, no solo la marca—. Forman parte de la misma red en la que también circulamos nosotras —con ",
+          "Desde Anceu nacen iniciativas de impacto que nos inspiran y con las que conectamos: misiones verdes, hackathones y encuentros comunitarios. También hemos colaborado con compañeras como Saleta en las Misiones Verdes y en merchandising con sentido —piezas que cuentan la comunidad, no solo la marca—. Forman parte de la misma red en la que también circulamos nosotras —con ",
           {
             type: "link",
             href: "https://www.ruralhackers.com/",
@@ -3787,16 +3772,8 @@ export const blogPosts: BlogPost[] = [
         type: "image",
         src: "/photos/blog/anceu-misiones-verdes-cruceiro.jpg",
         alt: "Grupo de Misiones Verdes junto al cruceiro en el monte de Anceu",
-        caption: [
-          "Con Saleta y otras compañeras en Misiones Verdes: manos en el monte y merchandising con sentido. Más contexto en ",
-          {
-            type: "link",
-            href: "https://anceu.com/how-to-move-and-do-coliving-in-a-rural-area/",
-            text: "el artículo de Anceu",
-            external: true,
-          },
-          ".",
-        ],
+        caption:
+          "Con Saleta y otras compañeras en Misiones Verdes: manos en el monte y merchandising con sentido.",
         fit: "contain",
         position: "top",
       },
