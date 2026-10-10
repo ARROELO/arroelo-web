@@ -3212,11 +3212,27 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Café a la fresca: comunidad en Arroelo",
     date: "2026-10-07",
     label: "Ritual",
-    image: "/photos/desayuno-eq.jpg",
-    alt: "Mesa de desayuno y café en el salón de Arroelo a media mañana",
+    image: "/photos/blog/cafe-fresca-balcon-tortilla.jpg",
+    alt: "Selfie en el balcón con tortilla, pasteles y café: el origen a la fresca del ritual",
+    imagePosition: "top",
     excerpt:
       "Qué es el Café a la fresca de Espacio Arroelo: mañanas de conversación, diversidad y «tercer tiempo» en el coworking de Pontevedra.",
     body: [
+      {
+        type: "p",
+        parts: [
+          "Los Cafés a la fresca nacieron en plena pandemia, cuando todo era raro y necesitábamos encontrarnos al aire libre. Empezamos el 28 de junio de 2021 en el antiguo Arroelo, con Andi de FINSA como primera invitada. Aquella semana el salón —o mejor dicho, el balcón— vibraba con visitas como Pedro (@iaminfinitebook), Hélder Winio y Andi (@grupo_finsa). Desde entonces llevamos ya más de 76 Cafés a la fresca.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-balcon-tortilla.jpg",
+        alt: "Grupo de mujeres en el balcón con tortilla y café, origen de los Cafés a la fresca",
+        caption:
+          "Así empezamos: café a la fresca en el balcón, cuando encontrarse dentro no era opción.",
+        fit: "contain",
+        position: "top",
+      },
       {
         type: "p",
         parts: [
@@ -3231,12 +3247,6 @@ export const blogPosts: BlogPost[] = [
       },
       "No es una masterclass. No es un evento con acreditación. Es un espacio de libertad donde encender la curiosidad. Como ya decía Ortega y Gasset, y nosotras repetimos a menudo: «sorprenderse y extrañarse es comenzar a entender».",
       {
-        type: "image",
-        src: "/photos/ig-cafe-mesa.jpg",
-        alt: "Tazas y mesa de café en el salón de coworking Arroelo",
-        caption: "El ritual empieza en la mesa: taza, luz y conversación.",
-      },
-      {
         type: "h2",
         text: "Cada mañana hay café; algunos son más especiales",
       },
@@ -3249,27 +3259,7 @@ export const blogPosts: BlogPost[] = [
             href: "/espacio",
             text: "salón de coworking",
           },
-          " se llena sola. Lo que cambia es la invitación. En los Cafés a la fresca alguien trae un hilo —una trayectoria, una pregunta, un proyecto a medias— y el resto de la mesa escucha. Lo hemos contado también en ",
-          {
-            type: "link",
-            href: "https://espacioarroelo.es/cafealafresca-2/",
-            text: "espacioarroelo.es",
-            external: true,
-          },
-          ": no buscamos audiencia, buscamos compañía.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          "Si quieres ver el día a día del salón, en ",
-          {
-            type: "link",
-            href: "https://www.instagram.com/arroelo/",
-            text: "Instagram @arroelo",
-            external: true,
-          },
-          " aparecen muchas de estas mañanas: tazas, risas y la misma mesa que ves al entrar.",
+          " se llena sola. Lo que cambia es la invitación. En los Cafés a la fresca alguien trae un hilo —una trayectoria, una pregunta, un proyecto a medias— y el resto de la mesa escucha. No buscamos audiencia, buscamos compañía.",
         ],
       },
       {
@@ -3293,34 +3283,10 @@ export const blogPosts: BlogPost[] = [
             text: "Anceu",
             external: true,
           },
-          " —de la aldea o del coliving— a inspirarnos juntas una mañana en Pontevedra. La diversidad no es un eslogan en la pared: es quien se sienta a la mesa. Arte, tecnología, ",
-          {
-            type: "link",
-            href: "https://somosimpacto.es/casos-de-exito/igualdad/the-break-atraccion-de-talento-femenino-europeo/",
-            text: "emprendimiento femenino",
-            external: true,
-          },
-          ", juventud, bienestar laboral, libros, ilustración, telecom que lleva internet al rural… La lista cambia; el gesto se repite.",
+          " —de la aldea o del coliving— a inspirarnos juntas una mañana en Pontevedra. La diversidad no es un eslogan en la pared: es quien se sienta a la mesa. Arte, tecnología, emprendimiento femenino, juventud, bienestar laboral, libros, ilustración, telecom que lleva internet al rural… La lista cambia; el gesto se repite.",
         ],
       },
-      {
-        type: "image",
-        src: "/photos/cafe-tabla.jpg",
-        alt: "Tabla de café y bollería compartida en Arroelo",
-        caption: "Compartir mesa es practicar los valores: alegría, refugio y red.",
-      },
-      {
-        type: "p",
-        parts: [
-          "Nuestros valores —alegría, refugio y red, optimismo, equipo— no se explican en un PowerPoint. Se practican cuando alguien escucha sin prisa y cuando otra persona se atreve a contar lo que está construyendo, aunque aún esté a medias. Esa misma idea recorre la ",
-          {
-            type: "link",
-            href: "/blog/historia-espacio-arroelo-pontevedra",
-            text: "historia de Espacio Arroelo",
-          },
-          ": de un mensaje en LinkedIn a una década de hogar compartido.",
-        ],
-      },
+      "Nuestros valores —alegría, refugio y red, optimismo, equipo— no se explican en un PowerPoint. Se practican cuando alguien escucha sin prisa y cuando otra persona se atreve a contar lo que está construyendo, aunque aún esté a medias.",
       {
         type: "h2",
         text: "Historias que han pasado por la mesa",
@@ -3329,14 +3295,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Hablamos con ",
-          {
-            type: "link",
-            href: "https://www.linkedin.com/in/aurelio-louro-edreira-a005906",
-            text: "Aurelio Louro",
-            external: true,
-          },
-          " (",
+          "Hablamos con Aurelio Louro (",
           {
             type: "link",
             href: "https://www.aureatelecom.com/",
@@ -3371,14 +3330,7 @@ export const blogPosts: BlogPost[] = [
             text: "Estudo Bonobo",
             external: true,
           },
-          ") sobre el arte como herramienta de transformación. Con ",
-          {
-            type: "link",
-            href: "https://www.linkedin.com/in/albertofernandezcamba",
-            text: "Alberto Fernández",
-            external: true,
-          },
-          ", sobre cómo cuidar un perfil profesional sin perder la humanidad detrás del CV.",
+          ") sobre el arte como herramienta de transformación. Con Alberto Fernández, que trabaja en LinkedIn, sobre cómo cuidar un perfil profesional sin perder la humanidad detrás del CV.",
         ],
       },
       {
@@ -3391,14 +3343,7 @@ export const blogPosts: BlogPost[] = [
             text: "Antón Sobral",
             external: true,
           },
-          ", de Estrasburgo a ",
-          {
-            type: "link",
-            href: "https://www.pontevedraviva.com/es/cultura/pontevedra-faro-larino-homenaje-maribel-longueira_520750_102.html",
-            text: "Faro Lariño",
-            external: true,
-          },
-          ", pasando por Brasil, a través del arte. ",
+          ", de Estrasburgo a Faro Lariño, pasando por Brasil, a través del arte. ",
           {
             type: "link",
             href: "https://teresapajares.com/",
@@ -3440,17 +3385,10 @@ export const blogPosts: BlogPost[] = [
             text: "Nerea Pérez",
             external: true,
           },
-          " (",
+          " nos acercaron a la ilustración desde lo genuino. ",
           {
             type: "link",
-            href: "https://escuelaminuscula.com/",
-            text: "Escuela Minúscula",
-            external: true,
-          },
-          ") nos acercaron a la ilustración desde lo genuino. ",
-          {
-            type: "link",
-            href: "https://www.linkedin.com/in/cristinapangarcia",
+            href: "https://es.linkedin.com/in/cristinapangarcia/es",
             text: "Cristina Pan",
             external: true,
           },
@@ -3480,9 +3418,27 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: "/photos/cafe-foto.jpg",
-        alt: "Café servido en la mesa del salón de Arroelo",
-        caption: "Cada café deja un poso distinto: lo que se acumula es tejido.",
+        src: "/photos/blog/cafe-fresca-salon-grupo.jpg",
+        alt: "Grupo alrededor de la mesa del salón durante un Café a la fresca",
+        caption: "Salón.",
+        fit: "contain",
+        position: "top",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-cartas-sara-donoso.jpg",
+        alt: "Cartas ilustradas de Sara Donoso en la mesa del café",
+        caption: "Cartas Sara Donoso.",
+        fit: "contain",
+        position: "top",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-nerea-kike.jpg",
+        alt: "Nerea y Kike en la mesa del Café a la fresca",
+        caption: "Nerea y Kike.",
+        fit: "contain",
+        position: "top",
       },
       "Cada café deja un poso distinto. Lo que se acumula no es contenido para redes: es tejido.",
       {
@@ -3507,42 +3463,10 @@ export const blogPosts: BlogPost[] = [
             text: "Anceu",
             external: true,
           },
-          " o, simplemente, la sensación de no estar sola con tu proyecto. Lo mismo teje ",
-          {
-            type: "link",
-            href: "https://www.ruralhackers.com/",
-            text: "Rural Hackers",
-            external: true,
-          },
-          " en el rural y la ",
-          {
-            type: "link",
-            href: "https://creativehubs.net/",
-            text: "European Creative Hubs Network (ECHN)",
-            external: true,
-          },
-          " entre hubs creativos de Europa: red real, no solo enlaces en un pie de página.",
+          " o, simplemente, la sensación de no estar sola con tu proyecto.",
         ],
       },
-      {
-        type: "p",
-        parts: [
-          "Por eso lo defendemos incluso en semanas ajetreadas. Porque un coworking sin rituales de escucha acaba siendo una oficina con más mesas. Y nosotras no abrimos Arroelo para eso —como contamos en ",
-          {
-            type: "link",
-            href: "https://espacioarroelo.es/",
-            text: "espacioarroelo.es",
-            external: true,
-          },
-          " y en este ",
-          {
-            type: "link",
-            href: "/blog",
-            text: "blog",
-          },
-          ".",
-        ],
-      },
+      "Por eso lo defendemos incluso en semanas ajetreadas. Porque un coworking sin rituales de escucha acaba siendo una oficina con más mesas. Y nosotras no abrimos Arroelo para eso.",
       {
         type: "image",
         src: "/photos/companeras.jpg",
