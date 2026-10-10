@@ -99,7 +99,7 @@ export function siteJsonLd() {
           opens: slot.opens,
           closes: slot.closes,
         })),
-        priceRange: "90 €–400 € / mes",
+        priceRange: "100 €–400 € / mes",
         currenciesAccepted: "EUR",
         amenityFeature: [
           "Acceso 24 horas",
