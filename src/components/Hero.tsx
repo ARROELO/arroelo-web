@@ -97,7 +97,7 @@ export function Hero() {
         {/* eslint-disable-next-line @next/next/no-img-element -- static export, images are unoptimized */}
         <img
           src={withBase("/videos/arroelo-poster.webp")}
-          srcSet={`${withBase("/videos/arroelo-poster-828.webp")} 828w, ${withBase("/videos/arroelo-poster.webp")} 1600w`}
+          srcSet={`${withBase("/videos/arroelo-poster-828.webp")} 828w, ${withBase("/videos/arroelo-poster.webp")} 1280w`}
           sizes="100vw"
           alt=""
           aria-hidden
