@@ -3593,7 +3593,7 @@ export const blogPosts: BlogPost[] = [
     image: "/photos/blog/anceu-xa-non-calamos-eq.jpg",
     alt: "Grupo de mujeres en Anceu con el cartel «Xa non calamos / Non lle berramos / Voso silenzo non te protexe», valle al fondo",
     excerpt:
-      "Cómo Espacio Arroelo tiende puentes con Anceu Coliving: del coworking en Pontevedra a la revitalización de una aldea de menos de 100 habitantes.",
+      "Cómo tendemos puentes desde Arroelo con Anceu Coliving: del coworking en Pontevedra a la revitalización de una aldea de menos de cien habitantes.",
     body: [
       {
         type: "p",
@@ -3612,7 +3612,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Anceu está en Ponte Caldelas, a unos treinta minutos de Pontevedra. Allí el tiempo se organiza distinto: el monte, la vecindad, el silencio que no es vacío. Desde ",
+          "Anceu está en ",
+          {
+            type: "link",
+            href: "https://pontecaldelas.gal/",
+            text: "Ponte Caldelas",
+            external: true,
+          },
+          ", a unos treinta minutos de Pontevedra. Allí el tiempo se organiza distinto: el monte, la vecindad, el silencio que no es vacío. Desde ",
           {
             type: "link",
             href: "/",
@@ -3651,8 +3658,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: "/photos/blog/anceu-rural-hackers.jpg",
-        alt: "Dos personas en Anceu revisan un material de Rural Hackers al aire libre",
+        alt: "Dos compañeras en Anceu comparten una revista de Rural Hackers al aire libre",
         caption: "Comunidad en la aldea: el puente se mide en caras conocidas.",
+        // Retrato vertical: contain + top evita cortar las cabezas.
+        fit: "contain",
+        position: "top",
       },
       {
         type: "h2",
@@ -3674,7 +3684,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde 2019 nos hemos comprometido activamente con el desarrollo rural de ese entorno. África Rodríguez lo resume en su trayectoria pública: junto a Agustín Jamardo, construir puentes entre el mundo rural y el urbano desde el coliving de Anceu; vivir y generar comunidad internacional mientras se impulsan proyectos que ayuden a revitalizar la aldea. Esa misma mirada recorre la ",
+          "Desde 2019 nos hemos comprometido con el desarrollo rural de ese entorno. Compartimos con África Rodríguez y Agustín Jamardo la misma mirada: construir puentes entre lo rural y lo urbano desde el coliving de Anceu; generar comunidad internacional e impulsar proyectos que ayuden a revitalizar la aldea. Esa misma mirada recorre la ",
           {
             type: "link",
             href: "/blog/historia-espacio-arroelo-pontevedra",
@@ -3683,7 +3693,7 @@ export const blogPosts: BlogPost[] = [
           ": comunidad primero, mesas después.",
         ],
       },
-      "Ese compromiso nació de una intuición sencilla y rebelde: la despoblación no se frena solo con discursos. Se frena —o al menos se disputa— con presencia, con fibra, con personas que se quedan a cenar y con proyectos que sirven a quien ya vivía allí antes de que llegara la palabra coliving.",
+      "Ese compromiso nació de una intuición sencilla y rebelde: la despoblación no se frena solo con discursos. Se frena —o al menos se disputa— con presencia, con fibra, con personas que se quedan y con proyectos que sirven a quien ya vivía allí antes de que llegara la palabra coliving.",
       {
         type: "video",
         youtubeId: "vasAslb5oEA",
@@ -3693,7 +3703,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "Anceu Coliving: no es un hotel (julio 2020, remoto + vecindad)",
+        text: "Anceu Coliving: no es un hotel",
       },
       {
         type: "p",
@@ -3707,60 +3717,56 @@ export const blogPosts: BlogPost[] = [
           " abrió en julio de 2020. No es un hotel. Es un lugar donde personas de todo el mundo que trabajan en remoto viven en la naturaleza y, a la vez, contribuyen a la revitalización de la aldea. Conviven quienes llegan por una temporada con vecinas y vecinos de toda la vida. Ni una mitad funciona sin la otra.",
         ],
       },
-      "En la práctica eso significa cocina compartida, cenas colectivas varios días a la semana, coworking con fibra de alta velocidad y muchas oportunidades de encontrarse. Significa también entender que el impacto local no es un extra para el brochure: es la condición de posibilidad del proyecto.",
+      "En la práctica eso significa cocina compartida, coworking con fibra de alta velocidad y muchas oportunidades de encontrarse. El impacto local no es un adorno: es la condición de posibilidad del proyecto.",
       {
         type: "image",
         src: "/photos/blog/anceu-outdoor-cowork.jpg",
         alt: "Tres compañeras trabajan juntas al aire libre en Anceu, con portátil bajo los árboles",
         caption: "Coworking al aire libre: el remoto también se hace en círculo.",
+        fit: "contain",
+        position: "top",
       },
       {
         type: "p",
         parts: [
-          "En conversaciones recogidas por la ",
+          "Desde Anceu nacen iniciativas de impacto que nos inspiran y con las que conectamos: misiones verdes, hackathones y encuentros comunitarios. Forman parte de la misma red en la que también circulamos nosotras —con ",
+          {
+            type: "link",
+            href: "https://www.ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          " y la ",
           {
             type: "link",
             href: "https://creativehubs.net/",
             text: "European Creative Hubs Network (ECHN)",
             external: true,
           },
-          ", el equipo de Anceu ha explicado iniciativas como la Rural Hackers Academy —formación gratuita en tecnología e inglés para gente del entorno—, residencias de un mes para desarrollar proyectos de impacto, o hackathones donde participantes europeos construyen webs para ONG locales.",
+          "—.",
         ],
       },
       {
-        type: "image",
-        src: "/photos/blog/anceu-cena-compartida.jpg",
-        alt: "Cena compartida en el coliving: platos, conversación y comunidad",
-        caption: "Cenas colectivas: el impacto local se cocina juntos.",
-      },
-      "Nosotras, desde Pontevedra, no pretendemos apropiarnos de ese relato. Lo acompañamos. Lo celebramos. Lo cruzamos con el nuestro.",
-      {
         type: "h2",
-        text: "Casa do Pobo y el mobiliario que viajó con nosotras (mudanza 2023)",
+        text: "Casa do Pobo y el mobiliario que viajó con nosotras",
       },
       {
         type: "p",
         parts: [
-          "Cuando en 2023 cambiamos de localización en la ciudad, gran parte de nuestro Arroelo encontró nueva vida en la ",
+          "Cuando cambiamos de localización en la ciudad, gran parte de nuestro mobiliario encontró nueva vida en la ",
           {
             type: "link",
             href: "https://casadopobo.com/",
             text: "Casa do Pobo de Anceu",
             external: true,
           },
-          ". Donamos mobiliario para crear un espacio que, como el nuestro en Pontevedra, dé cobijo creativo también en el rural. Lo contamos también en la ",
-          {
-            type: "link",
-            href: "/blog/historia-espacio-arroelo-pontevedra",
-            text: "historia del coworking",
-          },
-          ": los objetos también pueden tejer red.",
+          ". Donamos mesas y sillas para crear un espacio que, como el nuestro en Pontevedra, dé cobijo creativo también en el rural.",
         ],
       },
       {
         type: "p",
         parts: [
-          "La Casa do Pobo es el espacio cultural y social de la vecindad: el lugar donde se fomenta la vida comunitaria de la aldea. Que nuestras mesas y sillas sigan sirviendo allí no es nostalgia: es coherencia. Y el puente no solo viaja en muebles: compañeras y compañeros de Arroelo han colaborado en proyectos como ",
+          "La Casa do Pobo es el espacio cultural y social de la vecindad: el lugar donde se fomenta la vida comunitaria de la aldea. Que nuestras mesas y sillas sigan sirviendo allí no es nostalgia: es coherencia. Y el puente no solo viaja en muebles: compañeras y compañeros de Arroelo hemos colaborado en proyectos como ",
           {
             type: "link",
             href: "https://www.eoi.es/es/the-break",
