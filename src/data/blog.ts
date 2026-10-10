@@ -3984,14 +3984,14 @@ export const blogPosts: BlogPost[] = [
           ": ",
           {
             type: "link",
-            href: "https://www.linkedin.com/in/mariapierres",
+            href: "https://es.linkedin.com/in/mariapierres",
             text: "María Pierres",
             external: true,
           },
           ", arquitecta, y ",
           {
             type: "link",
-            href: "https://www.linkedin.com/in/rodriguezafricacoworking/",
+            href: "https://es.linkedin.com/in/rodriguezafricaruralhacker",
             text: "África Rodríguez",
             external: true,
           },
