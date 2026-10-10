@@ -40,14 +40,18 @@ function BlogCard({
   image: string;
   alt: string;
   imageFit?: "cover" | "contain";
-  imagePosition?: "center" | "top";
+  imagePosition?: "center" | "top" | "right";
   index: number;
 }) {
   const delayMs = Math.min(index * 55, 480);
   const fitClass =
     imageFit === "contain" ? "object-contain" : "object-cover";
   const positionClass =
-    imagePosition === "top" ? "object-top" : "object-center";
+    imagePosition === "top"
+      ? "object-top"
+      : imagePosition === "right"
+        ? "object-right"
+        : "object-center";
 
   return (
     <Link

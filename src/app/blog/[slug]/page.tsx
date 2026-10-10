@@ -311,7 +311,9 @@ export default async function BlogPostPage({ params }: Props) {
                   } ${
                     post.imagePosition === "top"
                       ? "object-top"
-                      : "object-center"
+                      : post.imagePosition === "right"
+                        ? "object-right"
+                        : "object-center"
                   }`}
                   sizes="(max-width: 860px) 100vw, 40vw"
                 />

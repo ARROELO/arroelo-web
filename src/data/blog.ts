@@ -46,8 +46,8 @@ export type BlogPost = {
   alt: string;
   /** Featured/card crop. Default cover. Use contain for portraits that must stay whole. */
   imageFit?: "cover" | "contain";
-  /** Featured/card object-position (default center). Use top when cover would chop heads. */
-  imagePosition?: "center" | "top";
+  /** Featured/card object-position (default center). Use top when cover would chop heads; right when the subject sits on the right edge. */
+  imagePosition?: "center" | "top" | "right";
   excerpt: string;
   body: BlogBodyBlock[];
 };
@@ -2757,8 +2757,9 @@ export const blogPosts: BlogPost[] = [
     label: "Impacto",
     image: "/photos/blog/rural-hackers-portada-camiseta-eq.jpg",
     alt: "Persona de espaldas en un campo, con camiseta negra que dice «I AM A RURAL HACKER» en letras amarillas y un pequeño icono de planta",
+    imagePosition: "right",
     excerpt:
-      "Qué es Rural Hackers y cómo, desde Anceu y con Arroelo, usan arte, tecnología e IA para revitalizar el rural gallego.",
+      "Qué es Rural Hackers y cómo, desde Anceu y con Arroelo, usamos arte, tecnología e IA para revitalizar el rural gallego.",
     body: [
       {
         type: "p",
@@ -2769,7 +2770,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Esa es, en buena medida, la mirada de ",
+          "Esa es, en buena medida, nuestra mirada en ",
           {
             type: "link",
             href: "https://www.ruralhackers.com/",
@@ -2786,7 +2787,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Rural Hackers nace en la intersección del arte, la tecnología y la vida rural para luchar contra la despoblación y crear un puente sostenible entre las comunidades rurales y el mundo contemporáneo. El lema que África Rodríguez resume en su trayectoria —",
+          "Impulsamos Rural Hackers en la intersección del arte, la tecnología y la vida rural para luchar contra la despoblación y crear un puente sostenible entre las comunidades rurales y el mundo contemporáneo. El lema que África Rodríguez resume en su trayectoria —",
           {
             type: "link",
             href: "https://www.ruralhackers.com/",
@@ -2799,7 +2800,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde 2021, África Rodríguez, Ignacio (Nacho) Márquez y Agustín Jamardo impulsan esta ONG / movimiento. No partíamos de cero: veníamos de años tejiendo comunidad en ",
+          "Desde 2021 impulsamos esta ONG / movimiento —África Rodríguez, Ignacio (Nacho) Márquez y Agustín Jamardo—. No partíamos de cero: veníamos de años tejiendo comunidad en ",
           {
             type: "link",
             href: "/",
@@ -2812,7 +2813,14 @@ export const blogPosts: BlogPost[] = [
             text: "Anceu Coliving",
             external: true,
           },
-          " y de redes europeas de educación no formal, Erasmus+ y hubs creativos. La pregunta de fondo era —y sigue siendo— urgente: ¿cómo evitar que el rural gallego se vacíe de gente, de oficio y de futuro, mientras la tecnología avanza solo en las grandes ciudades?",
+          " y de redes europeas de educación no formal, ",
+          {
+            type: "link",
+            href: "https://erasmus-plus.ec.europa.eu/es",
+            text: "Erasmus+",
+            external: true,
+          },
+          " y hubs creativos. La pregunta de fondo era —y sigue siendo— urgente: ¿cómo evitar que el rural gallego se vacíe de gente, de oficio y de futuro, mientras la tecnología avanza solo en las grandes ciudades?",
         ],
       },
       {
@@ -2820,15 +2828,21 @@ export const blogPosts: BlogPost[] = [
         src: "/photos/blog/rural-hackers-sketchy-shona.jpg",
         alt: "Persona con bastón junto a un gran retrato recortado al aire libre; Sketchy Shōna cuelga entre los pinos",
         caption:
-          "Colgamos Sketchy Shōna entre los pinos: arte en el bosque, con el retrato y el bastón como parte del encuentro.",
+          "Colgamos Sketchy Shōna entre los pinos: una obra de Shōna, de Nueva York, con el retrato de Rogelio —vecino de Anceu que cuida el monte del pueblo— y su bastón como parte del encuentro.",
       },
       { type: "h2", text: "Construir con quien ya está" },
-      "En Rural Hackers no se trata de «llevar la modernidad» como quien reparte folletos. Se trata de construir con el poder de la vecindad de Anceu y de una comunidad internacional. Juntas crean futuros donde el esfuerzo de cada persona deja impacto duradero.",
+      "En Rural Hackers no se trata de «llevar la modernidad» como quien reparte folletos. Se trata de construir con el poder de la vecindad de Anceu y de una comunidad internacional. Creamos futuros donde el esfuerzo de cada persona deja impacto duradero.",
       "En la práctica hay varias líneas que se entrelazan:",
       {
         type: "p",
         parts: [
-          "Residencias. Experiencias de un mes en ",
+          {
+            type: "link",
+            href: "https://ruralhackers.com/rural-hackers-residencies/",
+            text: "Residencias",
+            external: true,
+          },
+          ". Experiencias de un mes en ",
           {
             type: "link",
             href: "https://anceu.com/",
@@ -2838,22 +2852,34 @@ export const blogPosts: BlogPost[] = [
           " para desarrollar proyectos de tecnología, arte o creatividad con impacto local. Quien llega no solo «teletrabaja con vistas»: deja algo —un taller, una herramienta, una propuesta— que dialoga con las necesidades del lugar.",
         ],
       },
-      "Proyectos digitales rurales. Herramientas y sistemas open source pensados desde desafíos reales: aislamiento, infraestructuras envejecidas, falta de visibilidad de iniciativas locales. Hackathones como los Do Action, donde decenas de participantes de varios países desarrollan webs para ONG del entorno, convierten la solidaridad en código usable.",
+      {
+        type: "p",
+        parts: [
+          "Proyectos digitales rurales. Herramientas y sistemas open source pensados desde desafíos reales: aislamiento, infraestructuras envejecidas, falta de visibilidad de iniciativas locales. En ",
+          {
+            type: "link",
+            href: "https://hackerdays.org/",
+            text: "Hacker Days",
+            external: true,
+          },
+          " prototipamos el futuro del rural en comunidad —una semana, un reto real—. De ahí nació ",
+          {
+            type: "link",
+            href: "https://puntodeagua.com/",
+            text: "Punto de Agua",
+            external: true,
+          },
+          ", una plataforma de gestión comunitaria del agua. Hackathones como los Do Action, donde decenas de participantes de varios países desarrollan webs para ONG del entorno, convierten la solidaridad en código usable.",
+        ],
+      },
       "Arte y juego en el pueblo. Proyectos como el juego de realidad aumentada «Anceu Monsters», creado en residencia, gamifican el descubrimiento del entorno y acercan la tecnología a niñas y niños del lugar. No es gadget por gadget: es una forma de habitar la plaza de otra manera.",
-      "Academia y formación. La Rural Hackers Academy nació de una evidencia simple: tecnología e inglés son dos palancas de desarrollo. Colivers aportaron tiempo gratis para formar a jóvenes y vecinos. La solidaridad aquí no es decorado; es método.",
-      "También ha habido ediciones del Rural Hackers Fest en la aldea: celebrar no es accesorio cuando se construye comunidad.",
+      "También hemos celebrado ediciones del Rural Hackers Fest en la aldea: celebrar no es accesorio cuando se construye comunidad.",
       {
         type: "video",
         youtubeId: "wDO0BWL65Mw",
         title: "Rural Hackers Fest en Anceu",
         caption:
           "Rural Hackers Fest: tecnología, arte y comunidad en la aldea de Anceu.",
-      },
-      {
-        type: "image",
-        src: "/photos/blog/rural-hackers-coworking-exterior.jpg",
-        alt: "Personas con portátiles en un patio soleado rodeado de vegetación en el rural gallego",
-        caption: "Coworking al aire libre: el monte como sala de reuniones.",
       },
       {
         type: "image",
@@ -2865,18 +2891,25 @@ export const blogPosts: BlogPost[] = [
         type: "h2",
         text: "IA en la aldea (con los pies en el suelo)",
       },
-      "En los últimos años, la inteligencia artificial ha entrado en la conversación —y en la agenda— de Rural Hackers sin convertirse en humo.",
+      "En los últimos años, la inteligencia artificial ha entrado en nuestra conversación —y en nuestra agenda— sin convertirse en humo.",
       {
         type: "p",
         parts: [
-          "Rural IA propone inmersiones prácticas: probar herramientas, crear proyectos reales, aprender haciendo, con convivencia y naturaleza como parte de la experiencia. RuralGPT, impulsado con Anceu Coliving, busca situar Anceu como laboratorio de innovación en IA: residencias formativas intensivas para profesionales que sienten que la IA avanza más rápido que su capacidad de seguirle el ritmo, y que quieren integrar procesos útiles —no demos eternos— en su trabajo diario. Lo hemos compartido también en ",
+          "Gracias a ",
           {
             type: "link",
-            href: "https://www.instagram.com/p/Dd1jEO6sUUa/",
-            text: "Instagram",
+            href: "https://ruralgpt.gal/es/",
+            text: "RuralGPT",
             external: true,
           },
-          ".",
+          " —impulsado con ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          "— hoy tenemos sesiones mensuales en Arroelo con su equipo para usar la IA de forma más eficiente, en el marco de los encuentros Sinergia (SINERGIA). El hilo sigue anclado en Anceu como laboratorio: residencias formativas intensivas para profesionales que sienten que la IA avanza más rápido que su capacidad de seguirle el ritmo, y que quieren integrar procesos útiles —no demos eternos— en su trabajo diario.",
         ],
       },
       {
