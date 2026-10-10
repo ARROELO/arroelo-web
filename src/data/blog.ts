@@ -57,8 +57,7 @@ export const blogPosts: BlogPost[] = [
     slug: "colabora-2015-espacio-arroelo",
     title:
       "CO-Labora 2015: el germen de buscar empleo en compañía en Arroelo",
-    seoTitle:
-      "CO-Labora 2015: el germen de buscar empleo en compañía en Arroelo",
+    seoTitle: "CO-Labora 2015: buscar empleo en compañía en Arroelo",
     date: "2026-10-07",
     label: "Comunidad",
     image: "/photos/blog/colabora-slide1-eq.png",
@@ -304,7 +303,7 @@ export const blogPosts: BlogPost[] = [
     slug: "coworking-inclusivo-empleo-apoyo-arroelo",
     title:
       "Coworking inclusivo en Pontevedra: cuando el salón también es Empleo con Apoyo",
-    seoTitle: "Coworking inclusivo en Pontevedra: Empleo con Apoyo en Arroelo",
+    seoTitle: "Coworking inclusivo: Empleo con Apoyo en Pontevedra",
     date: "2026-10-07",
     label: "Comunidad",
     image: "/photos/blog/xuntos-comunidad-arroelo-eq.jpg",
@@ -582,7 +581,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Si quieres conocer el espacio —puestos, salón, acceso, comunidad—, escribe a info@espacioarroelo.com, llama al 610 602 012 o ",
+          "Si quieres conocer el espacio —puestos, salón, acceso, comunidad—, escribe a info@espacioarroelo.es, llama al 610 602 012 o ",
           {
             type: "link",
             href: "/#contacto",
@@ -2285,8 +2284,7 @@ export const blogPosts: BlogPost[] = [
     slug: "ia-en-coworking-pontevedra-arroelo",
     title:
       "IA en el coworking: cómo la usamos en Espacio Arroelo (y por qué nos deja más tiempo para las personas)",
-    seoTitle:
-      "IA en el coworking: cómo la usamos en Espacio Arroelo (y por qué nos deja más tiempo para las personas)",
+    seoTitle: "IA en el coworking: cómo la usamos en Arroelo",
     date: "2026-10-07",
     label: "IA",
     image: "/photos/blog/ia-africa-portatil-salon-eq.jpg",
@@ -3221,7 +3219,7 @@ export const blogPosts: BlogPost[] = [
             href: "/#contacto",
             text: "escribirnos",
           },
-          " a info@espacioarroelo.com o llamar al 610 602 012. Mejor aún: pásate, toma un café y decide con el cuerpo, no solo con la comparativa de precios.",
+          " a info@espacioarroelo.es o llamar al 610 602 012. Mejor aún: pásate, toma un café y decide con el cuerpo, no solo con la comparativa de precios.",
         ],
       },
       {

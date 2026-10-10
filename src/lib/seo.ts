@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { contacto, horario, titular } from "@/data/contacto";
 import { absoluteUrl } from "@/lib/site";
 
 export const SITE_NAME = "Espacio Arroelo";
@@ -68,8 +69,10 @@ export function siteJsonLd() {
         url: absoluteUrl("/"),
         logo: absoluteUrl("/logo-arroelo-ink.png"),
         image: absoluteUrl(DEFAULT_OG_IMAGE.url),
-        telephone: "+34 610 602 012",
-        email: "info@espacioarroelo.com",
+        legalName: titular.name,
+        taxID: titular.nif,
+        telephone: contacto.phoneIntl,
+        email: contacto.email,
         foundingDate: "2013",
         founder: [
           { "@type": "Person", name: "África Rodríguez" },
@@ -88,9 +91,14 @@ export function siteJsonLd() {
           latitude: 42.4318,
           longitude: -8.6421,
         },
-        hasMap:
-          "https://www.google.com/maps/search/?api=1&query=Cobi%C3%A1n+Roffignac+6+Pontevedra",
+        hasMap: contacto.mapsHref,
         areaServed: { "@type": "City", name: "Pontevedra" },
+        openingHoursSpecification: horario.slots.map((slot) => ({
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: horario.days,
+          opens: slot.opens,
+          closes: slot.closes,
+        })),
         priceRange: "90 €–400 € / mes",
         currenciesAccepted: "EUR",
         amenityFeature: [

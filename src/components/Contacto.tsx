@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { contacto, horario, titular } from "@/data/contacto";
 import { withBase } from "@/lib/path";
 
 const social = [
@@ -39,6 +41,14 @@ function FacebookIcon({ className }: { className?: string }) {
   );
 }
 
+function WhatsAppIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden>
+      <path d="M12 2.2a9.7 9.7 0 0 0-8.3 14.8L2.4 21.6l4.7-1.2A9.7 9.7 0 1 0 12 2.2Zm0 17.7a8 8 0 0 1-4.1-1.1l-.3-.2-2.8.7.7-2.7-.2-.3A8 8 0 1 1 12 19.9Zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3Z" />
+    </svg>
+  );
+}
+
 export function Contacto() {
   return (
     <section id="contacto" className="bg-mist px-6 py-120 md:px-10">
@@ -70,12 +80,12 @@ export function Contacto() {
           <div>
             <p className="text-caption text-graphite/60">Dónde</p>
             <p className="mt-2 text-subheading text-ink">
-              Cobián Roffignac 6
+              {contacto.street}
               <br />
-              36002 Pontevedra
+              {contacto.postalCode} {contacto.city}
             </p>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Cobi%C3%A1n+Roffignac+6+Pontevedra"
+              href={contacto.mapsHref}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-block text-body text-ink/50 underline underline-offset-4 hover:text-terracotta"
@@ -84,21 +94,37 @@ export function Contacto() {
             </a>
           </div>
           <div>
-            <p className="text-caption text-graphite/60">Teléfono</p>
+            <p className="text-caption text-graphite/60">Horario de atención</p>
+            <p className="mt-2 text-subheading text-ink">{horario.short}</p>
+            <p className="mt-2 text-body text-ink/50">
+              Con tarifa fija, el acceso es 24 horas.
+            </p>
+          </div>
+          <div>
+            <p className="text-caption text-graphite/60">Teléfono y WhatsApp</p>
             <a
-              href="tel:+34610602012"
+              href={contacto.phoneHref}
               className="mt-2 block text-subheading text-ink hover:text-terracotta"
             >
-              610 602 012
+              {contacto.phone}
+            </a>
+            <a
+              href={contacto.whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-ink mt-4 inline-flex items-center gap-2"
+            >
+              <WhatsAppIcon className="size-5" />
+              Escríbenos por WhatsApp
             </a>
           </div>
           <div>
             <p className="text-caption text-graphite/60">Email</p>
             <a
-              href="mailto:info@espacioarroelo.com"
+              href={`mailto:${contacto.email}`}
               className="mt-2 block text-subheading text-ink hover:text-terracotta"
             >
-              info@espacioarroelo.com
+              {contacto.email}
             </a>
           </div>
           <div>
@@ -129,12 +155,60 @@ export function Contacto() {
   );
 }
 
+const footerLinks = [
+  { href: "/espacio", label: "Espacio" },
+  { href: "/tarifas", label: "Tarifas" },
+  { href: "/faq", label: "Preguntas frecuentes" },
+  { href: "/coworkers", label: "Coworkers" },
+  { href: "/blog", label: "Blog" },
+  { href: "/#contacto", label: "Contacto" },
+];
+
+const legalLinks = [
+  { href: "/aviso-legal", label: "Aviso legal" },
+  { href: "/privacidad", label: "Privacidad" },
+  { href: "/cookies", label: "Cookies" },
+];
+
 export function SiteFooter() {
   return (
-    <footer className="border-t border-ink/8 bg-fog px-6 py-8 md:px-10">
-      <p className="mx-auto max-w-[1100px] text-caption text-ink/40">
-        © {new Date().getFullYear()} Espacio Arroelo
-      </p>
+    <footer className="border-t border-ink/8 bg-fog px-6 py-12 md:px-10">
+      <div className="mx-auto grid max-w-[1100px] gap-10 text-caption text-ink/60 md:grid-cols-3">
+        <div>
+          <p className="text-ink">Espacio Arroelo</p>
+          <p className="mt-2">
+            {contacto.street}
+            <br />
+            {contacto.postalCode} {contacto.city}
+          </p>
+          <p className="mt-2">{horario.short}</p>
+        </div>
+        <nav aria-label="Pie de página">
+          <ul className="space-y-2">
+            {footerLinks.map((link) => (
+              <li key={link.href}>
+                <Link href={link.href} className="hover:text-terracotta">
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div>
+          <ul className="space-y-2">
+            {legalLinks.map((link) => (
+              <li key={link.href}>
+                <Link href={link.href} className="hover:text-terracotta">
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 text-ink/40">
+            © {new Date().getFullYear()} {titular.name}
+          </p>
+        </div>
+      </div>
     </footer>
   );
 }

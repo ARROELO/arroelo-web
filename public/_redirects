@@ -48,8 +48,8 @@
 /reflexologia-con-isabel-ures /coworkers 302
 
 # Restos de WordPress
-/privacy-policy-2/ / 302
-/privacy-policy-2 / 302
+/privacy-policy-2/ /privacidad 301
+/privacy-policy-2 /privacidad 301
 /feed/ /blog 301
 /feed /blog 301
 /wp-admin/* / 301

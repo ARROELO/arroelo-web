@@ -1,10 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
 import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
+import { BlogCard } from "@/components/BlogCard";
 import { SiteFooter } from "@/components/Contacto";
 import { blogPosts } from "@/data/blog";
-import { withBase } from "@/lib/path";
 import { pageMetadata } from "@/lib/seo";
 import "./blog.css";
 
@@ -14,59 +12,6 @@ export const metadata: Metadata = pageMetadata({
     "Historias del salón: café a la fresca, comunidad, luz y vida en el centro de Pontevedra.",
   path: "/blog",
 });
-
-function BlogCard({
-  slug,
-  title,
-  label,
-  image,
-  alt,
-  imageFit,
-  imagePosition,
-  index,
-}: {
-  slug: string;
-  title: string;
-  label: string;
-  image: string;
-  alt: string;
-  imageFit?: "cover" | "contain";
-  imagePosition?: "center" | "top" | "right";
-  index: number;
-}) {
-  const delayMs = Math.min(index * 55, 480);
-  const fitClass =
-    imageFit === "contain" ? "object-contain" : "object-cover";
-  const positionClass =
-    imagePosition === "top"
-      ? "object-top"
-      : imagePosition === "right"
-        ? "object-right"
-        : "object-center";
-
-  return (
-    <Link
-      href={`/blog/${slug}`}
-      className="blog-card"
-      style={{ animationDelay: `${delayMs}ms` }}
-    >
-      <div className="blog-media rounded-none">
-        <Image
-          src={withBase(image)}
-          alt={alt}
-          fill
-          className={`blog-photo rounded-none ${fitClass} ${positionClass}`}
-          sizes="(max-width: 767px) 50vw, 25vw"
-          priority={index < 3}
-        />
-      </div>
-      <div className="blog-meta">
-        <p className="blog-label">{label}</p>
-        <h2 className="blog-title">{title}</h2>
-      </div>
-    </Link>
-  );
-}
 
 export default function BlogPage() {
   return (

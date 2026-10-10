@@ -1,4 +1,5 @@
 import { blogPosts } from "@/data/blog";
+import { contacto, horario } from "@/data/contacto";
 import { plans } from "@/data/tarifas";
 import { absoluteUrl } from "@/lib/site";
 
@@ -29,9 +30,10 @@ export function GET() {
 
 ## Datos clave
 
-- Dirección: Rúa Cobián Roffignac 6, planta 3, 36002 Pontevedra
-- Teléfono: +34 610 602 012
-- Email: info@espacioarroelo.com
+- Dirección: Rúa ${contacto.street}, ${contacto.postalCode} ${contacto.city}
+- Teléfono y WhatsApp: ${contacto.phoneIntl}
+- Email: ${contacto.email}
+- Horario de atención: ${horario.label}
 - Instagram: https://www.instagram.com/arroelo/
 - Acceso 24 horas para mesa fija y sala exclusiva
 - Fibra óptica 1 Giga, salas de reunión con pantalla 4K, todos los gastos incluidos
@@ -48,6 +50,7 @@ ${tarifas}
 - [Inicio](${absoluteUrl("/")}): qué es Arroelo y cómo es el día a día
 - [El espacio](${absoluteUrl("/espacio")}): el salón, las salas y los servicios
 - [Tarifas](${absoluteUrl("/tarifas")}): planes, precios y qué incluye cada uno
+- [Preguntas frecuentes](${absoluteUrl("/faq")}): precios, prueba gratis, horarios, mascotas y más
 - [Coworkers](${absoluteUrl("/coworkers")}): la comunidad que trabaja en Arroelo
 - [Blog](${absoluteUrl("/blog")}): historias de la comunidad
 

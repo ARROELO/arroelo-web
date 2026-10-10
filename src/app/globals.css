@@ -1,4 +1,3 @@
-@import url("https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap");
 @import "tailwindcss";
 
 /* Arroelo theme — layout system + Instagram palette (últimos meses) */
@@ -17,7 +16,7 @@
   --color-cream: #f6ddc4;
 
   /* Typography — Swiss grotesk (Switzer ≈ Neue Haas Grotesk Display) */
-  --font-stabilgrotesk: "Switzer", "StabilGrotesk", ui-sans-serif, system-ui,
+  --font-stabilgrotesk: var(--font-switzer), "Switzer", "StabilGrotesk", ui-sans-serif, system-ui,
     -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
 
   /* Scale — generous display, tight leading, studio tracking */

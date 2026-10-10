@@ -243,6 +243,12 @@ export default function TarifasPage() {
               <Link href="/#contacto" className="btn btn-ink mt-10">
                 Contactar
               </Link>
+              <p className="mt-6 text-body text-ink/60">
+                ¿Dudas sobre horarios, salas o mascotas?{" "}
+                <Link href="/faq" className={linkClass}>
+                  Preguntas frecuentes
+                </Link>
+              </p>
             </div>
           </div>
         </section>

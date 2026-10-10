@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
+import { PostFooter } from "@/components/PostFooter";
 import {
   blogPosts,
   getPostBySlug,
@@ -28,9 +29,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return { title: "Entrada no encontrada — Arroelo" };
 
-  const title = post.seoTitle
-    ? `${post.seoTitle} — Blog | Arroelo`
-    : `${post.title} — Blog | Arroelo`;
+  // Google trunca hacia los 60 caracteres: la marca solo se añade si cabe
+  // y si el título no la lleva ya.
+  const baseTitle = post.seoTitle ?? post.title;
+  const title =
+    baseTitle.includes("Arroelo") ||
+    baseTitle.length + " | Arroelo".length > 60
+      ? baseTitle
+      : `${baseTitle} | Arroelo`;
   const description = post.excerpt;
   const canonicalPath = `/blog/${post.slug}`;
   const imageUrl = absoluteUrl(post.image);
@@ -155,7 +161,8 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
     const isVimeo = Boolean(block.vimeoId);
     let embedSrc = "";
     if (isVimeo && block.vimeoId) {
-      embedSrc = `https://player.vimeo.com/video/${block.vimeoId}`;
+      // dnt=1: sin cookies de seguimiento de Vimeo.
+      embedSrc = `https://player.vimeo.com/video/${block.vimeoId}?dnt=1`;
     } else if (block.youtubeId) {
       const params = new URLSearchParams();
       if (typeof block.start === "number" && block.start > 0) {
@@ -276,6 +283,26 @@ export default async function BlogPostPage({ params }: Props) {
     inLanguage: "es-ES",
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Inicio",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: absoluteUrl("/blog"),
+      },
+      { "@type": "ListItem", position: 3, name: post.title, item: pageUrl },
+    ],
+  };
+
   const sections = groupBodySections(post.body);
 
   return (
@@ -283,7 +310,10 @@ export default async function BlogPostPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: JSON.stringify([jsonLd, breadcrumbJsonLd]).replace(
+            /</g,
+            "\\u003c",
+          ),
         }}
       />
       <SiteHeader variant="solid" />
@@ -349,6 +379,7 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           </div>
         </article>
+        <PostFooter post={post} />
       </main>
       <SiteFooter />
     </>
