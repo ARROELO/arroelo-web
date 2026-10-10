@@ -12,7 +12,7 @@ import { absoluteUrl } from "@/lib/site";
 export const metadata: Metadata = pageMetadata({
   title: "Tarifas — Coworking en Pontevedra | Arroelo",
   description:
-    "Jornada completa, sala exclusiva, media jornada y bonos de días sueltos. Tarifas claras de coworking en el centro de Pontevedra.",
+    "Tarifas de coworking en el centro de Pontevedra: jornada completa, sala exclusiva, media jornada y bonos de días. Sin permanencia y primera semana sin coste.",
   path: "/tarifas",
   ogDescription:
     "Jornada completa, sala exclusiva, media jornada y bonos de días sueltos. Sin letra pequeña.",
@@ -88,6 +88,29 @@ const offersJsonLd = {
   ),
 };
 
+/** "110 € mañanas · 100 € tardes /mes", "100 € (10 días) · 180 € (20 días)". */
+function priceSummary(plan: (typeof plans)[number]): string {
+  const monthly = plan.prices.every((price) => price.note.includes("mes"));
+  const parts = plan.prices.map((price) => {
+    if (plan.prices.length === 1) return price.amount;
+    const short = price.label.split(" · ")[0].replace(/^Bono /, "");
+    return price.label.startsWith("Bono")
+      ? `${price.amount} (${short})`
+      : `${price.amount} ${short.toLowerCase()}`;
+  });
+  return `${parts.join(" · ")}${monthly ? " /mes" : ""}`;
+}
+
+const compareRows: {
+  label: string;
+  value: (plan: (typeof plans)[number]) => string;
+}[] = [
+  { label: "Precio (+ IVA)", value: priceSummary },
+  { label: "Acceso", value: (plan) => plan.compare.access },
+  { label: "Puesto", value: (plan) => plan.compare.desk },
+  { label: "Salas de reunión", value: (plan) => plan.compare.rooms },
+];
+
 export default function TarifasPage() {
   return (
     <>
@@ -101,7 +124,7 @@ export default function TarifasPage() {
           <div className="max-w-[42ch] md:max-w-[50%]">
             <p className="reveal text-label text-graphite/70">Sin letra pequeña</p>
             <h1 className="reveal reveal-delay-1 mt-4 text-espacio-intro-title text-ink">
-              Tarifas
+              Tarifas de coworking en Pontevedra
             </h1>
             <p className="reveal reveal-delay-2 mt-2 text-espacio-intro-body text-ink/70">
               Cuatro formas de estar en Arroelo. Más de 10 años de coworking en
@@ -200,6 +223,76 @@ export default function TarifasPage() {
         </section>
 
         <section
+          className="bg-fog px-4 pt-80 md:px-6 md:pt-120"
+          aria-labelledby="comparar-tarifas"
+        >
+          <div className="mx-auto max-w-[1440px]">
+            <h2
+              id="comparar-tarifas"
+              className="text-espacio-intro-title text-ink"
+            >
+              Compara las tarifas
+            </h2>
+            {/* Móvil: una ficha por tarifa; escritorio: tabla comparativa. */}
+            <div className="mt-10 space-y-8 md:hidden">
+              {plans.map((plan) => (
+                <div key={plan.id} className="border-t border-ink/15 pt-6">
+                  <h3 className="text-body-lg font-bold text-ink">
+                    {plan.title}
+                  </h3>
+                  <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-6 gap-y-2 text-body">
+                    {compareRows.map((row) => (
+                      <div key={row.label} className="contents">
+                        <dt className="text-ink/65">{row.label}</dt>
+                        <dd className="text-ink">{row.value(plan)}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              ))}
+            </div>
+            <div className="mt-10 hidden md:block">
+              <table className="w-full border-collapse text-left text-body">
+                <caption className="sr-only">
+                  Comparativa de las tarifas de coworking de Espacio Arroelo
+                </caption>
+                <thead>
+                  <tr className="border-b border-ink/15">
+                    <td className="py-4 pr-6" />
+                    {plans.map((plan) => (
+                      <th
+                        key={plan.id}
+                        scope="col"
+                        className="py-4 pr-6 align-bottom font-bold text-ink"
+                      >
+                        {plan.title}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {compareRows.map((row) => (
+                    <tr key={row.label} className="border-b border-ink/10">
+                      <th
+                        scope="row"
+                        className="py-4 pr-6 align-top font-normal text-ink/65"
+                      >
+                        {row.label}
+                      </th>
+                      {plans.map((plan) => (
+                        <td key={plan.id} className="py-4 pr-6 align-top text-ink">
+                          {row.value(plan)}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section
           className="bg-fog px-4 py-120 md:px-6"
           aria-labelledby="incluido-todas"
         >
@@ -209,7 +302,7 @@ export default function TarifasPage() {
                 id="incluido-todas"
                 className="text-espacio-intro-title text-ink"
               >
-                Incluido en todas las tarifas
+                ¿Qué incluyen todas las tarifas?
               </h2>
               <p className="mt-2 max-w-[36ch] text-espacio-intro-body text-ink/70">
                 Lo que comparten las cuatro formas de estar en Arroelo.

@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "El espacio — Coworking en Pontevedra | Arroelo",
   description:
-    "Un espacio abierto donde suceden cosas: mesas de madera, luz natural, salas de reunión 4K, acceso 24h y Café a la fresca en el centro de Pontevedra.",
+    "Así es el coworking de Espacio Arroelo en Pontevedra: salón con mesas de madera y luz natural, salas de reunión con pantalla 4K, cocina y acceso 24 horas.",
   path: "/espacio",
 });
 
@@ -124,7 +124,7 @@ export default function EspacioPage() {
           <div className="relative z-10 mx-auto flex min-h-[70svh] max-w-[1100px] flex-col justify-end px-6 pb-16 pt-28 md:px-10 md:pb-24">
             <p className="reveal text-caption text-cream/80">El espacio</p>
             <h1 className="reveal reveal-delay-1 mt-5 max-w-[10ch] text-display">
-              El salón
+              El salón de coworking
             </h1>
             <p className="reveal reveal-delay-2 mt-8 max-w-lg text-body-lg text-paper/85">
               Un espacio abierto donde suceden cosas. Madera, luz natural y la
@@ -137,9 +137,16 @@ export default function EspacioPage() {
           <div className="mx-auto max-w-[1100px]">
             <p className="text-caption text-graphite/70">Qué encontrarás</p>
             <h2 className="mt-5 max-w-[16ch] text-heading-lg text-ink">
-              Un tercer tiempo entre casa y oficina
+              ¿Qué hay en Arroelo?
             </h2>
             <p className="mt-8 max-w-2xl text-body-lg text-ink/70">
+              Arroelo ocupa la tercera planta de Cobián Roffignac 6, en el
+              centro de Pontevedra: un salón de trabajo compartido con mesas de
+              madera y luz natural, tres salas de reunión (S, M y L) con
+              pantalla, una sala exclusiva para equipos, cocina y fibra de 1
+              Giga. Con tarifa fija, el acceso es 24 horas.
+            </p>
+            <p className="mt-6 max-w-2xl text-body-lg text-ink/70">
               Nosotras dejamos la luz encendida para quien quiera tejer algo
               más grande. Entrar es sumarse a un salón de personas curiosas:
               foco, pausa y libertad.

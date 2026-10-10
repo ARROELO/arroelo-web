@@ -7,9 +7,9 @@ import { Tarifa } from "@/components/Tarifa";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Arroelo — El tercer tiempo | Coworking en Pontevedra",
+  title: "Coworking en Pontevedra — El tercer tiempo | Arroelo",
   description:
-    "Ni casa, ni oficina. Un espacio abierto en Pontevedra donde suceden cosas: mesa, pausa y redes — sin networking forzado. Café a la fresca y más de 10 años.",
+    "Coworking en el centro de Pontevedra desde 2013: mesa fija, media jornada, bonos y sala privada, con acceso 24 h y Café a la fresca. Primera semana sin coste.",
   path: "/",
   ogTitle: "Arroelo — El Tercer Tiempo | Coworking en Pontevedra",
   ogDescription: "Ni casa, ni oficina. Un espacio abierto donde suceden cosas.",

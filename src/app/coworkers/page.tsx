@@ -11,7 +11,7 @@ import "./coworkers.css";
 export const metadata: Metadata = pageMetadata({
   title: "Coworkers — Arroelover Family | Espacio Arroelo",
   description:
-    "La familia coworker de Espacio Arroelo en Pontevedra. Conoce a quienes comparten el salón cada día.",
+    "La comunidad del coworking Espacio Arroelo en Pontevedra: personas autónomas, pequeños equipos y profesionales en remoto que comparten mesa, café y redes.",
   path: "/coworkers",
 });
 
@@ -103,7 +103,9 @@ export default function CoworkersPage() {
             Arroelover Family
           </h1>
           <p className="mt-5 max-w-xl text-body-lg text-ink/65 md:mt-6">
-            Nadie es igual a nadie, y precisamente por eso el espacio funciona.
+            Quienes trabajan cada día en el coworking de Arroelo, en el centro
+            de Pontevedra. Nadie es igual a nadie, y precisamente por eso el
+            espacio funciona.
             Estas son algunas caras del salón — y hay mesa para ti.
           </p>
         </header>

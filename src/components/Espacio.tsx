@@ -192,8 +192,10 @@ export function Espacio() {
             Tu espacio de coworking en el centro de Pontevedra.
           </h1>
           <p className="mt-2 text-espacio-intro-body text-ink">
-            Ni casa, ni oficina: foco cuando hace falta, pausa cuando el día lo
-            pide, y libertad para que ocurran visitas, ideas y redes.
+            Espacio Arroelo es un coworking en el centro de Pontevedra, abierto
+            desde 2013 en Cobián Roffignac 6. Mesa fija, media jornada, bonos de
+            días o sala privada, con acceso 24 horas y fibra de 1 Giga. Ni casa,
+            ni oficina: foco cuando hace falta y pausa cuando el día lo pide.
           </p>
         </div>
       </div>
