@@ -27,7 +27,7 @@ export default function Home() {
         <Tarifa />
         <Contacto />
       </main>
-      <SiteFooter />
+      <SiteFooter cta={false} />
     </>
   );
 }

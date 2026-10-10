@@ -14,7 +14,7 @@ export function LegalPage({
   return (
     <>
       <SiteHeader variant="solid" />
-      <main className="flex-1 bg-fog px-4 pt-8 pb-24 md:px-6 md:pt-10 md:pb-32">
+      <main className="flex-1 bg-fog px-4 pt-8 pb-80 md:px-6 md:pt-10 md:pb-120">
         <article className="max-w-[70ch]">
           <p className="text-label text-graphite/70">Legal</p>
           <h1 className="mt-4 text-espacio-intro-title text-ink">{title}</h1>

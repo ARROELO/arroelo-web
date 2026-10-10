@@ -45,7 +45,7 @@ export default function FaqPage() {
             </p>
           </div>
         </header>
-        <section className="bg-fog px-4 pb-24 md:px-6 md:pb-32">
+        <section className="bg-fog px-4 pb-80 md:px-6 md:pb-120">
           <div className="divide-y divide-ink/10 border-t border-ink/10 md:max-w-[50rem]">
             {faq.map((item) => (
               <article key={item.id} id={item.id} className="py-10">

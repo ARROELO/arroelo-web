@@ -20,7 +20,7 @@ export default function NotFound() {
     <>
       <SiteHeader variant="solid" />
       <main className="flex-1">
-        <section className="bg-fog px-4 pt-8 pb-24 md:px-6 md:pt-10 md:pb-32">
+        <section className="bg-fog px-4 pt-8 pb-80 md:px-6 md:pt-10 md:pb-120">
           <div className="max-w-[42ch] md:max-w-[50%]">
             <p className="text-label text-graphite/70">Error 404</p>
             <h1 className="mt-4 text-espacio-intro-title text-ink">

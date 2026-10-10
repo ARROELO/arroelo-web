@@ -155,6 +155,46 @@ export function Contacto() {
   );
 }
 
+/** Franja final "Primera semana sin coste": en todas las páginas salvo la home, que ya cierra con Contacto. */
+function TrialCta() {
+  return (
+    <section
+      aria-labelledby="trial-cta-title"
+      className="bg-mist px-6 py-80 md:px-10 md:py-128"
+    >
+      <div className="mx-auto grid max-w-[1100px] gap-10 md:grid-cols-[1fr_auto] md:items-end">
+        <div>
+          <p className="text-label text-graphite/70">Pruébalo</p>
+          <h2
+            id="trial-cta-title"
+            className="mt-4 text-heading-lg text-ink"
+          >
+            Primera semana sin coste
+          </h2>
+          <p className="mt-4 max-w-[44ch] text-body-lg text-ink/70">
+            Ven a trabajar unos días al salón, sin compromiso. Te contamos qué
+            tarifa encaja contigo.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href={contacto.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-ink inline-flex items-center gap-2"
+          >
+            <WhatsAppIcon className="size-5" />
+            Escríbenos por WhatsApp
+          </a>
+          <Link href="/tarifas" className="btn btn-outline">
+            Ver tarifas
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const footerLinks = [
   { href: "/espacio", label: "Espacio" },
   { href: "/tarifas", label: "Tarifas" },
@@ -170,45 +210,85 @@ const legalLinks = [
   { href: "/cookies", label: "Cookies" },
 ];
 
-export function SiteFooter() {
+const footerSocial = [
+  ...social,
+  { label: "WhatsApp", href: contacto.whatsappHref, icon: WhatsAppIcon },
+];
+
+const footerLinkClass = "transition-colors hover:text-terracotta";
+
+export function SiteFooter({ cta = true }: { cta?: boolean }) {
   return (
-    <footer className="border-t border-ink/8 bg-fog px-6 py-12 md:px-10">
-      <div className="mx-auto grid max-w-[1100px] gap-10 text-caption text-ink/60 md:grid-cols-3">
-        <div>
-          <p className="text-ink">Espacio Arroelo</p>
-          <p className="mt-2">
-            {contacto.street}
-            <br />
-            {contacto.postalCode} {contacto.city}
-          </p>
-          <p className="mt-2">{horario.short}</p>
+    <>
+      {cta ? <TrialCta /> : null}
+      <footer className="bg-deep-teal px-6 pt-80 pb-40 text-caption text-fog/65 md:px-10">
+        <div className="mx-auto grid max-w-[1100px] gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
+          <div>
+            <p className="text-subheading text-fog">Espacio Arroelo</p>
+            <p className="mt-4">
+              {contacto.street}
+              <br />
+              {contacto.postalCode} {contacto.city}
+            </p>
+            <p className="mt-3">{horario.short}</p>
+            <p className="mt-3">
+              <a href={contacto.phoneHref} className={footerLinkClass}>
+                {contacto.phone}
+              </a>
+              <br />
+              <a href={`mailto:${contacto.email}`} className={footerLinkClass}>
+                {contacto.email}
+              </a>
+            </p>
+            <ul className="mt-6 flex items-center gap-3">
+              {footerSocial.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <li key={item.label}>
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={item.label}
+                      title={item.label}
+                      className="inline-flex size-11 items-center justify-center rounded-full border border-fog/20 text-fog transition-colors hover:border-terracotta hover:text-terracotta"
+                    >
+                      <Icon className="size-5" />
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <nav aria-label="Pie de página">
+            <p className="text-label text-fog/40">Arroelo</p>
+            <ul className="mt-4 space-y-2">
+              {footerLinks.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className={footerLinkClass}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          <div>
+            <p className="text-label text-fog/40">Legal</p>
+            <ul className="mt-4 space-y-2">
+              {legalLinks.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className={footerLinkClass}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-        <nav aria-label="Pie de página">
-          <ul className="space-y-2">
-            {footerLinks.map((link) => (
-              <li key={link.href}>
-                <Link href={link.href} className="hover:text-terracotta">
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <div>
-          <ul className="space-y-2">
-            {legalLinks.map((link) => (
-              <li key={link.href}>
-                <Link href={link.href} className="hover:text-terracotta">
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 text-ink/40">
-            © {new Date().getFullYear()} {titular.name}
-          </p>
-        </div>
-      </div>
-    </footer>
+        <p className="mx-auto mt-56 max-w-[1100px] border-t border-fog/10 pt-24 text-fog/40">
+          © {new Date().getFullYear()} {titular.name}
+        </p>
+      </footer>
+    </>
   );
 }
