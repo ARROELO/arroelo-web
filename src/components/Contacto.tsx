@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contacto, horario, titular } from "@/data/contacto";
+import { contacto, titular } from "@/data/contacto";
 import { withBase } from "@/lib/path";
 
 const social = [
@@ -92,13 +92,6 @@ export function Contacto() {
             >
               Ver en el mapa
             </a>
-          </div>
-          <div>
-            <p className="text-caption text-graphite/60">Horario de atención</p>
-            <p className="mt-2 text-subheading text-ink">{horario.short}</p>
-            <p className="mt-2 text-body text-ink/50">
-              Con tarifa fija, el acceso es 24 horas.
-            </p>
           </div>
           <div>
             <p className="text-caption text-graphite/60">Teléfono y WhatsApp</p>
