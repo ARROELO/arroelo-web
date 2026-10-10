@@ -294,6 +294,15 @@ export default function TarifasPage() {
             </div>
 
             <div className="min-w-0 reveal reveal-delay-2 md:pt-1">
+              <div className="relative mb-10 aspect-[3/2] overflow-hidden rounded-none bg-mist">
+                <Image
+                  src={withBase("/photos/tarifas-prueba-anceu.jpg")}
+                  alt="Coworker con portátil junto a la piscina turquesa de Anceu, en una casa de piedra rural"
+                  fill
+                  className="object-cover object-[center_45%]"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
               <p className="text-label text-graphite/70">Pruébalo</p>
               <h2 className="mt-5 text-espacio-intro-title text-ink">
                 Primera semana sin coste
