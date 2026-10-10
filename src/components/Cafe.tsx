@@ -6,7 +6,7 @@ export function Cafe() {
     <section id="cafe" className="relative pt-14 md:pt-20">
       <div className="px-4 md:px-6">
         <div className="max-w-[42ch] md:max-w-[50%]">
-          <h2 className="text-espacio-intro-title text-terracotta">
+          <h2 className="text-espacio-intro-title text-terracotta-deep">
             Café a la fresca
           </h2>
           <p className="mt-2 text-espacio-intro-body text-ink">

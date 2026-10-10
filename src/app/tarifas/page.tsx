@@ -166,7 +166,7 @@ export default function TarifasPage() {
                         </p>
                         <p className="mt-1 text-heading-sm text-ink">
                           {price.amount}
-                          <span className="ml-2 text-body-lg font-normal text-ink/55">
+                          <span className="ml-2 text-body-lg font-normal text-ink/65">
                             {price.note}
                           </span>
                         </p>
@@ -175,7 +175,7 @@ export default function TarifasPage() {
                   </div>
                   <p className="mt-4 text-body-lg text-ink/65">{plan.tagline}</p>
                   {plan.notes.map((line) => (
-                    <p key={line} className="mt-3 text-body text-ink/55">
+                    <p key={line} className="mt-3 text-body text-ink/65">
                       {line}
                     </p>
                   ))}
@@ -253,7 +253,8 @@ export default function TarifasPage() {
           </div>
         </section>
       </main>
-      <SiteFooter />
+      {/* La página ya cierra con su propia invitación a probar. */}
+      <SiteFooter cta={false} />
     </>
   );
 }

@@ -188,7 +188,7 @@ export function Espacio() {
       {/* Post-hero intro — Arc pattern: editorial block immediately after video */}
       <div className="px-4 md:px-6">
         <div className="max-w-[42ch] md:max-w-[50%]">
-          <h1 className="text-espacio-intro-title text-terracotta">
+          <h1 className="text-espacio-intro-title text-terracotta-deep">
             Tu espacio de coworking en el centro de Pontevedra.
           </h1>
           <p className="mt-2 text-espacio-intro-body text-ink">
@@ -220,7 +220,7 @@ export function Espacio() {
       <div className="mt-16 sm:mt-20 md:mt-24">
         <div className="px-4 pt-14 md:px-6 md:pt-20">
           <div className="max-w-[42ch] md:max-w-[50%]">
-            <h2 className="text-espacio-intro-title text-terracotta">
+            <h2 className="text-espacio-intro-title text-terracotta-deep">
               Aquí no alquilamos sillas. Tejemos redes.
             </h2>
             <p className="mt-2 text-espacio-intro-body text-ink">
@@ -277,7 +277,7 @@ export function Espacio() {
                     />
                   </a>
                   {item.caption ? (
-                    <figcaption className="mt-2.5 max-w-[64ch] text-left text-[14px] leading-[1.45] tracking-[0.01em] text-ink/50">
+                    <figcaption className="mt-2.5 max-w-[64ch] text-left text-[14px] leading-[1.45] tracking-[0.01em] text-ink/65">
                       {item.caption}
                     </figcaption>
                   ) : null}

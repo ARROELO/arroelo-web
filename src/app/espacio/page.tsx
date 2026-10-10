@@ -173,7 +173,7 @@ export default function EspacioPage() {
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
-                <figcaption className="mt-2.5 text-left text-[14px] leading-[1.45] tracking-[0.01em] text-ink/50">
+                <figcaption className="mt-2.5 text-left text-[14px] leading-[1.45] tracking-[0.01em] text-ink/65">
                   {shot.label}
                 </figcaption>
               </figure>
@@ -201,7 +201,8 @@ export default function EspacioPage() {
           </div>
         </section>
       </main>
-      <SiteFooter />
+      {/* La página ya cierra con su propia invitación a probar. */}
+      <SiteFooter cta={false} />
     </>
   );
 }

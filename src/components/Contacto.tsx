@@ -71,14 +71,14 @@ export function Contacto() {
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
-          <p className="mt-3 text-caption text-ink/45">
+          <p className="mt-3 text-caption text-ink/65">
             Pontevedra a pie: el salón está en Cobián Roffignac 6, planta 3 —
             ven cualquier lunes.
           </p>
         </div>
         <div className="space-y-8">
           <div>
-            <p className="text-caption text-graphite/60">Dónde</p>
+            <p className="text-caption text-graphite/75">Dónde</p>
             <p className="mt-2 text-subheading text-ink">
               {contacto.street}
               <br />
@@ -88,13 +88,13 @@ export function Contacto() {
               href={contacto.mapsHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 inline-block text-body text-ink/50 underline underline-offset-4 hover:text-terracotta"
+              className="mt-2 inline-block text-body text-ink/65 underline underline-offset-4 hover:text-terracotta"
             >
               Ver en el mapa
             </a>
           </div>
           <div>
-            <p className="text-caption text-graphite/60">Teléfono y WhatsApp</p>
+            <p className="text-caption text-graphite/75">Teléfono y WhatsApp</p>
             <a
               href={contacto.phoneHref}
               className="mt-2 block text-subheading text-ink hover:text-terracotta"
@@ -112,7 +112,7 @@ export function Contacto() {
             </a>
           </div>
           <div>
-            <p className="text-caption text-graphite/60">Email</p>
+            <p className="text-caption text-graphite/75">Email</p>
             <a
               href={`mailto:${contacto.email}`}
               className="mt-2 block text-subheading text-ink hover:text-terracotta"
@@ -121,7 +121,7 @@ export function Contacto() {
             </a>
           </div>
           <div>
-            <p className="text-caption text-graphite/60">Redes</p>
+            <p className="text-caption text-graphite/75">Redes</p>
             <ul className="mt-4 flex items-center gap-3">
               {social.map((item) => {
                 const Icon = item.icon;
@@ -208,7 +208,9 @@ const footerSocial = [
   { label: "WhatsApp", href: contacto.whatsappHref, icon: WhatsAppIcon },
 ];
 
-const footerLinkClass = "transition-colors hover:text-terracotta";
+/** py-2: objetivos táctiles de al menos 24 px de alto con separación (WCAG 2.2). */
+const footerLinkClass =
+  "inline-block py-2 transition-colors hover:text-terracotta";
 
 export function SiteFooter({ cta = true }: { cta?: boolean }) {
   return (
@@ -223,15 +225,18 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
               <br />
               {contacto.postalCode} {contacto.city}
             </p>
-            <p className="mt-3">
-              <a href={contacto.phoneHref} className={footerLinkClass}>
-                {contacto.phone}
-              </a>
-              <br />
-              <a href={`mailto:${contacto.email}`} className={footerLinkClass}>
-                {contacto.email}
-              </a>
-            </p>
+            <ul className="mt-2">
+              <li>
+                <a href={contacto.phoneHref} className={footerLinkClass}>
+                  {contacto.phone}
+                </a>
+              </li>
+              <li>
+                <a href={`mailto:${contacto.email}`} className={footerLinkClass}>
+                  {contacto.email}
+                </a>
+              </li>
+            </ul>
             <ul className="mt-6 flex items-center gap-3">
               {footerSocial.map((item) => {
                 const Icon = item.icon;
@@ -253,8 +258,8 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
             </ul>
           </div>
           <nav aria-label="Pie de página">
-            <p className="text-label text-fog/40">Arroelo</p>
-            <ul className="mt-4 space-y-2">
+            <p className="text-label text-fog/60">Arroelo</p>
+            <ul className="mt-2">
               {footerLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className={footerLinkClass}>
@@ -265,8 +270,8 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
             </ul>
           </nav>
           <div>
-            <p className="text-label text-fog/40">Legal</p>
-            <ul className="mt-4 space-y-2">
+            <p className="text-label text-fog/60">Legal</p>
+            <ul className="mt-2">
               {legalLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className={footerLinkClass}>
@@ -277,7 +282,7 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
             </ul>
           </div>
         </div>
-        <p className="mx-auto mt-56 max-w-[1100px] border-t border-fog/10 pt-24 text-fog/40">
+        <p className="mx-auto mt-56 max-w-[1100px] border-t border-fog/10 pt-24 text-fog/60">
           © {new Date().getFullYear()} {titular.name}
         </p>
       </footer>

@@ -10,6 +10,8 @@
   --color-paper: #ffffff;
   --color-mist: #efe8df;
   --color-terracotta: #d4845a;
+  /* Terracota para texto sobre fondos claros (contraste ≥ 4,5:1). */
+  --color-terracotta-deep: #a85a35;
   --color-lavender: #e8c4b0;
   --color-plum: #241c18;
   --color-sky: #c8d4c4;

@@ -86,15 +86,10 @@ function SiteChrome({
   variant = "hero",
   pathname,
 }: Props & { pathname: string }) {
-  const isHome = pathname === "/";
   const menuId = useId();
   const [open, setOpen] = useState(false);
   const [overDark, setOverDark] = useState(variant === "hero");
   const [hidden, setHidden] = useState(false);
-
-  useEffect(() => {
-    if (!isHome && open) setOpen(false);
-  }, [isHome, open]);
 
   useEffect(() => {
     let raf = 0;
@@ -151,7 +146,7 @@ function SiteChrome({
       window.removeEventListener("resize", onScrollOrResize);
       if (raf) cancelAnimationFrame(raf);
     };
-  }, [variant, pathname, open, isHome]);
+  }, [variant, pathname, open]);
 
   useEffect(() => {
     if (!open) return;
@@ -167,7 +162,7 @@ function SiteChrome({
   }, [open]);
 
   const ink = !overDark;
-  const peeking = !hidden || (isHome && open);
+  const peeking = !hidden || open;
   const interact = peeking ? "pointer-events-auto" : "pointer-events-none";
   const linkClass =
     "block py-0.5 text-[17px] font-bold leading-[1.25] tracking-[-0.011em] transition-colors duration-200";
@@ -184,7 +179,8 @@ function SiteChrome({
   return (
     <>
       {variant === "solid" ? (
-        <div className="h-[5.5rem] md:h-[7.25rem]" aria-hidden />
+        // md: deja sitio a los 5 enlaces del menú apilados (≈160 px).
+        <div className="h-[5.5rem] md:h-[10.5rem]" aria-hidden />
       ) : null}
 
       <header
@@ -200,48 +196,42 @@ function SiteChrome({
             overDark && peeking ? "opacity-100" : "opacity-0"
           }`}
         />
-        <div
-          className={`relative flex items-start px-6 pt-5 md:px-10 md:pt-7 ${
-            isHome ? "justify-between" : "justify-end"
-          }`}
-        >
-          {isHome ? (
-            <div className={`${interact} flex items-start`}>
-              <nav
-                className="hidden md:block"
-                aria-label="Principal"
-                inert={peeking ? undefined : true}
-              >
-                <NavLinks
-                  pathname={pathname}
-                  className="flex flex-col items-start gap-1 text-left"
-                  linkClassName={desktopLink}
-                  activeClassName={desktopActive}
-                />
-              </nav>
-              <button
-                type="button"
-                tabIndex={peeking ? undefined : -1}
-                className={`relative z-20 flex h-9 w-9 items-center justify-center md:hidden ${
-                  open || ink ? "text-ink" : "text-paper"
+        <div className="relative flex items-start justify-between px-6 pt-5 md:px-10 md:pt-7">
+          <div className={`${interact} flex items-start`}>
+            <nav
+              className="hidden md:block"
+              aria-label="Principal"
+              inert={peeking ? undefined : true}
+            >
+              <NavLinks
+                pathname={pathname}
+                className="flex flex-col items-start gap-1 text-left"
+                linkClassName={desktopLink}
+                activeClassName={desktopActive}
+              />
+            </nav>
+            <button
+              type="button"
+              tabIndex={peeking ? undefined : -1}
+              className={`relative z-20 flex h-9 w-9 items-center justify-center md:hidden ${
+                open || ink ? "text-ink" : "text-paper"
+              }`}
+              aria-expanded={open}
+              aria-controls={menuId}
+              aria-label={open ? "Cerrar menú" : "Abrir menú"}
+              onClick={() => setOpen((value) => !value)}
+            >
+              <span
+                className={`relative block h-[13px] w-[13px] transition-transform duration-300 ${
+                  open ? "rotate-45" : ""
                 }`}
-                aria-expanded={open}
-                aria-controls={menuId}
-                aria-label={open ? "Cerrar menú" : "Abrir menú"}
-                onClick={() => setOpen((value) => !value)}
+                aria-hidden
               >
-                <span
-                  className={`relative block h-[13px] w-[13px] transition-transform duration-300 ${
-                    open ? "rotate-45" : ""
-                  }`}
-                  aria-hidden
-                >
-                  <span className="absolute top-1/2 left-0 block h-[1.5px] w-full -translate-y-1/2 bg-current" />
-                  <span className="absolute top-0 left-1/2 block h-full w-[1.5px] -translate-x-1/2 bg-current" />
-                </span>
-              </button>
-            </div>
-          ) : null}
+                <span className="absolute top-1/2 left-0 block h-[1.5px] w-full -translate-y-1/2 bg-current" />
+                <span className="absolute top-0 left-1/2 block h-full w-[1.5px] -translate-x-1/2 bg-current" />
+              </span>
+            </button>
+          </div>
 
           <Link
             href="/"
@@ -258,32 +248,30 @@ function SiteChrome({
         </div>
       </header>
 
-      {isHome ? (
-        <div
-          data-site-chrome
-          id={menuId}
-          hidden={!open}
-          className="fixed inset-0 z-30 md:hidden"
-        >
-          <button
-            type="button"
-            className="absolute inset-0 bg-ink/25"
-            aria-label="Cerrar menú"
-            onClick={() => setOpen(false)}
-          />
-          <div className="absolute top-0 left-0 flex h-full w-[min(17.5rem,82vw)] flex-col bg-fog px-6 pt-24 pb-8 text-ink shadow-[18px_0_40px_rgba(26,24,20,0.08)]">
-            <nav aria-label="Principal">
-              <NavLinks
-                pathname={pathname}
-                className="flex flex-col items-start gap-1 text-left"
-                linkClassName="block py-1.5 text-[19px] font-bold leading-[1.25] tracking-[-0.011em] text-ink/55 hover:text-ink"
-                activeClassName="block py-1.5 text-[19px] font-bold leading-[1.25] tracking-[-0.011em] text-ink"
-                onNavigate={() => setOpen(false)}
-              />
-            </nav>
-          </div>
+      <div
+        data-site-chrome
+        id={menuId}
+        hidden={!open}
+        className="fixed inset-0 z-30 md:hidden"
+      >
+        <button
+          type="button"
+          className="absolute inset-0 bg-ink/25"
+          aria-label="Cerrar menú"
+          onClick={() => setOpen(false)}
+        />
+        <div className="absolute top-0 left-0 flex h-full w-[min(17.5rem,82vw)] flex-col bg-fog px-6 pt-24 pb-8 text-ink shadow-[18px_0_40px_rgba(26,24,20,0.08)]">
+          <nav aria-label="Principal">
+            <NavLinks
+              pathname={pathname}
+              className="flex flex-col items-start gap-1 text-left"
+              linkClassName="block py-1.5 text-[19px] font-bold leading-[1.25] tracking-[-0.011em] text-ink/55 hover:text-ink"
+              activeClassName="block py-1.5 text-[19px] font-bold leading-[1.25] tracking-[-0.011em] text-ink"
+              onNavigate={() => setOpen(false)}
+            />
+          </nav>
         </div>
-      ) : null}
+      </div>
     </>
   );
 }

@@ -72,7 +72,7 @@
   letter-spacing: 0.04em;
   font-weight: 600;
   text-transform: uppercase;
-  color: color-mix(in oklab, var(--color-ink) 45%, transparent);
+  color: color-mix(in oklab, var(--color-ink) 68%, transparent);
 }
 
 .blog-title {
@@ -129,7 +129,7 @@
   letter-spacing: 0.06em;
   font-weight: 600;
   text-transform: uppercase;
-  color: color-mix(in oklab, var(--color-ink) 48%, transparent);
+  color: color-mix(in oklab, var(--color-ink) 68%, transparent);
 }
 
 .blog-post-title {
@@ -148,7 +148,7 @@
   font-size: 15px;
   line-height: 1.4;
   letter-spacing: -0.01em;
-  color: color-mix(in oklab, var(--color-ink) 52%, transparent);
+  color: color-mix(in oklab, var(--color-ink) 68%, transparent);
 }
 
 .blog-post-cover {
@@ -352,7 +352,7 @@
   font-size: 14px;
   line-height: 1.45;
   letter-spacing: 0.01em;
-  color: color-mix(in oklab, var(--color-ink) 52%, transparent);
+  color: color-mix(in oklab, var(--color-ink) 68%, transparent);
 }
 
 .blog-inline-link {
@@ -379,7 +379,7 @@
   line-height: 1.3;
   letter-spacing: 0.02em;
   font-weight: 600;
-  color: color-mix(in oklab, var(--color-ink) 55%, transparent);
+  color: color-mix(in oklab, var(--color-ink) 68%, transparent);
   text-decoration: none;
   transition: color 0.25s ease, transform 0.25s ease;
 }
