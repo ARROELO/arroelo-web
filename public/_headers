@@ -1,0 +1,11 @@
+# Cabeceras para Cloudflare Workers static assets.
+# Sin charset, el navegador interpreta los .txt como Latin-1 y rompe las tildes.
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
