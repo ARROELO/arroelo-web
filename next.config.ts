@@ -6,7 +6,12 @@ const basePath = isGithubPages ? "/arroelo-web" : "";
 const nextConfig: NextConfig = {
   output: "export",
   images: {
-    unoptimized: true,
+    // Redimensiona en Cloudflare (ver src/lib/image-loader.ts). Pocos anchos
+    // para no pasar de las 5.000 transformaciones únicas al mes del plan gratuito.
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
+    deviceSizes: [640, 828, 1200, 1920],
+    imageSizes: [256, 384],
   },
   ...(basePath
     ? {
