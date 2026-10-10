@@ -53,7 +53,7 @@ export const plans = [
     prices: [
       {
         label: "Mañanas · 8:00–15:00",
-        amount: "110 €",
+        amount: "125 €",
         note: "+ IVA / mes",
       },
       {
