@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Contacto, SiteFooter } from "@/components/Contacto";
+import { Contacto } from "@/components/Contacto";
 import { Espacio } from "@/components/Espacio";
 import { Hero } from "@/components/Hero";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -27,7 +27,6 @@ export default function Home() {
         <Tarifa />
         <Contacto />
       </main>
-      <SiteFooter cta={false} />
     </>
   );
 }
