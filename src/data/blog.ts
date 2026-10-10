@@ -3687,8 +3687,8 @@ export const blogPosts: BlogPost[] = [
         alt: "Grupo de Arroelo lanza los sombreros al aire en el primer aniversario del coworking, en el lugar que después sería Anceu",
         caption:
           "Primer aniversario del coworking, antes de Anceu: fíjate qué vueltas da la vida.",
-        fit: "contain",
-        position: "top",
+        fit: "cover",
+        position: "center",
       },
       {
         type: "p",
@@ -3696,7 +3696,7 @@ export const blogPosts: BlogPost[] = [
           "Más adelante llegamos como colaboración pura. Antes de que Anceu abriera, conocimos a ",
           {
             type: "link",
-            href: "https://www.ruralcitizen.org/talentorural/agustin-jamardo",
+            href: "https://es.linkedin.com/in/ajamardo",
             text: "Agustín Jamardo",
             external: true,
           },
@@ -3715,7 +3715,7 @@ export const blogPosts: BlogPost[] = [
           ": comunidad primero, mesas después.",
         ],
       },
-      "Ese compromiso nació de una intuición sencilla y rebelde: la despoblación no se frena solo con discursos. Se frena —o al menos se disputa— con presencia, con fibra, con personas que se quedan y con proyectos que sirven a quien ya vivía allí antes de que llegara la palabra coliving.",
+      "Ese compromiso nació de una intuición sencilla y rebelde: la despoblación no se frena solo con discursos. Se frena con presencia, con fibra, con personas que se quedan y con proyectos que sirven a quien ya vivía allí antes de que llegara la palabra coliving.",
       {
         type: "video",
         youtubeId: "vasAslb5oEA",
@@ -3751,21 +3751,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Desde Anceu nacen iniciativas de impacto que nos inspiran y con las que conectamos: misiones verdes, hackathones y encuentros comunitarios. También hemos colaborado con compañeras como Saleta en las Misiones Verdes y en merchandising con sentido —piezas que cuentan la comunidad, no solo la marca—. Forman parte de la misma red en la que también circulamos nosotras —con ",
+          "Desde Anceu nacen iniciativas de impacto que nos inspiran y con las que conectamos: misiones verdes, hackathones y encuentros comunitarios. También hemos colaborado con compañeras como Saleta en las Misiones Verdes y en ",
           {
             type: "link",
-            href: "https://www.ruralhackers.com/",
-            text: "Rural Hackers",
+            href: "https://anceu.com/es/nace-circular-actions/",
+            text: "merchandising con sentido",
             external: true,
           },
-          " y la ",
-          {
-            type: "link",
-            href: "https://creativehubs.net/",
-            text: "European Creative Hubs Network (ECHN)",
-            external: true,
-          },
-          "—.",
+          ".",
         ],
       },
       {
@@ -3773,9 +3766,9 @@ export const blogPosts: BlogPost[] = [
         src: "/photos/blog/anceu-misiones-verdes-cruceiro.jpg",
         alt: "Grupo de Misiones Verdes junto al cruceiro en el monte de Anceu",
         caption:
-          "Con Saleta y otras compañeras en Misiones Verdes: manos en el monte y merchandising con sentido.",
-        fit: "contain",
-        position: "top",
+          "Con nuestra coworker Saleta y las emprendedoras de The Break en Misiones Verdes.",
+        fit: "cover",
+        position: "center",
       },
       {
         type: "h2",
@@ -3828,8 +3821,8 @@ export const blogPosts: BlogPost[] = [
           },
           " con las mujeres de la aldea.",
         ],
-        fit: "contain",
-        position: "top",
+        fit: "cover",
+        position: "center",
       },
       {
         type: "image",
@@ -3837,8 +3830,8 @@ export const blogPosts: BlogPost[] = [
         alt: "Grupo reunido en la Casa do Pobo de Anceu, bajo el mural de flores y la lámpara amarilla",
         caption:
           "Casa do Pobo: cultura, vecindad y una misma comunidad bajo el mural.",
-        fit: "contain",
-        position: "top",
+        fit: "cover",
+        position: "center",
       },
       { type: "h2", text: "Ida y vuelta: cafés, coworkings compartidos, actividades en la aldea" },
       "El puente se recorre en las dos direcciones.",
@@ -3867,8 +3860,8 @@ export const blogPosts: BlogPost[] = [
         alt: "Elisabet (centro) con el grupo al aire libre y cartas de Zentangle sobre la mesa",
         caption:
           "Compartimos con Elisabet, de Zengoala, un encuentro de Zentangle: cartas, rotuladores y la misma red creativa entre Arroelo y Anceu.",
-        fit: "contain",
-        position: "top",
+        fit: "cover",
+        position: "center",
       },
       {
         type: "p",
@@ -3879,14 +3872,7 @@ export const blogPosts: BlogPost[] = [
             href: "/espacio",
             text: "espacio de coworking en el centro",
           },
-          " y otro con vistas al monte no es un lujo estético. Es una forma de entender Galicia —y el trabajo remoto— con más matices. A veces ese día a día aparece en ",
-          {
-            type: "link",
-            href: "https://www.instagram.com/arroelo/",
-            text: "Instagram @arroelo",
-            external: true,
-          },
-          ": la misma comunidad, otro paisaje.",
+          " y otro con vistas al monte no es un lujo estético. Es una forma de entender Galicia —y el trabajo remoto— con más matices.",
         ],
       },
       { type: "h2", text: "Por qué este puente importa" },
