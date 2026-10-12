@@ -3535,7 +3535,7 @@ export const blogPosts: BlogPost[] = [
           },
           ": juntos nos hablaron de crear desde lo genuino.",
         ],
-        fit: "cover",
+        fit: "contain",
         position: "top",
       },
       "Cada café deja un poso distinto. Lo que se acumula no es contenido para redes: es tejido.",
