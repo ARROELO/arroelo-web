@@ -219,8 +219,14 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
       <footer className="bg-deep-teal px-6 pt-80 pb-40 text-caption text-fog/65 md:px-10">
         <div className="mx-auto grid max-w-[1100px] gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
-            <p className="text-subheading text-fog">Espacio Arroelo</p>
-            <p className="mt-4">
+            <Image
+              src={withBase("/logo-arroelo-footer.png")}
+              alt="Arroelo — coworking Pontevedra"
+              width={220}
+              height={63}
+              className="mb-5 h-auto w-[180px] md:w-[200px]"
+            />
+            <p>
               {contacto.street}
               <br />
               {contacto.postalCode} {contacto.city}
