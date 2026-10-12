@@ -88,29 +88,6 @@ const offersJsonLd = {
   ),
 };
 
-/** "110 € mañanas · 100 € tardes /mes", "100 € (10 días) · 180 € (20 días)". */
-function priceSummary(plan: (typeof plans)[number]): string {
-  const monthly = plan.prices.every((price) => price.note.includes("mes"));
-  const parts = plan.prices.map((price) => {
-    if (plan.prices.length === 1) return price.amount;
-    const short = price.label.split(" · ")[0].replace(/^Bono /, "");
-    return price.label.startsWith("Bono")
-      ? `${price.amount} (${short})`
-      : `${price.amount} ${short.toLowerCase()}`;
-  });
-  return `${parts.join(" · ")}${monthly ? " /mes" : ""}`;
-}
-
-const compareRows: {
-  label: string;
-  value: (plan: (typeof plans)[number]) => string;
-}[] = [
-  { label: "Precio (+ IVA)", value: priceSummary },
-  { label: "Acceso", value: (plan) => plan.compare.access },
-  { label: "Puesto", value: (plan) => plan.compare.desk },
-  { label: "Salas de reunión", value: (plan) => plan.compare.rooms },
-];
-
 export default function TarifasPage() {
   return (
     <>
@@ -219,76 +196,6 @@ export default function TarifasPage() {
                 </Link>
               </article>
             ))}
-          </div>
-        </section>
-
-        <section
-          className="bg-fog px-4 pt-80 md:px-6 md:pt-120"
-          aria-labelledby="comparar-tarifas"
-        >
-          <div className="mx-auto max-w-[1440px]">
-            <h2
-              id="comparar-tarifas"
-              className="text-espacio-intro-title text-ink"
-            >
-              Compara las tarifas
-            </h2>
-            {/* Móvil: una ficha por tarifa; escritorio: tabla comparativa. */}
-            <div className="mt-10 space-y-8 md:hidden">
-              {plans.map((plan) => (
-                <div key={plan.id} className="border-t border-ink/15 pt-6">
-                  <h3 className="text-body-lg font-bold text-ink">
-                    {plan.title}
-                  </h3>
-                  <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-6 gap-y-2 text-body">
-                    {compareRows.map((row) => (
-                      <div key={row.label} className="contents">
-                        <dt className="text-ink/65">{row.label}</dt>
-                        <dd className="text-ink">{row.value(plan)}</dd>
-                      </div>
-                    ))}
-                  </dl>
-                </div>
-              ))}
-            </div>
-            <div className="mt-10 hidden md:block">
-              <table className="w-full border-collapse text-left text-body">
-                <caption className="sr-only">
-                  Comparativa de las tarifas de coworking de Espacio Arroelo
-                </caption>
-                <thead>
-                  <tr className="border-b border-ink/15">
-                    <td className="py-4 pr-6" />
-                    {plans.map((plan) => (
-                      <th
-                        key={plan.id}
-                        scope="col"
-                        className="py-4 pr-6 align-bottom font-bold text-ink"
-                      >
-                        {plan.title}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {compareRows.map((row) => (
-                    <tr key={row.label} className="border-b border-ink/10">
-                      <th
-                        scope="row"
-                        className="py-4 pr-6 align-top font-normal text-ink/65"
-                      >
-                        {row.label}
-                      </th>
-                      {plans.map((plan) => (
-                        <td key={plan.id} className="py-4 pr-6 align-top text-ink">
-                          {row.value(plan)}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
           </div>
         </section>
 

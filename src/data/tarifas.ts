@@ -1,15 +1,10 @@
 /**
- * Planes de coworking: fuente única para /tarifas (tarjetas y tabla comparativa),
+ * Planes de coworking: fuente única para /tarifas (tarjetas),
  * sus datos estructurados, la FAQ y llms.txt.
  */
 export const plans = [
   {
     id: "jornada-completa",
-    compare: {
-      access: "24 h, 7 días",
-      desk: "Mesa exclusiva",
-      rooms: "Ilimitado",
-    },
     title: "Jornada completa",
     tagline:
       "Mesa exclusiva en espacio compartido, en jornada completa con acceso 24/7.",
@@ -29,11 +24,6 @@ export const plans = [
   },
   {
     id: "sala-exclusiva",
-    compare: {
-      access: "24 h, 7 días",
-      desk: "Sala privada",
-      rooms: "Ilimitado",
-    },
     title: "Sala exclusiva",
     tagline:
       "Tu propia sala dentro de Arroelo. Un espacio privado para tu equipo con acceso 24 horas.",
@@ -53,11 +43,6 @@ export const plans = [
   },
   {
     id: "media-jornada",
-    compare: {
-      access: "8:00–15:00 o 15:00–22:00",
-      desk: "No permanente",
-      rooms: "8 h/semana",
-    },
     title: "Media jornada",
     tagline:
       "Si trabajas en casa por la mañana y por la tarde te apetece cambiar de aire —o a la inversa—, aquí tienes sitio.",
@@ -85,11 +70,6 @@ export const plans = [
   },
   {
     id: "bono-salon",
-    compare: {
-      access: "Días sueltos",
-      desk: "No permanente",
-      rooms: "No incluidas",
-    },
     title: "Bonos días sueltos",
     tagline:
       "Para quien teletrabaja dos o tres días a la semana y quiere salir de casa y desconectar. Podrás trabajar desde nuestro salón.",
