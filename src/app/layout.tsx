@@ -1,18 +1,14 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Lora } from "next/font/google";
 import { SITE_URL } from "@/lib/site";
 import { DEFAULT_OG_IMAGE, jsonLdHtml, siteJsonLd } from "@/lib/seo";
 import "./globals.css";
 
-/** Switzer (Fontshare, ITF Free Font License) servida desde la propia web. */
-const switzer = localFont({
-  src: [
-    { path: "../fonts/switzer-400.woff2", weight: "400", style: "normal" },
-    { path: "../fonts/switzer-500.woff2", weight: "500", style: "normal" },
-    { path: "../fonts/switzer-600.woff2", weight: "600", style: "normal" },
-    { path: "../fonts/switzer-700.woff2", weight: "700", style: "normal" },
-  ],
-  variable: "--font-switzer",
+/** Lora — tipografía única para toda la web (titulares, cuerpo, nav, botones). */
+const lora = Lora({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-lora-face",
   display: "swap",
 });
 
@@ -43,8 +39,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="es" className={`${switzer.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-stabilgrotesk bg-fog text-ink">
+    <html lang="es" className={`${lora.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col font-lora bg-fog text-ink">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: jsonLdHtml(siteJsonLd()) }}

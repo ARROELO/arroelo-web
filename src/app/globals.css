@@ -17,9 +17,9 @@
   --color-sky: #c8d4c4;
   --color-cream: #f6ddc4;
 
-  /* Typography — Swiss grotesk (Switzer ≈ Neue Haas Grotesk Display) */
-  --font-stabilgrotesk: var(--font-switzer), "Switzer", "StabilGrotesk", ui-sans-serif, system-ui,
-    -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
+  /* Typography — Lora everywhere (headings, body, nav, buttons) */
+  --font-lora: var(--font-lora-face), "Lora", ui-serif, Georgia, "Times New Roman",
+    serif;
 
   /* Scale — generous display, tight leading, studio tracking */
   --text-caption: 15px;
@@ -76,7 +76,7 @@
   body {
     background: var(--color-fog);
     color: var(--color-ink);
-    font-family: var(--font-stabilgrotesk);
+    font-family: var(--font-lora);
     font-size: var(--text-body);
     font-weight: 400;
     line-height: var(--leading-body);

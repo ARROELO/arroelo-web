@@ -5,7 +5,7 @@ Nueva web de Espacio Arroelo (coworking Pontevedra).
 ## Diseño
 
 - Sistema de layout (escala tipográfica, spacing, radius) estilo `@theme`
-- Tipografía: Switzer (Fontshare), grotesk suiza cercana a Neue Haas Grotesk Display. StabilGrotesk cuando subáis los `.woff2`.
+- Tipografía: Lora (Google Fonts / `next/font`) en toda la web — titulares, cuerpo, nav y botones.
 - Paleta adaptada a Instagram reciente: crema / tinta suave / terracota coral / madera
 
 ## Fotos
