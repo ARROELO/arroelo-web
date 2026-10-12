@@ -19,7 +19,7 @@ export type BlogBodyBlock =
       alt: string;
       /** Plain text, or inline parts (same link pattern as body paragraphs). */
       caption?: string | BlogInline[];
-      /** Default cover. Use contain for tall portraits/group photos so heads and mural text stay visible. */
+      /** Default cover. Use contain for portraits/group photos so heads and mural text stay visible (figure height follows the image ratio). */
       fit?: "cover" | "contain";
       /** object-position hint (default center). Useful with cover or contain. */
       position?: "center" | "top";
@@ -392,7 +392,7 @@ export const blogPosts: BlogPost[] = [
         alt: "Ángela (orientadora laboral), Ceci y María Pierres (cofundadora) juntas en Espacio Arroelo",
         caption:
           "Ángela (orientadora laboral), Ceci y María Pierres (cofundadora): el puente entre Xuntos y el coworking.",
-        // Vertical group photo (3:4) in a 3:2 frame — contain keeps heads and bodies visible.
+        // Vertical group photo — contain keeps heads and bodies visible.
         fit: "contain",
         position: "top",
       },
@@ -486,7 +486,7 @@ export const blogPosts: BlogPost[] = [
         alt: "Celso, en blanco y negro, bajo el mural «el mundo pertenece a quienes se atreven...» en Espacio Arroelo",
         caption:
           "Celso en el coworking, bajo el mural «el mundo pertenece a quienes se atreven...».",
-        // Tall mural portrait (≈4:5): contain + 3:4 frame keeps face + «el mundo pertenece…» readable.
+        // Tall mural portrait (≈4:5): contain keeps face + «el mundo pertenece…» readable.
         fit: "contain",
         position: "top",
       },

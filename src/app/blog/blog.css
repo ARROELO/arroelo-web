@@ -320,13 +320,21 @@
 }
 
 /*
-  Tall portraits: 3:4 so object-contain can show heads + mural text.
-  Landscape photos should use the default cover frame (3:2) — contain + 3:4
-  leaves a large empty band between the image and the caption.
+  Contain figures: height follows the image's intrinsic ratio (set via
+  width/height on next/image + height:auto). Avoids letterboxing from a
+  forced 3:4 frame while still showing heads / mural text in full.
 */
 .blog-post-figure-media--contain {
-  aspect-ratio: 3 / 4;
-  background: var(--color-fog);
+  aspect-ratio: auto;
+  height: auto;
+  background: transparent;
+}
+
+.blog-post-figure-img--contain {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .blog-post-video-media {

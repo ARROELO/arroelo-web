@@ -12,6 +12,7 @@ import {
   type BlogInline,
 } from "@/data/blog";
 import { withBase } from "@/lib/path";
+import { getPublicImageSize } from "@/lib/public-image-size";
 import { absoluteUrl } from "@/lib/site";
 import { ORGANIZATION_ID } from "@/lib/seo";
 import "../blog.css";
@@ -123,25 +124,57 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
   }
 
   if (block.type === "image") {
-    const fitClass = block.fit === "contain" ? "object-contain" : "object-cover";
+    const isContain = block.fit === "contain";
     const positionClass =
       block.position === "top" ? "object-top" : "object-center";
+    const sizes =
+      "(max-width: 768px) 100vw, min(100vw - 2.5rem, 52rem)";
+
+    // Contain: size the figure to the image's intrinsic ratio so the caption
+    // sits under the photo (no letterbox band from a forced 3:4 frame).
+    if (isContain) {
+      const size = getPublicImageSize(block.src);
+      const width = size?.width ?? 1200;
+      const height = size?.height ?? 1600;
+
+      return (
+        <figure key={`img-${index}`} className="blog-post-figure">
+          <div className="blog-post-figure-media blog-post-figure-media--contain">
+            <Image
+              src={withBase(block.src)}
+              alt={block.alt}
+              width={width}
+              height={height}
+              className={`blog-post-figure-img--contain ${positionClass} rounded-none`}
+              sizes={sizes}
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
+          {block.caption ? (
+            <figcaption className="blog-post-figure-caption">
+              {typeof block.caption === "string"
+                ? block.caption
+                : block.caption.map((part, partIndex) => (
+                    <InlinePart
+                      key={`img-cap-${index}-${partIndex}`}
+                      part={part}
+                    />
+                  ))}
+            </figcaption>
+          ) : null}
+        </figure>
+      );
+    }
 
     return (
       <figure key={`img-${index}`} className="blog-post-figure">
-        <div
-          className={
-            block.fit === "contain"
-              ? "blog-post-figure-media blog-post-figure-media--contain"
-              : "blog-post-figure-media"
-          }
-        >
+        <div className="blog-post-figure-media">
           <Image
             src={withBase(block.src)}
             alt={block.alt}
             fill
-            className={`${fitClass} ${positionClass} rounded-none`}
-            sizes="(max-width: 768px) 100vw, min(100vw - 2.5rem, 52rem)"
+            className={`object-cover ${positionClass} rounded-none`}
+            sizes={sizes}
           />
         </div>
         {block.caption ? (
