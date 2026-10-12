@@ -64,10 +64,10 @@ export function Contacto() {
           </p>
           <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-none bg-fog">
             <Image
-              src={withBase("/photos/pontevedra-escritorio-pasarela.jpg")}
-              alt="Coworker trabajando en un escritorio sobre la pasarela de Pontevedra"
+              src={withBase("/photos/pontevedra-plaza-escritorio-perro.jpg")}
+              alt="Coworker con su perro trabajando al aire libre en una plaza de Pontevedra"
               fill
-              className="object-cover object-[center_45%]"
+              className="object-cover object-[center_40%]"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
