@@ -221,10 +221,10 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
           <div>
             <Image
               src={withBase("/logo-arroelo-footer.png")}
-              alt="Arroelo — coworking Pontevedra"
-              width={220}
-              height={63}
-              className="mb-5 h-auto w-[180px] md:w-[200px]"
+              alt="Espacio Arroelo — coworking Pontevedra"
+              width={560}
+              height={339}
+              className="mb-5 block h-auto w-[150px] max-w-full overflow-visible object-contain object-left md:w-[170px]"
             />
             <p>
               {contacto.street}
