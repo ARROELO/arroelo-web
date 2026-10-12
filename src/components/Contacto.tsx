@@ -223,7 +223,7 @@ export function SiteFooter({ cta = true }: { cta?: boolean }) {
               src={withBase("/logo-arroelo-footer.png")}
               alt="Espacio Arroelo — coworking Pontevedra"
               width={560}
-              height={339}
+              height={333}
               className="mb-5 block h-auto w-[150px] max-w-full overflow-visible object-contain object-left md:w-[170px]"
             />
             <p>
