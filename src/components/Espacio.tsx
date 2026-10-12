@@ -17,7 +17,7 @@ const pillars = [
     objectPosition: "object-[center_40%]",
   },
   {
-    src: "/photos/home-puente-paella-comunidad.jpg",
+    src: "/photos/home-pilar-paella-comunidad.jpg",
     alt: "Un grupo diverso de personas sonrientes posando juntas alrededor de una gran paella tradicional en un ambiente comunitario y acogedor",
     objectPosition: "object-[center_40%]",
   },
