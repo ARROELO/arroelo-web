@@ -85,6 +85,10 @@ function InlinePart({ part }: { part: BlogInline }) {
     return <>{part}</>;
   }
 
+  if (part.type === "strong") {
+    return <strong className="blog-inline-strong">{part.text}</strong>;
+  }
+
   if (part.external) {
     return (
       <a
@@ -103,6 +107,22 @@ function InlinePart({ part }: { part: BlogInline }) {
       {part.text}
     </Link>
   );
+}
+
+/** Instagram's /embed page: header + 4:5 media (padding-bottom: 125%) + footer. */
+function instagramEmbedSrc(permalink: string): string | null {
+  let url: URL;
+  try {
+    url = new URL(permalink);
+  } catch {
+    return null;
+  }
+  if (url.protocol !== "https:" || url.hostname !== "www.instagram.com") {
+    return null;
+  }
+  const path = url.pathname.replace(/\/+$/, "").replace(/\/embed$/, "");
+  if (!/^\/(reel|p|tv)\/[\w-]+$/.test(path)) return null;
+  return `https://www.instagram.com${path}/embed`;
 }
 
 function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
@@ -230,6 +250,30 @@ function BodyBlock({ block, index }: { block: BlogBodyBlock; index: number }) {
             {block.caption}
           </figcaption>
         ) : null}
+      </figure>
+    );
+  }
+
+  if (block.type === "instagram") {
+    const embedSrc = instagramEmbedSrc(block.permalink);
+    if (!embedSrc) return null;
+
+    return (
+      <figure
+        key={`ig-${index}`}
+        className="blog-post-figure blog-post-instagram"
+      >
+        <div className="blog-post-instagram-media">
+          <iframe
+            src={embedSrc}
+            title={block.title ?? "Publicación de Instagram"}
+            className="blog-post-instagram-iframe rounded-none"
+            allow="fullscreen; encrypted-media; picture-in-picture; clipboard-write; web-share"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
+        </div>
       </figure>
     );
   }

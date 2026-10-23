@@ -6,6 +6,10 @@ export type BlogInline =
       text: string;
       /** External links open in a new tab with rel="noopener noreferrer". */
       external?: boolean;
+    }
+  | {
+      type: "strong";
+      text: string;
     };
 
 export type BlogBodyBlock =
@@ -34,6 +38,13 @@ export type BlogBodyBlock =
       start?: number;
       caption?: string;
       title?: string;
+    }
+  | {
+      type: "instagram";
+      /** Reel, post, or IGTV permalink, e.g. https://www.instagram.com/reel/DephBBKt7ry/ */
+      permalink: string;
+      /** Accessible name for the embed iframe. */
+      title?: string;
     };
 
 export type BlogPost = {
@@ -53,6 +64,142 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "primera-arroelada-javi-cebreiros",
+    title:
+      "Primera Arroelada: comunicación, comunidad y un vino con Javi Cebreiros",
+    seoTitle: "Primera Arroelada: un vino con Javi Cebreiros",
+    date: "2026-10-24",
+    label: "Comunidad",
+    image: "/photos/blog/taller-circulo-comunidad.jpg",
+    alt: "Círculo de conversación en el salón de Arroelo, con coworkers sentados en sillas de colores alrededor de una mesa baja",
+    excerpt:
+      "Así fue la primera Arroelada en Arroelo Coworking Pontevedra, con Javi Cebreiros hablando de comunicación, Ensaia y cómo cambiar nuestro pequeño mundo.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          { type: "strong", text: "Arroelada" },
+          " (sust.): un vino con alguien que tienes que conocer.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Así nació nuestro nuevo ciclo de encuentros en Arroelo: tardes tranquilas en el salón del coworking, con gente interesante que viene a compartir lo que sabe, lo que hace y lo que le mueve. Nada de escenarios ni de grandes auditorios. Un vino, una conversación de verdad y personas con ganas de escuchar.",
+        ],
+      },
+      { type: "h2", text: "Javi Cebreiros abrió el ciclo" },
+      {
+        type: "p",
+        parts: [
+          "El viernes 16 de octubre, Javi Cebreiros (",
+          {
+            type: "link",
+            href: "https://www.instagram.com/cebreiros/",
+            text: "@cebreiros",
+            external: true,
+          },
+          ") inauguró las Arroeladas. Javi vive convencido de que ",
+          {
+            type: "strong",
+            text: "la comunicación es la herramienta más poderosa que tenemos para transformar un equipo, una familia o una organización entera",
+          },
+          ". Ha dado más de doscientas charlas en empresas, universidades y medios, y en 2018 las Naciones Unidas lo eligieron como una de las 25 personas del programa «Emprendedores para el cambio social».",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Nos habló de comunicación, de una idea que nos encanta (para comunicar mejor hay que trabajar por ser mejor persona) y de la capacidad que tenemos de cambiar nuestro pequeño mundo, el que nos rodea. También nos contó qué es ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/ensaia/",
+            text: "Ensaia",
+            external: true,
+          },
+          ", el movimiento social que fundó, en el que una comunidad de donantes impulsa con becas a gente joven con ideas que transforman Galicia.",
+        ],
+      },
+      { type: "h2", text: "Una tarde de reencuentros" },
+      {
+        type: "p",
+        parts: [
+          "Lo más bonito de la noche fue la gente. Vinieron coworkers como Eli, de ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/zengoala/",
+            text: "Zengoala",
+            external: true,
+          },
+          ", que lo resumió así: «Cuánta riqueza hay por descubrir en nuestro alrededor si escuchamos».",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "También volvieron antiguas coworkers, como nuestra Cristina Fariñas. Este encuentro le recordó lo bien que se sentía en Arroelo, y de ahí salió una gran noticia: ",
+          {
+            type: "strong",
+            text: "Cristina será una de las protagonistas de las próximas Arroeladas",
+          },
+          ". Pronto os contamos más.",
+        ],
+      },
+      { type: "h2", text: "Mira cómo fue" },
+      {
+        type: "instagram",
+        permalink: "https://www.instagram.com/reel/DephBBKt7ry/",
+        title: "Ver la Arroelada con Javi Cebreiros en Instagram",
+      },
+      { type: "h2", text: "Gracias" },
+      {
+        type: "p",
+        parts: [
+          "Gracias, Javi, por compartir. Y gracias a todas las personas que vinisteis, escuchasteis, os animasteis a participar y a conocer nuestro coworking.",
+        ],
+      },
+      { type: "h2", text: "La próxima Arroelada" },
+      {
+        type: "p",
+        parts: [
+          "La siguiente es el ",
+          {
+            type: "strong",
+            text: "domingo 25 de octubre, de 11:30 a 13:30",
+          },
+          ", con ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/usk.pontevedra/",
+            text: "Urban Sketchers Pontevedra",
+            external: true,
+          },
+          " y los artistas de RURALI-ART de ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/anceu.coliving/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          ". Síguenos en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "@arroelo",
+            external: true,
+          },
+          " para no perderte ninguna.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "📍 Arroelo Coworking, Cobián Roffignac 6, Pontevedra",
+        ],
+      },
+    ],
+  },
   {
     slug: "colabora-2015-espacio-arroelo",
     title:

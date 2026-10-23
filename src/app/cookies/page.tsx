@@ -36,10 +36,11 @@ export default function CookiesPage() {
         </li>
         <li>
           <strong>Vídeos integrados</strong>: algunas entradas del blog
-          incluyen vídeos de YouTube (en su modo de privacidad mejorada) y de
-          Vimeo (con el seguimiento desactivado). Esos servicios solo cargan
-          contenido cuando abres la entrada y pueden guardar datos técnicos al
-          reproducir el vídeo, según sus propias políticas.
+          incluyen vídeos de YouTube (en su modo de privacidad mejorada), de
+          Vimeo (con el seguimiento desactivado) y reels de Instagram. Esos
+          servicios solo cargan contenido cuando abres la entrada y pueden
+          guardar datos técnicos al reproducir el vídeo, según sus propias
+          políticas.
         </li>
       </ul>
 
