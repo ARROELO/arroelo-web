@@ -94,14 +94,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "El viernes 16 de octubre, Javi Cebreiros (",
+          "El viernes 16 de octubre, ",
           {
             type: "link",
-            href: "https://www.instagram.com/cebreiros/",
-            text: "@cebreiros",
+            href: "https://www.cebreiros.com/",
+            text: "Javi Cebreiros",
             external: true,
           },
-          ") inauguró las Arroeladas. Javi vive convencido de que ",
+          " inauguró las Arroeladas. Javi vive convencido de que ",
           {
             type: "strong",
             text: "la comunicación es la herramienta más poderosa que tenemos para transformar un equipo, una familia o una organización entera",
@@ -115,7 +115,7 @@ export const blogPosts: BlogPost[] = [
           "Nos habló de comunicación, de una idea que nos encanta (para comunicar mejor hay que trabajar por ser mejor persona) y de la capacidad que tenemos de cambiar nuestro pequeño mundo, el que nos rodea. También nos contó qué es ",
           {
             type: "link",
-            href: "https://www.instagram.com/ensaia/",
+            href: "https://ensaia.com/",
             text: "Ensaia",
             external: true,
           },
@@ -139,7 +139,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "También volvieron antiguas coworkers, como nuestra Cristina Fariñas. Este encuentro le recordó lo bien que se sentía en Arroelo, y de ahí salió una gran noticia: ",
+          "También volvieron antiguas coworkers, como nuestra ",
+          {
+            type: "link",
+            href: "https://cristinafarinas.com/",
+            text: "Cristina Fariñas",
+            external: true,
+          },
+          ". Este encuentro le recordó lo bien que se sentía en Arroelo, y de ahí salió una gran noticia: ",
           {
             type: "strong",
             text: "Cristina será una de las protagonistas de las próximas Arroeladas",
