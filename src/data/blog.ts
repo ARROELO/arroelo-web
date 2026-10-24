@@ -71,8 +71,9 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Primera Arroelada: un vino con Javi Cebreiros",
     date: "2026-10-24",
     label: "Comunidad",
-    image: "/photos/blog/taller-circulo-comunidad.jpg",
-    alt: "Círculo de conversación en el salón de Arroelo, con coworkers sentados en sillas de colores alrededor de una mesa baja",
+    image: "/photos/blog/primera-arroelada-javi-cebreiros.jpg",
+    alt: "Personas alrededor de una mesa de madera en la Arroelada, con copas de vino, en el salón de Arroelo",
+    imagePosition: "top",
     excerpt:
       "Así fue la primera Arroelada en Arroelo Coworking Pontevedra, con Javi Cebreiros hablando de comunicación, Ensaia y cómo cambiar nuestro pequeño mundo.",
     body: [
@@ -146,6 +147,26 @@ export const blogPosts: BlogPost[] = [
           ". Pronto os contamos más.",
         ],
       },
+      {
+        type: "p",
+        parts: [
+          "También nos visitó Mateo, de ",
+          {
+            type: "link",
+            href: "https://www.festivalemigrason.com/",
+            text: "Emigrasón",
+            external: true,
+          },
+          ", y gracias a él descubrimos esta iniciativa.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/arroelada-picoteo.jpg",
+        alt: "Picoteo de la Arroelada: queso, aceitunas y patatas",
+        caption: "Picoteo de la Arroelada: queso, aceitunas y patatas.",
+        fit: "contain",
+      },
       { type: "h2", text: "Mira cómo fue" },
       {
         type: "instagram",
@@ -190,12 +211,6 @@ export const blogPosts: BlogPost[] = [
             external: true,
           },
           " para no perderte ninguna.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          "📍 Arroelo Coworking, Cobián Roffignac 6, Pontevedra",
         ],
       },
     ],
