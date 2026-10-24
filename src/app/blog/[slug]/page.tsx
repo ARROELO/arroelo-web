@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/Contacto";
 import { PostFooter } from "@/components/PostFooter";
 import {
+  blogCoverObjectPosition,
   blogPosts,
   getPostBySlug,
   type BlogBodyBlock,
@@ -381,6 +382,7 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   const sections = groupBodySections(post.body);
+  const coverPosition = blogCoverObjectPosition(post);
 
   return (
     <>
@@ -418,13 +420,8 @@ export default async function BlogPostPage({ params }: Props) {
                     post.imageFit === "contain"
                       ? "object-contain"
                       : "object-cover"
-                  } ${
-                    post.imagePosition === "top"
-                      ? "object-top"
-                      : post.imagePosition === "right"
-                        ? "object-right"
-                        : "object-center"
-                  }`}
+                  } ${coverPosition.className}`}
+                  style={coverPosition.style}
                   sizes="(max-width: 860px) 100vw, 40vw"
                 />
               </div>

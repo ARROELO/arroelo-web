@@ -40,6 +40,7 @@ export default function BlogPage() {
               alt={post.alt}
               imageFit={post.imageFit}
               imagePosition={post.imagePosition}
+              imageObjectPosition={post.imageObjectPosition}
               index={index}
             />
           ))}
