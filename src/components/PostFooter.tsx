@@ -29,6 +29,7 @@ export function PostFooter({ post }: { post: BlogPost }) {
               alt={p.alt}
               imageFit={p.imageFit}
               imagePosition={p.imagePosition}
+              imageObjectPosition={p.imageObjectPosition}
               index={index}
               headingAs="h3"
             />

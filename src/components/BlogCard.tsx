@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { blogCoverObjectPosition } from "@/data/blog";
 import { withBase } from "@/lib/path";
 
 export function BlogCard({
@@ -10,6 +11,7 @@ export function BlogCard({
   alt,
   imageFit,
   imagePosition,
+  imageObjectPosition,
   index,
   headingAs: Heading = "h2",
 }: {
@@ -20,6 +22,7 @@ export function BlogCard({
   alt: string;
   imageFit?: "cover" | "contain";
   imagePosition?: "center" | "top" | "right";
+  imageObjectPosition?: string;
   index: number;
   /** h2 en el listado del blog; h3 dentro de un post. */
   headingAs?: "h2" | "h3";
@@ -27,12 +30,10 @@ export function BlogCard({
   const delayMs = Math.min(index * 55, 480);
   const fitClass =
     imageFit === "contain" ? "object-contain" : "object-cover";
-  const positionClass =
-    imagePosition === "top"
-      ? "object-top"
-      : imagePosition === "right"
-        ? "object-right"
-        : "object-center";
+  const position = blogCoverObjectPosition({
+    imagePosition,
+    imageObjectPosition,
+  });
 
   return (
     <Link
@@ -45,7 +46,8 @@ export function BlogCard({
           src={withBase(image)}
           alt={alt}
           fill
-          className={`blog-photo rounded-none ${fitClass} ${positionClass}`}
+          className={`blog-photo rounded-none ${fitClass} ${position.className}`}
+          style={position.style}
           sizes="(max-width: 767px) 50vw, 25vw"
           priority={index < 3}
         />

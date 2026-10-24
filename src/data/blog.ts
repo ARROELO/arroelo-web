@@ -59,9 +59,31 @@ export type BlogPost = {
   imageFit?: "cover" | "contain";
   /** Featured/card object-position (default center). Use top when cover would chop heads; right when the subject sits on the right edge. */
   imagePosition?: "center" | "top" | "right";
+  /**
+   * CSS object-position when a preset still misses the faces
+   * (portrait with ceiling above the group). Example: "center 24%".
+   * Wins over imagePosition. Does not change the Open Graph file.
+   */
+  imageObjectPosition?: string;
   excerpt: string;
   body: BlogBodyBlock[];
 };
+
+/** Class + inline style for a cover or card crop. */
+export function blogCoverObjectPosition(post: {
+  imagePosition?: BlogPost["imagePosition"];
+  imageObjectPosition?: string;
+}): { className: string; style?: { objectPosition: string } } {
+  if (post.imageObjectPosition) {
+    return {
+      className: "",
+      style: { objectPosition: post.imageObjectPosition },
+    };
+  }
+  if (post.imagePosition === "top") return { className: "object-top" };
+  if (post.imagePosition === "right") return { className: "object-right" };
+  return { className: "object-center" };
+}
 
 export const blogPosts: BlogPost[] = [
   {
@@ -73,7 +95,7 @@ export const blogPosts: BlogPost[] = [
     label: "Comunidad",
     image: "/photos/blog/primera-arroelada-javi-cebreiros.jpg",
     alt: "Personas alrededor de una mesa de madera en la Arroelada, con copas de vino, en el salón de Arroelo",
-    imagePosition: "top",
+    imageObjectPosition: "center 24%",
     excerpt:
       "Así fue la primera Arroelada en Arroelo Coworking Pontevedra, con Javi Cebreiros hablando de comunicación, Ensaia y cómo cambiar nuestro pequeño mundo.",
     body: [
@@ -121,6 +143,15 @@ export const blogPosts: BlogPost[] = [
           },
           ", el movimiento social que fundó, en el que una comunidad de donantes impulsa con becas a gente joven con ideas que transforman Galicia.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/arroelada-mesa-javi.jpg",
+        alt: "Javi Cebreiros conversando con las personas asistentes en el salón de Arroelo.",
+        caption:
+          "Javi Cebreiros conversando con las personas asistentes en el salón de Arroelo.",
+        fit: "contain",
+        position: "top",
       },
       { type: "h2", text: "Una tarde de reencuentros" },
       {
