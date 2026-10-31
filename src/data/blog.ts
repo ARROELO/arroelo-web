@@ -87,6 +87,470 @@ export function blogCoverObjectPosition(post: {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "tapiz-rosabel-urban-sketchers-pontevedra-arroelo",
+    title: "Hilos, perros y cuadernos: el tapiz de Rosabel y una mañana dibujando con Urban Sketchers Pontevedra",
+    seoTitle: "Tapiz de Rosabel y Urban Sketchers Pontevedra",
+    date: "2026-10-31",
+    label: "Comunidad",
+    image: "/photos/blog/tapiz-rosabel-urban-sketchers-pontevedra-arroelo/urban-sketchers-pontevedra-grupo.jpg",
+    alt: "Grupo de Urban Sketchers Pontevedra mostrando sus cuadernos de dibujo en Espacio Arroelo",
+    imagePosition: "top",
+    excerpt: "El tapiz de Rosabel en la sala M, una mañana dibujando con Urban Sketchers Pontevedra y el Zentangle de Elisabet, de Zengoala, en Espacio Arroelo.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "En ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "Arroelo",
+            external: true,
+          },
+          " nos gusta que las cosas lleguen con historia. Este otoño nos han llegado dos: un tapiz tejido a mano que ya vive en la sala M y una mañana de domingo con la mesa llena de cuadernos, acuarelas y gente con ganas de mirar despacio.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Un tapiz que nace de cuidar",
+      },
+      {
+        type: "p",
+        parts: [
+          "Rosabel, de Anceu, aprendió esta técnica en CanTech, unos encuentros de adiestramiento canino e inteligencia emocional que ",
+          {
+            type: "link",
+            href: "https://ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          " organizó dentro de su proyecto ",
+          {
+            type: "link",
+            href: "https://nova-lonxevidade-rural.ruralhackers.com/",
+            text: "Nova Lonxevidade Rural",
+            external: true,
+          },
+          ", junto con ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/cocan.intervenciones/",
+            text: "Cocan",
+            external: true,
+          },
+          ", una empresa gallega de formación e intervenciones asistidas con animales. En CanTech se tejen alfombras para perros de protectoras locales: un recurso para ayudarles a gestionar el estrés de haber perdido su hogar.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Nos pareció una idea preciosa, eso de que algo hecho con las manos pueda dar calma. Y de ahí surgió otra: crear un mural, un tapiz, para Arroelo.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Rosabel tejió la pieza para nosotros y hoy cuelga en la sala M, con sus franjas grises, naranjas y turquesa. Si venís a trabajar o a alguna actividad, pasad a verla: cuenta mucho más de lo que parece.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/tapiz-rosabel-urban-sketchers-pontevedra-arroelo/tapiz-rosabel-sala-m.jpg",
+        alt: "Tapiz de lana con franjas grises, naranjas y turquesa colgado en la sala M de Espacio Arroelo",
+        caption: [
+          "El tapiz de Rosabel en la sala M de Arroelo.",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "h2",
+        text: "Segunda Arroelada: ¡a dibujar!",
+      },
+      {
+        type: "p",
+        parts: [
+          "El domingo 25 de octubre, de 11:30 a 13:30, celebramos la segunda Arroelada con Urban Sketchers Pontevedra (",
+          {
+            type: "link",
+            href: "https://www.instagram.com/usk.pontevedra/",
+            text: "@usk.pontevedra",
+            external: true,
+          },
+          ") y artistas de RURALI-ART. Vino gente de sectores muy distintos, unida por las ganas de dibujar en compañía.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://ruraliart.ruralhackers.com/",
+            text: "RURALI-ART",
+            external: true,
+          },
+          " es un proyecto de ",
+          {
+            type: "link",
+            href: "https://ruralhackers.com/",
+            text: "Rural Hackers",
+            external: true,
+          },
+          " que reúne en Anceu a artistas durante siete días, con alojamiento y manutención incluidos, para aprender a usar la inteligencia artificial en la parte operativa de su trabajo: investigar, organizar, preparar y documentar. Su idea de partida nos encanta: «La IA no tiene que hacer tu obra. Puede devolverte el tiempo para hacerla». Las mañanas son de formación y las tardes de creación colectiva en la aldea, por ejemplo con ",
+          {
+            type: "link",
+            href: "https://linktr.ee/pegadas.do.recordo",
+            text: "Pegadas do Recordo",
+            external: true,
+          },
+          ", un proyecto sobre la memoria viva de Anceu. Este otoño hay dos cohortes, del 19 al 25 de octubre y del 2 al 8 de noviembre, y en marzo de 2027 cinco artistas volverán a ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          " con una beca de un mes. Algunas de esas artistas se sentaron a dibujar con nosotros. Si queréis haceros una idea, ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/reel/De32QvguVvV/",
+            text: "mirad el vídeo de la experiencia",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "instagram",
+        permalink: "https://www.instagram.com/reel/De32QvguVvV/",
+        title: "Vídeo de la experiencia RURALI-ART en Anceu",
+      },
+      {
+        type: "p",
+        parts: [
+          "Desde USK Pontevedra lo resumieron así: «Una mañana fantástica de dibujo y buena compañía. Gracias @arroelo por vuestra hospitalidad y buena energía y ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/zengoala/",
+            text: "@zengoala",
+            external: true,
+          },
+          " por introducirnos en tu mundo de creatividad y relajación». Gracias a vosotros.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/tapiz-rosabel-urban-sketchers-pontevedra-arroelo/urban-sketchers-pontevedra-grupo.jpg",
+        alt: "Grupo de Urban Sketchers Pontevedra mostrando sus cuadernos de dibujo en Espacio Arroelo",
+        caption: [
+          "El grupo enseñando sus cuadernos. Foto: ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/usk.pontevedra/",
+            text: "@usk.pontevedra",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/tapiz-rosabel-urban-sketchers-pontevedra-arroelo/mesa-dibujo-arroelada.jpg",
+        alt: "Personas dibujando alrededor de una mesa larga durante la segunda Arroelada en Pontevedra",
+        caption: [
+          "La mesa larga en plena sesión de dibujo. Foto: ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/usk.pontevedra/",
+            text: "@usk.pontevedra",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "h2",
+        text: "Zentangle: dibujar para bajar el ritmo",
+      },
+      {
+        type: "p",
+        parts: [
+          "Aquella mañana tuvo además un regalo inesperado. Nuestra coworker ",
+          {
+            type: "link",
+            href: "https://zengoala.com/elisabet-hillerud/",
+            text: "Elisabet",
+            external: true,
+          },
+          ", de ",
+          {
+            type: "link",
+            href: "https://zengoala.com/",
+            text: "Zengoala",
+            external: true,
+          },
+          " (",
+          {
+            type: "link",
+            href: "https://www.instagram.com/zengoala/",
+            text: "@zengoala",
+            external: true,
+          },
+          "), nos dio a conocer el Zentangle, y el grupo acabó enganchado a sus patrones.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://zentangle.com/",
+            text: "Zentangle",
+            external: true,
+          },
+          " es un método de dibujo meditativo que también despierta la creatividad. Se dibujan trazos sencillos y patrones repetidos, los «tangles», sobre pequeños papeles cuadrados llamados «teselas». No hace falta saber dibujar: cada trazo se hace con calma y atención, sin borrar y sin pensar en el resultado. Mientras la mano repite, la cabeza se aquieta, y sin darte cuenta aparece una pequeña obra que no sabías que podías hacer.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "El método lo crearon en Estados Unidos Rick Roberts y Maria Thomas, en 2003. Según cuentan en ",
+          {
+            type: "link",
+            href: "https://zentangle.com/pages/how-did-zentangle-begin",
+            text: "su web",
+            external: true,
+          },
+          ", una tarde de otoño Maria estaba rellenando de patrones el fondo de una gran letra dorada y, al interrumpirla, Rick le preguntó qué sentía. Ella habló de concentración total, de perder la noción del tiempo, de no hacer esfuerzo. Rick, que llevaba años meditando, le respondió: «Estás describiendo la meditación». De esa conversación nació el Zentangle.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/tapiz-rosabel-urban-sketchers-pontevedra-arroelo/zentangle-taller-elisabet-arroelo.jpg",
+        alt: "Elisabet guiando un taller de Zentangle con un grupo sentado a la mesa en Arroelo",
+        caption: [
+          "Elisabet guiando un taller de Zentangle en Arroelo. Foto: ",
+          {
+            type: "link",
+            href: "https://zengoala.com/talleres-presenciales/",
+            text: "Zengoala",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/tapiz-rosabel-urban-sketchers-pontevedra-arroelo/teselas-zentangle-arroelada.jpg",
+        alt: "Seis teselas de Zentangle dibujadas a tinta con el mismo patrón floral",
+        caption: [
+          "Teselas de Zentangle dibujadas durante la Arroelada. Foto: ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/usk.pontevedra/",
+            text: "@usk.pontevedra",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Elisabet es profesora certificada de Zentangle (CZT): se formó en 2016 en Providence, en Estados Unidos, y desde entonces se dedica a enseñar el método a niños, jóvenes, mayores, docentes y grupos de todo tipo. En Arroelo da ",
+          {
+            type: "link",
+            href: "https://zengoala.com/clases-semanales-de-zentangle/",
+            text: "clases semanales todos los martes",
+            external: true,
+          },
+          " y un ",
+          {
+            type: "link",
+            href: "https://zengoala.com/talleres-presenciales/",
+            text: "taller presencial un sábado al mes",
+            external: true,
+          },
+          ", así que ya sabéis dónde encontrarla.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "También da talleres en ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu Coliving",
+            external: true,
+          },
+          ", rodeada de naturaleza, como ",
+          {
+            type: "link",
+            href: "https://zengoala.com/botanica-azul/",
+            text: "Botánica azul",
+            external: true,
+          },
+          ", una mañana que combina Zentangle y cianotipia. Gracias, Eli, por traernos tanta calma con un simple bolígrafo.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "¿Qué es Urban Sketchers?",
+      },
+      {
+        type: "p",
+        parts: [
+          "Aquella mañana descubrimos mucho más sobre ",
+          {
+            type: "link",
+            href: "https://urbansketchers.org/",
+            text: "Urban Sketchers",
+            external: true,
+          },
+          ", un movimiento internacional: una comunidad global de personas que dibujan del natural, en el lugar, y que comparten su amor por los sitios donde viven y a los que viajan, «un dibujo cada vez». Su misión es impulsar el valor artístico, narrativo y educativo del dibujo in situ y conectar a quienes lo practican en todo el mundo.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Su ",
+          {
+            type: "link",
+            href: "https://urbansketchers.org/who-we-are/",
+            text: "manifiesto",
+            external: true,
+          },
+          " lo explica en ocho puntos (traducción nuestra):",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "1. Dibujamos en el lugar, en interior o exterior, captando lo que vemos por observación directa.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "2. Nuestros dibujos cuentan la historia de nuestro entorno, de los lugares donde vivimos y adonde viajamos.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "3. Nuestros dibujos son un registro de un tiempo y un lugar.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "4. Somos fieles a las escenas que presenciamos.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "5. Usamos cualquier técnica y valoramos nuestros estilos individuales.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "6. Nos apoyamos y dibujamos juntos.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "7. Compartimos nuestros dibujos en internet.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "8. Mostramos el mundo, un dibujo cada vez.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Nos encanta esa idea: que dibujar sea una forma de estar presentes y de mirar juntos. Y que Arroelo, por una mañana, quedara guardado en unos cuantos cuadernos.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Aquí ese espíritu lo mueve ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/usk.pontevedra/",
+            text: "USK Pontevedra",
+            external: true,
+          },
+          ", y entre quienes vinieron estaba el ilustrador ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/fernando_tome_castro/",
+            text: "Fernando Tomé Castro",
+            external: true,
+          },
+          ". Flipamos con su obra, y sobre todo con su diario: pinta cada día, y ese diario se puede seguir en ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/fernando_tome_castro/",
+            text: "su Instagram",
+            external: true,
+          },
+          ". Os recomendamos de corazón darle una vuelta.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/tapiz-rosabel-urban-sketchers-pontevedra-arroelo/retrato-acuarela-grupo.jpg",
+        alt: "Mano pintando con acuarela un retrato del grupo en un cuaderno",
+        caption: [
+          "Una mano pinta en acuarela el retrato del grupo. Foto: ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/usk.pontevedra/",
+            text: "@usk.pontevedra",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "h2",
+        text: "Seguimos tejiendo",
+      },
+      {
+        type: "p",
+        parts: [
+          "Gracias a Rosabel, a USK Pontevedra, a RURALI-ART, a ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/zengoala/",
+            text: "@zengoala",
+            external: true,
+          },
+          " y a todas las personas que vinisteis. Si queréis enteraros de las próximas Arroeladas, seguidnos en Instagram (",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "@arroelo",
+            external: true,
+          },
+          ") o pasad a vernos en Cobián Roffignac 6, Pontevedra. Aquí siempre hay sitio para una silla más.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "primera-arroelada-javi-cebreiros",
     title:
       "Primera Arroelada: comunicación, comunidad y un vino con Javi Cebreiros",
