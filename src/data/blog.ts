@@ -126,6 +126,11 @@ export const blogPosts: BlogPost[] = [
         fit: "contain",
       },
       {
+        type: "instagram",
+        permalink: "https://www.instagram.com/reel/DfPhKE7NYSK/",
+        title: "Vídeo de la Arroelada de ajedrez con David Fernández Lago",
+      },
+      {
         type: "h2",
         text: "Una vida en 64 casillas",
       },
