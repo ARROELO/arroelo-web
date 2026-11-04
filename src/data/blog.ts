@@ -87,6 +87,319 @@ export function blogCoverObjectPosition(post: {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "tablero-sin-fronteras-ajedrez-david-fernandez-lago",
+    title: "Un tablero sin fronteras: una tarde de ajedrez con David Fernández Lago",
+    seoTitle: "David Fernández Lago: ajedrez sin fronteras en Arroelo",
+    date: "2026-10-29",
+    label: "Comunidad",
+    image: "/photos/blog/tablero-sin-fronteras-ajedrez-david-fernandez-lago/ajedrez-david-arroelada.jpg",
+    alt: "Grupo de personas conversando alrededor de una mesa con vino y aperitivos durante la Arroelada de ajedrez en Espacio Arroelo, Pontevedra",
+    imageFit: "contain",
+    excerpt: "Una tarde en Arroelo con David Fernández Lago, campeón de España de ajedrez para ciegos, y la Escola Xadrez Pontevedra: ajedrez, viajes y Jordania.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "Un vino. Un salón. Una conversación. Con esa sencillez nos juntamos el jueves 29 de octubre, a las 19:00, en una nueva Arroelada junto a David Fernández Lago y la ",
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/",
+            text: "Escola Xadrez Pontevedra",
+            external: true,
+          },
+          ". Hablamos de ajedrez, sí, pero sobre todo de vida: de viajes, de competiciones, de campos de refugiados y de cómo una pasión puede acabar siendo el hilo que lo une todo.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Salimos de allí con la sensación de haber escuchado una historia que merece ser contada y reconocida. Así que aquí va.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/tablero-sin-fronteras-ajedrez-david-fernandez-lago/ajedrez-david-arroelada.jpg",
+        alt: "Grupo de personas conversando alrededor de una mesa con vino y aperitivos durante la Arroelada de ajedrez en Espacio Arroelo, Pontevedra",
+        caption: [
+          "La conversación alrededor de la mesa en Arroelo.",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "h2",
+        text: "Una vida en 64 casillas",
+      },
+      {
+        type: "p",
+        parts: [
+          "David es ajedrecista olímpico y bicampeón de España de ajedrez para ciegos y deficientes visuales de la FEDC (Federación Española de Deportes para Ciegos). Su primer título llegó en noviembre de 2023, en el XXXII Campeonato de España Individual Absoluto, en Isla (Cantabria). Partía como quinto del ranking inicial entre 55 jugadores y terminó invicto: seis victorias y dos empates, 7 puntos de 8, con partidas de casi cinco horas frente a los mejores del país. Como contó la propia ",
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/index.php/david-fernandez-campeon-de-espana-de-ajedrez-para-ciegos-y-deficientes-visuales/",
+            text: "Escola Xadrez Pontevedra",
+            external: true,
+          },
+          ", fue la primera vez en la historia que un jugador gallego lograba este título.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Aquel título no fue casualidad. Antes, David había participado en las Olimpiadas para personas con discapacidad de 2020 (que se jugaron online por la pandemia), había quedado 13.º en el Mundial Online de la FIDE para personas con discapacidad, fue subcampeón de España de la FEDC en 2021 y en 2022 formó parte del equipo nacional que logró el 4.º puesto en el Campeonato del Mundo por equipos de la IBCA.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Medio mundo con un tablero bajo el brazo",
+      },
+      {
+        type: "p",
+        parts: [
+          "Su pasión lo ha llevado a recorrer medio mundo. En noviembre de 2024, en Petrovac (Montenegro), rozó el título mundial: terminó cuarto en el Campeonato del Mundo de Ajedrez para Personas con Discapacidad, sin perder una sola partida (cuatro victorias y cinco empates), a solo medio punto del campeón, según ",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/deportes/david-fernandez-medio-punto-campeon-mundial-ajedrez_500787_102.html",
+            text: "PontevedraViva",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En mayo de 2025 ganó el Torneo Internacional de Ajedrez para Ciegos de Izola, en Eslovenia (",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2025/05/02/pontevedres-david-fernandez-campeon-torneo-116961722.html",
+            text: "Faro de Vigo",
+            external: true,
+          },
+          "). Un mes después fue titular en la selección española que se colgó el bronce en la 17.ª Olimpiada de Ajedrez para Ciegos de la IBCA, en Vrnjačka Banja (Serbia), con el maestro internacional Daniel Rivera, de la Escola, como seleccionador (",
+          {
+            type: "link",
+            href: "https://www.fedc.es/noticias/bronce-para-espana-en-la-17a-ibca-chess-olympiad-for-the-blind-and-visually-impaired-chess-players",
+            text: "FEDC",
+            external: true,
+          },
+          "). Y en septiembre de 2026 llegó hasta Samarcanda, en Uzbekistán, con la selección española en la Olimpiada de Ajedrez para Personas con Discapacidad de la FIDE (",
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/deportes/daniel-rivera-david-fernandez-llevan-ajedrez-pontevedres-olimpiadas-personas-discapacidad_520930_102.html",
+            text: "PontevedraViva",
+            external: true,
+          },
+          ").",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En la charla también nos habló de un maestro uruguayo que le abrió las puertas de la competición. Escuchándolo queda claro: el ajedrez no es su afición, es su vida.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Cómo se juega cuando no se ve el tablero",
+      },
+      {
+        type: "p",
+        parts: [
+          "Para quien no lo conozca: el ajedrez para personas ciegas necesita muy pocas adaptaciones. Según explica la ONCE, recogido por ",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2025/05/02/pontevedres-david-fernandez-campeon-torneo-116961722.html",
+            text: "Faro de Vigo",
+            external: true,
+          },
+          ", las casillas negras están algo más altas que las blancas, las piezas negras llevan una pequeña marca en la parte superior y todas se encajan en un orificio de cada casilla, para poder tocarlas sin derribarlas. Cada jugador usa su propio tablero y los relojes tienen voz. El resto, la estrategia, la paciencia y la memoria, es exactamente igual.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Ajedrez: Estrategia por la Paz",
+      },
+      {
+        type: "p",
+        parts: [
+          "Gran parte de la tarde la dedicamos a la acción social de la Escola. Su proyecto ",
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/index.php/chessstrategyforpeace/",
+            text: "Xadrez: Estratexia pola Paz / Chess Strategy for Peace",
+            external: true,
+          },
+          " se presentó en septiembre de 2015 en el Concello de Pontevedra, y en 2016 hicieron el primer viaje a los campos de refugiados sirios de Jordania, donde crearon una escuela que sigue funcionando. Desde entonces han vuelto varias veces.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Trabajan en los campos de Azraq (en torno a 40.000 habitantes) y Zaatari (en torno a 80.000), con horarios y espacios coordinados con ACNUR, UNICEF, Save the Children, CARE, Relief International y los Makani Centers, estos últimos gestionados por las propias personas refugiadas. De 8:00 a 17:00, en cuatro grupos, dan clases y talleres a cientos de niños y adultos al día. El proyecto se apoya en tres patas: llevar material y dinamizar actividades, formar monitores para que el ajedrez siga cuando el equipo se va, y dar apoyo y asesoramiento continuado.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "El ajedrez, explican, funciona allí como herramienta educativa y terapéutica: crea un interés común, abre el diálogo y permite apartar por un rato los recuerdos más duros (",
+          {
+            type: "link",
+            href: "https://es.chessbase.com/post/ajedrez-sin-fronteras-en-jordania",
+            text: "ChessBase",
+            external: true,
+          },
+          "). Han llevado manuales de iniciación traducidos al árabe, tableros murales, piezas gigantes para jugar en el suelo e incluso juegos como la «bolsa mágica», en la que se reconocen las piezas con los ojos cerrados, solo con el tacto.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Ajedreces hechos con tapones",
+      },
+      {
+        type: "p",
+        parts: [
+          "Y luego están los tapones. Con tapones de botella recogidos en Pontevedra, los chicos y chicas de los campos completan su propio juego de ajedrez reciclado. En el viaje de 2019, por ejemplo, entregaron 950 libros, un ajedrez gigante y muchos juegos de tapones con su tablero plastificado, elaborados por colegios de la provincia (",
+          {
+            type: "link",
+            href: "https://www.farodevigo.es/pontevedra/2019/04/18/cuarta-visita-jordania-xadrez-pontevedra-15717082.html",
+            text: "Faro de Vigo",
+            external: true,
+          },
+          "). Un tablero hecho de tapones que cruza fronteras: pocas imágenes explican mejor el título de esta Arroelada.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "David forma parte de esta historia: en la web del proyecto figura como community manager de Chess Strategy for Peace y miembro de la junta directiva de la Escola.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Gracias por la partida",
+      },
+      {
+        type: "p",
+        parts: [
+          "Gracias, David, y gracias a la Escola Xadrez Pontevedra por compartir tanto con nosotros. Si queréis apoyar su proyecto en Jordania, en ",
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/index.php/chessstrategyforpeace/",
+            text: "su web",
+            external: true,
+          },
+          " encontraréis toda la información.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Y si os apetece la próxima conversación, seguidnos en Instagram (",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "@arroelo",
+            external: true,
+          },
+          ") para enteraros de las siguientes Arroeladas. Un vino, un salón y una conversación: os esperamos en Cobián Roffignac 6, Pontevedra.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Enlaces",
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/index.php/chessstrategyforpeace/",
+            text: "Chess Strategy for Peace / Ajedrez: Estrategia por la Paz",
+            external: true,
+          },
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/index.php/david-fernandez-campeon-de-espana-de-ajedrez-para-ciegos-y-deficientes-visuales/",
+            text: "David Fernández, Campeón de España de Ajedrez para ciegos y deficientes visuales",
+            external: true,
+          },
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/",
+            text: "Escola Xadrez Pontevedra",
+            external: true,
+          },
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://xadrezpontevedra.com/index.php/a-seleccion-espanola-de-xadrez-para-cegos-concentrase-en-pontevedra-antes-da-olimpiada-mundial/",
+            text: "La selección española de ajedrez para ciegos se concentra en Pontevedra (EXP, 2025)",
+            external: true,
+          },
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/deportes/david-fernandez-medio-punto-campeon-mundial-ajedrez_500787_102.html",
+            text: "Cuarto en el Mundial de Montenegro (PontevedraViva)",
+            external: true,
+          },
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://www.fedc.es/noticias/bronce-para-espana-en-la-17a-ibca-chess-olympiad-for-the-blind-and-visually-impaired-chess-players",
+            text: "Bronce en la Olimpiada IBCA 2025 (FEDC)",
+            external: true,
+          },
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://www.pontevedraviva.com/es/deportes/daniel-rivera-david-fernandez-llevan-ajedrez-pontevedres-olimpiadas-personas-discapacidad_520930_102.html",
+            text: "Olimpiada FIDE en Samarcanda (PontevedraViva)",
+            external: true,
+          },
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Arroelo en Instagram: ",
+          {
+            type: "link",
+            href: "https://www.instagram.com/arroelo/",
+            text: "@arroelo",
+            external: true,
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "tapiz-rosabel-urban-sketchers-pontevedra-arroelo",
     title: "El tapiz de Rosabel y una mañana dibujando con Urban Sketchers Pontevedra",
     seoTitle: "Tapiz de Rosabel y Urban Sketchers Pontevedra",
