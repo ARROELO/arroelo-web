@@ -88,7 +88,7 @@ export function blogCoverObjectPosition(post: {
 export const blogPosts: BlogPost[] = [
   {
     slug: "tapiz-rosabel-urban-sketchers-pontevedra-arroelo",
-    title: "Hilos, perros y cuadernos: el tapiz de Rosabel y una mañana dibujando con Urban Sketchers Pontevedra",
+    title: "El tapiz de Rosabel y una mañana dibujando con Urban Sketchers Pontevedra",
     seoTitle: "Tapiz de Rosabel y Urban Sketchers Pontevedra",
     date: "2026-10-31",
     label: "Comunidad",
@@ -117,7 +117,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Rosabel, de Anceu, aprendió esta técnica en CanTech, unos encuentros de adiestramiento canino e inteligencia emocional que ",
+          "Rosabel, de ",
+          {
+            type: "link",
+            href: "https://anceu.com/",
+            text: "Anceu",
+            external: true,
+          },
+          ", aprendió esta técnica en CanTech, unos encuentros de adiestramiento canino e inteligencia emocional que ",
           {
             type: "link",
             href: "https://ruralhackers.com/",
@@ -138,7 +145,7 @@ export const blogPosts: BlogPost[] = [
             text: "Cocan",
             external: true,
           },
-          ", una empresa gallega de formación e intervenciones asistidas con animales. En CanTech se tejen alfombras para perros de protectoras locales: un recurso para ayudarles a gestionar el estrés de haber perdido su hogar.",
+          ", una empresa gallega de formación e intervenciones asistidas con animales. En CanTech se trabajaba la inteligencia emocional de la gente de la aldea a través de los animales de protectoras locales, y allí aprendimos qué eran estas alfombras: un recurso que ayuda a los perros a gestionar el estrés de haber perdido su hogar.",
         ],
       },
       {
