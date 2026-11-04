@@ -195,7 +195,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "En la charla también nos habló de un maestro uruguayo que le abrió las puertas de la competición. Escuchándolo queda claro: el ajedrez no es su afición, es su vida.",
+          "En la charla también nos habló de su maestro uruguayo Dani, que le abrió las puertas de la competición. Escuchándolo queda claro: el ajedrez no es su afición, es su vida.",
         ],
       },
       {
@@ -252,6 +252,13 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "video",
+        youtubeId: "IH7yVGqLZ8k",
+        start: 199,
+        title: "Chess Estrategy For Peace 2019",
+        caption: "Chess Strategy for Peace 2019: la experiencia de la Escola Xadrez Pontevedra en los campos de refugiados de Jordania.",
+      },
+      {
         type: "h3",
         text: "Ajedreces hechos con tapones",
       },
@@ -266,12 +273,6 @@ export const blogPosts: BlogPost[] = [
             external: true,
           },
           "). Un tablero hecho de tapones que cruza fronteras: pocas imágenes explican mejor el título de esta Arroelada.",
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          "David forma parte de esta historia: en la web del proyecto figura como community manager de Chess Strategy for Peace y miembro de la junta directiva de la Escola.",
         ],
       },
       {
@@ -302,99 +303,6 @@ export const blogPosts: BlogPost[] = [
             external: true,
           },
           ") para enteraros de las siguientes Arroeladas. Un vino, un salón y una conversación: os esperamos en Cobián Roffignac 6, Pontevedra.",
-        ],
-      },
-      {
-        type: "h3",
-        text: "Enlaces",
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://xadrezpontevedra.com/index.php/chessstrategyforpeace/",
-            text: "Chess Strategy for Peace / Ajedrez: Estrategia por la Paz",
-            external: true,
-          },
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://xadrezpontevedra.com/index.php/david-fernandez-campeon-de-espana-de-ajedrez-para-ciegos-y-deficientes-visuales/",
-            text: "David Fernández, Campeón de España de Ajedrez para ciegos y deficientes visuales",
-            external: true,
-          },
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://xadrezpontevedra.com/",
-            text: "Escola Xadrez Pontevedra",
-            external: true,
-          },
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://xadrezpontevedra.com/index.php/a-seleccion-espanola-de-xadrez-para-cegos-concentrase-en-pontevedra-antes-da-olimpiada-mundial/",
-            text: "La selección española de ajedrez para ciegos se concentra en Pontevedra (EXP, 2025)",
-            external: true,
-          },
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://www.pontevedraviva.com/es/deportes/david-fernandez-medio-punto-campeon-mundial-ajedrez_500787_102.html",
-            text: "Cuarto en el Mundial de Montenegro (PontevedraViva)",
-            external: true,
-          },
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://www.fedc.es/noticias/bronce-para-espana-en-la-17a-ibca-chess-olympiad-for-the-blind-and-visually-impaired-chess-players",
-            text: "Bronce en la Olimpiada IBCA 2025 (FEDC)",
-            external: true,
-          },
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          {
-            type: "link",
-            href: "https://www.pontevedraviva.com/es/deportes/daniel-rivera-david-fernandez-llevan-ajedrez-pontevedres-olimpiadas-personas-discapacidad_520930_102.html",
-            text: "Olimpiada FIDE en Samarcanda (PontevedraViva)",
-            external: true,
-          },
-        ],
-      },
-      {
-        type: "p",
-        parts: [
-          "Arroelo en Instagram: ",
-          {
-            type: "link",
-            href: "https://www.instagram.com/arroelo/",
-            text: "@arroelo",
-            external: true,
-          },
         ],
       },
     ],
