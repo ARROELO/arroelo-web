@@ -242,7 +242,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "No estamos solas en esta manera de entender el espacio. En distintos puntos de España hay coworkings que, cada uno a su modo, defienden lo mismo: que esto es mucho más que mesas, que se trata de ayudar a una comunidad y de crear desde ahí.",
+          "No estamos solas en esta manera de entender el espacio. En distintos puntos de España hay coworkings que, cada uno a su modo, defienden lo mismo: que esto es mucho más que mesas, que se trata de ayudar a una comunidad y de crear desde ahí. A estos tres los conocemos en persona desde hace años, de los encuentros en la Coworking Spain Conference.",
         ],
       },
       {
@@ -258,7 +258,7 @@ export const blogPosts: BlogPost[] = [
             text: "Genion",
             external: true,
           },
-          " no está en Galicia. Es, según su propia web, una empresa de la Comunitat Valenciana dedicada al coworking, al emprendimiento y a la innovación territorial. Crean, gestionan y dinamizan espacios de trabajo colaborativos y acompañan programas con vocación de impacto positivo. Su sede es ",
+          " no está en Galicia. Es una empresa de la Comunitat Valenciana dedicada al coworking, al emprendimiento y a la innovación territorial. Crean, gestionan y dinamizan espacios de trabajo colaborativos y acompañan programas con vocación de impacto positivo. Su sede es ",
           {
             type: "link",
             href: "https://genion.es/proyecto/genion-lab/",
@@ -287,7 +287,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Ellos lo presentan como el coworking en activo más veterano de la Comunitat Valenciana, fundado en 2012. En su web lo dicen con una frase que nos resuena: es mucho más que un lugar de trabajo, y su mayor valor es una comunidad que inspira, conecta y apoya a quienes buscan un cambio positivo en su vida y en su tierra. También indican que cada año pasan por el espacio alrededor de 50 coworkers.",
+          "Ellos lo presentan como el coworking en activo más veterano de la Comunitat Valenciana, fundado en 2012. Lo dicen con una frase que nos resuena: es mucho más que un lugar de trabajo, y su mayor valor es una comunidad que inspira, conecta y apoya a quienes buscan un cambio positivo en su vida y en su tierra. Cada año pasan por el espacio alrededor de 50 coworkers.",
         ],
       },
       {
@@ -304,7 +304,7 @@ export const blogPosts: BlogPost[] = [
             text: "Espacio Geranios",
             external: true,
           },
-          ". Se presenta como un centro especializado en el emprendimiento y la innovación social, un lugar donde profesionales independientes y entidades sociales comparten espacio en un ambiente colaborativo. Su lema es «Crecemos juntos». En su web se definen como una comunidad de profesionales en la que todos se ayudan para crecer y para que otros crezcan, arraigada y comprometida con su entorno. Ellos mismos recuerdan que, pese a una localización relativamente céntrica, Ventilla-Almenara es una de las zonas más desfavorecidas de Madrid, y que su actividad busca ser plataforma para el desarrollo local.",
+          ". Se presenta como un centro especializado en el emprendimiento y la innovación social, un lugar donde profesionales independientes y entidades sociales comparten espacio en un ambiente colaborativo. Su lema es «Crecemos juntos». Se definen como una comunidad de profesionales en la que todos se ayudan para crecer y para que otros crezcan, arraigada y comprometida con su entorno. Ellos mismos recuerdan que, pese a una localización relativamente céntrica, Ventilla-Almenara es una de las zonas más desfavorecidas de Madrid, y que su actividad busca ser plataforma para el desarrollo local.",
         ],
       },
       {
@@ -337,7 +337,7 @@ export const blogPosts: BlogPost[] = [
             text: "The Living Room",
             external: true,
           },
-          ". Según su web, forma parte de ese barrio artístico desde 2015 y se presenta como una comunidad internacional de coworking: freelancers, emprendedores y nómadas digitales. Ellos mismos se preguntan si el coworking es, simplemente, una oficina compartida, y responden que no: que el mobiliario es lo menos importante y que las personas son lo que cuenta. Hablan de un hogar fuera de casa. Afirman agrupar, en la Familia TLR, a más de 150 profesionales de más de 30 países.",
+          ". Forma parte de ese barrio artístico desde 2015 y se presenta como una comunidad internacional de coworking: freelancers, emprendedores y nómadas digitales. Ellos mismos se preguntan si el coworking es, simplemente, una oficina compartida, y responden que no: que el mobiliario es lo menos importante y que las personas son lo que cuenta. Hablan de un hogar fuera de casa. Afirman agrupar, en la Familia TLR, a más de 150 profesionales de más de 30 países.",
         ],
       },
       {
