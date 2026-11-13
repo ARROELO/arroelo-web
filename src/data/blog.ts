@@ -87,6 +87,357 @@ export function blogCoverObjectPosition(post: {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "coworking-flexible-pontevedra",
+    title: "La mesa puesta: un coworking flexible en Pontevedra, más que mesas",
+    seoTitle: "Coworking flexible en Pontevedra: más que mesas",
+    date: "2026-11-11",
+    label: "Comunidad",
+    image: "/photos/salon-dos-coworkers.jpg",
+    alt: "Dos personas trabajan con el portátil en la mesa del salón de Espacio Arroelo, un coworking en Pontevedra",
+    excerpt:
+      "En Arroelo el coworking flexible en Pontevedra se adapta a tu ritmo: media jornada o bonos de días sueltos, y una comunidad desde la que crear. Ver tarifas.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "¿Conoces la historia de quien se va de casa, un día vuelve y se encuentra la mesa puesta? En Arroelo queremos que te pase eso.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Tras uno de nuestros ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Cafés a la fresca",
+          },
+          " de este otoño coincidimos en algo: este coworking flexible en Pontevedra es un espacio al que muchas personas quieren volver. También comentamos que hay quien se marchó porque no le cuadraban las cuentas o sus tiempos. El trabajo ya no se parece tanto al de cuando abrimos, en 2013, y el coworking tampoco puede quedarse quieto.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Así que ésta es nuestra manera de dejar la mesa puesta: tarifas más flexibles, y el recordatorio de que aquí nunca se ha tratado solo de una mesa. Se trata de ayudar a nuestra comunidad y de crear desde ahí.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Cómo ha cambiado el trabajo (y qué pedimos a un coworking en Pontevedra)",
+      },
+      {
+        type: "p",
+        parts: [
+          "En 2025, según la ",
+          {
+            type: "link",
+            href: "https://ine.es/dyngs/Prensa/vsEPA2025.htm",
+            text: "Encuesta de Población Activa del INE",
+            external: true,
+          },
+          ", un 7,9% de las personas ocupadas en España trabajó en su domicilio más de la mitad de los días y un 7,7% lo hizo de forma ocasional. Casi una de cada seis combinó, de un modo u otro, la casa con otros sitios.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Eso no significa que la casa baste. Significa que mucha gente ya no necesita (ni le encaja) un puesto fijo todos los días del mes. Hay quien teletrabaja dos o tres jornadas, quien pasa una temporada en Pontevedra, quien trabaja por proyectos o quien concentra solo una parte del día en un espacio compartido. Si el coworking solo ofrece una única fórmula, se queda corto para esos ritmos.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/sala-puestos.jpg",
+        alt: "Puestos de trabajo junto a la ventana en la sala de Espacio Arroelo, un coworking flexible en Pontevedra",
+        caption: "La sala de puestos de Arroelo.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "La inteligencia artificial también está moviendo el tablero. El trabajo del conocimiento se transforma: una parte de las tareas se automatiza y queda más a la vista lo que una máquina aún no resuelve bien, el criterio, la conversación, la idea que se cruza en una mesa. En Arroelo ya usamos la IA para la parte menos visible del coworking, precisamente para que nos quede más tiempo para las personas. Lo contamos en nuestro post sobre ",
+          {
+            type: "link",
+            href: "/blog/ia-en-coworking-pontevedra-arroelo",
+            text: "la IA en el coworking",
+          },
+          ". Si ese trabajo se automatiza en parte, el salón no pierde sentido: lo gana.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Una ciudad a escala humana para trabajar cerca de casa",
+      },
+      {
+        type: "p",
+        parts: [
+          "Y luego está Pontevedra. Aquí el cambio no es solo laboral: es urbano. Desde finales de los noventa la ciudad apostó por un modelo a escala humana, con el centro para peatones y el trabajo o el café a unos minutos a pie. Ese modelo ha sido reconocido, entre otros, con el ",
+          {
+            type: "link",
+            href: "https://elpais.com/ccaa/2014/11/24/galicia/1416860460_643921.html",
+            text: "premio de ONU-Hábitat en Dubái en 2014",
+            external: true,
+          },
+          " y con el ",
+          {
+            type: "link",
+            href: "https://transport.ec.europa.eu/news-events/news/krusevac-karditsa-brussels-and-pontevedra-win-european-sustainable-mobility-awards-2020-05-18_en",
+            text: "primer Premio Europeo de Seguridad Vial Urbana",
+            external: true,
+          },
+          ", que la Comisión Europea otorgó a Pontevedra en 2020.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/pontevedra-calle.jpg",
+        alt: "Una persona trabaja con el portátil en un escritorio instalado en una plaza peatonal de Pontevedra",
+        caption: "Trabajar en el centro peatonal de Pontevedra.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "No vamos a repetir aquí lo que ya contamos en ",
+          {
+            type: "link",
+            href: "/blog/mudarse-pontevedra-coworking-ciudad-peatonal",
+            text: "Por qué mudarse a Pontevedra ahora",
+          },
+          ". Lo que nos importa ahora es más sencillo: si puedes cruzar el centro andando, tiene sentido un coworking flexible en Pontevedra al que puedas venir a media jornada o unos días sueltos, sin atarte a un mes entero. El espacio de coworking encaja con una ciudad que se habita a pie.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Tarifas más flexibles en nuestro coworking de Pontevedra",
+      },
+      {
+        type: "p",
+        parts: [
+          "Por eso hemos abierto opciones más flexibles. Si el mes completo te encaja, esa fórmula sigue estando. Y si no la necesitas, ahora puedes venir a media jornada o usar bonos de días sueltos en la mesa del salón, pensados para quien teletrabaja algunos días, pasa una temporada aquí o quiere acercarse sin comprometerse de entrada a un mes entero.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/comunidad-salon-mesa-luz-natural.jpg",
+        alt: "Salón de Espacio Arroelo con la mesa de madera, luz natural y una persona trabajando al fondo, en el coworking de Pontevedra",
+        caption: "La mesa del salón, con luz natural.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Los detalles vivos están siempre en nuestra página de ",
+          {
+            type: "link",
+            href: "/tarifas",
+            text: "tarifas",
+          },
+          ". No los enumeramos aquí a propósito: lo importante no es la lista, sino el gesto. Que volver, o entrar por primera vez, no dependa de encajar en un único molde. La idea de fondo no es vender más planes. Es que sea más fácil salir de casa, conectar con otras personas y pasar un rato en colectivo.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Coworkings con una filosofía parecida: mucho más que mesas",
+      },
+      {
+        type: "p",
+        parts: [
+          "No estamos solas en esta manera de entender el espacio. En distintos puntos de España hay coworkings que, cada uno a su modo, defienden lo mismo: que esto es mucho más que mesas, que se trata de ayudar a una comunidad y de crear desde ahí. A estos tres los conocemos en persona desde hace años.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Genion Lab, coworking en Petrer (Comunitat Valenciana)",
+      },
+      {
+        type: "p",
+        parts: [
+          {
+            type: "link",
+            href: "https://genion.es/",
+            text: "Genion",
+            external: true,
+          },
+          " no está en Galicia. Es una empresa de la Comunitat Valenciana dedicada al coworking, al emprendimiento y a la innovación territorial. Su sede es ",
+          {
+            type: "link",
+            href: "https://genion.es/proyecto/genion-lab/",
+            text: "Genion Lab",
+            external: true,
+          },
+          ", en Petrer (Alicante).",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/genion-lab-zona-coworking-work-sweet-work.jpg",
+        alt: "Zona de coworking de Genion Lab en Petrer, con el lema Work Sweet Work en el cristal",
+        caption: [
+          "Foto: ",
+          {
+            type: "link",
+            href: "https://genionlab.com/",
+            text: "Genion Lab",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Ellos lo presentan como el coworking en activo más veterano de la Comunitat Valenciana, fundado en 2012. Lo dicen con una frase que nos resuena: es mucho más que un lugar de trabajo, y su mayor valor es una comunidad que inspira, conecta y apoya. Cada año pasan por el espacio alrededor de 50 coworkers.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Detrás de Genion está Diego Tomás, su fundador. Es una de las personas que más nos inspiran, desde hace años, en todo lo que hacemos.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Espacio Geranios: innovación social en Ventilla, Madrid",
+      },
+      {
+        type: "p",
+        parts: [
+          "En Madrid, en el barrio de Ventilla-Almenara (Tetuán), está ",
+          {
+            type: "link",
+            href: "https://www.espaciogeranios.com/",
+            text: "Espacio Geranios",
+            external: true,
+          },
+          ". Es un centro de emprendimiento e innovación social, donde profesionales independientes y entidades sociales comparten espacio. Su lema es «Crecemos juntos». Pese a una localización relativamente céntrica, Ventilla-Almenara es una de las zonas más desfavorecidas de Madrid, y su actividad busca ser plataforma para el desarrollo local.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/espacio-geranios-hall-salas-privadas.jpg",
+        alt: "Hall de Espacio Geranios en Madrid, con recepción rosa y salas privadas de comunicación",
+        caption: [
+          "Foto: ",
+          {
+            type: "link",
+            href: "https://www.espaciogeranios.com/",
+            text: "Espacio Geranios",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Gracias a Fran, Inés y Erika siempre hemos aprendido de ellos y del impacto social. De hecho, seguimos haciendo proyectos europeos juntos.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "The Living Room, comunidad internacional en el Soho de Málaga",
+      },
+      {
+        type: "p",
+        parts: [
+          "En el Soho de Málaga, en la calle Barroso, está ",
+          {
+            type: "link",
+            href: "https://tlr-coworking.com/es/",
+            text: "The Living Room",
+            external: true,
+          },
+          ". Forma parte de ese barrio artístico desde 2015 y es una comunidad internacional de coworking: freelancers, emprendedores y nómadas digitales. Hablan de un hogar fuera de casa. Agrupan, en la Familia TLR, a más de 150 profesionales de más de 30 países.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/the-living-room-malaga-salon-comunidad.jpg",
+        alt: "Salón de The Living Room, coworking en el Soho de Málaga, con zona de trabajo y bicicletas",
+        caption: [
+          "Foto: ",
+          {
+            type: "link",
+            href: "https://tlr-coworking.com/es/",
+            text: "The Living Room",
+            external: true,
+          },
+          ".",
+        ],
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Detrás de The Living Room está Ben Kolb, su fundador. Es una de las personas que también nos inspiran mucho en cómo crear comunidad y seguir alimentándola. Nos seguimos encontrando gracias a la Coworking Spain Conference y también porque ya somos parte, todas, de la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "European Creative Hubs Network",
+            external: true,
+          },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Tres sitios distintos (Petrer, un barrio de Madrid, el Soho de Málaga) y una idea común. El coworking, cuando está bien hecho, es mucho más que mesas. Ayuda a su comunidad y crea desde ahí.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Ayudar a nuestra comunidad y crear desde el coworking en Pontevedra",
+      },
+      {
+        type: "p",
+        parts: [
+          "En Arroelo esa idea tiene nombres concretos. El ",
+          {
+            type: "link",
+            href: "/blog/cafe-a-la-fresca-comunidad-arroelo",
+            text: "Café a la fresca",
+          },
+          " sigue siendo nuestro ritual para salir de casa, cruzar una conversación y pasar un rato en colectivo. Las Arroeladas son otra forma de abrir el salón. En la ",
+          {
+            type: "link",
+            href: "/blog/primera-arroelada-javi-cebreiros",
+            text: "primera, con Javi Cebreiros",
+          },
+          ", hablamos de comunicación y de comunidad, y lo celebramos con un vino, sin convertir el encuentro en una conferencia.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/comunidad-desayuno-mesa-salon.jpg",
+        alt: "Comunidad alrededor de la mesa del salón de Espacio Arroelo, desayunando juntas en el coworking de Pontevedra",
+        caption: "Un desayuno alrededor de la mesa del salón.",
+        fit: "contain",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-salon-grupo.jpg",
+        alt: "Grupo alrededor de la mesa del salón de Espacio Arroelo durante un Café a la fresca, en el coworking de Pontevedra",
+        caption: "Un Café a la fresca en el salón de Arroelo.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Eso es, para nosotras, crear desde aquí: dejar tiempo para las personas, cuidar los rituales y hacer que el espacio sea un sitio al que apetezca volver. Las tarifas más flexibles intentan acompañar ese gesto.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "La mesa está puesta. Si te fuiste y quieres volver, o si nunca terminaste de entrar porque el mes se te hacía grande, este coworking flexible en Pontevedra te espera. ¿Nos vemos?",
+        ],
+      },
+    ],
+  },
+  {
     slug: "tablero-sin-fronteras-ajedrez-david-fernandez-lago",
     title: "Un tablero sin fronteras: una tarde de ajedrez con David Fernández Lago",
     seoTitle: "David Fernández Lago: ajedrez sin fronteras en Arroelo",
