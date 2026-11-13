@@ -242,7 +242,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "No estamos solas en esta manera de entender el espacio. En distintos puntos de España hay coworkings que, cada uno a su modo, defienden lo mismo: que esto es mucho más que mesas, que se trata de ayudar a una comunidad y de crear desde ahí. A estos tres los conocemos en persona desde hace años, de los encuentros en la Coworking Spain Conference.",
+          "No estamos solas en esta manera de entender el espacio. En distintos puntos de España hay coworkings que, cada uno a su modo, defienden lo mismo: que esto es mucho más que mesas, que se trata de ayudar a una comunidad y de crear desde ahí. A estos tres los conocemos en persona desde hace años.",
         ],
       },
       {
@@ -258,7 +258,7 @@ export const blogPosts: BlogPost[] = [
             text: "Genion",
             external: true,
           },
-          " no está en Galicia. Es una empresa de la Comunitat Valenciana dedicada al coworking, al emprendimiento y a la innovación territorial. Crean, gestionan y dinamizan espacios de trabajo colaborativos y acompañan programas con vocación de impacto positivo. Su sede es ",
+          " no está en Galicia. Es una empresa de la Comunitat Valenciana dedicada al coworking, al emprendimiento y a la innovación territorial. Su sede es ",
           {
             type: "link",
             href: "https://genion.es/proyecto/genion-lab/",
@@ -287,7 +287,13 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         parts: [
-          "Ellos lo presentan como el coworking en activo más veterano de la Comunitat Valenciana, fundado en 2012. Lo dicen con una frase que nos resuena: es mucho más que un lugar de trabajo, y su mayor valor es una comunidad que inspira, conecta y apoya a quienes buscan un cambio positivo en su vida y en su tierra. Cada año pasan por el espacio alrededor de 50 coworkers.",
+          "Ellos lo presentan como el coworking en activo más veterano de la Comunitat Valenciana, fundado en 2012. Lo dicen con una frase que nos resuena: es mucho más que un lugar de trabajo, y su mayor valor es una comunidad que inspira, conecta y apoya. Cada año pasan por el espacio alrededor de 50 coworkers.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Detrás de Genion está Diego Tomás, su fundador. Es una de las personas que más nos inspiran, desde hace años, en todo lo que hacemos.",
         ],
       },
       {
@@ -304,7 +310,7 @@ export const blogPosts: BlogPost[] = [
             text: "Espacio Geranios",
             external: true,
           },
-          ". Se presenta como un centro especializado en el emprendimiento y la innovación social, un lugar donde profesionales independientes y entidades sociales comparten espacio en un ambiente colaborativo. Su lema es «Crecemos juntos». Se definen como una comunidad de profesionales en la que todos se ayudan para crecer y para que otros crezcan, arraigada y comprometida con su entorno. Ellos mismos recuerdan que, pese a una localización relativamente céntrica, Ventilla-Almenara es una de las zonas más desfavorecidas de Madrid, y que su actividad busca ser plataforma para el desarrollo local.",
+          ". Es un centro de emprendimiento e innovación social, donde profesionales independientes y entidades sociales comparten espacio. Su lema es «Crecemos juntos». Pese a una localización relativamente céntrica, Ventilla-Almenara es una de las zonas más desfavorecidas de Madrid, y su actividad busca ser plataforma para el desarrollo local.",
         ],
       },
       {
@@ -324,6 +330,12 @@ export const blogPosts: BlogPost[] = [
         fit: "contain",
       },
       {
+        type: "p",
+        parts: [
+          "Gracias a Fran, Inés y Erika siempre hemos aprendido de ellos y del impacto social. De hecho, seguimos haciendo proyectos europeos juntos.",
+        ],
+      },
+      {
         type: "h3",
         text: "The Living Room, comunidad internacional en el Soho de Málaga",
       },
@@ -337,7 +349,7 @@ export const blogPosts: BlogPost[] = [
             text: "The Living Room",
             external: true,
           },
-          ". Forma parte de ese barrio artístico desde 2015 y se presenta como una comunidad internacional de coworking: freelancers, emprendedores y nómadas digitales. Ellos mismos se preguntan si el coworking es, simplemente, una oficina compartida, y responden que no: que el mobiliario es lo menos importante y que las personas son lo que cuenta. Hablan de un hogar fuera de casa. Afirman agrupar, en la Familia TLR, a más de 150 profesionales de más de 30 países.",
+          ". Forma parte de ese barrio artístico desde 2015 y es una comunidad internacional de coworking: freelancers, emprendedores y nómadas digitales. Hablan de un hogar fuera de casa. Agrupan, en la Familia TLR, a más de 150 profesionales de más de 30 países.",
         ],
       },
       {
@@ -355,6 +367,19 @@ export const blogPosts: BlogPost[] = [
           ".",
         ],
         fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Detrás de The Living Room está Ben Kolb, su fundador. Es una de las personas que también nos inspiran mucho en cómo crear comunidad y seguir alimentándola. Nos seguimos encontrando gracias a la Coworking Spain Conference y también porque ya somos parte, todas, de la ",
+          {
+            type: "link",
+            href: "https://creativehubs.net/",
+            text: "European Creative Hubs Network",
+            external: true,
+          },
+          ".",
+        ],
       },
       {
         type: "p",
