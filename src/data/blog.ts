@@ -87,6 +87,172 @@ export function blogCoverObjectPosition(post: {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "cafe-a-la-fresca-ofir-vida-pontevedra",
+    title: "Una casa que decidió seguir viva: Café a la fresca con la Fundación Ofir Vida",
+    seoTitle: "Café a la fresca en Pontevedra con Ofir Vida",
+    date: "2026-11-14",
+    label: "Comunidad",
+    image: "/photos/blog/ofirvida-visita-mesa-cafe.jpg",
+    alt: "Personas mayores y visitantes charlan con café alrededor de una mesa larga de madera, junto a un ventanal con vistas al monte, en la sede de la Fundación Ofir Vida en A Lama",
+    excerpt:
+      "Un Café a la fresca en Pontevedra con la Fundación Ofir Vida y Ana Santos, de De Vella a Bella, y una visita a su sede en A Lama para cuidar el rural.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "«Una casa que decidió seguir viva.» Así empezaba el ",
+          { type: "link", href: "https://www.instagram.com/arroelo/reel/Dfk2OMHNrNX/", text: "reel", external: true },
+          " que publicamos el 10 de noviembre, después de un ",
+          { type: "link", href: "/blog/cafe-a-la-fresca-comunidad-arroelo", text: "Café a la fresca" },
+          " en Pontevedra con la ",
+          { type: "link", href: "https://ofirvida.com/", text: "Fundación Ofir Vida", external: true },
+          ". Vinieron a Arroelo a conocer a nuestra ",
+          { type: "link", href: "/coworkers", text: "coworker" },
+          " Ana Santos, fundadora de ",
+          { type: "link", href: "https://devellabella.com/", text: "De Vella a Bella", external: true },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "De esa conversación nos quedamos con una idea que encaja muy bien con Arroelo: cuidar también es preservar la memoria, los vínculos y el territorio. Y de ese café salió algo más: una visita a la sede de la fundación, la casa natal de Ofir, en A Fírveda, A Lama. Fuimos el viernes 13 de noviembre de 2026, y aquí te lo contamos.",
+        ],
+      },
+      { type: "h2", text: "Qué es la Fundación Ofir Vida y qué hace en el rural de A Lama" },
+      {
+        type: "p",
+        parts: [
+          "La Fundación Ofir Vida tiene su sede en A Fírveda, en el concello de A Lama (Pontevedra). En su web se presenta así: «Un modelo integrado de coidados, comunidade, natureza e territorio para garantir futuro no medio rural». En su ",
+          { type: "link", href: "https://www.instagram.com/ofirvidafundacion/", text: "Instagram", external: true },
+          " lo dicen más corto: cuidan de las personas y cuidan del rural, y hablan de bienestar y autonomía de las personas mayores, de comunidad y de desarrollo rural.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "El horizonte que nombran es el envejecimiento, la despoblación y la pérdida de servicios. Su respuesta son los cuidados de proximidad, la activación comunitaria y la puesta en valor de los recursos locales, para que la gente, sobre todo las personas mayores, pueda permanecer, vivir y decidir en el territorio.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Esa mirada tiene una raíz familiar, que la fundación cuenta en su página ",
+          { type: "link", href: "https://ofirvida.com/somos/", text: "Somos", external: true },
+          ". El proyecto está vinculado a la historia de la familia Martínez Carballal y, de manera especial, a Ofir Carballal, madre de los patronos. Ofir y Luciano construyeron una vida marcada por la emigración, el esfuerzo, el regreso y el emprendimiento, sin perder nunca el vínculo con la tierra. Cuando Ofir faltó, su familia decidió que su casa natal no se quedase cerrada. Hoy es la sede de la fundación y un lugar donde pasan cosas en el rural, un puente entre memoria y acción.",
+        ],
+      },
+      { type: "h3", text: "E-Saúde, E-Xente y E-Natureza: el modelo de Ofir Vida" },
+      {
+        type: "p",
+        parts: [
+          "El modelo se organiza en tres líneas. ",
+          { type: "link", href: "https://ofirvida.com/saude/", text: "E-Saúde", external: true },
+          " desarrolla cuidados de proximidad, con prevención, autonomía y envejecimiento activo. ",
+          { type: "link", href: "https://ofirvida.com/e-xente/", text: "E-Xente", external: true },
+          " pone el acento en una comunidad activa, con encuentros, talleres y cultura compartida. ",
+          { type: "link", href: "https://ofirvida.com/e-natureza/", text: "E-Natureza", external: true },
+          " mira al territorio como un lugar vivo, con senderismo, baños de bosque y rutas de flora y fauna. En su página de ",
+          { type: "link", href: "https://ofirvida.com/comunidade/", text: "comunidad", external: true },
+          " lo resumen así: cuidar a las personas, fortalecer la comunidad y activar el territorio.",
+        ],
+      },
+      { type: "h3", text: "Actividades de la Fundación Ofir Vida: talleres, cultura y fútbol" },
+      {
+        type: "p",
+        parts: [
+          "En su ",
+          { type: "link", href: "https://ofirvida.com/agenda_gl/", text: "agenda", external: true },
+          " y en su Instagram se ve que la sede no es un edificio cerrado: este otoño han compartido obradoiros de arteterapia, cestería y coronas de Adviento, o una cata de mieles. Y hay otra línea que habla de infancia y de arraigo: la Escola de Fútbol da Lama, que la fundación puso en marcha con la S.D. A Lama y que, según cuentan, ya reúne a más de 60 niños y niñas.",
+        ],
+      },
+      { type: "h2", text: "Un Café a la fresca en Pontevedra para conocer a Ana Santos" },
+      {
+        type: "p",
+        parts: [
+          "El 10 de noviembre esa historia se sentó en nuestra mesa. La Fundación Ofir Vida vino a Arroelo, a un Café a la fresca, a conocer a Ana Santos, coworker de la casa y fundadora de De Vella a Bella. Si quieres recordar qué es este ritual y por qué lo cuidamos, está todo en nuestro post ",
+          { type: "link", href: "/blog/cafe-a-la-fresca-comunidad-arroelo", text: "Café a la fresca: el ritual que convierte un coworking en comunidad" },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En la story de ese día dimos las gracias por un gran Café a la fresca y recomendamos conocer a ",
+          { type: "link", href: "https://www.instagram.com/ofirvidafundacion/", text: "@ofirvidafundacion", external: true },
+          ". En el reel dejamos dicha la idea que nos llevamos: cuidar también es preservar la memoria, los vínculos y el territorio. Se encontraron dos maneras de cuidar a las personas, y de esa mesa salió el deseo de ir a A Lama.",
+        ],
+      },
+      { type: "h2", text: "Qué es De Vella a Bella y el envejecimiento activo en Pontevedra" },
+      {
+        type: "p",
+        parts: [
+          { type: "link", href: "https://devellabella.com/", text: "De Vella a Bella", external: true },
+          " se presenta con una frase clara: «Do Envellecemento ao embelecemento persoal». En su ",
+          { type: "link", href: "https://www.instagram.com/devellabella/", text: "Instagram", external: true },
+          " el lema es otro: «Sempre seremos vellos para alguen menos para nós». Hablan de envejecimiento activo y de «xubiletas», y lo hacen desde Pontevedra.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En su web se definen así: «Somos un grupo de persoas que pensamos que a xubilación pode ser unha das etapas máis activas e creativas da vida, polo que che propoñemos este blog de actividades culturais e de lecer dirixidas á xente coma nós». Cada semana, Ana Santos escribe una agenda de actividades culturales en Pontevedra. Tienen además un programa en Onda Cero Pontevedra.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Ana nació en Pontevedra y estuvo 34 años impartiendo Educación Física en el IES Valle Inclán. Según cuenta en la página ",
+          { type: "link", href: "https://devellabella.com/sobre-nosotros/", text: "Sobre nós", external: true },
+          ", decidió jubilarse para dar un nuevo rumbo a su vida y poner en marcha esta iniciativa. Allí mismo añade que forma parte de la familia Arroelo. El colectivo nació en torno a la pandemia y reúne a personas mayores de 60 años.",
+        ],
+      },
+      { type: "h3", text: "El encaje entre Ofir Vida y De Vella a Bella" },
+      {
+        type: "p",
+        parts: [
+          "De Vella a Bella trabaja, desde la ciudad, para que las personas mayores sigan siendo protagonistas de la cultura y de la vida en común. La Fundación Ofir Vida trabaja, desde el rural de A Lama, para que envejecer no signifique irse o perder el vínculo con el territorio. Las dos defienden algo que en Arroelo repetimos a menudo: que las personas son el centro, no un adorno del proyecto.",
+        ],
+      },
+      { type: "h2", text: "Una visita a la sede de la Fundación Ofir Vida en A Lama" },
+      {
+        type: "p",
+        parts: [
+          "El viernes 13 de noviembre fuimos a A Fírveda, a la casa natal de Ofir. Nos acompañaron dos coworkers de Arroelo, Ana, de La Impaginaria, y Ana Santos, de De Vella a Bella. Allí conocimos a las personas usuarias de la fundación y nos sentamos con ellas alrededor de una mesa larga, con café y un gran ventanal abierto al monte. Charlamos de ellas y de muchos otros temas, y nos contaron qué actividades hacen en Ofir Vida: pilates, yoga, partidas de cartas y actividades culturales. Fue, en el fondo, otro Café a la fresca, esta vez en el rural.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Escucharlas nos ayudó a entender mejor lo que la fundación cuenta en su web. Ese modelo de cuidados, comunidad y territorio tiene caras y conversaciones, en una casa que sigue abierta.",
+        ],
+      },
+      { type: "h2", text: "Mucho más que mesas: comunidad y Café a la fresca en Arroelo" },
+      {
+        type: "p",
+        parts: [
+          "En Arroelo decimos a menudo que esto es mucho más que mesas. Este Café a la fresca fue exactamente eso: una fundación que cuida del rural, una coworker que ha construido una comunidad alrededor del envejecimiento activo y una mesa en Pontevedra donde las dos se reconocieron. Después, la mesa se trasladó a A Lama.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Ayudar a nuestra comunidad y crear desde ahí es abrir la puerta, poner el café y dejar que una historia como la de Ofir Vida entre en el salón. Es también ir hasta A Lama a devolver la visita. Si quieres sentarte a una de estas mañanas, te esperamos en Arroelo. Las formas de acercarte, cuando te encajen, están en nuestra página de ",
+          { type: "link", href: "/tarifas", text: "tarifas" },
+          ". Y si quieres conocer a la gente que comparte el espacio, pasa por la página de ",
+          { type: "link", href: "/coworkers", text: "coworkers" },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Cuidar también es preservar la memoria, los vínculos y el territorio. Lo escuchamos un martes en el salón, y lo vimos un viernes en A Fírveda.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "coworking-flexible-pontevedra",
     title: "La mesa puesta: un coworking flexible en Pontevedra, más que mesas",
     seoTitle: "Coworking flexible en Pontevedra: más que mesas",
