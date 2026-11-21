@@ -87,6 +87,234 @@ export function blogCoverObjectPosition(post: {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "conversaciones-espanol-pontevedra",
+    title: "¡No pasa nada!: así fue el primer meetup de conversaciones en español en Arroelo",
+    seoTitle: "Conversaciones en español en Pontevedra: el primer meetup",
+    date: "2026-11-21",
+    label: "Comunidad",
+    image: "/photos/blog/conversaciones-espanol-mesa-llena.jpg",
+    alt: "Grupo de personas conversando alrededor de una mesa de madera con mapas y tazas, en el primer meetup de conversaciones en español en Pontevedra, en Espacio Arroelo",
+    excerpt:
+      "Así fue el primer meetup de conversaciones en español en Pontevedra con Escuela de la Calle en Arroelo: mapas, juegos y café. Próximas fechas, los lunes.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "«¡No pasa nada!» Con esa frase en un cartel y un mapa de Galicia sobre la mesa empezaron, el lunes 16 de noviembre, las primeras conversaciones en español en Pontevedra que organiza ",
+          { type: "link", href: "https://www.instagram.com/escueladelacalle.eu/", text: "Escuela de la Calle", external: true },
+          " en Espacio Arroelo. Una mesa llena desde el primer día, café, juegos de palabras y muchas risas. Y, detrás, una historia que nos encanta contar: la de gente que llega al rural, se queda y crea desde aquí.",
+        ],
+      },
+      { type: "h2", text: "Conversaciones en español en Pontevedra: una nueva propuesta en Arroelo" },
+      {
+        type: "p",
+        parts: [
+          "Lo anunciamos el sábado 14 de noviembre en un ",
+          { type: "link", href: "https://www.instagram.com/arroelo/reel/DfuI2ont3Pj/", text: "reel", external: true },
+          ": «Este lunes comienza una nueva actividad de conversaciones en español junto a nuestros nuevos coworkers @escueladelacalle.eu. Acércate y disfruta de estas personas que están comenzando su proyecto en Pontevedra». En el vídeo, el titular lo dejaba claro: «Nueva propuesta: conversaciones en español para extranjeros».",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "La idea es sencilla y, a la vez, muy de Arroelo. Personas de otros países que viven en Pontevedra, o que acaban de llegar, se sientan a una mesa para hablar español sin miedo a equivocarse. En sus propias palabras, «mistakes welcome, always»: los errores son bienvenidos, siempre. Por eso el lema no podía ser otro que «¡No pasa nada!».",
+        ],
+      },
+      { type: "h3", text: "Quiénes están detrás de Escuela de la Calle" },
+      {
+        type: "p",
+        parts: [
+          "Detrás de Escuela de la Calle están Bartek y Ari, nuestros nuevos coworkers. Ella es de Ecuador y él, de Polonia. Su historia con nosotras empieza un poco más lejos, en la aldea: llegaron a ",
+          { type: "link", href: "https://anceu.com/", text: "Anceu Coliving", external: true },
+          ", el coliving rural con el que Arroelo tiende un puente, con el programa ",
+          { type: "link", href: "https://www.erasmus-entrepreneurs.eu/", text: "Erasmus para Jóvenes Emprendedores", external: true },
+          " (Erasmus for Young Entrepreneurs). Después se mudaron a Pontevedra, y de ahí a la mesa de Arroelo.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En Anceu ya organizaron varias veces el Café Pangea (",
+          { type: "link", href: "https://www.instagram.com/pangea.caffe/", text: "@pangea.caffe", external: true },
+          "), que también aparece junto a ellos en las publicaciones de estas conversaciones. El Café Pangea es un café de estilo italiano y de alta calidad, en el que organizan una actividad cultural sobre algún tema, en general sobre países. Ahora dan un paso más con Escuela de la Calle.",
+        ],
+      },
+      // Hueco opcional para una foto del Café Pangea (@pangea.caffe). Descomentar cuando Afri la apruebe:
+      // {
+      //   type: "image",
+      //   src: "/photos/blog/cafe-pangea.jpg",
+      //   alt: "[alt pendiente]",
+      //   caption: "Café Pangea. Foto: @pangea.caffe.",
+      //   fit: "contain",
+      // },
+      {
+        type: "p",
+        parts: [
+          "Si quieres conocer mejor ese puente entre la ciudad y la aldea, lo contamos en ",
+          { type: "link", href: "/blog/anceu-coliving-ciudad-aldea", text: "De la ciudad a la aldea: el puente entre Arroelo y Anceu" },
+          ". Bartek y Ari son un ejemplo de lo que significa en la práctica: llegar al rural, quedarse en Galicia y empezar a crear desde aquí.",
+        ],
+      },
+      { type: "h2", text: "Así fue el primer meetup de conversaciones en español" },
+      {
+        type: "image",
+        src: "/photos/blog/conversaciones-espanol-mapa-mesa.jpg",
+        alt: "Personas de pie junto a una mesa con un mapa desplegado y material impreso, durante las conversaciones en español en el salón de Espacio Arroelo",
+        caption: "La mesa de Arroelo, con mapas y material, el lunes 16 de noviembre. Foto: Escuela de la Calle.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "El primer encuentro presencial fue el lunes 16 de noviembre a las 19:00, en Espacio Arroelo. En las stories de esa noche, el cartel lo decía todo: «Tonight, 7 PM. ¡No pasa nada! Our first in-person Spanish conversation meetup for internationals». Y al lado, con la mesa preparada, un «We ready!» con mucha energía.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Sobre la mesa había un frutero, mapas (uno de Galicia, entre ellos), fichas impresas y material para jugar. A las siete, la mesa se llenó. «Tutti arrivati for the first Spanish conversation-session!», escribieron en Instagram, mezclando idiomas como se mezclan en una buena conversación.",
+        ],
+      },
+      { type: "h3", text: "Mapas, juegos de palabras y café" },
+      {
+        type: "p",
+        parts: [
+          "Lo que pasó en esa mesa lo contaron después en un ",
+          { type: "link", href: "https://www.instagram.com/escueladelacalle.eu/p/Df46M83CDop/", text: "carrusel compartido entre Escuela de la Calle y Arroelo", external: true },
+          ": «Our first Spanish conversation meetup was a success! On Monday 16 Nov we filled the table at Espacio Arroelo with maps, word games, coffee and a lot of laughs». Llenaron la mesa de mapas, juegos de palabras, café y muchas risas.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Las diapositivas del carrusel resumen bien el espíritu de estas conversaciones en español:",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• «Full table on day one!»: la mesa, llena desde el primer día.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• «Real conversations, at your own pace»: conversaciones reales, a tu ritmo.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• «Games, maps & coffee. Play with words»: juegos, mapas y café para jugar con las palabras.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• «New faces, new friends. Lots of laughs»: caras nuevas, amistades nuevas y muchas risas.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/conversaciones-espanol-risas.jpg",
+        alt: "Varias personas ríen alrededor de la mesa con mapas, fruta y café en el meetup de intercambio de idiomas de Escuela de la Calle en Arroelo, Pontevedra",
+        caption: "Muchas risas en el primer meetup. Foto: Escuela de la Calle.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "El cierre de la noche también quedó en las stories: «The end! Our first meeting was awesome! We can't wait for the next one». Y una invitación con fecha: el siguiente, el 23 de noviembre.",
+        ],
+      },
+      { type: "h3", text: "Aprender español en Pontevedra sin miedo a equivocarse" },
+      {
+        type: "p",
+        parts: [
+          "Quien ha aprendido un idioma sabe que lo difícil no siempre es la gramática. Es atreverse a hablar. Por eso nos gusta tanto el enfoque de Escuela de la Calle: conversación real, a tu ritmo, con juegos y mapas que sirven de excusa para hablar, y una regla de oro que lo resume todo: «¡No pasa nada!». Si te equivocas, no pasa nada. Si no encuentras la palabra, no pasa nada. Alguien te la presta.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Para quien quiere aprender español en Pontevedra, una mesa así puede ser también una puerta a la ciudad. Se practica el idioma, sí, pero también se conoce gente. Caras nuevas y amistades nuevas, como decía el propio carrusel, que es justo lo que más cuesta encontrar cuando acabas de llegar a un sitio. Las banderas que acompañan el pie del carrusel (España, Ecuador y México) dicen mucho de cómo se entiende aquí el español: un idioma con muchos acentos y muchas casas.",
+        ],
+      },
+      { type: "h2", text: "Próximas fechas: intercambio de idiomas en Pontevedra los lunes" },
+      {
+        type: "p",
+        parts: [
+          "Las conversaciones siguen. Según el carrusel de Escuela de la Calle, los próximos encuentros son:",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• ",
+          { type: "strong", text: "Lunes a las 19:00, en Espacio Arroelo (Pontevedra):" },
+          " 23 y 30 de noviembre, y 7 y 14 de diciembre.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• ",
+          { type: "strong", text: "Sábados por la mañana, «special mornings», en una ubicación secreta:" },
+          " 28 de noviembre y 5 de diciembre.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "¿Cómo apuntarse? En su propio anuncio lo dicen así: «Want to join? Send us a DM». Es decir, escribiendo un mensaje directo a ",
+          { type: "link", href: "https://www.instagram.com/escueladelacalle.eu/", text: "@escueladelacalle.eu", external: true },
+          " en Instagram. Es una actividad de pago por sesión, y por ese mismo mensaje te informan de todo. Vale cualquier nivel de español: no hace falta saber mucho para sentarse a la mesa. Las sesiones de los lunes las llevan siempre Bartek y Ari.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Es un intercambio de idiomas pensado para gente que quiere aprender español: ese es su objetivo fundamental.",
+        ],
+      },
+      { type: "h2", text: "Mucho más que mesas: comunidad que llega, se queda y crea" },
+      {
+        type: "p",
+        parts: [
+          "En Arroelo decimos a menudo que esto es mucho más que mesas. Esta historia lo explica mejor que cualquier eslogan. Dos personas llegan a Galicia con un programa europeo, viven en una aldea, organizan encuentros allí, se mudan a la ciudad, se sientan a trabajar en un coworking y ahora abren su mesa a otras personas que también acaban de llegar.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Eso es, para nosotras, ayudar a nuestra comunidad y crear desde ahí. No se trata solo de ofrecer un puesto de trabajo, sino de que el espacio sea un sitio donde los proyectos se encuentran con la gente. Un proyecto que empieza necesita una mesa, claro, pero también vecinas, cómplices y alguien que le diga «acércate». Lo vimos hace poco en el ",
+          { type: "link", href: "/blog/cafe-a-la-fresca-ofir-vida-pontevedra", text: "Café a la fresca con la Fundación Ofir Vida" },
+          ", y lo volvemos a ver ahora con Escuela de la Calle. Y es también lo que intentamos con las formas de estar en Arroelo, más flexibles, que contamos en ",
+          { type: "link", href: "/blog/coworking-flexible-pontevedra", text: "La mesa puesta: un coworking flexible en Pontevedra" },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Si eres de fuera y quieres soltarte con el español, ya sabes dónde estamos los lunes a las siete. Y si tienes un proyecto que empieza, como Bartek y Ari, y buscas un sitio desde el que crear, pásate por nuestra página de ",
+          { type: "link", href: "/tarifas", text: "tarifas" },
+          " o conoce a la gente que ya comparte el espacio en ",
+          { type: "link", href: "/coworkers", text: "coworkers" },
+          ". Tienes más historias como esta en el ",
+          { type: "link", href: "/blog", text: "blog" },
+          ".",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "¡Nos vemos el lunes! Y si te equivocas, ya sabes: no pasa nada.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "cafe-a-la-fresca-ofir-vida-pontevedra",
     title: "Una casa que decidió seguir viva: Café a la fresca con la Fundación Ofir Vida",
     seoTitle: "Café a la fresca en Pontevedra con Ofir Vida",
