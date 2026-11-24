@@ -139,14 +139,13 @@ export const blogPosts: BlogPost[] = [
           "), que también aparece junto a ellos en las publicaciones de estas conversaciones. El Café Pangea es un café de estilo italiano y de alta calidad, en el que organizan una actividad cultural sobre algún tema, en general sobre países. Ahora dan un paso más con Escuela de la Calle.",
         ],
       },
-      // Hueco opcional para una foto del Café Pangea (@pangea.caffe). Descomentar cuando Afri la apruebe:
-      // {
-      //   type: "image",
-      //   src: "/photos/blog/cafe-pangea.jpg",
-      //   alt: "[alt pendiente]",
-      //   caption: "Café Pangea. Foto: @pangea.caffe.",
-      //   fit: "contain",
-      // },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-pangea.jpg",
+        alt: "Mesa del Café Pangea con termos de café, tazas, flores amarillas y una bandera de la paz, el encuentro cultural de quienes organizan las conversaciones en español en Pontevedra",
+        caption: "La mesa del Café Pangea. Foto: Pangea Caffè.",
+        fit: "contain",
+      },
       {
         type: "p",
         parts: [
