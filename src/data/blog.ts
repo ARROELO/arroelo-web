@@ -87,6 +87,153 @@ export function blogCoverObjectPosition(post: {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "votar-29-noviembre-25n-arroelo",
+    title: "El 25N también se defiende en las urnas: votar el 29 de noviembre con sentido",
+    seoTitle: "Votar el 29 de noviembre: 25N y derechos en Arroelo",
+    date: "2026-11-26",
+    label: "Comunidad",
+    image: "/photos/blog/25n-espazo-libre-violencias.jpg",
+    alt: "Cartel «Espazo libre de violencias machistas» en el salón de Espacio Arroelo, durante el Café a la fresca del 25N en Pontevedra",
+    imageFit: "contain",
+    excerpt:
+      "El 25N tuvimos Café a la fresca con Marcelo DoBode en Arroelo. El domingo 29 de noviembre hay elecciones generales: votar con sentido es defender derechos.",
+    body: [
+      {
+        type: "p",
+        parts: [
+          "El miércoles 25 de noviembre, Día Internacional para la Eliminación de la Violencia contra las Mujeres, tuvimos Café a la fresca en Espacio Arroelo con Marcelo DoBode. Y este domingo, 29 de noviembre, hay elecciones generales. El 25N, el feminismo y la libertad de ser también se defienden en las urnas. Votar con sentido es no dar por sentados los derechos que tanto ha costado conseguir.",
+        ],
+      },
+      { type: "h2", text: "Café a la fresca con Marcelo DoBode en el Día contra la violencia machista" },
+      {
+        type: "p",
+        parts: [
+          "A las 11:30, en el salón de Arroelo, nos sentamos a tomar café con ",
+          { type: "link", href: "https://www.instagram.com/marcelodobode/", text: "Marcelo DoBode", external: true },
+          ". El encuentro era para hablar de tradición, de cuerpo y de voz, y de cómo la música une a gente que no se parece en nada. En el salón, bien visible, estaba el cartel que resume una de las cosas que este espacio quiere ser: «Espazo libre de violencias machistas».",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/25n-espazo-libre-violencias.jpg",
+        alt: "Cartel «Espazo libre de violencias machistas» colocado en el salón de Espacio Arroelo durante el Café a la fresca del Día contra la violencia machista en Pontevedra",
+        caption: "Espazo libre de violencias machistas.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Marcelo trajo la pandereta y una canción, «Nuestros derechos no se tocan», para recordarnos algo que a veces se nos olvida: los derechos conseguidos no se pueden dar por sentados. Hay que defenderlos cada día, también el domingo, cuando toca votar.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "Puedes ver el vídeo del café aquí: ",
+          { type: "link", href: "https://www.instagram.com/arroelo/reel/DgLA7ySNxi_/", text: "https://www.instagram.com/arroelo/reel/DgLA7ySNxi_/", external: true },
+          ".",
+        ],
+      },
+      {
+        type: "instagram",
+        permalink: "https://www.instagram.com/arroelo/reel/DgLA7ySNxi_/",
+        title: "Vídeo del Café a la fresca con Marcelo DoBode el 25N en Arroelo",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-marcelo-25n-salon.jpg",
+        alt: "Dos personas sentadas en el salón de Espacio Arroelo, con una taza de café y el cartel «Espazo libre de violencias machistas» al fondo, durante el Café a la fresca del 25N",
+        caption: "Café a la fresca del 25 de noviembre, en Arroelo.",
+        fit: "contain",
+      },
+      {
+        type: "p",
+        parts: [
+          "Este Café a la fresca no era solo una mañana de música tradicional gallega en Pontevedra. Caía en el 25N, y este mes en Arroelo lo hemos dedicado a escuchar. Hemos preparado actividades y hemos invitado a personas que nos ayudasen a entender mejor lo que está en juego antes de votar este domingo.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-marcelo-dobode-cartel.jpg",
+        alt: "Cartel del Café a la fresca con Marcelo DoBode en Espacio Arroelo, el miércoles 25 de noviembre a las 11:30, para hablar de tradición, de cuerpo y de voz",
+        caption: "Cartel del Café a la fresca con Marcelo DoBode.",
+        fit: "contain",
+      },
+      { type: "h2", text: "Quién es Marcelo DoBode y el coro queer SenD-Coro de Pontevedra" },
+      {
+        type: "p",
+        parts: [
+          "Marcelo DoBode es músico, actor y bailarín, de Pontevedra. Lleva más de 25 años enseñando canto y percusión. Mezcla la tradición gallega con el jazz, el funk o el flamenco, y ha llevado la pandereta y la voz a sitios tan inesperados como la prisión de A Lama. Su trabajo parte de la música de raíz y la acerca a sonidos de ahora, sin perder de vista de dónde viene.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "En Pontevedra dirige SenD-Coro, un coro queer que nació en el colectivo Avante LGBT. La idea venía del periodista y activista Marcos López, y el coro se puso en marcha de la mano de Eva Mejuto. A Marcelo lo llamaron para dirigirlo: alguien del colectivo, con un pie en la tradición y otro en lo festivo. El grupo empezó a ensayar a principios de 2025 y reunió a una veintena de personas del colectivo LGTBIQA+. Debutaron ese mismo año, en un homenaje a Marcos López dentro del Orgullo de Pontevedra. No es solo un sitio para cantar. Es un sitio para juntarse, pasarlo bien, ayudarse y tener un espacio propio, libre y visible, en la ciudad.",
+        ],
+      },
+      "Esa es, también, una forma de defender la libertad de ser: crear comunidad, dar voz y no dejar que la diversidad se quede en un eslogan.",
+      { type: "h2", text: "Un espacio libre de violencias machistas en Pontevedra" },
+      {
+        type: "p",
+        parts: [
+          "Arroelo es un espacio libre de violencia de género. Lo decimos con un cartel, sí, pero sobre todo lo queremos practicar: que quien entre aquí se sienta segura, escuchada y en casa. La diversidad, en este coworking, no es un lema en la pared. Es quien se sienta a la mesa. Lo hemos ido tejiendo durante años, también cuando abrimos esa mesa a conversaciones sobre feminismo e igualdad, como en la ",
+          { type: "link", href: "/blog/human-library-espacio-arroelo", text: "Human Library" },
+          " «Para chula, a miña parrula».",
+        ],
+      },
+      "El 25N nos recuerda una violencia que sigue ahí, y también nos recuerda que los derechos de las mujeres, de las personas LGTBIQA+ y de cualquiera que quiera vivir en libertad no están garantizados para siempre. Se cuidan. Se defienden. Y se votan.",
+      "Si alguna vez te sientes en riesgo, no estás sola. Puedes llamar a estos teléfonos:",
+      {
+        type: "p",
+        parts: [
+          "• ",
+          { type: "strong", text: "016:" },
+          " atención a víctimas de violencia de género en toda España. Es gratuito, funciona 24 horas y no deja rastro en la factura. También puedes escribir por WhatsApp al 600 000 016 o un correo a 016-online@igualdad.gob.es.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• ",
+          { type: "strong", text: "900 400 273:" },
+          " Teléfono da Muller de la Xunta de Galicia, gratuito y disponible 24 horas.",
+        ],
+      },
+      {
+        type: "p",
+        parts: [
+          "• ",
+          { type: "strong", text: "112:" },
+          " emergencias.",
+        ],
+      },
+      { type: "h2", text: "Votar el 29 de noviembre con sentido, para no perder derechos" },
+      "El domingo 29 de noviembre de 2026 se celebran elecciones generales: se vota el Congreso y el Senado. En Pontevedra, como en el resto del país, es un día para decidir. No venimos a decirte a quién votar. Venimos a pedirte que votes. Y que lo hagas con sentido.",
+      {
+        type: "p",
+        parts: [
+          "Queremos una sociedad que respete los derechos humanos, una comunidad que sea para todas las personas y en la que el odio y el miedo no sirvan como plataforma política. Creemos en la libertad de ser, en la diversidad, en el feminismo, en un espacio donde quepamos sin tener que pedir permiso. Ese es el mundo en el que creemos, y es el que tratamos de practicar cada día en Arroelo: en un ",
+          { type: "link", href: "/blog/cafe-a-la-fresca-comunidad-arroelo", text: "Café a la fresca" },
+          ", en una mesa compartida, en la forma de acogernos.",
+        ],
+      },
+      "Votar no es un gesto abstracto. Es una de las maneras que tenemos de cuidar eso. Los derechos que hoy damos por normales no llegaron solos: la igualdad, el derecho a una vida libre de violencias, la libertad de amar y de ser quien eres. Y pueden retroceder si dejamos que otros decidan por nosotras.",
+      "Por eso este mes lo hemos dedicado a escuchar, a invitar a personas como Marcelo, a poner en el centro lo que está en juego. El 25N no acaba el 25. Sigue el domingo, en el colegio electoral.",
+      {
+        type: "p",
+        parts: [
+          "Si aún no sabes dónde te toca votar, puedes consultarlo en la ",
+          { type: "link", href: "https://sede.ine.gob.es/tramite/consulta_mesas_locales/", text: "Sede Electrónica del INE", external: true },
+          ". Y si puedes, ve. Dedica ese rato. Un voto no lo cambia todo, pero quedarse en casa tampoco defiende nada.",
+        ],
+      },
+      { type: "h2", text: "Mucho más que mesas: la libertad de ser, también en las urnas" },
+      "En Arroelo decimos a menudo que esto es mucho más que mesas. Un coworking puede ser un sitio para trabajar, claro. También puede ser un sitio donde se escucha, donde se cuida a la comunidad y donde se defiende, con gestos pequeños y con gestos cívicos, el tipo de sociedad en la que queremos vivir.",
+      "El café con Marcelo DoBode fue eso: tradición y voz, la pandereta, la canción «Nuestros derechos no se tocan», un cartel contra las violencias machistas y una invitación a no desentendernos de lo que viene. El domingo 29 de noviembre hay que votar. Vota con sentido. Vota para no perder derechos.",
+    ],
+  },
+  {
     slug: "conversaciones-espanol-pontevedra",
     title: "¡No pasa nada!: así fue el primer meetup de conversaciones en español en Arroelo",
     seoTitle: "Conversaciones en español en Pontevedra: el primer meetup",
