@@ -92,8 +92,8 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Votar el 29 de noviembre: 25N y derechos en Arroelo",
     date: "2026-11-26",
     label: "Comunidad",
-    image: "/photos/blog/25n-espazo-libre-violencias.jpg",
-    alt: "Cartel «Espazo libre de violencias machistas» en el salón de Espacio Arroelo, durante el Café a la fresca del 25N en Pontevedra",
+    image: "/photos/blog/cafe-fresca-marcelo-25n-mesa.jpg",
+    alt: "Mesa llena en el Café a la fresca con Marcelo DoBode en Espacio Arroelo, el 25 de noviembre, Día contra la violencia machista en Pontevedra",
     imageFit: "contain",
     excerpt:
       "El 25N tuvimos Café a la fresca con Marcelo DoBode en Arroelo. El domingo 29 de noviembre hay elecciones generales: votar con sentido es defender derechos.",
@@ -115,8 +115,15 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
+        src: "/photos/blog/cafe-fresca-marcelo-25n-mesa.jpg",
+        alt: "Mesa llena en el Café a la fresca con Marcelo DoBode en Espacio Arroelo, el 25 de noviembre, Día contra la violencia machista en Pontevedra",
+        caption: "El Café a la fresca del 25 de noviembre, en el salón de Arroelo.",
+        fit: "contain",
+      },
+      {
+        type: "image",
         src: "/photos/blog/25n-espazo-libre-violencias.jpg",
-        alt: "Cartel «Espazo libre de violencias machistas» colocado en el salón de Espacio Arroelo durante el Café a la fresca del Día contra la violencia machista en Pontevedra",
+        alt: "Cartel «Espazo libre de violencias machistas» en el salón de Espacio Arroelo durante el Café a la fresca del Día contra la violencia machista en Pontevedra",
         caption: "Espazo libre de violencias machistas.",
         fit: "contain",
       },
@@ -125,6 +132,20 @@ export const blogPosts: BlogPost[] = [
         parts: [
           "Marcelo trajo la pandereta y una canción, «Nuestros derechos no se tocan», para recordarnos algo que a veces se nos olvida: los derechos conseguidos no se pueden dar por sentados. Hay que defenderlos cada día, también el domingo, cuando toca votar.",
         ],
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-marcelo-dobode-pandereta.jpg",
+        alt: "Marcelo DoBode, con sudadera azul, sentado a la mesa del Café a la fresca en Espacio Arroelo el 25N, con una pandereta sobre la mesa",
+        caption: "Marcelo DoBode, con la pandereta, en el Café a la fresca del 25 de noviembre.",
+        fit: "contain",
+      },
+      {
+        type: "image",
+        src: "/photos/blog/cafe-fresca-marcelo-dobode-conversa.jpg",
+        alt: "Marcelo DoBode, con sudadera azul, conversa en el Café a la fresca de Espacio Arroelo el 25N, junto a otras personas de la mesa",
+        caption: "Marcelo DoBode, en el Café a la fresca del 25 de noviembre, en Arroelo.",
+        fit: "contain",
       },
       {
         type: "p",
@@ -140,24 +161,10 @@ export const blogPosts: BlogPost[] = [
         title: "Vídeo del Café a la fresca con Marcelo DoBode el 25N en Arroelo",
       },
       {
-        type: "image",
-        src: "/photos/blog/cafe-fresca-marcelo-25n-salon.jpg",
-        alt: "Dos personas sentadas en el salón de Espacio Arroelo, con una taza de café y el cartel «Espazo libre de violencias machistas» al fondo, durante el Café a la fresca del 25N",
-        caption: "Café a la fresca del 25 de noviembre, en Arroelo.",
-        fit: "contain",
-      },
-      {
         type: "p",
         parts: [
           "Este Café a la fresca no era solo una mañana de música tradicional gallega en Pontevedra. Caía en el 25N, y este mes en Arroelo lo hemos dedicado a escuchar. Hemos preparado actividades y hemos invitado a personas que nos ayudasen a entender mejor lo que está en juego antes de votar este domingo.",
         ],
-      },
-      {
-        type: "image",
-        src: "/photos/blog/cafe-fresca-marcelo-dobode-cartel.jpg",
-        alt: "Cartel del Café a la fresca con Marcelo DoBode en Espacio Arroelo, el miércoles 25 de noviembre a las 11:30, para hablar de tradición, de cuerpo y de voz",
-        caption: "Cartel del Café a la fresca con Marcelo DoBode.",
-        fit: "contain",
       },
       { type: "h2", text: "Quién es Marcelo DoBode y el coro queer SenD-Coro de Pontevedra" },
       {
